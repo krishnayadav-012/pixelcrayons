@@ -1,0 +1,186 @@
+
+.case-studies-section {
+    .flex-6 {
+      flex-basis: 66%;
+      }
+      .flex-2 {
+        padding-right: 0;
+      }
+  
+      .flex-1 {
+        width: 100%;
+      }
+      .prev-next-btn{
+         button{
+        background: url('../images/hire/left-right-icon.svg') 0 0 no-repeat;
+      }
+    
+    .glider-prev {
+      height: 20px;
+      width: 40px;
+      background-position: 2px -13px;
+      &:hover{
+        height: 20px;
+        width: 40px;
+        background-position: -35px -13px;
+      }
+    } 
+    .glider-next {
+      height: 20px;
+      width: 40px;
+      background-position: 4px 8px;
+      &:hover{
+        background-position: -33px 8px;
+        height: 20px;
+        width: 40px;
+      }
+    }
+    } 
+    .profile-box {
+      position: relative;
+      transition: 0.5s all ease-in-out;
+      overflow: hidden;
+      margin-bottom: 16px;
+      margin-right: 10px;
+      margin-left: 10px;
+  
+      img {
+        width: 100%;
+        display: block;
+        transition: 0.5s all ease-in-out;
+      }
+      &:hover {
+        img{
+          transform: scale(1.1);
+        }
+        .card-details {
+          display: block;
+          width: 100%;
+          padding-left: 15px;
+          padding-right: 15px;
+          left:0;
+        }
+      }
+      .card-details {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        text-align: center;
+        background: rgba(13, 75, 155, 0.82);
+        z-index: 9;
+        align-items: center;
+        right: 0;
+        overflow: hidden;
+        transition:all .5s ease 0s;
+        width: 100%;
+        padding-top: 40px;
+  
+        h3 {
+          color: #fff;
+        }
+  
+        p {
+          color: #fff;
+          padding-top: 17px;
+        }
+      }
+    }
+  
+    .prev-next-btn {
+      width: 39px;
+      position: absolute;
+      bottom: -15px;
+      left: 47%;
+      z-index: 9;
+      img {
+        width: 100%;
+      }
+      .glider-prev {
+        &::after {
+          content: "";
+          position: absolute;
+          background: #ddd;
+          width: 2px;
+          height: 23px;
+          right: -1px;
+          top: 4px;
+        }
+      }
+    }
+    .case-study-btn {
+      margin: 93px 0 0;
+    }
+  }
+
+@media screen and (max-width: 1320px) {
+    .case-studies-section {
+      .profile-box {
+          .card-details {
+            p{
+              font-size: 14px;
+              line-height: 20px;
+            }
+          }
+      }
+    }
+  }
+  
+@media screen and (max-width: 1024px) {
+  .case-studies-section {
+    .flex-3 {
+      flex-basis: 33.33%;
+    }
+    .profile-box {
+      &:hover {
+        .card-details {
+          padding-top: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .case-studies-section {
+    .flex-6,
+    .flex-2,
+    .flex-3 {
+      flex-basis: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .case-studies-section {
+    .dis-flex {
+      overflow: hidden;
+    }
+    .profile-box {
+      margin-right: 0;
+      margin-left: 0;
+      img {
+        min-height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .all-industries-section {   
+      .industry-box {
+
+          img {
+              min-height: 250px;
+              width: 100%;
+              max-width: 100%;
+          }
+      }
+  }
+  .case-studies-section .profile-box img {
+      min-height: 250px;
+      width: 100%;
+      max-width: 100%;
+  }
+
+}

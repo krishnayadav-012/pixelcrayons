@@ -1,0 +1,353 @@
+.banner-form-section {
+  width: 42%;
+  border-radius: 5px;
+  height: 100%; }
+  .banner-form-section .form-content-box {
+    background: #ffffff; }
+  .banner-form-section .banner-form-outer {
+    padding: 20px 20px; }
+    .banner-form-section .banner-form-outer .form-inner.dis-flex {
+      margin-top: 22px; }
+  .banner-form-section .headingsec {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    padding: 20px 50px;
+    border: 1px solid #EBF3FF;
+    background: #ffffff; }
+    .banner-form-section .headingsec h2 {
+      color: #253053;
+      font-size: 20px;
+      line-height: 23px;
+      font-weight: 500; }
+    .banner-form-section .headingsec p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000;
+      margin-top: 5px; }
+    .banner-form-section .headingsec .open-free-trial::after {
+      content: "";
+      width: 14px;
+      height: 14px;
+      background: url(../images/hire/union-icon.png) 0 0 no-repeat;
+      border: 0;
+      border-radius: 0;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px;
+      cursor: pointer; }
+  .banner-form-section small {
+    display: none; }
+  .banner-form-section .verror.drop-box {
+    border-color: #FF0000; }
+  .banner-form-section .verror input {
+    border-color: #FF0000; }
+  .banner-form-section .verror small {
+    display: block;
+    margin-top: 5px;
+    color: #FF0000;
+    font-size: 12px; }
+  .banner-form-section input {
+    width: 100%;
+    font-size: 12px;
+    padding: 13px 13px 13px 13px;
+    line-height: 15px;
+    color: #666E86;
+    opacity: 0.6;
+    border: 1px solid #E4E9FD;
+    border-radius: 4px;
+    font-family: 'Noto Sans'; }
+  .banner-form-section .form-head-cont {
+    margin-top: 20px;
+    flex-basis: 50%;
+    padding: 0 10px; }
+    .banner-form-section .form-head-cont:nth-child(1), .banner-form-section .form-head-cont:nth-child(2) {
+      margin-top: 0; }
+    .banner-form-section .form-head-cont label {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+      display: block;
+      color: #666E86; }
+    .banner-form-section .form-head-cont.width-full {
+      flex-basis: 100%; }
+    .banner-form-section .form-head-cont .user-input {
+      width: 100%; }
+  .banner-form-section .width-full {
+    flex-basis: 100%; }
+    .banner-form-section .width-full .user-input {
+      border: 1px solid #E4E9FD;
+      border-radius: 5px;
+      padding: 12px 12px; }
+      .banner-form-section .width-full .user-input.verror {
+        border-color: #FF0000; }
+  .banner-form-section .form-btn {
+    flex-basis: 100%; }
+  .banner-form-section .drop-box textarea {
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 12px;
+    color: #666E86;
+    resize: none;
+    outline: 0;
+    width: 100%;
+    opacity: 0.6;
+    font-family: 'Noto Sans'; }
+  .banner-form-section .drop-box .browse-btn {
+    background: #fff;
+    border: 1px solid #F0F1F5;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 8px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 10px;
+    color: #666E86;
+    text-transform: uppercase;
+    font-family: 'Noto Sans';
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+  .banner-form-section .drop-box .browse-hide {
+    display: none; }
+  .banner-form-section .drop-box label {
+    cursor: pointer; }
+  .banner-form-section .cont_country_section {
+    position: relative; }
+  .banner-form-section .autocomplete-items {
+    display: none; }
+    .banner-form-section .autocomplete-items.has-data {
+      background: #fff;
+      display: block;
+      height: 140px;
+      overflow-y: auto;
+      position: absolute;
+      top: 70px;
+      left: 10px;
+      width: 100%;
+      max-width: 230px;
+      box-shadow: 0px 6px 9px rgba(1, 0, 12, 0.4);
+      border-radius: 5px;
+      z-index: 2; }
+      .banner-form-section .autocomplete-items.has-data div {
+        color: #444444;
+        background: #fff;
+        border-bottom: 1px solid #444444;
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 15px 20px; }
+        .banner-form-section .autocomplete-items.has-data div.autocomplete-active, .banner-form-section .autocomplete-items.has-data div:hover {
+          background-color: rgba(0, 0, 0, 0.05); }
+  .banner-form-section #file-type-error {
+    color: #FF0000;
+    font-size: 12px; }
+  .banner-form-section .gal-loader {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: none; }
+    .banner-form-section .gal-loader.active {
+      display: block;
+      background: rgba(0, 0, 0, 0.1);
+      margin-top: 30px; }
+      .banner-form-section .gal-loader.active .loader {
+        display: block; }
+    .banner-form-section .gal-loader.show-me {
+      display: block;
+      min-height: 100px; }
+    .banner-form-section .gal-loader .loader {
+      border: 5px solid #9F9F9F;
+      border-radius: 50%;
+      border-top: 5px solid #016BE3;
+      width: 50px;
+      height: 50px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      display: inline-block;
+      position: absolute;
+      top: 22px;
+      left: 50%;
+      display: none; }
+  .banner-form-section .gallery div {
+    display: inline-flex;
+    margin-right: 10px;
+    vertical-align: baseline;
+    align-items: flex-start;
+    position: relative;
+    transition: all 0.3s ease-in-out; }
+    .banner-form-section .gallery div button,
+    .banner-form-section .gallery div a {
+      text-decoration: none;
+      background: #FFB81D;
+      padding: 4px;
+      border-radius: 50%;
+      width: 17px;
+      height: 17px;
+      vertical-align: middle;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      position: absolute;
+      right: 4px;
+      cursor: pointer;
+      border: 0;
+      outline: 0; }
+    .banner-form-section .gallery div button:focus,
+    .banner-form-section .gallery div a:focus {
+      background: #f30909; }
+  .banner-form-section .gallery img {
+    width: auto;
+    height: 45px;
+    margin-right: 10px;
+    vertical-align: middle; }
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+  .banner-form-section .phone-flag-box .iti__flag-container {
+    border-radius: 3px;
+    height: 41px; }
+  .banner-form-section .phone-flag-box .flag-box {
+    flex-basis: 110px; }
+  .banner-form-section .phone-flag-box .inp-phone-flg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    border: 0;
+    outline: 0;
+    width: 100px;
+    background: none;
+    padding-left: 48px;
+    color: #737373; }
+  .banner-form-section .phone-flag-box .iti__arrow {
+    margin-left: 40px;
+    margin-top: 0; }
+  .banner-form-section .phone-flag-box .iti__selected-flag {
+    padding: 13px 20px; }
+  .banner-form-section .form-quiz-group {
+    display: flex;
+    align-items: center;
+    flex-basis: 66%;
+    margin-top: 10px; }
+    .banner-form-section .form-quiz-group .quizQ {
+      border: 1px dashed #C4C4C4;
+      border-radius: 4px;
+      padding: 13px 30px;
+      background: url("../images/quiz-bg.png") 5px center no-repeat;
+      height: 50px; }
+    .banner-form-section .form-quiz-group .equal {
+      margin: 0 15px; }
+    .banner-form-section .form-quiz-group span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #4A4C55; }
+    .banner-form-section .form-quiz-group .refreshbtn {
+      background: url("../images/refresh-icon.png") top center no-repeat;
+      background-size: 100%;
+      width: 24px;
+      height: 21px;
+      margin-left: 35px;
+      cursor: pointer;
+      transition: all .5s ease 0s;
+      display: inline-block;
+      vertical-align: bottom; }
+      .banner-form-section .form-quiz-group .refreshbtn:active {
+        transform: rotate(360deg); }
+    .banner-form-section .form-quiz-group .quizAns input {
+      border: 1px solid #C4C4C4;
+      border-radius: 4px;
+      height: 50px;
+      max-width: 67px;
+      text-align: center;
+      padding: 10px 20px; }
+    .banner-form-section .form-quiz-group .quizAns span {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FF0000; }
+  .banner-form-section .hire-banner-form-btn {
+    background: #016BE3;
+    border: 1px solid #016BE3;
+    padding: 18px 84px 18px 66px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    font-weight: normal;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    font-family: 'Noto Sans'; }
+    .banner-form-section .hire-banner-form-btn:hover {
+      background: transparent;
+      color: #016BE3; }
+
+@media screen and (max-width: 1320px) {
+  .banner-form-section .form-quiz-group .equal {
+    margin: 0 5px; }
+  .banner-form-section .verror.user-input small {
+    font-size: 10px; }
+  .banner-form-section .autocomplete-items.has-data {
+    max-width: 196px; } }
+@media screen and (max-width: 1200px) {
+  .banner-form-section {
+    margin-top: 30px;
+    max-width: 900px; }
+
+  .autocomplete-items.has-data {
+    max-width: 176px !important; } }
+@media screen and (max-width: 1024px) {
+  .banner-form-section {
+    width: 100%; }
+
+  .autocomplete-items.has-data {
+    max-width: 381px !important; } }
+@media screen and (max-width: 767px) {
+  .banner-form-section .form-quiz-group {
+    flex-basis: 100%; }
+    .banner-form-section .form-quiz-group .quizQ {
+      padding: 12px 10px; }
+    .banner-form-section .form-quiz-group .refreshbtn {
+      margin-left: 10px; }
+  .banner-form-section .banner-form-outer {
+    padding: 15px 15px; }
+  .banner-form-section .headingsec {
+    padding: 20px 15px; }
+  .banner-form-section input,
+  .banner-form-section .drop-box {
+    padding: 12px 15px; }
+  .banner-form-section .form-head-cont {
+    position: relative;
+    flex-basis: 100%;
+    padding: 0; }
+    .banner-form-section .form-head-cont:nth-child(2) {
+      margin-top: 20px; }
+  .banner-form-section .phone-flag-box .iti__selected-flag {
+    padding: 13px 15px; }
+  .banner-form-section .phone-flag-box .inp-phone-flg {
+    top: 20px; }
+  .banner-form-section .autocomplete-items.has-data {
+    max-width: 341px;
+    top: 69px;
+    left: 0; } }
+
+/*# sourceMappingURL=banner-form-v1.css.map */

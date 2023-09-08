@@ -1,0 +1,731 @@
+@import "_default-2.0";
+@import "menu-v2";
+@import "faq";
+@import "blog";
+@import "testimonial";
+@import "footer";
+@import "awards";
+@import "hiring-model";
+@import "cta-v3";
+@import "industries-c";
+@import "industries-unique";
+@import "banner-with-video";
+
+
+
+.banner-main {
+    background: url("../images/industry/industry-banner-img.webp") top center no-repeat;
+    background-size: cover;
+    color: $white;
+    min-height: 760px;
+    display: flex;
+    align-items: center;
+
+    .hero-section {
+        p {
+            color: $white;
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 29px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+    }
+
+    .industry-banner-btn.text-center {
+        margin-top: 70px;
+
+        .banner-top-btn {
+            border-radius: 5px;
+            background: transparent;
+            color: #fff;
+
+            &:hover {
+                color: #ffffff;
+                background-color: #016BE3;
+                border-color: #016BE3;
+            }
+        }
+
+        a {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+
+    .breadcrumbs {
+        top: -20px;
+    }
+}
+
+.for-client-logo-box {
+    background: url(../images/industry/ind-header-logo-img.svg) 0 0 no-repeat;
+    background-size: 100%;
+    width: 502px;
+    height: 59px;
+    margin: 0 auto 20px;
+}
+
+.client-logo-box-section {
+    margin-top: 0;
+    background: linear-gradient(2deg, rgba(231, 240, 255, 0.43) 0%, rgba(231, 240, 255, 0.26) 57.81%, rgba(250, 252, 255, 0.203125) 79.69%, rgba(255, 255, 255, 0) 100%);
+}
+
+.get-started {
+    .btn-container {
+        padding-top: 70px;
+    }
+}
+
+.why-choose-three-column-section {
+    .col-box-outer{
+        justify-content: center;
+    }
+    .threebox {
+        .flex-3 {
+            padding-right: 10px;
+            margin-top: 20px;
+            padding-left: 10px;
+
+            &.has-anchor {
+                transition: all 0.3s ease-in-out;
+                display: block;
+                // height: 100%;
+
+                &:hover {
+                    .box-3 {
+                        border: 1px solid #016BE3;
+                        box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .box-3 {
+            height: 100%;
+            min-height: 320px;
+            border: 1px solid rgba(212, 224, 237, 0.7);
+            border-radius: 5px;
+            padding: 50px 30px 35px;
+            transition: all 0.3s ease-in-out;
+
+            h3 {
+                a {
+                    color: #444;
+                }
+            }
+
+            h3,
+            p {
+                margin-top: 15px;
+            }
+            p{
+                opacity: 0.9;
+            }
+        }
+
+        .top-box {
+            align-items: center;
+            flex-wrap: inherit;
+
+            .right-heading {
+                margin-left: 20px;
+            }
+        }
+
+        .bottom-txt-box {
+            margin-top: 20px;
+        }
+    }
+
+    .three-column-bottom-image {
+        padding: 99px 333px 0px;
+    }
+
+    .healthcare-soft-devlop-sol-btn,
+    .our-healthcare-app-develop-service-btn {
+        margin-top: 70px;
+    }
+
+}
+
+.our-healthcare-software-service {
+    .heading {
+        p {
+            margin-bottom: 60px !important;
+        }
+    }
+
+    .threebox {
+        .flex-3 {
+            margin-bottom: 0;
+
+            .box-3 {
+                padding-bottom: 34px;
+
+                h3 {
+                    margin: 20px 0;
+                }
+
+                p {
+                    margin: 0 0 30px 0;
+                    opacity: 0.9;
+                }
+
+                ul {
+                    padding-left: 20px;
+
+                    li {
+                        font-size: 16px;
+                        line-height: 21px;
+                        margin-bottom: 15px;
+                        opacity: 0.9;
+                        position: relative;
+
+                        &::before {
+                            content: "";
+                            width: 9px;
+                            height: 9px;
+                            background: #016be3;
+                            position: absolute;
+                            left: -20px;
+                            border-radius: 50%;
+                            top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.industry-casestudy-sec {
+    .dis-flex {
+        justify-content: center;
+    }
+
+    .content {
+        .casetext {
+            width: 50%;
+            padding: 0 80px 0 0;
+
+            p {
+                margin-top: 15px;
+                opacity: 0.9;
+            }
+
+            .list_content {
+                margin-top: 20px;
+
+                ul {
+                    padding-left: 20px;
+
+                    li {
+                        margin-bottom: 15px;
+                        position: relative;
+                        font-size: 16px;
+                        line-height: 19px;
+                        opacity: 0.9;
+
+                        &::before {
+                            content: "";
+                            width: 9px;
+                            height: 9px;
+                            background: #016be3;
+                            position: absolute;
+                            left: -20px;
+                            border-radius: 50%;
+                            top: 4px;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+
+            .industry-case-btn {
+                margin-top: 70px;
+
+                a {
+                    margin-right: 20px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+
+        .caseimg {
+            width: 45%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+    }
+
+    .prev-next-btn {
+        img {
+            width: 100%;
+        }
+
+        button {
+            background: url('../images/hire/left-rightind.svg') 0 0 no-repeat;
+        }
+
+        .glider-prev {
+            background-position: 0px 6px !important;
+
+            &:hover {
+                background-position: -42px 6px !important;
+            }
+        }
+
+        .glider-prev,
+        .glider-next {
+            height: 40px;
+            width: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .glider-next {
+            background-position: 18px -52px !important;
+
+            &:hover {
+                background-position: -24px -52px !important;
+            }
+        }
+    }
+}
+
+.two-column-section {
+    .twobox {
+        .flex-2 {
+            padding-right: 10px;
+            margin-top: 20px;
+            padding-left: 10px;
+
+            &.has-anchor {
+                a {
+                    transition: all 0.3s ease-in-out;
+                    display: block;
+                    height: 100%;
+
+                    &:hover {
+                        .box-2 {
+                            border: 1px solid #016BE3;
+                            box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .box-2 {
+                height: 100%;
+                border: 1px solid rgba(212, 224, 237, 0.7);
+                border-radius: 5px;
+                padding: 60px 40px 43px;
+                transition: all 0.3s ease-in-out;
+
+                h3 {
+                    margin-top: 20px;
+                }
+                p{
+                    margin-top: 15px;
+                }
+
+                ul {
+                    margin-top: 20px;
+                    padding-left: 20px;
+
+                    li {
+                        margin-bottom: 13px;
+                        position: relative;
+                        font-size: 16px;
+                        line-height: 19px;
+                        opacity: 0.9;
+
+                        &::before {
+                            content: "";
+                            width: 9px;
+                            height: 9px;
+                            background: #016be3;
+                            position: absolute;
+                            left: -20px;
+                            border-radius: 50%;
+                            top: 5px;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.four-column-section {
+    .fourbox {
+        .flex-4 {
+            padding-right: 10px;
+            margin-top: 20px;
+            padding-left: 10px;
+
+            &.has-anchor {
+                a {
+                    transition: all 0.3s ease-in-out;
+                    display: block;
+                    height: 100%;
+
+                    &:hover {
+                        .box-4 {
+                            border: 1px solid #016BE3;
+                            box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .box-4 {
+                height: 100%;
+                border: 1px solid rgba(212, 224, 237, 0.7);
+                border-radius: 5px;
+                padding: 50px 30px 30px 20px;
+                transition: all 0.3s ease-in-out;
+
+                p {
+                    margin-top: 15px;
+                    opacity: 0.9;
+                }
+
+                h3 {
+                    margin-top: 22px;
+                }
+            }
+        }
+
+        picture {
+            height: 35px;
+            display: block;
+        }
+    }
+}
+
+//   media query
+
+
+@media only screen and (max-width: 1600px) {
+    .banner-main {
+        min-height:740px;
+        .hero-section{
+            h1{margin-bottom: 20px;}
+        }
+        .industry-banner-btn{
+            &.text-center{margin-top: 45px;}
+        }
+    }
+
+    .why-choose-three-column-section {
+        .threebox {
+            .box-3 {
+                padding: 40px 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .banner-main {min-height:700px;
+        .hero-section{
+            p{font-size: 16px; line-height: 26px;}
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner-main {
+        padding: 140px 0 50px;
+        min-height: auto;
+    }
+
+    .industry-casestudy-sec {
+        .industry-case-btn {
+            a {
+                padding: 13px 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .four-column-section {
+        .fourbox {
+            .flex-4 {
+                padding-left: 0;
+                padding-right: 0;
+
+                .box-4 {
+                    margin: 0 10px 0;
+                }
+            }
+        }
+    }
+
+    .two-column-section {
+        .twobox {
+            .flex-2 {
+                padding-left: 0;
+                padding-right: 0;
+
+                .box-2 {
+                    margin: 0 10px 0;
+                }
+            }
+        }
+    }
+
+    .industry-casestudy-sec {
+        .content {
+            .casetext {
+                padding: 0 37px 0 14px;
+
+                .industry-case-btn {
+                    margin-top: 48px;
+
+                    .green-btn {
+                        padding: 13px 23px;
+                    }
+
+                    a {
+                        margin-right: 9px;
+                    }
+                }
+
+                .list_content {
+                    margin-top: 17px;
+                }
+            }
+
+            .caseimg {
+                padding-right: 14px;
+            }
+        }
+
+
+        .prev-next-btn {
+            .glider-prev {
+                left: -16px;
+            }
+
+            .glider-next {
+                right: -16px;
+            }
+        }
+
+    }
+
+    .why-choose-three-column-section {
+        .three-column-bottom-image {
+            padding: 0px;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+    .flex-3,
+    .flex-4 {
+        flex-basis: 50%;
+    }
+
+    .why-choose-three-column-section {
+        .threebox {
+            .flex-3 {
+                padding-right: 0;
+                padding-left: 0;
+
+                .box-3 {
+                    padding: 40px 13px;
+                    margin: 0 10px 0;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner-main {
+        .hire-content {
+            .counter-container {
+                .hire-counter {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .for-client-logo-box {
+        width: 345px;
+        height: 51px;
+        margin: 0 auto 14px;
+    }
+
+    .banner-main {
+        background-image: none !important;
+        background: #04237f;
+        padding-top: 120px;
+        height: auto;
+
+        .breadcrumbs {
+            top: -10px;
+        }
+
+    }
+
+    .why-choose-three-column-section {
+        .threebox {
+            .box-3 {
+                min-height: auto;
+                height: auto;
+            }
+
+            .flex-3 {
+                padding-left: 0;
+                padding-right: 0;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                .box-3 {
+                    padding: 40px 20px;
+                    margin: 0;
+                }
+            }
+        }
+
+        .three-column-bottom-image {
+            display: none;
+        }
+
+        .healthcare-soft-devlop-sol-btn,
+        .our-healthcare-app-develop-service-btn {
+            margin-top: 51px;
+        }
+    }
+
+    .four-column-section {
+        .fourbox {
+            .flex-4 {
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                .box-4 {
+                    padding: 40px 20px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .two-column-section {
+        .twobox {
+            .flex-2 {
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                .box-2 {
+                    padding: 40px 20px;
+                    margin: 0;
+                }
+
+            }
+        }
+    }
+
+    .industry-casestudy-sec {
+        .glider {
+            overflow: hidden;
+        }
+
+        .content {
+            .caseimg {
+                width: 100%;
+                order: 1;
+                padding: 38px 10px 0 10px;
+            }
+
+            .casetext {
+                width: 100%;
+                order: 2;
+                padding: 27px 20px 17px 20px;
+
+                .industry-case-btn {
+                    .green-btn {
+                        padding: 11px 21px;
+                    }
+
+                    a {
+                        padding: 13px 20px;
+                    }
+                }
+            }
+        }
+
+        .prev-next-btn {
+            .glider-prev {
+                left: -11px;
+                top: 41%;
+                // background: #f5f5f5;
+                border-radius: 50%;
+                width: 36px;
+                height: 36px;
+            }
+
+            .glider-next {
+                right: -12px;
+                top: 41%;
+                // background: #f5f5f5;
+                border-radius: 50%;
+                width: 36px;
+                height: 36px;
+                background-position: 6px 3px;
+
+                &:hover {
+                    background-position: 6px 3px;
+                }
+            }
+
+            .glider-prev,
+            .glider-next {
+                img {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+}

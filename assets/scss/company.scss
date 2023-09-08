@@ -1,0 +1,1161 @@
+@import "_default";
+//@import "menu";//
+@import "menu-v2";
+@import "awards";
+@import "hiring-model";
+@import "footer";
+@import "cta";
+@import "footer";
+@import "cta-v3";
+@import "partnership-programme";
+@import "products";
+@import "how-we-works";
+@import "client-review";
+@import "faq";
+@import "404-v2";
+
+// .page-id-719 {
+//     .margin-t-80 {
+//         margin-top: 0;
+//     }
+//     .padding-b-120 {
+//         padding-bottom: 60px;
+//     }
+// }
+// .page-id-4200 {
+//     .margin-t-80 {
+//         margin-top: 0;
+//     }
+//     .padding-b-120 {
+//         padding-bottom: 100px;
+//     }
+// }
+
+.page-id-670 .glider-dots {
+    display: none;
+}
+
+.banner-main {
+    background: $lighter-blue;
+    color: $white;
+    .about-content {
+        width: 55%;
+
+        h1 {
+            margin-bottom: 20px;
+            padding-top: 48px;
+        }
+
+        p {
+            color: $white;
+            margin-bottom: 15px;
+            font-size: 18px;
+            line-height: 29px;
+        }
+
+        .counter-container {
+            .hire-counter {
+                margin: 35px 0;
+                text-align: left;
+
+                div {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: $darkYellow;
+                }
+
+                span {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    padding-right: 50px;
+                }
+            }
+        }
+    }
+
+    .header-right-image {
+        width: 45%;
+        padding-left: 91px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &.top-team-part {
+        background: url("../images/company/team-banner.webp") top center no-repeat;
+        background-size: cover;
+
+        .ourteam-content {
+            p {
+                margin: 20px auto 0;
+                color: $white;
+                width: 84%;
+                font-size: 18px;
+                line-height: 29px;
+            }
+
+        }
+    }
+
+    &.policy-section {
+        background: url("../images/company/team-banner.webp") top center no-repeat;
+        background-size: cover;
+
+        .privacy-header-content {
+            p {
+                margin: 20px auto 0;
+                color: $white;
+                // width: 84%;
+                font-size: 18px;
+                line-height: 29px;
+            }
+        }
+    }
+
+    &.legal-disclaimer-page-section {
+        background: url("../images/company/team-banner.webp") top center no-repeat;
+        background-size: cover;
+
+        .disclaimer-header-content {
+            p {
+                margin: 20px auto 0;
+                color: $white;
+                // width: 84%;
+                font-size: 18px;
+                line-height: 29px;
+            }
+
+        }
+    }
+
+    &.career-top-section {
+        background: url("../images/company/career-header-img.webp") top center no-repeat;
+        background-size: cover;
+
+        .career-content {
+            width: 55%;
+            margin: auto;
+            padding: 85px;
+            padding-left: 0;
+
+            p {
+                margin-top: 20px;
+                color: $white;
+                font-size: 18px;
+                line-height: 29px;
+            }
+
+        }
+
+        .career-header-right-image {
+            width: 45%;
+            padding-left: 62px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    &.products-main-section {
+        background: url("../images/company/team-banner.webp") top center no-repeat;
+        background-size: cover;
+
+        .products-header-content {
+            p {
+                margin: 20px auto 0;
+                color: $white;
+
+            }
+        }
+    }
+
+    &.how-we-works-top-section {
+        background: url("../images/company/career-header-img.webp") top center no-repeat;
+        background-size: cover;
+
+        .works-top-content {
+            p {
+                margin: 20px auto 0;
+                color: $white;
+                width: 84%;
+            }
+
+        }
+    }
+}
+
+.client-logo-box-section {
+    margin-top: 0;
+    background: linear-gradient(2deg, rgba(231, 240, 255, 0.43) 0%, rgba(231, 240, 255, 0.26) 57.81%, rgba(250, 252, 255, 0.203125) 79.69%, rgba(255, 255, 255, 0) 100%);
+}
+
+.mission-vision-section {
+    .left-side-img {
+        width: 39%;
+        // margin-right: 141px;
+        position: relative;
+
+        .ceoname {
+            position: absolute;
+            right: -66px;
+            top: 67%;
+            background: #fff;
+            background: #FFFFFF;
+            box-shadow: 0px 8px 24px rgba(188, 208, 224, 0.3);
+            border-radius: 7px;
+            text-align: center;
+            padding: 17px 30px 14px;
+
+            h6 {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 14px;
+                color: #B0B0BA;
+                text-align: left;
+                padding-left: 36px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 25px;
+                    height: 2px;
+                    background: #B0B0BA;
+                    left: 33px;
+                    bottom: 27px;
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .right-side-content {
+        width: 61%;
+        padding-left: 208px;
+        padding-top: 36px;
+
+        .content {
+            h3 {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 18px;
+                line-height: 29px;
+            }
+
+            &.vision-content {
+                margin-top: 45px;
+
+                &::before {
+                    content: url(../images/company/vision_img.png);
+                    position: relative;
+                    left: -60px;
+                    top: 36px;
+                }
+            }
+
+            &.mission-content {
+                &::before {
+                    content: url(../images/company/mission_img.png);
+                    position: relative;
+                    left: -60px;
+                    top: 36px;
+                }
+            }
+        }
+    }
+}
+
+.why-choose-three-column-section {
+    .threebox {
+        .flex-3 {
+            padding-right: 10px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+
+            &.has-anchor {
+                &:hover {
+                    .box-3 {
+                        border: 1px solid #016BE3;
+                        box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .box-3 {
+            height: 100%;
+            border: 1px solid rgba(212, 224, 237, 0.7);
+            border-radius: 5px;
+            padding: 40px 30px 55px;
+            transition: all 0.3s ease-in-out;
+
+            h3,
+            p {
+                margin-top: 20px;
+            }
+            p{
+                opacity: 0.9;
+            }
+
+            h3 {
+                a {
+                    color: #444;
+                }
+            }
+            ul {
+                li {
+                    position: relative;
+                    padding-left: 20px;
+                    margin-top: 10px;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    &::before {
+                        content: "";
+                        width: 9px;
+                        height: 9px;
+                        background: #016be3;
+                        position: absolute;
+                        left: 0px;
+                        border-radius: 50%;
+                        top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section-content {
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.three-column-img-text-section {
+    .threebox-img-text {
+        .flex-3 {
+            padding-right: 10px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+
+            &.has-anchor {
+                a {
+                    transition: all 0.3s ease-in-out;
+                    display: block;
+                    height: 100%;
+
+                    &:hover {
+                        .box-3 {
+                            border: 1px solid #016BE3;
+                            box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .box-3 {
+            height: 100%;
+            border: 1px solid rgba(212, 224, 237, 0.7);
+            border-radius: 5px;
+            padding: 40px 30px 55px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .top-box {
+            justify-content: space-between;
+
+            .left-heading {
+                flex-basis: 76%;
+                margin-right: 10px;
+                min-height: 106px;
+            }
+
+            .right-icon {
+                flex-basis: 18%;
+                text-align: right;
+            }
+        }
+
+        .bottom-txt-box {
+            margin-top: 5px;
+            p{
+                opacity: 0.9;
+            }
+        }
+
+    }
+}
+
+.industry-coverage-section {
+    .coverage-three-box {
+        .industry-box {
+            border: 1px solid #D4E0ED;
+            border-radius: 5px;
+            margin: 20px 10px 0px;
+            transition: all 0.3s ease-in-out;
+            display: block;
+
+            h3 {
+                transition: all 0.3s ease-in-out;
+            }
+
+            .img-box {
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+            .title-box {
+                padding: 24px 0 24px 20px;
+            }
+
+            &:hover {
+                border-color: #016BE3;
+
+                .img-box {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+
+                h3 {
+                    color: #016BE3;
+                }
+            }
+        }
+    }
+}
+
+.our-team-section {
+    .heading {
+        p {
+            margin-top: 15px;
+        }
+    }
+
+    .team-images {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.our-esteemed-clients-section {
+    .client-logo {
+        background: #FFFFFF;
+        border: 0.5px solid #F5F5F5;
+        box-shadow: 0px 4px 30px rgba(230, 240, 248, 0.25);
+        border-radius: 5px;
+        padding: 25px 79px;
+        height: 97px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+}
+
+.our-infrastructure-section {
+    .infra-box {
+        background: #FFFFFF;
+        border: 0.5px solid #E2E2E2;
+        box-shadow: 0px 4px 30px rgba(230, 240, 248, 0.25);
+        border-radius: 5px;
+        padding: 48px 30px;
+        height: 100%;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            border-color: #016BE3;
+        }
+
+        .infra-content {
+            margin-top: 20px;
+        }
+
+        picture {
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+// --------our team
+.our-team-member-section {
+    margin-top: -142px;
+
+    .member-profile {
+        background: #F6F7F9;
+        border-radius: 5px;
+        padding: 41px 69px 50px;
+        height: 100%;
+        text-align: center;
+        position: relative;
+
+        .hover-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #016BE3;
+            border-radius: 5px;
+            padding: 50px;
+            display: grid;
+            align-items: center;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                opacity: 0.9;
+                position: relative;
+                padding-top: 25px;
+
+                &:before {
+                    content: "";
+                    background: url('../images/quote-sm.png') top center no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 14px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    z-index: 1;
+                }
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #ECECEC;
+                opacity: 0.9;
+                display: block;
+                margin-top: 5px;
+
+                &.title {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                }
+            }
+        }
+
+        &:hover {
+            .hover-content {
+                opacity: 1;
+            }
+        }
+
+        h3 {
+            padding-top: 20px;
+        }
+
+        p {
+            padding-top: 5px;
+        }
+    }
+
+    .box-3 {
+        padding-right: 30px;
+        margin-bottom: 30px;
+
+        &:nth-child(3n) {
+            padding-right: 0px;
+        }
+
+        // &:hover {
+        //     .member-profile {
+        //         border: 1px solid #016BE3;
+        //         box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
+        //         border-radius: 19px;
+        //     }
+        // }
+    }
+}
+
+.image-slider {
+    .slide-item img {
+        width: 100%;
+    }
+}
+
+// -----Privacy Policy-----------
+
+.priv-poly-content-section {
+    .policy-content {
+        width: 74%;
+        margin: auto;
+
+        p {
+            margin-top: 20px;
+
+            a {
+                color: #016BE3;
+            }
+
+        }
+
+    }
+}
+
+// ---------legal-disclaimer-------
+
+.legal-disclaimer-content-section {
+    p {
+        margin-top: 20px;
+    }
+}
+
+// ----------404 page
+
+// .error-img-section {
+//     .content-box {
+//         padding-right: 220px;
+
+//         h1 {
+//             font-size: 48px;
+//             line-height: 60px;
+//             color: #000000;
+//         }
+
+//         h3 {
+//             margin-top: 8px;
+//             color: #000000;
+//             line-height: 33px;
+//         }
+
+//         h4 {
+//             margin-top: 32px;
+//             color: #000000;
+//             font-size: 18px;
+//             line-height: 25px;
+//             font-weight: 400;
+//         }
+//     }
+
+//     .img-box {
+//         justify-content: right;
+//         display: flex;
+//     }
+
+//     .para-text-content {
+//         margin-top: 20px;
+
+//         p {
+//             margin-top: 0;
+//             margin-bottom: 10px;
+//         }
+
+//         a {
+//             color: #016BE3;
+//             text-decoration: underline;
+//             font-weight: 600;
+//         }
+//     }
+// }
+
+// -------thank you Page
+.thank-you-img-section{
+    .content-box{
+        padding-right: 0;
+        flex-basis: 100%;
+        text-align: center;
+        h1{
+            font-size: 48px;
+            line-height: 60px;
+            color: #253053;       
+        }
+    }
+
+    .para-text-content{
+        margin-top: 20px;
+        p{
+            margin-top: 0;
+            margin-bottom: 10px;        
+        }
+        a{
+            color: #016BE3;
+            text-decoration: underline;
+            font-weight: 600;
+        
+        }
+    }
+    .img-box{
+        justify-content: right;
+        display: flex;    
+    }
+}
+
+
+// --------open-position---
+
+.open-position-section {
+    iframe {
+        height: 2420px;
+        width: 100%;
+        border: none;
+    }
+}
+
+
+
+// -------Media Query
+
+@media only screen and (max-width: 1600px) {
+
+    .our-infrastructure-section {
+        .infra-box {
+            padding: 42px;
+        }
+    }
+
+    // --------our team
+    .our-team-member-section {
+        .member-profile {
+            padding: 40px 40px 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .mission-vision-section {
+        .left-side-img {
+            .ceoname {
+                padding: 11px 21px;
+                right: -60px;
+                top: 65%;
+
+                p {
+                    padding-left: 29px;
+
+                    &::before {
+                        left: 21px;
+                        bottom: 23px;
+                    }
+                }
+            }
+        }
+
+        .right-side-content {
+            padding-top: 30px;
+            padding-left: 195px;
+
+            .content {
+                &.vision-content {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .why-choose-three-column-section {
+        .threebox {
+            .box-3 {
+
+                p,
+                h3 {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    .three-column-img-text-section {
+        .threebox-img-text {
+            .box-3 {
+                padding: 38px 30px;
+            }
+
+            .left-heading {
+                h3 {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+
+    .open-position-section {
+        iframe {
+            height: 3560px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner-main {
+        &.career-top-section {
+            .career-header-right-image {
+                padding-left: 27px;
+            }
+
+            .career-content {
+                padding: 49px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner-main {
+        .about-content {
+            h1 {
+                padding-top: 0px;
+            }
+        }
+    }
+
+    .mission-vision-section {
+        .left-side-img {
+            .ceoname {
+                right: -69px;
+                top: 54%;
+            }
+        }
+
+        .right-side-content {
+            padding-top: 0px;
+        }
+    }
+
+    .three-column-img-text-section {
+        .threebox-img-text {
+            .left-heading {
+                h3 {
+                    font-size: 19px;
+                }
+            }
+
+            .right-icon {
+                img {
+                    height: 70px;
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    // --------our team section
+    .our-team-member-section {
+        margin-top: -96px;
+
+        .member-profile {
+            padding: 25px 15px 23px;
+
+            h3 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .flex-3 {
+            flex-basis: 33.33%;
+        }
+
+        .box-3 {
+            padding-right: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    // .error-img-section {
+    //     .content-box {
+    //         padding-right: 36px;
+    //     }
+    // }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .banner-main {
+        .about-content {
+            width: 100%;
+        }
+
+        .about-content {
+            .counter-container {
+                .hire-counter {
+                    flex-basis: 25%;
+                }
+            }
+        }
+
+        .header-right-image {
+            width: 100%;
+        }
+    }
+
+    .mission-vision-section {
+        .left-side-img {
+            width: 95%;
+
+            .ceoname {
+                padding: 19px 44px;
+                right: -39px;
+                top: 69%;
+
+                p {
+                    padding-left: 39px;
+
+                    &::before {
+                        left: 45px;
+                        bottom: 29px;
+                    }
+                }
+            }
+        }
+
+        .right-side-content {
+            width: 100%;
+            padding-left: 65px;
+            padding-top: 7px;
+
+            .content {
+                &.vision-content {
+                    margin-top: 7px;
+                }
+            }
+        }
+    }
+
+    .our-esteemed-clients-section {
+        .flex-5 {
+            flex-basis: 33%;
+        }
+    }
+
+    .three-column-img-text-section {
+        .threebox-img-text {
+            .left-heading {
+                h3 {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+
+    .banner-main {
+        &.career-top-section {
+            .career-content {
+                width: 100%;
+                padding: 0;
+                text-align: center;
+            }
+
+            .career-header-right-image {
+                width: 100%;
+                padding-left: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-main {
+        padding-top: 100px;
+
+        .about-content {
+            width: 100%;
+
+            h1 {
+                margin-bottom: 14px;
+                padding-top: 0px;
+            }
+        }
+
+        .about-content {
+            .counter-container {
+                .hire-counter {
+                    margin: 15px 0;
+                    flex-basis: 50%;
+                }
+            }
+        }
+
+        .header-right-image {
+            padding-left: 0;
+            width: 100%;
+        }
+
+        &.top-team-part {
+            .ourteam-content {
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .mission-vision-section {
+        .left-side-img {
+            width: 100%;
+
+            .ceoname {
+                padding: 11px;
+                right: -16px;
+                top: 62%;
+
+                p {
+                    font-size: 12px;
+                    padding-left: 39px;
+
+                    &::before {
+                        left: 21px;
+                        bottom: 23px;
+                    }
+                }
+
+                h6 {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .why-choose-three-column-section {
+        .threebox {
+            .box-3 {
+                min-height: auto;
+                height: auto;
+            }
+
+            .flex-3 {
+                padding-right: 0px;
+                padding-left: 0px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .box-3 {
+                padding: 40px 30px;
+                height: auto;
+            }
+        }
+    }
+
+    .three-column-img-text-section {
+        .threebox-img-text {
+            .flex-3 {
+                padding-right: 0px;
+                padding-left: 0px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .top-box {
+                .left-heading {
+                    height: auto;
+                    min-height: 0px;
+
+                    br {
+                        display: none;
+                    }
+                }
+
+                .right-icon {
+                    flex-basis: 20%;
+                    text-align: right;
+
+                    img {
+                        height: 56px;
+                        width: auto;
+                    }
+                }
+            }
+
+            .bottom-txt-box {
+                margin-top: 16px;
+            }
+        }
+    }
+
+    .our-esteemed-clients-section {
+        .flex-5 {
+            flex-basis: 50%;
+        }
+
+        .client-logo {
+            padding: 25px 38px;
+        }
+    }
+
+    .industry-coverage-section {
+        .coverage-three-box {
+            .industry-box {
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    .our-infrastructure-section {
+        .infra-box {
+            padding: 31px 76px;
+        }
+    }
+
+    // -------------out team section
+    .our-team-member-section {
+        margin-top: -63px;
+
+        .flex-3 {
+            flex-basis: 100%;
+        }
+
+        .box-3 {
+            padding-right: 0px;
+        }
+    }
+
+    // .error-img-section {
+    //     padding-top: 100px;
+
+    //     .img-box {
+    //         margin-top: 40px;
+    //     }
+    // }
+}
