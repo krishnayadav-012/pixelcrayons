@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 30 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\scss-version-2.0\banner-with-video.scss
+        on line 30 of C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-video.scss
 
 25:     font-weight: 400;
 26:     margin: 0 0 15px;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$white".
 35:   .banner-content {
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\scss-version-2.0\banner-with-video.scss:30
+C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-video.scss:30
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 30 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\scss-version-2.0\banner-with-video.scss\A \A 25:     font-weight: 400;\A 26:     margin: 0 0 15px;\A 27:     a {\A 28:       color: rgba(255, 255, 255, 0.5);\A 29:       &:hover {\A 30:         color: $white;\A 31:       }\A 32:     }\A 33:   }\A 34: \A 35:   .banner-content {"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 30 of C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-video.scss\A \A 25:     font-weight: 400;\A 26:     margin: 0 0 15px;\A 27:     a {\A 28:       color: rgba(255, 255, 255, 0.5);\A 29:       &:hover {\A 30:         color: $white;\A 31:       }\A 32:     }\A 33:   }\A 34: \A 35:   .banner-content {"; }

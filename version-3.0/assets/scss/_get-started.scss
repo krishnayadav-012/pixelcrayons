@@ -1,0 +1,9 @@
+.gets-started{background:$royel-bg;
+
+.left-sec{flex-basis: 60%;
+  h2{color:$white;
+  &:after{right:auto; background:$white;}
+  }
+  p{color:$white; width:100%; opacity: 0.8;}
+}
+}

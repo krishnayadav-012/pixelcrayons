@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 52 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\scss-version-2.0\service-p.scss
+        on line 52 of C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\service-p.scss
 
 47: 
 48: 
@@ -15,7 +15,7 @@ Error: Undefined variable: "$white".
 57:         }
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\scss-version-2.0\service-p.scss:52
+C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\service-p.scss:52
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 52 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\scss-version-2.0\service-p.scss\A \A 47: \A 48: \A 49: .list-column-box-section {\A 50:     background-color: #05247e;\A 51:     h2,h3,p {\A 52:         color: $white;\A 53:     }\A 54:     h2 {\A 55:         &:after {\A 56:             background: $white;\A 57:         }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 52 of C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\service-p.scss\A \A 47: \A 48: \A 49: .list-column-box-section {\A 50:     background-color: #05247e;\A 51:     h2,h3,p {\A 52:         color: $white;\A 53:     }\A 54:     h2 {\A 55:         &:after {\A 56:             background: $white;\A 57:         }"; }
