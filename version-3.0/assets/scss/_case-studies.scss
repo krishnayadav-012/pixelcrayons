@@ -187,11 +187,7 @@ p{color: #9B9B9B;}
 
 @media only screen and (max-width: 1440px) {
   .full-width-two-column {
-    p {
-      margin: 10px 0;
-    }
-
-    .content-box {
+     .content-box {
       padding: 30px 20px;
     }
   }
@@ -252,6 +248,8 @@ p{color: #9B9B9B;}
 
 @media only screen and (max-width: 767px) {
   .full-width-two-column {
+    .col-left{flex-basis: 100%;}
+    .col-right{flex-basis:100%;}
     p {
       font-size: 14px;
     }
@@ -267,8 +265,6 @@ p{color: #9B9B9B;}
       background: none !important;
     }
 
-    .content-box {
-      border-top: 1px solid #3a3c56;
-    }
+    
   }
 }

@@ -51,12 +51,12 @@
       <div class="header-item-left">
         <a href="<?php echo $site_url; ?>" class="brand">
           <div class="large">
-            <img loading="lazy" src="assets/images/logo-v2-white.svg" alt="Pixelcrayons" class="white-theme-logo" width="212" height="64">
-            <img loading="lazy" src="assets/images/logo-v2.svg" alt="Pixelcrayons" class="dark-theme-logo" width="212" height="64">
+            <img loading="lazy" src="menu-images/logo-v2-white.svg" alt="Pixelcrayons" class="white-theme-logo" width="192" height="69">
+            <img loading="lazy" src="menu-images/logo-v2.svg" alt="Pixelcrayons" class="dark-theme-logo" width="192" height="69">
           </div>
           <div class="small">
-            <img loading="lazy" src="assets/images/logo-small.svg" alt="Pixelcrayons" 
-              class="dark-theme-logo sm" width="53" height="42">
+            <img loading="lazy" src="menu-images/logo-small.svg" alt="Pixelcrayons" 
+              class="dark-theme-logo sm" width="34" height="44">
           </div>
         </a>
         <?php 

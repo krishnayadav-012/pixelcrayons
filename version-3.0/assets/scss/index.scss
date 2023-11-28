@@ -13,10 +13,7 @@
 @import "_case-studies";
 @import "_get-started";
 @import "cta-v3";
-
 @import "footer";
-
-
 
 .hero-section {
   //background: url("../images/home/home-banner-img.webp") top center no-repeat;
@@ -28,7 +25,8 @@
   display: flex;
   display: -webkit-flex;
 
-  #background-video{ width: 100%;
+  #background-video {
+    width: 100%;
     height: 85vh;
     object-fit: cover;
     position: absolute;
@@ -36,64 +34,76 @@
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1;}
+    z-index: -1;
+  }
 
   h1 {
     color: $white;
-    margin:0 0 30px;
+    margin: 0 0 30px;
   }
-  p{font-size:20px; color:$white; margin:150px 0 0;
-  a{font-size: 22px; color:$white; font-weight: 500; text-decoration: underline;
-  &:hover{color:$royelblue;}
-  }
+  p {
+    font-size: 20px;
+    color: $white;
+    margin: 150px 0 0;
+    a {
+      font-size: 22px;
+      color: $white;
+      font-weight: 500;
+      text-decoration: underline;
+      &:hover {
+        color: $royelblue;
+      }
+    }
   }
 
-  .large-text{font-size:25px;
+  .large-text {
+    font-size: 25px;
     overflow: hidden;
-    color:$white; margin:0;
-    .anm-text{    width: 146px;
-      display: inline-block;border-radius: 10px;
-      border: 1.5px solid rgba(255, 255, 255, 0.20);
-      padding:16px 10px;
+    color: $white;
+    margin: 0;
+    .anm-text {
+      width: 146px;
+      display: inline-block;
+      border-radius: 10px;
+      border: 1.5px solid rgba(255, 255, 255, 0.2);
+      padding: 16px 10px;
       background: rgba(255, 255, 255, 0.05);
       span.typed-text {
-        color: #FEE600;
+        color: #fee600;
       }
 
       span.cursor {
         display: inline-block;
         background-color: $white;
-        margin-left:5px;
+        margin-left: 5px;
         width: 3px;
         animation: blink 1s infinite;
       }
     }
-  
   }
-
- 
 
   @keyframes blink {
-    0%  { background-color: #ccc; }
-    49% { background-color: #ccc; }
-    50% { background-color: transparent; }
-    99% { background-color: transparent; }
-    100%  { background-color: #ccc; }
+    0% {
+      background-color: #ccc;
+    }
+    49% {
+      background-color: #ccc;
+    }
+    50% {
+      background-color: transparent;
+    }
+    99% {
+      background-color: transparent;
+    }
+    100% {
+      background-color: #ccc;
+    }
   }
-
-
-  
 }
-
-
-.casesd .dis-flex .flex-2:nth-child(3) .dis-flex{flex-direction: row-reverse;}
-.casesd .dis-flex .flex-2:nth-child(4) .dis-flex {
-  flex-direction: row-reverse;
-}
-
 
 .how-process {
-  .col-left {flex-basis: 50%;
+  .col-left {
+    flex-basis: 50%;
     .process-step {
       position: relative;
       margin: 50px 0 0;
@@ -101,8 +111,8 @@
         margin: 0 0 40px;
         position: relative;
         .step-icon {
-          flex-basis:65px;
-  
+          flex-basis: 65px;
+
           img {
             margin: 0;
           }
@@ -114,14 +124,12 @@
             text-transform: uppercase;
             font-weight: 500;
             color: $arsenic-dark;
-           opacity:0.3;
+            opacity: 0.3;
             display: block;
             margin: 0 0 5px;
           }
           h4 {
             margin: 0 0 15px;
-     
-           
           }
           ul {
             li {
@@ -143,8 +151,6 @@
             }
           }
         }
-  
-        
       }
       &:before {
         content: "";
@@ -157,11 +163,20 @@
         height: 105%;
       }
     }
-    .btn-section{padding-left:65px; position: relative;
-      .blue-btn{background:$royelblue; border-color:$royelblue;
-      &:hover{color: $royelblue; border-color:$royelblue; background:$white;}
+    .btn-section {
+      padding-left: 65px;
+      position: relative;
+      .blue-btn {
+        background: $royelblue;
+        border-color: $royelblue;
+        &:hover {
+          color: $royelblue;
+          border-color: $royelblue;
+          background: $white;
+        }
       }
-      &:before{content: '';
+      &:before {
+        content: "";
         background: url(../images/dashed-border.png) repeat;
         width: 45px;
         height: 1px;
@@ -169,83 +184,124 @@
         left: 20px;
         top: 27px;
         background-size: 100%;
-       }
+      }
     }
   }
 
-  .col-right {flex-basis: 40%;}
-  
+  .col-right {
+    flex-basis: 40%;
+  }
 }
 
-
 @media only screen and (max-width: 1600px) {
- 
-
-  .hero-section{
-    .outer-logo-part {
-      //margin-top: 70px;
-  }
-  }
 }
 
 @media only screen and (max-width: 1440px) {
-  
-
-
 }
 
-@media only screen and (max-width: 1200px){
-  .hero-section {height:500px;
-    //background-image: none !important;
-    //#background-video{height: auto;}
+@media only screen and (max-width: 1366px) {
+  .hero-section {
+    p {
+      font-size: 18px;
+      margin: 100px 0 0;
+      a {
+        font-size: 20px;
+      }
+    }
+
+    .large-text {
+      font-size: 20px;
+      .anm-text {
+        width: 146px;
+      }
+    }
   }
- 
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-section {
+    height: 600px;
+    #background-video {
+      height: 100%;
+    }
+    p {
+      margin: 70px 0 0;
+    }
+  }
 }
 
 @media only screen and (max-width: 1120px) {
-  
 }
 
 @media only screen and (max-width: 1024px) {
-  
- 
-
 }
 
 @media only screen and (max-width: 991px) {
-  .hero-section {margin-top:50px; height: auto;
+  .hero-section {
+    padding: 120px 0 50px;
+    height: auto;
     background-image: none !important;
-    background-color: #04237f;
-    #background-video{display:none;}
-    h1 br{display:none;}
-  }
-  
- 
+    text-align: center;
+    background-color: $royel-bg;
+    #background-video {
+      display: none;
+    }
 
+    h1 {
+      br {
+        display: none;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      margin: 50px 0 0;
+      a {
+        font-size: 18px;
+      }
+    }
+    .large-text {
+      font-size: 20px;
+      .anm-text {
+        width: 130px;
+        padding: 12px 10px;
+      }
+    }
+  }
+
+  .how-process {
+    .col-left {
+      flex-basis: 100%;
+      .process-step {
+        margin: 30px 0 0;
+        .step-sec {
+          margin: 0 0 20px;
+        }
+        &:before {
+          height: 101%;
+        }
+      }
+    }
+
+    .col-right {
+      display: none;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .hero-section {
-
-    h1 {
-      font-size: 22px;
-      line-height: 32px;
+    p {
+      margin: 40px 0 0;
     }
-    .outer-logo-part{
-      margin-top: 20px;
+    .large-text {
+      font-size: 18px;
+    }
+
+    .large-text {
+      .anm-text {
+        width: 120px;
+      }
     }
   }
-
-  .home-top-section {
-    text-align: center;
-    
-    .heading {
-      text-align: center;
-      margin-top: 15px;
-    }
-  
-  }
-
- 
-
 }

@@ -697,42 +697,27 @@ input:-webkit-autofill:active {
     max-width: 1260px;
   }
 
-  h1 {
-    
-  }
-
-  h2 {
-   
-  }
-
-  h3 {
- 
-  }
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1366px) {
   .container {
     max-width: 1120px;
   }
-
+  h1 {
+    font-size:70px;
+  }
   h2 {
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 55px;
   }
 
-  p {
-    font-size: 14px;
-    line-height: 26px;
-  }
-
-  .heading {
-    p {
-      font-size: 16px;
-      line-height: 26px;
-    }
-  }
 }
 
 @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size:60px;
+  }
+
   .padding-t-120 {
     padding-top: 60px;
   }
@@ -786,12 +771,22 @@ input:-webkit-autofill:active {
 
 @media screen and (max-width: 767px) {
   .padding-t-120 {
-    padding-top: 40px;
+    padding-top: 50px;
   }
 
   .padding-b-120 {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
+
+  .padding-t-60{
+padding-top:40px;
+  }
+
+  .padding-b-120{
+    padding-bottom:40px;
+  }
+
+  .margin-t-50{margin-top:30px;}
 
   .container {
     max-width: 100%;
@@ -804,23 +799,24 @@ input:-webkit-autofill:active {
   }
 
   h1 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size:50px;
+    line-height: 1.2;
   }
 
   h2 {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height:50px;
   }
+
+  h3{font-size: 18px; line-height: 1.2;}
 
   h4 {
     font-size: 18px;
-    line-height: 22px;
   }
 
   p {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .margin-t-100 {
@@ -836,12 +832,18 @@ input:-webkit-autofill:active {
       br {
         display: none;
       }
+      &:after{bottom:-15px;}
     }
 
     p {
       width: 100%;
-      font-size: 18px;
-      // margin-bottom: 40px !important;
+      font-size: 16px;
+     line-height: 27px;
+    }
+
+    ul{
+      li{font-size: 16px;
+        line-height: 27px;}
     }
   }
 
@@ -851,8 +853,8 @@ input:-webkit-autofill:active {
   }
 
   .white-btn {
-    padding: 10px 30px;
-    font-size: 20px;
+    padding: 10px 20px;
+    
   }
 
   .glider {

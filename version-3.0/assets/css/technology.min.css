@@ -473,21 +473,20 @@ input:-webkit-autofill:active {
 @media only screen and (max-width: 1440px) {
   .container {
     max-width: 1260px; } }
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1366px) {
   .container {
     max-width: 1120px; }
 
+  h1 {
+    font-size: 70px; }
+
   h2 {
-    font-size: 30px; }
-
-  p {
-    font-size: 14px;
-    line-height: 26px; }
-
-  .heading p {
-    font-size: 16px;
-    line-height: 26px; } }
+    font-size: 40px;
+    line-height: 55px; } }
 @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 60px; }
+
   .padding-t-120 {
     padding-top: 60px; }
 
@@ -521,10 +520,19 @@ input:-webkit-autofill:active {
     margin-top: 30px; } }
 @media screen and (max-width: 767px) {
   .padding-t-120 {
+    padding-top: 50px; }
+
+  .padding-b-120 {
+    padding-bottom: 50px; }
+
+  .padding-t-60 {
     padding-top: 40px; }
 
   .padding-b-120 {
     padding-bottom: 40px; }
+
+  .margin-t-50 {
+    margin-top: 30px; }
 
   .container {
     max-width: 100%; }
@@ -535,20 +543,23 @@ input:-webkit-autofill:active {
     flex-basis: 100%; }
 
   h1 {
-    font-size: 28px;
-    line-height: 38px; }
+    font-size: 50px;
+    line-height: 1.2; }
 
   h2 {
-    font-size: 25px;
-    line-height: 35px; }
+    font-size: 35px;
+    line-height: 50px; }
+
+  h3 {
+    font-size: 18px;
+    line-height: 1.2; }
 
   h4 {
-    font-size: 18px;
-    line-height: 22px; }
+    font-size: 18px; }
 
   p {
-    font-size: 16px;
-    line-height: 22px; }
+    font-size: 14px;
+    line-height: 24px; }
 
   .margin-t-100 {
     margin-top: 40px; }
@@ -558,17 +569,22 @@ input:-webkit-autofill:active {
 
   .heading h2 br {
     display: none; }
+  .heading h2:after {
+    bottom: -15px; }
   .heading p {
     width: 100%;
-    font-size: 18px; }
+    font-size: 16px;
+    line-height: 27px; }
+  .heading ul li {
+    font-size: 16px;
+    line-height: 27px; }
 
   .cmn-btn {
     font-size: 16px;
     line-height: 28px; }
 
   .white-btn {
-    padding: 10px 30px;
-    font-size: 20px; }
+    padding: 10px 20px; }
 
   .glider {
     overflow: hidden; }
@@ -694,6 +710,8 @@ input:-webkit-autofill:active {
     position: absolute;
     top: 10px;
     transition: all 0.7s ease-in-out; }
+    .header-two .small img {
+      margin: 0 auto; }
   .header-two.sc-up .large {
     opacity: 1; }
   .header-two.sc-down .small {
@@ -4329,7 +4347,7 @@ input:-webkit-autofill:active {
       font-size: 12px;
       line-height: 20px; }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1366px) {
   .footer .flex-2:last-child {
     padding-left: 80px; } }
 @media screen and (max-width: 1200px) {
