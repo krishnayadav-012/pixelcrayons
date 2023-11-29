@@ -3,6 +3,7 @@
 
   .left-sec {
     flex-basis: 45%;
+    padding:60px 0;
     h2 {
       color: $white;
       &:after {
@@ -14,21 +15,115 @@
       color: $white;
       width: 100%;
       opacity: 0.8;
+      a {
+        text-decoration: underline;
+        color: $white;
+        &:hover {
+          text-decoration: none;
+          opacity: 1;
+        }
+      }
     }
   }
   .right-sec {
     flex-basis: 50%;
+    position: relative;
     img {
       display: block;
       margin-bottom: -2px;
+    }
+  }
+  .button-section {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    flex-wrap: wrap;
+
+    .nccr {
+      font-size: 13px;
+      display: block;
+      margin: 20px 0 0;
+      text-align: center;
+    }
+    .devide {
+      padding: 0 10px;
+      display: inline-block;
+      position: relative;
+      color: $white;
+      opacity: 0.3;
+      font-size: 12px;
+      &:before {
+        content: "";
+        clear: both;
+        display: block;
+        width: 1px;
+        height: 16px;
+        position: absolute;
+        background: $white;
+        top: -20px;
+        left: 19px;
+        opacity: 0.3;
+      }
+
+      &:after {
+        content: "";
+        content: "";
+        clear: both;
+        display: block;
+        width: 1px;
+        height: 16px;
+        background: $white;
+        position: absolute;
+        bottom: -20px;
+        left: 19px;
+        opacity: 0.3;
+      }
+    }
+
+    .free-con {
+      a {
+        color: $white;
+        opacity: 0.7;
+        text-decoration: underline;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    .info-wrap {
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 500;
+      font-size: 13px;
+      margin: 8px 0 0;
+      .info {
+        &:after {
+          top: 0;
+        }
+        .info-content {
+          top: 28px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .gets-started {
+    .left-sec {flex-basis: 50%;
+      padding:40px 0;
+      
+    }
+    .right-sec{flex-basis: 45%;
+    img{bottom: 0;
+      margin-bottom: -2px;
+      position: absolute;}
     }
   }
 }
 
 @media only screen and (max-width: 991px) {
   .gets-started {
-    padding-bottom: 40px;
-
     .left-sec {
       flex-basis: 100%;
       text-align: center;
@@ -41,6 +136,42 @@
 
     .right-sec {
       display: none;
+    }
+    .button-section {
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gets-started {
+    .button-section {
+      .btn-div {
+        flex-basis: 100%;
+        text-align: center;
+      }
+
+      .devide {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        &:before {
+          width: 16px;
+          height: 1px;
+          display: inline-block;
+          position: initial;
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+        &:after {
+          width: 16px;
+          height: 1px;
+          display: inline-block;
+          position: initial;
+          margin-left: 5px;
+          vertical-align: middle;
+        }
+      }
     }
   }
 }

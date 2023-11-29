@@ -9,7 +9,7 @@
     <meta name="keywords" content="software outsourcing company, offshore software company, IT outsourcing company, software outsourcing firm, offshore software firm, software outsourcing firm in India, software outsourcing company in India" />
     <meta property="og:title" content="Top IT & Software Outsourcing Company in India - @PixelCrayons" />
     <?php require_once 'assets/include/header-files.php'; ?>
-    <link rel="preload stylesheet" type="text/css" href="assets/css/hirepage.min.css" as="style"/>
+    <link rel="preload stylesheet" type="text/css" href="assets/css/hirepage.min.css" as="style" />
 </head>
 
 <body id="themeAdd">

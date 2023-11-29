@@ -124,6 +124,9 @@ section {
 .item-end {
   align-items: flex-end; }
 
+.align-right {
+  text-align: right; }
+
 .justify-sb {
   justify-content: space-between; }
 
@@ -519,6 +522,10 @@ input:-webkit-autofill:active {
   .free-trail-pop-up .green-btn {
     margin-top: 30px; } }
 @media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 26px; }
+
   .padding-t-120 {
     padding-top: 50px; }
 
@@ -548,16 +555,19 @@ input:-webkit-autofill:active {
 
   h2 {
     font-size: 35px;
-    line-height: 50px; }
+    line-height: 48px; }
 
   h3 {
-    font-size: 18px;
-    line-height: 1.2; }
+    font-size: 18px; }
 
   h4 {
     font-size: 18px; }
 
   p {
+    font-size: 14px;
+    line-height: 24px; }
+
+  ul li {
     font-size: 14px;
     line-height: 24px; }
 

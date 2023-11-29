@@ -194,6 +194,10 @@ section {
   align-items: flex-end;
 }
 
+.align-right {
+ text-align:right;
+}
+
 .justify-sb {
   justify-content: space-between;
 }
@@ -771,6 +775,8 @@ input:-webkit-autofill:active {
 }
 
 @media screen and (max-width: 767px) {
+  body{font-size: 16px; //font-family: sans-serif;
+    line-height: 26px;}
   .padding-t-120 {
     padding-top: 50px;
   }
@@ -806,10 +812,10 @@ padding-top:40px;
 
   h2 {
     font-size: 35px;
-    line-height:50px;
+    line-height:48px;
   }
 
-  h3{font-size: 18px; line-height: 1.2;}
+  h3{font-size: 18px;}
 
   h4 {
     font-size: 18px;
@@ -819,6 +825,9 @@ padding-top:40px;
     font-size: 14px;
     line-height: 24px;
   }
+
+  ul li{font-size: 14px;
+    line-height: 24px;}
 
   .margin-t-100 {
     margin-top: 40px;
