@@ -13,7 +13,8 @@
     .footer-form-section .left-box p {
       color: #DFDFDF;
       font-size: 18px;
-      line-height: 29px; }
+      line-height: 29px;
+      margin: 0; }
     .footer-form-section .left-box h2 {
       color: #fff;
       margin-bottom: 30px; }
@@ -101,8 +102,19 @@
     .footer-form-section .form-text-cont .dis-flex {
       flex-wrap: nowrap;
       justify-content: space-between; }
+  .footer-form-section label {
+    color: #414141;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+    opacity: 0.8;
+    font-size: 16px; }
   .footer-form-section .input-field {
-    padding: 18px 30px 18px 15px;
+    padding: 17px 30px 17px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -111,9 +123,7 @@
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: Rubik;
-    outline: 0;
-    resize: none; }
+    font-family: Rubik; }
     .footer-form-section .input-field:focus {
       border: 0.5px solid #010101; }
   .footer-form-section small {
@@ -128,7 +138,7 @@
   .footer-form-section .verror.user-input small {
     margin-top: 5px; }
   .footer-form-section .comment-input {
-    min-height: 165px;
+    min-height: 100px;
     border: 0;
     outline: 0;
     width: 100%;

@@ -37,7 +37,7 @@ h1, h2 {
 
 h1 {
   font-size: 80px;
-  line-height: 1.3; }
+  line-height: 1.2; }
 
 h2 {
   font-size: 46px;
@@ -47,7 +47,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 28px;
   color: #414141; }
 
 h4 {
@@ -2923,7 +2923,9 @@ input:-webkit-autofill:active {
           transition: all 0.3s ease-in-out;
           line-height: 16px; }
           .footer .footer-item ul li a img {
-            transition: all 0.3s ease-in-out; }
+            transition: all 0.3s ease-in-out;
+            width: 30px;
+            height: 30px; }
           .footer .footer-item ul li a .social-image {
             display: block;
             opacity: 0.9; }
@@ -2952,6 +2954,8 @@ input:-webkit-autofill:active {
       align-items: center; }
       .footer .footer-item.social-media ul li::after {
         display: none; }
+      .footer .footer-item.social-media ul li a {
+        opacity: 1; }
   .footer .footer-copyright {
     background: #07216C;
     color: #fff;
@@ -2961,7 +2965,13 @@ input:-webkit-autofill:active {
       font-size: 14px;
       line-height: 17px;
       color: #fff;
-      opacity: 0.8; }
+      opacity: 0.8;
+      margin: 0; }
+      .footer .footer-copyright .copyright-left p img {
+        opacity: 1 !important;
+        vertical-align: middle;
+        margin-top: -3px;
+        display: inline-block; }
     .footer .footer-copyright .copyright-left a {
       color: #fff; }
     .footer .footer-copyright .copyright-right p {
@@ -2969,7 +2979,9 @@ input:-webkit-autofill:active {
       font-size: 12px;
       line-height: 20px;
       opacity: 0.8;
-      color: #ffffff; }
+      color: #ffffff;
+      margin: 0;
+      font-weight: 500; }
     .footer .footer-copyright .footer-right .star-outer {
       font-size: 12px;
       line-height: 20px; }
@@ -3046,7 +3058,9 @@ input:-webkit-autofill:active {
       max-width: 120px;
       margin: 0 auto 20px;
       display: block;
-      text-align: center; } }
+      text-align: center; }
+  .footer .form-quiz-group .refreshbtn {
+    margin-top: 0; } }
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .footer .footer-item.social-media {
     display: block; }
@@ -3069,7 +3083,8 @@ input:-webkit-autofill:active {
     .footer-form-section .left-box p {
       color: #DFDFDF;
       font-size: 18px;
-      line-height: 29px; }
+      line-height: 29px;
+      margin: 0; }
     .footer-form-section .left-box h2 {
       color: #fff;
       margin-bottom: 30px; }
@@ -3157,8 +3172,19 @@ input:-webkit-autofill:active {
     .footer-form-section .form-text-cont .dis-flex {
       flex-wrap: nowrap;
       justify-content: space-between; }
+  .footer-form-section label {
+    color: #414141;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+    opacity: 0.8;
+    font-size: 16px; }
   .footer-form-section .input-field {
-    padding: 18px 30px 18px 15px;
+    padding: 17px 30px 17px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -3167,9 +3193,7 @@ input:-webkit-autofill:active {
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: Rubik;
-    outline: 0;
-    resize: none; }
+    font-family: Rubik; }
     .footer-form-section .input-field:focus {
       border: 0.5px solid #010101; }
   .footer-form-section small {
@@ -3184,7 +3208,7 @@ input:-webkit-autofill:active {
   .footer-form-section .verror.user-input small {
     margin-top: 5px; }
   .footer-form-section .comment-input {
-    min-height: 165px;
+    min-height: 100px;
     border: 0;
     outline: 0;
     width: 100%;
@@ -3539,16 +3563,13 @@ input:-webkit-autofill:active {
       .popup-wrapper .popup-content .banner-form-section .headingsec {
         text-align: center; }
         .popup-wrapper .popup-content .banner-form-section .headingsec h2 {
-          color: #253053;
           font-size: 25px;
           line-height: 1.3;
           font-weight: 600; }
         .popup-wrapper .popup-content .banner-form-section .headingsec p {
-          font-weight: 500;
           font-size: 14px;
           line-height: 20px;
-          color: #253053;
-          margin-top: 5px; }
+          margin-top: 5px 0 0; }
       .popup-wrapper .popup-content .banner-form-section small {
         display: none; }
       .popup-wrapper .popup-content .banner-form-section .verror.drop-box {
@@ -3569,7 +3590,7 @@ input:-webkit-autofill:active {
         color: #666e86;
         border: 1px solid #666e86;
         border-radius: 5px;
-        font-family: "Noto Sans"; }
+        font-family: Rubik; }
       .popup-wrapper .popup-content .banner-form-section .form-head-cont {
         margin-top: 20px;
         flex-basis: 50%;
@@ -3599,7 +3620,7 @@ input:-webkit-autofill:active {
         resize: none;
         outline: 0;
         width: 100%;
-        font-family: "Noto Sans"; }
+        font-family: Rubik; }
       .popup-wrapper .popup-content .banner-form-section .drop-box .browse-btn {
         background: #fff;
         border: 1px solid #f0f1f5;
@@ -3611,7 +3632,7 @@ input:-webkit-autofill:active {
         margin-top: 10px;
         color: #666e86;
         text-transform: uppercase;
-        font-family: "Noto Sans";
+        font-family: Rubik;
         display: inline-block;
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -3661,7 +3682,7 @@ input:-webkit-autofill:active {
         font-size: 18px;
         line-height: 16px;
         text-transform: capitalize;
-        font-family: "Noto Sans"; }
+        font-family: Rubik; }
         .popup-wrapper .popup-content .banner-form-section .hire-banner-form-btn:hover {
           background: transparent;
           color: #016be3; }
@@ -3745,8 +3766,9 @@ input:-webkit-autofill:active {
       top: 69px;
       left: 0; } }
 .banner-with-form {
-  background: #1A2649;
-  padding-bottom: 0; }
+  background: linear-gradient(270deg, #0B147C 21.77%, #4B1BAC 100%);
+  padding-bottom: 0;
+  position: relative; }
   .banner-with-form .breadcrumbs {
     font-weight: 400;
     margin: 0 0 5px; }
@@ -3767,9 +3789,10 @@ input:-webkit-autofill:active {
       position: relative; }
       .banner-with-form .dis-flex .hire-content h1 {
         color: #ffffff;
-        margin: 0 0 10px; }
+        margin: 0 0 20px; }
       .banner-with-form .dis-flex .hire-content h2 {
         font-weight: 500;
+        font-family: 'Rubik';
         font-size: 18px;
         color: #ffffff;
         margin: 0 0 20px;
@@ -3779,6 +3802,8 @@ input:-webkit-autofill:active {
         font-size: 18px;
         margin: 0 0 15px;
         line-height: 29px; }
+        .banner-with-form .dis-flex .hire-content p.white-txt {
+          color: #ffffff; }
       .banner-with-form .dis-flex .hire-content span {
         color: rgba(255, 255, 255, 0.8); }
       .banner-with-form .dis-flex .hire-content ul li {
@@ -3799,144 +3824,257 @@ input:-webkit-autofill:active {
           border-radius: 50%; }
     .banner-with-form .dis-flex .hire-form {
       position: relative;
-      flex-basis: 35%; }
+      flex-basis: 38%;
+      border-radius: 30px;
+      overflow: hidden; }
       .banner-with-form .dis-flex .hire-form .form-wrap {
-        background: #ffffff;
-        border-radius: 30px;
-        padding: 30px 25px;
-        position: relative; }
-        .banner-with-form .dis-flex .hire-form .form-wrap h3 {
-          font-weight: 600;
-          color: #000;
-          font-size: 28px;
-          line-height: 45px; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .btn-center {
-          margin: 20px 0 0;
-          position: relative; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .btn-center:before {
-            content: "";
-            display: block;
-            background: url(../images/hire-shape.png) top center no-repeat;
-            background-size: 100%;
-            width: 138px;
-            height: 150px;
-            position: absolute;
-            top: -20px;
-            left: -190px; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .btn-center .yellow-btn {
-            text-transform: capitalize;
-            font-weight: 500;
-            border-radius: 5px;
-            padding: 14px 50px;
-            color: #ffffff;
-            background: #016be3;
-            border: 1px solid #016be3;
-            transition: 0.3s ease-in-out; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .btn-center .yellow-btn:hover {
-              background: #fff;
-              color: #016be3; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .btn-center .bk-call {
-            display: block; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .use-form {
-          display: block;
-          margin: 15px 0 0;
-          color: #000;
-          font-size: 14px;
-          font-weight: 400;
-          text-decoration: none; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .use-form:hover {
-            text-decoration: underline; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .frm-list {
-          position: relative;
-          margin: 25px 0 0; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul {
+        border-radius: 0 0 30px 30px;
+        position: relative;
+        z-index: 9; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec {
+          height: 200px;
+          background: #201481;
+          border-radius: 30px 30px 0 0; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
+          padding: 20px 30px;
+          background: #ffffff; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
             display: flex;
-            justify-content: center; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li {
+            align-items: baseline;
+            position: relative;
+            flex-wrap: wrap;
+            margin: 25px 0 0; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
+              background: #016be3;
+              border: 1px solid #016be3;
+              min-width: 200px;
+              text-transform: capitalize;
+              font-size: 16px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn:hover {
+                background: #fff;
+                color: #016be3; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .info-wrap P {
+              color: #414141;
+              line-height: 1.3;
+              opacity: 0.7;
+              font-size: 13px;
+              margin: 10px 0 0; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide {
+              padding: 0 10px;
+              display: inline-block;
               position: relative;
-              padding: 0 22px;
-              font-size: 12px;
-              margin: 0 7px;
-              color: #666666;
-              line-height: 1.2;
-              border-right: 1px solid #000; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li:last-child {
-                border: 0; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li:before {
+              color: #414141;
+              opacity: 0.3;
+              font-size: 12px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:before {
                 content: "";
                 clear: both;
                 display: block;
-                background: url(../images/list-check.png) top center no-repeat;
-                background-size: auto;
-                background-size: 100%;
-                width: 13px;
-                height: 13px;
+                width: 1px;
+                height: 16px;
                 position: absolute;
-                top: 1px;
-                left: 0; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li:after {
-                width: calc(100% - 40px);
+                background: #414141;
+                top: -20px;
+                left: 19px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:after {
                 content: "";
-                border-top: 1px dashed #666666;
-                height: 1px;
+                clear: both;
+                display: block;
+                width: 1px;
+                height: 16px;
+                background: #414141;
                 position: absolute;
-                bottom: -3px;
-                left: 20px; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process {
-                position: relative; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process:before {
-                  background: url(../images/pro-icon.png) top center no-repeat;
-                  width: 14px; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process .info {
-                  width: 315px;
-                  background: #eaf2ff;
-                  border-radius: 10px;
-                  padding: 15px;
+                bottom: -20px;
+                left: 19px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con {
+              color: #414141;
+              font-size: 16px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con a {
+                color: #414141;
+                opacity: 0.5;
+                text-decoration: underline; }
+        .banner-with-form .dis-flex .hire-form .form-wrap h3 {
+          font-weight: 600;
+          color: #414141;
+          font-size: 28px;
+          line-height: 45px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap p {
+          font-size: 18px;
+          color: rgba(65, 65, 65, 0.9); }
+        .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
+          padding: 20px 30px;
+          border-top: 3px solid #E2EDFA;
+          background: #ffffff; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .use-form {
+            display: block;
+            color: #414141;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .use-form:hover {
+              text-decoration: underline; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list {
+            position: relative;
+            margin: 15px 0 0; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul {
+              display: flex;
+              justify-content: center; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
+                position: relative;
+                padding: 0 22px;
+                font-size: 12px;
+                margin: 0 7px;
+                color: #414141;
+                line-height: 1.2;
+                border-right: 1px solid #414141; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:last-child {
+                  border: 0; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:before {
+                  content: "";
+                  clear: both;
+                  display: block;
+                  background: url(../images/list-check.png) top center no-repeat;
+                  background-size: auto;
+                  background-size: 100%;
+                  width: 13px;
+                  height: 13px;
                   position: absolute;
-                  box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
-                  bottom: -150px;
-                  right: -40px;
-                  opacity: 0;
-                  transition: all 0.3s ease-in-out;
-                  visibility: hidden; }
-                  .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process .info h4 {
-                    font-weight: 500;
-                    font-size: 14px;
-                    color: #000;
-                    margin: 0 0 5px;
-                    position: relative; }
-                    .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process .info h4:before {
-                      content: "";
-                      clear: both;
-                      display: block;
-                      background: url(../images/ex-arrow.png) top center no-repeat;
-                      background-size: auto;
-                      background-size: 100%;
-                      width: 25px;
-                      height: 25px;
-                      position: absolute;
-                      top: -31px;
-                      right: 30px; }
-                  .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process .info p {
-                    font-size: 10px;
-                    line-height: 26px;
-                    color: #000;
-                    line-height: 16px; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process:hover {
-                  cursor: pointer;
-                  color: #016be3; }
-                  .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li.process:hover .info {
-                    opacity: 1;
-                    visibility: visible; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li:first-child .info {
-                right: auto;
-                left: 0; }
-      .banner-with-form .dis-flex .hire-form .badges {
-        margin: 30px 0 0;
+                  top: 1px;
+                  left: 0; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:after {
+                  width: calc(100% - 40px);
+                  content: "";
+                  border-top: 1px dashed #666666;
+                  height: 1px;
+                  position: absolute;
+                  bottom: -3px;
+                  left: 20px; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process {
+                  position: relative; }
+                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:before {
+                    background: url(../images/pro-icon.png) top center no-repeat;
+                    width: 14px; }
+                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info {
+                    width: 315px;
+                    background: #eaf2ff;
+                    border-radius: 10px;
+                    padding: 15px;
+                    position: absolute;
+                    box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
+                    bottom: -150px;
+                    right: -40px;
+                    opacity: 0;
+                    transition: all 0.3s ease-in-out;
+                    visibility: hidden; }
+                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4 {
+                      font-weight: 500;
+                      font-size: 14px;
+                      color: #000;
+                      margin: 0 0 5px;
+                      position: relative; }
+                      .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4:before {
+                        content: "";
+                        clear: both;
+                        display: block;
+                        background: url(../images/ex-arrow.png) top center no-repeat;
+                        background-size: auto;
+                        background-size: 100%;
+                        width: 25px;
+                        height: 25px;
+                        position: absolute;
+                        top: -31px;
+                        right: 30px; }
+                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info p {
+                      font-size: 10px;
+                      line-height: 26px;
+                      color: #000;
+                      line-height: 16px; }
+                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:hover {
+                    cursor: pointer;
+                    color: #016be3; }
+                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:hover .info {
+                      opacity: 1;
+                      visibility: visible; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:first-child .info {
+                  right: auto;
+                  left: 0; }
+      .banner-with-form .dis-flex .hire-form .info-wrap {
         display: flex;
-        column-gap: 20px;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center; }
+        .banner-with-form .dis-flex .hire-form .info-wrap .info {
+          margin-left: 10px;
+          display: inline-block;
+          position: relative;
+          cursor: pointer; }
+          .banner-with-form .dis-flex .hire-form .info-wrap .info:after {
+            content: "";
+            width: 14px;
+            height: 15px;
+            background: url(../images/info-icon.svg) 0 0 no-repeat;
+            position: absolute;
+            top: 5px;
+            transform: translateY(-50%);
+            left: 0; }
+          .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content {
+            width: 315px;
+            border-radius: 10px;
+            background: #eaf2ff;
+            box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
+            padding: 15px;
+            position: absolute;
+            top: 25px;
+            left: -75px;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            visibility: hidden;
+            text-align: left;
+            line-height: initial;
+            z-index: 9; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content h4 {
+              font-size: 14px;
+              color: #000;
+              margin: 0 0 5px; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content p {
+              font-size: 11px;
+              color: #000;
+              line-height: 160%;
+              margin: 0 0 5px;
+              font-weight: normal; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore {
+              font-size: 11px;
+              margin: 10px 0 0;
+              text-decoration: underline;
+              position: relative;
+              color: #000; }
+              .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:after {
+                content: "";
+                background: url(../images/know-arrow.png) 0 0 no-repeat;
+                width: 8px;
+                display: inline-block;
+                height: 8px;
+                margin-left: 5px;
+                transition: all 0.3s ease-in-out; }
+              .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:hover {
+                text-decoration: none;
+                color: #000; }
+                .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:hover:after {
+                  margin-left: 10px; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content:before {
+              content: "";
+              clear: both;
+              display: block;
+              background: url(../images/ex-arrow.png) top center no-repeat;
+              background-size: auto;
+              background-size: 100%;
+              width: 25px;
+              height: 25px;
+              position: absolute;
+              top: -11px;
+              left: 68px; }
+          .banner-with-form .dis-flex .hire-form .info-wrap .info:hover .info-content {
+            opacity: 1;
+            visibility: visible; }
   .banner-with-form .client-logo-box-section {
     background: #fff;
     padding: 40px 0; }
@@ -3956,15 +4094,21 @@ input:-webkit-autofill:active {
       .banner-with-form .client-logo-box-section .dis-flex .logo-box-outer {
         padding: 30px 0 0;
         flex-basis: 100%; }
+  .banner-with-form:after {
+    content: "";
+    display: block;
+    background: url(../images/banner-shape.png) top center no-repeat;
+    background-size: 100%;
+    width: 662px;
+    height: 552px;
+    position: absolute;
+    top: 15%;
+    right: 0; }
 
 @media only screen and (max-width: 1680px) {
-  .banner-with-form .dis-flex .hire-content h1 {
-    font-size: 34px; }
   .banner-with-form .dis-flex .hire-form .form-wrap .frm-list ul li {
     padding: 0 18px; } }
 @media screen and (max-width: 1440px) {
-  .banner-with-form .dis-flex .hire-content h1 {
-    font-size: 32px; }
   .banner-with-form .dis-flex .hire-form .form-wrap h3 {
     font-size: 25px;
     line-height: 38px; }
@@ -4046,10 +4190,7 @@ input:-webkit-autofill:active {
       flex-basis: 100%;
       margin: 20px 0 0; }
       .banner-with-form .dis-flex .hire-form .form-wrap .btn-center .bk-call {
-        display: inline-block; }
-      .banner-with-form .dis-flex .hire-form .badges {
-        margin: 20px 0 0;
-        justify-content: center; } }
+        display: inline-block; } }
 @media screen and (max-width: 767px) {
   .banner-with-form {
     padding-bottom: 40px;

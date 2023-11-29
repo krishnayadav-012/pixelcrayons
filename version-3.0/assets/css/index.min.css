@@ -37,7 +37,7 @@ h1, h2 {
 
 h1 {
   font-size: 80px;
-  line-height: 1.3; }
+  line-height: 1.2; }
 
 h2 {
   font-size: 46px;
@@ -47,7 +47,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 28px;
   color: #414141; }
 
 h4 {
@@ -2400,6 +2400,10 @@ input:-webkit-autofill:active {
       display: block; }
     .our-outsource-services .right-tabs .tab-content p {
       margin: 0 0 20px; }
+      .our-outsource-services .right-tabs .tab-content p b {
+        font-weight: 500; }
+      .our-outsource-services .right-tabs .tab-content p strong {
+        font-weight: 500; }
       .our-outsource-services .right-tabs .tab-content p a {
         text-decoration: underline; }
         .our-outsource-services .right-tabs .tab-content p a:hover {
@@ -3377,7 +3381,8 @@ a {
     .footer-form-section .left-box p {
       color: #DFDFDF;
       font-size: 18px;
-      line-height: 29px; }
+      line-height: 29px;
+      margin: 0; }
     .footer-form-section .left-box h2 {
       color: #fff;
       margin-bottom: 30px; }
@@ -3465,8 +3470,19 @@ a {
     .footer-form-section .form-text-cont .dis-flex {
       flex-wrap: nowrap;
       justify-content: space-between; }
+  .footer-form-section label {
+    color: #414141;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+    opacity: 0.8;
+    font-size: 16px; }
   .footer-form-section .input-field {
-    padding: 18px 30px 18px 15px;
+    padding: 17px 30px 17px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -3475,9 +3491,7 @@ a {
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: Rubik;
-    outline: 0;
-    resize: none; }
+    font-family: Rubik; }
     .footer-form-section .input-field:focus {
       border: 0.5px solid #010101; }
   .footer-form-section small {
@@ -3492,7 +3506,7 @@ a {
   .footer-form-section .verror.user-input small {
     margin-top: 5px; }
   .footer-form-section .comment-input {
-    min-height: 165px;
+    min-height: 100px;
     border: 0;
     outline: 0;
     width: 100%;
@@ -3823,7 +3837,9 @@ a {
           transition: all 0.3s ease-in-out;
           line-height: 16px; }
           .footer .footer-item ul li a img {
-            transition: all 0.3s ease-in-out; }
+            transition: all 0.3s ease-in-out;
+            width: 30px;
+            height: 30px; }
           .footer .footer-item ul li a .social-image {
             display: block;
             opacity: 0.9; }
@@ -3852,6 +3868,8 @@ a {
       align-items: center; }
       .footer .footer-item.social-media ul li::after {
         display: none; }
+      .footer .footer-item.social-media ul li a {
+        opacity: 1; }
   .footer .footer-copyright {
     background: #07216C;
     color: #fff;
@@ -3861,7 +3879,13 @@ a {
       font-size: 14px;
       line-height: 17px;
       color: #fff;
-      opacity: 0.8; }
+      opacity: 0.8;
+      margin: 0; }
+      .footer .footer-copyright .copyright-left p img {
+        opacity: 1 !important;
+        vertical-align: middle;
+        margin-top: -3px;
+        display: inline-block; }
     .footer .footer-copyright .copyright-left a {
       color: #fff; }
     .footer .footer-copyright .copyright-right p {
@@ -3869,7 +3893,9 @@ a {
       font-size: 12px;
       line-height: 20px;
       opacity: 0.8;
-      color: #ffffff; }
+      color: #ffffff;
+      margin: 0;
+      font-weight: 500; }
     .footer .footer-copyright .footer-right .star-outer {
       font-size: 12px;
       line-height: 20px; }
@@ -3946,7 +3972,9 @@ a {
       max-width: 120px;
       margin: 0 auto 20px;
       display: block;
-      text-align: center; } }
+      text-align: center; }
+  .footer .form-quiz-group .refreshbtn {
+    margin-top: 0; } }
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .footer .footer-item.social-media {
     display: block; }

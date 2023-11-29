@@ -17,6 +17,7 @@ $contentDay: #737373;
 $shadeofblue: #666e86;
 $mainNewHeadDay: #414141;
 
+$gradient-bg:linear-gradient(270deg, #0B147C 21.77%, #4B1BAC 100%);
 $royel-bg:#05247E;
 $arsenic-light:rgba(65, 65, 65, 0.9);
 $arsenic-dark:#414141;
@@ -75,7 +76,7 @@ h1, h2{ font-family: 'RobotoSerif'; font-weight: 500;}
 
 h1 {
   font-size: 80px;
-  line-height:1.3;
+  line-height:1.2;
   
 }
 
@@ -88,7 +89,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height:28px;
   color: $arsenic-dark;
 }
 

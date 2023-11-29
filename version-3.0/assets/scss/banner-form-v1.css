@@ -53,16 +53,13 @@
       .popup-wrapper .popup-content .banner-form-section .headingsec {
         text-align: center; }
         .popup-wrapper .popup-content .banner-form-section .headingsec h2 {
-          color: #253053;
           font-size: 25px;
           line-height: 1.3;
           font-weight: 600; }
         .popup-wrapper .popup-content .banner-form-section .headingsec p {
-          font-weight: 500;
           font-size: 14px;
           line-height: 20px;
-          color: #253053;
-          margin-top: 5px; }
+          margin-top: 5px 0 0; }
       .popup-wrapper .popup-content .banner-form-section small {
         display: none; }
       .popup-wrapper .popup-content .banner-form-section .verror.drop-box {
@@ -83,7 +80,7 @@
         color: #666e86;
         border: 1px solid #666e86;
         border-radius: 5px;
-        font-family: "Noto Sans"; }
+        font-family: Rubik; }
       .popup-wrapper .popup-content .banner-form-section .form-head-cont {
         margin-top: 20px;
         flex-basis: 50%;
@@ -113,7 +110,7 @@
         resize: none;
         outline: 0;
         width: 100%;
-        font-family: "Noto Sans"; }
+        font-family: Rubik; }
       .popup-wrapper .popup-content .banner-form-section .drop-box .browse-btn {
         background: #fff;
         border: 1px solid #f0f1f5;
@@ -125,7 +122,7 @@
         margin-top: 10px;
         color: #666e86;
         text-transform: uppercase;
-        font-family: "Noto Sans";
+        font-family: Rubik;
         display: inline-block;
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -175,7 +172,7 @@
         font-size: 18px;
         line-height: 16px;
         text-transform: capitalize;
-        font-family: "Noto Sans"; }
+        font-family: Rubik; }
         .popup-wrapper .popup-content .banner-form-section .hire-banner-form-btn:hover {
           background: transparent;
           color: #016be3; }

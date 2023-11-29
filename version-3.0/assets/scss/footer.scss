@@ -52,6 +52,8 @@
 
           img {
             transition: all 0.3s ease-in-out;
+            width: 30px;
+            height: 30px;
           }
           .social-image{display:block; opacity: 0.9;}
           .social-image-hover{display:none;}
@@ -94,6 +96,7 @@
           &::after {
             display: none;
           }
+          a{opacity: 1;}
         }
       }
     }
@@ -111,6 +114,11 @@
         line-height: 17px;
         color: #fff;
         opacity: 0.8;
+        margin:0;
+        img{opacity: 1 !important;
+          vertical-align: middle;
+          margin-top: -3px;
+          display: inline-block;}
       }
 
       a {
@@ -125,6 +133,8 @@
         line-height: 20px;
         opacity: 0.8;
         color: #ffffff;
+       margin:0;
+       font-weight: 500;
       }
     }
 
@@ -336,6 +346,7 @@
 
       }
     }
+    .form-quiz-group .refreshbtn{margin-top:0;}
   }
 }
 

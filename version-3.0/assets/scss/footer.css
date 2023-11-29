@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$royelblue".
-        on line 60 of C:\xampp-1\htdocs\pixelcrayons\version-3.0\assets\scss\footer.scss
+        on line 62 of C:\xampp-1\htdocs\pixelcrayons\version-3.0\assets\scss\footer.scss
 
-55:           }
-56:           .social-image{display:block; opacity: 0.9;}
-57:           .social-image-hover{display:none;}
-58: 
-59:           &:hover {
-60:             color: $royelblue;
-61:             opacity: 1;
-62:             .social-image-hover{display:block;}
-63:             .social-image{display:none;}
-64: 
-65:             img {
+57:           }
+58:           .social-image{display:block; opacity: 0.9;}
+59:           .social-image-hover{display:none;}
+60: 
+61:           &:hover {
+62:             color: $royelblue;
+63:             opacity: 1;
+64:             .social-image-hover{display:block;}
+65:             .social-image{display:none;}
+66: 
+67:             img {
 
 Backtrace:
-C:\xampp-1\htdocs\pixelcrayons\version-3.0\assets\scss\footer.scss:60
+C:\xampp-1\htdocs\pixelcrayons\version-3.0\assets\scss\footer.scss:62
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -117,4 +117,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$royelblue\".\A         on line 60 of C:\xampp-1\htdocs\pixelcrayons\version-3.0\assets\scss\footer.scss\A \A 55:           }\A 56:           .social-image{display:block; opacity: 0.9;}\A 57:           .social-image-hover{display:none;}\A 58: \A 59:           &:hover {\A 60:             color: $royelblue;\A 61:             opacity: 1;\A 62:             .social-image-hover{display:block;}\A 63:             .social-image{display:none;}\A 64: \A 65:             img {"; }
+  content: "Error: Undefined variable: \"$royelblue\".\A         on line 62 of C:\xampp-1\htdocs\pixelcrayons\version-3.0\assets\scss\footer.scss\A \A 57:           }\A 58:           .social-image{display:block; opacity: 0.9;}\A 59:           .social-image-hover{display:none;}\A 60: \A 61:           &:hover {\A 62:             color: $royelblue;\A 63:             opacity: 1;\A 64:             .social-image-hover{display:block;}\A 65:             .social-image{display:none;}\A 66: \A 67:             img {"; }
