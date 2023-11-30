@@ -106,12 +106,12 @@
         width: 340px;
         text-align: right;
         float: left;
-        padding-top: 120px;
+        padding-top:50px;
         &.sticky {
           position: fixed;
           top: 0;
           &.btomfixed {
-            bottom: 100px;
+            bottom:80px;
             top: auto;
             position: absolute;
           }
@@ -174,7 +174,7 @@
       .right-bar {
         width: calc(100% - 425px);
         float: right;
-        padding-top: 120px;
+        padding-top:50px;
         .trial-answer {
           width: 100%;
           padding: 0 0 100px;
@@ -543,17 +543,17 @@
     .trial-wrap {
       .trial-sticky {
         .left-bar {
-          padding-top: 80px;
+          padding-top:50px;
           &.sticky {
             &.btomfixed {
-              bottom: 80px;
+              bottom:70px;
             }
           }
         }
 
         .right-bar {
           width: calc(100% - 400px);
-          padding-top: 80px;
+          padding-top:50px;
           .trial-answer {
             padding: 0 0 70px;
 

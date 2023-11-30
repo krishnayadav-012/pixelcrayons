@@ -2850,12 +2850,12 @@ input:-webkit-autofill:active {
         width: 340px;
         text-align: right;
         float: left;
-        padding-top: 120px; }
+        padding-top: 50px; }
         .seven-days-trial .trial-wrap .trial-sticky .left-bar.sticky {
           position: fixed;
           top: 0; }
           .seven-days-trial .trial-wrap .trial-sticky .left-bar.sticky.btomfixed {
-            bottom: 100px;
+            bottom: 80px;
             top: auto;
             position: absolute; }
         .seven-days-trial .trial-wrap .trial-sticky .left-bar .bor-line {
@@ -2905,7 +2905,7 @@ input:-webkit-autofill:active {
       .seven-days-trial .trial-wrap .trial-sticky .right-bar {
         width: calc(100% - 425px);
         float: right;
-        padding-top: 120px; }
+        padding-top: 50px; }
         .seven-days-trial .trial-wrap .trial-sticky .right-bar .trial-answer {
           width: 100%;
           padding: 0 0 100px; }
@@ -3176,12 +3176,12 @@ input:-webkit-autofill:active {
 /*Trial Section Ends Here*/
 @media only screen and (max-width: 1320px) {
   .seven-days-trial .trial-wrap .trial-sticky .left-bar {
-    padding-top: 80px; }
+    padding-top: 50px; }
     .seven-days-trial .trial-wrap .trial-sticky .left-bar.sticky.btomfixed {
-      bottom: 80px; }
+      bottom: 70px; }
   .seven-days-trial .trial-wrap .trial-sticky .right-bar {
     width: calc(100% - 400px);
-    padding-top: 80px; }
+    padding-top: 50px; }
     .seven-days-trial .trial-wrap .trial-sticky .right-bar .trial-answer {
       padding: 0 0 70px; }
       .seven-days-trial .trial-wrap .trial-sticky .right-bar .trial-answer h2 {
