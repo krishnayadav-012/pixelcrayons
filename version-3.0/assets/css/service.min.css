@@ -667,7 +667,11 @@ input:-webkit-autofill:active {
       background: #fff;
       box-shadow: 0 4px 12px rgba(8, 46, 181, 0.12); }
       .header-two.header-bg.sc-up .menu ul li a {
+        color: #414141; }
+      .header-two.header-bg.sc-up .menu ul li.contact-nav a {
         color: #ffffff; }
+        .header-two.header-bg.sc-up .menu ul li.contact-nav a:hover {
+          color: #016be3; }
       .header-two.header-bg.sc-up .large .white-theme-logo {
         display: none; }
       .header-two.header-bg.sc-up .large .dark-theme-logo {
@@ -720,8 +724,6 @@ input:-webkit-autofill:active {
     position: absolute;
     top: 10px;
     transition: all 0.7s ease-in-out; }
-    .header-two .small img {
-      margin: 0 auto; }
   .header-two.sc-up .large {
     opacity: 1; }
   .header-two.sc-down .small {
@@ -823,8 +825,7 @@ input:-webkit-autofill:active {
       border: none;
       outline: none;
       color: #fff;
-      transition: color 0.3s ease;
-      font-weight: 400; }
+      transition: color 0.3s ease; }
       .header-two .menu ul li a:hover {
         color: #016be3; }
     .header-two .menu ul li .menu-mega {
@@ -2128,7 +2129,7 @@ input:-webkit-autofill:active {
         margin-bottom: 15px;
         opacity: 0.9; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle {
-      color: #016be3; }
+      color: #414141; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle::after {
         display: none; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
@@ -2143,7 +2144,7 @@ input:-webkit-autofill:active {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: #666E86;
+          color: rgba(65, 65, 65, 0.9);
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol {
@@ -2151,7 +2152,7 @@ input:-webkit-autofill:active {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: #666E86;
+          color: rgba(65, 65, 65, 0.9);
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li {
@@ -4195,7 +4196,7 @@ input:-webkit-autofill:active {
         .footer .footer-item ul li:after {
           content: "|";
           position: relative;
-          left: 7px;
+          left: 9px;
           top: 1px;
           opacity: 0.7; }
         .footer .footer-item ul li:last-child:after {

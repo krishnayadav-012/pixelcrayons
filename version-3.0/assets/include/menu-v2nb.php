@@ -51,8 +51,8 @@
       <div class="header-item-left">
         <a href="<?php echo $site_url; ?>" class="brand">
           <div class="large">
-            <img loading="lazy" src="menu-images/logo-v2-white.svg" alt="Pixelcrayons" class="white-theme-logo" width="192" height="69">
-            <img loading="lazy" src="menu-images/logo-v2.svg" alt="Pixelcrayons" class="dark-theme-logo" width="192" height="69">
+            <img loading="lazy" src="menu-images/logo-v2-white.svg" alt="Pixelcrayons" class="white-theme-logo" width="200" height="69">
+            <img loading="lazy" src="menu-images/logo-v2.svg" alt="Pixelcrayons" class="dark-theme-logo" width="200" height="69">
           </div>
           <div class="small">
             <img loading="lazy" src="menu-images/logo-small.svg" alt="Pixelcrayons" 

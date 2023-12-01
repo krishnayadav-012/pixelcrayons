@@ -22,7 +22,7 @@
         <h1>Next-gen digital services 
         </h1>
         <p class="large-text">Let's together <span class="anm-text"><span class="typed-text"></span><span class="cursor">&nbsp;</span></span> in digital age.</p>
-        <p>Wanna get in touch? <a href="#">Let's talk</a></p>
+        <p>Wanna get in touch? <a class="lets-talk" href="#">Let's talk</a></p>
       </div>
     </section>
     <?php require_once 'assets/include/client-logo.php'; ?>
@@ -453,6 +453,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/glide.js"></script>
     <!-- New script start from here-->
     <script>
+      // faq
+
       const typedTextSpan = document.querySelector(".typed-text");
       const cursorSpan = document.querySelector(".cursor");
       

@@ -101,7 +101,7 @@
             <div class="form-wrap">
               <div class="top-sec">
               <picture>
-              <img loading="lazy" src="assets/images/hire-boy.png" alt="pixel" width="393" height="270">
+              <img loading="lazy" src="assets/images/hire-boy.svg" alt="pixel" width="393" height="260">
             </picture>
               </div>
               <div class="mid-sec">

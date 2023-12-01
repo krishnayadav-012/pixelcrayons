@@ -91,7 +91,7 @@
       }
       &.active {
         .faq-accordion-toggle {
-          color: #016be3;
+          color:$arsenic-dark;
           &::after {
             display: none;
           }
@@ -108,7 +108,7 @@
             li{
               margin-bottom: 10px;
               font-size: 16px;
-              color: #666E86;
+              color: $arsenic-light;
               line-height: 26px;
               opacity: 0.9;
             }
@@ -118,7 +118,7 @@
             li{
               margin-bottom: 10px;
               font-size: 16px;
-              color: #666E86;
+              color: $arsenic-light;
               line-height: 26px;
               opacity: 0.9;
             }
