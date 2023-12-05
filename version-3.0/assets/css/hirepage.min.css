@@ -842,12 +842,12 @@ input:-webkit-autofill:active {
         padding: 0;
         background: #ffffff;
         box-shadow: 4px 4px 60px rgba(112, 144, 176, 0.25);
-        border-radius: 20px;
+        border-radius: 10px;
         margin: 0 0;
         overflow: hidden; }
       .header-two .menu ul li .menu-mega .flex-3,
       .header-two .menu ul li .menu-mega .detail-list {
-        padding: 40px; }
+        padding: 35px; }
         .header-two .menu ul li .menu-mega .flex-3 a,
         .header-two .menu ul li .menu-mega .detail-list a {
           font-weight: 400;
@@ -855,7 +855,7 @@ input:-webkit-autofill:active {
           line-height: 19px;
           color: #666e86;
           display: block;
-          margin: 0 0 35px;
+          margin: 0 0 20px;
           padding-left: 50px;
           position: relative; }
           .header-two .menu ul li .menu-mega .flex-3 a:last-child,
@@ -882,13 +882,15 @@ input:-webkit-autofill:active {
             opacity: 0; }
         .header-two .menu ul li .menu-mega .flex-3 .title,
         .header-two .menu ul li .menu-mega .detail-list .title {
-          font-weight: 500;
           font-size: 16px;
           line-height: 20px;
           color: #253053;
           display: block;
           transition: all 0.3s ease-in-out;
           margin-bottom: 5px; }
+        .header-two .menu ul li .menu-mega .flex-3:last-child,
+        .header-two .menu ul li .menu-mega .detail-list:last-child {
+          background: #f6f8fb; }
       .header-two .menu ul li .menu-mega .without-icon a {
         padding-left: 0; }
         .header-two .menu ul li .menu-mega .without-icon a::before {
@@ -1083,9 +1085,21 @@ input:-webkit-autofill:active {
       .header-two .menu ul li .menu-mega .landing-menu .detail-list:last-child {
         background: #f8f8fb; }
       .header-two .menu ul li .menu-mega .w-14 {
-        max-width: 95%;
+        max-width: 80%;
         position: absolute;
         right: 0; }
+        .header-two .menu ul li .menu-mega .w-14 .single-an a {
+          margin: 0 0 15px; }
+          .header-two .menu ul li .menu-mega .w-14 .single-an a .title {
+            color: #666E86; }
+            .header-two .menu ul li .menu-mega .w-14 .single-an a .title:hover {
+              color: #016be3; }
+          .header-two .menu ul li .menu-mega .w-14 .single-an a.d-clr .title {
+            color: #253053; }
+            .header-two .menu ul li .menu-mega .w-14 .single-an a.d-clr .title:hover {
+              color: #016be3; }
+          .header-two .menu ul li .menu-mega .w-14 .single-an a.mt-40 {
+            margin-top: 40px; }
       .header-two .menu ul li .menu-mega .w-900 {
         max-width: 60%;
         margin: 0 auto;
@@ -1093,6 +1107,15 @@ input:-webkit-autofill:active {
         right: 14%; }
         .header-two .menu ul li .menu-mega .w-900 .flex-3 {
           flex-basis: 50%; }
+      .header-two .menu ul li .menu-mega .w-small {
+        max-width: 340px;
+        margin: 0 auto;
+        position: absolute;
+        right: 30%; }
+        .header-two .menu ul li .menu-mega .w-small .flex-3 {
+          flex-basis: 100%; }
+          .header-two .menu ul li .menu-mega .w-small .flex-3 a {
+            padding-left: 0; }
       .header-two .menu ul li .menu-mega .w-200 {
         max-width: 20%;
         margin: 0 auto;
@@ -1141,14 +1164,14 @@ input:-webkit-autofill:active {
         width: max-content;
         height: auto;
         margin-top: 18px;
-        padding: 10px 40px 40px;
+        padding: 10px 35px 35px;
         z-index: 1;
         background: #fff;
-        border-radius: 20px;
+        border-radius: 10px;
         display: none;
         box-shadow: 4px 4px 60px rgba(112, 144, 176, 0.25); }
         .header-two .menu ul li.small-menu .small-menu-inner a {
-          font-weight: 500;
+          font-weight: normal;
           font-size: 16px;
           line-height: 20px;
           color: #253053;
@@ -1156,12 +1179,12 @@ input:-webkit-autofill:active {
           border-radius: 10px;
           display: block;
           position: relative;
-          padding-left: 50px; }
+          padding-left: 40px; }
           .header-two .menu ul li.small-menu .small-menu-inner a:hover {
             color: #016be3;
             text-decoration: underline; }
     .header-two .menu ul li.menu-item-has-children {
-      padding: 0 20px 18px; }
+      padding: 0 15px 18px; }
       .header-two .menu ul li.menu-item-has-children:hover > a {
         position: relative;
         text-decoration: underline; }
@@ -1211,9 +1234,9 @@ input:-webkit-autofill:active {
     text-transform: uppercase;
     color: #42526e !important; }
   .header-two .landing-menu.w-70 {
-    width: 370px;
+    width: 320px;
     position: absolute;
-    right: 20%; }
+    right: 30%; }
     .header-two .landing-menu.w-70 .w-66 {
       flex-basis: 100%; }
       .header-two .landing-menu.w-70 .w-66 .flex-3 {
@@ -1260,6 +1283,91 @@ input:-webkit-autofill:active {
           .header-two .landing-menu .w-66 .flex-1 .btnd a:hover {
             background: transparent;
             color: #016be3; }
+  .header-two .landing-menu.w-80 {
+    width: 400px;
+    position: absolute;
+    right: 19%; }
+    .header-two .landing-menu.w-80 .w-66 {
+      flex-basis: 100%; }
+      .header-two .landing-menu.w-80 .w-66 .flex-3 {
+        flex-basis: 100%; }
+  .header-two .landing-menu.industry-menu {
+    width: 54%;
+    right: 0; }
+    .header-two .landing-menu.industry-menu .dis-flex .flex-3 {
+      flex-basis: 50%; }
+  .header-two .hire-tab-menu .hiremenu {
+    background: #fff;
+    max-width: 670px;
+    width: 100%;
+    border-radius: 10px; }
+    .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs {
+      flex-basis: 35%;
+      border-right: 1px solid #e2e2e2;
+      padding: 35px; }
+      .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li {
+        display: block;
+        margin: 0 0 20px;
+        color: #253053;
+        position: relative; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li a {
+          color: #253053;
+          font-size: 16px; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li a:hover {
+            color: #016be3; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li:after {
+          content: '';
+          opacity: 0;
+          width: 3px;
+          height: 100%;
+          background: #016be3;
+          position: absolute;
+          right: -36px;
+          top: 0; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li:hover {
+          color: #016be3; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li:hover a {
+            color: #016be3; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li.is-active {
+          color: #016be3; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li.is-active a {
+            color: #016be3; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li.is-active:after {
+            opacity: 1; }
+    .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs {
+      flex-basis: 65%;
+      padding: 35px; }
+      .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content {
+        display: none; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text {
+          display: flex;
+          justify-content: space-between;
+          width: 100%; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column {
+            flex-basis: 50%; }
+            .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul li {
+              display: block;
+              margin: 0 0 20px;
+              color: #253053;
+              font-size: 16px; }
+              .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul li a {
+                color: #253053;
+                font-size: 16px; }
+                .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul li a:hover {
+                  color: #016be3;
+                  text-decoration: underline; }
+            .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column.full {
+              flex-basis: 100%; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content.is-active {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .learn-more {
+          color: #016be3;
+          font-size: 16px;
+          margin-top: 10px; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .learn-more:hover {
+            color: #016be3; }
 
 @media only screen and (min-width: 1200px) {
   .header-two > .container {
@@ -1269,6 +1377,13 @@ input:-webkit-autofill:active {
     max-width: 100%; }
   .header-two .menu ul li .menu-mega .detail-list {
     padding: 30px; }
+  .header-two .menu ul li.contact-nav a {
+    padding: 10px 25px; }
+  .header-two .menu ul li .menu-mega .w-900 {
+    max-width: 75%;
+    right: 0%; }
+  .header-two .menu ul li .landing-menu.industry-menu {
+    width: 65%; }
   .header-two .large {
     margin-top: -25px; }
   .header-two:hover {
@@ -1281,13 +1396,26 @@ input:-webkit-autofill:active {
     .header-two:hover {
       padding: 15px 0 10px; }
     .header-two .menu ul li.menu-item-has-children {
-      padding: 0 14px 18px; }
+      padding: 0 10px 18px; }
     .header-two .menu ul li.case-stud {
-      padding: 0 14px 18px; }
+      padding: 0 10px 18px; }
+    .header-two .menu ul li.contact-nav a {
+      padding: 10px 15px; } }
+@media only screen and (max-width: 1160px) {
+  .header-two .menu ul li a {
+    font-size: 16px; }
 
-  .header-two .menu ul li .menu-mega .flex-3 a,
-  .header-two .menu ul li .menu-mega .detail-list a {
-    font-size: 10px; } }
+  .header-two .menu ul li .menu-mega .flex-3 .title, .header-two .menu ul li .menu-mega .detail-list .title {
+    font-size: 15px; }
+
+  .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul li {
+    font-size: 15px; }
+
+  .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li {
+    font-size: 15px; }
+
+  .header-two .menu ul li.small-menu .small-menu-inner a {
+    font-size: 15px; } }
 @media only screen and (min-width: 1140px) {
   .header-two .header-item-left {
     flex: 0 0 45%; }
@@ -1303,11 +1431,13 @@ input:-webkit-autofill:active {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #1d1c39;
+    background: #05247E;
     z-index: 99;
     padding: 15px 0; }
     .header-two.header-bg {
       padding: 15px 0; }
+      .header-two.header-bg.sc-up .menu ul li a {
+        color: #ffffff; }
       .header-two.header-bg .header-item-center {
         display: block; }
     .header-two .header-item-center .brand img {
@@ -1329,7 +1459,7 @@ input:-webkit-autofill:active {
       flex-basis: 100%; }
     .header-two .width-55 {
       flex-basis: 100%;
-      background: #1d1c39; }
+      background: #05247E; }
     .header-two .width-75 {
       flex-basis: 100%; }
     .header-two .header-item-left {
@@ -1357,8 +1487,10 @@ input:-webkit-autofill:active {
           padding: 0; }
         .header-two .menu ul li.contact-nav a {
           margin-left: 0;
-          font-size: 18px;
+          font-size: 16px;
           width: 100%; }
+          .header-two .menu ul li.contact-nav a:hover {
+            color: #ffffff; }
         .header-two .menu ul li.menu-item-has-children > a {
           font-size: 16px;
           color: #fff; }
@@ -1406,14 +1538,15 @@ input:-webkit-autofill:active {
             height: auto;
             margin-top: 20px;
             padding: 0;
-            background: #1d1c39;
+            background: #05247E;
             border-radius: 0;
-            display: none; }
+            display: none;
+            box-shadow: none; }
             .header-two .menu ul li.small-menu .small-menu-inner a {
               font-size: 15px;
               line-height: 20px;
               color: #b5b5b5;
-              font-weight: 500;
+              font-weight: normal;
               margin-top: 20px;
               border-radius: 0;
               display: block;
@@ -1475,7 +1608,7 @@ input:-webkit-autofill:active {
               background: transparent; }
           .header-two .menu ul li .menu-mega .container {
             box-shadow: none;
-            background: #1d1c39;
+            background: #05247E;
             border-radius: 0; }
           .header-two .menu ul li .menu-mega .w-14 {
             width: 100%;
@@ -1486,6 +1619,12 @@ input:-webkit-autofill:active {
             max-width: 100%;
             position: static; }
             .header-two .menu ul li .menu-mega .w-900 .flex-3 {
+              flex-basis: 100%; }
+          .header-two .menu ul li .menu-mega .w-small {
+            width: 100%;
+            max-width: 100%;
+            position: static; }
+            .header-two .menu ul li .menu-mega .w-small .flex-3 {
               flex-basis: 100%; }
           .header-two .menu ul li .menu-mega .detail-list,
           .header-two .menu ul li .menu-mega .flex-3 {
@@ -1516,7 +1655,7 @@ input:-webkit-autofill:active {
                 font-size: 15px;
                 margin-bottom: 2px;
                 color: #fff;
-                font-weight: 500; }
+                font-weight: normal; }
               .header-two .menu ul li .menu-mega .detail-list a:hover,
               .header-two .menu ul li .menu-mega .flex-3 a:hover {
                 color: #fff; }
@@ -1528,7 +1667,10 @@ input:-webkit-autofill:active {
               font-size: 15px;
               margin-bottom: 2px;
               color: #fff;
-              font-weight: 500; }
+              font-weight: normal; }
+            .header-two .menu ul li .menu-mega .detail-list:last-child,
+            .header-two .menu ul li .menu-mega .flex-3:last-child {
+              background: #05247E; }
           .header-two .menu ul li .menu-mega .width-75 .head {
             margin-bottom: 0; }
             .header-two .menu ul li .menu-mega .width-75 .head.op-0 {
@@ -1539,7 +1681,7 @@ input:-webkit-autofill:active {
             .header-two .menu ul li .menu-mega .width-75 .width-50 a,
             .header-two .menu ul li .menu-mega .width-75 .width-25 a {
               margin: 15px 0 0;
-              font-weight: 500; }
+              font-weight: normal; }
           .header-two .menu ul li .menu-mega .width-75 .width-50:last-child a:nth-of-type(1) {
             margin-top: 0; }
           .header-two .menu ul li .menu-mega ::-webkit-scrollbar {
@@ -1590,15 +1732,12 @@ input:-webkit-autofill:active {
           .header-two .menu ul li .menu-mega .last-list a {
             color: #fff;
             width: calc(100% - 70px);
-            font-weight: 500;
             display: inline-block; }
           .header-two .menu ul li .menu-mega .header-menu.hiremenu .hr-list-item a,
           .header-two .menu ul li .menu-mega .left-list.hiremenu .hr-list-item a,
           .header-two .menu ul li .menu-mega .middle-list.hiremenu .hr-list-item a,
           .header-two .menu ul li .menu-mega .last-list.hiremenu .hr-list-item a {
-            font-weight: 500 !important;
             font-size: 12px !important;
-            font-weight: 500 !important;
             line-height: 15px;
             text-transform: uppercase;
             color: #42526e; }
@@ -1609,7 +1748,6 @@ input:-webkit-autofill:active {
           .header-two .menu ul li .menu-mega .last-list .head {
             margin-top: 0;
             color: #9f9f9f;
-            font-weight: 500;
             font-size: 12px; }
             .header-two .menu ul li .menu-mega .middle-list .head.op-0,
             .header-two .menu ul li .menu-mega .last-list .head.op-0 {
@@ -1673,8 +1811,11 @@ input:-webkit-autofill:active {
           .header-two .menu ul li .menu-mega .landing-menu .flex-3:nth-of-type(2):not(.without-icon) a:first-of-type,
           .header-two .menu ul li .menu-mega .landing-menu .detail-list:nth-of-type(2):not(.without-icon) a:first-of-type {
             margin-top: 0; }
+          .header-two .menu ul li .menu-mega .landing-menu .flex-3:last-child,
+          .header-two .menu ul li .menu-mega .landing-menu .detail-list:last-child {
+            background: #05247E; }
           .header-two .menu ul li .menu-mega .landing-menu .flex-3:last-child {
-            background: #1d1c39; }
+            background: #05247E; }
         .header-two .menu ul li a {
           padding-right: 0;
           border: 0;
@@ -1687,7 +1828,7 @@ input:-webkit-autofill:active {
         position: fixed;
         top: 55px;
         left: 0;
-        background: #1d1c39;
+        background: #05247E;
         width: 100%;
         height: 100%;
         padding: 20px 20px 100px !important;
@@ -1715,7 +1856,7 @@ input:-webkit-autofill:active {
       height: 100%;
       top: 0;
       left: 0;
-      background: #1d1c39;
+      background: #05247E;
       padding: 20px;
       display: none;
       overflow-y: auto; }
@@ -1784,7 +1925,6 @@ input:-webkit-autofill:active {
       margin: 6px 0;
       transition: all 0.3s ease-in-out; }
     .header-two .mback {
-      font-weight: 500;
       font-size: 16px;
       line-height: 20px;
       color: #ffffff !important;
@@ -1818,7 +1958,7 @@ input:-webkit-autofill:active {
       transform: rotate(45deg) translate(-5px, -3px); }
     .header-two .landing-menu .w-66 {
       flex-basis: 100%;
-      padding: 0 0 30px; }
+      padding: 0; }
       .header-two .landing-menu .w-66 .flex-3 {
         flex-basis: 100%; }
         .header-two .landing-menu .w-66 .flex-3:nth-child(2n) a:first-of-type {
@@ -1864,6 +2004,61 @@ input:-webkit-autofill:active {
       .header-two .landing-menu.w-70 .w-66 {
         flex-basis: 100%;
         padding: 0; }
+    .header-two .landing-menu.w-80 {
+      width: 100%;
+      position: inherit;
+      right: auto; }
+    .header-two .landing-menu.industry-menu {
+      width: 100%;
+      position: inherit;
+      right: auto; }
+      .header-two .landing-menu.industry-menu .dis-flex .flex-3 {
+        flex-basis: 100%; }
+    .header-two .hire-tab-menu .hiremenu {
+      max-width: 100%;
+      width: 100%;
+      border-radius: 5px; }
+      .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs {
+        flex-basis: 45%;
+        padding: 15px; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav {
+          margin: 10px 0 0; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li {
+            display: block;
+            margin: 0 0 15px; }
+            .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li a {
+              font-size: 15px; }
+            .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li:after {
+              right: -15px; }
+      .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs {
+        flex-basis: 55%;
+        padding: 15px; }
+        .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column {
+          flex-basis: 50%; }
+          .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul {
+            margin: 10px 0 0; }
+            .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul li {
+              margin: 0 0 15px;
+              font-size: 15px; }
+              .header-two .hire-tab-menu .hiremenu .tab-contents .right-tabs .tab-content .tab-text .column ul li a {
+                font-size: 15px;
+                width: 100%; }
+    .header-two:hover .hamberger-menu .bar1,
+    .header-two:hover .hamberger-menu .bar2,
+    .header-two:hover .hamberger-menu .bar3 {
+      background: #05247E; }
+    .header-two:hover .hamberger-menu.open-close .bar1,
+    .header-two:hover .hamberger-menu.open-close .bar2,
+    .header-two:hover .hamberger-menu.open-close .bar3 {
+      background: #ffffff; }
+    .header-two.header-bg.sc-up .hamberger-menu .bar1,
+    .header-two.header-bg.sc-up .hamberger-menu .bar2,
+    .header-two.header-bg.sc-up .hamberger-menu .bar3 {
+      background: #05247E; }
+    .header-two.header-bg.sc-up .hamberger-menu.open-close .bar1,
+    .header-two.header-bg.sc-up .hamberger-menu.open-close .bar2,
+    .header-two.header-bg.sc-up .hamberger-menu.open-close .bar3 {
+      background: #ffffff; }
 
   .header-two .menu ul li.menu-item-has-children:hover > a::after {
     display: none; }
@@ -1893,10 +2088,10 @@ input:-webkit-autofill:active {
     border: 0; }
 
   .service-menu-cl .header-two {
-    background: #05247e; }
+    background: #05247E; }
 
   .service-menu-cl .header-two:hover {
-    background: #05247e; }
+    background: #05247E; }
 
   .header-two .menu ul li.case-stud > a {
     font-size: 16px;
@@ -3128,6 +3323,504 @@ input:-webkit-autofill:active {
       top: 7px; }
   .faq .faq-accordion-default .faq-accordion-content-default {
     opacity: 1; } }
+.banner-with-form {
+  background: linear-gradient(270deg, #0B147C 21.77%, #4B1BAC 100%);
+  position: relative; }
+  .banner-with-form .breadcrumbs {
+    font-weight: 400;
+    margin: 0 0 5px; }
+    .banner-with-form .breadcrumbs.service-breadcrumbs {
+      color: #ffffff; }
+    .banner-with-form .breadcrumbs a {
+      color: rgba(255, 255, 255, 0.5); }
+      .banner-with-form .breadcrumbs a:after {
+        background: url(../../assets/images/breadcrumbs-arrow2.png) 0 1px no-repeat;
+        background-size: 100%;
+        opacity: 0.6; }
+      .banner-with-form .breadcrumbs a:hover {
+        color: #ffffff; }
+  .banner-with-form .dis-flex {
+    padding: 40px 0 0; }
+    .banner-with-form .dis-flex .hire-content {
+      width: 46%;
+      position: relative; }
+      .banner-with-form .dis-flex .hire-content h1 {
+        color: #ffffff;
+        margin: 0 0 20px; }
+      .banner-with-form .dis-flex .hire-content h2 {
+        font-weight: 500;
+        font-family: "Rubik";
+        font-size: 18px;
+        color: #ffffff;
+        margin: 0 0 20px;
+        line-height: 1.3; }
+      .banner-with-form .dis-flex .hire-content p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 18px;
+        margin: 0 0 15px;
+        line-height: 29px; }
+        .banner-with-form .dis-flex .hire-content p.white-txt {
+          color: #ffffff; }
+      .banner-with-form .dis-flex .hire-content span {
+        color: rgba(255, 255, 255, 0.8); }
+      .banner-with-form .dis-flex .hire-content ul li {
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 400;
+        font-size: 18px;
+        position: relative;
+        margin: 0 0 12px;
+        padding-left: 20px; }
+        .banner-with-form .dis-flex .hire-content ul li:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 8px;
+          width: 8px;
+          height: 8px;
+          background: rgba(255, 255, 255, 0.8);
+          border-radius: 50%; }
+    .banner-with-form .dis-flex .hire-form {
+      position: relative;
+      flex-basis: 38%;
+      border-radius: 30px; }
+      .banner-with-form .dis-flex .hire-form:before {
+        content: "";
+        display: block;
+        background: url(../images/hire-shape.png) top center no-repeat;
+        background-size: 100%;
+        width: 138px;
+        height: 150px;
+        position: absolute;
+        top: 80px;
+        left: -221px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap {
+        border-radius: 0 0 30px 30px;
+        position: relative;
+        z-index: 9; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec {
+          height: 200px;
+          background: #201481;
+          border-radius: 30px 30px 0 0;
+          position: relative; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .top-sec:before {
+            content: "";
+            background: url(../images/shape-bg.png) no-repeat center;
+            width: 494px;
+            height: 202px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background-size: 100%; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
+            margin-top: -60px;
+            height: 260px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
+          padding: 20px 30px;
+          background: #ffffff; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
+            display: flex;
+            align-items: baseline;
+            position: relative;
+            flex-wrap: wrap;
+            margin: 25px 0 0;
+            justify-content: center; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
+              background: #016be3;
+              border: 1px solid #016be3;
+              min-width: 200px;
+              text-transform: capitalize;
+              font-size: 16px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn:hover {
+                background: #fff;
+                color: #016be3; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .info-wrap {
+              margin: 8px 0 0; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .info-wrap P {
+                color: #414141;
+                line-height: 1.3;
+                opacity: 0.7;
+                font-size: 13px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide {
+              padding: 0 10px;
+              display: inline-block;
+              position: relative;
+              color: #414141;
+              opacity: 0.3;
+              font-size: 12px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:before {
+                content: "";
+                clear: both;
+                display: block;
+                width: 1px;
+                height: 16px;
+                position: absolute;
+                background: #414141;
+                top: -20px;
+                left: 19px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:after {
+                content: "";
+                clear: both;
+                display: block;
+                width: 1px;
+                height: 16px;
+                background: #414141;
+                position: absolute;
+                bottom: -20px;
+                left: 19px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con {
+              color: #414141;
+              font-size: 16px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con a {
+                color: #414141;
+                opacity: 0.5;
+                text-decoration: underline; }
+        .banner-with-form .dis-flex .hire-form .form-wrap h3 {
+          font-weight: 600;
+          color: #414141;
+          font-size: 28px;
+          line-height: 45px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap p {
+          font-size: 18px;
+          color: rgba(65, 65, 65, 0.9); }
+        .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
+          padding: 20px 30px;
+          border-top: 3px solid #e2edfa;
+          background: #ffffff;
+          border-radius: 0 0 30px 30px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .use-form {
+            display: block;
+            color: #414141;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .use-form:hover {
+              text-decoration: underline; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list {
+            position: relative;
+            margin: 15px 0 0; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul {
+              display: flex;
+              justify-content: center; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
+                position: relative;
+                padding: 0 22px;
+                font-size: 12px;
+                margin: 0 7px;
+                color: #414141;
+                line-height: 1.2;
+                border-right: 1px solid #414141; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:last-child {
+                  border: 0; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:before {
+                  content: "";
+                  clear: both;
+                  display: block;
+                  background: url(../images/list-check.png) top center no-repeat;
+                  background-size: auto;
+                  background-size: 100%;
+                  width: 13px;
+                  height: 13px;
+                  position: absolute;
+                  top: 1px;
+                  left: 0; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:after {
+                  width: calc(100% - 40px);
+                  content: "";
+                  border-top: 1px dashed #666666;
+                  height: 1px;
+                  position: absolute;
+                  bottom: -3px;
+                  left: 20px; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process {
+                  position: relative; }
+                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:before {
+                    background: url(../images/pro-icon.png) top center no-repeat;
+                    width: 13px;
+                    background-size: 100%; }
+                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info {
+                    width: 315px;
+                    background: #eaf2ff;
+                    border-radius: 10px;
+                    padding: 15px;
+                    position: absolute;
+                    box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
+                    bottom: -143px;
+                    right: -40px;
+                    opacity: 0;
+                    transition: all 0.3s ease-in-out;
+                    visibility: hidden; }
+                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4 {
+                      font-weight: 500;
+                      font-size: 14px;
+                      color: #000;
+                      margin: 0 0 5px;
+                      position: relative; }
+                      .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4:before {
+                        content: "";
+                        clear: both;
+                        display: block;
+                        background: url(../images/ex-arrow.png) top center no-repeat;
+                        background-size: auto;
+                        background-size: 100%;
+                        width: 25px;
+                        height: 25px;
+                        position: absolute;
+                        top: -31px;
+                        right: 30px; }
+                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info p {
+                      font-size: 10px;
+                      line-height: 26px;
+                      color: #000;
+                      line-height: 16px;
+                      margin: 0; }
+                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:hover {
+                    cursor: pointer;
+                    color: #016be3; }
+                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:hover .info {
+                      opacity: 1;
+                      visibility: visible; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.list:before {
+                  background: url(../images/pro-icon2.png) top center no-repeat;
+                  width: 13px;
+                  background-size: 100%; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:first-child .info {
+                  right: auto;
+                  left: 0; }
+      .banner-with-form .dis-flex .hire-form .info-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .banner-with-form .dis-flex .hire-form .info-wrap p {
+          margin: 0; }
+        .banner-with-form .dis-flex .hire-form .info-wrap .info {
+          margin-left: 10px;
+          display: inline-block;
+          position: relative;
+          cursor: pointer; }
+          .banner-with-form .dis-flex .hire-form .info-wrap .info:after {
+            content: "";
+            width: 14px;
+            height: 15px;
+            background: url(../images/info-icon.svg) 0 0 no-repeat;
+            position: absolute;
+            top: 0;
+            transform: translateY(-50%);
+            left: 0; }
+          .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content {
+            width: 315px;
+            border-radius: 10px;
+            background: #eaf2ff;
+            box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
+            padding: 15px;
+            position: absolute;
+            top: 20px;
+            left: -75px;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            visibility: hidden;
+            text-align: left;
+            line-height: initial;
+            z-index: 9; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content h4 {
+              font-size: 14px;
+              color: #000;
+              margin: 0 0 5px; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content p {
+              font-size: 11px;
+              color: #000;
+              line-height: 160%;
+              margin: 0 0 5px;
+              font-weight: normal; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore {
+              font-size: 11px;
+              margin: 10px 0 0;
+              text-decoration: underline;
+              position: relative;
+              color: #000; }
+              .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:after {
+                content: "";
+                background: url(../images/know-arrow.png) 0 0 no-repeat;
+                width: 8px;
+                display: inline-block;
+                height: 8px;
+                margin-left: 5px;
+                transition: all 0.3s ease-in-out; }
+              .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:hover {
+                text-decoration: none;
+                color: #000; }
+                .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:hover:after {
+                  margin-left: 10px; }
+            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content:before {
+              content: "";
+              clear: both;
+              display: block;
+              background: url(../images/ex-arrow.png) top center no-repeat;
+              background-size: auto;
+              background-size: 100%;
+              width: 25px;
+              height: 25px;
+              position: absolute;
+              top: -11px;
+              left: 68px; }
+          .banner-with-form .dis-flex .hire-form .info-wrap .info:hover .info-content {
+            opacity: 1;
+            visibility: visible; }
+  .banner-with-form:after {
+    content: "";
+    display: block;
+    background: url(../images/banner-shape.png) top center no-repeat;
+    background-size: 100%;
+    width: 662px;
+    height: 552px;
+    position: absolute;
+    top: 15%;
+    right: 0; }
+
+@media (max-width: 1440px) {
+  .banner-with-form .dis-flex .hire-form {
+    flex-basis: 41%; } }
+@media (max-width: 1366px) {
+  .banner-with-form .dis-flex .hire-form {
+    flex-basis: 45%; }
+    .banner-with-form .dis-flex .hire-form:before {
+      display: none; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
+      padding: 20px 20px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
+        margin: 20px 0 0; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
+          min-width: 170px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap h3 {
+      font-size: 24px;
+      line-height: 40px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
+      padding: 20px 20px; }
+  .banner-with-form:after {
+    width: 616px;
+    height: 500px; } }
+@media (max-width: 1080px) {
+  .banner-with-form {
+    padding: 100px 0; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .top-sec:before {
+      width: 100%; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
+      min-width: auto; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
+      padding: 20px 20px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
+        padding: 0 20px;
+        margin: 0 5px; }
+    .banner-with-form:after {
+      width: 530px;
+      height: 400px; } }
+@media (max-width: 991px) {
+  .banner-with-form {
+    padding: 90px 0 60px; }
+    .banner-with-form .breadcrumbs {
+      top: 50px; }
+    .banner-with-form .dis-flex {
+      padding: 60px 0 0; }
+      .banner-with-form .dis-flex .hire-content {
+        width: 100%; }
+        .banner-with-form .dis-flex .hire-content h1 {
+          margin: 0 0 15px; }
+      .banner-with-form .dis-flex .hire-form {
+        flex-basis: 100%;
+        margin: 60px 0 0; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
+          margin-top: -45px;
+          height: 248px; }
+    .banner-with-form:after {
+      display: none; } }
+@media (max-width: 767px) {
+  .banner-with-form {
+    padding-bottom: 40px;
+    padding-top: 80px; }
+    .banner-with-form .breadcrumbs {
+      top: 60px; }
+    .banner-with-form .dis-flex {
+      padding: 70px 0 0; }
+      .banner-with-form .dis-flex .hire-content p {
+        margin: 0 0 15px;
+        font-size: 16px;
+        line-height: 27px; }
+      .banner-with-form .dis-flex .hire-content ul li {
+        font-size: 16px;
+        margin: 0 0 8px;
+        padding-left: 18px; }
+        .banner-with-form .dis-flex .hire-content ul li:before {
+          top: 10px;
+          width: 7px;
+          height: 7px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap {
+        border-radius: 20px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap p {
+          font-size: 16px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div {
+          flex-basis: 100%; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
+            min-width: 200px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide {
+          width: 100%;
+          text-align: center;
+          padding: 5px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:before {
+            width: 16px;
+            height: 1px;
+            display: inline-block;
+            position: initial;
+            margin-right: 5px;
+            vertical-align: middle; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:after {
+            width: 16px;
+            height: 1px;
+            display: inline-block;
+            position: initial;
+            margin-left: 5px;
+            vertical-align: middle; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
+          padding: 10px 20px 20px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
+            line-height: 1.3;
+            font-size: 11px;
+            padding: 0 10px 0 18px;
+            font-size: 11px;
+            margin: 0 4px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:before {
+              top: 0px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:after {
+              width: calc(100% - 40px);
+              height: 1px;
+              left: 20px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:before {
+              top: 1px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info {
+              width: 280px;
+              padding: 10px;
+              bottom: -130px;
+              z-index: 999; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4 {
+                font-size: 12px;
+                margin: 0 0 4px; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4:before {
+                  width: 20px;
+                  height: 20px;
+                  top: -23px;
+                  right: 25px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info p {
+                font-size: 10px;
+                line-height: 26px;
+                color: #000;
+                line-height: 16px; }
+      .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content {
+        width: 196px;
+        top: 22px;
+        left: -73px;
+        text-align: center; }
+        .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content h4 {
+          line-height: 20px; } }
 .tech-stack-v1 .techsec .techrow {
   display: flex;
   justify-content: space-between;
@@ -4065,504 +4758,6 @@ input:-webkit-autofill:active {
       max-width: 341px;
       top: 69px;
       left: 0; } }
-.banner-with-form {
-  background: linear-gradient(270deg, #0B147C 21.77%, #4B1BAC 100%);
-  position: relative; }
-  .banner-with-form .breadcrumbs {
-    font-weight: 400;
-    margin: 0 0 5px; }
-    .banner-with-form .breadcrumbs.service-breadcrumbs {
-      color: #ffffff; }
-    .banner-with-form .breadcrumbs a {
-      color: rgba(255, 255, 255, 0.5); }
-      .banner-with-form .breadcrumbs a:after {
-        background: url(../../assets/images/breadcrumbs-arrow2.png) 0 1px no-repeat;
-        background-size: 100%;
-        opacity: 0.6; }
-      .banner-with-form .breadcrumbs a:hover {
-        color: #ffffff; }
-  .banner-with-form .dis-flex {
-    padding: 40px 0 0; }
-    .banner-with-form .dis-flex .hire-content {
-      width: 46%;
-      position: relative; }
-      .banner-with-form .dis-flex .hire-content h1 {
-        color: #ffffff;
-        margin: 0 0 20px; }
-      .banner-with-form .dis-flex .hire-content h2 {
-        font-weight: 500;
-        font-family: "Rubik";
-        font-size: 18px;
-        color: #ffffff;
-        margin: 0 0 20px;
-        line-height: 1.3; }
-      .banner-with-form .dis-flex .hire-content p {
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 18px;
-        margin: 0 0 15px;
-        line-height: 29px; }
-        .banner-with-form .dis-flex .hire-content p.white-txt {
-          color: #ffffff; }
-      .banner-with-form .dis-flex .hire-content span {
-        color: rgba(255, 255, 255, 0.8); }
-      .banner-with-form .dis-flex .hire-content ul li {
-        color: rgba(255, 255, 255, 0.8);
-        font-weight: 400;
-        font-size: 18px;
-        position: relative;
-        margin: 0 0 12px;
-        padding-left: 20px; }
-        .banner-with-form .dis-flex .hire-content ul li:before {
-          content: "";
-          position: absolute;
-          left: 0;
-          top: 8px;
-          width: 8px;
-          height: 8px;
-          background: rgba(255, 255, 255, 0.8);
-          border-radius: 50%; }
-    .banner-with-form .dis-flex .hire-form {
-      position: relative;
-      flex-basis: 38%;
-      border-radius: 30px; }
-      .banner-with-form .dis-flex .hire-form:before {
-        content: "";
-        display: block;
-        background: url(../images/hire-shape.png) top center no-repeat;
-        background-size: 100%;
-        width: 138px;
-        height: 150px;
-        position: absolute;
-        top: 80px;
-        left: -221px; }
-      .banner-with-form .dis-flex .hire-form .form-wrap {
-        border-radius: 0 0 30px 30px;
-        position: relative;
-        z-index: 9; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec {
-          height: 200px;
-          background: #201481;
-          border-radius: 30px 30px 0 0;
-          position: relative; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .top-sec:before {
-            content: "";
-            background: url(../images/shape-bg.png) no-repeat center;
-            width: 494px;
-            height: 202px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            margin: 0 auto;
-            background-size: 100%; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
-            margin-top: -60px;
-            height: 260px; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
-          padding: 20px 30px;
-          background: #ffffff; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
-            display: flex;
-            align-items: baseline;
-            position: relative;
-            flex-wrap: wrap;
-            margin: 25px 0 0;
-            justify-content: center; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
-              background: #016be3;
-              border: 1px solid #016be3;
-              min-width: 200px;
-              text-transform: capitalize;
-              font-size: 16px; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn:hover {
-                background: #fff;
-                color: #016be3; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .info-wrap {
-              margin: 8px 0 0; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .info-wrap P {
-                color: #414141;
-                line-height: 1.3;
-                opacity: 0.7;
-                font-size: 13px; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide {
-              padding: 0 10px;
-              display: inline-block;
-              position: relative;
-              color: #414141;
-              opacity: 0.3;
-              font-size: 12px; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:before {
-                content: "";
-                clear: both;
-                display: block;
-                width: 1px;
-                height: 16px;
-                position: absolute;
-                background: #414141;
-                top: -20px;
-                left: 19px; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:after {
-                content: "";
-                clear: both;
-                display: block;
-                width: 1px;
-                height: 16px;
-                background: #414141;
-                position: absolute;
-                bottom: -20px;
-                left: 19px; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con {
-              color: #414141;
-              font-size: 16px; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con a {
-                color: #414141;
-                opacity: 0.5;
-                text-decoration: underline; }
-        .banner-with-form .dis-flex .hire-form .form-wrap h3 {
-          font-weight: 600;
-          color: #414141;
-          font-size: 28px;
-          line-height: 45px; }
-        .banner-with-form .dis-flex .hire-form .form-wrap p {
-          font-size: 18px;
-          color: rgba(65, 65, 65, 0.9); }
-        .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
-          padding: 20px 30px;
-          border-top: 3px solid #e2edfa;
-          background: #ffffff;
-          border-radius: 0 0 30px 30px; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .use-form {
-            display: block;
-            color: #414141;
-            font-size: 14px;
-            font-weight: 400;
-            text-decoration: none; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .use-form:hover {
-              text-decoration: underline; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list {
-            position: relative;
-            margin: 15px 0 0; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul {
-              display: flex;
-              justify-content: center; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
-                position: relative;
-                padding: 0 22px;
-                font-size: 12px;
-                margin: 0 7px;
-                color: #414141;
-                line-height: 1.2;
-                border-right: 1px solid #414141; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:last-child {
-                  border: 0; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:before {
-                  content: "";
-                  clear: both;
-                  display: block;
-                  background: url(../images/list-check.png) top center no-repeat;
-                  background-size: auto;
-                  background-size: 100%;
-                  width: 13px;
-                  height: 13px;
-                  position: absolute;
-                  top: 1px;
-                  left: 0; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:after {
-                  width: calc(100% - 40px);
-                  content: "";
-                  border-top: 1px dashed #666666;
-                  height: 1px;
-                  position: absolute;
-                  bottom: -3px;
-                  left: 20px; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process {
-                  position: relative; }
-                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:before {
-                    background: url(../images/pro-icon.png) top center no-repeat;
-                    width: 13px;
-                    background-size: 100%; }
-                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info {
-                    width: 315px;
-                    background: #eaf2ff;
-                    border-radius: 10px;
-                    padding: 15px;
-                    position: absolute;
-                    box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
-                    bottom: -143px;
-                    right: -40px;
-                    opacity: 0;
-                    transition: all 0.3s ease-in-out;
-                    visibility: hidden; }
-                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4 {
-                      font-weight: 500;
-                      font-size: 14px;
-                      color: #000;
-                      margin: 0 0 5px;
-                      position: relative; }
-                      .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4:before {
-                        content: "";
-                        clear: both;
-                        display: block;
-                        background: url(../images/ex-arrow.png) top center no-repeat;
-                        background-size: auto;
-                        background-size: 100%;
-                        width: 25px;
-                        height: 25px;
-                        position: absolute;
-                        top: -31px;
-                        right: 30px; }
-                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info p {
-                      font-size: 10px;
-                      line-height: 26px;
-                      color: #000;
-                      line-height: 16px;
-                      margin: 0; }
-                  .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:hover {
-                    cursor: pointer;
-                    color: #016be3; }
-                    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:hover .info {
-                      opacity: 1;
-                      visibility: visible; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.list:before {
-                  background: url(../images/pro-icon2.png) top center no-repeat;
-                  width: 13px;
-                  background-size: 100%; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:first-child .info {
-                  right: auto;
-                  left: 0; }
-      .banner-with-form .dis-flex .hire-form .info-wrap {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .banner-with-form .dis-flex .hire-form .info-wrap p {
-          margin: 0; }
-        .banner-with-form .dis-flex .hire-form .info-wrap .info {
-          margin-left: 10px;
-          display: inline-block;
-          position: relative;
-          cursor: pointer; }
-          .banner-with-form .dis-flex .hire-form .info-wrap .info:after {
-            content: "";
-            width: 14px;
-            height: 15px;
-            background: url(../images/info-icon.svg) 0 0 no-repeat;
-            position: absolute;
-            top: 0;
-            transform: translateY(-50%);
-            left: 0; }
-          .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content {
-            width: 315px;
-            border-radius: 10px;
-            background: #eaf2ff;
-            box-shadow: 0px 4px 35px rgba(227, 233, 245, 0.5);
-            padding: 15px;
-            position: absolute;
-            top: 20px;
-            left: -75px;
-            opacity: 0;
-            transition: all 0.3s ease-in-out;
-            visibility: hidden;
-            text-align: left;
-            line-height: initial;
-            z-index: 9; }
-            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content h4 {
-              font-size: 14px;
-              color: #000;
-              margin: 0 0 5px; }
-            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content p {
-              font-size: 11px;
-              color: #000;
-              line-height: 160%;
-              margin: 0 0 5px;
-              font-weight: normal; }
-            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore {
-              font-size: 11px;
-              margin: 10px 0 0;
-              text-decoration: underline;
-              position: relative;
-              color: #000; }
-              .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:after {
-                content: "";
-                background: url(../images/know-arrow.png) 0 0 no-repeat;
-                width: 8px;
-                display: inline-block;
-                height: 8px;
-                margin-left: 5px;
-                transition: all 0.3s ease-in-out; }
-              .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:hover {
-                text-decoration: none;
-                color: #000; }
-                .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content .kmore:hover:after {
-                  margin-left: 10px; }
-            .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content:before {
-              content: "";
-              clear: both;
-              display: block;
-              background: url(../images/ex-arrow.png) top center no-repeat;
-              background-size: auto;
-              background-size: 100%;
-              width: 25px;
-              height: 25px;
-              position: absolute;
-              top: -11px;
-              left: 68px; }
-          .banner-with-form .dis-flex .hire-form .info-wrap .info:hover .info-content {
-            opacity: 1;
-            visibility: visible; }
-  .banner-with-form:after {
-    content: "";
-    display: block;
-    background: url(../images/banner-shape.png) top center no-repeat;
-    background-size: 100%;
-    width: 662px;
-    height: 552px;
-    position: absolute;
-    top: 15%;
-    right: 0; }
-
-@media (max-width: 1440px) {
-  .banner-with-form .dis-flex .hire-form {
-    flex-basis: 41%; } }
-@media (max-width: 1366px) {
-  .banner-with-form .dis-flex .hire-form {
-    flex-basis: 45%; }
-    .banner-with-form .dis-flex .hire-form:before {
-      display: none; }
-    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
-      padding: 20px 20px; }
-      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
-        margin: 20px 0 0; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
-          min-width: 170px; }
-    .banner-with-form .dis-flex .hire-form .form-wrap h3 {
-      font-size: 24px;
-      line-height: 40px; }
-    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
-      padding: 20px 20px; }
-  .banner-with-form:after {
-    width: 616px;
-    height: 500px; } }
-@media (max-width: 1080px) {
-  .banner-with-form {
-    padding: 100px 0; }
-    .banner-with-form .dis-flex .hire-form .form-wrap .top-sec:before {
-      width: 100%; }
-    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
-      min-width: auto; }
-    .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
-      padding: 20px 20px; }
-      .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
-        padding: 0 20px;
-        margin: 0 5px; }
-    .banner-with-form:after {
-      width: 530px;
-      height: 400px; } }
-@media (max-width: 991px) {
-  .banner-with-form {
-    padding: 90px 0 60px; }
-    .banner-with-form .breadcrumbs {
-      top: 50px; }
-    .banner-with-form .dis-flex {
-      padding: 60px 0 0; }
-      .banner-with-form .dis-flex .hire-content {
-        width: 100%; }
-        .banner-with-form .dis-flex .hire-content h1 {
-          margin: 0 0 15px; }
-      .banner-with-form .dis-flex .hire-form {
-        flex-basis: 100%;
-        margin: 60px 0 0; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
-          margin-top: -45px;
-          height: 248px; }
-    .banner-with-form:after {
-      display: none; } }
-@media (max-width: 767px) {
-  .banner-with-form {
-    padding-bottom: 40px;
-    padding-top: 80px; }
-    .banner-with-form .breadcrumbs {
-      top: 60px; }
-    .banner-with-form .dis-flex {
-      padding: 70px 0 0; }
-      .banner-with-form .dis-flex .hire-content p {
-        margin: 0 0 15px;
-        font-size: 16px;
-        line-height: 27px; }
-      .banner-with-form .dis-flex .hire-content ul li {
-        font-size: 16px;
-        margin: 0 0 8px;
-        padding-left: 18px; }
-        .banner-with-form .dis-flex .hire-content ul li:before {
-          top: 10px;
-          width: 7px;
-          height: 7px; }
-      .banner-with-form .dis-flex .hire-form .form-wrap {
-        border-radius: 20px; }
-        .banner-with-form .dis-flex .hire-form .form-wrap p {
-          font-size: 16px; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div {
-          flex-basis: 100%; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
-            min-width: 200px; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide {
-          width: 100%;
-          text-align: center;
-          padding: 5px; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:before {
-            width: 16px;
-            height: 1px;
-            display: inline-block;
-            position: initial;
-            margin-right: 5px;
-            vertical-align: middle; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:after {
-            width: 16px;
-            height: 1px;
-            display: inline-block;
-            position: initial;
-            margin-left: 5px;
-            vertical-align: middle; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
-          padding: 10px 20px 20px; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li {
-            line-height: 1.3;
-            font-size: 11px;
-            padding: 0 10px 0 18px;
-            font-size: 11px;
-            margin: 0 4px; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:before {
-              top: 0px; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li:after {
-              width: calc(100% - 40px);
-              height: 1px;
-              left: 20px; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process:before {
-              top: 1px; }
-            .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info {
-              width: 280px;
-              padding: 10px;
-              bottom: -130px;
-              z-index: 999; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4 {
-                font-size: 12px;
-                margin: 0 0 4px; }
-                .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info h4:before {
-                  width: 20px;
-                  height: 20px;
-                  top: -23px;
-                  right: 25px; }
-              .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec .frm-list ul li.process .info p {
-                font-size: 10px;
-                line-height: 26px;
-                color: #000;
-                line-height: 16px; }
-      .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content {
-        width: 196px;
-        top: 22px;
-        left: -73px;
-        text-align: center; }
-        .banner-with-form .dis-flex .hire-form .info-wrap .info .info-content h4 {
-          line-height: 20px; } }
 .why-choose-three-column-section {
   counter-reset: section; }
   .why-choose-three-column-section .threebox .flex-3 {

@@ -597,6 +597,44 @@
          
          });
          });
+
+
+
+
+
+         var menutabs1 = document.getElementById("menutabs1");
+if (menutabs1) {
+    !(function () {
+        "use strict";
+        var e = function (e) {
+            var t = document.querySelector(e.el),
+                s = t.querySelectorAll(e.tabNavigationLinks),
+                a = t.querySelectorAll(e.tabContentContainers),
+                n = 0,
+                r = !1,
+                l = function (e, t) {
+                    e.addEventListener("click", function (e) {
+                        e.preventDefault(), o(t);
+                    });
+                },
+                o = function (e) {
+                    e !== n && e >= 0 && e <= s.length && (s[n].classList.remove("is-active"), s[e].classList.add("is-active"), a[n].classList.remove("is-active"), a[e].classList.add("is-active"), (n = e));
+                };
+            return {
+                init: function () {
+                    if (!r) {
+                        (r = !0), t.classList.remove("no-js");
+                        for (var e = 0; e < s.length; e++) l(s[e], e);
+                    }
+                },
+                goToTab: o,
+            };
+        };
+        window.tabs = e;
+    })();
+    var e = tabs({ el: "#menutabs1", tabNavigationLinks: ".tab-link", tabContentContainers: ".tab-content" });
+    e.init();
+}
       
       
       
