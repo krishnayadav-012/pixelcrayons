@@ -56,7 +56,7 @@
     opacity: 0.9;
     margin-top: 20px;
     display: block;
-    font-family: 'Noto Sans'; }
+    }
 
 .clients-content-section {
   margin-top: 60px; }
@@ -92,7 +92,7 @@
       line-height: 17px;
       color: #253053;
       opacity: 0.9;
-      font-family: 'Noto Sans'; }
+      }
     .clients-content-section .content-box .title-box {
       margin-top: 20px; }
       .clients-content-section .content-box .title-box p {

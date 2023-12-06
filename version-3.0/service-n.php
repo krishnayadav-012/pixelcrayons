@@ -11,51 +11,8 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/service.min.css" as="style"/>
   </head>
   <body id="themeAdd">
-    <?php require_once 'assets/include/menu.php'; ?>
-    <section class="banner-main padding-t-120 padding-b-120 ">
-      <div class="container">
-        <div class="hire-content margin-t-80 text-center">
-          <span>Most Trusted Custom</span>
-          <h1>Software Development Company India</h1>
-          <span>#Top Rated Software Engineering Firm India, On-Demand Software Teams</span>
-          <br />
-          <br />
-          <p>An award-winning custom software development company in India, PixelCrayons adopts the best practices
-            to deliver
-            secure, robust, and scalable software development services to startups, SMEs, and enterprises.
-          </p>
-          <p>Our software designing & development company lets businesses revolutionize and gain a competitive
-            edge with the expert delivery of creative, tailor-made software. Backed by 650+ full time
-            professionals with over 5 years of average experience, we employ modern technologies like IoT,
-            AR/VR, Artificial Intelligence, Machine Learning, and Blockchain in offering customized software
-            solutions.
-          </p>
-          <div class="dis-flex counter-container">
-            <div class="hire-counter ">
-              <div>12500+ </div>
-              <span>Projects Launched</span>
-            </div>
-            <div class="hire-counter ">
-              <div>17+ </div>
-              <span>Years Experience</span>
-            </div>
-            <div class="hire-counter">
-              <div>5400+ </div>
-              <span>Satisfied Customers</span>
-            </div>
-            <div class="hire-counter ">
-              <div>97%+ </div>
-              <span>Client Retention</span>
-            </div>
-          </div>
-          <div class="service-custom-software-btn text-center btn-container">
-            <a href="#" target="_blank" class="white-btn white">Contact Us Now</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Clients logo section -->
-    <?php require_once 'assets/include/awards.php'; ?>
+   
+  
     <!-- SaaS Development Company In India-->
     <section class="why-choose-three-column-section expertise padding-t-120 padding-b-120">
       <div class="container">

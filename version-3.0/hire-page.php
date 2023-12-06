@@ -13,7 +13,7 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/hirepage.min.css" as="style" />
   </head>
   <body id="themeAdd">
-    <?php require_once '../assets/include/menu-v2nb.php'; ?>
+  <?php require_once 'assets/include/menu-v2nb.php'; ?>
     <div id="formPopup" class="popup-wrapper" style="display:none;">
       <div class="popWrap">
         <div class="popup-content">

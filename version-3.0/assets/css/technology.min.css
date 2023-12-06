@@ -2248,8 +2248,7 @@ input:-webkit-autofill:active {
     margin-bottom: 10px;
     color: #253053;
     margin-top: 30px;
-    line-height: 140%;
-    font-family: 'Noto Sans'; }
+    line-height: 140%; }
 
 .faq h2 {
   font-weight: 500; }

@@ -15,7 +15,7 @@
 </head>
 
 <body id="themeAdd">
-    <?php require_once 'assets/include/menu.php'; ?>
+<?php require_once 'assets/include/menu-v2nb.php'; ?>
     <section class="banner-main legal-disclaimer-page-section padding-t-120 padding-b-120 ">
         <div class="container">
             <div class="disclaimer-header-content margin-t-80 text-center">

@@ -11,56 +11,6 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/technology.min.css" as="style"/>
   </head>
   <body id="themeAdd">
-    <?php require_once 'assets/include/menu.php'; ?>
-    <!-- Banner section -->
-    <section class="hire-main padding-t-120 padding-b-120 ">
-      <div class="container">
-        <div class="dis-flex margin-t-80">
-          <div class="hire-content">
-            <span>India's Most Trusted</span>
-            <h1>iOS App Development Company</h1>
-            <h2>2X Faster Delivery & 60% Cost-Saving</h2>
-            <div class="inner-content">
-              <p>Outsource custom iOS / iPhone mobile application development to a leading offshore iOS apps
-                development company in India. Whether you need an iOS smartphone, wearable, or TV app, our
-                experts can help you with a unique app solution.
-              </p>
-              <p>So if you are looking for a reliable, cost-effective, and quality-driven iOS app development
-                partner, then look no further than PixelCrayons.
-              </p>
-              <ul>
-                <li>On-time Delivery Guarantee</li>
-                <li>Strict NDA Terms</li>
-                <li>Dedicated PM/Technical lead</li>
-                <li>Agile Development Process</li>
-              </ul>
-              <div class="dis-flex">
-                <div class="hire-counter flex-4">
-                  <div>12500+ </div>
-                  <span>Projects Launched</span>
-                </div>
-                <div class="hire-counter flex-4">
-                  <div>17+ </div>
-                  <span>Years Experience</span>
-                </div>
-                <div class="hire-counter flex-4">
-                  <div>5400+ </div>
-                  <span>Satisfied Customers</span>
-                </div>
-                <div class="hire-counter flex-4">
-                  <div>97%+ </div>
-                  <span>Client Retention</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- form -->
-          <?php require_once 'assets/include/banner-form-v1.php'; ?>
-        </div>
-      </div>
-    </section>
-    <!-- Clients logo section -->
-    <?php require_once 'assets/include/awards.php'; ?>
     <!--- PHP Web Development Company in India  -->
     <div class="heading text-center" style="padding:40px 0;">
       <h1>Page Name- PHP Web Development Company in India</h1>

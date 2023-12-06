@@ -1,182 +1,177 @@
 .banner-main {
     &.for-client-banner {
-        background: url('../images/for-client-banner.jpg') top center no-repeat;
-        background-size: cover;
-
-        p {
-            color: #fff;
-            margin-top: 20px;
-            font-size: 18px;
-            line-height: 160%;
-        }
-    }
-}
-
-.client-testmonial-section {
-    .glider-track {
-        padding: 20px 0;
-    }
-
-    .glider-dot {
-        width: 9px;
-        height: 9px;
-        background: #D9D9D9;
+      background: url("../images/for-client-banner.jpg") top center no-repeat;
+      background-size: cover;
+  
+      p {
+        color: #fff;
         margin-top: 20px;
-
-        &.active {
-            background: #016BE3;
-        }
-    }
-
-    .slide-item {
-        padding: 0 10px;
-         position: relative;
-        .item-box {
-            background: #FFFFFF;
-            box-shadow: 0px 4px 30px rgba(218, 226, 234, 0.5);
-            border-radius: 0px 0px 5px 5px;
-            transition: all 0.3s ease-in-out;
-            border: 1px solid transparent;
-            height: 100%;
-
-            .fk-container{position: relative;
-                img {
-                    width: 100% !important;
-            }
-        }
-
-            &:hover {
-                border-color: #016BE3;
-            }
-        }
-
-       
-
-        iframe {
-            border: 0;
-            border: 0;
-            height: auto;
-            vertical-align: bottom;
-            width: 100%;
-            max-height: 100%;
-            &.active {
-              height: 100%;
-              max-height: unset;
-              z-index: 1;
-            }
-          }
-        
-          .yt-player {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -9;
-          }
-
-        .content-box {
-            padding: 25px 30px 30px;
-        }
-
-        p {
-            opacity: 0.9;
-        }
-
-        .client-name {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 17px;
-            color: #253053;
-            opacity: 0.9;
-            margin-top: 20px;
-            display: block;
-            font-family: 'Noto Sans';
-        }
-
-    }
-}
-
-.clients-content-section {
-    margin-top: 60px;
-
-    .flex-3 {
-        padding: 0 10px;
-        &:nth-child(2){
-            .item-box{
-                &:last-child{
-                    .content-box{
-                        min-height: 229px;
-                    }
-                }
-            }
-        }
-        &:first-child{
-            .item-box{
-                &:last-child{
-                    .content-box{
-                        min-height: 418px;
-                    }
-                }
-            }
-        }
-    }
-
-    .item-box {
-        margin: 10px 0;
-    }
-
-    .content-box {
-        background: #FFFFFF;
-        box-shadow: 0px 4px 30px rgba(218, 226, 234, 0.5);
-        border-radius: 5px;
-        padding: 40px 25px 30px 40px;
-        position: relative;
-        border: 1px solid #fff;
-
-        &::before {
-            content: "";
-            background: url('../../assets/images/quote-gray.png') top center no-repeat;
-            width: 19px;
-            height: 16px;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-
-        p {
-            font-weight: 400;
-            opacity: 0.9;
-        }
-
-        h5 {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 17px;
-            color: #253053;
-            opacity: 0.9;
-            font-family: 'Noto Sans';
-        }
-
-        .title-box {
-            margin-top: 20px;
-
-            p {
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 15px;  
-                opacity: 0.6;
-                margin-top: 5px;
-            }
-        }
-      &:hover{
-        border-color: #016BE3;
+        font-size: 18px;
+        line-height: 160%;
       }
-
     }
-}
-
-
-@media only screen and (max-width: 767px) {
-    .clients-content-section {
+  }
+  
+  .client-testmonial-section {
+    .glider-track {
+      padding: 20px 0;
+    }
+  
+    .glider-dot {
+      width: 9px;
+      height: 9px;
+      background: #d9d9d9;
+      margin-top: 20px;
+  
+      &.active {
+        background: #016be3;
+      }
+    }
+  
+    .slide-item {
+      padding: 0 10px;
+      position: relative;
+      .item-box {
+        background: #ffffff;
+        box-shadow: 0px 4px 30px rgba(218, 226, 234, 0.5);
+        border-radius: 0px 0px 5px 5px;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid transparent;
+        height: 100%;
+  
+        .fk-container {
+          position: relative;
+          img {
+            width: 100% !important;
+          }
+        }
+  
+        &:hover {
+          border-color: #016be3;
+        }
+      }
+  
+      iframe {
+        border: 0;
+        border: 0;
+        height: auto;
+        vertical-align: bottom;
+        width: 100%;
+        max-height: 100%;
+        &.active {
+          height: 100%;
+          max-height: unset;
+          z-index: 1;
+        }
+      }
+  
+      .yt-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -9;
+      }
+  
+      .content-box {
+        padding: 25px 30px 30px;
+      }
+  
+      p {
+        opacity: 0.9;
+      }
+  
+      .client-name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #253053;
+        opacity: 0.9;
         margin-top: 20px;
+        display: block;
+      }
     }
-}
+  }
+  
+  .clients-content-section {
+    margin-top: 60px;
+  
+    .flex-3 {
+      padding: 0 10px;
+      &:nth-child(2) {
+        .item-box {
+          &:last-child {
+            .content-box {
+              min-height: 229px;
+            }
+          }
+        }
+      }
+      &:first-child {
+        .item-box {
+          &:last-child {
+            .content-box {
+              min-height: 418px;
+            }
+          }
+        }
+      }
+    }
+  
+    .item-box {
+      margin: 10px 0;
+    }
+  
+    .content-box {
+      background: #ffffff;
+      box-shadow: 0px 4px 30px rgba(218, 226, 234, 0.5);
+      border-radius: 5px;
+      padding: 40px 25px 30px 40px;
+      position: relative;
+      border: 1px solid #fff;
+  
+      &::before {
+        content: "";
+        background: url("../../assets/images/quote-gray.png") top center no-repeat;
+        width: 19px;
+        height: 16px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+  
+      p {
+        font-weight: 400;
+        opacity: 0.9;
+      }
+  
+      h5 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #253053;
+        opacity: 0.9;
+      }
+  
+      .title-box {
+        margin-top: 20px;
+  
+        p {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+          opacity: 0.6;
+          margin-top: 5px;
+        }
+      }
+      &:hover {
+        border-color: #016be3;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .clients-content-section {
+      margin-top: 20px;
+    }
+  }
+  

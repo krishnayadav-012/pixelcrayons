@@ -11,7 +11,7 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/company.min.css" defer/>
   </head>
   <body id="themeAdd">
-    <?php require_once 'assets/include/menu.php'; ?>
+  <?php require_once 'assets/include/menu-v2nb.php'; ?>
     <section class="hero-img-section padding-t-120 padding-b-120 " style="background-image:url(assets/images/partner-banner.png)">
       <div class="container">
         <div class="hire-content margin-t-80 text-center">

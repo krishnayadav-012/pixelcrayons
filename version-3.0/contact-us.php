@@ -18,8 +18,7 @@
         <div class="container">
           <div class="contact-logo">
             <picture>
-            <a href="https://www.pixelcrayons.com/"><img loading="lazy" src="../assets/images/contact-us-logo.svg" alt="Pixelcrayons" width="212"
-                height="64"></a>
+            <a href="https://www.pixelcrayons.com/"><img loading="lazy" src="menu-images/logo-v2-white.svg" alt="Pixelcrayons" class="white-theme-logo" width="200" height="69"></a>
             </picture>
           </div>
           <div class="dis-flex justify-sb">

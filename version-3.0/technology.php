@@ -14,7 +14,7 @@
 <?php require_once 'assets/include/menu-v2nb.php'; ?>
     <!-- Banner section -->
     <div class="popup-pxlbd">
-    <?php require_once '../assets/include/banner-form-v1.php'; ?>
+    <?php require_once 'assets/include/menu-v2nb.php'; ?>
     </div>
     <section class="banner-with-form padding-t-120 padding-b-120">
       <div class="container">
