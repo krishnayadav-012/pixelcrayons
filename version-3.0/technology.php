@@ -18,69 +18,36 @@
     </div>
     <section class="banner-with-form padding-t-120 padding-b-120">
       <div class="container">
-        <div class="breadcrumbs service-breadcrumbs">
-          <a href="https://www.pixelcrayons.com/p2wp">Home</a> Hire Developers
-        </div>
         <div class="dis-flex justify-sb">
           <div class="hire-content">
-            <h1>Hire .NET Developers</h1>
-            <p class="white-txt">No Freelancers  |  Pre-Vetted Experts  |  2X Faster Delivery</p>
-            <p>Accelerate your business growth with .NET technology. Hire .NET developers from PixelCrayons. and create dynamic.</p>
+            <h1>.NET Development Services</h1>
+            <h2>Experienced Development Team & 2X Faster Delivery</h2>
+            <p>Get high-quality, engaging, and feature-rich websites, web applications, and portals. We are a team of qualified ASP.NET developers who have delivered 5400+ successful projects to clients across the globe.</p>
             <ul>
-              <li>Flexible Hiring Models</li>
-              <li>No Contract Lock-ins</li>
-              <li>WorkstatusTM powered Proof of Work</li>
-              <li>Flexible contracts, transparent pricing</li>
+              <li>Strict NDAs</li>
+              <li>Expert & Experienced Developers</li>
+              <li>Efficient .NET Project Management</li>
+              <li>Consistent Delivery Of .NET Solutions</li>
             </ul>
           </div>
           <div class="hire-form text-center">
             <div class="form-wrap">
               <div class="top-sec">
-              <picture>
-              <img loading="lazy" src="assets/images/hire-boy.svg" alt="pixel" width="393" height="260">
-            </picture>
-              </div>
-              <div class="mid-sec">
-                <h3>Start Your 7-day Trial</h3>
-                <p>Try Before, Commit Later</p>
-                <div class="button-section">
-                  <div class="btn-div">
-                    <a class="white-btn" href="#">Start my Trial</a>
-                    <div class="info-wrap">
-                      <P>Learn How Trial Works</P>
-                      <div class="info">
-                        <div class="info-content">
-                          <h4>What happens after you contact us? </h4>
-                          <p>Our solution experts will answer your questions in a secure online meeting.</p>
-                          <a class="kmore" href="#">Know More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <span class="devide">OR</span>
-                  <div class="free-con">
-                    <a href="javascript:void(0);" onclick="showPopFormOp();">Request Free Consultation</a>
-                  </div>
+                <picture>
+                  <source type="image/webp" srcset="../assets/images/hire-thumbnail-02.png">
+                  <source type="image/png" srcset="../assets/images/hire-thumbnail-02.png">
+                  <img class="thumb-image" loading="lazy" src="../assets/images/hire-thumbnail-02.png" alt="Pixelcrayons" width="64"
+                    height="64">
+                </picture>
+                <h3>Are you interested to learn more about our .NET services?</h3>
+                <div class="btn-center">
+                  <a class="yellow-btn bk-call pop-up" href="javascript:void(0);" onclick="showPopFormOp();">Book A Call</a>
                 </div>
-              </div>
-              <div class="bottom-sec">
                 <a class="use-form" href="#contact-sec">Or, Use this form to tell us about your needs</a>
                 <div class="frm-list">
                   <ul>
-                    <li class="process">
-                      100% confidential
-                      <div class="info">
-                        <h4>Your privacy is our top priority</h4>
-                        <p>We understand the importance of confidentiality and privacy when it comes to handling sensitive information. You can trust that your personal and business information is safe with us.</p>
-                      </div>
-                    </li>
-                    <li class="process">
-                      We sign NDA
-                      <div class="info">
-                        <h4>Your sensitive information is protected</h4>
-                        <p>We are happy to sign a Non-disclosure Agreement (NDA). It provides an added layer of protection for your sensitive information and ensures that it is not disclosed to any third parties.</p>
-                      </div>
-                    </li>
+                    <li>100% confidential</li>
+                    <li>We sign NDA</li>
                     <li class="process">
                       Our Process
                       <div class="info">
@@ -92,11 +59,30 @@
                 </div>
               </div>
             </div>
+            <div class="badges">
+             <picture>
+              <i><img loading="lazy" src="../assets/images/form-partner-01.svg" alt="Pixelcrayons"
+                width="81" height="49"></i>
+            </picture>
+            <picture>
+            <i><img loading="lazy" src="../assets/images/form-partner-02.svg" alt="Pixelcrayons"
+                width="108" height="27"></i>
+            </picture>
+            <picture>
+            <i><img loading="lazy" src="../assets/images/form-partner-03.svg" alt="Pixelcrayons"
+                width="90" height="37"></i>
+            </picture>
+            <picture>
+            <i><img loading="lazy" src="../assets/images/form-partner-04.svg" alt="Pixelcrayons"
+                width="92" height="36"></i>
+            </picture>
+          </div>
           </div>
           <!-- form -->
         </div>
         <!-- Clients logo section -->
       </div>
+      <?php require_once '../assets/include/awards.php'; ?>
     </section>
 
     <!-- Clients logo section -->

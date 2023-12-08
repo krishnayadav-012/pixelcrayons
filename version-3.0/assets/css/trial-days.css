@@ -1309,7 +1309,8 @@ input:-webkit-autofill:active {
         display: block;
         margin: 0 0 20px;
         color: #253053;
-        position: relative; }
+        position: relative;
+        cursor: pointer; }
         .header-two .hire-tab-menu .hiremenu .tab-contents .left-tabs .tab-nav li a {
           color: #253053;
           font-size: 16px; }

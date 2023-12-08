@@ -978,7 +978,7 @@ body {
   .tab-contents{
     .left-tabs{flex-basis:35%; border-right:1px solid rgba(226, 226, 226, 1); padding:35px;
       .tab-nav{
-        li{display: block; margin: 0 0 20px; color: #253053; position: relative;
+        li{display: block; margin: 0 0 20px; color: #253053; position: relative; cursor: pointer;
           a{color: #253053; font-size: 16px;
           &:hover{color: $royelblue;}
           }
