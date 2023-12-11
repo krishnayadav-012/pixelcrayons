@@ -175,6 +175,12 @@ body {
       margin-top: 5px;
       .for-product {
         padding: 0 15px 18px;
+        .menu-mega {
+          a{height: 30px;
+            border-radius: 0;
+            display: flex !important;
+            align-items: center;}
+        }
       }
       &:before {
         background: #fff;
@@ -786,11 +792,11 @@ body {
               font-size: 16px;
               line-height: 20px;
               color: #253053;
-              margin-top: 30px;
+              margin-top:25px;
               border-radius: 10px;
               display: block;
               position: relative;
-              padding-left:40px;
+              padding-left:45px;
               &:hover {
                 color: $royelblue;
                 text-decoration: underline;
@@ -1285,9 +1291,11 @@ body {
               padding: 0;
               background: none;
               padding-left: 10px;
+
               a {
                 color: #b5b5b5;
                 font-size: 15px;
+                
                 &:hover {
                   color: #fff;
                   text-decoration: none;
