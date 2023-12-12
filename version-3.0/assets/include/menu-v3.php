@@ -31,7 +31,7 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
-  $mcat       = 'digital-transformation';
+ $mcat       = 'engineering';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'software-engineering-company', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'digital-marketing-services', 'icon' => 'cat-icon02.svg'],
@@ -129,14 +129,14 @@
                   <!-- 
                     <span class="head">by TEAM Expertise</span>                         
                     -->
-                  <a href="<?php echo $site_url; ?>services/software-engineering"><img src="<?php echo $tpl_url; ?>/menu-images/service-icon01.svg" class="menuicon" alt="menuicon"><span class="title">Software Engineering</span>
-                  Custom software development, consulting, testing & QA</a>
-                  <a href="<?php echo $site_url; ?>hire-developer-programmer-india"><img src="<?php echo $tpl_url; ?>/menu-images/service-icon02.svg" class="menuicon" alt="menuicon"><span class="title">Remote Teams</span>
-                  Hire dedicated web & mobile app developers</a>
-                  <a href="<?php echo $site_url; ?>services/ecommerce/development"><img src="<?php echo $tpl_url; ?>/menu-images/service-icon03.svg" class="menuicon" alt="menuicon"><span class="title">eCommerce</span>
-                  ROI-centric, scalable solutions for B2B & B2C</a>
-                  <a href="<?php echo $site_url; ?>services/digital-marketing"><img src="<?php echo $tpl_url; ?>/menu-images/service-icon04.svg" class="menuicon" alt="menuicon"><span class="title">Digital Marketing</span>
-                  Reach full potential online with digital marketing services</a> 
+                  <a href="<?php echo $site_url; ?>services/software-engineering"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon01.svg" class="menuicon" alt="menuicon"><span class="title">Software Engineering</span>
+                  Code your business success</a>
+                  <a href="<?php echo $site_url; ?>services/ecommerce/development"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon02.svg" class="menuicon" alt="menuicon"><span class="title">eCommerce</span>
+                  Amplify your brand digitally</a>
+                  <a href="<?php echo $site_url; ?>services/digital-marketing"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon03.svg" class="menuicon" alt="menuicon"><span class="title">Digital Marketing</span>
+                  Unlock online retail potential</a> 
+                   <a href="<?php echo $site_url; ?>services/digital-transformation"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon04.svg" class="menuicon" alt="menuicon"><span class="title">Digital Transformation</span>
+                   Transform digitally, lead globally</a>
                 </div>
               </div>
             </div>

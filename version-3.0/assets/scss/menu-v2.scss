@@ -179,7 +179,13 @@ body {
           a{height: 30px;
             border-radius: 0;
             display: flex !important;
-            align-items: center;}
+            align-items: center;
+          img{width: 37px;
+            height: 37px;
+            vertical-align: middle;
+            top: -4px;
+            position: absolute;}
+          }
         }
       }
       &:before {
