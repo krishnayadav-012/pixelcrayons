@@ -6,8 +6,8 @@
   $site_url   = 'http://www.pixelcrayons.com/';
   }  
   
-  $tpl_url    = "get_bloginfo('template_url')"; // theme dir
-  //$tpl_url    = 'http://localhost/pixelcrayons-wp/website-div'; //nandnai's dir
+  //$tpl_url    = get_bloginfo('template_url'); // theme dir
+  $tpl_url    = 'http://localhost/pixelcrayons-wp/website-div'; //nandnai's dir
   /*
   Main MenuCategories >>>
   engineering : Software Engineering
@@ -31,12 +31,12 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
- $mcat       = 'engineering';
+ //$mcat       = 'digital-transformation';
   $pcatArray  = [
-  'engineering'       => ['name' => 'Software Engineering', 'slug' => 'software-engineering-company', 'icon' => 'cat-icon01.svg'],
-  'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'digital-marketing-services', 'icon' => 'cat-icon02.svg'],
-  'ecommerce'         => ['name' => 'eCommerce', 'slug' => 'ecommerce-development', 'icon' => 'cat-icon03.svg'],
-  'digital-transformation' => ['name' => 'Digital Transformation', 'slug' => 'digital-transformation-services', 'icon' => 'cat-icon04.svg']
+  'engineering'       => ['name' => 'Software Engineering', 'slug' => 'services/software-engineering', 'icon' => 'cat-icon01.svg'],
+  'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'services/digital-marketing', 'icon' => 'cat-icon02.svg'],
+  'ecommerce'         => ['name' => 'eCommerce', 'slug' => 'services/ecommerce/development', 'icon' => 'cat-icon03.svg'],
+  'digital-transformation' => ['name' => 'Digital Transformation', 'slug' => 'services/digital-transformation', 'icon' => 'cat-icon04.svg']
   ];
   
   $psubcatArray = [
@@ -255,7 +255,7 @@
                 <a href="<?php echo $site_url; ?>services/ecommerce/consulting"><span class="title">Consulting</span>
                 Strategize for eCommerce Success</a>
                 <a href="<?php echo $site_url; ?>services/ecommerce/development"><span class="title">Development</span>Build stores, grow sales</a>
-                <a href="<?php echo $site_url; ?>ecommerce-implementation-services"><span class="title">Implementation</span>
+                <a href="<?php echo $site_url; ?>services/ecommerce/implementation"><span class="title">Implementation</span>
                 Implement, optimize, thrive online</a>
               </div>
               <div class="flex-3">
