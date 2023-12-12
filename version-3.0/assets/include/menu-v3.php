@@ -428,6 +428,7 @@
                           <li><a href="<?php echo $site_url; ?>hire/angular-js-developers" title="Angular">Angular</a></li>
                           <li><a href="#">Next</a></li>
                           <li><a href="#">TypeScript</a></li>
+                          <li><a href="<?php echo $site_url; ?>hire/react-developers" title="Vue.JS">React</a></li>
                           <li><a href="<?php echo $site_url; ?>hire/vuejs-developers" title="Vue.JS">Vue.jS</a></li>
                         </ul>
                       </div>
@@ -533,9 +534,9 @@
             Expert services, visible success</a>
             <a href="<?php echo $site_url; ?>services/dedicated-teams"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-02.svg" class="menuicon" alt="menuicon"><span class="title">Dedicated Teams</span>
             Coding your success together</a> 
-            <a href="<?php echo $site_url; ?>services/offshore-software-development"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-03.svg" class="menuicon" alt="menuicon"><span class="title">Offshore Development Center</span>
+            <a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-03.svg" class="menuicon" alt="menuicon"><span class="title">Offshore Development Center</span>
             Expand your horizons offshore</a>
-            <a href="<?php echo $site_url; ?>services/outsourced-software-development"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-04.svg" class="menuicon" alt="menuicon"><span class="title">Outsourced Software Development</span>
+            <a href="<?php echo $site_url; ?>services/software-development-outsourcing"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-04.svg" class="menuicon" alt="menuicon"><span class="title">Outsourced Software Development</span>
             Remote development, robust solutions</a>
           </div>
         </div>
