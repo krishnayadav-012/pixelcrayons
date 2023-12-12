@@ -180,11 +180,6 @@ body {
             border-radius: 0;
             display: flex !important;
             align-items: center;
-          img{width: 37px;
-            height: 37px;
-            vertical-align: middle;
-            top: -4px;
-            position: absolute;}
           }
         }
       }
@@ -1049,10 +1044,13 @@ body {
 
 }
 
+
+
+
 }
 
 
-
+.header-two .header-item-left .menu .for-product .menuicon{width:37px; height:37px; top:-4px;}
 
 
 // media
