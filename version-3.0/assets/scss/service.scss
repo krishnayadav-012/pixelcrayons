@@ -830,6 +830,15 @@
   }
 }
 
+/*CSS for banner video section*/
+.video-banner-section{
+  .banner-content{width: 100%;
+   h1{font-size: 60px;}
+  }
+}
+
+/*CSS for banner video section Ends Here*/
+
 @media only screen and (max-width: 1600px) {
   .why-choose-three-column-section {
     .threebox {
@@ -854,12 +863,21 @@
   }
 }
 
+@media only screen and (max-width: 1366px) {
+  
+}
+
 @media screen and (max-width: 1280px) {
   .banner-main {
     .hire-content {
       p {
         font-size: 16px;
       }
+    }
+  }
+  .video-banner-section{
+    .banner-content{
+     h1{font-size:50px;}
     }
   }
 }
@@ -926,6 +944,7 @@
       margin-top: 20px;
     }
   }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

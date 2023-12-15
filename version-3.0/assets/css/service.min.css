@@ -5385,6 +5385,13 @@ input:-webkit-autofill:active {
 .faq-accordion-item-outer:nth-child(10):hover .hover-icon {
   background-position: 102px -637px; }
 
+/*CSS for banner video section*/
+.video-banner-section .banner-content {
+  width: 100%; }
+  .video-banner-section .banner-content h1 {
+    font-size: 60px; }
+
+/*CSS for banner video section Ends Here*/
 @media only screen and (max-width: 1600px) {
   .why-choose-three-column-section .threebox .box-3 {
     padding: 40px 30px; }
@@ -5395,7 +5402,10 @@ input:-webkit-autofill:active {
     padding-right: 26px; } }
 @media screen and (max-width: 1280px) {
   .banner-main .hire-content p {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .video-banner-section .banner-content h1 {
+    font-size: 50px; } }
 @media screen and (max-width: 1200px) {
   .banner-main {
     padding-bottom: 85px; } }
