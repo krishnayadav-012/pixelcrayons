@@ -37,7 +37,7 @@ body {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 25px 0 15px;
+  padding: 25px 0 18px;
   z-index: 99;
   transition: all 0.3s ease-in-out;
   &.header-bg {
@@ -120,7 +120,7 @@ body {
   }
   .large {
     transition: all 0.7s ease-in-out;
-    margin-top: -23px;
+    margin-top: -20px;
     .dark-theme-logo {
       display: none;
     }
@@ -172,9 +172,10 @@ body {
     .menu {
       position: relative;
       margin-left: 15px;
-      margin-top: 5px;
+     
       .for-product {
         padding: 0 15px 18px;
+        margin-top: 14px;
         .menu-mega {
           a{height: 30px;
             border-radius: 0;
@@ -189,8 +190,8 @@ body {
         position: absolute;
         left: 0;
         width: 1px;
-        height: 50px;
-        top: -10px;
+        height: 37px;
+        top: 8px;
       }
     }
   }
@@ -890,7 +891,7 @@ body {
       width:320px;
       position: absolute;
       //right: 14%;
-      right:30%;
+      right: 24%;
       .w-66 {
         flex-basis: 100%;
         .flex-3 {
@@ -958,7 +959,7 @@ body {
     &.w-80 {
       width:400px;
       position: absolute;
-      right: 19%;
+      right: 10%;
       .w-66 {
         flex-basis: 100%;
         .flex-3 {
@@ -981,7 +982,7 @@ body {
 
 .hire-tab-menu{
 
-.hiremenu{background:#fff; max-width:670px; width:100%; border-radius: 10px;
+.hiremenu{background:#fff; max-width:670px; width:100%; border-radius: 10px; box-shadow: 4px 4px 60px rgba(112, 144, 176, 0.25);
   .tab-contents{
     .left-tabs{flex-basis:35%; border-right:1px solid rgba(226, 226, 226, 1); padding:35px;
       .tab-nav{
@@ -1055,12 +1056,24 @@ body {
 
 // media
 
-@media only screen and (min-width: 1920px) {
-  //.header-two .landing-menu.w-70 {
-  // width: 70%;
-  //right: 10%;
-  //}
+@media only screen and (max-width: 1920px) {
+  
 }
+
+
+@media only screen and (max-width: 1780px) {
+  .header-two{
+    .landing-menu {
+      &.w-70 {
+        right:33%;
+      }
+    }
+  }
+}
+
+
+
+
 
 @media only screen and (min-width: 1200px) {
   .header-two {

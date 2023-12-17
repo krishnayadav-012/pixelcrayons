@@ -237,7 +237,7 @@
             </div> -->
           <?php  } */
             elseif( $mcat == "digital-transformation"){ ?>                
-          <div class="container w-small demand-teams" id="m-demand-team">
+          <div class="container w-small demand-teams" id="digital-transform">
             <div class="dis-flex">
               <div class="flex-3">
                 <a href="<?php echo $site_url; ?>services/digital-transformation/chatbot-development"><span class="title">Chatbot Development</span> Interactive chatbots for better experience</a>
@@ -578,13 +578,14 @@
       <li class="menu-item-has-children small-menu for-company">
       <a href="<?php echo $site_url; ?>company/about">Company</a><span class="arrow-btn"></span>
       <div class="small-menu-inner menu-mega">
-      <a href="<?php echo $site_url; ?>company/about"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon01.svg" class="menuicon" alt="menuicon">About</a>
-      <a href="<?php echo $site_url; ?>company/our-team"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon02.svg" class="menuicon" alt="menuicon">Our Team</a>
+      <a href="<?php echo $site_url; ?>company/about"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon01.svg" class="menuicon" alt="menuicon">About Us</a>
+      <a href="<?php echo $site_url; ?>company/our-team"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon02.svg" class="menuicon" alt="menuicon">Team</a>
       <a href="<?php echo $site_url; ?>testimonials"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon03.svg" class="menuicon" alt="menuicon">Clients & Testimonials</a>
-      <a href="<?php echo $site_url; ?>company/partnership-programme"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon04.svg" class="menuicon" alt="menuicon">Partnership Program</a>
-      <a href="<?php echo $site_url; ?>careers"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon05.svg" class="menuicon" alt="menuicon">Careers</a>
+      <a href="<?php echo $site_url; ?>company/partnership-programme"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon04.svg" class="menuicon" alt="menuicon">Partnership Programme</a>
+      <a href="<?php echo $site_url; ?>careers"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon05.svg" class="menuicon" alt="menuicon">Careers & Culture</a>
       <a href="https://www.pixelcrayons.com/blog/" target="_blank"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon06.svg" class="menuicon" alt="menuicon">Blog</a>
-      </div>
+      <a href="https://www.pixelcrayons.com/case-study/" target="_blank"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon07.svg" class="menuicon" alt="menuicon">Case studies</a>
+    </div>
       </li>
       <?php endif; ?>
       <li class="contact-nav"><a href="<?php echo $site_url; ?>contact-us">Contact Us</a></li>

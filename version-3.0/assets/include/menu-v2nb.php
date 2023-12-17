@@ -31,7 +31,7 @@
   enterprises : For Enterprises (Done)
   agencies : For Agencies (Done)
   */
- //$mcat       = 'digital-transformation';
+ $mcat       = 'digital-transformation';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'software-engineering-company', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'digital-marketing-services', 'icon' => 'cat-icon01.svg'],
