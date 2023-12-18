@@ -892,7 +892,7 @@ input:-webkit-autofill:active {
           color: #253053;
           display: block;
           transition: all 0.3s ease-in-out;
-          margin-bottom: 5px; }
+          margin-bottom: 3px; }
         .header-two .menu ul li .menu-mega .flex-3:last-child,
         .header-two .menu ul li .menu-mega .detail-list:last-child {
           background: #f6f8fb; }
