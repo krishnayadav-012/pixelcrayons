@@ -1,5 +1,6 @@
 <?php
   $is_staging = ( isset( $_SERVER['PHP_SELF'] ) && (strpos( $_SERVER['PHP_SELF'], 'staging' ) !== false) )  ?  true : false;
+  
   if( $is_staging ){
   $site_url   = 'https://www.pixelcrayons.com/staging/';
   }else{
@@ -31,7 +32,7 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
- $mcat       = 'digital-transformation';
+  $mcat       = 'digital-marketing';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'services/software-engineering', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'services/digital-marketing', 'icon' => 'cat-icon02.svg'],
@@ -135,8 +136,8 @@
                   Amplify your brand digitally</a>
                   <a href="<?php echo $site_url; ?>services/digital-marketing"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon03.svg" class="menuicon" alt="menuicon"><span class="title">Digital Marketing</span>
                   Unlock online retail potential</a> 
-                   <a href="<?php echo $site_url; ?>services/digital-transformation"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon04.svg" class="menuicon" alt="menuicon"><span class="title">Digital Transformation</span>
-                   Transform digitally, lead globally</a>
+                  <a href="<?php echo $site_url; ?>services/digital-transformation"><img src="<?php echo $tpl_url; ?>/menu-images/sermain-icon04.svg" class="menuicon" alt="menuicon"><span class="title">Digital Transformation</span>
+                  Transform digitally, lead globally</a>
                 </div>
               </div>
             </div>
@@ -283,27 +284,33 @@
           <div class="container w-14 digital-mark" id="m-qaconsult">
             <div class="dis-flex">
               <div class="flex-3 single-an">
-                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/seo"><span class="title">SEO Services</span></a>
+                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/seo"><span class="title"><strong>SEO Services</strong></span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/local"><span class="title">Local SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/bing"><span class="title">Bing SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/google"><span class="title">Google SEO Services</span></a>
-                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/social-media"><span class="title">Social Media Marketing</span></a>
+                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/social-media"><span class="title"><strong>Social Media Marketing</strong></span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/management"><span class="title">Social Media Management</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/youtube-marketing"><span class="title">Youtube Marketing Services</span></a>
               </div>
               <div class="flex-3 single-an">
-                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/ppc"><span class="title">PPC Marketing</span></a>
+                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/ppc"><span class="title"><strong>PPC Marketing</strong></span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/bing-ads"><span class="title">Bing Ads Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/google-ads"><span class="title">Google Ads Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/linkedin-ads"><span class="title">Linkedin Ads Services</span></a>
                 <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title">Facebook Ads Services</span></a>
-                <a href="<?php echo $site_url; ?>services/digital-marketing/website-optimization"><span class="title">Website Speed Optimisation</span></a>
+                
+                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/website-optimization"><span class="title"><strong>Website Speed Optimisation</strong></span></a>
+                <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title">Online Reputation Management</span></a>
               </div>
               <div class="flex-3">
                 <a href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">ORM Service</span>Enhance reputation, build trust
                 </a>
-                <a href="<?php echo $site_url; ?>services/digital-marketing/content-marketing"><span class="title">Content Marketing</span>Content that drives results
+                <a href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">Content Marketing</span>Content that drives results
                 </a>
+                <a href="<?php echo $site_url; ?>services/digital-marketing/ecommerce"><span class="title">eCommerce Marketing</span>Elevate your eRetail game
+              </a>
+              <a href="<?php echo $site_url; ?>services/digital-marketing/ecommerce/amazon"><span class="title">Amazon Marketing</span>Dominate the Amazon marketplace
+              </a>
               </div>
             </div>
           </div>
@@ -364,12 +371,14 @@
           <div class="container w-200 agencies" id="m-agencies">
             <div class="flex-3">
               <span class="head">For Agencies</span>
-              <a href="#"><span class="title">White Label Services</span>
+              <!--<a href="#"><span class="title">White Label Services</span>-->
               Plan, build, & ship quality products</a>
               <a href="<?php echo $site_url; ?>services/software-engineering/web-development/frontend"><span class="title">Frontend Development</span>
               Operate securely and reliably</a>
               <a href="<?php echo $site_url; ?>services/software-engineering/web-development/cms"><span class="title">CMS Development</span>
               Operate securely and reliably</a>
+              <a href="<?php echo $site_url; ?>services/dedicated-teams/staff-augmentation"><span class="title">Staff Augmentation Services</span>
+              Get access to top talent for your business</a>
             </div>
           </div>
           <?php } ?>  
@@ -390,8 +399,8 @@
                     <li class="tab-link">Digital Marketing</li>
                     <li class="tab-link">eCommerce & CMS</li>
                     <li class="tab-link">Mobile</li>
-                    <li class="tab-link">DevOps</li>
-                    <li class="tab-link">QA & Testing</li>
+                    <!--<li class="tab-link">DevOps</li>-->
+                    <!--<li class="tab-link">QA & Testing</li>-->
                     <li class="tab-link">Full Stack & Frameworks</li>
                   </ul>
                 </div>
@@ -401,7 +410,7 @@
                       <div class="column">
                         <ul>
                           <li><a href="<?php echo $site_url; ?>hire/dot-net-developers" title=".NET">.NET</a></li>
-                          <li><a href="#">API</a></li>
+                          <!--<li><a href="#">API</a></li>-->
                           <li><a href="<?php echo $site_url; ?>hire/app-developers ">App</a></li>
                           <li><a href="<?php echo $site_url; ?>hire/java-developers" title="Java">Java</a></li>
                           <li><a href="<?php echo $site_url; ?>hire/node-js-developers">Node.js</a></li>
@@ -411,11 +420,11 @@
                       </div>
                       <div class="column">
                         <ul>
-                          <li><a href="#">Symfony</a></li>
-                          <li><a href="#">Web</a></li>
+                          <!--<li><a href="#">Symfony</a></li>-->
+                          <!--<li><a href="#">Web</a></li>-->
                           <li><a href="<?php echo $site_url; ?>hire/blockchain-developers">Blockchain</a></li>
                           <li><a href="<?php echo $site_url; ?>hire/golang-developers">Golang</a></li>
-                          <li><a href="#">Laravel</a></li>
+                          <!--<li><a href="#">Laravel</a></li>-->
                         </ul>
                       </div>
                     </div>
@@ -426,8 +435,8 @@
                       <div class="column full">
                         <ul>
                           <li><a href="<?php echo $site_url; ?>hire/angular-js-developers" title="Angular">Angular</a></li>
-                          <li><a href="#">Next</a></li>
-                          <li><a href="#">TypeScript</a></li>
+                          <!--<li><a href="#">Next</a></li>-->
+                          <!--<li><a href="#">TypeScript</a></li>-->
                           <li><a href="<?php echo $site_url; ?>hire/react-developers" title="Vue.JS">React</a></li>
                           <li><a href="<?php echo $site_url; ?>hire/vuejs-developers" title="Vue.JS">Vue.jS</a></li>
                         </ul>
@@ -480,18 +489,19 @@
                     </div>
                     <a href="<?php echo $site_url; ?>hire/mobile-app-developers" class="learn-more">Explore<i class="round-arrow-icon"></i></a>
                   </div>
-                  <div class="tab-content">
+                  <!--<div class="tab-content">
                     <div class="tab-text">
                       <div class="column full">
                         <ul>
                           <li><a href="<?php echo $site_url; ?>amazon-aws-partner-company-india">AWS</a>
                           </li>
-                          <li><a href="#">Azure</a></li>
+                         <li><a href="#">Azure</a></li>
                         </ul>
                       </div>
                     </div>
-                  </div>
-                  <div class="tab-content">
+                    <a href="<?php echo $site_url; ?>hire/frontend-developers" class="learn-more">Explore<i class="round-arrow-icon"></i></a>
+                  </div>-->
+                  <!--<div class="tab-content">
                     <div class="tab-text">
                       <div class="column full">
                         <ul>
@@ -501,14 +511,14 @@
                         </ul>
                       </div>
                     </div>
-                  </div>
+                    </div>-->
                   <div class="tab-content">
                     <div class="tab-text">
                       <div class="column full">
                         <ul>
-                          <li><a href="#">.NET Core</a>
-                          </li>
-                          <li><a href="#">Django</a></li>
+                          <!--<li><a href="#">.NET Core</a>
+                            </li>-->
+                          <!--<li><a href="#">Django</a></li>-->
                           <li><a href="<?php echo $site_url; ?>hire/mean-stack-developers">MEAN</a></li>
                           <li><a href="<?php echo $site_url; ?>hire/mern-developers">MERN</a></li>
                         </ul>
@@ -538,6 +548,8 @@
             Expand your horizons offshore</a>
             <a href="<?php echo $site_url; ?>services/software-development-outsourcing"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-04.svg" class="menuicon" alt="menuicon"><span class="title">Outsourced Software Development</span>
             Remote development, robust solutions</a>
+            <a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-04.svg" class="menuicon" alt="menuicon"><span class="title">Staff Augmentation Services</span>
+            Get access to top talent for your business</a>
           </div>
         </div>
       </li>
@@ -551,12 +563,12 @@
                 Secure & reliable finance solutions</a>
                 <a href="<?php echo $site_url; ?>industries/fintech"><img src="<?php echo $tpl_url; ?>/menu-images/indus-02.svg" class="menuicon" alt="menuicon"><span class="title">Fintech</span>
                 Tech-forward financial solutions</a> 
-                <a href="#"><img src="<?php echo $tpl_url; ?>/menu-images/indus-03.svg" class="menuicon" alt="menuicon"><span class="title">Software & Tech</span>
-                Innovate, develop & excel</a>
+                <!--<a href="#"><img src="<?php echo $tpl_url; ?>/menu-images/indus-03.svg" class="menuicon" alt="menuicon"><span class="title">Software & Tech</span>
+                Innovate, develop & excel</a>-->
                 <a href="<?php echo $site_url; ?>industries/retail"><img src="<?php echo $tpl_url; ?>/menu-images/indus-04.svg" class="menuicon" alt="menuicon"><span class="title">Retail & eCommerce</span>
                 Revolutionize retail experiences</a>
-                <a href="#"><img src="<?php echo $tpl_url; ?>/menu-images/indus-05.svg" class="menuicon" alt="menuicon"><span class="title">Travel & Hospitality</span>
-                Reimagine travel & hospitality</a>
+                 <!--<a href="#"><img src="<?php echo $tpl_url; ?>/menu-images/indus-05.svg" class="menuicon" alt="menuicon"><span class="title">Travel & Hospitality</span>
+                Reimagine travel & hospitality</a>-->
               </div>
               <div class="flex-3">
                 <a href="<?php echo $site_url; ?>industries/edtech"><img src="<?php echo $tpl_url; ?>/menu-images/indus-06.svg" class="menuicon" alt="menuicon"><span class="title">Education & eLearning</span>
@@ -565,8 +577,8 @@
                 Simplify logistics & supply with tech</a> 
                 <a href="<?php echo $site_url; ?>industries/healthcare"><img src="<?php echo $tpl_url; ?>/menu-images/indus-08.svg" class="menuicon" alt="menuicon"><span class="title">Healthcare & Life Sciences</span>
                 Innovative healthcare solutions</a>
-                <a href="<?php echo $site_url; ?>industries/manufacturing"><img src="<?php echo $tpl_url; ?>/menu-images/indus-09.svg" class="menuicon" alt="menuicon"><span class="title">Manufacturing & Engineering</span>
-                Engineering future with advanced tech</a>
+                <!--<a href="<?php echo $site_url; ?>industries/manufacturing"><img src="<?php echo $tpl_url; ?>/menu-images/indus-09.svg" class="menuicon" alt="menuicon"><span class="title">Manufacturing & Engineering</span>
+                Engineering future with advanced tech</a>-->
               </div>
       </li>
       <!--For Agencies Menu Start From Here-->
@@ -585,7 +597,7 @@
       <a href="<?php echo $site_url; ?>careers"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon05.svg" class="menuicon" alt="menuicon">Careers & Culture</a>
       <a href="https://www.pixelcrayons.com/blog/" target="_blank"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon06.svg" class="menuicon" alt="menuicon">Blog</a>
       <a href="https://www.pixelcrayons.com/case-study/" target="_blank"><img src="<?php echo $tpl_url; ?>/menu-images/company-icon07.svg" class="menuicon" alt="menuicon">Case studies</a>
-    </div>
+      </div>
       </li>
       <?php endif; ?>
       <li class="contact-nav"><a href="<?php echo $site_url; ?>contact-us">Contact Us</a></li>

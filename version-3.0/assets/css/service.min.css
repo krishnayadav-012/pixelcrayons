@@ -893,6 +893,9 @@ input:-webkit-autofill:active {
           display: block;
           transition: all 0.3s ease-in-out;
           margin-bottom: 4px; }
+        .header-two .menu ul li .menu-mega .flex-3 strong,
+        .header-two .menu ul li .menu-mega .detail-list strong {
+          font-weight: 500; }
         .header-two .menu ul li .menu-mega .flex-3:last-child,
         .header-two .menu ul li .menu-mega .detail-list:last-child {
           background: #f6f8fb; }
@@ -5394,6 +5397,8 @@ input:-webkit-autofill:active {
   width: 100%; }
   .video-banner-section .banner-content h1 {
     font-size: 60px; }
+  .video-banner-section .banner-content p strong {
+    font-weight: 500; }
 
 /*CSS for banner video section Ends Here*/
 @media only screen and (max-width: 1600px) {
