@@ -300,7 +300,7 @@
                 <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title">Facebook Ads Services</span></a>
                 
                 <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/website-optimization"><span class="title"><strong>Website Speed Optimisation</strong></span></a>
-                <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title">Online Reputation Management</span></a>
+                <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title"><strong>Online Reputation Management</strong></span></a>
               </div>
               <div class="flex-3">
                 <a href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">ORM Service</span>Enhance reputation, build trust
