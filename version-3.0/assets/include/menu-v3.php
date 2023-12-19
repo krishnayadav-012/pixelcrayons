@@ -32,7 +32,7 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
-  //$mcat       = 'digital-marketing';
+  //$mcat       = 'digital-transformation';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'services/software-engineering', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'services/digital-marketing', 'icon' => 'cat-icon02.svg'],
@@ -288,19 +288,19 @@
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/local"><span class="title">Local SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/bing"><span class="title">Bing SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/google"><span class="title">Google SEO Services</span></a>
-                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/social-media"><span class="title"><strong>Social Media Marketing</strong></span></a>
+                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/social-media"><span class="title">Social Media Marketing</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/management"><span class="title">Social Media Management</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/youtube-marketing"><span class="title">Youtube Marketing Services</span></a>
               </div>
               <div class="flex-3 single-an">
-                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/ppc"><span class="title"><strong>PPC Marketing</strong></span></a>
+                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/ppc"><span class="title">PPC Marketing</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/bing-ads"><span class="title">Bing Ads Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/google-ads"><span class="title">Google Ads Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/linkedin-ads"><span class="title">Linkedin Ads Services</span></a>
                 <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title">Facebook Ads Services</span></a>
                 
-                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/website-optimization"><span class="title"><strong>Website Speed Optimisation</strong></span></a>
-                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title"><strong>Online Reputation Management</strong></span></a>
+                <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/website-optimization"><span class="title">Website Speed Optimisation</span></a>
+                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">Online Reputation Management</span></a>
               </div>
               <div class="flex-3">
                 <a href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">ORM Service</span>Enhance reputation, build trust

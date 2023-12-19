@@ -2127,6 +2127,11 @@ body {
   .header-two .menu ul li.case-stud:hover > a {
     text-decoration: underline;
   }
+
+  .header-two .menu ul li .menu-mega .w-14 .single-an a.d-clr .title{color:#fff;}
+  .header-two .menu ul li .menu-mega .w-14 .single-an a.d-clr .title:hover{color:#fff;}
+  .header-two .menu ul li .menu-mega .w-14 .single-an a .title{color: #fff;}
+  .header-two .menu ul li .menu-mega .w-14 .single-an a .title:hover{text-decoration: underline; color:#fff;}
 }
 
 @media only screen and (max-width: 991px) {
