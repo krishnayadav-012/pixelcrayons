@@ -32,7 +32,7 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
-  $mcat       = 'digital-marketing';
+  //$mcat       = 'digital-marketing';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'services/software-engineering', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'services/digital-marketing', 'icon' => 'cat-icon02.svg'],
