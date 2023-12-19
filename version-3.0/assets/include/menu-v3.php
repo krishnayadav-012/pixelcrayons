@@ -548,7 +548,7 @@
             Expand your horizons offshore</a>
             <a href="<?php echo $site_url; ?>services/software-development-outsourcing"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-04.svg" class="menuicon" alt="menuicon"><span class="title">Outsourced Software Development</span>
             Remote development, robust solutions</a>
-            <a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-04.svg" class="menuicon" alt="menuicon"><span class="title">Staff Augmentation Services</span>
+            <a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development"><img src="<?php echo $tpl_url; ?>/menu-images/agencies-07.svg" class="menuicon" alt="menuicon"><span class="title">Staff Augmentation Services</span>
             Get access to top talent for your business</a>
           </div>
         </div>

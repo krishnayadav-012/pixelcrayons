@@ -3,23 +3,23 @@
         <div class="dis-flex">
             <div class="flex-2">
                 <div class="footer-item">
-                    <h4>Software Development</h4>
-                    <ul>
-                        <li><a href="#"> Website Development Company</a></li>
-                        <li><a href="#">Hybrid App Development</a></li>
-                        <li><a href="#">JavaScript Development CMS Development</a></li>
-                        <li><a href="#">B2B & B2C </a></li>
-                        <li><a href="#">UI/ UX</a></li>
-                    </ul>
+                <h4>Other Services</h4>
+          <ul>
+            <li><a href="<?php echo $site_url; ?>services/software-engineering">Software Engineering</a></li>
+            <li><a href="<?php echo $site_url; ?>iot-development">IoT Development</a></li>
+            <li><a href="<?php echo $site_url; ?>services/digital-transformation/rpa">RPA Development</a></li>
+            <li><a href="<?php echo $site_url; ?>services/digital-transformation/machine-learning">Machine-Learning</a></li>
+            <li><a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development">Offshore Development Services</a></li>
+          </ul>
                 </div>
                 <div class="footer-item">
-                    <h4>Remote Teams</h4>
-                    <ul>
-                        <li><a href="#">Hire App Developers </a></li>
-                        <li><a href="#">Hire Software Developers</a></li>
-                        <li><a href="#">Hire AI Developers </a></li>
-                        <li><a href="#">Hire Blockchain Developers </a></li>
-                    </ul>
+                <h4>Remote Teams</h4>
+          <ul>
+            <li><a href="<?php echo $site_url; ?>hire/seo-experts">Hire SEO Expert</a></li>
+            <li><a href="<?php echo $site_url; ?>hire/smo-experts" title="Hire SMO Expert">Hire SMO Expert</a></li>
+            <li><a href="<?php echo $site_url; ?>hire/content-writers" title="Hire Content Writer">Hire Content Writer</a></li>
+            <li><a href="<?php echo $site_url; ?>hire/ppc-experts" title="Hire PPC Expert">Hire PPC Expert</a></li>
+          </ul>
                 </div>
             </div>
             <div class="flex-2">
