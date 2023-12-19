@@ -298,14 +298,12 @@
                 <a href="<?php echo $site_url; ?>services/digital-marketing/google-ads"><span class="title">Google Ads Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/social-media/linkedin-ads"><span class="title">Linkedin Ads Services</span></a>
                 <a  href="<?php echo $site_url; ?>services/digital-marketing/social-media/facebook-ads"><span class="title">Facebook Ads Services</span></a>
-                
                 <a class="d-clr mt-40" href="<?php echo $site_url; ?>services/digital-marketing/website-optimization"><span class="title">Website Speed Optimisation</span></a>
-                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">Online Reputation Management</span></a>
               </div>
               <div class="flex-3">
                 <a href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">ORM Service</span>Enhance reputation, build trust
                 </a>
-                <a href="<?php echo $site_url; ?>services/digital-marketing/online-review-management"><span class="title">Content Marketing</span>Content that drives results
+                <a href="<?php echo $site_url; ?>services/digital-marketing/content-marketing"><span class="title">Content Marketing</span>Content that drives results
                 </a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/ecommerce"><span class="title">eCommerce Marketing</span>Elevate your eRetail game
               </a>
