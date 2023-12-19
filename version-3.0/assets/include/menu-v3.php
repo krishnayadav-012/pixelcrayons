@@ -32,7 +32,7 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
-  //$mcat       = 'digital-transformation';
+  //$mcat       = 'digital-marketing';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'services/software-engineering', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'services/digital-marketing', 'icon' => 'cat-icon02.svg'],
@@ -284,7 +284,7 @@
           <div class="container w-14 digital-mark" id="m-qaconsult">
             <div class="dis-flex">
               <div class="flex-3 single-an">
-                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/seo"><span class="title"><strong>SEO Services</strong></span></a>
+                <a class="d-clr" href="<?php echo $site_url; ?>services/digital-marketing/seo"><span class="title">SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/local"><span class="title">Local SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/bing"><span class="title">Bing SEO Services</span></a>
                 <a href="<?php echo $site_url; ?>services/digital-marketing/seo/google"><span class="title">Google SEO Services</span></a>
