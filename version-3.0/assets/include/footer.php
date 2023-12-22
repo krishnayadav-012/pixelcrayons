@@ -9,7 +9,7 @@
             <li><a href="<?php echo $site_url; ?>iot-development">IoT Development</a></li>
             <li><a href="<?php echo $site_url; ?>services/digital-transformation/rpa">RPA Development</a></li>
             <li><a href="<?php echo $site_url; ?>services/digital-transformation/machine-learning">Machine-Learning</a></li>
-            <li><a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development">Offshore Development Services</a></li>
+            <li><a href="<?php echo $site_url; ?>services/dedicated-teams/offshore-software-development">Offshore Software Development</a></li>
           </ul>
                 </div>
                 <div class="footer-item">
