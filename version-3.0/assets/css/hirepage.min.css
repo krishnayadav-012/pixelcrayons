@@ -3430,33 +3430,65 @@ input:-webkit-autofill:active {
         position: relative;
         z-index: 9; }
         .banner-with-form .dis-flex .hire-form .form-wrap .top-sec {
-          height: 200px;
+          height: 90px;
           background: #201481;
           border-radius: 30px 30px 0 0;
           position: relative; }
-          .banner-with-form .dis-flex .hire-form .form-wrap .top-sec:before {
-            content: "";
-            background: url(../images/shape-bg.png) no-repeat center;
-            width: 494px;
-            height: 202px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            margin: 0 auto;
-            background-size: 100%; }
           .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
             margin-top: -60px;
-            height: 260px; }
+            height: 150px; }
         .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
-          padding: 20px 30px;
+          border-radius: 0 0 15px 15px;
           background: #ffffff; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .head-sec {
+            padding: 20px 25px 0; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible {
+            display: block;
+            padding: 0 25px;
+            position: relative;
+            background-color: #fff; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible:before {
+              content: "";
+              background: #e0edff;
+              position: absolute;
+              z-index: 9;
+              width: 100%;
+              left: 0;
+              top: 0;
+              height: 1px; }
+            .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content {
+              background-color: #fff;
+              width: inherit;
+              padding: 0; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer {
+                padding: 0; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer .dis-flex {
+                  padding: 0; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer label {
+                  opacity: 0.8;
+                  color: #414141;
+                  font-size: 14px;
+                  font-weight: 500;
+                  text-align: left;
+                  display: block;
+                  margin: 0 0 8px; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer input {
+                  border: 1px solid rgba(65, 65, 65, 0.5);
+                  color: #010101;
+                  height: 45px;
+                  font-size: 14px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .width-full .user-input {
+                border: 1px solid rgba(65, 65, 65, 0.5); }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .drop-box textarea {
+                font-size: 14px;
+                color: #414141;
+                height: 40px; }
           .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
             display: flex;
             align-items: baseline;
             position: relative;
             flex-wrap: wrap;
-            margin: 25px 0 0;
+            padding: 30px 25px;
             justify-content: center; }
             .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
               background: #016be3;
@@ -3508,6 +3540,8 @@ input:-webkit-autofill:active {
                 color: #414141;
                 opacity: 0.5;
                 text-decoration: underline; }
+        .banner-with-form .dis-flex .hire-form .form-wrap ::placeholder {
+          color: rgba(65, 65, 65, 0.52); }
         .banner-with-form .dis-flex .hire-form .form-wrap h3 {
           font-weight: 600;
           color: #414141;
@@ -3702,31 +3736,63 @@ input:-webkit-autofill:active {
   .banner-with-form:after {
     content: "";
     display: block;
-    background: url(../images/banner-shape.png) top center no-repeat;
+    background: url(../images/banner-shape2.png) top center no-repeat;
     background-size: 100%;
     width: 662px;
-    height: 552px;
+    height: 502px;
     position: absolute;
     top: 15%;
     right: 0; }
 
+@media (max-width: 1780px) {
+  .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .head-sec {
+    padding: 15px 25px 0; }
+  .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible {
+    padding: 0 25px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer label {
+      margin: 0 0 6px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer input {
+      height: 42px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .drop-box textarea {
+      height: 30px; } }
 @media (max-width: 1440px) {
   .banner-with-form .dis-flex .hire-form {
-    flex-basis: 41%; } }
+    flex-basis: 41%; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .top-sec {
+      height: 80px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
+        height: 140px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .head-sec {
+      padding: 15px 20px 0; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible {
+      padding: 0 20px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .form-head-cont {
+        margin-top: 15px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer label {
+        margin: 0 0 5px;
+        font-size: 12px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer input {
+        height: 38px;
+        font-size: 12px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer .form-inner.dis-flex {
+        margin-top: 10px; }
+      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .drop-box textarea {
+        height: 25px;
+        font-size: 12px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .button-section .btn-div .white-btn {
+      padding: 10px 20px; } }
 @media (max-width: 1366px) {
   .banner-with-form .dis-flex .hire-form {
     flex-basis: 45%; }
     .banner-with-form .dis-flex .hire-form:before {
       display: none; }
-    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec {
-      padding: 20px 20px; }
-      .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
-        margin: 20px 0 0; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
-          min-width: 170px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn {
+      min-width: 170px; }
     .banner-with-form .dis-flex .hire-form .form-wrap h3 {
-      font-size: 24px;
-      line-height: 40px; }
+      font-size: 20px;
+      line-height: 28px; }
+    .banner-with-form .dis-flex .hire-form .form-wrap p {
+      font-size: 15px; }
     .banner-with-form .dis-flex .hire-form .form-wrap .bottom-sec {
       padding: 20px 20px; }
   .banner-with-form:after {
@@ -3760,10 +3826,32 @@ input:-webkit-autofill:active {
           margin: 0 0 15px; }
       .banner-with-form .dis-flex .hire-form {
         flex-basis: 100%;
-        margin: 60px 0 0; }
-        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
-          margin-top: -45px;
-          height: 248px; }
+        margin-top: 70px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .top-sec {
+          height: 80px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .top-sec img {
+            height: 140px; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .head-sec {
+          padding: 15px 20px 0; }
+        .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible {
+          padding: 0 20px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .form-head-cont {
+            margin-top: 12px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .form-content-box {
+            margin: 0 !important; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer label {
+            margin: 0 0 3px;
+            font-size: 13px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer input {
+            height: 40px;
+            font-size: 13px;
+            border-radius: 3px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer .form-inner.dis-flex {
+            margin-top: 10px; }
+          .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .drop-box textarea {
+            height: 30px;
+            font-size: 13px;
+            border-radius: 3px; }
     .banner-with-form:after {
       display: none; } }
 @media (max-width: 767px) {
@@ -3797,7 +3885,7 @@ input:-webkit-autofill:active {
         .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide {
           width: 100%;
           text-align: center;
-          padding: 5px; }
+          padding: 0 5px; }
           .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .devide:before {
             width: 16px;
             height: 1px;
