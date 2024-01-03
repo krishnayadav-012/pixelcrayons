@@ -3479,10 +3479,16 @@ input:-webkit-autofill:active {
                   font-size: 14px; }
               .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .width-full .user-input {
                 border: 1px solid rgba(65, 65, 65, 0.5); }
+                .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .width-full .user-input.verror {
+                  border: 1px solid red; }
               .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .drop-box textarea {
                 font-size: 14px;
                 color: #414141;
                 height: 40px; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .verror small {
+                text-align: left; }
+              .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .verror input {
+                border-color: red; }
           .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section {
             display: flex;
             align-items: baseline;

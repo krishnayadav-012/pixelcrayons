@@ -160,13 +160,21 @@
                 .width-full {
                   .user-input {
                     border: 1px solid rgba(65, 65, 65, 0.5);
+                    &.verror {
+                      border: 1px solid red;
+                    }
                   }
+                  
                 }
                 .drop-box textarea {
                   font-size: 14px;
                   color: #414141;
                   height: 40px;
                 }
+                .verror{
+                  small{text-align: left;}
+                  input{border-color: red;}
+                } 
               }
             }
           }
