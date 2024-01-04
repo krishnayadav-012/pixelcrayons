@@ -37,7 +37,7 @@
         margin: 0 0 20px;
         line-height: 1.3;
       }
-
+     a{color: $white;}
       p {
         color: rgba(255, 255, 255, 0.8);
         font-size: 18px;
@@ -69,6 +69,21 @@
             background: rgba(255, 255, 255, 0.8);
             border-radius: 50%;
           }
+          .a-dotted{position:relative;
+            sup{font-size: 10px;
+              margin-left: 2px;
+              margin-top: -4px;
+              line-height: initial;}
+          &:after{content: "";
+            width: 84px;
+            height: 1px;
+            border-bottom: 1px dotted #fff;
+            position: absolute;
+            left: 0;
+            bottom: 0;}
+            &:hover{color: rgba(255, 255, 255, 0.8);}
+          }
+         
         }
       }
     }

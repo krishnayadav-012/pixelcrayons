@@ -3386,6 +3386,8 @@ input:-webkit-autofill:active {
         color: #ffffff;
         margin: 0 0 20px;
         line-height: 1.3; }
+      .banner-with-form .dis-flex .hire-content a {
+        color: #ffffff; }
       .banner-with-form .dis-flex .hire-content p {
         color: rgba(255, 255, 255, 0.8);
         font-size: 18px;
@@ -3411,6 +3413,23 @@ input:-webkit-autofill:active {
           height: 8px;
           background: rgba(255, 255, 255, 0.8);
           border-radius: 50%; }
+        .banner-with-form .dis-flex .hire-content ul li .a-dotted {
+          position: relative; }
+          .banner-with-form .dis-flex .hire-content ul li .a-dotted sup {
+            font-size: 10px;
+            margin-left: 2px;
+            margin-top: -4px;
+            line-height: initial; }
+          .banner-with-form .dis-flex .hire-content ul li .a-dotted:after {
+            content: "";
+            width: 84px;
+            height: 1px;
+            border-bottom: 1px dotted #fff;
+            position: absolute;
+            left: 0;
+            bottom: 0; }
+          .banner-with-form .dis-flex .hire-content ul li .a-dotted:hover {
+            color: rgba(255, 255, 255, 0.8); }
     .banner-with-form .dis-flex .hire-form {
       position: relative;
       flex-basis: 38%;

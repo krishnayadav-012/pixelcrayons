@@ -91,7 +91,7 @@
                   <p class="white-txt">No Freelancers  |  Pre-Vetted Experts  |  2X Faster Delivery</p>
                   <p>Accelerate your business growth with .NET technology. Hire .NET developers from PixelCrayons. and create dynamic websites, web applications, and software that drive business success.</p>
                   <ul>
-                     <li>Flexible Hiring Models</li>
+                  <li><a href="https://www.workstatus.io/" class="a-dotted" target="_blank">Workstatus<sup>TM</sup></a> Powered Proof of Work</li>
                      <li>No Contract Lock-ins</li>
                      <li>WorkstatusTM powered Proof of Work</li>
                      <li>Flexible contracts, transparent pricing</li>
