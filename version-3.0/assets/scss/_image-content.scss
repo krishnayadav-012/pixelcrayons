@@ -46,6 +46,17 @@
   }
 }
 
+
+@media (max-width:1920px) {
+  .image-content {
+    .outer-box {
+      .image-box {
+        text-align: center;
+      }
+    }
+  }
+}
+
 @media (max-width: 991px) {
 
   .image-content {

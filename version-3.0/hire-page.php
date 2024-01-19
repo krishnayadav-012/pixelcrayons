@@ -108,7 +108,7 @@
 
                      <div class="top-sec">
                      <picture>
-                           <img loading="lazy" src="assets/images/hire-boy-image.svg" alt="pixel" width="393" height="160">
+                           <img loading="lazy" src="assets/images/hire-boy-image-new.png" alt="pixel" width="247" height="160">
                         </picture>
                         </div>
                     
@@ -176,8 +176,6 @@
                            </div>
                         </div>
                      </div>
-
-
                         <div class="button-section">
                            <div class="btn-div">
                               <a class="white-btn" href="#">Start my Trial</a>
@@ -198,7 +196,6 @@
                            </div>
                         </div>
                      </div>
-                    
                      <!--
                         <div class="bottom-sec">
                           <a class="use-form" href="#contact-sec">Or, Use this form to tell us about your needs</a>

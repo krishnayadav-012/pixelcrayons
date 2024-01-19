@@ -1192,7 +1192,7 @@ input:-webkit-autofill:active {
             color: #016be3;
             text-decoration: underline; }
     .header-two .menu ul li.menu-item-has-children {
-      padding: 0 15px 18px; }
+      padding: 0 14px 18px; }
       .header-two .menu ul li.menu-item-has-children:hover > a {
         position: relative;
         text-decoration: underline; }
@@ -4067,6 +4067,15 @@ input:-webkit-autofill:active {
   height: 35px;
   display: block; }
 
+/*CSS for banner video section*/
+.video-banner-section .banner-content {
+  width: 100%; }
+  .video-banner-section .banner-content h1 {
+    font-size: 60px; }
+  .video-banner-section .banner-content p strong {
+    font-weight: 500; }
+
+/*CSS for banner video section Ends Here*/
 @media only screen and (max-width: 1600px) {
   .banner-main {
     min-height: 740px; }
@@ -4087,6 +4096,9 @@ input:-webkit-autofill:active {
   .banner-main {
     padding: 140px 0 50px;
     min-height: auto; }
+
+  .video-banner-section .banner-content h1 {
+    font-size: 50px; }
 
   .industry-casestudy-sec .industry-case-btn a {
     padding: 13px 25px; } }
