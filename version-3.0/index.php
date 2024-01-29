@@ -453,6 +453,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/glide.js"></script>
     <!-- New script start from here-->
     <script>
+
       // faq
 
       const typedTextSpan = document.querySelector(".typed-text");

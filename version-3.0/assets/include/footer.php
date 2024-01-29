@@ -155,6 +155,27 @@
     </div>
 </footer>
 
+<div class="popup-section">
+  <div id="intentPopup" class="popup-wrapper exit-intent-popup">
+    <div class="popWrap">
+      <div class="popup-content">
+        <span class="closeicon" onclick="closeIntPopUp('intentPopup', false);">
+          <img loading="lazy" src="https://www.pixelcrayons.com/blog/wp-content/themes/pxlblog/assets/images/cross-image-icon.svg" alt="pixelcrayons" width="11" height="11" data-lazy-src="https://www.pixelcrayons.com/blog/wp-content/themes/pxlblog/assets/images/cross-image-icon.svg" data-ll-status="loaded" class="entered lazyloaded">
+          <noscript><img loading="lazy" src="https://www.pixelcrayons.com/blog/wp-content/themes/pxlblog/assets/images/cross-image-icon.svg" alt="pixelcrayons" width="11" height="11"></noscript>
+        </span>
+        <h2>Don't Leave Yet!</h2>
+        <h3>Are you looking for the perfect
+          partner for your next software project?
+        </h3>
+        <p>Let's discuss how we can bring your vision to life.</p>
+        <div class="ctasec">
+          <a href="https://www.pixelcrayons.com/contact-us" class="book-btn" data-wpel-link="internal" target="_blank" rel="follow noopener">Book a Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script defer src="./assets/js/glider.min.js"></script>
 <script defer src="./assets/js/script.js"></script>
