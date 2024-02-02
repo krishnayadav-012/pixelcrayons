@@ -687,7 +687,7 @@ input:-webkit-autofill:active {
           top: 10px;
           background: none; }
   .popup-section .exit-intent-popup {
-    display: block; }
+    display: none; }
   .popup-section .exit-intent-popup.visible {
     display: block; }
 
