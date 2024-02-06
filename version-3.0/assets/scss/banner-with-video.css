@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 61 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\menu-v2.scss
+        on line 30 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\banner-with-video.scss
 
-56:       background: #fff;
-57:       box-shadow: 0 4px 12px rgba(8, 46, 181, 0.12);
-58:       .menu ul li a {
-59:         color: #414141;
-60:       }
-61:       .menu ul li.contact-nav a{color:$white;
-62:       &:hover{color:#016be3;}
-63:       }
-64:       .large .white-theme-logo {
-65:         display: none;
-66:       }
+25:     font-weight: 400;
+26:     margin: 0 0 15px;
+27:     a {
+28:       color: rgba(255, 255, 255, 0.5);
+29:       &:hover {
+30:         color: $white;
+31:       }
+32:     }
+33:   }
+34: 
+35:   .banner-content {
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\menu-v2.scss:61
+C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\banner-with-video.scss:30
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 61 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\menu-v2.scss\A \A 56:       background: #fff;\A 57:       box-shadow: 0 4px 12px rgba(8, 46, 181, 0.12);\A 58:       .menu ul li a {\A 59:         color: #414141;\A 60:       }\A 61:       .menu ul li.contact-nav a{color:$white;\A 62:       &:hover{color:#016be3;}\A 63:       }\A 64:       .large .white-theme-logo {\A 65:         display: none;\A 66:       }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 30 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\banner-with-video.scss\A \A 25:     font-weight: 400;\A 26:     margin: 0 0 15px;\A 27:     a {\A 28:       color: rgba(255, 255, 255, 0.5);\A 29:       &:hover {\A 30:         color: $white;\A 31:       }\A 32:     }\A 33:   }\A 34: \A 35:   .banner-content {"; }

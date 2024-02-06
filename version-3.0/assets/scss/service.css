@@ -2370,14 +2370,14 @@ input:-webkit-autofill:active {
     line-height: 140%; }
 
 .table-list-section .col-box-outer {
-  border: 1px solid #e2eeff;
-  border-radius: 20px;
+  border: 1px solid rgba(65, 65, 65, 0.05);
+  border-radius: 10px;
   overflow: hidden;
   border-right: 0; }
 .table-list-section .table-list .title {
   font-size: 18px;
   font-weight: 500;
-  min-height: 80px; }
+  min-height: 90px; }
   .table-list-section .table-list .title .sub-title {
     font-size: 14px;
     font-weight: 400;
@@ -2388,255 +2388,88 @@ input:-webkit-autofill:active {
   .table-list-section .table-list .title.pxttl {
     background: #016be3;
     color: #ffffff; }
-.table-list-section .table-list .opacity-0 p {
-  opacity: 0;
-  margin: 0; }
 .table-list-section .table-list li {
-  border-bottom: 1px solid #e2eeff;
-  border-right: 1px solid #e2eeff;
+  border-bottom: 1px solid rgba(65, 65, 65, 0.05);
+  border-right: 1px solid rgba(65, 65, 65, 0.05);
   background: #ffffff;
-  padding: 20px 30px;
+  padding: 13px 5px;
   list-style: none;
   text-align: center;
-  min-height: 94px;
+  min-height: 80px;
   display: flex;
   color: #414141;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; }
-  .table-list-section .table-list li:nth-child(n + 7) {
+  .table-list-section .table-list li:nth-child(n+7) {
     display: none; }
   .table-list-section .table-list li:last-child {
     border-bottom: 0; }
   .table-list-section .table-list li:nth-child(2n) {
-    background: #fbfcff; }
-.table-list-section .table-list .ts {
-  color: #016be3;
-  display: block; }
-  .table-list-section .table-list .ts:hover {
-    text-decoration: underline;
-    color: #414141; }
-.table-list-section .table-list .gtstart {
-  color: #016be3;
-  border: 1px solid #016be3;
-  border-radius: 5px;
-  border-radius: 5px;
-  padding: 10px 20px;
-  display: inline-block;
-  font-size: 18px;
-  line-height: initial;
-  transition: 0.5s all ease-in-out;
-  min-width: 147px;
-  font-weight: 500;
-  z-index: 9; }
-  .table-list-section .table-list .gtstart:hover {
-    background: #016be3;
-    color: #ffffff; }
+    background: #FBFCFF; }
 .table-list-section .table-list:first-child ul li {
   text-align: left;
   padding-left: 20px;
   justify-content: flex-start;
   font-weight: 500;
   color: #414141; }
-.table-list-section .table-list .more-spc {
-  padding: 40px 30px; }
-.table-list-section .view-more {
-  position: absolute;
-  bottom: 230px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  cursor: pointer; }
+.table-list-section .view-more a {
+  min-width: 144px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  font-weight: 500;
+  color: #016be3;
+  position: relative; }
+  .table-list-section .view-more a:after {
+    content: "";
+    width: 16px;
+    height: 9px;
+    background: url(../images/view-icon.png) no-repeat center;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-size: 100%;
+    margin-top: -2px; }
+  .table-list-section .view-more a:hover {
+    background: #FBFCFF;
+    border-color: #016be3; }
 .table-list-section.show-all .table-list li:nth-child(n) {
   display: flex; }
 
 @media only screen and (max-width: 1600px) {
-  .table-list-section .table-list ul li {
-    padding: 20px 18px; }
-  .table-list-section .table-list .more-spc {
-    padding: 40px 18px; }
-  .table-list-section .view-more {
-    bottom: 209px; } }
-@media only screen and (max-width: 1400px) {
-  .table-list-section .table-list ul li {
-    padding: 20px 18px;
-    min-height: 95px; }
-  .table-list-section .table-list .more-txt {
-    min-height: 145px; }
-  .table-list-section .table-list .more-spc {
-    padding: 40px 18px; }
-  .table-list-section .view-more {
-    bottom: 210px; } }
-@media only screen and (max-width: 1380px) {
-  .table-list-section .table-list ul li {
-    padding: 20px 18px;
-    min-height: 95px; }
   .table-list-section .table-list:first-child ul li {
-    padding-left: 11px; } }
-@media only screen and (max-width: 1024px) {
-  .table-list-section .table-list .title {
-    font-size: 16px;
-    min-height: 50px; }
-  .table-list-section .table-list li {
-    font-size: 14px;
-    line-height: 26px;
-    padding: 15px 15px;
-    min-height: 94px; }
-  .table-list-section .table-list .gtstart {
-    font-size: 16px;
-    min-width: 100px; }
-    .table-list-section .table-list .gtstart:first-child ul li {
-      padding-left: 10px; }
-    .table-list-section .table-list .gtstart .more-spc {
-      padding: 40px 30px; }
-  .table-list-section .view-more {
-    bottom: 170px; } }
+    padding-left: 26px; } }
 @media only screen and (max-width: 991px) {
-  .table-list-section .table-list .more-spc {
-    padding: 20px 15px; }
-  .table-list-section .table-list .title {
-    font-size: 16px;
-    min-height: 90px;
-    line-height: 24px; }
-  .table-list-section .table-list .more-txt {
-    min-height: 200px; }
-  .table-list-section .table-list ul li {
-    font-size: 13px;
-    line-height: 24px;
-    padding: 12px 10px;
-    min-height: 120px; }
   .table-list-section .table-list:first-child ul li {
-    padding-left: 10px; }
-  .table-list-section .table-list .gtstart {
-    font-size: 13px; }
-    .table-list-section .table-list .gtstart:first-child ul li {
-      padding-left: 10px; }
-  .table-list-section .view-more {
-    bottom: 160px; } }
-@media only screen and (max-width: 790px) {
-  .table-list-section .table-wrap {
-    position: relative;
-    overflow-x: auto; }
-    .table-list-section .table-wrap .col-box-outer {
-      overflow: scroll;
-      width: 500px;
-      flex-wrap: nowrap; }
-    .table-list-section .table-wrap .table-list .title {
-      font-size: 14px;
-      line-height: 24px; }
-    .table-list-section .table-wrap .table-list .gtstart {
-      padding: 10px 10px; }
-  .table-list-section .view-more {
-    bottom: 145px; } }
-.section-numbers .number-row {
-  grid-gap: 20px;
-  grid-template-rows: auto auto;
-  grid-template-columns: repeat(3, 1fr);
-  display: grid; }
-  .section-numbers .number-row .box-3 {
-    width: 100%;
-    padding: 25px 25px 40px;
-    border-radius: 10px;
-    border: 1px solid rgba(212, 224, 237, 0.7);
-    position: relative;
-    display: flex;
-    flex-direction: column; }
-    .section-numbers .number-row .box-3 .card-image {
-      position: relative;
-      width: 100%;
-      height: 175px;
-      margin: 0 0 30px; }
-      .section-numbers .number-row .box-3 .card-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px; }
-    .section-numbers .number-row .box-3 .card-wrapper {
-      flex-direction: column;
-      flex: 1;
-      justify-content: space-between;
-      display: flex; }
-    .section-numbers .number-row .box-3 h3 {
-      font-size: 25px;
-      font-weight: 600;
-      line-height: 140%;
-      color: #414141; }
-    .section-numbers .number-row .box-3 h2 {
-      font-size: 40px;
-      font-weight: 700;
-      font-family: "Rubik";
-      letter-spacing: 1px;
-      position: relative; }
-      .section-numbers .number-row .box-3 h2:after {
-        content: "";
-        background: url(../images/zigzag.svg) no-repeat center;
-        width: 21px;
-        display: inline-block;
-        height: 11px;
-        margin-left: 12px;
-        vertical-align: top; }
-    .section-numbers .number-row .box-3 .is-grey {
-      color: #414141;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      letter-spacing: 1.4px;
-      margin: 0 0 25px; }
-    .section-numbers .number-row .box-3 p {
-      margin: 0 0 20px; }
-    .section-numbers .number-row .box-3 .btn {
-      text-decoration: underline;
-      position: relative;
-      color: #016be3;
-      font-size: 16px; }
-      .section-numbers .number-row .box-3 .btn:after {
-        content: "";
-        background: url(../images/view-arrow.svg) no-repeat center;
-        width: 19px;
-        display: inline-block;
-        height: 12px;
-        margin-left: 8px;
-        transition: all 0.3s ease-in-out; }
-      .section-numbers .number-row .box-3 .btn:hover {
-        text-decoration: none;
-        color: #414141; }
-        .section-numbers .number-row .box-3 .btn:hover:after {
-          margin-left: 15px; }
-    .section-numbers .number-row .box-3.is-first {
-      background: rgba(247, 246, 249, 0.4); }
-      .section-numbers .number-row .box-3.is-first .card-image {
-        height: 192px; }
-        .section-numbers .number-row .box-3.is-first .card-image img {
-          border-radius: 0; }
-
-@media only screen and (max-width: 1024px) {
-  .section-numbers .number-row {
-    grid-gap: 20px; }
-    .section-numbers .number-row .box-3 .card-image {
-      margin: 0 0 20px; }
-    .section-numbers .number-row .box-3 h3 {
-      font-size: 20px; }
-    .section-numbers .number-row .box-3 h2 {
-      font-size: 35px; } }
+    padding-left: 15px; } }
 @media only screen and (max-width: 767px) {
-  .section-numbers .number-row {
-    grid-gap: 20px;
-    grid-template-columns: repeat(1, 1fr); }
-    .section-numbers .number-row .box-3 {
-      padding: 18px 18px 30px; }
-      .section-numbers .number-row .box-3 .card-image {
-        margin: 0 0 20px; }
-      .section-numbers .number-row .box-3 h3 {
-        font-size: 20px; }
-      .section-numbers .number-row .box-3 h2 {
-        font-size: 30px; }
-      .section-numbers .number-row .box-3 .is-grey {
-        margin: 0 0 15px; }
-      .section-numbers .number-row .box-3 p {
-        margin: 0 0 15px; }
-      .section-numbers .number-row .box-3 .btn {
-        font-size: 14px; } }
+  .table-list-section .col-box-outer {
+    border-right: 0;
+    flex-wrap: nowrap;
+    border-radius: 0; }
+  .table-list-section .table-list {
+    flex-basis: 25%; }
+    .table-list-section .table-list:first-child ul li {
+      padding-left: 5px; }
+    .table-list-section .table-list .title {
+      min-height: 80px; }
+    .table-list-section .table-list li {
+      font-size: 12px;
+      padding: 0 5px;
+      line-height: 20px;
+      min-height: 80px; }
+    .table-list-section .table-list .title {
+      font-size: 12px;
+      line-height: 1.5; }
+      .table-list-section .table-list .title .sub-title {
+        display: none; }
+  .table-list-section .view-more a {
+    padding: 10px 15px; } }
 .faq h2 {
   font-weight: 500; }
 .faq .faq-accordion-default {
@@ -6002,4 +5835,4 @@ input:-webkit-autofill:active {
 .page-id-9570 .why-does-soft-develop-list-section .dis-flex {
   align-items: center; }
 
-/*# sourceMappingURL=service.min.css.map */
+/*# sourceMappingURL=service.css.map */

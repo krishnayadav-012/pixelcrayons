@@ -13,7 +13,7 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/service.min.css" as="style" />
   </head>
   <body id="themeAdd" class="service-menu">
-  <?php require_once 'assets/include/menu-v2nb.php'; ?>
+    <?php require_once 'assets/include/menu-v2nb.php'; ?>
     <section class="video-banner-section  text-left padding-t-120 padding-b-120">
       <video id="background-video" autoplay loop muted style="background-color:#1a2649;">
         <source src="../assets/video/service-video.mp4" type="video/mp4" type="video/mp4">
@@ -39,7 +39,6 @@
             <picture>
               <img loading="lazy" src="../assets/images/form-partner-02.svg" alt="Pixelcrayons" width="108" height="27">
             </picture>
-            
             <picture>
               <source type="image/webp" srcset="../assets/images/service/award-04.webp">
               <source type="image/png" srcset="../assets/images/service/award-04.png">
@@ -57,8 +56,6 @@
       </div>
     </section>
     <?php require_once '../assets/include/awards.php'; ?>
-
-
     <section class="why-choose-three-column-section Offshore-Software-Development Partner padding-t-120 padding-b-120">
       <div class="container">
         <div class="heading text-center">
@@ -126,7 +123,137 @@
         </div>
       </div>
     </section>
-            
+    <section class="section-numbers">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Success Stories</h2>
+          <p>Here are some of our stories of growth and achievement we've authored for businesses like yours.
+          </p>
+        </div>
+        <div class="dis-flex number-row threebox margin-t-80">
+          <div class="flex-3">
+            <div class="box-3 number-col">
+              <div class="card-image">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/case-01.png">
+                  <source type="image/png" srcset="assets/images/case-01.png">
+                  <img loading="lazy" src="assets/images/case-01.png" alt="Discover" width="320" height="155">
+                </picture>
+              </div>
+              <h2>20%</h2>
+              <div class="is-grey">CLICK THROUGH RATE</div>
+              <p>Elevated the brand prominence of a fashion retail brand.</p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="flex-3">
+            <div class="box-3 number-col">
+              <div class="card-image">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/case-02.png">
+                  <source type="image/png" srcset="assets/images/case-02.png">
+                  <img loading="lazy" src="assets/images/case-02.png" alt="Discover" width="320" height="155">
+                </picture>
+              </div>
+              <h2>30%</h2>
+              <div class="is-grey">LOCATION-BASED IMPRESSIONS</div>
+              <p>Revitalized clinic visibility with strategic PPC excellence.</p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="flex-3">
+            <div class="box-3 number-col">
+              <div class="card-image">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/case-03.png">
+                  <source type="image/png" srcset="assets/images/case-03.png">
+                  <img loading="lazy" src="assets/images/case-03.png" alt="Discover" width="320" height="155">
+                </picture>
+              </div>
+              <h2>25%</h2>
+              <div class="is-grey">CTR FOR PROPERTY LISTINGS</div>
+              <p>Strategic PPC mastery for a real estate agency.</p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="table-list-section show-all bg-light padding-t-120 padding-b-120">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Customized PPC Packages for Your Business Needs</h2>
+          <p>We understand that every business has unique advertising needs and goals. That's why we offer customized Pay-Per-Click (PPC) packages, 
+            designed to align precisely with your specific marketing objectives and budgetary constraints.
+          </p>
+        </div>
+        <div class="table-wrap">
+          <div class="dis-flex col-box-outer margin-t-100">
+            <div class="flex-5 table-list">
+              <ul>
+                <li class="title clr-white">Feature/Metric</li>
+                <li class="opacity-0 more-txt">
+                  <p>Ideal for building a digital presence and generating initial leads.</p>
+                </li>
+                <li>Price</li>
+                <li>Platforms</li>
+                <li>Strategy Sessions</li>
+                <li>Keyword Research</li>
+                <li class="more-spc">Need more information?<br><a href="https://www.pixelcrayons.com/contact-us" class="ts">Talk to Sales</a></li>
+              </ul>
+            </div>
+            <div class="flex-5 table-list">
+              <ul>
+                <li class="title">Growth Sprout</li>
+                <li class="more-txt">Ideal for building a digital presence and generating initial leads.</li>
+                <li>Minimum $400/month or 15% of overall spend</li>
+                <li>1</li>
+                <li>Monthly</li>
+                <li>Basic Research &<br> Targeting</li>
+                <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
+              </ul>
+            </div>
+            <div class="flex-5 table-list">
+              <ul>
+                <li class="title clr-white">Targeted Expansion</li>
+                <li class="more-txt">Expands your reach and refines targeting for better lead quality.</li>
+                <li>Minimum $1000/month or 12% of overall spend</li>
+                <li>2</li>
+                <li>Bi-Weekly</li>
+                <li>Enhanced Targeting & Competitor Analysis</li>
+                <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
+              </ul>
+            </div>
+            <div class="flex-5 table-list">
+              <ul>
+                <li class="title clr-white">Peak Performance</li>
+                <li class="more-txt">Maximizes campaign efficiency and ROI with advanced tools for market penetration.</li>
+                <li>Minimum $2200/month or 10% of overall spend)</li>
+                <li>3+</li>
+                <li>Weekly</li>
+                <li>Advanced Targeting & Market Trends</li>
+                <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
+              </ul>
+            </div>
+            <div class="flex-5 table-list">
+              <ul>
+                <li class="title clr-white">Bespoke Strategy</li>
+                <li class="more-txt">Elite, fully customized service for market leaders and ambitious businesses.</li>
+                <li>Custom Quote</li>
+                <li>Your Choice</li>
+                <li>As Needed</li>
+                <li>Fully Tailored Research & Custom Audiences</li>
+                <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="view-more margin-t-50 text-center">
+          <a href="javascript:void(0);" onclick="" class="active"><img loading="lazy" src="assets/images/scroll-img.png"
+            alt="Pixelcrayons" width="34" height="34"></a>
+        </div>
+      </div>
+    </section>
     <!-- Our Clients section -->
     <div class="light-theme">
       <?php require_once '../assets/include/testimonials.php'; ?>
@@ -1077,7 +1204,6 @@
     <?php require_once '../assets/include/cta-v3.php'; ?>
     <!-- footer -->
     <?php require_once '../assets/include/footer.php'; ?>
-   
     <script defer src="../assets/js/script.js"></script>
   </body>
 </html>
