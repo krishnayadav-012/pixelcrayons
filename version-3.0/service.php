@@ -27,6 +27,9 @@
           </h1>
           <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
+
+   
+
         <div class="service-bottom-section dis-flex justify-sb items-center margin-t-80">
           <div class="rqst-btn"><a href="#" target="_blank" class="white-btn white">Request Free Consultation</a></div>
           <div class="badges">
@@ -55,7 +58,10 @@
         </div>
       </div>
     </section>
-    <?php require_once '../assets/include/awards.php'; ?>
+
+    <?php require_once 'assets/include/client-logo.php'; ?>
+
+
     <section class="why-choose-three-column-section Offshore-Software-Development Partner padding-t-120 padding-b-120">
       <div class="container">
         <div class="heading text-center">
@@ -254,6 +260,7 @@
         </div>
       </div>
     </section>
+    <?php require_once 'assets/include/common-industries.php'; ?>
     <!-- Our Clients section -->
     <div class="light-theme">
       <?php require_once '../assets/include/testimonials.php'; ?>
@@ -1204,6 +1211,111 @@
     <?php require_once '../assets/include/cta-v3.php'; ?>
     <!-- footer -->
     <?php require_once '../assets/include/footer.php'; ?>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/glide.js"></script>
+    <script>
+
+// faq
+
+
+new Glide('.logoslide', {
+                 type: 'carousel',
+                 autoplay: 1,
+                 animationDuration: 10000,
+                 animationTimingFunc: 'linear',
+                 gap: 0,
+                 startAt: 0,
+                 perView: 1 }).
+               mount();
+
+
+               window.addEventListener("load", function() {
+                 document.querySelector(".industry-slider .glider").addEventListener("glider-slide-visible",
+                 function(event) {
+                 var glider = Glider(this);
+                 });
+                 window._ = new Glider(document.querySelector(".industry-slider .glider"), {
+                     slidesToShow: 4,
+                     slidesToScroll: 1,
+                     draggable: true,
+                     scrollLock: false,
+                     dots: ".industry-slider .dots",
+                     dragDistance: false,
+                     arrows: {
+                     prev: '.glider-prev',
+                     next: '.glider-next'
+                   },
+         
+                     responsive: [{
+                             breakpoint: 320,
+                             settings: {
+                                 slidesToShow: 1,
+                                 duration: 2.25
+                             }
+                         },
+                         {
+                             breakpoint: 767,
+                             settings: {
+                                 slidesToShow: 2,
+                                 itemWidth: 150,
+                                 duration: 1.25
+                             }
+                         },
+                         {
+                             breakpoint: 1024,
+                             settings: {
+                                 slidesToShow: 4,
+                                 itemWidth: 150,
+                                 duration: 1.25
+                             }
+                         },
+                         {
+                             breakpoint: 1400,
+                             settings: {
+                                 slidesToShow: 4,
+                                 itemWidth: 150,
+                                 duration: 3
+                             }
+                         },
+                     ],
+         
+         
+                 });
+         
+             });
+         
+      
+
+document.querySelector('.glider').addEventListener('glider-slide-visible', function(event){
+var imgs_to_anticipate = 3;
+var glider = Glider(this);
+let activeSlide = glider.slides[glider.slide].getAttribute("data-img-hover");
+document.querySelector(".bannerIMG").setAttribute("src", activeSlide)
+});
+
+
+   
+   const titleBoxes = document.querySelectorAll(".ind-box");
+   const bannerImg = document.querySelector(".bannerIMG");
+   const gliderActive = document.querySelector(".left-2");
+   
+   
+   titleBoxes.forEach((box) => {
+   box.addEventListener("mouseover", () => {
+   const imgPath = box.getAttribute("data-img-hover");
+   bannerImg.setAttribute("src", imgPath);
+   
+   
+   });
+   
+   box.addEventListener("mouseout", () => {
+   // const lastHoverImg = box.lastChild.getAttribute("src");
+   // bannerImg.setAttribute("src", lastHoverImg);
+   // box.removeChild(box.lastChild);
+   
+   });
+   });
+</script>
     <script defer src="../assets/js/script.js"></script>
   </body>
 </html>

@@ -3632,7 +3632,8 @@ input:-webkit-autofill:active {
               border: 1px solid #016be3;
               min-width: 200px;
               text-transform: capitalize;
-              font-size: 16px; }
+              font-size: 16px;
+              cursor: pointer; }
               .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .btn-div .white-btn:hover {
                 background: #fff;
                 color: #016be3; }
