@@ -2416,7 +2416,8 @@ input:-webkit-autofill:active {
       opacity: 0.7;
       text-decoration: underline; }
       .gets-started .button-section .free-con a:hover {
-        opacity: 1; }
+        opacity: 1;
+        text-decoration: none; }
     .gets-started .button-section .info-wrap {
       color: rgba(255, 255, 255, 0.7);
       font-weight: 500;
@@ -2501,6 +2502,10 @@ input:-webkit-autofill:active {
       z-index: 1;
       transition: all 0.5s ease-in-out;
       border-radius: 10px; }
+      .develop-section .dev-cards .card .tech-image img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px; }
     .develop-section .dev-cards .card .card-info {
       position: absolute;
       bottom: 0;

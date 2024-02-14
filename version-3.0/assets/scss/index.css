@@ -3653,7 +3653,8 @@ a {
       opacity: 0.7;
       text-decoration: underline; }
       .gets-started .button-section .free-con a:hover {
-        opacity: 1; }
+        opacity: 1;
+        text-decoration: none; }
     .gets-started .button-section .info-wrap {
       color: rgba(255, 255, 255, 0.7);
       font-weight: 500;
