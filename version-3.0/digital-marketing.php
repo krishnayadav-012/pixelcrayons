@@ -732,26 +732,32 @@
 
 
       
-      <section class="gets-started">
+      <section class="overcome padding-t-60 padding-b-60">
          <div class="container">
             <div class="dis-flex justify-sb">
-               <div class="left-sec padding-t-60 padding-b-60">
+               <div class="left-sec">
                   <div class="heading">
-                     <h2>Overcome Tech Limitations</h2>
-                     <p>
-                        PixelCrayons is your one-stop software engineering company for all your needs. From conceptualization to implementation, our experts are well-equipped.
-                     </p>
+                     <h2>Redefine Your Online</h2>
+                     <ul>
+                        <li><h3>5,456,456+</h3><p>LEADS GENERATED FOR CLIENTS</p></li>
+                        <li><h3>$3,582,458,384+</h3><p>REVENUE DRIVEN FOR CLIENTS</p></li>
+                        <li><h3>620+</h3><p>IN-HOUSE EXPERTS</p></li>
+
+                     </ul>
                   </div>
-                  <div class="btn-div margin-t-50">
-                     <a href="https://www.pixelcrayons.com/contact-us" class="white-btn">Request A Free Consultation</a>        
-                  </div>
+                  
                </div>
                <div class="right-sec">
-                  <picture class="icon-box">
-                     <source type="image/webp" srcset="assets/images/hire-cta-image.webp">
-                     <source type="image/png" srcset="assets/images/hire-cta-image.png">
-                     <img loading="lazy" src="assets/images/hire-cta-image.png" alt="pixel" width="621" height="388">
-                  </picture>
+                  <div class="top-sec"><h3>Discover How We Can Help<br> Your Business Grow</h3></div>
+                  <div class="btm-sec"><div class="ctasec">
+<div>
+<a href="#" href="javascript:void(0);" class="white-btn sbg">Book A Call </a>
+</div>
+<span class="devide">OR</span>
+<div>
+<a href="javascript:void(0)" class="white-btn">Contact Us</a>
+</div>
+</div></div>
                </div>
             </div>
          </div>
