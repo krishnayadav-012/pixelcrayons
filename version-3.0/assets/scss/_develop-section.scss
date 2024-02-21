@@ -1,8 +1,8 @@
 .develop-section {
   .dev-cards {
     --cards-text-color: #fff;
-    --animation-speed-normal: 0.5s;
-    --animation-speed-fast: 0.25s;
+    --animation-speed-normal: .3s;
+    --animation-speed-fast: .25s;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -14,7 +14,7 @@
       position: relative;
       height: 350px;
       z-index: 1;
-      transition: all 0.5s ease-in-out;
+      transition: all var(--animation-speed-normal) ease-in-out;
       cursor: pointer;
       img {
         object-fit: cover;
@@ -29,7 +29,6 @@
       }
       .card-info {
         position: absolute;
-        bottom: 0;
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
@@ -42,7 +41,7 @@
         width: 100%;
         padding: 30px;
         opacity: 0;
-        transition: all 0.2s ease-in-out;
+        transition: all var(--animation-speed-normal) ease-in-out;
 
         h3 {
           color: $white;
@@ -64,7 +63,6 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 1.3;
-        transition: all ease-in 0.3s;
       }
     }
   }

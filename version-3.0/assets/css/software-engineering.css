@@ -2478,8 +2478,8 @@ input:-webkit-autofill:active {
       vertical-align: middle; } }
 .develop-section .dev-cards {
   --cards-text-color: #fff;
-  --animation-speed-normal: 0.5s;
-  --animation-speed-fast: 0.25s;
+  --animation-speed-normal: .3s;
+  --animation-speed-fast: .25s;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2490,7 +2490,7 @@ input:-webkit-autofill:active {
     position: relative;
     height: 350px;
     z-index: 1;
-    transition: all 0.5s ease-in-out;
+    transition: all var(--animation-speed-normal) ease-in-out;
     cursor: pointer; }
     .develop-section .dev-cards .card img {
       object-fit: cover;
@@ -2504,7 +2504,6 @@ input:-webkit-autofill:active {
       border-radius: 10px; }
     .develop-section .dev-cards .card .card-info {
       position: absolute;
-      bottom: 0;
       top: 50%;
       transform: translateY(-50%);
       z-index: 2;
@@ -2517,7 +2516,7 @@ input:-webkit-autofill:active {
       width: 100%;
       padding: 30px;
       opacity: 0;
-      transition: all 0.2s ease-in-out; }
+      transition: all var(--animation-speed-normal) ease-in-out; }
       .develop-section .dev-cards .card .card-info h3 {
         color: #ffffff;
         margin: 0 0 10px; }
@@ -2532,8 +2531,7 @@ input:-webkit-autofill:active {
       color: rgba(65, 65, 65, 0.6);
       font-size: 20px;
       font-weight: 500;
-      line-height: 1.3;
-      transition: all ease-in 0.3s; }
+      line-height: 1.3; }
 .develop-section .dev-cards .card[active] {
   flex-basis: 560px;
   height: 350px; }

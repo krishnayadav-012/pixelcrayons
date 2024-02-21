@@ -955,30 +955,7 @@
                    },
          
                      responsive: [{
-                             breakpoint: 320,
-                             settings: {
-                                 slidesToShow: 1,
-                                 duration: 2.25
-                             }
-                         },
-                         {
-                             breakpoint: 767,
-                             settings: {
-                                 slidesToShow: 2,
-                                 itemWidth: 150,
-                                 duration: 1.25
-                             }
-                         },
-                         {
-                             breakpoint: 1024,
-                             settings: {
-                                 slidesToShow: 4,
-                                 itemWidth: 150,
-                                 duration: 1.25
-                             }
-                         },
-                         {
-                             breakpoint: 1400,
+                        breakpoint: 1400,
                              settings: {
                                  slidesToShow: 4,
                                  itemWidth: 150,

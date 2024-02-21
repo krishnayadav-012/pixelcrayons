@@ -666,7 +666,7 @@
         </div>
       </div>
     </section>
-    <section class="tools-developer tech-stack-list padding-t-60 padding-b-120">
+<section class="tools-developer tech-stack-list padding-t-60 padding-b-120">
       <div class="container">
         <div class="heading text-center">
           <h2>Technologies We Rely On for Advanced Solutions</h2>

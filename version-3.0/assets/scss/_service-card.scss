@@ -46,6 +46,9 @@
     &.bg-yellow {
       background: rgba(255, 225, 117, 1);
       height: 370px;
+      .grid-face{color:rgba(65, 65, 65, 1);}
+      .desc{color:rgba(65, 65, 65, 1);}
+      .value{color:rgba(65, 65, 65, 1);}
     }
     .value {
       font-size: 96px;
@@ -76,9 +79,9 @@
     padding: 30px;
     color: white;
     text-align: center;
-
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-
     display: flex;
     align-items: flex-start;
     justify-content: center;

@@ -2632,7 +2632,8 @@ input:-webkit-autofill:active {
       opacity: 0.7;
       text-decoration: underline; }
       .gets-started .button-section .free-con a:hover {
-        opacity: 1; }
+        opacity: 1;
+        text-decoration: none; }
     .gets-started .button-section .info-wrap {
       color: rgba(255, 255, 255, 0.7);
       font-weight: 500;
@@ -3679,6 +3680,8 @@ input:-webkit-autofill:active {
                 color: #414141;
                 opacity: 0.5;
                 text-decoration: underline; }
+                .banner-with-form .dis-flex .hire-form .form-wrap .mid-sec .button-section .free-con a:hover {
+                  text-decoration: none; }
         .banner-with-form .dis-flex .hire-form .form-wrap ::placeholder {
           color: rgba(65, 65, 65, 0.52); }
         .banner-with-form .dis-flex .hire-form .form-wrap h3 {

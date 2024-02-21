@@ -2492,7 +2492,7 @@ input:-webkit-autofill:active {
     z-index: 1;
     transition: all 0.5s ease-in-out;
     cursor: pointer; }
-    .develop-section .dev-cards .card .tech-image {
+    .develop-section .dev-cards .card img {
       object-fit: cover;
       position: absolute;
       top: 0;
@@ -2502,10 +2502,6 @@ input:-webkit-autofill:active {
       z-index: 1;
       transition: all 0.5s ease-in-out;
       border-radius: 10px; }
-      .develop-section .dev-cards .card .tech-image img {
-        height: 100%;
-        object-fit: cover;
-        border-radius: 15px; }
     .develop-section .dev-cards .card .card-info {
       position: absolute;
       bottom: 0;
@@ -4935,8 +4931,6 @@ a {
 
 .result-driven-software-service .heading p {
   margin-bottom: 60px !important; }
-.result-driven-software-service .box-3 p {
-  min-height: 182px; }
 
 .choose-custom-software .heading p {
   margin-bottom: 60px !important; }

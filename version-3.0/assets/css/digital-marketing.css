@@ -2382,6 +2382,12 @@ input:-webkit-autofill:active {
   .digital-services .card.bg-yellow {
     background: #ffe175;
     height: 370px; }
+    .digital-services .card.bg-yellow .grid-face {
+      color: #414141; }
+    .digital-services .card.bg-yellow .desc {
+      color: #414141; }
+    .digital-services .card.bg-yellow .value {
+      color: #414141; }
   .digital-services .card .value {
     font-size: 96px;
     line-height: 1;
@@ -2404,6 +2410,8 @@ input:-webkit-autofill:active {
   padding: 30px;
   color: white;
   text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   display: flex;
   align-items: flex-start;
