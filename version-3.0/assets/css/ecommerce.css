@@ -4514,6 +4514,8 @@ a {
           flex-basis: 45%; }
     .ecom-solution .ecom-tabs .bcontents .tab-contents.active {
       display: block; }
+  .ecom-solution .ecom-tabs .glider-dots {
+    display: none; }
   .ecom-solution .glider-prev {
     background: url(../images/prev-tab.svg) no-repeat center;
     width: 34px;
@@ -4651,27 +4653,88 @@ a {
     .ecom-plateform .plateform-tabs .bcontents .tab-contents.active {
       display: block; }
 
-.glider-dots {
-  position: absolute;
-  bottom: -30px !important;
-  right: 0;
-  left: 0; }
+@media (max-width: 979px) {
+  .ecom-solution .glider-prev {
+    left: 100%; }
+  .ecom-solution .glider-next {
+    right: -75px; } }
+@media (max-width: 767px) {
+  .ecom-solution {
+    background: #fff !important; }
+    .ecom-solution .ecom-tabs .tab-nav {
+      list-style-type: none;
+      flex-basis: 100%;
+      width: 100%;
+      position: relative; }
+      .ecom-solution .ecom-tabs .tab-nav .tabs-slider {
+        position: relative; }
+      .ecom-solution .ecom-tabs .tab-nav .tab-scroll {
+        margin: 0 0 20px; }
+        .ecom-solution .ecom-tabs .tab-nav .tab-scroll .tablist a {
+          font-size: 16px;
+          line-height: 26px;
+          padding: 0 5px 12px;
+          text-align: center; }
+      .ecom-solution .ecom-tabs .tab-nav .is-arrow {
+        margin-left: 10px; }
+    .ecom-solution .ecom-tabs .bcontents .tab-contents .dis-flex .content-box {
+      flex-basis: 100%; }
+      .ecom-solution .ecom-tabs .bcontents .tab-contents .dis-flex .content-box h3 {
+        margin: 0 0 10px; }
+      .ecom-solution .ecom-tabs .bcontents .tab-contents .dis-flex .content-box p {
+        margin: 0 0 15px; }
+      .ecom-solution .ecom-tabs .bcontents .tab-contents .dis-flex .content-box ul {
+        margin: 0 0 15px; }
+    .ecom-solution .ecom-tabs .bcontents .tab-contents .dis-flex .image-box {
+      flex-basis: 100%; }
+    .ecom-solution .ecom-tabs .glider-dots {
+      display: none; }
+    .ecom-solution .glider-prev {
+      background-size: 100%;
+      width: 28px;
+      height: 28px;
+      left: 95%;
+      top: 15px; }
+    .ecom-solution .glider-next {
+      right: -44px;
+      background-size: 100%;
+      width: 28px;
+      height: 28px;
+      top: 15px; }
 
-.glider-dot {
-  display: block;
-  color: #ccc;
-  border-radius: 999px;
-  background: #000 !important;
-  width: 12px;
-  height: 12px;
-  margin: 7px; }
-
-.glider-dots .glider-dot {
-  background: #000 !important; }
-
-.glider-dots .glider-dot.active {
-  background: #000 !important; }
-
+  .ecom-plateform .plateform-tabs .tab-nav {
+    overflow: hidden; }
+    .ecom-plateform .plateform-tabs .tab-nav ul {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 100%; }
+      .ecom-plateform .plateform-tabs .tab-nav ul li {
+        margin: 0 5px 5px 0;
+        display: block ruby; }
+        .ecom-plateform .plateform-tabs .tab-nav ul li a {
+          font-size: 16px;
+          padding: 0 5px 5px; }
+  .ecom-plateform .plateform-tabs .bcontents {
+    margin: 20px 0 0; }
+    .ecom-plateform .plateform-tabs .bcontents .tab-contents h3 {
+      margin: 0 0 15px; }
+    .ecom-plateform .plateform-tabs .bcontents .tab-contents p {
+      margin: 0 0 10px; }
+    .ecom-plateform .plateform-tabs .bcontents .tab-contents ul {
+      margin: 0 0 10px; }
+    .ecom-plateform .plateform-tabs .bcontents .tab-contents .tab-row {
+      gap: 0px; }
+      .ecom-plateform .plateform-tabs .bcontents .tab-contents .tab-row .tab-column {
+        flex-basis: 100%; }
+      .ecom-plateform .plateform-tabs .bcontents .tab-contents .tab-row .column {
+        margin: 30px 0 0;
+        min-height: initial; }
+        .ecom-plateform .plateform-tabs .bcontents .tab-contents .tab-row .column h4 {
+          padding: 0 0 10px;
+          margin: 0 0 10px; }
+          .ecom-plateform .plateform-tabs .bcontents .tab-contents .tab-row .column h4 img {
+            margin-right: 8px; } }
 .footer {
   padding: 40px 0 0 0;
   background: #fff; }
@@ -5368,17 +5431,16 @@ a {
               line-height: 130%; }
       .banner-section .banner-wrap .right-sec .badges {
         margin: 60px 0 0; }
-
-.glider-dots {
-  position: absolute;
-  bottom: 84px;
-  right: 0;
-  left: 0; }
-  .glider-dots .glider-dot {
-    border: 2px solid rgba(255, 255, 255, 0.26);
-    background: transparent; }
-    .glider-dots .glider-dot.active {
-      background: #ffffff; }
+  .banner-section .glider-dots {
+    position: absolute;
+    bottom: 84px;
+    right: 0;
+    left: 0; }
+    .banner-section .glider-dots .glider-dot {
+      border: 2px solid rgba(255, 255, 255, 0.26);
+      background: transparent; }
+      .banner-section .glider-dots .glider-dot.active {
+        background: #ffffff; }
 
 .services-three-column-section {
   counter-reset: section; }
@@ -5501,6 +5563,14 @@ a {
           border-radius: 50%;
           top: 5px; }
 
+@media only screen and (max-width: 1600px) {
+  .banner-section .glider-dots {
+    bottom: 75px; }
+  .banner-section .service-bottom-section {
+    margin-top: 50px; } }
+@media only screen and (max-width: 1320px) {
+  .banner-section {
+    min-height: 600px; } }
 @media only screen and (max-width: 1024px) {
   .ecomsol .flex-2 {
     flex-basis: 100%; } }
@@ -5515,17 +5585,58 @@ a {
 @media screen and (max-width: 991px) {
   .banner-section {
     width: 100%;
-    min-height: initial; }
+    min-height: initial;
+    background-size: 0;
+    background-color: #05247e;
+    padding-top: 130px; }
     .banner-section .banner-wrap .left-sec {
-      flex-basis: 100%; }
+      flex-basis: 100%;
+      text-align: center; }
+      .banner-section .banner-wrap .left-sec .breadcrumbs {
+        margin: 0 0 20px;
+        text-align: center; }
+      .banner-section .banner-wrap .left-sec .banner-content h1 {
+        font-size: 50px;
+        margin: 0 0 20px; }
+      .banner-section .banner-wrap .left-sec .banner-content p {
+        font-size: 16px;
+        margin: 0 0 15px;
+        line-height: 29px; }
     .banner-section .banner-wrap .right-sec {
       flex-basis: 100%;
-      margin: 30px 0 0; }
-      .banner-section .banner-wrap .right-sec .flip-round .value {
-        font-size: 35px; }
-    .banner-section .banner-wrap .flip-card-back .title {
-      margin: 0 0 10px;
-      padding-top: 15px; }
+      width: 100%;
+      padding: 50px 0 0; }
+      .banner-section .banner-wrap .right-sec .hero-card {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 15px; }
+        .banner-section .banner-wrap .right-sec .hero-card .video-sec {
+          padding: 10px 15px; }
+        .banner-section .banner-wrap .right-sec .hero-card .ratings {
+          display: flex;
+          flex-direction: column;
+          border-radius: 0 0 15px 15px;
+          padding: 15px 0;
+          background: #fcf6e9;
+          align-items: center;
+          gap: 10px; }
+          .banner-section .banner-wrap .right-sec .hero-card .ratings .rating {
+            display: flex;
+            align-items: center; }
+            .banner-section .banner-wrap .right-sec .hero-card .ratings .rating img {
+              margin-right: 10px; }
+            .banner-section .banner-wrap .right-sec .hero-card .ratings .rating span {
+              color: rgba(19, 30, 41, 0.8);
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 130%; }
+      .banner-section .banner-wrap .right-sec .badges {
+        margin: 60px 0 0; }
+    .banner-section .service-bottom-section {
+      margin-top: 35px; }
+      .banner-section .service-bottom-section .rqst-btn {
+        margin: 0 auto; }
 
   .services-three-column-section .threebox .box-3 {
     padding: 20px; }

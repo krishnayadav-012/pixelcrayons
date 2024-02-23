@@ -435,8 +435,6 @@
                     <div class="tablist" data-tab="#tab10"><a href="#tab10">
                       Ecommerce ERP</a>
                     </div>
-
-
                     <div class="tablist" data-tab="#tab11"><a href="#tab02">
                       Ecommerce Portals</a>
                     </div>
@@ -464,13 +462,8 @@
                     <div class="tablist" data-tab="#tab19"><a href="#tab10">
                       Ecommerce ERP</a>
                     </div>
-
-
-
                   </div>
-
                   <div role="tablist" class="dots"></div>
-
                   <button aria-label="Previous" class="glider-prev">«</button>
                   <button aria-label="Next" class="glider-next">»</button>
                 </div>
@@ -666,7 +659,7 @@
     </section>
     <section class="ecom-plateform padding-t-60 padding-b-120">
       <div class="container">
-      <div class="heading text-center">
+        <div class="heading text-center">
           <h2>Ecommerce platforms we work with</h2>
           <p>To create a storefront for your products or services, we select the most suitable off-the-shelf ecommerce platform and set it up based on your specific business needs, available budget, and growth goals.
           </p>
@@ -731,7 +724,6 @@
                   </div>
                 </div>
               </div>
-
               <div id="tab2" class="tab-contents">
                 <div class="content-box">
                   <h3>Salesforce Commerce Cloud </h3>
@@ -779,14 +771,11 @@
                   </div>
                 </div>
               </div>
-            
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
     <section class="gets-started">
       <div class="container">
         <div class="dis-flex justify-sb">
@@ -794,7 +783,7 @@
             <div class="heading">
               <h2>Ready to Grow Your Sales?</h2>
               <p>
-              Explore our eCommerce services and maximize your revenue.            
+                Explore our eCommerce services and maximize your revenue.            
               </p>
             </div>
             <div class="btn-div margin-t-50">
@@ -811,7 +800,6 @@
         </div>
       </div>
     </section>
-
     <section class="ecomsol  padding-t-120">
       <div class="container">
         <div class="heading text-center">
@@ -864,8 +852,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="section-numbers padding-t-120 padding-b-120">
       <div class="container">
         <div class="heading text-center">
@@ -1164,29 +1150,7 @@
                      next: '.glider-next'
                    },
          
-                     responsive: [{
-                             breakpoint: 320,
-                             settings: {
-                                 slidesToShow: 1,
-                                 duration: 2.25
-                             }
-                         },
-                         {
-                             breakpoint: 767,
-                             settings: {
-                                 slidesToShow: 2,
-                                 itemWidth: 150,
-                                 duration: 1.25
-                             }
-                         },
-                         {
-                             breakpoint: 1024,
-                             settings: {
-                                 slidesToShow: 4,
-                                 itemWidth: 150,
-                                 duration: 1.25
-                             }
-                         },
+                     responsive: [
                          {
                              breakpoint: 1400,
                              settings: {
@@ -1256,8 +1220,8 @@
       
       
       //Tab Slider
-
-
+      
+      
       window.addEventListener("load", function() {
                  document.querySelector(".tab-slider .glider").addEventListener("glider-slide-visible",
                  function(event) {
@@ -1278,14 +1242,14 @@
                      responsive: [{
                              breakpoint: 320,
                              settings: {
-                                 slidesToShow: 1,
+                                 slidesToShow: 2,
                                  duration: 2.25
                              }
                          },
                          {
                              breakpoint: 767,
                              settings: {
-                                 slidesToShow: 2,
+                                 slidesToShow: 3,
                                  itemWidth: 150,
                                  duration: 1.25
                              }

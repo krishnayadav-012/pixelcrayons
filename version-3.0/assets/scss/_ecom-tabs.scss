@@ -115,6 +115,9 @@
         display: block;
       }
     }
+    .glider-dots {
+      display: none;
+    }
   }
   .glider-prev {
     background: url(../images/prev-tab.svg) no-repeat center;
@@ -307,32 +310,142 @@
 }
 
 @media (max-width: 979px) {
+  .ecom-solution {
+    .glider-prev {
+      left: 100%;
+    }
+    .glider-next {
+      right: -75px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
+  .ecom-solution {
+    background: #fff !important;
+    .ecom-tabs {
+      .tab-nav {
+        list-style-type: none;
+        flex-basis: 100%;
+        width: 100%;
+        position: relative;
+
+        .tabs-slider {
+          position: relative;
+        }
+
+        .tab-scroll {
+          margin: 0 0 20px;
+          .tablist {
+            a {
+              font-size: 16px;
+              line-height: 26px;
+              padding: 0 5px 12px;
+              text-align: center;
+            }
+          }
+        }
+        .is-arrow {
+          margin-left: 10px;
+        }
+      }
+      .bcontents {
+        .tab-contents {
+          .dis-flex {
+            .content-box {
+              flex-basis: 100%;
+              h3 {
+                margin: 0 0 10px;
+              }
+              p {
+                margin: 0 0 15px;
+              }
+              ul {
+                margin: 0 0 15px;
+              }
+            }
+
+            .image-box {
+              flex-basis: 100%;
+            }
+          }
+        }
+      }
+      .glider-dots {
+        display: none;
+      }
+    }
+    .glider-prev {
+      background-size: 100%;
+      width: 28px;
+      height: 28px;
+      left: 95%;
+      top: 15px;
+    }
+    .glider-next {
+      right: -44px;
+      background-size: 100%;
+      width: 28px;
+      height: 28px;
+      top: 15px;
+    }
+  }
+
+  .ecom-plateform {
+    .plateform-tabs {
+      .tab-nav {
+        overflow: hidden;
+        ul {
+          display: flex;
+          overflow-x: scroll;
+          flex-wrap: nowrap;
+          width: 100%;
+
+          li {
+            margin: 0 5px 5px 0;
+            display: block ruby;
+            a {
+              font-size: 16px;
+              padding: 0 5px 5px;
+            }
+          }
+        }
+      }
+      .bcontents {
+        margin: 20px 0 0;
+        .tab-contents {
+          h3 {
+            margin: 0 0 15px;
+          }
+          p {
+            margin: 0 0 10px;
+          }
+          ul {
+            margin: 0 0 10px;
+          }
+
+          .tab-row {
+            gap: 0px;
+            .tab-column {
+              flex-basis: 100%;
+            }
+            .column {
+              margin: 30px 0 0;
+              min-height: initial;
+              h4 {
+                padding: 0 0 10px;
+                margin: 0 0 10px;
+                img {
+                  margin-right: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 479px) {
-}
-
-.glider-dots {
-  position: absolute;
-  bottom: -30px !important;
-  right: 0;
-  left: 0;
-}
-.glider-dot {
-  display: block;
-  color: #ccc;
-  border-radius: 999px;
-  background: #000 !important;
-  width: 12px;
-  height: 12px;
-  margin: 7px;
-}
-
-.glider-dots .glider-dot{background: #000 !important;}
-
-.glider-dots .glider-dot.active {
-  background: #000 !important;
 }

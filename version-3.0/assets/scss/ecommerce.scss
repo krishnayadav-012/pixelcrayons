@@ -50,14 +50,14 @@
     z-index: 9;
 
     .left-sec {
-      flex-basis:60%;
+      flex-basis: 60%;
 
       .breadcrumbs {
         position: initial;
         font-weight: 400;
         margin: 0 0 30px;
       }
-      
+
       .banner-content {
         h1 {
           font-size: 60px;
@@ -71,37 +71,45 @@
           line-height: 29px;
         }
       }
-      .rqst-btn{
-        .white-btn{background:$royelblue; color:$white; border-color:$royelblue;
-        &:hover{background:$white; color:$royelblue; border-color:$white;}
+      .rqst-btn {
+        .white-btn {
+          background: $royelblue;
+          color: $white;
+          border-color: $royelblue;
+          &:hover {
+            background: $white;
+            color: $royelblue;
+            border-color: $white;
+          }
         }
       }
-      
     }
 
     .right-sec {
       flex-basis: 31%;
       width: 31%;
-      padding:70px 0 0;
+      padding: 70px 0 0;
       position: relative;
-      
+
       .hero-card {
         width: 100%;
         background: $white;
         border-radius: 15px;
-        .video-sec{padding:10px 15px;
-          
+        .video-sec {
+          padding: 10px 15px;
         }
-       
+
         .ratings {
           display: flex;
           flex-direction: column;
-          border-radius:0 0 15px 15px;
+          border-radius: 0 0 15px 15px;
           padding: 15px 0;
           background: rgba(252, 246, 233, 1);
           align-items: center;
           gap: 10px;
-          .rating { display: flex; align-items: center;
+          .rating {
+            display: flex;
+            align-items: center;
             img {
               margin-right: 10px;
             }
@@ -116,24 +124,25 @@
         }
       }
 
-      .badges{margin:60px 0 0;}
+      .badges {
+        margin: 60px 0 0;
+      }
+    }
+  }
+  .glider-dots {
+    position: absolute;
+    bottom: 84px;
+    right: 0;
+    left: 0;
+    .glider-dot {
+      border: 2px solid rgba(255, 255, 255, 0.26);
+      background: transparent;
+      &.active {
+        background: $white;
+      }
     }
   }
 }
-
-
-.glider-dots{position: absolute;
-  bottom: 84px;
-  right: 0;
-  left: 0;
-  .glider-dot{  border: 2px solid rgba(255, 255, 255, 0.26);
-    background: transparent;
-  &.active{background:$white;}
-  }
-}
-
-
-
 
 .services-three-column-section {
   counter-reset: section;
@@ -255,7 +264,6 @@
   }
 }
 
-
 .glider.draggable .glider-slide img.ytcover {
   pointer-events: inherit;
 }
@@ -317,18 +325,28 @@
   }
 }
 
-
-
 @media only screen and (max-width: 1600px) {
-  
-}
-@media only screen and (max-width: 1024px) {
-
-.ecomsol {
-  .flex-2 {
-    flex-basis: 100%;
+  .banner-section {
+    .glider-dots {
+      bottom: 75px;
+    }
+    .service-bottom-section {
+      margin-top: 50px;
+    }
   }
 }
+
+@media only screen and (max-width: 1320px) {
+  .banner-section {
+    min-height: 600px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .ecomsol {
+    .flex-2 {
+      flex-basis: 100%;
+    }
+  }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -351,47 +369,95 @@
       }
     }
   }
-
- 
 }
 
 @media screen and (max-width: 1280px) {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
- 
 }
 
 @media screen and (max-width: 991px) {
   .banner-section {
     width: 100%;
     min-height: initial;
-
+    background-size: 0;
+    background-color: #05247e;
+    padding-top: 130px;
     .banner-wrap {
       .left-sec {
         flex-basis: 100%;
+        text-align: center;
+        .breadcrumbs {
+          margin: 0 0 20px;
+          text-align: center;
+        }
+
+        .banner-content {
+          h1 {
+            font-size: 50px;
+            margin: 0 0 20px;
+          }
+          p {
+            font-size: 16px;
+            margin: 0 0 15px;
+            line-height: 29px;
+          }
+        }
+        .rqst-btn {
+        }
       }
 
       .right-sec {
         flex-basis: 100%;
-        margin: 30px 0 0;
+        width: 100%;
+        padding: 50px 0 0;
 
-        .flip-round {
-          .value {
-            font-size: 35px;
+        .hero-card {
+          width: 100%;
+          background: $white;
+          border-radius: 15px;
+          .video-sec {
+            padding: 10px 15px;
+          }
+
+          .ratings {
+            display: flex;
+            flex-direction: column;
+            border-radius: 0 0 15px 15px;
+            padding: 15px 0;
+            background: rgba(252, 246, 233, 1);
+            align-items: center;
+            gap: 10px;
+            .rating {
+              display: flex;
+              align-items: center;
+              img {
+                margin-right: 10px;
+              }
+              span {
+                color: rgba(19, 30, 41, 0.8);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+              }
+            }
           }
         }
-      }
 
-      .flip-card-back {
-        .title {
-          margin: 0 0 10px;
-          padding-top: 15px;
+        .badges {
+          margin: 60px 0 0;
         }
       }
     }
+    .service-bottom-section {
+      margin-top: 35px;
+      .rqst-btn {
+        margin: 0 auto;
+      }
+    }
   }
-
 
   .services-three-column-section {
     .threebox {
@@ -531,5 +597,4 @@
       }
     }
   }
-
 }
