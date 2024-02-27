@@ -4653,6 +4653,20 @@ a {
     .ecom-plateform .plateform-tabs .bcontents .tab-contents.active {
       display: block; }
 
+@media (max-width: 1440px) {
+  .ecom-plateform {
+    background: #fff; }
+    .ecom-plateform .plateform-tabs .tab-nav ul li {
+      margin: 0 20px 0 0; }
+      .ecom-plateform .plateform-tabs .tab-nav ul li a {
+        font-size: 18px; } }
+@media (max-width: 1024px) {
+  .ecom-plateform {
+    background: #fff; }
+    .ecom-plateform .plateform-tabs .tab-nav ul li {
+      margin: 0 15px 0 0; }
+      .ecom-plateform .plateform-tabs .tab-nav ul li a {
+        font-size: 16px; } }
 @media (max-width: 979px) {
   .ecom-solution .glider-prev {
     left: 100%; }
@@ -4735,6 +4749,87 @@ a {
           margin: 0 0 10px; }
           .ecom-plateform .plateform-tabs .bcontents .tab-contents .tab-row .column h4 img {
             margin-right: 8px; } }
+.develop-section .dev-cards {
+  --cards-text-color: #fff;
+  --animation-speed-normal: .3s;
+  --animation-speed-fast: .25s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%; }
+  .develop-section .dev-cards .card {
+    flex-basis: 197px;
+    position: relative;
+    height: 350px;
+    z-index: 1;
+    transition: all var(--animation-speed-normal) ease-in-out;
+    cursor: pointer; }
+    .develop-section .dev-cards .card img {
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      transition: all 0.5s ease-in-out;
+      border-radius: 10px; }
+    .develop-section .dev-cards .card .card-info {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      color: #fff;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      width: 100%;
+      padding: 30px;
+      opacity: 0;
+      transition: all var(--animation-speed-normal) ease-in-out; }
+      .develop-section .dev-cards .card .card-info h3 {
+        color: #ffffff;
+        margin: 0 0 10px; }
+      .develop-section .dev-cards .card .card-info p {
+        color: #ffffff; }
+        .develop-section .dev-cards .card .card-info p:nth-of-type(1) {
+          margin: 0; }
+    .develop-section .dev-cards .card .card-heading {
+      position: absolute;
+      left: 0;
+      bottom: -40px;
+      color: rgba(65, 65, 65, 0.6);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.3; }
+.develop-section .dev-cards .card[active] {
+  flex-basis: 560px;
+  height: 350px; }
+  .develop-section .dev-cards .card[active] .card-info {
+    opacity: 1; }
+  .develop-section .dev-cards .card[active] .card-heading {
+    color: #414141; }
+
+@media screen and (max-width: 767px) {
+  .develop-section .dev-cards {
+    flex-wrap: wrap;
+    gap: 50px; }
+    .develop-section .dev-cards .card {
+      flex-basis: 100%;
+      height: 100px; }
+      .develop-section .dev-cards .card .card-info {
+        padding: 20px; }
+      .develop-section .dev-cards .card .card-heading {
+        bottom: -35px;
+        font-size: 18px; }
+  .develop-section .dev-cards .card[active] {
+    flex-basis: 100%;
+    height: 300px; }
+    .develop-section .dev-cards .card[active] .card-info {
+      opacity: 1; } }
 .footer {
   padding: 40px 0 0 0;
   background: #fff; }
@@ -5562,6 +5657,9 @@ a {
           left: 0;
           border-radius: 50%;
           top: 5px; }
+
+.develop-section {
+  margin-bottom: 40px; }
 
 @media only screen and (max-width: 1600px) {
   .banner-section .glider-dots {

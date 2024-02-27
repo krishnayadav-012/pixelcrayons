@@ -1105,6 +1105,78 @@
     <!-- faq section -->
     <?php require_once 'assets/include/faq.php'; ?>
     <!-- cta section -->
+
+    <!--Related Secrvices-->
+
+    <section class="develop-section padding-t-120 padding-b-120">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Software Development Methodologies</h2>
+          <p>Tailoring the Approach to Your Needs
+          </p>
+        </div>
+        <div class="dev-cards margin-t-80">
+          <div class="card" active>
+            <picture>
+              <source type="image/webp" srcset="./assets/images/develope-01.png">
+              <source type="image/png" srcset="./assets/images/develope-01.png">
+              <img class="tech-image" loading="lazy" src="./assets/images/develope-01.png"
+                alt="Pixelcrayons" width="550" height="351">
+            </picture>
+            <div class="card-info">
+              <h3>DevOps</h3>
+              <p>Embrace the culture of collaboration and continuous improvement with DevOps. Our approach integrates development and operations for faster delivery, higher software quality, and more reliable releases, enhancing responsiveness to market changes.
+              </p>
+            </div>
+            <span class="card-heading">DevOps</span>
+          </div>
+          <div class="card">
+            <picture>
+              <source type="image/webp" srcset="./assets/images/develope-02.png">
+              <source type="image/png" srcset="./assets/images/develope-02.png">
+              <img class="tech-image" loading="lazy" src="./assets/images/develope-02.png"
+                alt="Pixelcrayons" width="550" height="351">  
+            </picture>
+            <div class="card-info">
+              <h3>Agile</h3>
+              <p>Adopt a flexible and efficient development approach with Agile. Our Agile methodology promotes adaptive planning, evolutionary development, early delivery, and continual improvement, encouraging rapid and flexible response to change.
+              </p>
+            </div>
+            <span class="card-heading">Agile</span>
+          </div>
+          <div class="card">
+            <picture>
+              <source type="image/webp" srcset="./assets/images/develope-03.png">
+              <source type="image/png" srcset="./assets/images/develope-03.png">
+              <img class="tech-image" loading="lazy" src="./assets/images/develope-03.png"
+                alt="Pixelcrayons" width="550" height="351">  
+            </picture>
+            <div class="card-info">
+              <h3>Scrum</h3>
+              <p>Implement Scrum for a more structured yet flexible development process. This iterative approach divides development into sprints, focusing on delivering specific features within a set timeframe, fostering teamwork, accountability, and iterative progress.
+              </p>
+            </div>
+            <span class="card-heading">Scrum</span>
+          </div>
+          <div class="card">
+            <picture>
+              <source type="image/webp" srcset="./assets/images/develope-04.png">
+              <source type="image/png" srcset="./assets/images/develope-04.png">
+              <img class="tech-image" loading="lazy" src="./assets/images/develope-04.png"  
+                alt="Pixelcrayons" width="550" height="351">  
+            </picture>
+            <div class="card-info">
+              <h3>Waterfall</h3>
+              <p>Choose Waterfall for its sequential, linear approach to software development. Ideal for projects with well-defined requirements and scope, our Waterfall methodology emphasizes meticulous planning, documentation, and stage-wise progression for a structured and disciplined delivery.
+              </p>
+            </div>
+            <span class="card-heading">Waterfall</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Related Services  Ends Here-->
+
     <?php require_once 'assets/include/cta-v3.php'; ?>
     <!-- footer -->
     <?php require_once 'assets/include/footer.php'; ?>
@@ -1365,7 +1437,32 @@
       
       });
       });
+
+
+
     </script>
+    <script>
+
+// Cards hover animation
+const cards = document.querySelectorAll('.card');
+
+cards.forEach((card) => {
+card.addEventListener('mouseover', () => {
+if (!card.hasAttribute('active')) {
+updateActiveCard(card);
+}
+});
+});
+
+function updateActiveCard(activeCard) {
+cards.forEach((card) => {
+if (card === activeCard) {
+card.setAttribute('active', '');
+} else {
+card.removeAttribute('active');
+}
+})
+</script>
     <script defer src="../assets/js/script.js"></script>
   </body>
 </html>

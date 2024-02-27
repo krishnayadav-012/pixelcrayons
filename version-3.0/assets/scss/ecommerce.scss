@@ -17,6 +17,7 @@
 @import "testimonial";
 @import "video-with-banner";
 @import "_ecom-tabs";
+@import "_develop-section";
 @import "footer";
 @import "cta-v3";
 
@@ -324,6 +325,8 @@
     }
   }
 }
+
+.develop-section{margin-bottom:40px;}
 
 @media only screen and (max-width: 1600px) {
   .banner-section {
