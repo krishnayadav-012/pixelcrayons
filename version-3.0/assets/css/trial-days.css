@@ -2418,7 +2418,7 @@ input:-webkit-autofill:active {
         margin-bottom: 15px;
         opacity: 0.9; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle {
-      color: #414141; }
+      color: #016be3; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle::after {
         display: none; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
@@ -2433,7 +2433,7 @@ input:-webkit-autofill:active {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: rgba(65, 65, 65, 0.9);
+          color: #666E86;
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol {
@@ -2441,7 +2441,7 @@ input:-webkit-autofill:active {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: rgba(65, 65, 65, 0.9);
+          color: #666E86;
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li {
@@ -2476,21 +2476,20 @@ input:-webkit-autofill:active {
     opacity: 1; } }
 .footer-form-section {
   position: relative;
-  background: #07216C; }
+  background-color: #021652; }
   .footer-form-section ::placeholder {
     color: rgba(50, 50, 50, 0.5); }
   .footer-form-section .left-box {
     flex-basis: 40%;
     padding-right: 45px;
-    background: #07216C;
+    background: #021652;
     color: #fff;
     position: relative;
     z-index: 1; }
     .footer-form-section .left-box p {
       color: #DFDFDF;
       font-size: 18px;
-      line-height: 29px;
-      margin: 0; }
+      line-height: 29px; }
     .footer-form-section .left-box h2 {
       color: #fff;
       margin-bottom: 30px; }
@@ -2578,19 +2577,8 @@ input:-webkit-autofill:active {
     .footer-form-section .form-text-cont .dis-flex {
       flex-wrap: nowrap;
       justify-content: space-between; }
-  .footer-form-section label {
-    color: #414141;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: capitalize;
-    margin: 0 0 10px;
-    display: block;
-    opacity: 0.8;
-    font-size: 16px; }
   .footer-form-section .input-field {
-    padding: 17px 30px 17px 15px;
+    padding: 18px 30px 18px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -2599,7 +2587,9 @@ input:-webkit-autofill:active {
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: Rubik; }
+    font-family: 'Noto Sans';
+    outline: 0;
+    resize: none; }
     .footer-form-section .input-field:focus {
       border: 0.5px solid #010101; }
   .footer-form-section small {
@@ -2614,7 +2604,7 @@ input:-webkit-autofill:active {
   .footer-form-section .verror.user-input small {
     margin-top: 5px; }
   .footer-form-section .comment-input {
-    min-height: 100px;
+    min-height: 165px;
     border: 0;
     outline: 0;
     width: 100%;
@@ -2622,7 +2612,7 @@ input:-webkit-autofill:active {
     font-size: 16px;
     line-height: 20px;
     color: #323232;
-    font-family: Rubik;
+    font-family: 'Noto Sans';
     font-weight: normal; }
   .footer-form-section .drop-input {
     position: relative;
@@ -2805,10 +2795,9 @@ input:-webkit-autofill:active {
       height: 21px;
       margin-left: 35px;
       cursor: pointer;
-      margin-top: -4px;
       transition: all .5s ease 0s;
       display: inline-block;
-      vertical-align: middle; }
+      vertical-align: bottom; }
       .footer-form-section .form-quiz-group .refreshbtn:active {
         transform: rotate(360deg); }
     .footer-form-section .form-quiz-group .quizAns input {
@@ -2845,8 +2834,6 @@ input:-webkit-autofill:active {
     padding: 14px 30px 14px 14px; }
   .footer-form-section .form-quiz-group .equal {
     margin: 0 5px; }
-  .footer-form-section .form-quiz-group .refreshbtn {
-    margin-left: 20px; }
   .footer-form-section .form-quiz-group .quizQ {
     padding: 13px 20px; } }
 @media screen and (max-width: 1200px) {

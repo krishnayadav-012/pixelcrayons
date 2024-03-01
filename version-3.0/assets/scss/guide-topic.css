@@ -1,76 +1,141 @@
-/*
-Error: Undefined variable: "$arsenic-dark".
-        on line 27 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\guide-topic.scss
+.tab-scroll-section ::-webkit-scrollbar {
+  width: 6px;
+  height: 85px;
+  border-radius: 5px;
+  overflow: scroll; }
+.tab-scroll-section ::-webkit-scrollbar-track {
+  background: rgba(110, 109, 134, 0.15);
+  border-radius: 5px; }
+.tab-scroll-section ::-webkit-scrollbar-thumb {
+  background: #016be3;
+  border-radius: 10px; }
+.tab-scroll-section ::-webkit-scrollbar-thumb:hover {
+  background: #60ac0b; }
+.tab-scroll-section .tab-head {
+  font-size: 30px;
+  display: block;
+  font-weight: 600;
+  color: #373658;
+  margin-bottom: 40px; }
+.tab-scroll-section .tab-outer {
+  margin-top: 90px; }
+.tab-scroll-section .tab-nav {
+  max-height: 400px;
+  overflow-y: scroll;
+  padding-right: 30px; }
+  .tab-scroll-section .tab-nav .tab-link {
+    display: block;
+    font-size: 18px;
+    margin-top: 25px;
+    text-decoration: none;
+    line-height: 25px;
+    padding-right: 10px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+    position: relative; }
+    .tab-scroll-section .tab-nav .tab-link:first-child {
+      margin-top: 0; }
+    .tab-scroll-section .tab-nav .tab-link.is-active, .tab-scroll-section .tab-nav .tab-link:hover {
+      color: #253053;
+      font-weight: 700; }
+    .tab-scroll-section .tab-nav .tab-link:hover {
+      text-decoration: underline; }
+.tab-scroll-section ul {
+  list-style-type: disc; }
+.tab-scroll-section ol {
+  list-style-type: decimal; }
+.tab-scroll-section .tab-content {
+  padding-top: 90px; }
+  .tab-scroll-section .tab-content.is-active {
+    display: block; }
+  .tab-scroll-section .tab-content p {
+    margin-top: 20px;
+    line-height: 28px; }
+    .tab-scroll-section .tab-content p ul li strong {
+      color: #666E86; }
+    .tab-scroll-section .tab-content p ol li strong {
+      color: #666E86; }
+    .tab-scroll-section .tab-content p strong {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+      font-weight: 500;
+      color: #666E86;
+      font-family: 'Noto Sans'; }
+  .tab-scroll-section .tab-content h6 {
+    margin-top: 30px;
+    color: #666E86; }
+  .tab-scroll-section .tab-content h3 {
+    font-weight: 500; }
+  .tab-scroll-section .tab-content ol li::marker {
+    color: #666E86;
+    font-weight: 500; }
+  .tab-scroll-section .tab-content table {
+    border-collapse: collapse;
+    margin-top: 40px; }
+    .tab-scroll-section .tab-content table td {
+      padding: 11px;
+      opacity: 0.9;
+      font-size: 16px;
+      line-height: 26px; }
+      .tab-scroll-section .tab-content table td b {
+        color: #666E86;
+        font-weight: 500;
+        font-family: 'Noto Sans';
+        opacity: 0.9;
+        color: #253053; }
+  .tab-scroll-section .tab-content table,
+  .tab-scroll-section .tab-content td,
+  .tab-scroll-section .tab-content th {
+    border: 1px solid black; }
+.tab-scroll-section .left-tabs {
+  flex-basis: 30%; }
+.tab-scroll-section .right-tabs {
+  flex-basis: 70%;
+  padding-left: 78px; }
+.tab-scroll-section ul,
+.tab-scroll-section ol {
+  padding-left: 30px; }
+  .tab-scroll-section ul li,
+  .tab-scroll-section ol li {
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 16px; }
+  .tab-scroll-section ul strong,
+  .tab-scroll-section ol strong {
+    color: #666E86;
+    font-weight: 500;
+    font-family: 'Noto Sans'; }
+.tab-scroll-section .sticky-tab {
+  position: sticky;
+  top: 100px; }
 
-22: 
-23:   .tab-head {
-24:     font-size: 30px;
-25:     display: block;
-26:     font-weight: 500;
-27:     color: $arsenic-dark;
-28:     margin-bottom:30px;
-29:   }
-30: 
-31:   .tab-outer {
-32:     margin-top: 90px;
+@media screen and (max-width: 1440px) {
+  .tab-scroll-section .tab-head {
+    margin-bottom: 30px; }
+  .tab-scroll-section .tab-nav .tab-link {
+    font-size: 16px;
+    margin-top: 20px; } }
+@media screen and (max-width: 1200px) {
+  .tab-scroll-section .right-tabs {
+    padding-left: 40px; }
+  .tab-scroll-section .tab-nav {
+    padding-right: 20px; }
+  .tab-scroll-section .tab-outer {
+    margin-top: 40px; }
+  .tab-scroll-section .tab-content h6 {
+    margin-top: 30px; } }
+@media screen and (max-width: 767px) {
+  .tab-scroll-section .left-tabs {
+    flex-basis: 100%; }
+  .tab-scroll-section .right-tabs {
+    flex-basis: 100%;
+    padding-left: 0; }
+  .tab-scroll-section .tab-content {
+    padding-top: 40px; }
+    .tab-scroll-section .tab-content table td {
+      padding: 6px;
+      line-height: 20px;
+      font-size: 12px; } }
 
-Backtrace:
-C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\guide-topic.scss:27
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$arsenic-dark\".\A         on line 27 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\guide-topic.scss\A \A 22: \A 23:   .tab-head {\A 24:     font-size: 30px;\A 25:     display: block;\A 26:     font-weight: 500;\A 27:     color: $arsenic-dark;\A 28:     margin-bottom:30px;\A 29:   }\A 30: \A 31:   .tab-outer {\A 32:     margin-top: 90px;"; }
+/*# sourceMappingURL=guide-topic.css.map */

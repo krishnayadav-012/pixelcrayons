@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 262 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\how-we-works.scss
+        on line 262 of C:\xampp\htdocs\pixelcrayons\assets\scss\how-we-works.scss
 
 257:         border-radius: 10px;
 258:         padding: 18px 89px;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$white".
 267:                 line-height: 64px;
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\how-we-works.scss:262
+C:\xampp\htdocs\pixelcrayons\assets\scss\how-we-works.scss:262
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 262 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\how-we-works.scss\A \A 257:         border-radius: 10px;\A 258:         padding: 18px 89px;\A 259:         align-items: center;\A 260:         .leftblue {\A 261:             h3 {\A 262:                 color: $white;\A 263:             }\A 264:             h4 {\A 265:                 font-weight: 600;\A 266:                 font-size: 30px;\A 267:                 line-height: 64px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 262 of C:\xampp\htdocs\pixelcrayons\assets\scss\how-we-works.scss\A \A 257:         border-radius: 10px;\A 258:         padding: 18px 89px;\A 259:         align-items: center;\A 260:         .leftblue {\A 261:             h3 {\A 262:                 color: $white;\A 263:             }\A 264:             h4 {\A 265:                 font-weight: 600;\A 266:                 font-size: 30px;\A 267:                 line-height: 64px;"; }

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 59 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\menu-v2.scss
+        on line 59 of C:\xampp\htdocs\pixelcrayons\assets\scss\menu-v2.scss
 
 54: 
 55:     &.sc-up {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$white".
 64:       .large .dark-theme-logo {
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\menu-v2.scss:59
+C:\xampp\htdocs\pixelcrayons\assets\scss\menu-v2.scss:59
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 59 of C:\xampp\htdocs\pixelcrayons-wp\website-div\assets\scss\menu-v2.scss\A \A 54: \A 55:     &.sc-up {\A 56:       background: #fff;\A 57:       box-shadow: 0 4px 12px rgba(8, 46, 181, 0.12);\A 58:       .menu ul li a {\A 59:         color: $white;\A 60:       }\A 61:       .large .white-theme-logo {\A 62:         display: none;\A 63:       }\A 64:       .large .dark-theme-logo {"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 59 of C:\xampp\htdocs\pixelcrayons\assets\scss\menu-v2.scss\A \A 54: \A 55:     &.sc-up {\A 56:       background: #fff;\A 57:       box-shadow: 0 4px 12px rgba(8, 46, 181, 0.12);\A 58:       .menu ul li a {\A 59:         color: $white;\A 60:       }\A 61:       .large .white-theme-logo {\A 62:         display: none;\A 63:       }\A 64:       .large .dark-theme-logo {"; }

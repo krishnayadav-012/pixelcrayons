@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 7 of C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-form.scss
+        on line 7 of C:\xampp\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-form.scss
 
 2:   background: #1A2649;
 3:   padding-bottom: 0;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$white".
 12:         color: $white;
 
 Backtrace:
-C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-form.scss:7
+C:\xampp\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-form.scss:7
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 7 of C:\xampp-1\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-form.scss\A \A 2:   background: #1A2649;\A 3:   padding-bottom: 0;\A 4:   .breadcrumbs {\A 5:     font-weight: 400;\A 6:     margin: 0 0 5px;\A 7:     &.service-breadcrumbs{color: $white;}\A 8:     a {\A 9:       color: rgba(255, 255, 255, 0.5);\A 10:       &:after{background: url(../../assets/images/breadcrumbs-arrow2.png) 0 1px no-repeat; background-size: 100%; opacity: 0.6;}\A 11:       &:hover {\A 12:         color: $white;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 7 of C:\xampp\htdocs\pixelcrayons\assets\scss\scss-version-2.0\banner-with-form.scss\A \A 2:   background: #1A2649;\A 3:   padding-bottom: 0;\A 4:   .breadcrumbs {\A 5:     font-weight: 400;\A 6:     margin: 0 0 5px;\A 7:     &.service-breadcrumbs{color: $white;}\A 8:     a {\A 9:       color: rgba(255, 255, 255, 0.5);\A 10:       &:after{background: url(../../assets/images/breadcrumbs-arrow2.png) 0 1px no-repeat; background-size: 100%; opacity: 0.6;}\A 11:       &:hover {\A 12:         color: $white;"; }

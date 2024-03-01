@@ -1,16 +1,16 @@
 @import "_default";
+//@import "menu";//
 @import "menu-v2";
 @import "faq";
 @import "blog";
 @import "testimonial";
-@import "guide-topic";
+// @import "cta";
 @import "footer";
 @import "awards";
 @import "hiring-model";
 @import "cta-v3";
 @import "industries-c";
 @import "industries-unique";
-@import "banner-with-video";
 
 
 .banner-main {
@@ -425,18 +425,6 @@
     }
 }
 
-/*CSS for banner video section*/
-.video-banner-section{
-    .banner-content{width: 100%;
-     h1{font-size: 60px;}
-     p{
-      strong{font-weight: 500;}
-     }
-    }
-  }
-  
-/*CSS for banner video section Ends Here*/
-
 //   media query
 
 
@@ -473,12 +461,6 @@
         padding: 140px 0 50px;
         min-height: auto;
     }
-
-    .video-banner-section{
-        .banner-content{
-         h1{font-size:50px;}
-        }
-      }
 
     .industry-casestudy-sec {
         .industry-case-btn {

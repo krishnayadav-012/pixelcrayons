@@ -132,7 +132,7 @@
                      </div>
                   </div>
                   <div class="scene grid-card">
-                     <div class="card bg-blue">
+                     <div class="card nocard bg-blue">
                         <div class="grid-face grid-front">
                            <div class="value">93%</div>
                            <span class="title">CLIENT</span>
@@ -192,6 +192,11 @@
                            <p class="desc">Project management ROI tracking 
                               Diverse skillsets
                            </p>
+                           <ul>
+                              <li>Scalable Solutions</li>
+                              <li>Industry Specialists</li>
+                              <li>Proven Results</li>
+                           </ul>
                         </div>
                      </div>
                   </div>

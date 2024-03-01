@@ -2382,8 +2382,16 @@ input:-webkit-autofill:active {
   .digital-services .card.bg-yellow {
     background: #ffe175;
     height: 370px; }
+    .digital-services .card.bg-yellow .grid-face {
+      color: #414141; }
+    .digital-services .card.bg-yellow .desc {
+      color: #414141; }
+    .digital-services .card.bg-yellow .value {
+      color: #414141; }
+    .digital-services .card.bg-yellow ul li {
+      color: #414141; }
   .digital-services .card .value {
-    font-size: 96px;
+    font-size: 70px;
     line-height: 1;
     font-weight: 700;
     margin: 0 0 20px; }
@@ -2395,6 +2403,10 @@ input:-webkit-autofill:active {
     font-size: 16px;
     color: #ffffff;
     margin: 0; }
+  .digital-services .card ul li {
+    color: #ffffff;
+    list-style: disc;
+    list-style-position: inside; }
 .digital-services .card.is-flipped {
   transform: translateX(-100%) rotateY(-180deg); }
 .digital-services .grid-face {
@@ -2404,6 +2416,8 @@ input:-webkit-autofill:active {
   padding: 30px;
   color: white;
   text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   display: flex;
   align-items: flex-start;
@@ -2412,8 +2426,12 @@ input:-webkit-autofill:active {
   text-align: left; }
 .digital-services .grid-back {
   transform: rotateY(180deg); }
-.digital-services .nocard img {
-  width: 100%; }
+.digital-services .nocard {
+  cursor: default; }
+  .digital-services .nocard img {
+    width: 100%; }
+  .digital-services .nocard.is-flipped {
+    transform: none; }
 .digital-services .grid-column:nth-child(1) .scene:nth-child(2) .grid-face:after {
   content: "";
   background: url(../images/cshape-01.png) top center no-repeat;
