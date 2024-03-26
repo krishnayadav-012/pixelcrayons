@@ -2223,7 +2223,7 @@ input:-webkit-autofill:active {
     color: #fff; } }
 .client-logo-box-section {
   padding: 20px 0 54px;
-  margin-top: 60px; }
+  margin-top: 70px; }
   .client-logo-box-section .logo-heading {
     width: 220px; }
   .client-logo-box-section h4 {
@@ -2367,8 +2367,7 @@ input:-webkit-autofill:active {
     margin-bottom: 10px;
     color: #253053;
     margin-top: 30px;
-    line-height: 140%;
-    font-family: 'Noto Sans'; }
+    line-height: 140%; }
 
 .footer {
   padding: 40px 0 0 0;
@@ -2927,20 +2926,21 @@ input:-webkit-autofill:active {
     width: 47%; } }
 .footer-form-section {
   position: relative;
-  background-color: #021652; }
+  background: #07216C; }
   .footer-form-section ::placeholder {
     color: rgba(50, 50, 50, 0.5); }
   .footer-form-section .left-box {
     flex-basis: 40%;
     padding-right: 45px;
-    background: #021652;
+    background: #07216C;
     color: #fff;
     position: relative;
     z-index: 1; }
     .footer-form-section .left-box p {
       color: #DFDFDF;
       font-size: 18px;
-      line-height: 29px; }
+      line-height: 29px;
+      margin: 0; }
     .footer-form-section .left-box h2 {
       color: #fff;
       margin-bottom: 30px; }
@@ -3028,8 +3028,19 @@ input:-webkit-autofill:active {
     .footer-form-section .form-text-cont .dis-flex {
       flex-wrap: nowrap;
       justify-content: space-between; }
+  .footer-form-section label {
+    color: #414141;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+    opacity: 0.8;
+    font-size: 16px; }
   .footer-form-section .input-field {
-    padding: 18px 30px 18px 15px;
+    padding: 17px 30px 17px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -3038,9 +3049,7 @@ input:-webkit-autofill:active {
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: 'Noto Sans';
-    outline: 0;
-    resize: none; }
+    font-family: Rubik; }
     .footer-form-section .input-field:focus {
       border: 0.5px solid #010101; }
   .footer-form-section small {
@@ -3055,7 +3064,7 @@ input:-webkit-autofill:active {
   .footer-form-section .verror.user-input small {
     margin-top: 5px; }
   .footer-form-section .comment-input {
-    min-height: 165px;
+    min-height: 100px;
     border: 0;
     outline: 0;
     width: 100%;
@@ -3063,7 +3072,7 @@ input:-webkit-autofill:active {
     font-size: 16px;
     line-height: 20px;
     color: #323232;
-    font-family: 'Noto Sans';
+    font-family: Rubik;
     font-weight: normal; }
   .footer-form-section .drop-input {
     position: relative;
@@ -3246,9 +3255,10 @@ input:-webkit-autofill:active {
       height: 21px;
       margin-left: 35px;
       cursor: pointer;
+      margin-top: -4px;
       transition: all .5s ease 0s;
       display: inline-block;
-      vertical-align: bottom; }
+      vertical-align: middle; }
       .footer-form-section .form-quiz-group .refreshbtn:active {
         transform: rotate(360deg); }
     .footer-form-section .form-quiz-group .quizAns input {
@@ -3285,6 +3295,8 @@ input:-webkit-autofill:active {
     padding: 14px 30px 14px 14px; }
   .footer-form-section .form-quiz-group .equal {
     margin: 0 5px; }
+  .footer-form-section .form-quiz-group .refreshbtn {
+    margin-left: 20px; }
   .footer-form-section .form-quiz-group .quizQ {
     padding: 13px 20px; } }
 @media screen and (max-width: 1200px) {
@@ -4162,15 +4174,15 @@ input:-webkit-autofill:active {
 .client-testmonial-section .glider-dot {
   width: 9px;
   height: 9px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   margin-top: 20px; }
   .client-testmonial-section .glider-dot.active {
-    background: #016BE3; }
+    background: #016be3; }
 .client-testmonial-section .slide-item {
   padding: 0 10px;
   position: relative; }
   .client-testmonial-section .slide-item .item-box {
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 4px 30px rgba(218, 226, 234, 0.5);
     border-radius: 0px 0px 5px 5px;
     transition: all 0.3s ease-in-out;
@@ -4181,7 +4193,7 @@ input:-webkit-autofill:active {
       .client-testmonial-section .slide-item .item-box .fk-container img {
         width: 100% !important; }
     .client-testmonial-section .slide-item .item-box:hover {
-      border-color: #016BE3; }
+      border-color: #016be3; }
   .client-testmonial-section .slide-item iframe {
     border: 0;
     border: 0;
@@ -4209,8 +4221,7 @@ input:-webkit-autofill:active {
     color: #253053;
     opacity: 0.9;
     margin-top: 20px;
-    display: block;
-    font-family: 'Noto Sans'; }
+    display: block; }
 
 .clients-content-section {
   margin-top: 60px; }
@@ -4223,7 +4234,7 @@ input:-webkit-autofill:active {
   .clients-content-section .item-box {
     margin: 10px 0; }
   .clients-content-section .content-box {
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 4px 30px rgba(218, 226, 234, 0.5);
     border-radius: 5px;
     padding: 40px 25px 30px 40px;
@@ -4245,8 +4256,7 @@ input:-webkit-autofill:active {
       font-size: 14px;
       line-height: 17px;
       color: #253053;
-      opacity: 0.9;
-      font-family: 'Noto Sans'; }
+      opacity: 0.9; }
     .clients-content-section .content-box .title-box {
       margin-top: 20px; }
       .clients-content-section .content-box .title-box p {
@@ -4256,7 +4266,7 @@ input:-webkit-autofill:active {
         opacity: 0.6;
         margin-top: 5px; }
     .clients-content-section .content-box:hover {
-      border-color: #016BE3; }
+      border-color: #016be3; }
 
 @media only screen and (max-width: 767px) {
   .clients-content-section {
@@ -4334,7 +4344,7 @@ input:-webkit-autofill:active {
         margin-bottom: 15px;
         opacity: 0.9; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle {
-      color: #016be3; }
+      color: #414141; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle::after {
         display: none; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
@@ -4349,7 +4359,7 @@ input:-webkit-autofill:active {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: #666E86;
+          color: rgba(65, 65, 65, 0.9);
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol {
@@ -4357,7 +4367,7 @@ input:-webkit-autofill:active {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: #666E86;
+          color: rgba(65, 65, 65, 0.9);
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li {
@@ -4391,12 +4401,10 @@ input:-webkit-autofill:active {
   .faq .faq-accordion-default .faq-accordion-content-default {
     opacity: 1; } }
 .light-theme-grey-bg {
-  background: #F2F8FB; }
+  background: linear-gradient(270deg, #0B147C 21.77%, #4B1BAC 100%); }
 
 .error-img-section {
-  background: rgba(246, 248, 251, 0.54); }
-  .error-img-section .container {
-    max-width: 1390px; }
+  background: linear-gradient(270deg, #0B147C 21.77%, #4B1BAC 100%); }
   .error-img-section .form-footer {
     padding: 0 40px;
     margin-top: 133px;
@@ -4424,10 +4432,10 @@ input:-webkit-autofill:active {
     .error-img-section .form-footer a {
       font-weight: 500;
       font-size: 14px;
-      line-height: 16px;
+      line-height: 20px;
       list-style-type: none;
       opacity: 0.6;
-      color: #666E86;
+      color: #666e86;
       margin-top: 10px; }
     .error-img-section .form-footer .title {
       display: block;
@@ -4476,7 +4484,8 @@ input:-webkit-autofill:active {
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 300px;
-  background-size: contain; }
+  background-size: contain;
+  border-radius: 10px; }
   .error-img-section .content-img-box .topcontent {
     padding: 0 90px; }
   .error-img-section .content-img-box .second-error-box {
@@ -4495,7 +4504,7 @@ input:-webkit-autofill:active {
     line-height: 75px; }
   .error-img-section .content-box h3 {
     margin-top: 10px;
-    color: #016BE3;
+    color: #016be3;
     line-height: 33px; }
   .error-img-section .content-box h4 {
     margin-top: 25px;
@@ -4515,7 +4524,7 @@ input:-webkit-autofill:active {
     color: #253053;
     opacity: 0.9; }
   .error-img-section .para-text-content a {
-    color: #016BE3; }
+    color: #016be3; }
 .error-img-section .box-img-bottom {
   background: url(../images/company/thanks_bg_saddow.png) center bottom no-repeat;
   background-size: 100% !important; }
@@ -4524,7 +4533,7 @@ input:-webkit-autofill:active {
   .error-img-section .first-box .email-part {
     text-decoration: underline;
     color: #253053;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans";
     margin-bottom: 5px; }
   .error-img-section .first-box p.whatsapp-bx {
     margin-top: 20px;
@@ -4564,7 +4573,10 @@ input:-webkit-autofill:active {
     .error-img-section .content-img-box .second-error-box {
       margin-top: 80px; } }
 @media only screen and (max-width: 1024px) {
-  .error-img-section .first-box, .error-img-section .second-box, .error-img-section .third-box, .error-img-section .fourth-box {
+  .error-img-section .first-box,
+  .error-img-section .second-box,
+  .error-img-section .third-box,
+  .error-img-section .fourth-box {
     flex-basis: 25%; }
   .error-img-section .img-box {
     padding-right: 30px;
@@ -4982,16 +4994,17 @@ input:-webkit-autofill:active {
   .thank-you-img-section .content-box h1 {
     font-size: 48px;
     line-height: 60px;
-    color: #253053; }
+    color: #fff; }
 .thank-you-img-section .para-text-content {
   margin-top: 20px; }
   .thank-you-img-section .para-text-content p {
     margin-top: 0;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Rubik'; }
   .thank-you-img-section .para-text-content a {
-    color: #016BE3;
-    text-decoration: underline;
-    font-weight: 600; }
+    color: #fff;
+    text-decoration: underline; }
 .thank-you-img-section .img-box {
   justify-content: right;
   display: flex; }

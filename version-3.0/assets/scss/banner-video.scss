@@ -1,0 +1,75 @@
+.hire-main {
+    .videobox {
+      width: 36%;
+      iframe {
+        vertical-align: bottom;
+        background-color: $contentDay;
+        width: 100%;
+        border: 0;
+      }
+     
+      .client-videos {
+        position: relative;
+      }
+      .client-description {
+        padding:36px 90px;
+        height: 100%;
+        background: #ffffff7a;
+        
+        span {
+          display: block;
+          text-align: center;
+        }
+        .client-name {
+          font-size: 24px;
+          line-height: 32px;
+          color: #000;
+          font-weight: 600;
+        }
+        .client-quote {
+          margin-top: 6px;
+          font-size: 20px;
+          color: rgba(101, 97, 97, 0.9);
+          line-height: 25px;
+        }
+      }
+  
+      .shadow-box {
+        position: relative;
+        .client-video-box {
+          position: relative;
+        }
+        &::before {
+          content: "";
+          clear: both;
+          display: block;
+          background: rgba(29, 28, 59, 0.1);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 101%;
+          height: 100%;
+          z-index: 1;
+        }
+        &:hover {
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .hire-main .videobox{margin-top:40px; width:50%;}
+        .client-video-section iframe {
+            height: 240px;
+          }
+          .hire-main .videobox .client-description{padding:30px;}
+  }
+
+  @media screen and (max-width: 767px) {
+    .hire-main .videobox{width:100%;
+       }
+  }
+  

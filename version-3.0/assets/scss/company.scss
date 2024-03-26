@@ -1,5 +1,4 @@
 @import "_default";
-//@import "menu";//
 @import "menu-v2";
 @import "awards";
 @import "hiring-model";
@@ -698,7 +697,7 @@
         h1{
             font-size: 48px;
             line-height: 60px;
-            color: #253053;       
+            color: #fff;       
         }
     }
 
@@ -706,13 +705,13 @@
         margin-top: 20px;
         p{
             margin-top: 0;
-            margin-bottom: 10px;        
+            margin-bottom: 10px;  
+            color: #fff;
+            font-family: 'Rubik';      
         }
         a{
-            color: #016BE3;
+            color: #fff;
             text-decoration: underline;
-            font-weight: 600;
-        
         }
     }
     .img-box{

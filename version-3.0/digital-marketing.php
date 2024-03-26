@@ -399,6 +399,61 @@
             </div>
          </div>
       </section>
+      <section id="pxl-ppc-table" class="table-list-section show-all bg-light padding-t-120 padding-b-120">
+<div class="container">
+<div class="heading text-center"><h2>Customized PPC Packages for Your Business Needs</h2>
+<p>We understand that every business has unique advertising needs and goals. That’s why we offer customized Pay-Per-Click (PPC) packages, designed to align precisely with your specific marketing objectives and budgetary constraints.</p>
+</div>
+<div class="table-wrap">
+  <div class="dis-flex col-box-outer margin-t-100">
+    <div class="flex-5 table-list">
+      <ul>
+        <li class="title clr-white">Feature/Metric</li><li class="">Price</li><li class="">Platforms</li><li class="">Strategy Sessions</li><li class="">Keyword Research</li><li class="m-hdn">Bid Management</li><li class="m-hdn">Conversion Tracking</li><li class="m-hdn">Reports</li><li class="m-hdn">A/B Testing</li><li class="m-hdn">Landing Page  Optimization</li><li class="m-hdn">24/7 Monitoring</li><li class="m-hdn">Dedicated PPC Specialist</li>        <li class="more-spc">Need more information?<br>
+          <a href="https://www.pixelcrayons.com/staging/contact-us" class="ts">Talk to Sales</a>
+        </li>
+      </ul>
+    </div>
+    <div class="flex-5 table-list">
+      <ul>
+        <li class="title">Growth Sprout</li><li class="more-txt">Ideal for building a digital presence and generating initial leads.</li><li class="">Minimum $400/month or 15% of overall spend</li><li class="">1</li><li class="">Monthly</li><li class="">Basic Research &amp;<br> Targeting</li><li class="m-hdn">Manual with <br>Budget Control</li><li class="m-hdn">Basic Conversion <br>Tracking</li><li class="m-hdn">Monthly Reports <br>with Key Metrics</li><li class="m-hdn">1 Test/Month with<br> Landing Page Feedback</li><li class="m-hdn">1 Page Optimization with <br>A/B Testing</li><li class="m-hdn">No</li><li class="m-hdn">No</li>        <li class="more-spc"><a href="https://www.pixelcrayons.com/staging/contact-us" class="gtstart">Get Started</a></li>
+      </ul>
+    </div>
+    <div class="flex-5 table-list">
+      <ul>
+        <li class="title">Targeted Expansion</li><li class="more-txt">Expands your reach and refines targeting for better lead quality.</li><li class="">Minimum $1000/month or 12% of overall spend</li><li class="">2</li><li class="">Bi-Weekly</li><li class="">Enhanced Targeting &amp; Competitor Analysis</li><li class="m-hdn">Semi-Automated <br>
+with Real-Time Optimizations</li><li class="m-hdn">Enhanced Tracking <br>
+with Funnel Analysis</li><li class="m-hdn">Bi-Weekly Reports with Insights &amp; Optimization Plans</li><li class="m-hdn">3 Tests/Month with Multivariate Testing</li><li class="m-hdn">3 Page Optimizations with Conversion Rate Focus</li><li class="m-hdn">No</li><li class="m-hdn">Yes</li>        <li class="more-spc"><a href="https://www.pixelcrayons.com/staging/contact-us" class="gtstart">Get Started</a></li>
+      </ul>
+    </div>
+    <div class="flex-5 table-list">
+      <ul>
+        <li class="title">Peak Performance</li><li class="more-txt">Maximizes campaign efficiency and ROI with advanced tools for market penetration.</li><li class="">Minimum $2200/month or 10% of overall spend)</li><li class="">3+</li><li class="">Weekly</li><li class="">Advanced Targeting &amp; Market Trends</li><li class="m-hdn">Automated with Advanced Bidding Strategies</li><li class="m-hdn">Precision Tracking &amp; Attribution Modeling</li><li class="m-hdn">Weekly Reports with Actionable Strategies</li><li class="m-hdn">5+ Tests/Month with Continuous Optimization</li><li class="m-hdn">5+ Page Optimizations with User Experience Design</li><li class="m-hdn">Yes with Performance Alerts &amp; Proactive Adjustments</li><li class="m-hdn">Yes</li>        <li class="more-spc"><a href="https://www.pixelcrayons.com/staging/contact-us" class="gtstart">Get Started</a></li>
+      </ul>
+    </div>
+    <div class="flex-5 table-list">
+      <ul>
+        <li class="title">Bespoke Strategy</li><li class="more-txt">Maximizes campaign efficiency and ROI with advanced tools for market penetration.</li><li class="">Custom Quote</li><li class="">Your Choice</li><li class="">As Needed</li><li class="">Fully Tailored Research &amp; Custom Audiences</li><li class="m-hdn">Custom Strategies &amp; Algorithm Expertise</li><li class="m-hdn">Custom Dashboards &amp; Advanced Analytics</li><li class="m-hdn">Real-Time Dashboards &amp; On-Demand Reporting</li><li class="m-hdn">Custom Testing &amp; A/B Experimentation Framework</li><li class="m-hdn">Fully Customized Page Design &amp; User Journey Optimization</li><li class="m-hdn">As Needed with Dedicated Account Manager Support</li><li class="m-hdn">Dedicated Account Manager &amp; PPC Team</li>        <li class="more-spc"><a href="https://www.pixelcrayons.com/staging/contact-us" class="gtstart">Get Started</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="view-more margin-t-50 text-center">
+  <a href="javascript:void(0);" onclick="_morePPCTable();" class="active">
+   
+  
+    <img class="gt-dwn" loading="lazy" class="gt-dwn" src="./assets/images/scroll-img.png"
+                              alt="Pixelcrayons" alt="Pixelcrayons" width="34" height="34">
+                              
+                              <img loading="lazy" class="gt-up" src="./assets/images/scroll-img-up.png"
+                              alt="Pixelcrayons" alt="Pixelcrayons" width="34" height="34">
+                              
+  
+  
+  
+   </a>
+</div>
+</div>
+</section>
       <section class="gets-started">
          <div class="container">
             <div class="dis-flex justify-sb">

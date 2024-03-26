@@ -1,131 +1,109 @@
-.faq h2 {
-  font-weight: 500; }
-.faq .faq-accordion-default {
-  border: 0.927304px solid #dcdcdc;
-  border-radius: 6px;
-  padding: 30px 25px 28px 37px;
-  margin-bottom: 20px; }
-  .faq .faq-accordion-default .faq-accordion-content-default {
-    display: block;
-    opacity: 0.9;
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 26px;
-    max-height: 220px;
-    overflow-y: auto; }
-    .faq .faq-accordion-default .faq-accordion-content-default ul {
-      list-style: disc;
-      padding: 10px 25px; }
-      .faq .faq-accordion-default .faq-accordion-content-default ul li {
-        margin-bottom: 10px;
-        opacity: 0.9; }
-        .faq .faq-accordion-default .faq-accordion-content-default ul li strong, .faq .faq-accordion-default .faq-accordion-content-default ul li b {
-          font-size: 16px;
-          line-height: 22px;
-          margin-bottom: 15px; }
-    .faq .faq-accordion-default .faq-accordion-content-default ol {
-      padding: 25px; }
-      .faq .faq-accordion-default .faq-accordion-content-default ol li {
-        margin-bottom: 10px; }
-    .faq .faq-accordion-default .faq-accordion-content-default p {
-      margin-bottom: 15px;
-      opacity: 0.9; }
-      .faq .faq-accordion-default .faq-accordion-content-default p strong, .faq .faq-accordion-default .faq-accordion-content-default p b {
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 15px; }
-.faq .faq-outer {
-  border: 0.927304px solid #dcdcdc;
-  border-radius: 6px; }
-  .faq .faq-outer .faq-accordion-item-outer {
-    padding: 24px 30px 28px 60px;
-    border-bottom: 1px solid #dcdcdc; }
-    .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle {
-      position: relative;
-      cursor: pointer; }
-      .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle::before {
-        content: "";
-        clear: both;
-        display: block;
-        background: #016be3;
-        height: 3px;
-        width: 15px;
-        border-radius: 4px;
-        position: absolute;
-        left: -28px;
-        top: 11px; }
-      .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle:after {
-        content: "";
-        clear: both;
-        display: block;
-        background: #016be3;
-        height: 15px;
-        width: 3px;
-        border-radius: 4px;
-        position: absolute;
-        left: -22px;
-        top: 5px; }
-    .faq .faq-outer .faq-accordion-item-outer .faq-accordion-content {
-      display: none; }
-      .faq .faq-outer .faq-accordion-item-outer .faq-accordion-content p {
-        margin-bottom: 15px;
-        opacity: 0.9; }
-    .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle {
-      color: #016be3; }
-      .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle::after {
-        display: none; }
-    .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
-      display: block;
-      opacity: 0.9;
-      padding-top: 20px;
-      font-size: 18px;
-      line-height: 140%; }
-      .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul {
-        list-style: disc;
-        padding-left: 25px; }
-        .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul li {
-          margin-bottom: 10px;
-          font-size: 16px;
-          color: #666E86;
-          line-height: 26px;
-          opacity: 0.9; }
-      .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol {
-        padding: 25px; }
-        .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol li {
-          margin-bottom: 10px;
-          font-size: 16px;
-          color: #666E86;
-          line-height: 26px;
-          opacity: 0.9; }
-      .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li {
-        font-weight: normal; }
-        .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p strong, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li strong, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li p {
-          font-size: 16px;
-          line-height: 26px;
-          margin-bottom: 15px; }
+/*
+Error: Undefined variable: "$arsenic-dark".
+        on line 94 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\faq.scss
 
-.faq.faq-section .faq-outer .faq-accordion-item-outer:hover .faq-accordion-toggle {
-  color: #016be3;
-  cursor: default; }
-  .faq.faq-section .faq-outer .faq-accordion-item-outer:hover .faq-accordion-toggle::after {
-    display: none; }
-.faq.faq-section .faq-outer .faq-accordion-item-outer:hover .faq-accordion-content {
-  display: block;
-  opacity: 0.9;
-  padding-top: 20px;
-  font-size: 18px;
-  line-height: 140%; }
+89:           opacity: 0.9;
+90:         }
+91:       }
+92:       &.active {
+93:         .faq-accordion-toggle {
+94:           color:$arsenic-dark;
+95:           &::after {
+96:             display: none;
+97:           }
+98:         }
+99:         .faq-accordion-content {
 
-@media screen and (max-width: 767px) {
-  .faq .faq-outer .faq-accordion-item-outer {
-    padding: 24px 30px 28px 40px; }
-    .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
-      opacity: 1; }
-    .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle::before {
-      top: 13px; }
-    .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle:after {
-      top: 7px; }
-  .faq .faq-accordion-default .faq-accordion-content-default {
-    opacity: 1; } }
-
-/*# sourceMappingURL=faq.css.map */
+Backtrace:
+C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\faq.scss:94
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$arsenic-dark\".\A         on line 94 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\faq.scss\A \A 89:           opacity: 0.9;\A 90:         }\A 91:       }\A 92:       &.active {\A 93:         .faq-accordion-toggle {\A 94:           color:$arsenic-dark;\A 95:           &::after {\A 96:             display: none;\A 97:           }\A 98:         }\A 99:         .faq-accordion-content {"; }

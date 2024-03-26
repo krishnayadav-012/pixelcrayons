@@ -1,6 +1,6 @@
 .footer-form-section {
   position: relative;
-  background-color: #021652;
+  background: #07216C;
 
   ::placeholder {
     color: rgba(50, 50, 50, 0.5);
@@ -9,7 +9,7 @@
   .left-box {
     flex-basis: 40%;
     padding-right: 45px;
-    background: #021652;
+    background: #07216C;
     color: #fff;
     position: relative;
     z-index: 1;
@@ -18,6 +18,7 @@
       color: #DFDFDF;
       font-size: 18px;
       line-height: 29px;
+      margin:0;
     }
 
     h2 {
@@ -148,8 +149,18 @@
     }
   }
 
+  label{color: #414141;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+    opacity: 0.8; font-size: 16px;}
+
   .input-field {
-    padding: 18px 30px 18px 15px;
+    padding: 17px 30px 17px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -158,10 +169,7 @@
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: 'Noto Sans';
-    outline: 0;
-    resize: none;
-
+   font-family: Rubik;
     &:focus {
       border: 0.5px solid #010101;
     }
@@ -193,7 +201,7 @@
   }
 
   .comment-input {
-    min-height: 165px;
+    min-height:100px;
     border: 0;
     outline: 0;
     width: 100%;
@@ -201,7 +209,7 @@
     font-size: 16px;
     line-height: 20px;
     color: #323232;
-    font-family: 'Noto Sans';
+   font-family: Rubik;
     font-weight: normal;
   }
 
@@ -431,9 +439,10 @@
       height: 21px;
       margin-left: 35px;
       cursor: pointer;
+      margin-top:-4px;
       transition: all .5s ease 0s;
       display: inline-block;
-      vertical-align: bottom;
+      vertical-align: middle;
 
       &:active {
         transform: rotate(360deg);
@@ -499,6 +508,7 @@
       .equal {
         margin: 0 5px;
       }
+      .refreshbtn{margin-left: 20px;}
       .quizQ{
         padding: 13px 20px;
       }

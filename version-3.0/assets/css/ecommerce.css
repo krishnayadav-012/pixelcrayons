@@ -3655,9 +3655,9 @@ a {
 .tab-scroll-section .tab-head {
   font-size: 30px;
   display: block;
-  font-weight: 600;
-  color: #373658;
-  margin-bottom: 40px; }
+  font-weight: 500;
+  color: #414141;
+  margin-bottom: 30px; }
 .tab-scroll-section .tab-outer {
   margin-top: 90px; }
 .tab-scroll-section .tab-nav {
@@ -3671,14 +3671,13 @@ a {
     text-decoration: none;
     line-height: 25px;
     padding-right: 10px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.3s linear;
     position: relative; }
     .tab-scroll-section .tab-nav .tab-link:first-child {
       margin-top: 0; }
     .tab-scroll-section .tab-nav .tab-link.is-active, .tab-scroll-section .tab-nav .tab-link:hover {
-      color: #253053;
-      font-weight: 700; }
+      color: #414141; }
     .tab-scroll-section .tab-nav .tab-link:hover {
       text-decoration: underline; }
 .tab-scroll-section ul {
@@ -3686,7 +3685,7 @@ a {
 .tab-scroll-section ol {
   list-style-type: decimal; }
 .tab-scroll-section .tab-content {
-  padding-top: 90px; }
+  padding-top: 60px; }
   .tab-scroll-section .tab-content.is-active {
     display: block; }
   .tab-scroll-section .tab-content p {
@@ -3697,15 +3696,9 @@ a {
     .tab-scroll-section .tab-content p ol li strong {
       color: #666E86; }
     .tab-scroll-section .tab-content p strong {
-      font-size: 16px;
-      line-height: 22px;
-      margin-bottom: 15px;
-      font-weight: 500;
-      color: #666E86;
-      font-family: 'Noto Sans'; }
+      font-weight: 500; }
   .tab-scroll-section .tab-content h6 {
-    margin-top: 30px;
-    color: #666E86; }
+    margin-top: 30px; }
   .tab-scroll-section .tab-content h3 {
     font-weight: 500; }
   .tab-scroll-section .tab-content ol li::marker {
@@ -3716,15 +3709,10 @@ a {
     margin-top: 40px; }
     .tab-scroll-section .tab-content table td {
       padding: 11px;
-      opacity: 0.9;
       font-size: 16px;
       line-height: 26px; }
       .tab-scroll-section .tab-content table td b {
-        color: #666E86;
-        font-weight: 500;
-        font-family: 'Noto Sans';
-        opacity: 0.9;
-        color: #253053; }
+        font-weight: 500; }
   .tab-scroll-section .tab-content table,
   .tab-scroll-section .tab-content td,
   .tab-scroll-section .tab-content th {
@@ -3744,9 +3732,7 @@ a {
     font-size: 16px; }
   .tab-scroll-section ul strong,
   .tab-scroll-section ol strong {
-    color: #666E86;
-    font-weight: 500;
-    font-family: 'Noto Sans'; }
+    font-weight: 500; }
 .tab-scroll-section .sticky-tab {
   position: sticky;
   top: 100px; }
@@ -4012,7 +3998,7 @@ a {
         margin-bottom: 15px;
         opacity: 0.9; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle {
-      color: #016be3; }
+      color: #414141; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle::after {
         display: none; }
     .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
@@ -4027,7 +4013,7 @@ a {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: #666E86;
+          color: rgba(65, 65, 65, 0.9);
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol {
@@ -4035,7 +4021,7 @@ a {
         .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol li {
           margin-bottom: 10px;
           font-size: 16px;
-          color: #666E86;
+          color: rgba(65, 65, 65, 0.9);
           line-height: 26px;
           opacity: 0.9; }
       .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li {
@@ -5032,20 +5018,21 @@ a {
     width: 47%; } }
 .footer-form-section {
   position: relative;
-  background-color: #021652; }
+  background: #07216C; }
   .footer-form-section ::placeholder {
     color: rgba(50, 50, 50, 0.5); }
   .footer-form-section .left-box {
     flex-basis: 40%;
     padding-right: 45px;
-    background: #021652;
+    background: #07216C;
     color: #fff;
     position: relative;
     z-index: 1; }
     .footer-form-section .left-box p {
       color: #DFDFDF;
       font-size: 18px;
-      line-height: 29px; }
+      line-height: 29px;
+      margin: 0; }
     .footer-form-section .left-box h2 {
       color: #fff;
       margin-bottom: 30px; }
@@ -5133,8 +5120,19 @@ a {
     .footer-form-section .form-text-cont .dis-flex {
       flex-wrap: nowrap;
       justify-content: space-between; }
+  .footer-form-section label {
+    color: #414141;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+    opacity: 0.8;
+    font-size: 16px; }
   .footer-form-section .input-field {
-    padding: 18px 30px 18px 15px;
+    padding: 17px 30px 17px 15px;
     background: transparent;
     width: 100%;
     font-size: 16px;
@@ -5143,9 +5141,7 @@ a {
     border-radius: 5px;
     color: #323232;
     font-weight: normal;
-    font-family: 'Noto Sans';
-    outline: 0;
-    resize: none; }
+    font-family: Rubik; }
     .footer-form-section .input-field:focus {
       border: 0.5px solid #010101; }
   .footer-form-section small {
@@ -5160,7 +5156,7 @@ a {
   .footer-form-section .verror.user-input small {
     margin-top: 5px; }
   .footer-form-section .comment-input {
-    min-height: 165px;
+    min-height: 100px;
     border: 0;
     outline: 0;
     width: 100%;
@@ -5168,7 +5164,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     color: #323232;
-    font-family: 'Noto Sans';
+    font-family: Rubik;
     font-weight: normal; }
   .footer-form-section .drop-input {
     position: relative;
@@ -5351,9 +5347,10 @@ a {
       height: 21px;
       margin-left: 35px;
       cursor: pointer;
+      margin-top: -4px;
       transition: all .5s ease 0s;
       display: inline-block;
-      vertical-align: bottom; }
+      vertical-align: middle; }
       .footer-form-section .form-quiz-group .refreshbtn:active {
         transform: rotate(360deg); }
     .footer-form-section .form-quiz-group .quizAns input {
@@ -5390,6 +5387,8 @@ a {
     padding: 14px 30px 14px 14px; }
   .footer-form-section .form-quiz-group .equal {
     margin: 0 5px; }
+  .footer-form-section .form-quiz-group .refreshbtn {
+    margin-left: 20px; }
   .footer-form-section .form-quiz-group .quizQ {
     padding: 13px 20px; } }
 @media screen and (max-width: 1200px) {

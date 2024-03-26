@@ -1,8 +1,11 @@
 @import "_default";
-//@import "menu";//
 @import "menu-v2";
-@import "awards";
+@import "_client-logo";
 @import "hiring-model";
+@import "_service-table";
+@import "_service-casestudy";
+@import "_glide-core";
+@import "_industry-section";
 @import "faq";
 @import "blog";
 @import "case";
@@ -12,11 +15,9 @@
 @import "service-unique";
 @import "service-p";
 @import "all-industries";
-// @import "cta";
+@import "banner-with-video";
 @import "footer";
 @import "cta-v3";
-
-
 
 .page-id-2366 {
   .tools-developer {
@@ -25,245 +26,17 @@
     }
   }
 }
-.glider.draggable .glider-slide img.ytcover{pointer-events:inherit;}
-.ytcover{z-index:999;}
-.yt-player{position:absolute;top:0;left:0;z-index:-9;}
-
-.banner-main {
-  background: #1e5799;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #1e5799 0%, #ffffff 0%, #fafcff 20%, #e7f0ffa6 49%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #1e5799 0%, #ffffff 0%, #fafcff 20%, #e7f0ffa6 49%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #1e5799 0%, #ffffff 0%, #fafcff 20%, #e7f0ffa6 49%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#e7f0ff', GradientType=0);
-  /* IE6-9 */
-  padding-bottom: 0;
-
-  color: $white;
-  padding-top: 122px;
-
-  .flex-2:last-child {
-    float: left;
-    width: 40%;
-    max-width: 620px;
-    margin: 38px 0 0 auto;
-    flex-basis: 40%;
-  }
-
-  .hire-content {
-    margin-top: 28px;
-    &.flex-2:first-child {
-      float: left;
-      width: 60%;
-      padding-right: 6%;
-      flex-basis: 60%;
-    }
-
-    // padding: 0 100px;
-
-    span {
-      font-weight: 400;
-      font-size: 18px;
-      color: #253053;
-      display: block;
-      margin-top: 5px;
-    }
-
-    span.heading-btm {
-      color: #016BE3;
-      margin-top: 5px;
-      margin-bottom: 25px;
-    }
-
-    h1 {
-      color: #253053;
-      margin-bottom: 22px;
-    }
-
-    p {
-      color: #666E86;
-      margin: 0 0 15px;
-      font-size: 18px;
-
-      a {
-        &:hover {
-          color: #253053;
-        }
-      }
-    }
-
-    .counter-container {
-      // width: 70%;
-      // justify-content: space-around;
-      // margin: auto;
-
-      .service-header-counter {
-        // margin: 30px 29px 30px 0px;
-
-        div {
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 28px;
-          color: #016BE3;
-        }
-
-        span {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
-          color: #666E86;
-          padding-bottom: 0;
-        }
-      }
-    }
-
-    .service-container {
-      margin-top: 30px;
-    }
-
-    .btn-container {
-      padding-top: 50px;
-
-      .cmn-btn {
-        padding: 18px 45px;
-        background: transparent;
-        border: 1px solid #ffffff;
-        border-radius: 5px;
-        width: auto;
-        margin: auto;
-        font-size: 24px;
-        line-height: 30px;
-
-        &:hover {
-          border-color: #60ac0b;
-          background: #60ac0b;
-        }
-      }
-
-      a {
-        color: #fff;
-        background: #016BE3;
-        padding: 19px 32px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 21px;
-
-        &:hover {
-          background: transparent;
-          color: #016BE3;
-        }
-      }
-    }
-  }
-
-  .right-box {
-    position: relative;
-    background: #EBF3FF;
-    padding-left: 14px;
-
-    &::before {
-      content: "";
-      clear: both;
-      display: block;
-      width: 5px;
-      height: 100%;
-      background: #016BE3;
-      position: absolute;
-      top: 0;
-      left: 0;
-      border-radius: 10px 0 0 10px;
-    }
-
-    .right-inner {
-      padding: 30px 10px;
-
-      .testi-overlay {
-        position: relative;
-
-        &::before {
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          background: rgba(23, 92, 255, 0.4);
-          top: 0;
-          border-radius: 8px;
-          display: none;
-        }
-
-        &:hover {
-          &::before {
-            display: block;
-          }
-
-        }
-
-        .content {
-          background: #fff;
-          border-radius: 0px 0px 8px 8px;
-          min-height: 130px;
-
-          h4 {
-            font-size: 14px;
-            line-height: 140%;
-            color: #253053;
-            padding-top: 15px;
-          }
-
-          p {
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 140%;
-            color: #666E86;
-            padding: 20px 0;
-            font-weight: 600;
-
-            span {
-              color: #253053;
-            }
-          }
-        }
-      }
-    }
-
-    iframe {
-      border: 0;
-      border: 0;
-      height: auto;
-      vertical-align: bottom;
-      border-radius: 8px 8px 0px 0px;
-      width: 100%;
-      max-height: 137px;
-    }
-
-    .active {
-      height: 100%;
-      max-height: unset;
-    }
-
-    .glider-slide img{
-      display: block;
-      width:100%
-    }
-  }
-
-
-  .for-client-logo-box {
-    margin-top: 20px;
-    // text-align: center;
-    display: flex;
-    justify-content: space-between;
-    background: url(../images/service/service-header-logo1.svg) 0 0 no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 63px;
-  }
-  .service-breadcrumbs{
-    margin-bottom: 14px;
-  }
+.glider.draggable .glider-slide img.ytcover {
+  pointer-events: inherit;
+}
+.ytcover {
+  z-index: 999;
+}
+.yt-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9;
 }
 
 .get-started {
@@ -304,7 +77,7 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        border: 1px solid #D4E0ED;
+        border: 1px solid #d4e0ed;
         box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
         border-radius: 5px;
       }
@@ -325,10 +98,15 @@
         display: block;
 
         &::after {
-          content: url(../images/service/know-more-arrow-icon.png);
+          content: "";
+          background: url(../images/service/know-more-arrow-icon.png) top center no-repeat;
           position: relative;
-          top: 2px;
+          width: 15px;
+          height: 11px;
+          background-size: 100%;
+          top: 0;
           left: 6px;
+          display: inline-block;
           transition: all 0.3s ease-in-out;
         }
 
@@ -379,7 +157,6 @@
               }
 
               &:after {
-
                 background: #016be3;
               }
 
@@ -404,8 +181,6 @@
               right: 36px;
               background: #444444;
               top: 29px;
-
-
             }
 
             .light {
@@ -501,11 +276,17 @@
       line-height: 19px;
 
       &::after {
-        content: url("../images/service/know-more-arrow-icon.png");
+        content: "";
+        background: url(../images/service/know-more-arrow-icon.png) top center no-repeat;
         position: relative;
-        top: 2px;
-        left: 9px;
+        width: 15px;
+        height: 11px;
+        background-size: 100%;
+        top: 0;
+        left: 6px;
+        display: inline-block;
         transition: all 0.3s ease-in-out;
+    
       }
 
       &:hover {
@@ -528,7 +309,7 @@
 
         &:hover {
           .box-3 {
-            border: 1px solid #016BE3;
+            border: 1px solid #016be3;
             box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
             border-radius: 5px;
           }
@@ -587,7 +368,6 @@
   }
 
   .offshore-threebox {
-
     .box-3 {
       border: 1px solid rgba(212, 224, 237, 0.7);
       padding: 40px 30px 35px;
@@ -605,14 +385,13 @@
 
         &:hover {
           .box-3 {
-            border: 1px solid #016BE3;
+            border: 1px solid #016be3;
             box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
             border-radius: 5px;
           }
         }
       }
     }
-
   }
 
   .points {
@@ -692,16 +471,21 @@
     .outsource-content {
       padding-right: 91px;
       padding-left: 0px;
-      ul{
-        li{margin:0 0 20px; position: relative; padding-left:20px;
-        &:before{content: "";
-          width: 9px;
-          height: 9px;
-          background: #016be3;
-          position: absolute;
-          left:0;
-          border-radius: 50%;
-          top:7px;}
+      ul {
+        li {
+          margin: 0 0 20px;
+          position: relative;
+          padding-left: 20px;
+          &:before {
+            content: "";
+            width: 9px;
+            height: 9px;
+            background: #016be3;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            top: 7px;
+          }
         }
       }
     }
@@ -742,7 +526,7 @@
 }
 
 .business-challenge {
-  background: #05247E;
+  background: #05247e;
 
   h2,
   p {
@@ -788,7 +572,6 @@
   }
 }
 
-
 .faq-accordion-item-outer {
   &:first-child {
     .hover-icon {
@@ -806,7 +589,6 @@
         .hover-icon {
           background-position: 35px 0;
         }
-
       }
     }
 
@@ -833,7 +615,6 @@
         .hover-icon {
           background-position: 35px -71px;
         }
-
       }
     }
 
@@ -842,7 +623,6 @@
         background-position: 102px -71px;
       }
     }
-
   }
 
   &:nth-child(3) {
@@ -861,7 +641,6 @@
         .hover-icon {
           background-position: 35px -141px;
         }
-
       }
     }
 
@@ -870,7 +649,6 @@
         background-position: 102px -141px;
       }
     }
-
   }
 
   &:nth-child(4) {
@@ -889,7 +667,6 @@
         .hover-icon {
           background-position: 35px -215px;
         }
-
       }
     }
 
@@ -898,7 +675,6 @@
         background-position: 102px -215px;
       }
     }
-
   }
 
   &:nth-child(5) {
@@ -917,7 +693,6 @@
         .hover-icon {
           background-position: 35px -284px;
         }
-
       }
     }
 
@@ -926,7 +701,6 @@
         background-position: 102px -284px;
       }
     }
-
   }
 
   &:nth-child(6) {
@@ -945,7 +719,6 @@
         .hover-icon {
           background-position: 35px -358px;
         }
-
       }
     }
 
@@ -954,7 +727,6 @@
         background-position: 102px -358px;
       }
     }
-
   }
 
   &:nth-child(7) {
@@ -973,7 +745,6 @@
         .hover-icon {
           background-position: 35px -425px;
         }
-
       }
     }
 
@@ -982,7 +753,6 @@
         background-position: 102px -425px;
       }
     }
-
   }
 
   &:nth-child(8) {
@@ -1001,7 +771,6 @@
         .hover-icon {
           background-position: 35px -499px;
         }
-
       }
     }
 
@@ -1010,7 +779,6 @@
         background-position: 102px -499px;
       }
     }
-
   }
 
   &:nth-child(9) {
@@ -1029,7 +797,6 @@
         .hover-icon {
           background-position: 35px -573px;
         }
-
       }
     }
 
@@ -1038,7 +805,6 @@
         background-position: 102px -573px;
       }
     }
-
   }
 
   &:nth-child(10) {
@@ -1057,7 +823,6 @@
         .hover-icon {
           background-position: 35px -637px;
         }
-
       }
     }
 
@@ -1066,10 +831,20 @@
         background-position: 102px -637px;
       }
     }
-
   }
 }
 
+/*CSS for banner video section*/
+.video-banner-section{
+  .banner-content{width: 100%;
+   h1{font-size: 60px;}
+   p{
+    strong{font-weight: 500;}
+   }
+  }
+}
+
+/*CSS for banner video section Ends Here*/
 
 @media only screen and (max-width: 1600px) {
   .why-choose-three-column-section {
@@ -1095,6 +870,9 @@
   }
 }
 
+@media only screen and (max-width: 1366px) {
+  
+}
 
 @media screen and (max-width: 1280px) {
   .banner-main {
@@ -1102,6 +880,11 @@
       p {
         font-size: 16px;
       }
+    }
+  }
+  .video-banner-section{
+    .banner-content{
+     h1{font-size:50px;}
     }
   }
 }
@@ -1113,7 +896,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
   .page-id-2366 {
     .tools-developer {
       .flex-3 {
@@ -1164,11 +946,12 @@
       }
     }
   }
-  .banner-main{
-    .hire-content{
-      margin-top:20px;
+  .banner-main {
+    .hire-content {
+      margin-top: 20px;
     }
   }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1184,7 +967,6 @@
         }
       }
     }
-
   }
 
   .revolutionizing-section {
@@ -1230,7 +1012,6 @@
       }
     }
   }
-
 }
 
 @media screen and (max-width: 991px) {
@@ -1260,7 +1041,6 @@
       &:last-child {
         max-width: 100%;
         flex-basis: 100%;
-
       }
 
       &:first-child {
@@ -1273,7 +1053,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .page-id-2366 {
@@ -1318,7 +1097,6 @@
           }
         }
       }
-
     }
 
     .service-custom-software-btn {
@@ -1330,19 +1108,18 @@
     padding-top: 50px !important;
     padding-bottom: 10px;
 
-    .right-box {display:none;
+    .right-box {
+      display: none;
       iframe {
         height: auto;
       }
 
       .right-inner {
-
         .testi-overlay {
           .content {
             min-height: 133px;
           }
         }
-
       }
     }
 
@@ -1393,12 +1170,9 @@
 
     .flex-2 {
       &:last-child {
-        margin:30px 0 0 auto;
+        margin: 30px 0 0 auto;
       }
     }
-
-
-
   }
 
   .get-started {
@@ -1425,7 +1199,6 @@
 
           .box-3 {
             margin: 0;
-
           }
         }
 
@@ -1482,6 +1255,9 @@
         margin-bottom: 20px !important;
       }
     }
+    .box-3{
+      p{min-height:initial;}
+    }
   }
 
   .choose-custom-software {
@@ -1499,7 +1275,6 @@
       }
     }
   }
-
 }
 
 .softtesting {
@@ -1509,14 +1284,12 @@
   }
 }
 
-.page-id-7368 .three-col-box-img-section .content-box h3 {
-  min-height: auto;
-}
-.page-id-9074 .tools-developer .card .box-3 h3{display:none;}
-.page-id-9074 .tech-stack-list ul li{padding-bottom:0;}
-.page-id-9182 .tools-developer .card .box-3 h3{display:none;}
-.page-id-9182 .tech-stack-list ul li{padding-bottom:0;}
-.page-id-9000 .tools-developer .card .box-3 h3{display:none;}
-.page-id-9000 .tech-stack-list ul li{padding-bottom:0;}
-.page-id-9545 .why-does-soft-develop-list-section .dis-flex{align-items: center;}
-.page-id-9570 .why-does-soft-develop-list-section .dis-flex{align-items: center;}
+.page-id-7368 .three-col-box-img-section .content-box h3 {min-height: auto;}
+.page-id-9074 .tools-developer .card .box-3 h3 {display: none;}
+.page-id-9074 .tech-stack-list ul li {padding-bottom: 0;}
+.page-id-9182 .tools-developer .card .box-3 h3 {display: none;}
+.page-id-9182 .tech-stack-list ul li {padding-bottom: 0;}
+.page-id-9000 .tools-developer .card .box-3 h3 {display: none;}
+.page-id-9000 .tech-stack-list ul li {padding-bottom: 0;}
+.page-id-9545 .why-does-soft-develop-list-section .dis-flex {align-items: center;}
+.page-id-9570 .why-does-soft-develop-list-section .dis-flex {align-items: center;}
