@@ -2342,7 +2342,7 @@ input:-webkit-autofill:active {
 .table-list-section .table-list .title {
   font-size: 18px;
   font-weight: 500;
-  min-height: 80px; }
+  min-height: 100px; }
   .table-list-section .table-list .title .sub-title {
     font-size: 14px;
     font-weight: 400;
@@ -2414,6 +2414,26 @@ input:-webkit-autofill:active {
   cursor: pointer; }
 .table-list-section.show-all .table-list li:nth-child(n) {
   display: flex; }
+.table-list-section span {
+  position: relative; }
+.table-list-section .lIcon:before {
+  content: "";
+  background: url(../images/table-list.png) top center no-repeat;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-size: 100%;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; }
+.table-list-section .dash:before {
+  content: '';
+  width: 13px;
+  height: 4px;
+  background: rgba(1, 107, 227, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 1600px) {
   .table-list-section .table-list ul li {
