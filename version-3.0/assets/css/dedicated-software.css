@@ -4636,6 +4636,10 @@ a {
       transition: all 0.3s ease-in-out; }
     .services-three-column-section .know-more-link a:hover::after {
       left: 14px; }
+  .services-three-column-section.dedicate-sec .twobox .img-box {
+    flex-basis: 45%; }
+  .services-three-column-section.dedicate-sec .twobox .content-box {
+    flex-basis: 55%; }
 
 .why-choose-three-column-section {
   counter-reset: section; }

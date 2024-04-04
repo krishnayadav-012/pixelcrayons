@@ -818,6 +818,61 @@
       </div>
     </section>
     <?php require_once 'assets/include/guide-topic.php'; ?>
+    <section class="our-blog padding-t-120 padding-b-120 default-white">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Our Latest Blogs</h2>
+          <p>We at PixelCrayons are passionate about discussing recent technologies and applications. We constantly write blogs and articles associated with the field of technology. So, don't miss our detailed and insightful write-ups. You'll find all our latest blogs and blog updates here:</p>
+        </div>
+        <div class="dis-flex margin-t-100 row">
+          <div class="flex-3">
+            <div class="blog-card">
+              <a href="https://www.pixelcrayons.com/blog/digital-transformation/digital-transformation-in-banking/" target="_blank">
+                <picture>
+                  <source type="image/webp" srcset="https://www.pixelcrayons.com/blog/wp-content/uploads/2022/04/Digital-Transformation-in-Banking-–-Everything-You-Should-Know.png">
+                  <source type="image/png" srcset="https://www.pixelcrayons.com/blog/wp-content/uploads/2022/04/Digital-Transformation-in-Banking-–-Everything-You-Should-Know.png">
+                  <img loading="lazy" src="https://www.pixelcrayons.com/blog/wp-content/uploads/2022/04/Digital-Transformation-in-Banking-–-Everything-You-Should-Know.png" alt="Blog">
+                </picture>
+                <div class="blog-text">
+                  <span class="category">Digital Transformation</span>
+                  <h3>Digital Transformation in Banking – Everything You Should Know!</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flex-3">
+            <div class="blog-card">
+              <a href="https://www.pixelcrayons.com/blog/dedicated-teams/digital-transformation-in-manufacturing-benefits-and-trends/" target="_blank">
+                <picture>
+                  <source type="image/webp" srcset="https://www.pixelcrayons.com/blog/wp-content/uploads/2022/01/Digital-Transformation-in-Manufacturing.jpeg">
+                  <source type="image/png" srcset="https://www.pixelcrayons.com/blog/wp-content/uploads/2022/01/Digital-Transformation-in-Manufacturing.jpeg">
+                  <img loading="lazy" src="https://www.pixelcrayons.com/blog/wp-content/uploads/2022/01/Digital-Transformation-in-Manufacturing.jpeg" alt="Blog">
+                </picture>
+                <div class="blog-text">
+                  <span class="category">Dedicated Teams</span>
+                  <h3>Digital Transformation in Manufacturing- A New Wave for the Industry [Benefits and Trends]</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flex-3">
+            <div class="blog-card">
+              <a href="https://www.pixelcrayons.com/blog/digital-transformation/how-to-leverage-iot-big-data-for-digital-transformation/" target="_blank">
+                <picture>
+                  <source type="image/webp" srcset="https://www.pixelcrayons.com/blog/wp-content/uploads/2018/10/how-to-leverage-iot-big-data-for-digital-transformation.jpg">
+                  <source type="image/png" srcset="https://www.pixelcrayons.com/blog/wp-content/uploads/2018/10/how-to-leverage-iot-big-data-for-digital-transformation.jpg">
+                  <img loading="lazy" src="https://www.pixelcrayons.com/blog/wp-content/uploads/2018/10/how-to-leverage-iot-big-data-for-digital-transformation.jpg" alt="Blog">
+                </picture>
+                <div class="blog-text">
+                  <span class="category">Digital Transformation</span>
+                  <h3>How to leverage IoT &amp; Big Data for Digital Transformation</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="light-theme">
       <?php require_once '../assets/include/testimonials.php'; ?>
     </div>

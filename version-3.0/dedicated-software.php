@@ -51,50 +51,39 @@
          </div>
       </section>
       <?php require_once 'assets/include/client-logo.php'; ?>
-      <section class="services-three-column-section ded-services padding-t-120 padding-b-120">
-         <div class="container">
-            <div class="heading text-center">
-               <h2>Dedicated Development Team Setup</h2>
-               <p>PixelCrayons is a hub of skilled and experienced web and mobile app development teams. Our dedicated development team of experts is proficient in providing full-cycle software solutions for startups and enterprises
-               </p>
-            </div>
-            <div class="dis-flex justify-sb twobox margin-t-100">
-               <div class="flex-2 img-box">
-                  <picture>
-                     <source type="image/webp" srcset="./assets/images/dedicate-image.png">
-                     <source type="image/png" srcset="./assets/images/dedicate-image.png">
-                     <img loading="lazy" src="./assets/images/dedicate-image.png"
-                        alt="Pixelcrayons" width="539" height="521">
-                  </picture>
-               </div>
-               <div class="flex-2 content-box">
-                  <div class="dis-flex threebox">
-                     <div class="flex-1 has-anchor">
-                        <div class="box-3">
-                           <h3>Full-Service Development Teams</h3>
-                           <p>In this team setup, we provide full-time dedicated app development teams based on ready-to-use IT infrastructure to handle the end-to-end delivery of your IT project.
-                           </p>
-                        </div>
-                     </div>
-                     <div class="flex-1 has-anchor">
-                        <div class="box-3">
-                           <h3>On-Demand Dedicated Team</h3>
-                           <p>Hire a Dedicated Software Development Team in India from PixelCrayons, with in-depth expertise in multiple industry verticals. We empower firms with our experienced.
-                           </p>
-                        </div>
-                     </div>
-                     <div class="flex-1 has-anchor">
-                        <div class="box-3">
-                           <h3>Maintenance Teams</h3>
-                           <p>In this team setup, we provide full-time dedicated app development teams based on ready-to-use IT infrastructure to handle the end-to-end delivery of your IT project.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+      <section class="services-three-column-section dedicate-sec padding-t-120 padding-b-120">
+  <div class="container">
+    <div class="heading text-center">
+      <h2>Types of Dedicated Development Team Setup</h2>
+<p>PixelCrayons is a hub of skilled and experienced web &amp; mobile app development teams. Our dedicated development team of experts has proficiency in providing full-cycle software solutions for startups and enterprises.</p>
+    </div>
+    <div class="dis-flex justify-sb twobox margin-t-80">
+            <div class="flex-2 img-box">
+        <picture>
+	
+	<source type="image/png" srcset="http://localhost/pixelcrayons.com/staging/wp-content/uploads/2024/04/team-setup.png">
+	<img loading="lazy" src="http://localhost/pixelcrayons.com/staging/wp-content/uploads/2024/04/team-setup.png" alt="team-setup" width="541" height="521">
+	</picture>        
+      </div>
+            <div class="flex-2 content-box">
+        <div class="dis-flex threebox">
+          <div class="flex-1 has-anchor">
+                <div class="box-3"><h3>On-Demand Dedicated Team</h3>
+<p>Hire a Dedicated Software Development Team in India from PixelCrayons who hold in-depth expertise in multiple industry verticals.&nbsp;We empower firms with our experienced in-house professionals and well-established processes, methodologies &amp; tools.</p>
+</div>
+                </div><div class="flex-1 has-anchor">
+                <div class="box-3"><h3>Full-Service Development Teams</h3>
+<p>In this team setup, we provide full-time&nbsp;dedicated app development teams&nbsp;based on ready-to-use IT infrastructure to handle the end-to-end delivery of your IT project. Here, you are given the flexibility to shift priorities, and you can also initiate change requests.</p>
+</div>
+                </div><div class="flex-1 has-anchor">
+                <div class="box-3"><h3>Maintenance Teams</h3>
+<p>We provide multi-level end-user support and evolutionary functionality enhancement with this team setup. We deploy dedicated app development team adept at supervising your proprietary software product through several releases.</p>
+</div>
+                </div>        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <section class="devs-team padding-t-60 padding-b-120">
          <div class="heading text-center">
             <h2>Our Software Engineering Services</h2>
@@ -159,6 +148,9 @@
       <section class="software-team padding-t-120">
          <div class="container">
             <div class="dis-flex justify-sb twobox">
+
+
+
                <div class="flex-2">
                   <div class="heading">
                      <h2>Who All Are a Part of Software Development Team</h2>
@@ -262,6 +254,9 @@
                      </div>
                   </div>
                </div>
+
+
+               
             </div>
          </div>
       </section>

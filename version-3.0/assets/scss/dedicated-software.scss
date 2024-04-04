@@ -162,7 +162,16 @@
       }
     }
   }
+
+  &.dedicate-sec{
+    .twobox {
+      .img-box{flex-basis: 45%;}
+      .content-box{flex-basis: 55%;}
+    }
+  }
 }
+
+
 
 .why-choose-three-column-section {
   counter-reset: section;

@@ -2342,7 +2342,7 @@ input:-webkit-autofill:active {
 .table-list-section .table-list .title {
   font-size: 18px;
   font-weight: 500;
-  min-height: 120px; }
+  min-height: 100px; }
   .table-list-section .table-list .title .sub-title {
     font-size: 14px;
     font-weight: 400;
@@ -2363,7 +2363,7 @@ input:-webkit-autofill:active {
   padding: 20px 30px;
   list-style: none;
   text-align: center;
-  min-height: 94px;
+  min-height: 120px;
   display: flex;
   color: #414141;
   align-items: center;
@@ -2407,13 +2407,33 @@ input:-webkit-autofill:active {
   padding: 40px 30px; }
 .table-list-section .view-more {
   position: absolute;
-  bottom: 230px;
+  bottom: 260px;
   left: 0;
   right: 0;
   margin: 0 auto;
   cursor: pointer; }
 .table-list-section.show-all .table-list li:nth-child(n) {
   display: flex; }
+.table-list-section span {
+  position: relative; }
+.table-list-section .lIcon:before {
+  content: "";
+  background: url(../images/table-list.png) top center no-repeat;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-size: 100%;
+  display: inline-block;
+  transition: all 0.3s ease-in-out; }
+.table-list-section .dash:before {
+  content: '';
+  width: 13px;
+  height: 4px;
+  background: rgba(1, 107, 227, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 1600px) {
   .table-list-section .table-list ul li {
@@ -2421,21 +2441,19 @@ input:-webkit-autofill:active {
   .table-list-section .table-list .more-spc {
     padding: 40px 18px; }
   .table-list-section .view-more {
-    bottom: 209px; } }
+    bottom: 245px; } }
 @media only screen and (max-width: 1400px) {
   .table-list-section .table-list ul li {
     padding: 20px 18px;
-    min-height: 120px; }
-  .table-list-section .table-list .more-txt {
     min-height: 145px; }
   .table-list-section .table-list .more-spc {
     padding: 40px 18px; }
   .table-list-section .view-more {
-    bottom: 210px; } }
+    bottom: 265px; } }
 @media only screen and (max-width: 1380px) {
   .table-list-section .table-list ul li {
     padding: 20px 18px;
-    min-height: 120px; }
+    min-height: 145px; }
   .table-list-section .table-list:first-child ul li {
     padding-left: 11px; } }
 @media only screen and (max-width: 1024px) {
@@ -2455,7 +2473,7 @@ input:-webkit-autofill:active {
     .table-list-section .table-list .gtstart .more-spc {
       padding: 40px 30px; }
   .table-list-section .view-more {
-    bottom: 170px; } }
+    bottom: 225px; } }
 @media only screen and (max-width: 991px) {
   .table-list-section .table-list .more-spc {
     padding: 20px 15px; }
@@ -2477,7 +2495,7 @@ input:-webkit-autofill:active {
     .table-list-section .table-list .gtstart:first-child ul li {
       padding-left: 10px; }
   .table-list-section .view-more {
-    bottom: 160px; } }
+    bottom: 200px; } }
 @media only screen and (max-width: 790px) {
   .table-list-section .table-wrap {
     position: relative;
@@ -2492,7 +2510,7 @@ input:-webkit-autofill:active {
     .table-list-section .table-wrap .table-list .gtstart {
       padding: 10px 10px; }
   .table-list-section .view-more {
-    bottom: 145px; } }
+    bottom: 210px; } }
 .section-numbers .number-row {
   grid-gap: 20px;
   grid-template-rows: auto auto;
