@@ -58,7 +58,7 @@
       .card-heading {
         position: absolute;
         left: 0;
-        bottom: -40px;
+        bottom: -60px;
         color: rgba(65, 65, 65, 0.6);
         font-size: 20px;
         font-weight: 500;
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 767px) {
 
-  .develop-section {
+  .develop-section {padding-bottom:80px;
     .dev-cards {
       flex-wrap: wrap;
       gap: 50px;

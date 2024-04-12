@@ -46,7 +46,7 @@
                 </div>
               </div>
             </div>
-            <div class="slide-logo  dis-flex items-center justify-sb">
+            <div class="slide-logo  dis-flex items-center justify-sb" id="pxl-logoslider">
               <div class="container">
                 <div class="dis-flex">
                   <div class="logo-section">
@@ -77,8 +77,8 @@
                 <h2>Get in Touch</h2>
                 <p>Receive tailored solutions, expert advice, and precise estimates.</p>
                 <div class="soc-box dis-flex items-center">
-                  <a href=""><i><img loading="lazy" src="assets/images/soc-01.svg" alt="Pixelcrayons" width="20" height="20"></i>Book A Call</a>
-                  <a href=""><i><img loading="lazy" src="assets/images/soc-02.svg" alt="Pixelcrayons" width="20" height="20"></i>WhatsApp</a>
+                  <a href="tel:+918882108080"><i><img loading="lazy" src="assets/images/soc-01.svg" alt="Pixelcrayons" width="20" height="20"></i>Book A Call</a>
+                  <a href="https://wa.me/918882108080"><i><img loading="lazy" src="assets/images/soc-02.svg" alt="Pixelcrayons" width="20" height="20"></i>WhatsApp</a>
                   <a href=""><i><img loading="lazy" src="assets/images/soc-03.svg" alt="Pixelcrayons" width="20" height="20"></i>Email us</a>
                 </div>
               </div>
@@ -119,7 +119,7 @@
                       <div class="form-text-cont width-full">
                         <div class="form-conf">
                           <div claass="left">
-                            <span><i>                  <img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
+                            <span><i><img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
                             </i>100% Confidential</span><span class="signnda"><i>                  <img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
                             </i>We Sign NDA</span>
                           </div>
@@ -134,10 +134,144 @@
             </div>
           </div>
         </div>
-        <!-- dis-flex form-outer -->
+  
       </div>
     </section>
-    <section class="globe-around padding-t-120 padding-b-120">
+
+   
+
+    <section class="testimonial-section bg-light padding-t-120 padding-b-120">
+      <div class="container">
+      <div class="head-txt text-center">
+        <h2>What Our Clients Have to Say About Us</h2>
+        <p>We are grateful for our clients’ trust in us, and we take great pride in delivering quality solutions that exceed their expectations. Here is what some of them have to say about us:
+        </p>
+      </div>
+      <div class="testlider glide margin-t-80">
+        <div class="glide__track" data-glide-el="track">
+          <div class="glide__slides">
+            <div class="slide-item">
+              <div class="test-row">
+                <div class="client-videos" id="cvbox-1">
+                  <div class="client-video-box">
+                    <iframe class="yt-player"  id="ytiframe-1" style="display:none;"></iframe>
+                    <a class="frame-mask" href="javascript:void(0);" onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
+                      <picture>
+                        <source type="image/png" srcset="assets/images/slider-image.png">
+                        <img loading="lazy" src="assets/images/slider-image.png" alt="Valuecoders" width="436" height="290">
+                      </picture>
+                      <div class="playBtn">
+                          <div class="playsc"><span class="playicon"></span></div>
+                        </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="content-box">
+                  <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects.”</p>
+                  <h5>James Kelly</h5>
+                  <span class="designtn">Co-founder, James Kelly</span>
+                  <span class="star-image"></span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-item">
+              <div class="test-row">
+                <div class="cust-img-box">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/slider-image.png">
+                    <source type="image/png" srcset="assets/images/slider-image.jpg">
+                    <img loading="lazy" src="assets/images/slider-image.jpg"
+                      alt="Testimonials" width="436" height="290">
+                  </picture>
+                </div>
+                <div class="content-box">
+                  <p>I have been using invoicera for about 5 years and found it fantastic whenusing it on phone while Travelling.</p>
+                  <h5>Dave Edworthy</h5>
+                  <span class="designtn">Co-founder, James Kelly</span>
+                  <span class="star-image"></span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-item">
+              <div class="test-row">
+                <div class="cust-img-box">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/slider-image.png">
+                    <source type="image/png" srcset="assets/images/slider-image.jpg">
+                    <img loading="lazy" src="assets/images/slider-image.jpg"
+                      alt="Testimonials" width="436" height="290">
+                  </picture>
+                </div>
+                <div class="content-box">
+                  <p>I have been using invoicera for about 5 years and found it fantastic whenusing it on phone while Travelling.</p>
+                  <h5>Dave Edworthy</h5>
+                  <span class="designtn">Co-founder, James Kelly</span>
+                  <span class="star-image"></span>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0">
+            <div class="btnsec">
+              <div class="btnimg">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/vid-short.png">
+                  <source type="image/png" srcset="assets/images/vid-short.jpg">
+                  <img loading="lazy" src="assets/images/vid-short.jpg"
+                    alt="Testimonials" width="68" height="69">
+                </picture>
+              </div>
+              <div class="btncont">
+                <h3>James Kelly</h3>
+                <p>President of Sales</p>
+              </div>
+            </div>
+          </button>
+          <button class="glide__bullet" data-glide-dir="=1">
+            <div class="btnsec">
+              <div class="btnimg">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/vid-short.png">
+                  <source type="image/png" srcset="images/vid-short.jpg">
+                  <img loading="lazy" src="images/vid-short.jpg"
+                    alt="Testimonials" width="68" height="69">
+                </picture>
+              </div>
+              <div class="btncont">
+                <h3>James Kelly</h3>
+                <p>President of Sales</p>
+              </div>
+            </div>
+          </button>
+          <button class="glide__bullet" data-glide-dir="=2">
+            <div class="btnsec">
+              <div class="btnimg">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/vid-short.png">
+                  <source type="image/png" srcset="images/vid-short.jpg">
+                  <img loading="lazy" src="images/vid-short.jpg"
+                    alt="Testimonials" width="68" height="69">
+                </picture>
+              </div>
+              <div class="btncont">
+                <h3>Mohammed Mirza</h3>
+                <p>Co-founder, Miracle Choice</p>
+              </div>
+            </div>
+          </button>
+
+        </div>
+        </div>
+        <div class="glide__arrows glidenav" data-glide-el="controls">
+               <button class="arw left glide__arrow glide__arrow--prev" data-glide-dir="<">prev</button>
+               <button class="arw right glide__arrow glide__arrow--next" data-glide-dir=">">next</button>
+            </div>
+      </div>
+    </section>
+    
+    <section class="globe-around padding-t-60 padding-b-120">
       <div class="container">
       <div class="heading text-center">
         <h2>Vinove around the Globe</h2>
@@ -158,7 +292,7 @@
             <div class="detail-full">
               <div class="box">
                 <div class="row-div">
-                  <a href="tel:+918882108080">
+                  <a href="https://wa.me/918882108080">
                     <div class="flag-d">
                       <div class="img"><img class="wtsapp" loading="lazy" src="assets/images/wtsapp.svg" alt="Pixelcrayons" width="30" height="19"></div>
                       <div class="cont"><span class="num">+91 888 210 8080</span>
@@ -169,7 +303,7 @@
                 <div class="row-div">
                   <div class="flag-d">
                     <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Gurugram : 10th Floor, 
+                    <div class="cont addrs"><span class="num">Gurugram : 10th Floor, 
                       Tower-B, Unitech 
                       Cyber Park, Sector - 39, 
                       Gurugram, Haryana-
@@ -180,7 +314,7 @@
                 <div class="row-div">
                   <div class="flag-d">
                     <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Noida : 3rd Floor, Fusion Square, 5A & 5B, Sector 126, Noida 201303</span>
+                    <div class="cont addrs"><span class="num">Noida : 3rd Floor, Fusion Square, 5A & 5B, Sector 126, Noida 201303</span>
                     </div>
                   </div>
                 </div>
@@ -192,10 +326,10 @@
         <div class="flex-5">
           <div class="cont-full">
             <div class="box hover-ef">
-              <a href="tel:+918882108080">
+              <a href="tel:+14152300123">
                 <div class="flag-d">
                   <div class="img"><img loading="lazy" src="assets/images/flag-02.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                  <div class="cont"><span>United States</span> <span class="num"> +91 888 210 8080</span>
+                  <div class="cont addrs"><span>United States</span> <span class="num">+1 415 230 0123</span>
                   </div>
                 </div>
               </a>
@@ -203,29 +337,9 @@
             <div class="detail-full">
               <div class="box">
                 <div class="row-div">
-                  <a href="tel:+918882108080">
-                    <div class="flag-d">
-                      <div class="img"><img class="wtsapp" loading="lazy" src="assets/images/wtsapp.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                      <div class="cont"><span class="num">+91 888 210 8080</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="row-div">
                   <div class="flag-d">
                     <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Gurugram : 10th Floor, 
-                      Tower-B, Unitech 
-                      Cyber Park, Sector - 39, 
-                      Gurugram, Haryana-
-                      122001</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row-div">
-                  <div class="flag-d">
-                    <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Noida : 3rd Floor, Fusion Square, 5A & 5B, Sector 126, Noida 201303</span>
+                    <div class="cont addrs"><span class="num">5900 Balcones Drive, STE 100, Austin , TX 78731, USA/span>
                     </div>
                   </div>
                 </div>
@@ -237,10 +351,10 @@
         <div class="flex-5">
           <div class="cont-full">
             <div class="box hover-ef">
-              <a href="tel:+918882108080">
+              <a href="tel:+442032392299">
                 <div class="flag-d">
                   <div class="img"><img loading="lazy" src="assets/images/flag-03.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                  <div class="cont"><span>United Kingdom</span> <span class="num"> +91 888 210 8080</span>
+                  <div class="cont addrs"><span>United Kingdom</span> <span class="num">+44 20 3239 2299</span>
                   </div>
                 </div>
               </a>
@@ -248,29 +362,9 @@
             <div class="detail-full">
               <div class="box">
                 <div class="row-div">
-                  <a href="tel:+918882108080">
-                    <div class="flag-d">
-                      <div class="img"><img class="wtsapp" loading="lazy" src="assets/images/wtsapp.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                      <div class="cont"><span class="num">+91 888 210 8080</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="row-div">
                   <div class="flag-d">
                     <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Gurugram : 10th Floor, 
-                      Tower-B, Unitech 
-                      Cyber Park, Sector - 39, 
-                      Gurugram, Haryana-
-                      122001</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row-div">
-                  <div class="flag-d">
-                    <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Noida : 3rd Floor, Fusion Square, 5A & 5B, Sector 126, Noida 201303</span>
+                    <div class="cont addrs"><span class="num">167-169 Great Portland Street, 5th Floor, London W1W 5PF, United Kingdom</span>
                     </div>
                   </div>
                 </div>
@@ -282,10 +376,10 @@
         <div class="flex-5">
           <div class="cont-full">
             <div class="box hover-ef">
-              <a href="tel:+918882108080">
+              <a href="#">
                 <div class="flag-d">
                   <div class="img"><img loading="lazy" src="assets/images/flag-04.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                  <div class="cont"><span>UAE</span> <span class="num"> +91 888 210 8080</span>
+                  <div class="cont addrs"><span>UAE</span> <span class="num"></span>
                   </div>
                 </div>
               </a>
@@ -293,29 +387,9 @@
             <div class="detail-full">
               <div class="box">
                 <div class="row-div">
-                  <a href="tel:+918882108080">
-                    <div class="flag-d">
-                      <div class="img"><img class="wtsapp" loading="lazy" src="assets/images/wtsapp.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                      <div class="cont"><span class="num">+91 888 210 8080</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="row-div">
                   <div class="flag-d">
                     <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Gurugram : 10th Floor, 
-                      Tower-B, Unitech 
-                      Cyber Park, Sector - 39, 
-                      Gurugram, Haryana-
-                      122001</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row-div">
-                  <div class="flag-d">
-                    <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Noida : 3rd Floor, Fusion Square, 5A & 5B, Sector 126, Noida 201303</span>
+                    <div class="cont addrs"><span class="num">541, 8W, Level 5, Dubai Airport Free Zone, Dubai, United Arab Emirates</span>
                     </div>
                   </div>
                 </div>
@@ -326,157 +400,22 @@
         </div>
         <div class="flex-5">
           <div class="cont-full">
-            <div class="box hover-ef">
-              <a href="tel:+918882108080">
+            <div class="box hover-ef aus">
+              <a href="tel:+61280058080">
                 <div class="flag-d">
                   <div class="img"><img loading="lazy" src="assets/images/flag-05.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                  <div class="cont"><span>Australia</span> <span class="num"> +91 888 210 8080</span>
+                  <div class="cont addrs"><span>Australia</span> <span class="num">+61 2 8005 8080</span>
                   </div>
                 </div>
               </a>
-            </div>
-            <div class="detail-full">
-              <div class="box">
-                <div class="row-div">
-                  <a href="tel:+918882108080">
-                    <div class="flag-d">
-                      <div class="img"><img class="wtsapp" loading="lazy" src="assets/images/wtsapp.svg" alt="Pixelcrayons" width="30" height="19"></div>
-                      <div class="cont"><span class="num">+91 888 210 8080</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="row-div">
-                  <div class="flag-d">
-                    <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Gurugram : 10th Floor, 
-                      Tower-B, Unitech 
-                      Cyber Park, Sector - 39, 
-                      Gurugram, Haryana-
-                      122001</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row-div">
-                  <div class="flag-d">
-                    <div class="img"><img loading="lazy" src="assets/images/map-pin.svg" alt="Pixelcrayons" width="14" height="19"></div>
-                    <div class="cont"><span class="num">Noida : 3rd Floor, Fusion Square, 5A & 5B, Sector 126, Noida 201303</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
             </div
           </div>
         </div>
       </div>
     </section>
-    <!--Testimonial Section Start From Here-->
-    <section class="award-section padding-t-60 padding-b-120">
-      <div class="container">
-        <div class="head-txt text-center">
-          <h2>We Love To Hear From Our Users</h2>
-          <p>Have a look at what our customers say</p>
-        </div>
-        <div class="glider-contain margin-t-80  award-slider">
-          <div class="glider" id="glider">
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl01.webp">
-                  <source type="image/png" srcset="assets/images/award-sl01.png">
-                  <img loading="lazy" src="assets/images/award-sl01.png" alt="pixel" width="154" height="154">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl02.webp">
-                  <source type="image/png" srcset="assets/images/award-sl02.png">
-                  <img loading="lazy" src="assets/images/award-sl02.png" alt="pixel" width="150" height="108">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl03.webp">
-                  <source type="image/png" srcset="assets/images/award-sl03.png">
-                  <img loading="lazy" src="assets/images/award-sl03.png" alt="pixel" width="164" height="59">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl04.webp">
-                  <source type="image/png" srcset="assets/images/award-sl04.png">
-                  <img loading="lazy" src="assets/images/award-sl04.png" alt="pixel" width="136" height="90">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl05.webp">
-                  <source type="image/png" srcset="assets/images/award-sl05.png">
-                  <img loading="lazy" src="assets/images/award-sl05.png" alt="pixel" width="94" height="94">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl01.webp">
-                  <source type="image/png" srcset="assets/images/award-sl01.png">
-                  <img loading="lazy" src="assets/images/award-sl01.png" alt="pixel" width="154" height="154">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl02.webp">
-                  <source type="image/png" srcset="assets/images/award-sl02.png">
-                  <img loading="lazy" src="assets/images/award-sl02.png" alt="pixel" width="150" height="108">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl03.webp">
-                  <source type="image/png" srcset="assets/images/award-sl03.png">
-                  <img loading="lazy" src="assets/images/award-sl03.png" alt="pixel" width="164" height="59">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl04.webp">
-                  <source type="image/png" srcset="assets/images/award-sl04.png">
-                  <img loading="lazy" src="assets/images/award-sl04.png" alt="pixel" width="136" height="90">
-                </picture>
-              </div>
-            </div>
-            <div class="slide-item">
-              <div class="award-column">
-                <picture>
-                  <source type="image/webp" srcset="assets/images/award-sl05.webp">
-                  <source type="image/png" srcset="assets/images/award-sl05.png">
-                  <img loading="lazy" src="assets/images/award-sl05.png" alt="pixel" width="94" height="94">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <button aria-label="Previous" class="glider-prev">«</button>
-          <button aria-label="Next" class="glider-next">»</button>
-          <div role="tablist" class="dots"></div>
-        </div>
-      </div>
-    </section>
+ 
+    
     <footer class="footer">
       <div class="footer-copyright">
         <div class="container">
@@ -506,76 +445,30 @@
     <script src="../assets/js/form-validation-v8.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/glide.js"></script>
     <script defer src="./assets/js/glider.min.js"></script>
-    <script>
-      new Glide('.logoslide', {
-                         type: 'carousel',
-                         autoplay: 1,
-                         animationDuration: 10000,
-                         animationTimingFunc: 'linear',
-                         gap: 0,
-                         startAt: 0,
-                         perView: 1 }).
-                       mount();
-      
-      
-      
-                     window.addEventListener("load", function() {
-                       document.querySelector(".award-slider .glider").addEventListener("glider-slide-visible",
-                       function(event) {
-                       var glider = Glider(this);
-                       });
-                       window._ = new Glider(document.querySelector(".award-slider .glider"), {
-                           slidesToShow: 4,
-                           slidesToScroll: 1,
-                           draggable: true,
-                           scrollLock: false,
-                           dots: ".award-slider .dots",
-                           dragDistance: false,
-                           arrows: {
-                           prev: '.glider-prev',
-                           next: '.glider-next'
-                         },
-               
-                           responsive: [{
-                                   breakpoint: 320,
-                                   settings: {
-                                       slidesToShow: 1,
-                                       duration: 2.25
-                                   }
-                               },
-                               {
-                                   breakpoint: 767,
-                                   settings: {
-                                       slidesToShow: 2,
-                                       itemWidth: 150,
-                                       duration: 1.25
-                                   }
-                               },
-                               {
-                                   breakpoint: 1024,
-                                   settings: {
-                                       slidesToShow: 4,
-                                       itemWidth: 150,
-                                       duration: 1.25
-                                   }
-                               },
-                               {
-                                   breakpoint: 1400,
-                                   settings: {
-                                       slidesToShow: 5,
-                                       itemWidth: 150,
-                                       duration: 3
-                                   }
-                               },
-                           ],
+    <script id=&quot;rendered-js&quot; >
+         
+         new Glide(".testlider", {
+        type: "carousel",
+        autoplay: 5000,
+        startAt: 0,
+        hoverpause: false,
+        gap: 0
+      }).mount();         
                
                
-                       });
-               
-                   });
-               
-      
-                       
-    </script>
+                     new Glide('.logoslide', {
+                       type: 'carousel',
+                       autoplay: 1,
+                       animationDuration: 10000,
+                       animationTimingFunc: 'linear',
+                       gap: 0,
+                       startAt: 0,
+                       perView: 1 }).
+                     mount();
+                     //# sourceURL=pen.js
+                         
+                   
+             
+      </script>
   </body>
 </html>

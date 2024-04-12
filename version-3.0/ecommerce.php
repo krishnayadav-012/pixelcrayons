@@ -463,9 +463,7 @@
                       Ecommerce ERP</a>
                     </div>
                   </div>
-                  <div role="tablist" class="dots"></div>
-                  <button aria-label="Previous" class="glider-prev">«</button>
-                  <button aria-label="Next" class="glider-next">»</button>
+                  
                 </div>
               </div>
             </nav>
@@ -1306,7 +1304,7 @@
                      scrollLock: false,
                      dots: ".tab-slider .dots",
                      dragDistance: false,
-                     arrows: {
+                     arrows: { 
                      prev: '.glider-prev',
                      next: '.glider-next'
                    },

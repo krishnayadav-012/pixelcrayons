@@ -2527,7 +2527,7 @@ input:-webkit-autofill:active {
     .develop-section .dev-cards .card .card-heading {
       position: absolute;
       left: 0;
-      bottom: -40px;
+      bottom: -60px;
       color: rgba(65, 65, 65, 0.6);
       font-size: 20px;
       font-weight: 500;
@@ -2541,22 +2541,24 @@ input:-webkit-autofill:active {
     color: #414141; }
 
 @media screen and (max-width: 767px) {
-  .develop-section .dev-cards {
-    flex-wrap: wrap;
-    gap: 50px; }
-    .develop-section .dev-cards .card {
+  .develop-section {
+    padding-bottom: 80px; }
+    .develop-section .dev-cards {
+      flex-wrap: wrap;
+      gap: 50px; }
+      .develop-section .dev-cards .card {
+        flex-basis: 100%;
+        height: 100px; }
+        .develop-section .dev-cards .card .card-info {
+          padding: 20px; }
+        .develop-section .dev-cards .card .card-heading {
+          bottom: -35px;
+          font-size: 18px; }
+    .develop-section .dev-cards .card[active] {
       flex-basis: 100%;
-      height: 100px; }
-      .develop-section .dev-cards .card .card-info {
-        padding: 20px; }
-      .develop-section .dev-cards .card .card-heading {
-        bottom: -35px;
-        font-size: 18px; }
-  .develop-section .dev-cards .card[active] {
-    flex-basis: 100%;
-    height: 300px; }
-    .develop-section .dev-cards .card[active] .card-info {
-      opacity: 1; } }
+      height: 300px; }
+      .develop-section .dev-cards .card[active] .card-info {
+        opacity: 1; } }
 .client-img-section .left-box {
   padding-right: 60px; }
   .client-img-section .left-box .heading h5 {
