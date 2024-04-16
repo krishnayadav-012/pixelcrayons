@@ -39,29 +39,42 @@
               <div class="video-slider">
                 <div class="glider" id="glider">
                   <div class="video-sec">
-                    <picture>
-                      <img loading="lazy" src="./assets/images/gif.png" alt="Pixelcrayons"
-                        width="425" height="232">
-                    </picture>
+                    <h3>“Thanks to PixelCrayons, our 
+                      click-through rates have never been higher. Exceptional service!”
+                    </h3>
+                    <div class="clb">
+                      <img loading="lazy" src="./assets/images/flavia.png" alt="Clutch icon">
+                      Flavia A, Review from Clutch.co
+                    </div>
                   </div>
                   <div class="video-sec">
-                    <picture>
-                      <img loading="lazy" src="./assets/images/gif.png" alt="Pixelcrayons"
-                        width="425" height="232">
-                    </picture>
+                    <h3>“Thanks to PixelCrayons, our 
+                      click-through rates have never been higher. Exceptional service!”
+                    </h3>
+                    <div class="clb">
+                      <img loading="lazy" src="./assets/images/flavia.png" alt="Clutch icon">
+                      Flavia A, Review from Clutch.co
+                    </div>
                   </div>
                   <div class="video-sec">
-                    <picture>
-                      <img loading="lazy" src="./assets/images/gif.png" alt="Pixelcrayons"
-                        width="425" height="232">
-                    </picture>
+                    <h3>“Thanks to PixelCrayons, our 
+                      click-through rates have never been higher. Exceptional service!”
+                    </h3>
+                    <div class="clb">
+                      <img loading="lazy" src="./assets/images/flavia.png" alt="Clutch icon">
+                      Flavia A, Review from Clutch.co
+                    </div>
                   </div>
                   <div class="video-sec">
-                    <picture>
-                      <img loading="lazy" src="./assets/images/gif.png" alt="Pixelcrayons"
-                        width="425" height="232">
-                    </picture>
+                    <h3>“Thanks to PixelCrayons, our 
+                      click-through rates have never been higher. Exceptional service!”
+                    </h3>
+                    <div class="clb">
+                      <img loading="lazy" src="./assets/images/flavia.png" alt="Clutch icon">
+                      Flavia A, Review from Clutch.co
+                    </div>
                   </div>
+                  
                 </div>
                 <div role="tablist" class="dots"></div>
               </div>
@@ -146,7 +159,7 @@
                 <picture>
                   <source type="image/webp" srcset="./assets/images/ecomgrid-03.png">
                   <source type="image/png" srcset="./assets/images/ecomgrid-03.png">
-                  <img loading="lazy" src="./assets/images/ecomgrid-03.png"
+                  <img class="himg" loading="lazy" src="./assets/images/ecomgrid-03.png"
                     alt="Pixelcrayons" width="365" height="440">
                 </picture>
               </div>
@@ -463,7 +476,6 @@
                       Ecommerce ERP</a>
                     </div>
                   </div>
-                  
                 </div>
               </div>
             </nav>
@@ -1103,9 +1115,7 @@
     <!-- faq section -->
     <?php require_once 'assets/include/faq.php'; ?>
     <!-- cta section -->
-
     <!--Related Secrvices-->
-
     <section class="develop-section padding-t-120 padding-b-120">
       <div class="container">
         <div class="heading text-center">
@@ -1174,7 +1184,6 @@
       </div>
     </section>
     <!--Related Services  Ends Here-->
-
     <?php require_once 'assets/include/cta-v3.php'; ?>
     <!-- footer -->
     <?php require_once 'assets/include/footer.php'; ?>
@@ -1435,32 +1444,31 @@
       
       });
       });
-
-
-
+      
+      
+      
     </script>
     <script>
-
-// Cards hover animation
-const cards = document.querySelectorAll('.card');
-
-cards.forEach((card) => {
-card.addEventListener('mouseover', () => {
-if (!card.hasAttribute('active')) {
-updateActiveCard(card);
-}
-});
-});
-
-function updateActiveCard(activeCard) {
-cards.forEach((card) => {
-if (card === activeCard) {
-card.setAttribute('active', '');
-} else {
-card.removeAttribute('active');
-}
-})
-</script>
+      // Cards hover animation
+      const cards = document.querySelectorAll('.card');
+      
+      cards.forEach((card) => {
+      card.addEventListener('mouseover', () => {
+      if (!card.hasAttribute('active')) {
+      updateActiveCard(card);
+      }
+      });
+      });
+      
+      function updateActiveCard(activeCard) {
+      cards.forEach((card) => {
+      if (card === activeCard) {
+      card.setAttribute('active', '');
+      } else {
+      card.removeAttribute('active');
+      }
+      })
+    </script>
     <script defer src="../assets/js/script.js"></script>
   </body>
 </html>

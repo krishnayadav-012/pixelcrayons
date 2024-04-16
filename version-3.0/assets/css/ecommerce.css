@@ -2369,7 +2369,7 @@ input:-webkit-autofill:active {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 35px;
-  height: 245px;
+  height: 250px;
   display: flex;
   align-items: flex-start; }
   .digital-services .card.bg-blue {
@@ -2381,7 +2381,7 @@ input:-webkit-autofill:active {
     height: 390px; }
   .digital-services .card.bg-yellow {
     background: #ffe175;
-    height: 370px; }
+    height: 420px; }
     .digital-services .card.bg-yellow .grid-face {
       color: #414141; }
     .digital-services .card.bg-yellow .desc {
@@ -2430,6 +2430,8 @@ input:-webkit-autofill:active {
   cursor: default; }
   .digital-services .nocard img {
     width: 100%; }
+  .digital-services .nocard .himg {
+    height: 476px; }
   .digital-services .nocard.is-flipped {
     transform: none; }
 .digital-services .grid-column:nth-child(1) .scene:nth-child(2) .grid-face:after {
@@ -2488,7 +2490,22 @@ input:-webkit-autofill:active {
   display: inline-block;
   transition: all 0.3s ease-in-out; }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1680px) {
+  .digital-services .card.bg-yellow {
+    height: 350px; } }
+@media screen and (max-width: 1366px) {
+  .digital-services .nocard .himg {
+    height: 100%; }
+
+  .digital-services .card.bg-yellow {
+    height: 380px; }
+
+  .digital-services .card {
+    height: 210px; }
+
+  .digital-services .card.bg-green {
+    height: 255px; } }
+@media screen and (max-width: 1200px) {
   .digital-services .grid-section {
     justify-content: center; }
     .digital-services .grid-section .grid-column {
@@ -5516,7 +5533,13 @@ a {
         background: #ffffff;
         border-radius: 15px; }
         .banner-section .banner-wrap .right-sec .hero-card .video-sec {
-          padding: 10px 15px; }
+          padding: 30px; }
+          .banner-section .banner-wrap .right-sec .hero-card .video-sec .clb {
+            display: flex;
+            align-items: center;
+            color: rgba(19, 30, 41, 0.4);
+            font-weight: 500;
+            margin: 20px 0 0; }
         .banner-section .banner-wrap .right-sec .hero-card .ratings {
           display: flex;
           flex-direction: column;
@@ -5680,7 +5703,16 @@ a {
     margin-top: 50px; } }
 @media only screen and (max-width: 1320px) {
   .banner-section {
-    min-height: 600px; } }
+    min-height: 600px; }
+    .banner-section .banner-wrap .right-sec {
+      flex-basis: 33%;
+      width: 33%; }
+      .banner-section .banner-wrap .right-sec .hero-card .video-sec {
+        padding: 20px; }
+        .banner-section .banner-wrap .right-sec .hero-card .video-sec h3 {
+          font-size: 18px; }
+        .banner-section .banner-wrap .right-sec .hero-card .video-sec .clb {
+          font-size: 16px; } }
 @media only screen and (max-width: 1024px) {
   .ecomsol .flex-2 {
     flex-basis: 100%; } }
@@ -5721,7 +5753,7 @@ a {
         background: #ffffff;
         border-radius: 15px; }
         .banner-section .banner-wrap .right-sec .hero-card .video-sec {
-          padding: 10px 15px; }
+          padding: 20px; }
         .banner-section .banner-wrap .right-sec .hero-card .ratings {
           display: flex;
           flex-direction: column;

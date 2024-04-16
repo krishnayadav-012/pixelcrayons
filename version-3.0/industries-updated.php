@@ -150,6 +150,14 @@
             <div class="bcontents">
               <div id="tab01" class="tab-contents active">
                 <div class="dis-flex">
+                <div class="image-box">
+                    <picture>
+                      <source type="image/webp" srcset="./assets/images/ecom-image01.png">
+                      <source type="image/png" srcset="./assets/images/ecom-image01.png">
+                      <img loading="lazy" src="./assets/images/ecom-image01.png"
+                        alt="Pixelcrayons" width="595" height="319">
+                    </picture>
+                  </div>
                   <div class="content-box">
                     <h3>Ecommerce Stores</h3>
                     <p>Creating responsive online stores is about ensuring a seamless, user-friendly shopping experience from browsing to checkout. Our focus on intuitive navigation and smooth checkout processes, combined with the integration of essential retail tools, enhances customer engagement and streamlines store operations.</p>
@@ -159,14 +167,7 @@
                       <li>Integration with essential retail tools</li>
                     </ul>
                   </div>
-                  <div class="image-box">
-                    <picture>
-                      <source type="image/webp" srcset="./assets/images/ecom-image01.png">
-                      <source type="image/png" srcset="./assets/images/ecom-image01.png">
-                      <img loading="lazy" src="./assets/images/ecom-image01.png"
-                        alt="Pixelcrayons" width="595" height="319">
-                    </picture>
-                  </div>
+                  
                 </div>
               </div>
               <div id="tab02" class="tab-contents">
@@ -837,8 +838,6 @@
       
       
       //Video Slider start From Here//
-      
-      
       
       window.addEventListener("load", function() {
                  document.querySelector(".video-slider .glider").addEventListener("glider-slide-visible",

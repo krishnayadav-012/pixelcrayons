@@ -97,7 +97,11 @@
         background: $white;
         border-radius: 15px;
         .video-sec {
-          padding: 10px 15px;
+          padding: 30px;
+          .clb{display: flex;
+            align-items: center;
+            color: rgba(19, 30, 41, 0.4);
+            font-weight: 500; margin:20px 0 0;}
         }
 
         .ratings {
@@ -342,7 +346,22 @@
 @media only screen and (max-width: 1320px) {
   .banner-section {
     min-height: 600px;
+    .banner-wrap{
+      .right-sec{flex-basis: 33%; width: 33%;
+        .hero-card{
+          .video-sec{padding: 20px;
+          h3{font-size: 18px;}
+          .clb{font-size: 16px;}
+          }
+        }
+      }
+    }   
   }
+
+
+
+
+
 }
 @media only screen and (max-width: 1024px) {
   .ecomsol {
@@ -421,7 +440,7 @@
           background: $white;
           border-radius: 15px;
           .video-sec {
-            padding: 10px 15px;
+            padding: 20px;
           }
 
           .ratings {
