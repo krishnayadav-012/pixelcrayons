@@ -104,6 +104,26 @@
                 }
               }
             }
+            .know-more-link{margin-top:30px;
+              a{color: #016be3;
+                display: block;
+                font-size: 16px;
+                line-height: 19px;
+                &:after{content: "";
+                  background: url(../images/service/know-more-arrow-icon.png) top center no-repeat;
+                  position: relative;
+                  width: 15px;
+                  height: 11px;
+                  background-size: 100%;
+                  top: 0;
+                  left: 6px;
+                  display: inline-block;
+                  transition: all 0.3s ease-in-out;}
+                  &:hover{text-decoration: underline;
+                    &:after{left: 14px;}
+                  }
+              }
+            }
           }
 
           .image-box {
@@ -407,17 +427,17 @@
     }
     .glider-prev {
       background-size: 100%;
-      width: 28px;
-      height: 28px;
+      width: 25px;
+      height: 25px;
       left: 95%;
-      top: 15px;
+      top: 20px;
     }
     .glider-next {
       right: -44px;
       background-size: 100%;
-      width: 28px;
-      height: 28px;
-      top: 15px;
+      width: 25px;
+      height: 25px;
+      top: 20px;
     }
   }
 
@@ -453,6 +473,7 @@
           ul {
             margin: 0 0 10px;
           }
+          .know-more-link{margin:20px 0 0;}
 
           .tab-row {
             gap: 0px;

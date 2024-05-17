@@ -28,7 +28,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 35px;
-    height: 250px;
+    height: 255px;
 
     display: flex;
     align-items: flex-start;
@@ -45,7 +45,7 @@
     }
     &.bg-yellow {
       background: rgba(255, 225, 117, 1);
-      height: 420px;
+      height: 435px;
       .grid-face{color:rgba(65, 65, 65, 1);}
       .desc{color:rgba(65, 65, 65, 1);}
       .value{color:rgba(65, 65, 65, 1);}
@@ -106,7 +106,7 @@
     img {
       width: 100%;
     }
-    .himg{height: 476px;}
+    .himg{    height: 489px;}
     &.is-flipped {transform: none;}
   }
 
@@ -196,10 +196,16 @@
   }
 }
 
-
+@media screen and (max-width: 1780px) {
+  .digital-services .card.bg-yellow{height: 412px;}
+}
 
 @media screen and (max-width: 1680px) {
-  .digital-services .card.bg-yellow{height: 350px;}
+  .digital-services .card.bg-yellow{height: 380px;}
+}
+
+@media screen and (max-width: 1440px) {
+  .digital-services .card.bg-yellow{height: 358px;}
 }
 
 

@@ -531,6 +531,7 @@
   .box-desc {
     position: relative;
     padding: 20px;
+    min-height: 207px;
 
     h3 {
       margin: 0 0 15px;
@@ -873,4 +874,5 @@
       }
     }
   }
+  .software-team .box-desc{min-height: initial;}
 }

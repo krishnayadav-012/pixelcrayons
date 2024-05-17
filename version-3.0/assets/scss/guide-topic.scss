@@ -90,6 +90,9 @@
         color: #666E86;
       }
 
+      ol li b{font-weight: 500;}
+      ul li b{font-weight: 500;}
+
       ol li strong {
         color: #666E86;
       }
@@ -97,6 +100,7 @@
       strong {
         font-weight: 500;
       }
+      b{font-weight: 500;}
     }
 
     h6 {
@@ -168,6 +172,7 @@
   }
 }
 
+b{font-weight: 500;}
 
 @media screen and (max-width: 1440px) {
   .tab-scroll-section {

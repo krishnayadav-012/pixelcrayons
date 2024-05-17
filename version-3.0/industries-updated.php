@@ -32,35 +32,22 @@
           <div class="rqst-btn"><a href="#" target="_blank" class="white-btn white">Request Free Consultation</a></div>
           <div class="badges">
             <picture>
-              <source type="image/webp" srcset="../assets/images/service/award-01.webp">
-              <source type="image/png" srcset="../assets/images/service/award-01.png">
-              <img loading="lazy" src="../assets/images/service/award-01.png" alt="Pixelcrayons"
-                width="101" height="61">
+              <img loading="lazy" src="./assets/images/service/indser-01.svg" alt="Pixelcrayons"
+                width="107" height="60">
             </picture>
             <picture>
-              <source type="image/webp" srcset="../assets/images/service/award-02.webp">
-              <source type="image/png" srcset="../assets/images/service/award-02.png">
-              <img loading="lazy" src="../assets/images/service/award-02.png" alt="Pixelcrayons"
-                width="44" height="75">
+            <img loading="lazy" src="./assets/images/service/indser-02.svg" alt="Pixelcrayons"
+                width="107" height="60">
             </picture>
             <picture>
-              <source type="image/webp" srcset="../assets/images/service/award-03.webp">
-              <source type="image/png" srcset="../assets/images/service/award-03.png">
-              <img loading="lazy" src="../assets/images/service/award-03.png" alt="Pixelcrayons"
-                width="74" height="58">
+            <img loading="lazy" src="./assets/images/service/indser-03.svg" alt="Pixelcrayons"
+                width="107" height="60">
             </picture>
             <picture>
-              <source type="image/webp" srcset="../assets/images/service/award-04.webp">
-              <source type="image/png" srcset="../assets/images/service/award-04.png">
-              <img loading="lazy" src="../assets/images/service/award-04.png" alt="Pixelcrayons"
-                width="99" height="41">
+            <img loading="lazy" src="./assets/images/service/indser-04.svg" alt="Pixelcrayons"
+                width="107" height="60">
             </picture>
-            <picture>
-              <source type="image/webp" srcset="../assets/images/service/award-05.webp">
-              <source type="image/png" srcset="../assets/images/service/award-05.png">
-              <img loading="lazy" src="../assets/images/service/award-05.png" alt="Pixelcrayons"
-                width="107" height="43">
-            </picture>
+            
           </div>
         </div>
       </div>
@@ -76,7 +63,7 @@
         <div class="ecom-tabs margin-t-80">
           <div class="tab-row">
             <nav id="ecom-tabs" class="tab-nav">
-              <div class="tab-slider">
+              <div class="ecom-tab-slider">
                 <div class="tab-scroll glider-contain">
                   <div class="glider" id="glider">
                     <div class="tablist active" data-tab="#tab01"><a href="#tab01">
@@ -166,6 +153,9 @@
                       <li>Smooth checkout processes</li>
                       <li>Integration with essential retail tools</li>
                     </ul>
+                    <div class="know-more-link">
+                    <a href="#">Learn More</a>
+                  </div>
                   </div>
                   
                 </div>
@@ -929,16 +919,16 @@
       
       
       window.addEventListener("load", function() {
-                 document.querySelector(".tab-slider .glider").addEventListener("glider-slide-visible",
+                 document.querySelector(".ecom-tab-slider .glider").addEventListener("glider-slide-visible",
                  function(event) {
                  var glider = Glider(this);
                  });
-                 window._ = new Glider(document.querySelector(".tab-slider .glider"), {
-                     slidesToShow: 5,
-                     slidesToScroll: 5,
+                 window._ = new Glider(document.querySelector(".ecom-tab-slider .glider"), {
+                     slidesToShow: 4,
+                     slidesToScroll: 4,
                      draggable: true,
                      scrollLock: false,
-                     dots: ".tab-slider .dots",
+                     dots: ".ecom-tab-slider .dots",
                      dragDistance: false,
                      arrows: { 
                      prev: '.glider-prev',
@@ -971,7 +961,7 @@
                          {
                              breakpoint: 1400,
                              settings: {
-                                 slidesToShow: 5,
+                                 slidesToShow: 4,
                                  itemWidth: 150,
                                  duration: 3
                              }

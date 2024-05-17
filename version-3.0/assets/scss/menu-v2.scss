@@ -383,6 +383,15 @@ body {
               padding-left: 0;
             }
           }
+          .w-14 {
+            &.dm-industry-menu{
+              a {
+                padding-left: 50px;
+              }
+            }
+            
+          }
+
           .w-900 {
             a {
               padding-left: 0;
@@ -1553,6 +1562,12 @@ body {
                     margin-top: 0;
                   }
                 }
+              }
+            }
+
+            .w-14{
+              &.dm-industry-menu {
+                a{padding-left:0;}
               }
             }
 

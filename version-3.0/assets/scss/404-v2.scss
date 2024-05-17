@@ -111,37 +111,40 @@
   
         &:nth-child(1) {
           .title {
-            background-position: 0 -30px;
+            background-position: 0 2px;
           }
         }
   
         &:nth-child(2) {
           .title {
-            background-position: 0 -64px;
+            background-position: 0 -28px;
           }
         }
   
         &:nth-child(3) {
           .title {
-            background-position: 0 -100px;
+            background-position: 0 -64px;
+           
           }
         }
   
         &:nth-child(4) {
           .title {
-            background-position: 0 -132px;
+            background-position: 0 -201px;
           }
         }
   
         &:nth-child(5) {
+
           .title {
-            background-position: 0 -168px;
+            background-position: 0 -132px;
+            
           }
         }
         &:nth-child(6) {
           .title {
-            padding-left: 25px;
-            background-position: 0px -202px;
+            padding-left: 40px;
+            background-position: 0 -168px;
           }
         }
       }

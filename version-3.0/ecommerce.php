@@ -476,6 +476,13 @@
                       Ecommerce ERP</a>
                     </div>
                   </div>
+                  <div role="tablist" class="dots glider-dots"><button data-index="0" aria-label="Page 1" role="tab" class="glider-dot active"></button><button data-index="1" aria-label="Page 2" role="tab" class="glider-dot "></button></div>
+                  <div class="prev-next-btn">
+                        <button class="glider-prev" aria-disabled="false">
+                        </button>
+                        <button class="glider-next" aria-disabled="false">
+                        </button>
+                    </div>
                 </div>
               </div>
             </nav>

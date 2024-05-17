@@ -380,6 +380,19 @@
   }
 }
 
+.ecom-solution{
+  .ecom-tabs{
+    .bcontents{
+      .tab-contents{
+        .dis-flex {
+          .image-box{text-align: left; flex-basis: 35%;}
+          .content-box{flex-basis: 60%;}
+        }
+      }
+    }
+  }
+}   
+
 
 
 @media only screen and (max-width: 1600px) {
@@ -515,6 +528,18 @@
       }
       .box-3 {
         padding: 20px;
+      }
+    }
+  }
+  .ecom-solution{
+    .ecom-tabs{
+      .bcontents{
+        .tab-contents{
+          .dis-flex {
+            .image-box{flex-basis: 100%;}
+            .content-box{flex-basis:100%;}
+          }
+        }
       }
     }
   }

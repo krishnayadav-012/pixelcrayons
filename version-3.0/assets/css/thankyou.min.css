@@ -995,6 +995,8 @@ input:-webkit-autofill:active {
         background: #f6f8fb; }
       .header-two .menu ul li .menu-mega .w-14 a {
         padding-left: 0; }
+      .header-two .menu ul li .menu-mega .w-14.dm-industry-menu a {
+        padding-left: 50px; }
       .header-two .menu ul li .menu-mega .w-900 a {
         padding-left: 0; }
       .header-two .menu ul li .menu-mega .w-200 a {
@@ -1790,6 +1792,8 @@ input:-webkit-autofill:active {
               font-weight: normal; }
           .header-two .menu ul li .menu-mega .width-75 .width-50:last-child a:nth-of-type(1) {
             margin-top: 0; }
+          .header-two .menu ul li .menu-mega .w-14.dm-industry-menu a {
+            padding-left: 0; }
           .header-two .menu ul li .menu-mega ::-webkit-scrollbar {
             width: 6px;
             height: 85px;
