@@ -23,8 +23,9 @@
           <h3>Get Free SEO Audit Report Now!</h3>
           <div class="form-wrap">
             <form action="#">
-              <div class="form-group">
+              <div class="form-group verror">
                 <input type="text" id="website" name="website" class="input-icon" placeholder="website URL">
+                <small>Error Message</small>
               </div>
               <div class="form-group">
                 <input type="email" id="email" name="email" class="input-icon eicon" placeholder="Email">

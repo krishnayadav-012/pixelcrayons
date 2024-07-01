@@ -105,6 +105,22 @@
             color: $royelblue;
           }
         }
+        small {
+          display: none;
+        }
+        &.verror {
+          .input-icon {
+            border-color: red;
+          }
+          small {
+            color: red;
+            font-size: 11px;
+            margin: 7px 0 0;
+            display: block;
+          }
+
+          
+        }
       }
 
       button {

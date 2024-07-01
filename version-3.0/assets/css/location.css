@@ -4718,6 +4718,15 @@ input:-webkit-autofill:active {
           .hero-section .loc-form .form-wrap .form-group .audit-btn:hover {
             background: #ffffff;
             color: #016be3; }
+        .hero-section .loc-form .form-wrap .form-group small {
+          display: none; }
+        .hero-section .loc-form .form-wrap .form-group.verror .input-icon {
+          border-color: red; }
+        .hero-section .loc-form .form-wrap .form-group.verror small {
+          color: red;
+          font-size: 11px;
+          margin: 7px 0 0;
+          display: block; }
       .hero-section .loc-form .form-wrap button {
         background-color: #007bff;
         color: #fff;
