@@ -21,7 +21,7 @@
 	  left: 0;
 	  z-index: 9;
 	  color: #fff;
-	  font-family: 'RobotoSerif';
+	  font-family: "RobotoSerif";
 	  font-size: 98px;
 	  font-style: normal;
 	  font-weight: 800;
@@ -75,12 +75,13 @@
 	justify-content: flex-end !important;
 	padding: 25px;
 	background: linear-gradient(180deg, rgba(12, 20, 49, 0) 0%, #0c1431 100%);
-	transition: all 0 ease .3s;
+	transition: all 0 ease 0.3s;
   }
   
-
-  .tile-box:hover{background: linear-gradient(180deg,rgba(0,0,0,.32),rgba(0,0,0,.64));}
-
+  .tile-box:hover {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.64));
+  }
+  
   .tile-box:hover .tileHeadMain {
 	display: none;
   }
@@ -98,9 +99,13 @@
 	color: $white;
 	position: relative;
   }
-
-  .tile-box .tileHead a{color: $white;}
-  .tile-box .tileHead a:hover{color:$royelblue;}
+  
+  .tile-box .tileHead a {
+	color: $white;
+  }
+  .tile-box .tileHead a:hover {
+	color: $royelblue;
+  }
   
   .tile-box .tileHead:before,
   .tile-box .tileHeadMain:before {
@@ -117,16 +122,15 @@
 	bottom: 0;
 	visibility: visible;
   }
-
-
+  
   .tile-box.active .floatingTileInfo {
 	bottom: 0;
 	visibility: visible;
   }
-
- 
-
-  .tile-box.active .tileHeadMain{display:none;}
+  
+  .tile-box.active .tileHeadMain {
+	display: none;
+  }
   
   .floatingTileInfo {
 	padding: 10px;
@@ -141,10 +145,36 @@
 	line-height: 160%;
 	color: $white;
 	overflow: hidden;
-   display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
-    line-clamp: 2; 
-   -webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* number of lines to show */
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+  }
+  
+  .floatingTileInfo ul {
+	margin: 10px 0 30px;
+	li {
+	  margin: 0 0 8px;
+	  position: relative;
+	  padding-left: 22px;
+	  color: $white;
+	  a {
+		color: $white;
+		text-decoration: underline;
+		&:hover {
+		  text-decoration: none;
+		}
+	  }
+	  &:before {
+		content: "";
+		background: url(../images/check-white.svg) no-repeat;
+		width: 14px;
+		height: 14px;
+		position: absolute;
+		top: 6px;
+		left: 0;
+	  }
+	}
   }
   
   .tile-box .cta-box a {
@@ -258,8 +288,18 @@
   @media only screen and (max-width: 767px) {
 	.industry-section {
 	  min-height: 400px;
-	  .glider-prev{background-size: 100%; width: 20px; height: 20px; left:10px;}
-	  .glider-next{background-size: 100%; width: 20px; height: 20px; right:10px;}
+	  .glider-prev {
+		background-size: 100%;
+		width: 20px;
+		height: 20px;
+		left: 10px;
+	  }
+	  .glider-next {
+		background-size: 100%;
+		width: 20px;
+		height: 20px;
+		right: 10px;
+	  }
 	}
 	.industry-section .glider {
 	  background: linear-gradient(180deg, rgba(12, 20, 49, 0) 0%, #0c1431 100%);
@@ -272,6 +312,8 @@
 	  font-size: 60px;
 	  font-family: sans-serif;
 	}
-	.floatingTileInfo{padding:20px;}
+	.floatingTileInfo {
+	  padding: 20px;
+	}
   }
   

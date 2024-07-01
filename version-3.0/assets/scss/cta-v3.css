@@ -449,7 +449,13 @@
   .footer-form-section .form-quiz-group .refreshbtn {
     margin-left: 20px; }
   .footer-form-section .form-quiz-group .quizQ {
-    padding: 13px 20px; } }
+    padding: 13px 20px; }
+  .footer-form-section .form-quiz-group {
+    flex-basis: 64%; }
+  .footer-form-section .checkout {
+    flex-basis: 36%; }
+    .footer-form-section .checkout .checkout-submit {
+      padding: 12px 15px; } }
 @media screen and (max-width: 1200px) {
   .footer-form-section .right-box {
     padding-left: 0; }

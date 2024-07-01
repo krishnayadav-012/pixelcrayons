@@ -110,7 +110,7 @@
     &.is-flipped {transform: none;}
   }
 
-
+  .card.is-flipped .grid-front{display:none;}
 
   .grid-column:nth-child(1) {
     .scene {

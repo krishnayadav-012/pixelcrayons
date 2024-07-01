@@ -32,7 +32,7 @@
   agencies : For Agencies (Done)
   */
   $mcat       = (isset( $args['pcat']) && !empty($args['pcat']) ) ? $args['pcat'] : 'master';
-  $mcat       = 'digital-transformation';
+  $mcat       = 'digital-marketing';
   $pcatArray  = [
   'engineering'       => ['name' => 'Software Engineering', 'slug' => 'services/software-engineering', 'icon' => 'cat-icon01.svg'],
   'digital-marketing' => ['name' => 'Digital Marketing', 'slug' => 'services/digital-marketing', 'icon' => 'cat-icon02.svg'],
@@ -400,6 +400,34 @@
               <!-- //Mega-Menu -->
             </li>
             <!--Hire New Menu Start From Here-->
+            <!--Hire New Menu Start From Here-->
+            <?php 
+              if( $mcat == "digital-marketing" ){ ?>
+            <li class="menu-item-has-children">
+              <a href="<?php echo $site_url; ?>hire">Hire</a> <span class="arrow-btn"></span>
+              <div class="menu-mega container">
+                <div class="container  w-80 dm-smallmenu landing-menu" id="dm-hire">
+                  <div class="dis-flex">
+                    <div class="w-66">
+                      <div class="flex-3">
+                        <a href="<?php echo $site_url; ?>services/agencies/white-label-digital-marketing"><span class="title">Digital Marketing Experts</span>
+                        </a>
+                        <a href="<?php echo $site_url; ?>services/agencies/white-label-web-development"><span class="title">Search Engine Optimization Experts</span>
+                        </a>
+                        <a href="<?php echo $site_url; ?>services/agencies/white-label-app-development"><span class="title">Pay Per Click Experts</span>
+                        </a>
+                        <a href="<?php echo $site_url; ?>services/software-development-outsourcing"><span class="title">Social Media Experts</span>
+                       </a>
+                        <a href="<?php echo $site_url; ?>services/dedicated-teams"><span class="title">Content Writers</span>
+                       </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <?php }else{ 
+              ?>
             <li class="menu-item-has-children">
               <a href="<?php echo $site_url; ?>hire">Hire</a> <span class="arrow-btn"></span>
               <div class="menu-mega container" id="hire-megamenu">
@@ -546,6 +574,7 @@
                 </div>
               </div>
             </li>
+            <?php } ?>
             <!--Hire menu Ends from here-->
             <!--For Agencies Menu Start From Here-->
             <li class="menu-item-has-children">

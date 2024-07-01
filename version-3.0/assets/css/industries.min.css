@@ -1385,6 +1385,15 @@ input:-webkit-autofill:active {
     width: 400px;
     position: absolute;
     right: 10%; }
+    .header-two .landing-menu.w-80.dm-smallmenu {
+      width: 350px;
+      right: 20%; }
+      .header-two .landing-menu.w-80.dm-smallmenu .w-66 {
+        flex-basis: 100%; }
+        .header-two .landing-menu.w-80.dm-smallmenu .w-66 .flex-3 {
+          flex-basis: 100%; }
+          .header-two .landing-menu.w-80.dm-smallmenu .w-66 .flex-3 a {
+            padding: 0; }
     .header-two .landing-menu.w-80 .w-66 {
       flex-basis: 100%; }
       .header-two .landing-menu.w-80 .w-66 .flex-3 {
@@ -1476,7 +1485,9 @@ input:-webkit-autofill:active {
 
 @media only screen and (max-width: 1780px) {
   .header-two .landing-menu.w-70 {
-    right: 33%; } }
+    right: 33%; }
+  .header-two .landing-menu.w-80.dm-smallmenu {
+    right: 27%; } }
 @media only screen and (min-width: 1200px) {
   .header-two > .container {
     max-width: 1900px; } }
@@ -1492,6 +1503,8 @@ input:-webkit-autofill:active {
     right: 0%; }
   .header-two .menu ul li .landing-menu.industry-menu {
     width: 65%; }
+  .header-two .menu ul li .landing-menu.w-80.dm-smallmenu {
+    right: 20%; }
   .header-two .large {
     margin-top: -25px; }
   .header-two:hover {
@@ -2224,7 +2237,10 @@ input:-webkit-autofill:active {
 
   .header-two .menu ul li .menu-mega .w-14 .single-an a .title:hover {
     text-decoration: underline;
-    color: #fff; } }
+    color: #fff; }
+
+  .header-two .menu ul li .landing-menu.w-80.dm-smallmenu {
+    right: auto; } }
 .faq h2 {
   font-weight: 500; }
 .faq .faq-accordion-default {
@@ -3573,7 +3589,13 @@ b {
   .footer-form-section .form-quiz-group .refreshbtn {
     margin-left: 20px; }
   .footer-form-section .form-quiz-group .quizQ {
-    padding: 13px 20px; } }
+    padding: 13px 20px; }
+  .footer-form-section .form-quiz-group {
+    flex-basis: 64%; }
+  .footer-form-section .checkout {
+    flex-basis: 36%; }
+    .footer-form-section .checkout .checkout-submit {
+      padding: 12px 15px; } }
 @media screen and (max-width: 1200px) {
   .footer-form-section .right-box {
     padding-left: 0; }

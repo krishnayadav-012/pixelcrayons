@@ -613,6 +613,10 @@
         padding: 13px 20px;
       }
     }
+    .form-quiz-group{flex-basis: 64%;}
+    .checkout{flex-basis: 36%;
+      .checkout-submit{padding: 12px 15px;}
+    }
   }
 }
 
