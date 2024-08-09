@@ -78,6 +78,11 @@
     transform: translateX(-100%) rotateY(-180deg);
   }
 
+  .card.nocard.is-flipped {
+   .grid-front {display: flex;}
+   .grid-back{display:none;}
+  }
+
   .grid-face {
     position: absolute;
     width: 100%;

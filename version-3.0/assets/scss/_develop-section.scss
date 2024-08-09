@@ -76,6 +76,21 @@
       color: rgba(65, 65, 65, 1);
     }
   }
+  .dev-cards {
+    .card {
+      &.active{
+        flex-basis: 560px;
+      height: 350px;
+      .card-info {
+        opacity: 1;
+      }
+      .card-heading {
+        color: rgba(65, 65, 65, 1);
+      }
+      }
+      
+    }
+  }
 }
 
 @media only screen and (max-width: 1600px) {

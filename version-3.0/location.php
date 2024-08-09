@@ -487,7 +487,23 @@
       </div>
     </section>
     <?php require_once '../assets/include/testimonials.php'; ?>
-    <section class="marketing-proposal padding-t-60 padding-b-120">
+    <section class="map-section">
+      <div class="container">
+        <div class="dis-flex justify-sb">
+          <div class="map-sec"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.5384376996303!2d-0.1436794!3d51.5216834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad65ef3a8a7%3A0x9ae4a84f05c31c0e!2s5th%20Floor%2C%20167%20-%20169%20Great%20Portland%20St%2C%20London%20W1W%205PF%2C%20UK!5e0!3m2!1sen!2sin!4v1721107829852!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="map-desp">
+            <img loading="lazy" src="menu-images/logo-v2.svg" alt="Pixelcrayons" class="pixel-logo" width="169" height="61">
+            <p>Next-gen Digital Services</p>
+            <a class="phone" href="tel:+918882108080"><img loading="lazy" src="assets/images/phon-icon.svg" alt="Pixelcrayons" width="20" height="20">+91 888 210 8080
+            </a>
+            <p>11th Floor, Max Square, Noida-Greater <br> 
+              Noida Expy, Sector 129, Noida, Uttar Pradesh <br>201304
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="marketing-proposal padding-t-120 padding-b-120">
       <div class="container">
         <div class="heading text-center">
           <h2>Get My FREE Digital Marketing Proposal</h2>

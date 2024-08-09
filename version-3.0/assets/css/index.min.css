@@ -3461,7 +3461,11 @@ a {
     font-family: sans-serif; }
 
   .floatingTileInfo {
-    padding: 20px; } }
+    padding: 20px;
+    margin-bottom: 15px; }
+
+  .floatingTileInfo ul {
+    margin: 10px 0 20px; } }
 .full-width-two-column.padding-b-150 {
   padding-bottom: 0; }
 .full-width-two-column .dis-flex {

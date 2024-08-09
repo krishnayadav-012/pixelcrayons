@@ -2429,6 +2429,10 @@ input:-webkit-autofill:active {
     list-style-position: inside; }
 .digital-services .card.is-flipped {
   transform: translateX(-100%) rotateY(-180deg); }
+.digital-services .card.nocard.is-flipped .grid-front {
+  display: flex; }
+.digital-services .card.nocard.is-flipped .grid-back {
+  display: none; }
 .digital-services .grid-face {
   position: absolute;
   width: 100%;
@@ -3596,7 +3600,11 @@ a {
     font-family: sans-serif; }
 
   .floatingTileInfo {
-    padding: 20px; } }
+    padding: 20px;
+    margin-bottom: 15px; }
+
+  .floatingTileInfo ul {
+    margin: 10px 0 20px; } }
 .page-id-1051 .tools-developer .card .box-3 h3 {
   min-height: 30px; }
 
@@ -3772,7 +3780,8 @@ a {
     font-weight: 500; }
   .tab-scroll-section .tab-content table {
     border-collapse: collapse;
-    margin-top: 40px; }
+    margin: 40px 0;
+    width: 100%; }
     .tab-scroll-section .tab-content table td {
       padding: 11px;
       font-size: 16px;
@@ -4539,7 +4548,7 @@ b {
           font-size: 20px;
           color: rgba(65, 65, 65, 0.8);
           font-weight: 500;
-          padding: 0 5px 12px;
+          padding: 0 5px 15px;
           position: relative;
           display: inline-block; }
           .ecom-solution .ecom-tabs .tab-nav .tab-scroll .tablist a:after {
@@ -4760,7 +4769,10 @@ b {
     .ecom-plateform .plateform-tabs .tab-nav ul li {
       margin: 0 20px 0 0; }
       .ecom-plateform .plateform-tabs .tab-nav ul li a {
-        font-size: 18px; } }
+        font-size: 18px; }
+
+  .ecom-solution .ecom-tabs .tab-nav .tab-scroll .tablist a {
+    font-size: 17px; } }
 @media (max-width: 1024px) {
   .ecom-plateform {
     background: #fff; }
@@ -4914,6 +4926,13 @@ b {
   .develop-section .dev-cards .card[active] .card-info {
     opacity: 1; }
   .develop-section .dev-cards .card[active] .card-heading {
+    color: #414141; }
+.develop-section .dev-cards .card.active {
+  flex-basis: 560px;
+  height: 350px; }
+  .develop-section .dev-cards .card.active .card-info {
+    opacity: 1; }
+  .develop-section .dev-cards .card.active .card-heading {
     color: #414141; }
 
 @media screen and (max-width: 767px) {

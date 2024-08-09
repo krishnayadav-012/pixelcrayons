@@ -2753,7 +2753,8 @@ input:-webkit-autofill:active {
     font-weight: 500; }
   .tab-scroll-section .tab-content table {
     border-collapse: collapse;
-    margin-top: 40px; }
+    margin: 40px 0;
+    width: 100%; }
     .tab-scroll-section .tab-content table td {
       padding: 11px;
       font-size: 16px;
