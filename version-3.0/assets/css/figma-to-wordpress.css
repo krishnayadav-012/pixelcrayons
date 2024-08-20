@@ -5275,42 +5275,6 @@ b {
   left: 0;
   z-index: -9; }
 
-.ecomsol .flex-2 {
-  padding: 0 10px;
-  margin: 20px 0 0; }
-  .ecomsol .flex-2 .box-3 {
-    background: #ffffff;
-    border: 1px solid #efefef;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center; }
-    .ecomsol .flex-2 .box-3 .imgsc {
-      flex-basis: 35%; }
-      .ecomsol .flex-2 .box-3 .imgsc img {
-        display: block; }
-    .ecomsol .flex-2 .box-3 .contsc {
-      flex-basis: 60%; }
-      .ecomsol .flex-2 .box-3 .contsc h3,
-      .ecomsol .flex-2 .box-3 .contsc p {
-        margin: 0 0 20px; }
-      .ecomsol .flex-2 .box-3 .contsc ul li {
-        line-height: 22px;
-        margin-bottom: 10px;
-        opacity: 0.9;
-        padding-left: 20px;
-        position: relative; }
-        .ecomsol .flex-2 .box-3 .contsc ul li:before {
-          content: "";
-          width: 9px;
-          height: 9px;
-          background: #016be3;
-          position: absolute;
-          left: 0;
-          border-radius: 50%;
-          top: 5px; }
-
 .develop-section {
   margin-bottom: 40px; }
 
@@ -5331,9 +5295,6 @@ b {
           font-size: 18px; }
         .banner-section .banner-wrap .right-sec .hero-card .video-sec .clb {
           font-size: 16px; } }
-@media only screen and (max-width: 1024px) {
-  .ecomsol .flex-2 {
-    flex-basis: 100%; } }
 @media only screen and (max-width: 1366px) {
   .banner-section .banner-wrap .left-sec .breadcrumbs {
     margin: 0 0 20px; }
@@ -5436,58 +5397,6 @@ b {
       .devs-team .threebox .flex-4 .box-3 ul {
         margin: 0 0 15px; }
       .devs-team .threebox .flex-4 .box-3 picture {
-        justify-content: center; }
-
-  .ecomsol .flex-2 .box-3 .imgsc {
-    flex-basis: 100%; }
-    .ecomsol .flex-2 .box-3 .imgsc img {
-      border-radius: 5px;
-      width: 100%; }
-  .ecomsol .flex-2 .box-3 .contsc {
-    padding: 20px;
-    flex-basis: 100%; }
-    .ecomsol .flex-2 .box-3 .contsc h3,
-    .ecomsol .flex-2 .box-3 .contsc p {
-      margin: 0 0 15px; } }
-@media screen and (max-width: 479px) {
-  .banner-section {
-    background-size: 0;
-    background-color: #04237f; }
-    .banner-section .banner-wrap .left-sec .breadcrumbs {
-      margin: 0 0 20px; }
-    .banner-section .banner-wrap .left-sec .badges {
-      margin: 0 0 20px; }
-    .banner-section .banner-wrap .left-sec .banner-content h1 {
-      margin: 0 0 20px; }
-    .banner-section .banner-wrap .left-sec .banner-form {
-      flex-wrap: wrap; }
-      .banner-section .banner-wrap .left-sec .banner-form .input-field {
-        flex-basis: 100%;
-        padding: 0 20px;
-        height: 50px; }
-      .banner-section .banner-wrap .left-sec .banner-form .submit-btn {
-        flex-basis: 100%;
-        height: 50px;
-        font-size: 16px;
-        line-height: 22px;
-        padding: 0 20px;
-        margin: 15px 0 0; }
-    .banner-section .banner-wrap .right-sec .flip-section {
-      gap: 5px; }
-    .banner-section .banner-wrap .right-sec .flip-card {
-      width: 160px;
-      height: 160px; }
-      .banner-section .banner-wrap .right-sec .flip-card.flip-card-two {
-        width: 180px;
-        height: 180px; }
-      .banner-section .banner-wrap .right-sec .flip-card .flip-card-back .title {
-        margin: 0 0 10px;
-        padding-top: 15px;
-        line-height: 1.3; }
-    .banner-section .banner-wrap .right-sec .flip-round .value {
-      font-size: 30px; }
-    .banner-section .banner-wrap .right-sec .flip-round .desc {
-      font-size: 10px;
-      line-height: 12px; } }
+        justify-content: center; } }
 
 /*# sourceMappingURL=figma-to-wordpress.css.map */

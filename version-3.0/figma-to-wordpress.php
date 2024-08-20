@@ -514,7 +514,7 @@
         </div>
         <div class="table-wrap">
           <div class="dis-flex col-box-outer margin-t-100">
-            <div class="flex-5 table-list">
+            <div class="flex-4 table-list">
               <ul>
                 <li class="title clr-white">Feature/Metric</li>
                 <li class="opacity-0 more-txt">
@@ -527,7 +527,7 @@
                 <li class="more-spc">Need more information?<br><a href="https://www.pixelcrayons.com/contact-us" class="ts">Talk to Sales</a></li>
               </ul>
             </div>
-            <div class="flex-5 table-list">
+            <div class="flex-4 table-list">
               <ul>
                 <li class="title">Growth Sprout</li>
                 <li class="more-txt">Ideal for building a digital presence and generating initial leads.</li>
@@ -538,7 +538,7 @@
                 <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
               </ul>
             </div>
-            <div class="flex-5 table-list">
+            <div class="flex-4 table-list">
               <ul>
                 <li class="title clr-white">Targeted Expansion</li>
                 <li class="more-txt">Expands your reach and refines targeting for better lead quality.</li>
@@ -549,18 +549,8 @@
                 <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
               </ul>
             </div>
-            <div class="flex-5 table-list">
-              <ul>
-                <li class="title clr-white">Peak Performance</li>
-                <li class="more-txt">Maximizes campaign efficiency and ROI with advanced tools for market penetration.</li>
-                <li>Minimum $2200/month or 10% of overall spend)</li>
-                <li>3+</li>
-                <li>Weekly</li>
-                <li>Advanced Targeting & Market Trends</li>
-                <li class="more-spc"><a href="https://www.pixelcrayons.com/contact-us" class="gtstart">Get Started</a></li>
-              </ul>
-            </div>
-            <div class="flex-5 table-list">
+           
+            <div class="flex-4 table-list">
               <ul>
                 <li class="title clr-white">Bespoke Strategy</li>
                 <li class="more-txt">Elite, fully customized service for market leaders and ambitious businesses.</li>
