@@ -118,12 +118,12 @@
           position: relative;
 
           img {
-            height: 178px;
+            height: 130px;
             position: absolute;
             left: 0;
             right: 0;
             margin: 0 auto;
-            top: -59px;
+            top: -60px;
           }
         }
 
@@ -260,6 +260,9 @@
                   position: relative;
                   margin: 10px 0 0;
                   text-align: left;
+                  &.active {
+                    padding: 40px 0 0;
+                  }
                 }
 
                 .loader {
@@ -335,6 +338,7 @@
             flex-wrap: wrap;
             padding: 20px 25px;
             justify-content: center;
+            width: 100%;
 
             .btn-div {
               .white-btn {
@@ -703,6 +707,8 @@
   }
 }
 
+.integration-banner .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer .user-input.verror .input-field{border-color:red;}
+
 @media (max-width: 1780px) {
   .integration-banner {
     .dis-flex {
@@ -757,13 +763,6 @@
         }
 
         .form-wrap {
-          .top-sec {
-            height: 60px;
-            img {
-              height: 150px;
-              top: -48px;
-            }
-          }
           .mid-sec {
             .head-sec {
               padding: 12px 20px 0;
@@ -825,6 +824,20 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .integration-banner {
+    .dis-flex {
+      .left-sec {
+        .banner-content {
+          h1 {
+            font-size: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1080px) {
   .integration-banner {
     padding: 100px 0;
@@ -870,28 +883,24 @@
 @media (max-width: 991px) {
   .integration-banner {
     padding: 90px 0 60px;
-    .breadcrumbs {
-      top: 50px;
-    }
+
     .dis-flex {
-      padding: 60px 0 0;
-      .hire-content {
-        width: 100%;
-        h1 {
-          margin: 0 0 15px;
+      .left-sec {
+        flex-basis: 100%;
+
+        .banner-content {
+          width: 100%;
+          h1 {
+            margin: 0 0 15px;
+            font-size: 50px;
+          }
         }
       }
+
       .hire-form {
         flex-basis: 100%;
         margin-top: 70px;
         .form-wrap {
-          .top-sec {
-            height: 80px;
-            img {
-              height: 140px;
-              top: -60px;
-            }
-          }
           .mid-sec {
             .head-sec {
               padding: 15px 20px 0;
@@ -943,12 +952,10 @@
   .integration-banner {
     padding-bottom: 40px;
     padding-top: 80px;
-    .breadcrumbs {
-      top: 60px;
-    }
+
     .dis-flex {
       padding: 70px 0 0;
-      .hire-content {
+      .banner-content {
         p {
           margin: 0 0 15px;
           font-size: 16px;
@@ -1079,4 +1086,10 @@
       }
     }
   }
+  .popup-wrapper .popup-content .banner-form-section .form-head-cont{padding:0;}
+  .integration-banner .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .form-textarea .user-input{height: 130px !important;}
 }
+
+
+
+

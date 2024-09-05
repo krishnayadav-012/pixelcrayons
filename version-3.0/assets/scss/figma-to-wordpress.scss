@@ -17,85 +17,6 @@
   padding-bottom: 0;
 }
 
-.banner-section {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  align-items: center;
-  position: relative;
-  display: flex;
-  display: -webkit-flex;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
-
-  .banner-wrap {
-    position: relative;
-    z-index: 9;
-
-    .left-sec {
-      flex-basis: 50%;
-
-      .breadcrumbs {
-        position: initial;
-        font-weight: 400;
-        margin: 0 0 30px;
-      }
-
-      .badges {
-        margin: 0 0 20px;
-      }
-
-      .banner-content {
-        h1 {
-          font-size: 60px;
-          color: $white;
-          margin: 0 0 30px;
-        }
-        p {
-          color: $white;
-          font-size: 18px;
-          margin: 0 0 15px;
-          line-height: 29px;
-        }
-      }
-      .rqst-btn {
-        .white-btn {
-          background: $white;
-          color: $royelblue;
-          border-color: $white;
-          font-weight: 500;
-          &:hover {
-            background: $royelblue;
-            color: $white;
-            border-color: $royelblue;
-          }
-        }
-      }
-    }
-
-    .right-sec {
-      flex-basis: 31%;
-      width: 31%;
-      padding: 70px 0 0;
-      position: relative;
-    }
-  }
-  .glider-dots {
-    position: absolute;
-    bottom: 84px;
-    right: 0;
-    left: 0;
-    .glider-dot {
-      border: 2px solid rgba(255, 255, 255, 0.26);
-      background: transparent;
-      &.active {
-        background: $white;
-      }
-    }
-  }
-}
-
 .services-three-column-section {
   counter-reset: section;
 
@@ -218,12 +139,12 @@
 
 .devs-team {
   counter-reset: section;
-
+  .heading {padding:0 20px;}
   .threebox {
     .flex-3 {
       .box-3 {
         height: 100%;
-        padding: 30px;
+        padding: 30px 30px 0;
         transition: all 0.3s ease-in-out;
         background: linear-gradient(
           rgba(1, 107, 227, 0.12),
@@ -268,9 +189,11 @@
         picture {
           display: flex;
           width: 100%;
-          justify-content: left;
+          justify-content: center;
+          margin-top: 40px; 
           img {
             transition: 0.3s ease-in-out;
+            margin-bottom: -14px;
           }
         }
 
@@ -333,10 +256,15 @@
       padding: 20px;
       border: 1px solid rgba(1, 107, 227, 0.14);
       border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      
+      .ic-none{display:block; margin:0 auto;}
+      .ic-hover{display:none; margin:0 auto;}
 
       img {
         margin: 0 auto 15px;
-        display: block;
       }
       .step {
         display: block;
@@ -396,6 +324,9 @@
       .box {
         border: 2px solid $royelblue;
         cursor: pointer;
+
+      .ic-none{display:none;}
+      .ic-hover{display:block;}
       }
       &:before {
         background: $royelblue;
@@ -419,69 +350,31 @@
   z-index: -9;
 }
 
-
-
 .develop-section {
   margin-bottom: 40px;
 }
 
+.popup-wrapper .popup-content .banner-form-section .verror small {
+  text-align: left !important;
+}
+.popup-wrapper
+  .popup-content
+  .banner-form-section
+  .form-head-cont.form-textarea
+  .verror
+  small {
+  margin: 0 0 5px;
+}
+
 @media only screen and (max-width: 1600px) {
-  .banner-section {
-    .glider-dots {
-      bottom: 75px;
-    }
-    .service-bottom-section {
-      margin-top: 50px;
-    }
-  }
 }
 
 @media only screen and (max-width: 1320px) {
-  .banner-section {
-    min-height: 600px;
-    .banner-wrap {
-      .right-sec {
-        flex-basis: 33%;
-        width: 33%;
-        .hero-card {
-          .video-sec {
-            padding: 20px;
-            h3 {
-              font-size: 18px;
-            }
-            .clb {
-              font-size: 16px;
-            }
-          }
-        }
-      }
-    }
-  }
 }
 @media only screen and (max-width: 1024px) {
- 
 }
 
 @media only screen and (max-width: 1366px) {
-  .banner-section {
-    .banner-wrap {
-      .left-sec {
-        .breadcrumbs {
-          margin: 0 0 20px;
-        }
-
-        .banner-content {
-          h1 {
-            font-size: 50px;
-          }
-          p {
-            font-size: 16px;
-            line-height: 26px;
-          }
-        }
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -491,87 +384,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  .banner-section {
-    width: 100%;
-    min-height: initial;
-    background-size: 0;
-    background-color: #05247e;
-    padding-top: 130px;
-    .banner-wrap {
-      .left-sec {
-        flex-basis: 100%;
-        text-align: center;
-        .breadcrumbs {
-          margin: 0 0 20px;
-          text-align: center;
-        }
-
-        .banner-content {
-          h1 {
-            font-size: 50px;
-            margin: 0 0 20px;
-          }
-          p {
-            font-size: 16px;
-            margin: 0 0 15px;
-            line-height: 29px;
-          }
-        }
-        .rqst-btn {
-        }
-      }
-
-      .right-sec {
-        flex-basis: 100%;
-        width: 100%;
-        padding: 50px 0 0;
-
-        .hero-card {
-          width: 100%;
-          background: $white;
-          border-radius: 15px;
-          .video-sec {
-            padding: 20px;
-          }
-
-          .ratings {
-            display: flex;
-            flex-direction: column;
-            border-radius: 0 0 15px 15px;
-            padding: 15px 0;
-            background: rgba(252, 246, 233, 1);
-            align-items: center;
-            gap: 10px;
-            .rating {
-              display: flex;
-              align-items: center;
-              img {
-                margin-right: 10px;
-              }
-              span {
-                color: rgba(19, 30, 41, 0.8);
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 130%;
-              }
-            }
-          }
-        }
-
-        .badges {
-          margin: 60px 0 0;
-        }
-      }
-    }
-    .service-bottom-section {
-      margin-top: 35px;
-      .rqst-btn {
-        margin: 0 auto;
-      }
-    }
-  }
-
   .services-three-column-section {
     .threebox {
       .box-3 {
@@ -623,14 +435,13 @@
     counter-reset: section;
 
     .threebox {
-      .flex-4 {
+      .flex-3 {
         .box-3 {
           padding: 20px;
-          text-align: center;
+          
           p {
             margin: 0 0 15px;
           }
-
           h3 {
             margin: 0 0 15px;
           }
@@ -640,16 +451,42 @@
           }
           picture {
             justify-content: center;
+            margin:0;
+            img{margin-bottom:0;}
           }
         }
       }
     }
   }
 
-  
-  
+  .step-icon-img-section {
+    .desktop {
+      display: none;
+    }
+    .col-box-outer {
+      margin-top: 20px;
+    }
+    .flex-7 {
+      flex-basis: 50%;
+      margin-bottom: 40px;
+      &:before {
+        width: 25px;
+        height: 25px;
+        top: -15px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+      &:after {
+        display: none;
+      }
+      &:last-child {
+        flex-basis: 100%;
+        margin: 0;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 479px) {
-  
 }

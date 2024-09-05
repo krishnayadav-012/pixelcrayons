@@ -995,6 +995,8 @@ input:-webkit-autofill:active {
         background: #f6f8fb; }
       .header-two .menu ul li .menu-mega .w-14 a {
         padding-left: 0; }
+      .header-two .menu ul li .menu-mega .w-14.dm-industry-menu a {
+        padding-left: 50px; }
       .header-two .menu ul li .menu-mega .w-900 a {
         padding-left: 0; }
       .header-two .menu ul li .menu-mega .w-200 a {
@@ -1383,6 +1385,15 @@ input:-webkit-autofill:active {
     width: 400px;
     position: absolute;
     right: 10%; }
+    .header-two .landing-menu.w-80.dm-smallmenu {
+      width: 350px;
+      right: 20%; }
+      .header-two .landing-menu.w-80.dm-smallmenu .w-66 {
+        flex-basis: 100%; }
+        .header-two .landing-menu.w-80.dm-smallmenu .w-66 .flex-3 {
+          flex-basis: 100%; }
+          .header-two .landing-menu.w-80.dm-smallmenu .w-66 .flex-3 a {
+            padding: 0; }
     .header-two .landing-menu.w-80 .w-66 {
       flex-basis: 100%; }
       .header-two .landing-menu.w-80 .w-66 .flex-3 {
@@ -1474,7 +1485,9 @@ input:-webkit-autofill:active {
 
 @media only screen and (max-width: 1780px) {
   .header-two .landing-menu.w-70 {
-    right: 33%; } }
+    right: 33%; }
+  .header-two .landing-menu.w-80.dm-smallmenu {
+    right: 27%; } }
 @media only screen and (min-width: 1200px) {
   .header-two > .container {
     max-width: 1900px; } }
@@ -1490,6 +1503,8 @@ input:-webkit-autofill:active {
     right: 0%; }
   .header-two .menu ul li .landing-menu.industry-menu {
     width: 65%; }
+  .header-two .menu ul li .landing-menu.w-80.dm-smallmenu {
+    right: 20%; }
   .header-two .large {
     margin-top: -25px; }
   .header-two:hover {
@@ -1790,6 +1805,8 @@ input:-webkit-autofill:active {
               font-weight: normal; }
           .header-two .menu ul li .menu-mega .width-75 .width-50:last-child a:nth-of-type(1) {
             margin-top: 0; }
+          .header-two .menu ul li .menu-mega .w-14.dm-industry-menu a {
+            padding-left: 0; }
           .header-two .menu ul li .menu-mega ::-webkit-scrollbar {
             width: 6px;
             height: 85px;
@@ -2220,7 +2237,10 @@ input:-webkit-autofill:active {
 
   .header-two .menu ul li .menu-mega .w-14 .single-an a .title:hover {
     text-decoration: underline;
-    color: #fff; } }
+    color: #fff; }
+
+  .header-two .menu ul li .landing-menu.w-80.dm-smallmenu {
+    right: auto; } }
 .client-logo-box-section {
   padding: 20px 0 54px;
   margin-top: 70px; }
@@ -3375,7 +3395,13 @@ input:-webkit-autofill:active {
   .footer-form-section .form-quiz-group .refreshbtn {
     margin-left: 20px; }
   .footer-form-section .form-quiz-group .quizQ {
-    padding: 13px 20px; } }
+    padding: 13px 20px; }
+  .footer-form-section .form-quiz-group {
+    flex-basis: 64%; }
+  .footer-form-section .checkout {
+    flex-basis: 36%; }
+    .footer-form-section .checkout .checkout-submit {
+      padding: 12px 15px; } }
 @media screen and (max-width: 1200px) {
   .footer-form-section .right-box {
     padding-left: 0; }
@@ -4544,18 +4570,18 @@ input:-webkit-autofill:active {
     .error-img-section .form-footer .flex-3:nth-child(1) a span {
       color: #253053; }
     .error-img-section .form-footer .flex-3:nth-child(1) .title {
-      background-position: 0 -30px; }
+      background-position: 0 2px; }
     .error-img-section .form-footer .flex-3:nth-child(2) .title {
-      background-position: 0 -64px; }
+      background-position: 0 -28px; }
     .error-img-section .form-footer .flex-3:nth-child(3) .title {
-      background-position: 0 -100px; }
+      background-position: 0 -64px; }
     .error-img-section .form-footer .flex-3:nth-child(4) .title {
-      background-position: 0 -132px; }
+      background-position: 0 -201px; }
     .error-img-section .form-footer .flex-3:nth-child(5) .title {
-      background-position: 0 -168px; }
+      background-position: 0 -132px; }
     .error-img-section .form-footer .flex-3:nth-child(6) .title {
-      padding-left: 25px;
-      background-position: 0px -202px; }
+      padding-left: 40px;
+      background-position: 0 -168px; }
 
 .error-img-section .content-img-box {
   background-color: #fff;
