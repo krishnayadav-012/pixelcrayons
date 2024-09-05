@@ -327,7 +327,7 @@
                     <div id="mnu-hire" class="dis-flex tab-contents">
                       <div class="left-tabs">
                         <ul class="tab-nav">
-                        <li class="tab-link is-active"><a href="#">Backend</a></li>
+                          <li class="tab-link is-active"><a href="#">Backend</a></li>
                           <li class="tab-link"><a href="#">Frontend</a></li>
                           <li class="tab-link"><a href="#">Digital Marketing</a></li>
                           <li class="tab-link"><a href="#">eCommerce & CMS</a></li>
@@ -357,7 +357,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">Frontend</span>
@@ -377,7 +376,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">Digital Marketing</span>
@@ -397,7 +395,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">eCommerce & CMS</span>
@@ -417,7 +414,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">Mobile</span>
@@ -437,7 +433,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">DevOps</span>
@@ -457,7 +452,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">QA & Testing</span>
@@ -477,7 +471,6 @@
                             </div>
                           </div>
                         </div>
-
                         <div class="tab-content">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">Full Stack & Frameworks</span>
@@ -497,8 +490,6 @@
                             </div>
                           </div>
                         </div>
-
-                     
                       </div>
                     </div>
                   </div>
@@ -518,41 +509,44 @@
             </li>
             <li class="menu-item-has-children">
               <a href="#">Industries</a> <span class="arrow-btn"></span>
-              <div class="menu-mega small-menu indus-menu">
-               <div class="dis-flex">
-               <div class="flex-2">
-                      <a href="<?php echo $site_url; ?>industries/bfsi"><img src="./assets/header-images/indus-01.svg" class="menuicon" alt="menuicon"><span class="title">BFSI</span>
-                      Secure & reliable finance solutions</a>
-                      <a href="<?php echo $site_url; ?>industries/fintech"><img src="./assets/header-images/indus-02.svg" class="menuicon" alt="menuicon"><span class="title">Fintech</span>
-                      Tech-forward financial solutions</a> 
-                      <a href="<?php echo $site_url; ?>industries/hi-tech"><img src="./assets/header-images/indus-03.svg" class="menuicon" alt="menuicon"><span class="title">Software & Tech</span>
-                      Innovate, develop & excel</a>
-                      <a href="<?php echo $site_url; ?>industries/retail"><img src="./assets/header-images/indus-04.svg" class="menuicon" alt="menuicon"><span class="title">Retail & eCommerce</span>
-                      Revolutionize retail experiences</a>
-                      <a href="<?php echo $site_url; ?>industries/travel-hospitality"><img src="./assets/header-images/indus-05.svg" class="menuicon" alt="menuicon"><span class="title">Travel & Hospitality</span>
-                      Reimagine travel & hospitality</a>
-                    </div>
-                    <div class="flex-2">
-                      <a href="<?php echo $site_url; ?>industries/edtech"><img src="./assets/header-images/indus-06.svg" class="menuicon" alt="menuicon"><span class="title">Education & eLearning</span>
-                      Redefine digital learning</a>
-                      <a href="<?php echo $site_url; ?>industries/logistics"><img src="./assets/header-images/indus-07.svg" class="menuicon" alt="menuicon"><span class="title">Logistics & Supply Chain</span>
-                      Simplify logistics & supply with tech</a> 
-                      <a href="<?php echo $site_url; ?>industries/healthcare"><img src="./assets/header-images/indus-08.svg" class="menuicon" alt="menuicon"><span class="title">Healthcare & Life Sciences</span>
-                      Innovative healthcare solutions</a>
-                      <a href="<?php echo $site_url; ?>industries/manufacturing"><img src="./assets/header-images/indus-09.svg" class="menuicon" alt="menuicon"><span class="title">Manufacturing & Engineering</span>
-                      Engineering future with advanced tech</a>
-                    </div>
-               </div>
+              <div class="menu-mega indus-menu">
+                <div class="dis-flex">
+                  <div class="flex-2">
+                    <a href="<?php echo $site_url; ?>industries/bfsi"><img src="./assets/header-images/indus-01.svg" class="menuicon" alt="menuicon"><span class="title">BFSI</span>
+                    Secure & reliable finance solutions</a>
+                    <a href="<?php echo $site_url; ?>industries/fintech"><img src="./assets/header-images/indus-02.svg" class="menuicon" alt="menuicon"><span class="title">Fintech</span>
+                    Tech-forward financial solutions</a> 
+                    <a href="<?php echo $site_url; ?>industries/hi-tech"><img src="./assets/header-images/indus-03.svg" class="menuicon" alt="menuicon"><span class="title">Software & Tech</span>
+                    Innovate, develop & excel</a>
+                    <a href="<?php echo $site_url; ?>industries/retail"><img src="./assets/header-images/indus-04.svg" class="menuicon" alt="menuicon"><span class="title">Retail & eCommerce</span>
+                    Revolutionize retail experiences</a>
+                    <a href="<?php echo $site_url; ?>industries/travel-hospitality"><img src="./assets/header-images/indus-05.svg" class="menuicon" alt="menuicon"><span class="title">Travel & Hospitality</span>
+                    Reimagine travel & hospitality</a>
+                  </div>
+                  <div class="flex-2">
+                    <a href="<?php echo $site_url; ?>industries/edtech"><img src="./assets/header-images/indus-06.svg" class="menuicon" alt="menuicon"><span class="title">Education & eLearning</span>
+                    Redefine digital learning</a>
+                    <a href="<?php echo $site_url; ?>industries/logistics"><img src="./assets/header-images/indus-07.svg" class="menuicon" alt="menuicon"><span class="title">Logistics & Supply Chain</span>
+                    Simplify logistics & supply with tech</a> 
+                    <a href="<?php echo $site_url; ?>industries/healthcare"><img src="./assets/header-images/indus-08.svg" class="menuicon" alt="menuicon"><span class="title">Healthcare & Life Sciences</span>
+                    Innovative healthcare solutions</a>
+                    <a href="<?php echo $site_url; ?>industries/manufacturing"><img src="./assets/header-images/indus-09.svg" class="menuicon" alt="menuicon"><span class="title">Manufacturing & Engineering</span>
+                    Engineering future with advanced tech</a>
+                  </div>
+                </div>
               </div>
             </li>
             <li class="menu-item-has-children">
               <a href="#">Company</a> <span class="arrow-btn"></span>
-              <div class="menu-mega small-menu">
-                <a href="<?php echo $site_url; ?>about"><img loading="lazy" src="./assets/header-images/comp-01.svg" class="menuicon" alt="menuicon">Overview</a>
-                <a href="<?php echo $site_url; ?>in-media"><img loading="lazy" src="./assets/header-images/comp-02.svg" class="menuicon" alt="menuicon">In Media</a>
-                <a href="<?php echo $site_url; ?>testimonials"><img loading="lazy" src="./assets/header-images/comp-03.svg" class="menuicon" alt="menuicon">Clients & Testimonials</a>
-                <a href="<?php echo $site_url; ?>careers"><img loading="lazy" src="./assets/header-images/comp-04.svg" class="menuicon" alt="menuicon">Careers</a>
-                <a href="https://www.Pixelcrayons.com/blog/" target="_blank"><img loading="lazy" src="./assets/header-images/comp-05.svg" class="menuicon" alt="menuicon">Blog</a>
+              <div class="menu-mega small-menu company-menu">
+                <a href="<?php echo $site_url; ?>company/about"><img src="./assets/header-images/company-icon01.svg" class="menuicon" alt="menuicon">About Us</a>
+                <a href="<?php echo $site_url; ?>company/our-team"><img src="./assets/header-images/company-icon02.svg" class="menuicon" alt="menuicon">Team</a>
+                <a href="<?php echo $site_url; ?>in-media"><img src="./assets/header-images/inmedia-icon.svg" class="menuicon" alt="menuicon">In Media</a>
+                <a href="<?php echo $site_url; ?>testimonials"><img src="./assets/header-images/company-icon03.svg" class="menuicon" alt="menuicon">Clients & Testimonials</a>
+                <a href="<?php echo $site_url; ?>company/partnership-programme"><img src="./assets/header-images/company-icon04.svg" class="menuicon" alt="menuicon">Partnership Programme</a>
+                <a href="<?php echo $site_url; ?>careers"><img src="./assets/header-images/company-icon05.svg" class="menuicon" alt="menuicon">Careers & Culture</a>
+                <a href="https://www.pixelcrayons.com/blog/" target="_blank"><img src="./assets/header-images/company-icon06.svg" class="menuicon" alt="menuicon">Blog</a>
+                <a href="https://www.pixelcrayons.com/case-study/" target="_blank"><img src="./assets/header-images/company-icon07.svg" class="menuicon" alt="menuicon">Case studies</a>
               </div>
             </li>
             <li class="cta-wrap small-reso">
