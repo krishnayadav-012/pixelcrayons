@@ -33,6 +33,7 @@
   display: -webkit-flex;
   background-repeat: no-repeat;
   min-height: 100vh;
+  padding: 150px 0;
 
   &:after {
     width: 100%;
@@ -603,6 +604,7 @@
   .banner-section {
     width: 100%;
     min-height: initial;
+    padding:150px 0 50px;
 
     .banner-wrap {
       .left-sec {

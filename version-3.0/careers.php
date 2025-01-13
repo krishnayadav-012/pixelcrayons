@@ -14,7 +14,7 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/company.min.css" as="style" />
   </head>
   <body id="themeAdd">
-    <?php require_once 'assets/include/menu-v2nb.php'; ?>
+  <?php require_once 'assets/include/menu-v4.php'; ?>
     <!-- Banner section -->
     <section class="banner-main career-top-section padding-t-120 padding-b-120 ">
       <div class="container">
@@ -35,7 +35,7 @@
       </div>
     </section>
     <!-- Clients logo section -->
-    <?php require_once 'assets/include/awards.php'; ?>
+    <?php require_once 'assets/include/client-logo.php'; ?>
     <!-- -----------3 column section  -->
     <section class="why-choose-three-column-section why-pixel-three-column-section padding-t-120 padding-b-120">
       <div class="container">

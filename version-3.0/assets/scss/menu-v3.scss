@@ -97,7 +97,7 @@ $scrollbar-thumb-border-radius: 20px;
               &.active {
                 &:after {
                   content: "";
-                  background: #ffad00;
+                  background: $royalBl;
                   width: 100%;
                   height: 3px;
                   position: absolute;
@@ -161,10 +161,13 @@ $scrollbar-thumb-border-radius: 20px;
               }
             }
             &.indus-menu {
-              width: 54%;
-              left: 20%;
+              width: 790px;
+              left: 29%;
               border-radius: 15px;
               overflow: hidden;
+              &.ind-full {
+                width: 1200px;
+              }
               a {
                 font-weight: 400 !important;
                 font-size: 14px;
@@ -192,7 +195,8 @@ $scrollbar-thumb-border-radius: 20px;
                   background: #eff6ff;
                 }
               }
-              .flex-2 {
+              .flex-2,
+              .flex-3 {
                 padding: 25px;
                 &:last-child {
                   background: #f8f8fb;
@@ -298,7 +302,7 @@ $scrollbar-thumb-border-radius: 20px;
                         .title {
                           font-size: $font16;
                           line-height: 22px;
-                          color:$darkcolor;
+                          color: $darkcolor;
                         }
 
                         .menuicon {
@@ -394,7 +398,7 @@ $scrollbar-thumb-border-radius: 20px;
                         }
                       }
                       &.view-more {
-                        color: #ffad00;
+                        color: $royalBl;
                         padding: 30px 0 0;
                         transition: all 0.3s ease-in-out;
                         border-top: 1px solid #e6e6e6;
@@ -433,6 +437,9 @@ $scrollbar-thumb-border-radius: 20px;
                         padding-top: 8px;
                         padding-bottom: 8px;
                         font-size: 15px;
+                        &.op0 {
+                          opacity: 0;
+                        }
                         &:hover {
                           color: $royalBl;
                           text-decoration: underline;
@@ -461,7 +468,7 @@ $scrollbar-thumb-border-radius: 20px;
                         right: -60px;
                         top: 0;
                         height: 100%;
-                        width: 20%;
+                        width: 25%;
                         background: rgba(248, 249, 250, 1);
                       }
                       .tab-title {
@@ -663,6 +670,23 @@ $scrollbar-thumb-border-radius: 20px;
   }
 }
 
+@media screen and (max-width: 2080px) {
+  .header-two {
+    .header-item-right {
+      .menu ul li {
+        .menu-mega {
+          &.indus-menu {
+            left: 25%;
+            &.ind-full {
+              left: 15%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1700px) {
   .header-two {
     .container {
@@ -675,6 +699,12 @@ $scrollbar-thumb-border-radius: 20px;
             left: 29%;
             &.company-menu {
               left: 48%;
+            }
+          }
+          &.indus-menu {
+            left: 25%;
+            &.ind-full {
+              left: 10%;
             }
           }
         }
@@ -692,6 +722,12 @@ $scrollbar-thumb-border-radius: 20px;
             left: 29%;
             &.company-menu {
               left: 48%;
+            }
+          }
+          &.indus-menu {
+            left: 24%;
+            &.ind-full {
+              left: 10%;
             }
           }
         }
@@ -728,6 +764,20 @@ $scrollbar-thumb-border-radius: 20px;
                 }
                 &.company-menu {
                   left: 47%;
+                }
+              }
+              &.indus-menu {
+                left: 22%;
+                &.ind-full {
+                  left: 10%;
+                  width: 83%;
+                }
+                a {
+                  font-size: 13px;
+                  .title {
+                    font-size: 15px;
+                    line-height: 22px;
+                  }
                 }
               }
               .tab-menu {
@@ -782,6 +832,14 @@ $scrollbar-thumb-border-radius: 20px;
                         &.view-more {
                           padding: 25px 0 0;
                           margin: 15px 0 0;
+                        }
+                      }
+                      .double-menu {
+                        a {
+                          font-size: 14px;
+                          margin-bottom: 0;
+                          padding-top: 5px;
+                          padding-bottom: 5px;
                         }
                       }
                     }
@@ -908,36 +966,56 @@ $scrollbar-thumb-border-radius: 20px;
                           right: -50px;
                         }
                       }
-                    }
-
-                    &.hire-tabs {
-                      .other-menu {
-                        padding-left: 12px;
-                        &.tab-content {
-                          min-height: auto;
-                        }
-
-                        &:after {
-                          right: -50px;
-                        }
-                        .tab-title {
-                          a {
-                            padding-left: 8px;
+                      .double-menu {
+                        a {
+                          margin-bottom: 0;
+                          padding-top: 4px;
+                          padding-bottom: 4px;
+                          font-size: 13px;
+                          &.top-head {
+                            padding: 8px;
                           }
                         }
-                        .menu-column {
-                          a {
-                            padding-left: 45px;
-                            width: calc(100% - 10px);
-                            margin: 0 0 5px -8px;
-                            .menuicon {
-                              width: 25px;
-                              height: 25px;
+                      }
+
+                      &.hire-tabs {
+                        .other-menu {
+                          padding-left: 12px;
+                          &.tab-content {
+                            min-height: auto;
+                          }
+
+                          &:after {
+                            right: -50px;
+                          }
+                          .tab-title {
+                            a {
+                              padding-left: 8px;
+                            }
+                          }
+                          .menu-column {
+                            a {
+                              padding-left: 45px;
+                              width: calc(100% - 10px);
+                              margin: 0 0 5px -8px;
+                              .menuicon {
+                                width: 25px;
+                                height: 25px;
+                              }
                             }
                           }
                         }
                       }
                     }
+                  }
+                }
+              }
+              &.indus-menu {
+                a {
+                  font-size: 13px;
+                  .title {
+                    font-size: 14px;
+                    line-height: 20px;
                   }
                 }
               }
@@ -954,7 +1032,7 @@ $scrollbar-thumb-border-radius: 20px;
     position: fixed;
     top: 0;
     width: 100%;
-    background: #1d1c39;
+    background: #05247e;
     z-index: 99;
     padding: 20px 0;
 
@@ -967,8 +1045,9 @@ $scrollbar-thumb-border-radius: 20px;
 
       .large {
         transition: all 0.7s ease-in-out;
+        margin-top: -10px;
         img {
-          max-width: 220px;
+          max-width: 190px;
         }
       }
       .small {
@@ -1050,6 +1129,28 @@ $scrollbar-thumb-border-radius: 20px;
                   &:hover {
                     background: #eff6ff;
                   }
+                }
+              }
+              &.indus-menu {
+                width: 100%;
+                left: auto;
+                &.ind-full {
+                  left: auto;
+                  width: 100%;
+                }
+                a {
+                  font-size: 13px;
+                  padding: 10px 10px 10px 60px;
+                  line-height: 20px;
+                  .title {
+                    font-size: 15px;
+                    line-height: 20px;
+                  }
+                }
+                .flex-2,
+                flex-3 {
+                  flex-basis: 100%;
+                  padding: 20px;
                 }
               }
               .tab-menu {
@@ -1220,6 +1321,24 @@ $scrollbar-thumb-border-radius: 20px;
                           }
                         }
                       }
+                      .double-menu {
+                        margin: 0 0 20px;
+                        &.margin-t-15 {
+                          margin: 0 0 20px;
+                        }
+                        a {
+                          margin-bottom: 0;
+                          padding-top: 5px;
+                          padding-bottom: 5px;
+                          font-size: 15px;
+                          &.op0 {
+                            display: none;
+                          }
+                          &.top-head {
+                            padding: 8px;
+                          }
+                        }
+                      }
                     }
                     &.hire-tabs {
                       display: flex;
@@ -1284,7 +1403,7 @@ $scrollbar-thumb-border-radius: 20px;
         height: 100%;
         top: 88px;
         left: 0;
-        background: #1d1c39;
+        background: #05247e;
         padding: 0 20px;
         display: none;
         overflow-y: auto;
@@ -1314,6 +1433,8 @@ $scrollbar-thumb-border-radius: 20px;
         }
         &.small-reso {
           display: block;
+          text-align: center;
+          margin: 30px auto;
         }
       }
     }
@@ -1349,7 +1470,7 @@ $scrollbar-thumb-border-radius: 20px;
       }
 
       &.sc-up {
-        background: #1d1c39;
+        background: #05247e;
         .header-item-left {
           opacity: 1;
         }
@@ -1369,7 +1490,7 @@ $scrollbar-thumb-border-radius: 20px;
     }
 
     &:hover {
-      background: #1d1c39;
+      background: #05247e;
 
       .header-item-left {
         opacity: 1;

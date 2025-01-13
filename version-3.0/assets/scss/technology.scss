@@ -1,6 +1,7 @@
 @import "_default";
 @import "menu-v3";
-@import "awards";
+@import "_client-logo";
+@import "_glide-core";
 @import "hiring-model";
 @import "faq";
 @import "blog";
@@ -19,6 +20,9 @@
 @import "testimonial";
 @import "blog";
 @import "case";
+
+
+.banner-with-form{padding-bottom:120px;}
 
 
 
@@ -781,7 +785,7 @@
 }
 
 @media screen and (max-width: 767px) {
-
+  .banner-with-form{padding-bottom:40px;}
   .hire-main {
     padding-top: 100px;
 

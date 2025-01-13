@@ -377,11 +377,41 @@
 @media only screen and (max-width: 1366px) {
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
+
+  .step-icon-img-section {
+   
+    h3 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+  
+    .flex-7 {
+      margin-bottom: 10px;
+      padding-right: 5px;
+      .box {
+        padding:15px;
+      }
+  
+      &:after {
+        top: -47px;
+        left: 110px;
+      }
+  
+      &::before {
+        width: 25px;
+        height: 25px;
+        left: 40px;
+        top: -58px;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-}
+
 
 @media screen and (max-width: 991px) {
   .services-three-column-section {
@@ -428,6 +458,35 @@
       }
     }
   }
+
+  .step-icon-img-section {
+    .desktop {
+      display: none;
+    }
+    .col-box-outer {
+      margin-top: 20px;
+    }
+    .flex-7 {
+      flex-basis: 50%;
+      margin-bottom: 40px;
+      padding: 0 10px;
+      &:before {
+        width: 25px;
+        height: 25px;
+        top: -15px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+      &:after {
+        display: none;
+      }
+      &:last-child {
+        flex-basis: 100%;
+        margin: 0;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -468,7 +527,8 @@
     }
     .flex-7 {
       flex-basis: 50%;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
+      padding:0 5px;
       &:before {
         width: 25px;
         height: 25px;
@@ -489,4 +549,5 @@
 }
 
 @media screen and (max-width: 479px) {
+  .step-icon-img-section .flex-7{flex-basis: 100%;}
 }

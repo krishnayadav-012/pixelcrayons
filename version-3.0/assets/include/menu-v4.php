@@ -38,7 +38,7 @@
                         <div class="tab-content is-active">
                           <div class="four-column">
                             <div class="tab-title"><a href="#"><img loading="lazy" src="./assets/header-images/serv-01.svg" class="menuicon" alt="menuicon"><span class="title">Software Development</span>
-                              Innovative, future-proof software solutions</a><span class="ser-arrow-btn"></span>
+                              Innovative, future-proof software solutions</a>
                               <span class="ser-arrow-btn"></span>
                             </div>
                             <div class="dis-flex menu-column sub-service">
@@ -118,6 +118,8 @@
                                   </a>
                                   <a href="#">Digital Strategy
                                   </a>
+                                  <a class="op0" href="#">No Text
+                                  </a>
                                 </div>
                                 <div class="double-menu margin-t-15">
                                   <a class="top-head" href="#"><span class="title">Development</span>
@@ -129,6 +131,36 @@
                                   <a href="#">Implementation
                                   </a>
                                   <a href="#">Web Design
+                                  </a>
+                                </div>
+                              </div>
+                              
+                              <div class="flex-3">
+                                <div class="double-menu">
+                                  <a class="top-head" href="#"><span class="title">Support</span>
+                                  </a>
+                                  <a href="#">Maintenance & Management
+                                  </a>
+                                  <a href="#">Migration
+                                  </a>
+                                  <a href="#">Testing
+                                  </a>
+                                  <a href="#">Audit
+                                  </a>
+                                </div>
+                                <div class="double-menu margin-t-15">
+                                  <a class="top-head" href="#"><span class="title">Platforms & Technologies
+                                  </span>
+                                  </a>
+                                  <a href="#">Shopify
+                                  </a>
+                                  <a href="#">Magento [Adobe Commerce]
+                                  </a>
+                                  <a href="#">BigCommerce
+                                  </a>
+                                  <a href="#">WooCommerce
+                                  </a>
+                                  <a href="#">Opencart
                                   </a>
                                 </div>
                               </div>
@@ -147,20 +179,6 @@
                                   <a href="#">eCommerce SEO Services
                                   </a>
                                   <a href="#">eCommerce PPC Services
-                                  </a>
-                                </div>
-                              </div>
-                              <div class="flex-3">
-                                <div class="double-menu">
-                                  <a class="top-head" href="#"><span class="title">Support</span>
-                                  </a>
-                                  <a href="#">Maintenance & Management
-                                  </a>
-                                  <a href="#">Migration
-                                  </a>
-                                  <a href="#">Testing
-                                  </a>
-                                  <a href="#">Audit
                                   </a>
                                 </div>
                               </div>
@@ -507,7 +525,7 @@
                 <a href="#"><img loading="lazy" src="./assets/header-images/agn-06.svg" class="menuicon" alt="menuicon">Dedicated Marketing Teams</a>
               </div>
             </li>
-            <li class="menu-item-has-children">
+            <li class="menu-item-has-children" style="display:none">
               <a href="#">Industries</a> <span class="arrow-btn"></span>
               <div class="menu-mega indus-menu">
                 <div class="dis-flex">
@@ -535,6 +553,50 @@
                   </div>
                 </div>
               </div>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#">Industries</a> <span class="arrow-btn"></span>
+              <div class="menu-mega indus-menu ind-full">
+            <div class="dis-flex">
+              <div class="flex-3">
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/automotive-transportation"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-01.svg" class="menuicon" alt="menuicon"><span class="title">Automotive &amp; Transportation</span>
+                Boost automotive sales online</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/education"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-02.svg" class="menuicon" alt="menuicon"><span class="title">Education</span>
+                Increase student enrollments</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/finance"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-03.svg" class="menuicon" alt="menuicon"><span class="title">Finance</span>
+                Drive financial leads</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/food-beverage"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-04.svg" class="menuicon" alt="menuicon"><span class="title">Food &amp; Beverage</span>
+                Grow food brand awareness</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/home-repair"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-05.svg" class="menuicon" alt="menuicon"><span class="title">Home Repair</span>
+                Generate repair bookings</a>
+              </div>
+              <div class="flex-3">
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/industrial"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-06.svg" class="menuicon" alt="menuicon"><span class="title">Industrial</span>
+                Reach valuable industrial clients</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/insurance"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-07.svg" class="menuicon" alt="menuicon"><span class="title">Insurance</span>
+                Increase policy sales</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/legal"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-08.svg" class="menuicon" alt="menuicon"><span class="title">Legal</span>
+                Attract more clients for your firm</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/local-services"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-09.svg" class="menuicon" alt="menuicon"><span class="title">Local Services</span>
+                Connect with local customers</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/health"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-10.svg" class="menuicon" alt="menuicon"><span class="title">Medical &amp; Health</span>
+                Boost patient acquisition</a>
+              </div>
+              <div class="flex-3">
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/professional-services"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-11.svg" class="menuicon" alt="menuicon"><span class="title">Professional Services</span>
+                Attract new clients</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/real-estate"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-12.svg" class="menuicon" alt="menuicon"><span class="title">Real Estate</span>
+                Sell more properties</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/retail-ecommerce"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-13.svg" class="menuicon" alt="menuicon"><span class="title">Retail &amp; Ecommerce</span>
+                Increase online sales</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/tech"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-14.svg" class="menuicon" alt="menuicon"><span class="title">Tech</span>
+                Reach tech buyers</a>
+                <a href="https://www.pixelcrayons.com/staging/services/digital-marketing/tourism-hospitality"><img src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/menu-images/inicon-15.svg" class="menuicon" alt="menuicon"><span class="title">Tourism &amp; Hospitality</span>
+                Build a strong digital presence</a>
+              </div>
+            </div>
+          
+        </div>
             </li>
             <li class="menu-item-has-children">
               <a href="#">Company</a> <span class="arrow-btn"></span>

@@ -3,10 +3,12 @@
   position: relative;
 
   .dis-flex {
-    padding: 40px 0 0;
+    padding: 70px 0 0;
+    align-items: flex-start;
 
     .left-sec {
       flex-basis: 50%;
+      margin-top: 23px;
 
       .breadcrumbs {
         position: initial;
@@ -709,6 +711,13 @@
 
 .integration-banner .dis-flex .hire-form .form-wrap .mid-sec .form-visible .popup-content .banner-form-section .banner-form-outer .user-input.verror .input-field{border-color:red;}
 
+
+
+.popup-wrapper .popup-content .banner-form-section .form-textarea  small{opacity:0;  display:block !important;}
+.popup-wrapper .popup-content .banner-form-section .form-textarea .verror small{display:block !important; opacity:1;}
+
+
+
 @media (max-width: 1780px) {
   .integration-banner {
     .dis-flex {
@@ -887,6 +896,7 @@
     .dis-flex {
       .left-sec {
         flex-basis: 100%;
+        margin-top: 23px;
 
         .banner-content {
           width: 100%;
