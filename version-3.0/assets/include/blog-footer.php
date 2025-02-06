@@ -81,7 +81,7 @@
                   </ul>
                </div>
             </div>
-            <div class="dis-flex footer-bottom">
+            <div class="dis-flex footer-bottom items-center">
                <div class="flex-3 logo-box">
                   <h3>PROUDLY BROUGHT TO YOU BY PixelCrayons</h3>
                   <div class="dis-flex">
@@ -127,6 +127,7 @@
                      </a>
                   </div>
                </div>
+               <div class="flex-3"><a href="//https://www.dmca.com/Protection/Status.aspx?ID=9f4af2d1-a5c5-4031-903c-b6dfb2c56625" title="DMCA.com Protection Status" class="dmca-badge" style="display:block; margin:30px 0 0;"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-06.png?ID=9f4af2d1-a5c5-4031-903c-b6dfb2c56625"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script></div>
               
             </div>
       </footer>
@@ -162,7 +163,7 @@
                         <span class="rating-txt">4.9 out of 5.0 by</span>
                     </span>
                     <div class="client-outer">
-                        <a href="https://www.valuecoders.com/" class="rate-us">Rate us</a> 4643 clients on over 10800+
+                        <a href="https://www.valuecoders.com/" class="rate-us">4.9 out of 5.0 by 4643 clients on over 10800+ projects
                         projects
                     </div>
                 </div>

@@ -187,6 +187,13 @@
       color: $white;
       margin: 0;
     }
+    
+  }
+
+  .copyright-right{
+    p{display: flex; align-items: center; flex-wrap:wrap; gap: 10px; flex-wrap: wrap;
+    img{margin:3px 0 0;}
+    }
   }
 }
 
@@ -299,6 +306,10 @@
     .copyright-right {
       flex-basis: 100%;
       margin-top: 10px;
+        p{justify-content: center;
+        img{margin:3px 0 0;}
+        }
+      
     }
   }
 }
