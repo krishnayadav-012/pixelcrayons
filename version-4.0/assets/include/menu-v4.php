@@ -612,12 +612,16 @@
               </div>
             </li>
             <li class="cta-wrap small-reso">
-              <a href="https://www.pixelcrayons.com/staging/contact-us">Contact Us</a>
+              <div class="btn-container">
+              <a href="https://www.pixelcrayons.com/staging/contact-us" class="cta-button white">Contact Us</a>
+            </div> 
             </li>
           </ul>
         </nav>
         <div class="cta-wrap large-reso">
-          <a href="https://www.pixelcrayons.com/staging/contact-us">Contact Us</a>
+        <div class="btn-container">
+              <a href="https://www.pixelcrayons.com/staging/contact-us" class="cta-button white">Contact Us</a>
+            </div>
         </div>
       </div>
     </div>

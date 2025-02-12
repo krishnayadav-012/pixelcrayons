@@ -712,8 +712,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="tabs-section technologies-tabs padding-t-120 padding-b-120" id="tabs-section-3">
       <div class="container">
         <div class="top-section">
@@ -723,115 +721,60 @@
         <div class="tab-flex">
           <div class="tabs-container">
             <ul class="tabs">
-              <li class="tab active" data-target="tech01"><img src="assets/images/home-images/tech-icon.svg">Artificial Intelligence</li>
-              <li class="tab" data-target="tech02"><img src="assets/images/home-images/tech-icon.svg">Blockchain</li>
-              <li class="tab" data-target="tech03"><img src="assets/images/home-images/tech-icon.svg">Computer Vision</li>
-              <li class="tab" data-target="tech04"><img src="assets/images/home-images/tech-icon.svg">Internet of Things</li>
-              <li class="tab" data-target="tech05"><img src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
+              <li class="tab active" data-target="tech01"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Artificial Intelligence</li>
+              <li class="tab" data-target="tech02"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Blockchain</li>
+              <li class="tab" data-target="tech03"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Computer Vision</li>
+              <li class="tab" data-target="tech04"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Internet of Things</li>
+              <li class="tab" data-target="tech05"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
             </ul>
             <div class="tab-content">
               <div class="content active" id="tech01">
                 <div class="dis-flex">
-                  <div class="flex-2 img-div">
-                    <picture>
-                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
-                    </picture>
-                  </div>
-                  <div class="flex-2 content-div">
-                    <h3>Design Services</h3>
-                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                    <ul>
-                      <li>MVP & SaaS Development</li>
-                      <li>CTO as a Service </li>
-                      <li>Data Analytics & DevOps</li>
-                      <li>Technology Consulting</li>
-                    </ul>
-                    <a href="#" class="is-arrow">Find Out More</a>
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
                   </div>
                 </div>
               </div>
               <div class="content" id="tech02">
                 <div class="dis-flex">
-                  <div class="flex-2 img-div">
-                    <picture>
-                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
-                    </picture>
-                  </div>
-                  <div class="flex-2 content-div">
-                    <h3>Blockchain</h3>
-                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                    <ul>
-                      <li>MVP & SaaS Development</li>
-                      <li>CTO as a Service </li>
-                      <li>Data Analytics & DevOps</li>
-                      <li>Technology Consulting</li>
-                    </ul>
-                    <a href="#" class="is-arrow">Find Out More</a>
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
                   </div>
                 </div>
               </div>
               <div class="content" id="tech03">
                 <div class="dis-flex">
-                  <div class="flex-2 img-div">
-                    <picture>
-                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
-                    </picture>
-                  </div>
-                  <div class="flex-2 content-div">
-                    <h3>Computer Vision</h3>
-                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                    <ul>
-                      <li>MVP & SaaS Development</li>
-                      <li>CTO as a Service </li>
-                      <li>Data Analytics & DevOps</li>
-                      <li>Technology Consulting</li>
-                    </ul>
-                    <a href="#" class="is-arrow">Find Out More</a>
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
                   </div>
                 </div>
               </div>
               <div class="content" id="tech04">
                 <div class="dis-flex">
-                  <div class="flex-2 img-div">
-                    <picture>
-                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
-                    </picture>
-                  </div>
-                  <div class="flex-2 content-div">
-                    <h3>Internet of Things</h3>
-                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                    <ul>
-                      <li>MVP & SaaS Development</li>
-                      <li>CTO as a Service </li>
-                      <li>Data Analytics & DevOps</li>
-                      <li>Technology Consulting</li>
-                    </ul>
-                    <a href="#" class="is-arrow">Find Out More</a>
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
                   </div>
                 </div>
               </div>
               <div class="content" id="tech05">
                 <div class="dis-flex">
-                  <div class="flex-2 img-div">
-                    <picture>
-                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
-                    </picture>
-                  </div>
-                  <div class="flex-2 content-div">
-                    <h3>Mixed Reality</h3>
-                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                    <ul>
-                      <li>MVP & SaaS Development</li>
-                      <li>CTO as a Service </li>
-                      <li>Data Analytics & DevOps</li>
-                      <li>Technology Consulting</li>
-                    </ul>
-                    <a href="#" class="is-arrow">Find Out More</a>
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
                   </div>
                 </div>
               </div>
@@ -840,9 +783,6 @@
         </div>
       </div>
     </section>
-
-
-
     <section class="tabs-section techno-tabs padding-t-120 padding-b-120" id="tabs-section-2">
       <div class="container">
         <div class="top-section">

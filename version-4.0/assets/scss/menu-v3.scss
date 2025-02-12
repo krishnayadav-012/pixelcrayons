@@ -75,7 +75,7 @@ $scrollbar-thumb-border-radius: 20px;
   .header-item-right {
     flex-basis: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     .menu {
       ul {
@@ -553,23 +553,19 @@ $scrollbar-thumb-border-radius: 20px;
     .cta-wrap {
       display: inline-block;
 
-      a {
-        text-decoration: none;
-        font-size: 18px;
-        line-height: 22px;
-        border-radius: 4px;
-        padding: 10px 30px;
-        transition: 0.3s ease-in-out;
-        background: $royalBl;
-        color: #fff;
-        position: relative;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid $royalBl;
-        &:hover {
-          background: $whitecolor;
-          color: $royalBl;
+      .btn-container {
+        margin-top: 0;
+        .cta-button {
+          padding: 10px 16px;
+          margin-left: 20px;
+
+          &:hover {
+            background: #016be3;
+            color: #fff;
+            &:after {
+              background: url(../images/home-images/blue-hovercta.svg) no-repeat;
+            }
+          }
         }
       }
       &.large-reso {
@@ -577,6 +573,12 @@ $scrollbar-thumb-border-radius: 20px;
       }
       &.small-reso {
         display: none;
+        .btn-container {
+          margin-top: 0;
+          .cta-button {
+            margin-left: 0;
+          }
+        }
       }
     }
   }
