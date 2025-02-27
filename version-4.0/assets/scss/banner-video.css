@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$contentDay".
-        on line 6 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\banner-video.scss
+        on line 6 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\banner-video.scss
 
 1: .hire-main {
 2:     .videobox {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$contentDay".
 11:       .client-videos {
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\banner-video.scss:6
+C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\banner-video.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$contentDay\".\A         on line 6 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\banner-video.scss\A \A 1: .hire-main {\A 2:     .videobox {\A 3:       width: 36%;\A 4:       iframe {\A 5:         vertical-align: bottom;\A 6:         background-color: $contentDay;\A 7:         width: 100%;\A 8:         border: 0;\A 9:       }\A 10:      \A 11:       .client-videos {"; }
+  content: "Error: Undefined variable: \"$contentDay\".\A         on line 6 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\banner-video.scss\A \A 1: .hire-main {\A 2:     .videobox {\A 3:       width: 36%;\A 4:       iframe {\A 5:         vertical-align: bottom;\A 6:         background-color: $contentDay;\A 7:         width: 100%;\A 8:         border: 0;\A 9:       }\A 10:      \A 11:       .client-videos {"; }

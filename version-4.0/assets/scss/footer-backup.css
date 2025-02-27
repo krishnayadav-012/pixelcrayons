@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$royelblue".
-        on line 62 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\footer-backup.scss
+        on line 62 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\footer-backup.scss
 
 57:           }
 58:           .social-image{display:block; opacity: 0.9;}
@@ -15,7 +15,7 @@ Error: Undefined variable: "$royelblue".
 67:             img {
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\footer-backup.scss:62
+C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\footer-backup.scss:62
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -117,4 +117,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$royelblue\".\A         on line 62 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\footer-backup.scss\A \A 57:           }\A 58:           .social-image{display:block; opacity: 0.9;}\A 59:           .social-image-hover{display:none;}\A 60: \A 61:           &:hover {\A 62:             color: $royelblue;\A 63:             opacity: 1;\A 64:             .social-image-hover{display:block;}\A 65:             .social-image{display:none;}\A 66: \A 67:             img {"; }
+  content: "Error: Undefined variable: \"$royelblue\".\A         on line 62 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\footer-backup.scss\A \A 57:           }\A 58:           .social-image{display:block; opacity: 0.9;}\A 59:           .social-image-hover{display:none;}\A 60: \A 61:           &:hover {\A 62:             color: $royelblue;\A 63:             opacity: 1;\A 64:             .social-image-hover{display:block;}\A 65:             .social-image{display:none;}\A 66: \A 67:             img {"; }

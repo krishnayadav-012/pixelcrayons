@@ -1048,6 +1048,10 @@
         </div>
       </div>
     </section>
+
+
+
+
     <section class="client-testimonial light-background  padding-t-120 padding-b-120">
       <div class="container">
         <div class="top-section b-100">
@@ -1055,135 +1059,6 @@
           <p>Our hard work is appreciated by our clients all across the globe. Here are a few testimonials sent by some of our clients: 
         </div>
         <div class="client-out">
-          <div class="dis-flex client-slider" id="client-slider">
-            <div class="glider">
-              <!-- Repeat this structure for each slide -->
-              <div class="test-row">
-                <picture>
-                  <source type="image/png" srcset="assets/images/home-images/clinet-01.png">
-                  <img loading="lazy" src="assets/images/images/home-images/clinet-01.png" alt="Valuecoders" width="290" height="328">
-                </picture>
-              </div>
-              <div class="test-row">
-                <div class="vid-wrap">
-                  <div class="client-videos" id="cvbox-1">
-                    <div class="client-video-box">
-                      <iframe class="yt-player"  id="ytiframe-1" style="display:none;"></iframe>
-                      <a class="frame-mask" href="javascript:void(0);" onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                        <picture>
-                          <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                          <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290" height="328">
-                        </picture>
-                        <div class="playBtn">
-                          <div class="playsc"><span class="playicon"></span></div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="content-box">
-                    <p>The Project managers took a lot of time to understand our project before coming up with a contract or what they thought we needed. I had the reassurance from the start that the project managers knew what type of project I wanted and what my needs were. That is reassuring, and that's why we chose ValueCoders.</p>
-                    <h5>James Kelly</h5>
-                    <span class="designtn">Co-founder, Miracle Choice</span>
-                    <span class="star-image"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="test-row">
-                <picture>
-                  <source type="image/png" srcset="assets/images/home-images/clinet-01.png">
-                  <img loading="lazy" src="assets/images/images/home-images/clinet-01.png" alt="Valuecoders" width="290" height="328">
-                </picture>
-              </div>
-              <div class="test-row">
-                <div class="vid-wrap">
-                  <div class="client-videos" id="cvbox-1">
-                    <div class="client-video-box">
-                      <iframe class="yt-player"  id="ytiframe-1" style="display:none;"></iframe>
-                      <a class="frame-mask" href="javascript:void(0);" onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                        <picture>
-                          <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                          <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290" height="328">
-                        </picture>
-                        <div class="playBtn">
-                          <div class="playsc"><span class="playicon"></span></div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="content-box">
-                    <p>The team at ValueCoder has provided us with exceptional services in creating this one-of-a-kind portal, and it has been a fantastic experience. I was particularly impressed by how efficiently and quickly the team always came up with creative solutions to provide us with all the functionalities within the portal we had requested.</p>
-                    <h5>Judith Mueller</h5>
-                    <span class="designtn">Executive Director, Mueller Health Foundation</span>
-                    <span class="star-image"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="test-row">
-                <picture>
-                  <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                  <img loading="lazy" src="assets/images/images/home-images/clinet-02.png" alt="Valuecoders" width="290" height="328">
-                </picture>
-              </div>
-              <div class="test-row">
-                <div class="vid-wrap">
-                  <div class="client-videos" id="cvbox-1">
-                    <div class="client-video-box">
-                      <iframe class="yt-player"  id="ytiframe-1" style="display:none;"></iframe>
-                      <a class="frame-mask" href="javascript:void(0);" onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                        <picture>
-                          <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                          <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290" height="328">
-                        </picture>
-                        <div class="playBtn">
-                          <div class="playsc"><span class="playicon"></span></div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="content-box">
-                    <p>ValueCoders had great technical expertise, both in front-end and back-end development. Other project management was well organized. Account management was friendly and always available. I would give ValueCoders ten out of ten!</p>
-                    <h5>Kris Bruynson</h5>
-                    <span class="designtn">Director, Storloft</span>
-                    <span class="star-image"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="test-row">
-                <picture>
-                  <source type="image/png" srcset="assets/images/home-images/clinet-01.png">
-                  <img loading="lazy" src="assets/images/images/home-images/clinet-01.png" alt="Valuecoders" width="290" height="328">
-                </picture>
-              </div>
-              <div class="test-row">
-                <div class="vid-wrap">
-                  <div class="client-videos" id="cvbox-1">
-                    <div class="client-video-box">
-                      <iframe class="yt-player"  id="ytiframe-1" style="display:none;"></iframe>
-                      <a class="frame-mask" href="javascript:void(0);" onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                        <picture>
-                          <source type="image/png" srcset="images/home-images/clinet-01.png">
-                          <img loading="lazy" src="images/home-images/clinet-01.png" alt="Valuecoders" width="290" height="328">
-                        </picture>
-                        <div class="playBtn">
-                          <div class="playsc"><span class="playicon"></span></div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="content-box">
-                    <p>Huge thank you to ValueCoders; they have been a massive help in enabling us to start developing our project within a few weeks, so it's been great! There have been two small bumps in the road, but overall, It's been a fantastic service. I have already recommended it to one of my friends.</p>
-                    <h5>Mohammed Mirza</h5>
-                    <span class="designtn">Director, LOCALMASTERCHEFS LTD</span>
-                    <span class="star-image"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="test-row">
-                <picture>
-                  <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                  <img loading="lazy" src="assets/images/images/home-images/clinet-02.png" alt="Valuecoders" width="290" height="328">
-                </picture>
-              </div>
               <div class="test-row">
                 <div class="vid-wrap">
                   <div class="client-videos" id="cvbox-1">
@@ -1207,14 +1082,28 @@
                     <span class="star-image"></span>
                   </div>
                 </div>
-              </div>
-              <div class="test-row">
-                <picture>
-                  <source type="image/png" srcset="assets/images/home-images/clinet-01.png">
-                  <img loading="lazy" src="assets/images/images/home-images/clinet-01.png" alt="Valuecoders" width="290" height="328">
-                </picture>
-              </div>
-              <div class="test-row">
+                <div class="vid-wrap">
+                  <div class="client-videos" id="cvbox-1">
+                    <div class="client-video-box">
+                      <iframe class="yt-player"  id="ytiframe-1" style="display:none;"></iframe>
+                      <a class="frame-mask" href="javascript:void(0);" onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
+                        <picture>
+                          <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
+                          <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290" height="328">
+                        </picture>
+                        <div class="playBtn">
+                          <div class="playsc"><span class="playicon"></span></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects.”</p>
+                    <h5>James Kelly</h5>
+                    <span class="designtn">Co-founder, James Kelly</span>
+                    <span class="star-image"></span>
+                  </div>
+                </div>
                 <div class="vid-wrap">
                   <div class="client-videos" id="cvbox-1">
                     <div class="client-video-box">
@@ -1238,23 +1127,14 @@
                   </div>
                 </div>
               </div>
-              <!-- End slide structure -->
-            </div>
-            <!-- Progress Bar -->
-            <div class="progress-container">
-              <div class="progress-bar client-progress-bar"></div>
-            </div>
-            <!-- Navigation Buttons -->
-            <div class="prev-next-btn">
-              <button class="cl-prev" aria-label="Previous"></button>
-              <button class="cl-next" aria-label="Next"></button>
-            </div>
-            <!-- Hidden Dots -->
-            <div class="dots"></div>
-          </div>
         </div>
       </div>
     </section>
+
+
+
+
+
     <section class="faq-section padding-t-120 padding-b-120">
       <div class="container">
         <div class="top-section">

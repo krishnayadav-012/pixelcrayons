@@ -837,7 +837,7 @@
 /*CSS for banner video section*/
 .video-banner-section{
   .banner-content{width: 100%;
-   h1{font-size: 60px;}
+   h1{font-size: 60px; line-height: 1.3;}
    p{
     strong{font-weight: 500;}
    }
@@ -880,11 +880,6 @@
       p {
         font-size: 16px;
       }
-    }
-  }
-  .video-banner-section{
-    .banner-content{
-     h1{font-size:50px;}
     }
   }
 }
@@ -1015,6 +1010,16 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .video-banner-section{
+    .banner-content{width: 100%;
+     h1{font-size: 45px;
+      line-height: 55px;}
+    }
+  }
+
+ 
+
   .page-id-2366 {
     .tools-developer {
       .flex-3 {
@@ -1060,6 +1065,12 @@
       .flex-3 {
         flex-basis: 100%;
       }
+    }
+  }
+  .video-banner-section{
+    .banner-content{
+     h1{font-size: 35px;
+      line-height: 45px;}
     }
   }
 

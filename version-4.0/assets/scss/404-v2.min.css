@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: Undefined variable: \"$gradient-bg\".\A         on line 2 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\404-v2.scss\A \A 1: .light-theme-grey-bg {\A 2:     background: $gradient-bg;\A 3:   }\A 4:   \A 5:   .error-img-section {\A 6:     background: $gradient-bg;\A 7:   "}

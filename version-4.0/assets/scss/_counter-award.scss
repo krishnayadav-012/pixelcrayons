@@ -14,7 +14,7 @@
           margin: 1px 8px 0 0;
           vertical-align: text-top;
           display: inline-block;
-          vertical-align: middle;
+          //vertical-align: middle;
         }
       }
       strong {
@@ -52,7 +52,7 @@
 
         &:nth-child(2) {
           &:after {
-            width: 28px;
+            width: 24px;
             height: 24px;
             background: url(../images/home-images/awlogo-02.svg) no-repeat;
             background-size: 100%;
@@ -109,7 +109,7 @@
     max-width: 75%;
     align-items: center;
     .bottom-card {
-      padding: 40px;
+      padding: 30px;
       border-radius: 8px;
       text-align: left;
 
@@ -159,6 +159,15 @@
 // Media Query Start From Here
 
 @media (max-width: 1440px) {
+  .award-section {
+    .stats {
+      max-width: 90%;
+    }
+    .bottom-section {
+      gap: 10px;
+      max-width: 90%;
+    }
+  }
 }
 
 @media (max-width: 1320px) {

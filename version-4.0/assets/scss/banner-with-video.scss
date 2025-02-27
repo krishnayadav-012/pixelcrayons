@@ -1,7 +1,7 @@
 .video-banner-section {
   //background: url("../images/home/home-banner-img.webp") top center no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 100vh;
   display: grid;
   align-items: center;
   position: relative;
@@ -10,7 +10,7 @@
 
   #background-video {
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -97,7 +97,7 @@
  @media only screen and (max-width: 1600px) {
 
   .video-banner-section{
-    &.padding-t-120 {padding-top:120px;
+    &.padding-t-120 {padding-top:150px;
     }
   }
 
@@ -114,7 +114,7 @@
 
  @media only screen and (max-width: 1320px) {
 
-  .video-banner-section { padding-top: 100px;
+  .video-banner-section { padding-top: 120px;
     height: 600px;
     #background-video{height: 100%;}
    
@@ -150,9 +150,11 @@
 @media only screen and (max-width: 991px) {
   .video-banner-section {
     height: auto;
-    background-color: #04237f;
+    background-color: #04237f !important;
     #background-video{display:none;}
     .banner-content {width:100%;
+      h1{font-size: 45px;
+        line-height: 55px;}
     }
     .service-bottom-section {
       &.margin-t-80 {
@@ -185,6 +187,7 @@
           }
         }
       }
+      p{font-size: 16px; line-height: 26px;}
     }
     .service-bottom-section {
       .badges {

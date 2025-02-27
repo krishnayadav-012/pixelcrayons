@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gradient-bg".
-        on line 2 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\404-v2.scss
+        on line 2 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\404-v2.scss
 
 1: .light-theme-grey-bg {
 2:     background: $gradient-bg;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$gradient-bg".
 7:   
 
 Backtrace:
-C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\404-v2.scss:2
+C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\404-v2.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gradient-bg\".\A         on line 2 of C:\xampp\htdocs\pixelcrayons\version-3.0\assets\scss\404-v2.scss\A \A 1: .light-theme-grey-bg {\A 2:     background: $gradient-bg;\A 3:   }\A 4:   \A 5:   .error-img-section {\A 6:     background: $gradient-bg;\A 7:   "; }
+  content: "Error: Undefined variable: \"$gradient-bg\".\A         on line 2 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\404-v2.scss\A \A 1: .light-theme-grey-bg {\A 2:     background: $gradient-bg;\A 3:   }\A 4:   \A 5:   .error-img-section {\A 6:     background: $gradient-bg;\A 7:   "; }

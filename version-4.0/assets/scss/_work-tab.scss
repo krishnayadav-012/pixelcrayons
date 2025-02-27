@@ -4,7 +4,7 @@
   .tab-flex {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .tabs-container {
@@ -96,10 +96,8 @@
             }
             a {
               color: #656565;
-              text-decoration: underline;
-
               &:hover {
-                text-decoration: none;
+                text-decoration: underline;
               }
             }
           }
@@ -185,10 +183,18 @@
           }
           .content-div {
             flex-basis: 50%;
+            h3{
+              a{color:$darkblack;
+              &:hover{text-decoration: underline;}
+              }
+            }
             ul {
               margin: 20px 0 0;
               li {
                 flex-basis: 100%;
+                a{color:$arsenic-light;
+                  &:hover{text-decoration: underline;}
+                }
                 &:last-child {
                   margin: 0;
                 }
@@ -203,7 +209,7 @@
   &.technologies-tabs {
     background: linear-gradient(90deg, #05164d 0%, #0c33b3 100%); position: relative;
 
-    .container{position: relative; z-index: 99;}
+    .container{position: relative; z-index: 9;}
 
     .top-section {
       text-align: left;
@@ -293,6 +299,7 @@
           padding: 15px;
           position: relative;
           overflow: hidden;
+          min-height: 63px;
 
           i {
             width: 36px;
@@ -341,6 +348,23 @@
 @media (max-width: 1440px) {
 }
 
+@media (max-width: 1380px) {
+  .tabs-section {
+   
+    &.techno-tabs  {
+  
+      .tabs-container{
+        .tabs {gap: 10px;
+         .tab{font-size: 16px;}
+        }
+      }
+  
+      
+    }
+  }
+
+}
+
 @media (max-width: 1320px) {
   .tabs-section {
     .tabs-container {
@@ -387,7 +411,17 @@
     }
 
     &.technologies-tabs {
-      .tab-content {
+      .tabs-container{
+        .tabs{padding: 20px;
+        .tab{padding: 14px; font-size: 15px;
+        &.active{
+          &.after{top: 21px;
+            right: 15px;}
+        }
+        }
+        }
+      }
+      .tab-content {padding: 20px;
         .content-div {
           .cont-col {flex-basis: 100%;
             min-height: 60px;
