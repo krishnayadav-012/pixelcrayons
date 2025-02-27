@@ -419,31 +419,27 @@
               </div>
             </div>
             <div class="cta-section margin-t-70" id="portfolio">
-            
-                <div class="cta-wrap">
-                  <div class="left-sec">
-                    <div class="top-section text-left">
-                      <h2>Redefine Your Online Presence
-                      </h2>
-                      <p>Experience next-level digital marketing and transformation services.</p>
-                      <div class="btn-container">
-                        <a href="#" class="cta-button white">
-                        GET STARTED
-                        </a>
-                      </div>
+              <div class="cta-wrap">
+                <div class="left-sec">
+                  <div class="top-section text-left">
+                    <h2>Redefine Your Online Presence
+                    </h2>
+                    <p>Experience next-level digital marketing and transformation services.</p>
+                    <div class="btn-container">
+                      <a href="#" class="cta-button white">
+                      GET STARTED
+                      </a>
                     </div>
                   </div>
-                  <div class="right-sec">
-                    <picture>
-                      <source type="image/webp" srcset="assets/images/service-images/cta-girl.webp">
-                      <img loading="lazy" src="assets/images/service-images/cta-girl.webp" width="1012" height="802">
-                    </picture>
-                  </div>
                 </div>
-           
+                <div class="right-sec">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/service-images/cta-girl.webp">
+                    <img loading="lazy" src="assets/images/service-images/cta-girl.webp" width="1012" height="802">
+                  </picture>
+                </div>
+              </div>
             </div>
-
-
             <div class="software-work padding-t-70" id="industry">
               <div class="top-section text-left">
                 <h2>Worked on 50+ Types of Software</h2>
@@ -722,8 +718,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="cta-section">
       <div class="container">
         <div class="cta-wrap">
@@ -753,10 +747,8 @@
         </div>
       </div>
     </section>
-
-
     <section class="industries-slider-section  bg-light padding-t-120 padding-b-120" id="industries-glider-v6">
-    <div id="industries-glider-v6-loader" class="loader" style="display: none;">&nbsp;&nbsp;</div>
+      <div id="industries-glider-v6-loader" class="loader" style="display: none;">&nbsp;&nbsp;</div>
       <div class="container">
         <div class="top-section b-100">
           <h2>Industries We Cater to</h2>
@@ -872,9 +864,6 @@
         </div>
       </div>
     </section>
-
-
-
     <section class="tabs-section technologies-tabs padding-t-120 padding-b-120" id="tabs-section-3">
       <div class="container">
         <div class="top-section">
@@ -946,8 +935,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="tabs-section techno-tabs padding-t-120 padding-b-120" id="tabs-section-2">
       <div class="container">
         <div class="top-section">
@@ -1074,6 +1061,52 @@
         </div>
       </div>
     </section>
+
+     
+    
+
+
+    <section class="development-phase padding-t-120 padding-b-120">
+      <div class="container">
+        <div class="top-section">
+          <h2>Our Process</h2>
+          <p>We specialize in engineering custom software that's both stable and secure, using a variety of tech tools.</p>
+        </div>
+        <div class="dis-flex col-box-outer margin-t-50">
+          <div class="flex-5">
+            <div class="box">
+              <h3>Analysis & Strategizing</h3>
+              <p>Defining goals and planning for a successful software project.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Architecture,UI/UX Design</h3>
+              <p>Creating intuitive design and robust architecture for user engagement.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Development & Testing</h3>
+              <p>Building and rigorously testing for reliable, secure software performance.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Deployment</h3>
+              <p>Launching software smoothly in live environments with minimal downtime.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Project Handover</h3>
+              <p>Delivering software with ongoing support and future enhancements available.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
 
 
@@ -2228,8 +2261,6 @@
     <?php require_once '../assets/include/footer.php'; ?>
     <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264" id="pixel-glider-js"></script>
     <script>
-
-
       // Function to initialize tabs
       function initializeTabs(sectionSelector) {
         const sections = document.querySelectorAll(sectionSelector);
@@ -2261,20 +2292,20 @@
       document.addEventListener("DOMContentLoaded", () => {
         initializeTabs(".tabs-section");
       });
-
-
-     function _expandListing(e) {
-    e.closest("div").classList.toggle("show-li");
-    e.classList.toggle("expanded-btn");
-    if (e.innerText === "See More") {
+      
+      
+      function _expandListing(e) {
+      e.closest("div").classList.toggle("show-li");
+      e.classList.toggle("expanded-btn");
+      if (e.innerText === "See More") {
         e.innerText = "See Less";
-    } else {
+      } else {
         e.innerText = "See More";
-    }
-}
-document.addEventListener("scroll", function () {
-    const rightColumn = document.getElementById("valc-toc");
-    if (rightColumn) {
+      }
+      }
+      document.addEventListener("scroll", function () {
+      const rightColumn = document.getElementById("valc-toc");
+      if (rightColumn) {
         const stickySection = document.querySelector(".entire-sticky");
         const containerRect = stickySection.getBoundingClientRect();
         const rightOffset = window.innerWidth - containerRect.right;
@@ -2285,17 +2316,17 @@ document.addEventListener("scroll", function () {
             rightColumn.classList.remove("fixed");
             rightColumn.style.right = "0";
         }
-    }
-});
-
-
-
-
-if (document.getElementById("industries-glider-v6")){
-    const indGlider     = document.getElementById("indGlider");    
-    const indLoader     = document.getElementById("industries-glider-v6-loader"); 
-    window.addEventListener("load", function() {
-    var gliderElement = document.querySelector(".industries-slider .glider");
+      }
+      });
+      
+      
+      
+      
+      if (document.getElementById("industries-glider-v6")){
+      const indGlider     = document.getElementById("indGlider");    
+      const indLoader     = document.getElementById("industries-glider-v6-loader"); 
+      window.addEventListener("load", function() {
+      var gliderElement = document.querySelector(".industries-slider .glider");
         if (gliderElement) {      
             new Glider(gliderElement, {
                 slidesToShow: 6, 
@@ -2313,19 +2344,19 @@ if (document.getElementById("industries-glider-v6")){
                 ]
             });
         }
-    });
-    indLoader.style.display = 'none';
-    indGlider.style.visibility = 'visible';
-    indGlider.style.position = 'relative';  // Reset position
-}
-
-
-
-
-
-
-
-
+      });
+      indLoader.style.display = 'none';
+      indGlider.style.visibility = 'visible';
+      indGlider.style.position = 'relative';  // Reset position
+      }
+      
+      
+      
+      
+      
+      
+      
+      
     </script>
   </body>
 </html>

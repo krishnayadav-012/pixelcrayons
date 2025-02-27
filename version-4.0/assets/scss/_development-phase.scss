@@ -4,13 +4,12 @@
   }
   .flex-5 {
     flex-basis: 18%;
-    padding-right:30px;
+    padding-right: 30px;
     position: relative;
     .box {
       padding: 10px 10px 50px;
       border-radius: 35px;
       border: 1.963px solid rgba(0, 0, 0, 0.04);
-      background: #f8f8f8;
       height: 100%;
       transition: all 0.3s ease-in-out;
       text-align: center;
@@ -33,10 +32,18 @@
         background: $white;
         //color: $headDay;
       }
+      h3 {
+        padding: 20px 10px;
+        border-radius: 20px;
+        background: #e3f0ff;
+        color: #212121;
+        font-size: 18px;
+      }
       p {
         font-size: 14px;
         line-height: 160%;
         margin: 15px 0 0;
+        font-weight: normal;
         a {
           display: inline;
           &:hover {
@@ -91,7 +98,7 @@
 
 @media only screen and (max-width: 1320px) {
   .development-phase {
-    .flex-5{
+    .flex-5 {
       padding-right: 15px;
       .box {
         h4 {
