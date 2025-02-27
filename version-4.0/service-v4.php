@@ -1061,10 +1061,91 @@
         </div>
       </div>
     </section>
-
-     
-    
-
+    <section class="software-costing padding-t-120 padding-b-120" id="dev-cost">
+      <div class="container">
+        <div class="top-section left-text">
+          <h2>Cost of Web Development Projects</h2>
+          <p>The cost of software development depends on various factors such as service scope, sourcing model, technical.</p>
+        </div>
+        <div class="dis-flex costing-outer">
+          <div class="flex-3 col-box">
+            <div class="cost-card">
+              <div class="normal-content">
+                <picture class="soft-img">
+                  <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-01.png.webp">
+                  <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-01.png.webp" alt="sd-01" width="68" height="67">
+                </picture>
+                <h3>Starting at $55,000</h3>
+                <p>To develop a moderately complex mobile app.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-3 col-box">
+            <div class="cost-card">
+              <div class="normal-content">
+                <picture class="soft-img">
+                  <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-02.png.webp">
+                  <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-02.png.webp" alt="sd-02" width="68" height="68">
+                </picture>
+                <h3>Starting at $70,000</h3>
+                <p>To develop a moderately complex mobile app.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-3 col-box">
+            <div class="cost-card">
+              <div class="normal-content">
+                <picture class="soft-img">
+                  <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-03.png.webp">
+                  <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-03.png.webp" alt="sd-03" width="68" height="68">
+                </picture>
+                <h3>Starting at $110,000</h3>
+                <p>To develop a moderately complex mobile app.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-3 col-box">
+            <div class="cost-card">
+              <div class="normal-content">
+                <picture class="soft-img">
+                  <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-04.png.webp">
+                  <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-04.png.webp" alt="sd-04" width="68" height="67">
+                </picture>
+                <h3>From $90,000 to $300,000</h3>
+                <p>To develop a moderately complex mobile app.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-3 col-box">
+            <div class="cost-card">
+              <div class="normal-content">
+                <picture class="soft-img">
+                  <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-05.png.webp">
+                  <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2024/11/sd-05.png.webp" alt="sd-05" width="68" height="67">
+                </picture>
+                <h3>Approximately $250,000</h3>
+                <p>To develop a moderately complex mobile app.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-3 col-box">
+            <div class="cost-card">
+              <div class="hover-content" style="display:flex;">
+                <h3>development project will cost?</h3>
+                <p>Jump to our free cost calculators 
+                  to quickly learn the budget.
+                </p>
+                <div class="btn-container">
+                  <a href="#" class="cta-button yellow">
+                  GET STARTED
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="development-phase padding-t-120 padding-b-120">
       <div class="container">
@@ -1107,6 +1188,8 @@
       </div>
     </section>
 
+
+    
 
 
 
