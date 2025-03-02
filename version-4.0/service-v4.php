@@ -328,6 +328,202 @@
         </div>
       </div>
     </section>
+    <section class="tailored-slide-section padding-t-120 padding-b-120">
+      <div class="container">
+        <div class="top-section">
+          <h2>Tailored Tech for All Business Types</h2>
+          <p>Our wide range of custom application development services cater to the needs of businesses of different types and sizes.
+          </p>
+        </div>
+        <div class="dis-flex tailored-out">
+          <div class="dis-flex tailored-slider" id="tailored-slide">
+            <div id="tld-glider-loader" class="loader" style="display: none;">&nbsp;&nbsp;</div>
+            <!-- Slider Content -->
+            <div class="glider" id="glider" id="tl-glider">
+              <div class="flex-3">
+                <div class="box-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <picture>
+                          <img loading="lazy" src="assets/images/service-images/tl-01.svg" alt="pixelcrayons" width="44" height="44">
+                        </picture>
+                        <h3>Startups</h3>
+                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      </div>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <picture>
+                        <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                      </picture>
+                      <h3>Startups</h3>
+                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-3">
+                <div class="box-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <picture>
+                          <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                        </picture>
+                        <h3>Startups</h3>
+                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      </div>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <picture>
+                        <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                      </picture>
+                      <h3>Startups</h3>
+                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-3">
+                <div class="box-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <picture>
+                          <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                        </picture>
+                        <h3>Startups</h3>
+                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      </div>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <picture>
+                        <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                      </picture>
+                      <h3>Startups</h3>
+                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-3">
+                <div class="box-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <picture>
+                          <img loading="lazy" src="assets/images/service-images/tl-01.svg" alt="pixelcrayons" width="44" height="44">
+                        </picture>
+                        <h3>Startups</h3>
+                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      </div>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <picture>
+                        <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                      </picture>
+                      <h3>Startups</h3>
+                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-3">
+                <div class="box-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <picture>
+                          <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                        </picture>
+                        <h3>Startups</h3>
+                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      </div>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <picture>
+                        <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                      </picture>
+                      <h3>Startups</h3>
+                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-3">
+                <div class="box-3">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <picture>
+                          <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                        </picture>
+                        <h3>Startups</h3>
+                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      </div>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <picture>
+                        <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
+                      </picture>
+                      <h3>Startups</h3>
+                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <div class="card-bottom">
+                        <span class="cbtn">higher accountability</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Progress Bar -->
+            <div class="progress-container">
+              <div class="progress-bar"></div>
+            </div>
+            <!-- Dots (Pagination) -->
+            <div role="tablist" class="dots"></div>
+            <!-- Arrows -->
+            <div class="prev-next-btn">
+              <button class="glider-prev tail-prev" aria-disabled="false"></button>
+              <button class="glider-next tail-next" aria-disabled="false"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="fixfull-section padding-t-120 padding-b-120">
       <div class="container">
         <div class="entire-sticky">
@@ -750,7 +946,7 @@
     <section class="industries-slider-section  bg-light padding-t-120 padding-b-120" id="industries-glider-v6">
       <div id="industries-glider-v6-loader" class="loader" style="display: none;">&nbsp;&nbsp;</div>
       <div class="container">
-        <div class="top-section b-100">
+        <div class="top-section">
           <h2>Industries We Cater to</h2>
           <p>Get what you are looking for to fulfill your software development and outsourcing needs at ValueCoders, with our expertise on all in-demand technologies & platforms.</p>
         </div>
@@ -1255,12 +1451,10 @@
               <li class="tab" data-target="iot"><img src="assets/images/home-images/tech-icon.svg">Internet of Things</li>
               <li class="tab" data-target="mixedr"><img src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
               <li class="tab" data-target="mixedr"><img src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
-
             </ul>
             <div class="tab-content">
               <div class="content active" id="ai">
                 <div class="dis-flex">
-                 
                   <div class="flex-2 content-div">
                     <h3>Design Services</h3>
                     <p>Our design team creates user-centric experiences that captivate audiences.</p>
@@ -1716,153 +1910,240 @@
     <?php require_once 'assets/include/blog-footer.php'; ?>
     <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264" id="pixel-glider-js"></script>
     <script>
-      if (document.getElementById("success-glider")) {
-            window.addEventListener("load", function () {
-            var gliderElement = document.querySelector(".success-slider .glider");
-            if (gliderElement) {
-            new Glider(gliderElement, {
+      if (document.getElementById("tailored-slide")){
+      window.addEventListener("load", function (){
+      const gliderElement = document.querySelector(".tailored-slider .glider"); // Use your custom class
+      const progressBar = document.querySelector(".progress-bar");
+      if( gliderElement && progressBar ){
+      const ftGlider  = document.getElementById("tl-glider");    
+      const ftGloader = document.getElementById("tld-glider-loader");    
+      
+      const slides    = gliderElement.children;
+      const totalSlides = slides.length;
+      const glider = new Glider(gliderElement, {
+        slidesToShow: 4, // Default to 4 slides for desktop
+        slidesToScroll: 1,
+        draggable: true,
+        scrollLock: false, // Prevent scrolling past bounds
+        duration: 2.25,
+        dots: ".dots",
+        arrows: {
+          prev: ".tail-prev", // Update to match your custom class if necessary
+          next: ".tail-next", // Update to match your custom class if necessary
+        },
+        responsive: [
+          {
+            // Desktop (screen width > 1024px)
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            // Tablet (screen width > 767px and <= 1024px)
+            breakpoint: 768,
+            settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
-              draggable: true,
-              scrollLock: true,
-              duration: 2.25,
-              dots: ".success-slider .dots",
-              arrows: { 
-                prev: "#success-glider .test-prev", 
-                next: "#success-glider .test-next" 
-              },
-              responsive: [
-                // Mobile first: 320px and below
-                {
-                  breakpoint: 320,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    duration: 2.25,
-                  },
-                },
-                // Tablets: 767px and below
-                {
-                  breakpoint: 767,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    duration: 2.25,
-                  },
-                },
-                // Laptops: 1024px and below
-                {
-                  breakpoint: 1024,
-                  settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    duration: 2.25,
-                  },
-                },
-                // Large screens: 1400px and below
-                {
-                  breakpoint: 1400,
-                  settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    duration: 2.25,
-                  },
-                },
-              ],
-            });
-            }
-            });
-            }
+            },
+          },
+          {
+            // Mobile (screen width <= 767px)
+            breakpoint: 0, // Default breakpoint for mobile devices
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+      ftGloader.style.display = 'none';
+      ftGlider.style.visibility = 'visible';
+      ftGlider.style.position = 'relative';  // Reset position
       
-            // Function to initialize tabs
-            function initializeTabs(sectionSelector) {
-              const sections = document.querySelectorAll(sectionSelector);
-            
-              sections.forEach((section) => {
-                const tabs = section.querySelectorAll(".tab");
-                const contents = section.querySelectorAll(".content");
-                const images = section.querySelectorAll(".tab-image");
-            
-                tabs.forEach((tab) => {
-                  tab.addEventListener("click", () => {
-                    const target = tab.getAttribute("data-target");
-            
-                    // Reset active state for tabs, content, and images
-                    tabs.forEach((t) => t.classList.remove("active"));
-                    contents.forEach((content) => content.classList.remove("active"));
-                    images.forEach((image) => image.classList.remove("active"));
-            
-                    // Set active state for clicked tab, content, and image
-                    tab.classList.add("active");
-                    section.querySelector(`#${target}`).classList.add("active");
-                    section.querySelector(`#img-${target}`).classList.add("active");
-                  });
-                });
-              });
-            }
-            
-            // Initialize all tab sections
-            document.addEventListener("DOMContentLoaded", () => {
-              initializeTabs(".tabs-section");
-            });
-            
-            
-            function _expandListing(e) {
-            e.closest("div").classList.toggle("show-li");
-            e.classList.toggle("expanded-btn");
-            if (e.innerText === "See More") {
-              e.innerText = "See Less";
-            } else {
-              e.innerText = "See More";
-            }
-            }
-            document.addEventListener("scroll", function () {
-            const rightColumn = document.getElementById("valc-toc");
-            if (rightColumn) {
-              const stickySection = document.querySelector(".entire-sticky");
-              const containerRect = stickySection.getBoundingClientRect();
-              const rightOffset = window.innerWidth - containerRect.right;
-              if (containerRect.top <= 80 && containerRect.bottom >= 0) {
-                  rightColumn.classList.add("fixed");
-                  rightColumn.style.right = `${rightOffset}px`;
-              } else {
-                  rightColumn.classList.remove("fixed");
-                  rightColumn.style.right = "0";
-              }
-            }
-            });
-            
-            
-            
-            
-            if (document.getElementById("industries-glider-v6")){
-            const indGlider     = document.getElementById("indGlider");    
-            const indLoader     = document.getElementById("industries-glider-v6-loader"); 
-            window.addEventListener("load", function() {
-            var gliderElement = document.querySelector(".industries-slider .glider");
-              if (gliderElement) {      
+      // Update progress bar on slide change
+      function updateProgress(currentSlide){
+        let totalVisibleSlides;
+        if (window.innerWidth <= 767) {
+          totalVisibleSlides = 1;
+        } else if (window.innerWidth <= 1024) {
+          totalVisibleSlides = 1;
+        } else {
+          totalVisibleSlides = 1;
+        }
+        const progressPercentage =
+          ((currentSlide + totalVisibleSlides) / totalSlides) * 100;
+        progressBar.style.width = `${progressPercentage}%`;
+      }
+      
+      // Initialize progress bar
+      updateProgress(0);
+      
+      gliderElement.addEventListener("glider-slide-visible", function (event) {
+        updateProgress(event.detail.slide);
+      });
+      }
+      });
+      }
+      
+      
+      
+            if (document.getElementById("success-glider")) {
+                  window.addEventListener("load", function () {
+                  var gliderElement = document.querySelector(".success-slider .glider");
+                  if (gliderElement) {
                   new Glider(gliderElement, {
-                      slidesToShow: 6, 
-                      slidesToScroll: 1,
-                      draggable: true,
-                      scrollLock: true,
-                      duration: 2.25,
-                      dots: ".industries-slider .dots",
-                      arrows: { prev: '#industries-glider-v6 .test-prev', next: '#industries-glider-v6 .test-next' },      
-                      responsive: [
-                          {breakpoint: 320, settings: { slidesToShow: 2, slidesToScroll: 1, duration: 2.25 }},
-                          {breakpoint: 767, settings: { slidesToShow: 1, slidesToScroll: 1, itemWidth: '50%', duration: 2.25 }},
-                          {breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 1, itemWidth: '33.33%', duration: 2.25 }},
-                          {breakpoint: 1400, settings: { slidesToShow: 6, slidesToScroll: 1, itemWidth: '16.66%', duration: 2.25 }}
-                      ]
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    draggable: true,
+                    scrollLock: true,
+                    duration: 2.25,
+                    dots: ".success-slider .dots",
+                    arrows: { 
+                      prev: "#success-glider .test-prev", 
+                      next: "#success-glider .test-next" 
+                    },
+                    responsive: [
+                      // Mobile first: 320px and below
+                      {
+                        breakpoint: 320,
+                        settings: {
+                          slidesToShow: 1,
+                          slidesToScroll: 1,
+                          duration: 2.25,
+                        },
+                      },
+                      // Tablets: 767px and below
+                      {
+                        breakpoint: 767,
+                        settings: {
+                          slidesToShow: 1,
+                          slidesToScroll: 1,
+                          duration: 2.25,
+                        },
+                      },
+                      // Laptops: 1024px and below
+                      {
+                        breakpoint: 1024,
+                        settings: {
+                          slidesToShow: 2,
+                          slidesToScroll: 2,
+                          duration: 2.25,
+                        },
+                      },
+                      // Large screens: 1400px and below
+                      {
+                        breakpoint: 1400,
+                        settings: {
+                          slidesToShow: 2,
+                          slidesToScroll: 2,
+                          duration: 2.25,
+                        },
+                      },
+                    ],
                   });
-              }
-            });
-            indLoader.style.display = 'none';
-            indGlider.style.visibility = 'visible';
-            indGlider.style.position = 'relative';  // Reset position
-            }
+                  }
+                  });
+                  }
             
+                  // Function to initialize tabs
+                  function initializeTabs(sectionSelector) {
+                    const sections = document.querySelectorAll(sectionSelector);
+                  
+                    sections.forEach((section) => {
+                      const tabs = section.querySelectorAll(".tab");
+                      const contents = section.querySelectorAll(".content");
+                      const images = section.querySelectorAll(".tab-image");
+                  
+                      tabs.forEach((tab) => {
+                        tab.addEventListener("click", () => {
+                          const target = tab.getAttribute("data-target");
+                  
+                          // Reset active state for tabs, content, and images
+                          tabs.forEach((t) => t.classList.remove("active"));
+                          contents.forEach((content) => content.classList.remove("active"));
+                          images.forEach((image) => image.classList.remove("active"));
+                  
+                          // Set active state for clicked tab, content, and image
+                          tab.classList.add("active");
+                          section.querySelector(`#${target}`).classList.add("active");
+                          section.querySelector(`#img-${target}`).classList.add("active");
+                        });
+                      });
+                    });
+                  }
+                  
+                  // Initialize all tab sections
+                  document.addEventListener("DOMContentLoaded", () => {
+                    initializeTabs(".tabs-section");
+                  });
+                  
+                  
+                  function _expandListing(e) {
+                  e.closest("div").classList.toggle("show-li");
+                  e.classList.toggle("expanded-btn");
+                  if (e.innerText === "See More") {
+                    e.innerText = "See Less";
+                  } else {
+                    e.innerText = "See More";
+                  }
+                  }
+                  document.addEventListener("scroll", function () {
+                  const rightColumn = document.getElementById("valc-toc");
+                  if (rightColumn) {
+                    const stickySection = document.querySelector(".entire-sticky");
+                    const containerRect = stickySection.getBoundingClientRect();
+                    const rightOffset = window.innerWidth - containerRect.right;
+                    if (containerRect.top <= 80 && containerRect.bottom >= 0) {
+                        rightColumn.classList.add("fixed");
+                        rightColumn.style.right = `${rightOffset}px`;
+                    } else {
+                        rightColumn.classList.remove("fixed");
+                        rightColumn.style.right = "0";
+                    }
+                  }
+                  });
+                  
+                  
+                  
+                  
+                  if (document.getElementById("industries-glider-v6")){
+                  const indGlider     = document.getElementById("indGlider");    
+                  const indLoader     = document.getElementById("industries-glider-v6-loader"); 
+                  window.addEventListener("load", function() {
+                  var gliderElement = document.querySelector(".industries-slider .glider");
+                    if (gliderElement) {      
+                        new Glider(gliderElement, {
+                            slidesToShow: 6, 
+                            slidesToScroll: 1,
+                            draggable: true,
+                            scrollLock: true,
+                            duration: 2.25,
+                            dots: ".industries-slider .dots",
+                            arrows: { prev: '#industries-glider-v6 .test-prev', next: '#industries-glider-v6 .test-next' },      
+                            responsive: [
+                                {breakpoint: 320, settings: { slidesToShow: 2, slidesToScroll: 1, duration: 2.25 }},
+                                {breakpoint: 767, settings: { slidesToShow: 1, slidesToScroll: 1, itemWidth: '50%', duration: 2.25 }},
+                                {breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 1, itemWidth: '33.33%', duration: 2.25 }},
+                                {breakpoint: 1400, settings: { slidesToShow: 6, slidesToScroll: 1, itemWidth: '16.66%', duration: 2.25 }}
+                            ]
+                        });
+                    }
+                  });
+                  indLoader.style.display = 'none';
+                  indGlider.style.visibility = 'visible';
+                  indGlider.style.position = 'relative';  // Reset position
+                  }
+      
+      
+      
+      
+                 
+      
+      
+                  
+                
           
     </script>
   </body>

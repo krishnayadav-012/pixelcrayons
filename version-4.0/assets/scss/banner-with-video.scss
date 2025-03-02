@@ -86,6 +86,10 @@
       img {
         margin-left: 40px;
       }
+      &.ppc-badge {justify-content: center !important;
+        column-gap: 10px !important; gap:10px !important;
+      img{  margin:0 !important;}
+      }
     }
   }
 }

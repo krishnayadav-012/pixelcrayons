@@ -61,7 +61,7 @@
     }
     .hire-form {
       position: relative;
-      flex-basis: 35%;
+      flex-basis: 37%;
       .form-wrap {
         background: $white;
         border-radius: 30px;
@@ -227,9 +227,15 @@
         }
       }
       .badges{margin:30px 0 0; display: flex;
-        column-gap: 20px;
-        justify-content: space-between;
-        align-items: center;}
+        column-gap: 10px;
+        justify-content: center;
+        align-items: center;    column-gap: 20px;
+      
+        &.ppc-badge {justify-content: center !important;
+          column-gap: 10px !important; gap:10px !important;
+        }
+      
+      }
     }
   }
 
@@ -353,7 +359,7 @@
         }
       }
       .hire-form {
-        flex-basis: 40%;
+        flex-basis: 42%;
         .form-wrap {
           .btn-center {
             margin: 15px 0 0;
@@ -378,7 +384,7 @@
         }
       }
       .hire-form {
-        flex-basis: 40%;
+        flex-basis: 47%;
         .form-wrap {
           padding: 30px 20px;
           .btn-center {
@@ -427,7 +433,7 @@
             .bk-call{display:inline-block;}
           }
         }
-        .badges{margin:20px 0 0; justify-content: center;}
+        .badges{margin:20px 0 0; justify-content: center; }
       }
     }
   }
