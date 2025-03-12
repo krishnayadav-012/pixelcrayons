@@ -480,11 +480,18 @@
         .flex-3 {
           padding: 0 10px;
           .box-3 {
-            padding: 20px;
-            min-height: 250px;
+            min-height: 350px;
 
             h3 {
               font-size: 18px;
+            }
+
+            .flip-card-front{
+              h3{  font-size: 25px;}
+            }
+
+            .flip-card-inner {
+              h3{font-size: 25px;}
             }
 
             .overlay-text {
@@ -518,6 +525,11 @@
 @media (max-width: 767px) {
   .tailored-slide-section {
     .tailored-out {
+      .tailored-slider {
+        .flex-3 {
+          .box-3{min-height: 280px;}
+        }
+      }
       .progress-container {
         width: 70%;
       }

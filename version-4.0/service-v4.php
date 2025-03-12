@@ -12,7 +12,7 @@
     <?php require_once '../assets/include/header-files.php'; ?>
     <link rel="preload stylesheet" type="text/css" href="assets/css/service.min-v4.css" as="style" />
   </head>
-  <body id="themeAdd" class="service-menu">
+  <body id="themeAdd">
     <?php require_once 'assets/include/menu-v4.php'; ?>
     <section class="video-banner-section">
       <video id="background-video" autoplay loop muted style="background-color:#1a2649;">
@@ -64,12 +64,7 @@
                   </div>
                 </div>
               </div>
-              <div class="se-logo-box dis-flex">
-                <div class="logo-box logo1"></div>
-                <div class="logo-box logo2"></div>
-                <div class="logo-box logo3"></div>
-                <div class="logo-box logo4"></div>
-              </div>
+             
             </div>
           </div>
         </div>
