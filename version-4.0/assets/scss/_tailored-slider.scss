@@ -332,12 +332,16 @@
           background-color: $white;
           border-color: $white;
           background: url(../images/service-images/ft-prev.svg) no-repeat center;
+          
         }
       }
 
       .tail-next {
         background: url(../images/service-images/ft.svg) no-repeat center;
         right: 0;
+        &:hover{
+          transform: rotate(180deg);
+        }
       }
     }
     .progress-container {

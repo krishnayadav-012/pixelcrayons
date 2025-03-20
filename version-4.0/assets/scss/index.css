@@ -2153,7 +2153,7 @@ input:-webkit-autofill:active {
           .tabs-section .tabs-container .tabs .tab.active .normal, .tabs-section .tabs-container .tabs .tab:hover .normal {
             display: none; }
     .tabs-section .tabs-container .tab-content {
-      margin: 40px 0 0; }
+      margin: 60px 0 0; }
       .tabs-section .tabs-container .tab-content .content {
         display: none; }
         .tabs-section .tabs-container .tab-content .content h3 {
@@ -2355,6 +2355,21 @@ input:-webkit-autofill:active {
       left: 0;
       right: 0;
       margin: 0 auto; }
+  .tabs-section.kpi-tabs .tabs-container .tabs {
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 20px 30px 50px 0px #0000000d;
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 10px; }
+    .tabs-section.kpi-tabs .tabs-container .tabs .tab {
+      margin: 0; }
+      .tabs-section.kpi-tabs .tabs-container .tabs .tab.active, .tabs-section.kpi-tabs .tabs-container .tabs .tab:hover {
+        background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+        color: #fff; }
+      .tabs-section.kpi-tabs .tabs-container .tabs .tab:after {
+        display: none; }
 
 @media (max-width: 1380px) {
   .tabs-section.techno-tabs .tabs-container .tabs {
@@ -2390,7 +2405,9 @@ input:-webkit-autofill:active {
       flex-basis: 100%;
       min-height: 60px; }
   .tabs-section.technologies-tabs:after {
-    display: none; } }
+    display: none; }
+  .tabs-section.kpi-tabs .tabs-container .tabs {
+    max-width: 100%; } }
 @media (max-width: 767px) {
   .tabs-section .tab-flex {
     flex-wrap: wrap; }
@@ -2478,7 +2495,11 @@ input:-webkit-autofill:active {
           flex-basis: 100%;
           min-height: 60px; }
     .tabs-section.technologies-tabs:after {
-      display: none; } }
+      display: none; }
+  .tabs-section.kpi-tabs .tabs-container .tabs {
+    max-width: 100%; }
+  .tabs-section.kpi-tabs .tabs-container .tab-content .content .img-div {
+    margin: 30px 0 0; } }
 .service-scroller {
   display: flex;
   justify-content: center; }

@@ -104,7 +104,7 @@
     }
 
     .right-box {
-      flex-basis: 33%;
+      flex-basis:28%;
       position: relative;
       margin: 80px 0 0;
       .card-box {
@@ -266,6 +266,15 @@
 
 // Media Query Start From Here
 
+
+@media (max-width: 1680px) {
+  .video-banner-section {
+    .content-wrap {
+      .right-box{flex-basis: 32%;}
+    }
+  }
+}
+
 @media (max-width: 1440px) {
   .video-banner-section {
     .content-wrap {
@@ -301,7 +310,7 @@
 
 @media (max-width: 1280px) {
   .video-banner-section {
-    height: 600px;
+    height: 650px;
     #background-video {
       height: 100%;
     }
@@ -313,7 +322,7 @@
         }
       }
       .right-box {
-        margin: 150px 0 0;
+        margin: 200px 0 0;
         .card-box {
           &::after {
             width: 35px;

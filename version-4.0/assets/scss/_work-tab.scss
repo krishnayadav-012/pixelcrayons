@@ -61,7 +61,7 @@
     }
 
     .tab-content {
-      margin: 40px 0 0;
+      margin:60px 0 0;
       .content {
         display: none;
 
@@ -341,6 +341,18 @@
      
      }
   }
+
+  &.kpi-tabs{
+    .tabs-container {
+      .tabs{max-width: 80%; margin: 0 auto; background: #fff; box-shadow: 20px 30px 50px 0px #0000000d; border: 1px solid #dbdbdb;     padding: 15px; border-radius: 10px;
+      .tab{margin:0;
+        &.active, &:hover{    background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+          color: #fff;}
+      &:after{display:none;}
+      }
+      }
+    }
+  }
 }
 
 // Media Query Start From Here
@@ -431,6 +443,11 @@
   
       &:after{display:none;
        }
+    }
+    &.kpi-tabs{
+      .tabs-container{
+        .tabs{max-width: 100%;}
+      }
     }
   }
 }
@@ -574,6 +591,17 @@
   
       &:after{display:none;
        }
+    }
+
+    &.kpi-tabs{
+      .tabs-container{
+        .tabs{max-width: 100%;}
+        .tab-content {
+          .content {
+            .img-div{margin: 30px 0 0;}
+          }
+        }
+      }
     }
   }
 }

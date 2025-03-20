@@ -2517,6 +2517,8 @@ input:-webkit-autofill:active {
       .tailored-slide-section .tailored-out .prev-next-btn .tail-next {
         background: url(../images/service-images/ft.svg) no-repeat center;
         right: 0; }
+        .tailored-slide-section .tailored-out .prev-next-btn .tail-next:hover {
+          transform: rotate(180deg); }
     .tailored-slide-section .tailored-out .progress-container {
       position: relative;
       width: 90%;
@@ -2673,7 +2675,7 @@ input:-webkit-autofill:active {
           position: relative; }
           .fixfull-section .entire-sticky .right-column .toc-sec .toc-wrap p a:before {
             content: "";
-            background: #0b147c;
+            background: #4b1bac;
             position: absolute;
             width: 3px;
             left: -18px;
@@ -2720,7 +2722,7 @@ input:-webkit-autofill:active {
           content: "";
           width: 7px;
           height: 100%;
-          background-color: #0b147c;
+          background-color: #4b1bac;
           background-size: 100%;
           position: absolute;
           left: 0;
@@ -2763,6 +2765,57 @@ input:-webkit-autofill:active {
     .fixfull-section .entire-sticky .cta-section .right-sec {
       flex-basis: 46%; }
 
+.hamburger {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  padding: 9px 10px 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  top: 110px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  display: none;
+  align-items: center;
+  justify-content: center; }
+  .hamburger .ham-icon {
+    background: url(../images/ham-01.svg) no-repeat center;
+    width: 18px;
+    height: 17px;
+    background-size: 100%; }
+  .hamburger.show .ham-icon {
+    background: url(../images/ham-02.svg) no-repeat center; }
+
+.hb-toc .right-column {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 200px;
+  min-height: 65%;
+  background-color: #ffffff;
+  box-shadow: 0px 40px 20px 0px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(221, 221, 221, 0.83);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 0.4s ease;
+  border-radius: 10px;
+  padding: 20px; }
+  .hb-toc .right-column.active {
+    transform: translateX(0); }
+  .hb-toc .right-column .sticky-button {
+    display: none; }
+.hb-toc .fixfull-section .entire-sticky .right-column.active {
+  margin-right: 20px;
+  width: 220px;
+  top: 165px; }
+.hb-toc .fixfull-section .entire-sticky .right-column {
+  top: 165px; }
+.hb-toc .hamburger {
+  display: flex; }
+
 @media (max-width: 979px) {
   .fixfull-section .entire-sticky {
     flex-wrap: wrap; }
@@ -2798,7 +2851,10 @@ input:-webkit-autofill:active {
               width: 100%;
               border-radius: 10px; }
       .fixfull-section .entire-sticky .right-column.fixed {
-        position: initial; } }
+        position: initial; }
+
+  .hb-toc .hamburger {
+    display: none; } }
 @media (max-width: 767px) {
   .fixfull-section .entire-sticky .cta-section {
     padding: 20px; }
@@ -3547,7 +3603,7 @@ input:-webkit-autofill:active {
           .tabs-section .tabs-container .tabs .tab.active .normal, .tabs-section .tabs-container .tabs .tab:hover .normal {
             display: none; }
     .tabs-section .tabs-container .tab-content {
-      margin: 40px 0 0; }
+      margin: 60px 0 0; }
       .tabs-section .tabs-container .tab-content .content {
         display: none; }
         .tabs-section .tabs-container .tab-content .content h3 {
@@ -3749,6 +3805,21 @@ input:-webkit-autofill:active {
       left: 0;
       right: 0;
       margin: 0 auto; }
+  .tabs-section.kpi-tabs .tabs-container .tabs {
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 20px 30px 50px 0px #0000000d;
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 10px; }
+    .tabs-section.kpi-tabs .tabs-container .tabs .tab {
+      margin: 0; }
+      .tabs-section.kpi-tabs .tabs-container .tabs .tab.active, .tabs-section.kpi-tabs .tabs-container .tabs .tab:hover {
+        background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+        color: #fff; }
+      .tabs-section.kpi-tabs .tabs-container .tabs .tab:after {
+        display: none; }
 
 @media (max-width: 1380px) {
   .tabs-section.techno-tabs .tabs-container .tabs {
@@ -3784,7 +3855,9 @@ input:-webkit-autofill:active {
       flex-basis: 100%;
       min-height: 60px; }
   .tabs-section.technologies-tabs:after {
-    display: none; } }
+    display: none; }
+  .tabs-section.kpi-tabs .tabs-container .tabs {
+    max-width: 100%; } }
 @media (max-width: 767px) {
   .tabs-section .tab-flex {
     flex-wrap: wrap; }
@@ -3872,7 +3945,11 @@ input:-webkit-autofill:active {
           flex-basis: 100%;
           min-height: 60px; }
     .tabs-section.technologies-tabs:after {
-      display: none; } }
+      display: none; }
+  .tabs-section.kpi-tabs .tabs-container .tabs {
+    max-width: 100%; }
+  .tabs-section.kpi-tabs .tabs-container .tab-content .content .img-div {
+    margin: 30px 0 0; } }
 .software-costing {
   background: linear-gradient(90deg, #05164d 0%, #0c33b3 100%);
   position: relative; }
@@ -5719,7 +5796,7 @@ input:-webkit-autofill:active {
             left: 0;
             top: 5px; }
     .video-banner-section .content-wrap .right-box {
-      flex-basis: 33%;
+      flex-basis: 28%;
       position: relative;
       margin: 80px 0 0; }
       .video-banner-section .content-wrap .right-box .card-box {
@@ -5841,6 +5918,9 @@ input:-webkit-autofill:active {
 .client-img-section {
   background: #f9fcff; }
 
+@media (max-width: 1680px) {
+  .video-banner-section .content-wrap .right-box {
+    flex-basis: 32%; } }
 @media (max-width: 1440px) {
   .video-banner-section .content-wrap .right-box {
     flex-basis: 36%; } }
@@ -5856,7 +5936,7 @@ input:-webkit-autofill:active {
         padding-right: 10px; } }
 @media (max-width: 1280px) {
   .video-banner-section {
-    height: 600px; }
+    height: 650px; }
     .video-banner-section #background-video {
       height: 100%; }
     .video-banner-section .content-wrap .left-box {
@@ -5864,7 +5944,7 @@ input:-webkit-autofill:active {
       .video-banner-section .content-wrap .left-box h1 {
         font-size: 50px; }
     .video-banner-section .content-wrap .right-box {
-      margin: 150px 0 0; }
+      margin: 200px 0 0; }
       .video-banner-section .content-wrap .right-box .card-box::after {
         width: 35px;
         height: 35px; }

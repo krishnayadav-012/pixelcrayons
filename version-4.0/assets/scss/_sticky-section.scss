@@ -37,7 +37,7 @@
               position: relative;
               &:before {
                 content: "";
-                background: #0b147c;
+                background: rgba(75, 27, 172, 1);
                 position: absolute;
                 width: 3px;
                 left: -18px;
@@ -99,7 +99,7 @@
             content: "";
             width: 7px;
             height: 100%;
-            background-color: #0b147c;
+            background-color: rgba(75, 27, 172, 1);
             background-size: 100%;
             position: absolute;
             left: 0;
@@ -160,6 +160,74 @@
         flex-basis: 46%;
       }
     }
+  }
+}
+
+.hamburger {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  padding: 9px 10px 10px;
+  background: $white;
+  border-radius: 10px;
+  top: 110px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  .ham-icon {
+    background: url(../images/ham-01.svg) no-repeat center;
+    width: 18px;
+    height: 17px;
+    background-size: 100%;
+ 
+  }
+  &.show{
+    .ham-icon{ background: url(../images/ham-02.svg) no-repeat center;}
+   }
+}
+
+.hb-toc {
+  .right-column {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    min-height: 65%;
+    background-color: $white;
+    box-shadow: 0px 40px 20px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(221, 221, 221, 0.83);
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    border-radius: 10px;
+    padding: 20px;
+ 
+
+    &.active {
+      transform: translateX(0);
+    }
+
+    .sticky-button {
+      display: none;
+    }
+  }
+
+  .fixfull-section .entire-sticky .right-column.active {
+    margin-right: 20px;
+    width: 220px;
+    top: 165px;
+  }
+  .fixfull-section .entire-sticky .right-column {
+    top: 165px;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }
 
@@ -232,6 +300,7 @@
       }
     }
   }
+  .hb-toc .hamburger{display:none;}
 }
 
 
