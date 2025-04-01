@@ -4810,6 +4810,9 @@ b {
     margin-bottom: 10px; }
   .footer .footer-bottom .social-box .dis-flex a {
     margin-right: 10px; } }
+@media (max-width: 1024px) {
+  .footer-copyright .justify-sb {
+    justify-content: center; } }
 @media (max-width: 980px) {
   .footer-copyright {
     text-align: center; }

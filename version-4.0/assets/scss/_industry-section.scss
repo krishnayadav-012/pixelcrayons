@@ -168,11 +168,13 @@
 	  &:before {
 		content: "";
 		background: url(../images/check-white.svg) no-repeat;
-		width: 14px;
-		height: 14px;
+		width: 8px;
+		height: 8px;
 		position: absolute;
-		top: 6px;
+		top: 8px;
 		left: 0;
+		background: #fff;
+		border-radius: 100%;
 	  }
 	}
   }

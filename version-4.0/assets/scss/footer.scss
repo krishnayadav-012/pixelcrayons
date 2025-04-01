@@ -275,6 +275,11 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .footer-copyright .justify-sb{justify-content: center;}
+
+}
+
 @media (max-width: 980px) {
   .footer-copyright {
     text-align: center;

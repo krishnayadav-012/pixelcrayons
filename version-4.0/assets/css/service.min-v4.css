@@ -2287,7 +2287,7 @@ input:-webkit-autofill:active {
     flex-basis: 100%; } }
 /*Media Query Ends Here*/
 .tailored-slide-section {
-  background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%); }
+  background: linear-gradient(90deg, #05164D 0%, #0C33B3 100%); }
   .tailored-slide-section .top-section h2 {
     color: #ffffff; }
   .tailored-slide-section .top-section p {
@@ -4091,20 +4091,31 @@ input:-webkit-autofill:active {
         display: inline; }
         .development-phase .flex-5 .box p a:hover {
           text-decoration: underline; }
+    .development-phase .flex-5 .box:hover {
+      border: 1px solid #016BE3; }
   .development-phase .flex-5:nth-child(6n) {
     padding-right: 0; }
   .development-phase .flex-5:before {
     content: "";
     position: absolute;
-    left: 113px;
+    left: 133px;
     top: -46px;
     background: url(../images/dash-shape.png) no-repeat;
-    width: 226px;
+    width: 290px;
     height: 52px;
     background-size: 100%; }
   .development-phase .flex-5:last-child:before {
     display: none; }
 
+@media only screen and (max-width: 1900px) {
+  .development-phase .flex-5:before {
+    left: 105px;
+    top: -52px; } }
+@media only screen and (max-width: 1700px) {
+  .development-phase .flex-5:before {
+    left: 113px;
+    width: 226px;
+    top: -46px; } }
 @media only screen and (max-width: 1440px) {
   .development-phase .flex-5 {
     padding-right: 15px; }
@@ -4147,7 +4158,7 @@ input:-webkit-autofill:active {
     .development-phase .flex-5:before {
       display: none; } }
 .methodologies-section {
-  background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%); }
+  background: linear-gradient(90deg, #05164D 0%, #0C33B3 100%); }
   .methodologies-section .top-section h2 {
     color: #ffffff; }
   .methodologies-section .top-section p {
@@ -5670,6 +5681,9 @@ input:-webkit-autofill:active {
     margin-bottom: 10px; }
   .footer .footer-bottom .social-box .dis-flex a {
     margin-right: 10px; } }
+@media (max-width: 1024px) {
+  .footer-copyright .justify-sb {
+    justify-content: center; } }
 @media (max-width: 980px) {
   .footer-copyright {
     text-align: center; }
