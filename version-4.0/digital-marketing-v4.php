@@ -295,7 +295,7 @@
         </div>
       </div>
     </section>
-    <section class="dm-pricing padding-t-120 padding-b-120">
+    <section class="dm-pricing padding-t-120 padding-b-120" id="pricing">
       <div class="pricing-container">
         <div class="pricing-card">
           <div class="pricing-header">
@@ -372,7 +372,7 @@
         </div>
       </div>
     </section>
-    <section class="seo-services padding-t-120 padding-b-120">
+    <section class="seo-services padding-t-120 padding-b-120" id="deliverables">
       <div class="container">
         <div class="top-section">
           <h2>Result-Driven SEO Services</h2>
@@ -429,7 +429,7 @@
         </div>
       </div>
     </section>
-    <section class="seo-slider-section  bg-light padding-t-120 padding-b-120">
+    <section class="seo-slider-section  bg-light padding-t-120 padding-b-120" id="technology">
       <div class="container">
         <div class="top-section">
           <h2>Boost Your Bottom Line With a Proven SEO Company</h2>
@@ -737,7 +737,81 @@
 
 
 
-    
+    <section class="reputation-section padding-t-120 padding-b-120">
+        <div class="container">
+
+        <div class="top-section">
+          <h2>Control Your Reputation</h2>
+          <h3>India’s Largest Online Reputation Management Company</h3>     
+          <p>Who Can We Help?</p>
+        
+        </div>
+
+            
+        <div class="step" id="step1">
+                <div class="row">
+                    <label class="column">
+
+                    <picture>
+                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+
+                      
+                        <input type="radio" name="selection" value="Individual" hidden>
+                        Individual
+                    </label>
+                    <label class="column">
+                    <picture>
+                  <img src="assets/images/digital-m/rep-02.svg" width="58" height="58" alt="pixelcrayons">
+                </picture>
+                        <input type="radio" name="selection" value="Business" hidden>
+                        Business
+                    </label>
+                    
+                </div>
+            </div>
+            
+            <div class="step" id="step2" style="display: none;">
+                
+
+                <div class="row">
+                    <label class="column">
+                    <picture>
+                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>                        <input type="radio" name="selection" value="Celebrities" hidden>
+                        Celebrities
+                    </label>
+                    <label class="column">
+                    <picture>
+                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>                        <input type="radio" name="selection" value="Politicians" hidden>
+                        Politicians
+                    </label>
+                    <label class="column">
+                    <picture>
+                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>                        <input type="radio" name="selection" value="Executives" hidden>
+                        Executives
+                    </label>
+                    <label class="column">
+                    <picture>
+                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>                        <input type="radio" name="selection" value="Professionals" hidden>
+                        Professionals
+                    </label>
+                </div>
+
+
+            </div>
+            
+       
+            
+            <div class="navigation" style="display:none;">
+                <button id="prev">Previous</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -1416,25 +1490,10 @@
       
       
       
-      document.addEventListener("DOMContentLoaded", function () {
-            const steps = document.querySelectorAll(".step");
-            const contents = document.querySelectorAll(".content-item");
-            const progress = document.querySelector(".progress");
-            
-            steps.forEach((step, index) => {
-                step.addEventListener("click", function () {
-                    document.querySelector(".step.active").classList.remove("active");
-                    this.classList.add("active");
-                    document.querySelector(".content-item.active").classList.remove("active");
-                    document.querySelector(`.content-item[data-content='${this.dataset.step}']`).classList.add("active");
-                    progress.style.height = `${(index) * 50 + 40}%`;
-                });
-            });
-        });
+
       
       
-      
-      
+     
       
       
       
