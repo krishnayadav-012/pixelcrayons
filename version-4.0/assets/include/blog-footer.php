@@ -139,37 +139,44 @@
   </div>
 </div>
 <div class="footer-copyright">
-  <div class="container">
-    <div class="dis-flex justify-sb items-center ">
-      <div class="copyright-left">
-        <p>Copyright © 2004 - 2024 PixelCrayons,
-          All Rights Reserved. A Vinove Company.
-        </p>
-      </div>
-      <div class="footer-right">
-        <div class="star-outer" id="star" style="display:none">
-          <span class="star-inner star-hover" id="starthover">
-          <i class="star-icon"></i>
-          <i class="star-icon"></i>
-          <i class="star-icon"></i>
-          <i class="star-icon"></i>
-          <i class="star-icon"></i>
-          </span>
-          <span class="rating-txt">4.9 out of 5.0 by</span>
+    <div class="container">
+      <div class="dis-flex justify-sb items-center ">
+        <div class="copyright-left">
+                    <p>Copyright <a href="https://www.pixelcrayons.com/staging/wp-admin/post.php?post=2277&amp;action=edit">©</a> 2004 - 2025 PixelCrayons, All Rights Reserved. A Vinove Company.</p>
         </div>
-        <span class="star-outer" id="rated">
-        <i class="star-icon"></i>
-        <i class="star-icon"></i>
-        <i class="star-icon"></i>
-        <i class="star-icon"></i>
-        <i class="star-icon"></i>
-        <span class="rating-txt">4.9 out of 5.0 by</span>
-        </span>
-        <div class="client-outer">
-          <a href="https://www.valuecoders.com/" class="rate-us">4.9 out of 5.0 by 4643 clients on over 10800+ projects
-          projects
+        <div class="copyright-right">
+          <span class="star-outer" id="star" style="display:none">
+          <span class="star-inner star-hover" id="starthover">
+          <i class="star-icon" onclick="star(event)" onmouseover="changerate('one')"></i> 
+          <i class="star-icon" onclick="star(event)" onmouseover="changerate('two')"></i> 
+          <i class="star-icon" onclick="star(event)" onmouseover="changerate('three')"></i> 
+          <i class="star-icon" onclick="star(event)" onmouseover="changerate('four')"></i> 
+          <i class="star-icon" onclick="star(event)" onmouseover="changerate('five')"></i> 
+          </span>
+          <span id="rate_msg"></span>
+          </span>
+          <p>
+            <span>
+              <picture>
+                <img loading="lazy" src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/images/rating-star.svg" alt="rating">
+              </picture>
+            </span>
+            4.9 out of 5.0 by 4643 clients on over 10800+ projects
+          </p>
+        
+          <!-- <p><span class="star-outer" id="rated">
+            <i class="star-icon"></i>
+            <i class="star-icon"></i>
+            <i class="star-icon"></i>
+            <i class="star-icon"></i>
+            <i class="star-icon"></i>
+            4.9 out of 5.0 by
+            </span>
+            <p><span class="client-outer">
+            <a href="javascript:void(0)" onclick="ratenow()" id="ratebtn" class="rate-us">Rate us</a> 1218 clients on over 10800+ projects
+            </span>
+            </p>-->
         </div>
       </div>
     </div>
   </div>
-</div>

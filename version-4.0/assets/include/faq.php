@@ -1,6 +1,6 @@
 <section class="faq-section faq padding-t-120 padding-b-120">
          <div class="container">
-         <div class="heading text-center">
+         <div class="top-section b-100">
                <h2>Frequently Asked Questions</h2>
                <p>Here are answers to some questions related to hiring PHP developers or PHP technology which are
                   frequently asked by our clients.

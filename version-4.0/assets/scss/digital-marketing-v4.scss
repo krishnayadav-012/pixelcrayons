@@ -6,30 +6,20 @@
 @import "_get-started";
 @import "_dm-services";
 @import "_seo-slider";
-
-
-
-
-
-
-
 @import "_glide-core";
-@import "_service-card";
-
-@import "_overcome-started";
+@import "_service-table";
+@import "_service-expertise";
 @import "_client-section";
 @import "_counter-column-section";
-@import "_service-casestudy";
-@import "_glide-core";
 @import "_industry-section";
 @import "guide-topic";
 @import "_case-studies";
 @import "faq";
-@import "testimonial";
-@import "video-with-banner";
 @import "cta-v3";
 @import "footer";
-@import "_service-table";
+
+
+
 
 .slide-logo {
   padding-bottom: 0;
@@ -309,23 +299,6 @@
 }
 
 
-
-
-
-
-
-.glider.draggable .glider-slide img.ytcover {
-  pointer-events: inherit;
-}
-.ytcover {
-  z-index: 999;
-}
-.yt-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -9;
-}
 
 
 
