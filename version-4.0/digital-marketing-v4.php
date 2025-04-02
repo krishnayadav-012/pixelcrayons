@@ -625,60 +625,57 @@
         </div>
       </div>
     </section>
-
     <section class="seo-expertise">
-        <div class="container">
+      <div class="container">
         <div class="top-section">
-            <h2><strong>Unmatched</strong> SEO Expertise to Help<br> Your Business Drive Revenue</h2>
-            <p>From attracting new audiences to converting leads, our comprehensive digital marketing services<br> are designed to meet your unique business goals.</p>
-              </div>
-            <div class="comparison">
-                <div class="card ">
-                  <div class="card-wrap primary">
-                    <div class="card-top">
-                  <picture>
-                   <a href=""> <img src="assets/images/digital-m/pixel-logo.svg" width="204" height="72" alt="pixelcrayons"></a>
-              </picture>
-              </div>
-                    <ul>
-                        <li><i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li> <i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                    </ul>
-              </div>
-                </div>
-                <div class="card">
-                <div class="card-wrap">
-                <div class="card-top">
-                    <h3>Typically SEO Agency</h3>
-              </div>
-                    <ul>
-                        <li><i class="green-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li> <i class="green-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                    </ul>
-              </div>
-                </div>
-                <div class="card">
-                <div class="card-wrap">
-                <div class="card-top">
-                    <h3>In-house SEO</h3>
-              </div>
-                    <ul>
-                        <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
-                        <li><i class="green-check"></i> Dedicated account manager with an in-house team to develop and implement assets</li>
-                    </ul>
-              </div>
-                </div>
-            </div>
+          <h2><strong>Unmatched</strong> SEO Expertise to Help<br> Your Business Drive Revenue</h2>
+          <p>From attracting new audiences to converting leads, our comprehensive digital marketing services<br> are designed to meet your unique business goals.</p>
         </div>
+        <div class="comparison">
+          <div class="card ">
+            <div class="card-wrap primary">
+              <div class="card-top">
+                <picture>
+                  <a href=""> <img src="assets/images/digital-m/pixel-logo.svg" width="204" height="72" alt="pixelcrayons"></a>
+                </picture>
+              </div>
+              <ul>
+                <li><i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li> <i class="white-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-wrap">
+              <div class="card-top">
+                <h3>Typically SEO Agency</h3>
+              </div>
+              <ul>
+                <li><i class="green-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li> <i class="green-check"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-wrap">
+              <div class="card-top">
+                <h3>In-house SEO</h3>
+              </div>
+              <ul>
+                <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="cross"></i>Dedicated account manager with an in-house team to develop and implement assets</li>
+                <li><i class="green-check"></i> Dedicated account manager with an in-house team to develop and implement assets</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
- 
     <?php require_once './assets/include/client-section.php'; ?>
     <section class="counter-column-section bg-blue-linear padding-t-60 padding-b-60">
       <div class="container">
@@ -736,12 +733,6 @@
         </div>
       </div>
     </section>
-
-
-
-
-
-
     <section class="gets-started">
       <div class="container">
         <div class="dis-flex justify-sb">
@@ -749,7 +740,7 @@
             <div class="heading">
               <h2>Custom Strategy & Pricing</h2>
               <p>
-              Every business is unique. Get a bespoke digital marketing plan tailored to your specific goals.                  
+                Every business is unique. Get a bespoke digital marketing plan tailored to your specific goals.                  
               </p>
             </div>
             <div class="btn-div margin-t-50">
@@ -766,13 +757,8 @@
         </div>
       </div>
     </section>
-
     <?php require_once 'assets/include/common-industries.php'; ?>
-
-
     <?php require_once 'assets/include/guide-topic.php'; ?>
-  
-
     <section class="full-width-two-column  padding-t-120 padding-t-120">
       <div class="container">
         <div class="heading text-center">
@@ -916,9 +902,42 @@
         </div>
       </div>
     </section>
-   
-  
- 
+    <section class="service-testimonials padding-t-120">
+      <div class="container">
+        <div class="top-section">
+          <h2>Real Revenue Impact for our Clients</h2>
+          <h3>Merrimac Valley Psychological Associates</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<br> been the industry's standard dummy text ever since the 1500s,</p>
+        </div>
+        <div class="dis-flex glider-contain service-slider" id="service-glider">
+          <div class="glider">
+            <div class="srvice-card ">
+              <div class="ser-wrap">
+                <div class="content">
+                  <picture><img src="assets/images/digital-m/test-star.svg" width="140" height="25" alt="pixelcrayons"></picture>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <div class="reve"><span class="xx"> 2x </span>Revenue in 6 months</div>
+              </div>
+            </div>
+            <div class="srvice-card ">
+              <div class="ser-wrap">
+                <div class="content">
+                  <picture><img src="assets/images/digital-m/test-star.svg" width="140" height="25" alt="pixelcrayons"></picture>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <div class="reve"><span class="xx"> 2x </span>Revenue in 6 months</div>
+              </div>
+            </div>
+          </div>
+          <div class="test-button">
+            <button aria-label="Previous" class="test-prev">«</button>
+            <button aria-label="Next" class="test-next">»</button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- faq section -->
     <?php require_once 'assets/include/faq.php'; ?>
     <!-- cta section -->
@@ -1068,14 +1087,6 @@
         },
         responsive: [
           { 
-            breakpoint: 320, 
-            settings: { 
-              slidesToShow: 1, // Show 1 slide on mobile
-              slidesToScroll: 1,
-              duration: 2.25 
-            }
-          },
-          { 
             breakpoint: 767, 
             settings: { 
               slidesToShow: 1, // Show 1 slide on smaller tablets and phones
@@ -1083,14 +1094,7 @@
               duration: 2.25 
             }
           },
-          { 
-            breakpoint: 1024, 
-            settings: { 
-              slidesToShow: 2, // Show 2 slides on tablets and desktop
-              slidesToScroll: 1, 
-              duration: 2.25 
-            }
-          }, 
+          
           { 
             breakpoint: 1400, 
             settings: { 
@@ -1187,6 +1191,38 @@
       
       });
       });
+      
+      
+      
+      
+      if (document.getElementById("service-glider")) {
+      window.addEventListener("load", function () {
+      var gliderElement = document.querySelector(".service-slider .glider");
+      if (gliderElement) {
+      new Glider(gliderElement, {
+        slidesToShow: 1, // Default for large screens (desktop)
+        slidesToScroll: 1,
+        draggable: true,
+        scrollLock: true,
+        duration: 2.25,
+        dots: ".seo-slider .dots",
+        arrows: { 
+          prev: "#service-glider .test-prev", 
+          next: "#service-glider .test-next" 
+        },
+      });
+      }
+      });
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </script>
     <script defer src="../assets/js/script.js"></script>
   </body>

@@ -3979,6 +3979,91 @@ b {
   .full-width-two-column .img2,
   .full-width-two-column .img3 {
     background: none !important; } }
+.service-testimonials .top-section h3 {
+  color: #5e6373;
+  font-weight: 400; }
+.service-testimonials .service-slider {
+  position: relative;
+  width: 70%;
+  margin: 0 auto; }
+  .service-testimonials .service-slider .glider {
+    display: flex;
+    width: 100%;
+    overflow: hidden; }
+  .service-testimonials .service-slider .srvice-card {
+    padding: 10px; }
+    .service-testimonials .service-slider .srvice-card .ser-wrap {
+      background: white; }
+      .service-testimonials .service-slider .srvice-card .ser-wrap .content {
+        padding-left: 30px;
+        border-left: 1px solid #02b3c4; }
+        .service-testimonials .service-slider .srvice-card .ser-wrap .content p {
+          font-weight: 400; }
+        .service-testimonials .service-slider .srvice-card .ser-wrap .content img {
+          display: block;
+          margin: 0 0 5px; }
+      .service-testimonials .service-slider .srvice-card .ser-wrap .reve {
+        font-size: 21px;
+        color: #110302;
+        margin: 30px 0 0; }
+        .service-testimonials .service-slider .srvice-card .ser-wrap .reve .xx {
+          font-size: 46px;
+          color: #41d48c;
+          font-weight: 700; }
+  .service-testimonials .service-slider .test-button {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 0; }
+    .service-testimonials .service-slider .test-button .glider-dots {
+      align-items: center; }
+      .service-testimonials .service-slider .test-button .glider-dots .glider-dot {
+        display: inline-block;
+        background: #05164d;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 2px;
+        display: none; }
+        .service-testimonials .service-slider .test-button .glider-dots .glider-dot.active {
+          background: #05164d;
+          width: 16px;
+          height: 16px; }
+    .service-testimonials .service-slider .test-button .test-prev,
+    .service-testimonials .service-slider .test-button .test-next {
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 16px;
+      background: #e8e8e8 url(../images/digital-m/prev.svg) no-repeat center;
+      width: 42px;
+      height: 42px;
+      top: 50%;
+      font-size: 0;
+      opacity: 1;
+      left: -50px;
+      transform: rotate(0);
+      font-size: 0;
+      border: 0;
+      position: absolute;
+      border-radius: 100%; }
+      .service-testimonials .service-slider .test-button .test-prev:hover,
+      .service-testimonials .service-slider .test-button .test-next:hover {
+        opacity: 0.8; }
+      .service-testimonials .service-slider .test-button .test-prev.test-next,
+      .service-testimonials .service-slider .test-button .test-next.test-next {
+        background: #e8e8e8 url(../images/digital-m/prev.svg) no-repeat center;
+        right: 0;
+        transform: rotate(180deg);
+        left: auto;
+        right: -50px; }
+        .service-testimonials .service-slider .test-button .test-prev.test-next:hover,
+        .service-testimonials .service-slider .test-button .test-next.test-next:hover {
+          opacity: 0.8; }
+
+/*Media Query Start From Here*/
+/*Media Query Ends Here*/
 .faq-section .faq-outer {
   max-width: 970px;
   margin: 0 auto; }
