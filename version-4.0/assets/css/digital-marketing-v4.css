@@ -3413,6 +3413,133 @@ body.px-international #pxl-ppc-table ul li.on-inter {
       margin: 0 auto; }
       .counter-column-section .dis-flex .right-sec .cir-sec .cir-box .text-wrap {
         padding: 20px; } }
+.service-process {
+  background: linear-gradient(180deg, #ffffff 0%, #eaefff 100%); }
+  .service-process .process {
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse; }
+    .service-process .process .line-pro {
+      display: flex;
+      align-items: top;
+      position: relative; }
+      .service-process .process .line-pro .process-line {
+        position: absolute;
+        left: 60px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #c2c1c1; }
+        .service-process .process .line-pro .process-line .progress {
+          position: absolute;
+          left: 0px;
+          background: #002147;
+          width: 2px;
+          height: 33%;
+          transition: height 0.3s ease; }
+      .service-process .process .line-pro .process-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        z-index: 9;
+        position: relative; }
+        .service-process .process .line-pro .process-steps .step {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          cursor: pointer;
+          transition: opacity 0.3s ease; }
+          .service-process .process .line-pro .process-steps .step .circle {
+            width: 113px;
+            height: 113px;
+            border-radius: 50%;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.3s ease, color 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            font-size: 40px; }
+          .service-process .process .line-pro .process-steps .step.active {
+            opacity: 1; }
+          .service-process .process .line-pro .process-steps .step.active .circle {
+            background: #05164d;
+            color: white;
+            border-color: #05164d; }
+    .service-process .process .content {
+      flex-basis: 80%; }
+      .service-process .process .content img {
+        display: block;
+        margin: 0 0 20px; }
+      .service-process .process .content p {
+        font-weight: 400; }
+      .service-process .process .content .content-item {
+        opacity: 0.6;
+        margin: 0 0 50px; }
+        .service-process .process .content .content-item:last-child {
+          margin: 0; }
+        .service-process .process .content .content-item.active {
+          display: block;
+          opacity: 1; }
+
+.content-services .plateform-container {
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .content-services .plateform-container .plateform-column {
+    padding: 0 10px;
+    margin: 0 0 20px;
+    flex-basis: 33.33%; }
+    .content-services .plateform-container .plateform-column .plateform-card {
+      position: relative;
+      width: 100%;
+      padding: 20px;
+      background-color: white;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0px 0px 6.5px 0px #00000017;
+      border: 1px solid rgba(212, 224, 237, 0.7);
+      transition: transform 0.3s ease-in-out; }
+      .content-services .plateform-container .plateform-column .plateform-card img {
+        margin: 0 auto 20px;
+        display: block; }
+      .content-services .plateform-container .plateform-column .plateform-card .default-content {
+        padding: 20px; }
+      .content-services .plateform-container .plateform-column .plateform-card .hover-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #4b1bac 0%, #0b147c 100%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0;
+        transform: scale(0.9);
+        transition: opacity 0.3s ease, transform 0.3s ease; }
+        .content-services .plateform-container .plateform-column .plateform-card .hover-content .top-div {
+          display: flex;
+          gap: 20px; }
+        .content-services .plateform-container .plateform-column .plateform-card .hover-content p {
+          font-size: 14px;
+          line-height: 24px; }
+        .content-services .plateform-container .plateform-column .plateform-card .hover-content h3,
+        .content-services .plateform-container .plateform-column .plateform-card .hover-content p {
+          color: #ffffff; }
+      .content-services .plateform-container .plateform-column .plateform-card:hover {
+        transform: translateY(-5px); }
+      .content-services .plateform-container .plateform-column .plateform-card:hover .hover-content {
+        opacity: 1;
+        transform: scale(1); }
+
 :root {
   scroll-behavior: smooth; }
 

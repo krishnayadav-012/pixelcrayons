@@ -733,6 +733,207 @@
         </div>
       </div>
     </section>
+
+
+
+
+    
+
+
+
+
+
+    <section class="service-process  padding-t-60 padding-b-120" >
+      <div class="container">
+        <div class="top-section">
+          <h2>Our Process</h2>
+        </div>
+        <div class="process">
+          <div class="line-pro">
+            <div class="process-line">
+              <div class="progress"></div>
+            </div>
+            <div class="process-steps">
+              <div class="step" data-step="1">
+                <div class="circle">01</div>
+              </div>
+              <div class="step active" data-step="2">
+                <div class="circle">02</div>
+              </div>
+              <div class="step" data-step="3">
+                <div class="circle">03</div>
+              </div>
+              <div class="step" data-step="4">
+                <div class="circle">04</div>
+              </div>
+              <div class="step" data-step="5">
+                <div class="circle">05</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="content-item" data-content="1">
+              <picture>
+                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
+              </picture>
+              <h3>Step 1 Deeply understand you business and audience</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="content-item active" data-content="2">
+              <picture>
+                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
+              </picture>
+              <h3>Step 2 Deeply understand you business and audience</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="content-item" data-content="3">
+              <picture>
+                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
+              </picture>
+              <h3>Step 3 Deeply understand you business and audience</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="content-item" data-content="4">
+              <picture>
+                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
+              </picture>
+              <h3>Step 4 Deeply understand you business and audience</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="content-item" data-content="5">
+              <picture>
+                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
+              </picture>
+              <h3>Step 5 Deeply understand you business and audience</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-services padding-t-120 padding-b-120">
+      <div class="container">
+        <div class="top-section">
+          <h2>How our Content Marketing Services Help You Grow Your Platform</h2>
+        </div>
+        <div class="plateform-container">
+          <div class="plateform-column">
+            <div class="plateform-card">
+              <div class="default-content">
+                <picture>
+                  <img src="assets/images/digital-m/pserv-01.svg" width="78" height="78" alt="pixelcrayons">
+                </picture>
+                <h3>Beat your Competition</h3>
+              </div>
+              <div class="hover-content">
+                <div class="top-div">
+                  <picture>
+                    <img src="assets/images/digital-m/ho-01.svg" width="35" height="35" alt="pixelcrayons">
+                  </picture>
+                  <h3>Beat your Competition</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="plateform-column">
+            <div class="plateform-card">
+              <div class="default-content">
+                <picture>
+                  <img src="assets/images/digital-m/pserv-01.svg" width="78" height="78" alt="pixelcrayons">
+                </picture>
+                <h3>Beat your Competition</h3>
+              </div>
+              <div class="hover-content">
+                <div class="top-div">
+                  <picture>
+                    <img src="assets/images/digital-m/ho-01.svg" width="35" height="35" alt="pixelcrayons">
+                  </picture>
+                  <h3>Beat your Competition</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="plateform-column">
+            <div class="plateform-card">
+              <div class="default-content">
+                <picture>
+                  <img src="assets/images/digital-m/pserv-01.svg" width="78" height="78" alt="pixelcrayons">
+                </picture>
+                <h3>Beat your Competition</h3>
+              </div>
+              <div class="hover-content">
+                <div class="top-div">
+                  <picture>
+                    <img src="assets/images/digital-m/ho-01.svg" width="35" height="35" alt="pixelcrayons">
+                  </picture>
+                  <h3>Beat your Competition</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="plateform-column">
+            <div class="plateform-card">
+              <div class="default-content">
+                <picture>
+                  <img src="assets/images/digital-m/pserv-01.svg" width="78" height="78" alt="pixelcrayons">
+                </picture>
+                <h3>Beat your Competition</h3>
+              </div>
+              <div class="hover-content">
+                <div class="top-div">
+                  <picture>
+                    <img src="assets/images/digital-m/ho-01.svg" width="35" height="35" alt="pixelcrayons">
+                  </picture>
+                  <h3>Beat your Competition</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="plateform-column">
+            <div class="plateform-card">
+              <div class="default-content">
+                <picture>
+                  <img src="assets/images/digital-m/pserv-01.svg" width="78" height="78" alt="pixelcrayons">
+                </picture>
+                <h3>Beat your Competition</h3>
+              </div>
+              <div class="hover-content">
+                <div class="top-div">
+                  <picture>
+                    <img src="assets/images/digital-m/ho-01.svg" width="35" height="35" alt="pixelcrayons">
+                  </picture>
+                  <h3>Beat your Competition</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="plateform-column">
+            <div class="plateform-card">
+              <div class="default-content">
+                <picture>
+                  <img src="assets/images/digital-m/pserv-01.svg" width="78" height="78" alt="pixelcrayons">
+                </picture>
+                <h3>Beat your Competition</h3>
+              </div>
+              <div class="hover-content">
+                <div class="top-div">
+                  <picture>
+                    <img src="assets/images/digital-m/ho-01.svg" width="35" height="35" alt="pixelcrayons">
+                  </picture>
+                  <h3>Beat your Competition</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="gets-started">
       <div class="container">
         <div class="dis-flex justify-sb">
@@ -938,9 +1139,7 @@
         </div>
       </div>
     </section>
-    <!-- faq section -->
     <?php require_once 'assets/include/faq.php'; ?>
-    <!-- cta section -->
     <?php require_once 'assets/include/cta-v3.php'; ?>
     <?php require_once 'assets/include/blog-footer.php'; ?>
     <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264" id="pixel-glider-js"></script>
@@ -1215,6 +1414,23 @@
       });
       }
       
+      
+      
+      document.addEventListener("DOMContentLoaded", function () {
+            const steps = document.querySelectorAll(".step");
+            const contents = document.querySelectorAll(".content-item");
+            const progress = document.querySelector(".progress");
+            
+            steps.forEach((step, index) => {
+                step.addEventListener("click", function () {
+                    document.querySelector(".step.active").classList.remove("active");
+                    this.classList.add("active");
+                    document.querySelector(".content-item.active").classList.remove("active");
+                    document.querySelector(`.content-item[data-content='${this.dataset.step}']`).classList.add("active");
+                    progress.style.height = `${(index) * 50 + 40}%`;
+                });
+            });
+        });
       
       
       
