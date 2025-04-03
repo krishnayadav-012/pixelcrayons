@@ -801,7 +801,7 @@
         <div class="top-section">
           <h2>Our Process</h2>
         </div>
-        <div class="process">
+        <div class="process" id="process-section">
           <div class="line-pro">
             <div class="process-line">
               <div class="progress"></div>
@@ -1012,10 +1012,7 @@
       </div>
     </section>
     <?php require_once 'assets/include/common-industries.php'; ?>
-
     <?php require_once 'assets/include/guide-topic.php'; ?>
-
-
     <section class="full-width-two-column  padding-t-120 padding-t-120">
       <div class="container">
         <div class="heading text-center">
@@ -1482,24 +1479,26 @@
       }
       });
       }
-
-
-      document.addEventListener("DOMContentLoaded", function () {
-            const steps = document.querySelectorAll(".step");
-            const contents = document.querySelectorAll(".content-item");
-            const progress = document.querySelector(".progress");
-            
-            steps.forEach((step, index) => {
-                step.addEventListener("click", function () {
-                    document.querySelector(".step.active").classList.remove("active");
-                    this.classList.add("active");
-                    document.querySelector(".content-item.active").classList.remove("active");
-                    document.querySelector(`.content-item[data-content='${this.dataset.step}']`).classList.add("active");
-                    progress.style.height = `${(index) * 50 + 30}%`;
+      
+      
+      if (document.getElementById("process-section")) {
+            window.addEventListener("load", function () {
+                const steps = document.querySelectorAll(".step");
+                const contents = document.querySelectorAll(".content-item");
+                const progress = document.querySelector(".progress");
+                const totalSteps = steps.length;
+                
+                steps.forEach((step, index) => {
+                    step.addEventListener("click", function () {
+                        document.querySelector(".step.active").classList.remove("active");
+                        this.classList.add("active");
+                        document.querySelector(".content-item.active").classList.remove("active");
+                        document.querySelector(`.content-item[data-content='${this.dataset.step}']`).classList.add("active");
+                        progress.style.height = `${(index / (totalSteps - 1)) * 100}%`;
+                    });
                 });
             });
-        });
-      
+        }
       
       
       
