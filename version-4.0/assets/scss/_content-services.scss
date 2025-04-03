@@ -87,9 +87,39 @@
 }
 
 @media (max-width: 979px) {
+  .content-services {
+    .plateform-container {
+      .plateform-column {
+        flex-basis: 50%;
+        .plateform-card {
+          padding: 30px 20px;
+          img {
+            margin: 0 auto 15px;
+          }
+          .default-content {
+            padding: 30px 20px;
+          }
+  
+          .hover-content {
+            padding: 30px 20px;
+            .top-div {
+              gap: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
+  .content-services {
+    .plateform-container {
+      .plateform-column {
+        flex-basis: 100%;
+      }
+    }
+  }
 }
 
 @media (max-width: 479px) {

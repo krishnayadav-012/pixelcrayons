@@ -120,11 +120,56 @@
 }
 
 @media (max-width: 1024px) {
+  .service-testimonials {
+    .service-slider {
+      width: 90%;
+    }
+  }
 }
 @media (max-width: 979px) {
 }
 
 @media (max-width: 767px) {
+  .service-testimonials {
+    .service-slider {
+      width: 100%;
+      .srvice-card {
+        padding: 20px;
+        .ser-wrap {
+          .content {
+            padding-left: 20px;
+            img {
+              margin: 0 0 5px;
+            }
+          }
+
+          .reve {
+            font-size: 21px;
+            margin: 25px 0 0;
+            .xx {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+
+      .test-button {
+        top: 35%;
+        .test-prev,
+        .test-next {
+          padding: 10px 15px;
+
+          width: 35px;
+          height: 35px;
+          left: -15px;
+
+          &.test-next {
+            right: -15px;
+          }
+        }
+      }
+    }
+  }
 }
 
 /*Media Query Ends Here*/

@@ -733,90 +733,69 @@
         </div>
       </div>
     </section>
-
-
-
-
     <section class="reputation-section padding-t-120 padding-b-120">
-        <div class="container">
-
+      <div class="container">
         <div class="top-section">
           <h2>Control Your Reputation</h2>
-          <h3>India’s Largest Online Reputation Management Company</h3>     
+          <h3>India’s Largest Online Reputation Management Company</h3>
           <p>Who Can We Help?</p>
-        
         </div>
-
-            
         <div class="step" id="step1">
-                <div class="row">
-                    <label class="column">
-
-                    <picture>
-                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-                </picture>
-
-                      
-                        <input type="radio" name="selection" value="Individual" hidden>
-                        Individual
-                    </label>
-                    <label class="column">
-                    <picture>
-                  <img src="assets/images/digital-m/rep-02.svg" width="58" height="58" alt="pixelcrayons">
-                </picture>
-                        <input type="radio" name="selection" value="Business" hidden>
-                        Business
-                    </label>
-                    
-                </div>
-            </div>
-            
-            <div class="step" id="step2" style="display: none;">
-                
-
-                <div class="row">
-                    <label class="column">
-                    <picture>
-                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-                </picture>                        <input type="radio" name="selection" value="Celebrities" hidden>
-                        Celebrities
-                    </label>
-                    <label class="column">
-                    <picture>
-                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-                </picture>                        <input type="radio" name="selection" value="Politicians" hidden>
-                        Politicians
-                    </label>
-                    <label class="column">
-                    <picture>
-                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-                </picture>                        <input type="radio" name="selection" value="Executives" hidden>
-                        Executives
-                    </label>
-                    <label class="column">
-                    <picture>
-                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-                </picture>                        <input type="radio" name="selection" value="Professionals" hidden>
-                        Professionals
-                    </label>
-                </div>
-
-
-            </div>
-            
-       
-            
-            <div class="navigation" style="display:none;">
-                <button id="prev">Previous</button>
-                <button id="next">Next</button>
-            </div>
+          <div class="row">
+            <label class="column">
+              <picture>
+                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+              </picture>
+              <input type="radio" name="selection" value="Individual" hidden>
+              Individual
+            </label>
+            <label class="column">
+              <picture>
+                <img src="assets/images/digital-m/rep-02.svg" width="58" height="58" alt="pixelcrayons">
+              </picture>
+              <input type="radio" name="selection" value="Business" hidden>
+              Business
+            </label>
+          </div>
         </div>
+        <div class="step" id="step2" style="display: none;">
+          <div class="row">
+            <label class="column">
+              <picture>
+                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+              </picture>
+              <input type="radio" name="selection" value="Celebrities" hidden>
+              Celebrities
+            </label>
+            <label class="column">
+              <picture>
+                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+              </picture>
+              <input type="radio" name="selection" value="Politicians" hidden>
+              Politicians
+            </label>
+            <label class="column">
+              <picture>
+                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+              </picture>
+              <input type="radio" name="selection" value="Executives" hidden>
+              Executives
+            </label>
+            <label class="column">
+              <picture>
+                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+              </picture>
+              <input type="radio" name="selection" value="Professionals" hidden>
+              Professionals
+            </label>
+          </div>
+        </div>
+        <div class="navigation" style="display:none;">
+          <button id="prev">Previous</button>
+          <button id="next">Next</button>
+        </div>
+      </div>
     </section>
-
-
-
-
-
     <section class="service-process  padding-t-60 padding-b-120" >
       <div class="container">
         <div class="top-section">
@@ -1033,7 +1012,10 @@
       </div>
     </section>
     <?php require_once 'assets/include/common-industries.php'; ?>
+
     <?php require_once 'assets/include/guide-topic.php'; ?>
+
+    
     <section class="full-width-two-column  padding-t-120 padding-t-120">
       <div class="container">
         <div class="heading text-center">
@@ -1358,25 +1340,38 @@
           prev: "#seo-glider .test-prev", 
           next: "#seo-glider .test-next" 
         },
-        responsive: [
-          { 
-            breakpoint: 767, 
-            settings: { 
-              slidesToShow: 1, // Show 1 slide on smaller tablets and phones
-              slidesToScroll: 1, 
-              duration: 2.25 
-            }
-          },
-          
-          { 
-            breakpoint: 1400, 
-            settings: { 
-              slidesToShow: 2, // Still 2 slides on large desktops
-              slidesToScroll: 1, 
-              duration: 2.25 
-            }
-          }
-        ]
+        responsive: [{
+                 breakpoint: 320,
+                 settings: {
+                     slidesToShow: 1,
+                     duration: 2.25
+                 }
+             },
+             {
+                 breakpoint: 767,
+                 settings: {
+                     slidesToShow: 1,
+                     itemWidth: 150,
+                     duration: 1.25
+                 }
+             },
+             {
+                 breakpoint: 1024,
+                 settings: {
+                     slidesToShow: 2,
+                     itemWidth: 150,
+                     duration: 1.25
+                 }
+             },
+             {
+                 breakpoint: 1400,
+                 settings: {
+                     slidesToShow: 2,
+                     itemWidth: 150,
+                     duration: 3
+                 }
+             },
+         ],
       });
       }
       });
@@ -1487,13 +1482,6 @@
       }
       });
       }
-      
-      
-      
-
-      
-      
-     
       
       
       

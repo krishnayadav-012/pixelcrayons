@@ -1,82 +1,68 @@
-.reputation-section {position: relative;
-.top-section{
-  h3{color:#5E6373;}
-}
+.reputation-section {
+  position: relative;
+  .top-section {
+    h3 {
+      color: #5e6373;
+    }
+  }
 
-.row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  .column {
- 
-    min-width: 205px;
-    min-height: 205px;
-    position: relative;
-    padding: 20px;
-    background: white;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0px 0px 6.5px 0px #00000017;
-    border: 1px solid rgba(212, 224, 237, 0.7);
-  
+  .row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  
-  
-    img {
-      width: 50px;
-      height: 50px;
-      margin: 0 auto 5px;
-      display: block;
+    gap: 20px;
+    flex-wrap: wrap;
+    .column {
+      min-width: 205px;
+      min-height: 205px;
+      position: relative;
+      padding: 20px;
+      background: white;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0px 0px 6.5px 0px #00000017;
+      border: 1px solid rgba(212, 224, 237, 0.7);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto 5px;
+        display: block;
+      }
+
+      input {
+        display: none;
+      }
     }
-  
-    input {
-      display: none;
-    }
-  
-  
-  
+  }
+
+  &:before {
+    content: "";
+    width: 100%;
+    background: url(../images/digital-m/rep-bg.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 710px;
+    background-size: 100% 93%;
   }
 }
 
-&:before{content: "";
+.navigation {
   width: 100%;
-  background:url(../images/digital-m/rep-bg.png) no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 710px;
-  background-size: 100% 93%;}
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-.navigation{    width: 100%;
-  display: flex
-;
+  display: flex;
   justify-content: center;
-  margin:50px 0 0;
+  margin: 50px 0 0;
 
   button {
-  
-
     margin: 0 20px;
-  
+
     border: none;
-    
 
     display: inline-flex;
     padding: 14px 30px;
@@ -87,41 +73,51 @@
     font-size: $font-18;
 
     font-weight: 500;
-  border-radius: 50px;
-    box-shadow: 0px 10px 10px 0px #0000000d; min-width: 250px; text-align: center;     justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px 0px #0000000d;
+    min-width: 250px;
+    text-align: center;
+    justify-content: center;
     line-height: 1;
-  
-  &:hover{background:$navy-blue;}
-  
-  
+
+    &:hover {
+      background: $navy-blue;
+    }
   }
-
-
-
-
 }
 
-
-
+/*Media Query Start From Here*/
 
 @media (max-width: 1440px) {
-
 }
 
 @media (max-width: 1380px) {
 }
 
 @media (max-width: 1024px) {
-
 }
 
 @media (max-width: 979px) {
- 
 }
 
 @media (max-width: 767px) {
- 
+  .reputation-section {
+    position: relative;
 
+    .row {
+      gap: 10px;
+      .column {
+        min-width: 25%;
+        min-height: initial;
+        padding: 15px;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 479px) {

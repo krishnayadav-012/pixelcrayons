@@ -101,9 +101,41 @@
 @media (max-width: 1024px) {
 }
 @media (max-width: 979px) {
+  .seo-expertise {
+    .comparison {
+      width: 100%;
+      .card {
+        .card-wrap {
+          padding: 20px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
+  .seo-expertise {
+    .comparison {
+      .card {
+        flex-basis: 100%;
+        .card-wrap {
+          padding: 20px;
+
+          .card-top {
+            min-height: initial;
+          }
+
+          ul {
+            margin: 20px 0 0;
+            li {
+              margin: 0 0 15px;
+              padding-left: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /*Media Query Ends Here*/
