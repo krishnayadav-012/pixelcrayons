@@ -1015,7 +1015,7 @@
 
     <?php require_once 'assets/include/guide-topic.php'; ?>
 
-    
+
     <section class="full-width-two-column  padding-t-120 padding-t-120">
       <div class="container">
         <div class="heading text-center">
@@ -1482,6 +1482,23 @@
       }
       });
       }
+
+
+      document.addEventListener("DOMContentLoaded", function () {
+            const steps = document.querySelectorAll(".step");
+            const contents = document.querySelectorAll(".content-item");
+            const progress = document.querySelector(".progress");
+            
+            steps.forEach((step, index) => {
+                step.addEventListener("click", function () {
+                    document.querySelector(".step.active").classList.remove("active");
+                    this.classList.add("active");
+                    document.querySelector(".content-item.active").classList.remove("active");
+                    document.querySelector(`.content-item[data-content='${this.dataset.step}']`).classList.add("active");
+                    progress.style.height = `${(index) * 50 + 30}%`;
+                });
+            });
+        });
       
       
       
