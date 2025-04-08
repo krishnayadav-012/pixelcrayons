@@ -17,6 +17,13 @@
     <button id="scrollToTopBtn" class="scroll-to-top">
     <img src="assets/images/digital-m/to-top.svg" class="normal">
     </button>
+
+    <div class="hamburger" onclick="toggleTOCMenu()">
+    <span class="ham-icon"></span>
+  </div>
+
+
+
     <section class="banner-section padding-t-120 padding-b-120" style="background-image:url(assets/images/digital-m/banner.png);">
       <div class="container">
         <div class="banner-wrap dis-flex justify-sb">
@@ -154,7 +161,8 @@
         </div>
       </div>
     </section>
-    <section class="link-bar-container padding-t-120 padding-b-60" style="display:none;">
+   
+    <section class="link-bar-container padding-t-120 padding-b-60" id="valc-toc"> 
       <div class="container">
         <div class="link-bar">
           <ul>
@@ -168,7 +176,22 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
     <?php require_once 'assets/include/client-logo.php'; ?>
+
+
+
+
+
+
+
+
     <section class="tabs-section techno-tabs kpi-tabs  padding-t-120 padding-b-120" id="tabs-section-4">
       <div class="container">
         <div class="top-section">
@@ -298,6 +321,7 @@
         </div>
       </div>
     </section>
+    <div id="toc-hb"></div>
     <section class="dm-pricing padding-t-120 padding-b-120" id="pricing">
       <div class="pricing-container">
         <div class="pricing-card">
@@ -736,10 +760,6 @@
         </div>
       </div>
     </section>
-
-
-
-
     <section class="reputation-section no-bg padding-t-120 padding-b-120">
       <div class="container">
         <div class="multistep-repform">
@@ -843,14 +863,14 @@
             </div>
             <div class="form-row">
               <label class="column">
-              <picture>
+                <picture>
                   <img src="assets/images/digital-m/rep-07.svg" width="38" height="50" alt="pixelcrayons">
                 </picture>
                 <input type="radio" name="selection" value="Celebrities" hidden>
                 YES
               </label>
               <label class="column">
-              <picture>
+                <picture>
                   <img src="assets/images/digital-m/rep-08.svg" width="38" height="50" alt="pixelcrayons">
                 </picture>
                 <input type="radio" name="selection" value="Politicians" hidden>
@@ -874,70 +894,64 @@
             </div>
             <div class="form-row">
               <div class="form-wrap">
-              
-                  <div class="form-box">
-                    <form>
-                      <div class="dis-flex justify-sb">
-                        <div class="form-text-cont">
-                          <label>Name</label>
-                          <input type="text" placeholder="Full Name" id="cont_name" class="input-field" value=""
-                            maxlength="50" name="user-name" />
-                          <small>Error Message</small>
-                        </div>
-                        <div class="form-text-cont">
-                          <label>Email Address</label>
-                          <input type="text"
-                            class="input-field" placeholder="Email Address" value="" maxlength="50" name="user-email"
-                            id="cont_email" />
-                          <small>Error Message</small>
-                        </div>
-                        <div class="form-text-cont verror">
-                          <label>Phone Number</label>
-                          <input id="cont_phpne" placeholder="Phone No." type="tel" maxlength="30" name="user-phone"
-                            class="input-field flg-input">
-                          <small>Error Message</small>
-                        </div>
-                        <div class="form-text-cont verror">
-                          <label>Country</label>
-                          <input type="text" class="input-field" placeholder="Country" id="cont_country" value=""
-                            name="user-country" maxlength="50" autocomplete="off">
-                          <small>Error Message</small>
-                        </div>
-                        <div class="form-text-cont width-full">
-                          <label>Message</label>
-                          <textarea class="input-field comment-input" name="requirement" id="writemsg" placeholder="Message" maxlength="2000"></textarea>
-                          <small>Error Message</small>
-                        </div>
-                        <div class="form-text-cont width-full">
-                          <div class="form-conf">
-                            <div class="left">
-                              <span><i><img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
-                              </i>100% Confidential</span><span class="signnda"><i>                  <img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
-                              </i>We Sign NDA</span>
+                <div class="form-box">
+                  <form>
+                    <div class="dis-flex justify-sb">
+                      <div class="form-text-cont">
+                        <label>Name</label>
+                        <input type="text" placeholder="Full Name" id="cont_name" class="input-field" value=""
+                          maxlength="50" name="user-name" />
+                        <small>Error Message</small>
+                      </div>
+                      <div class="form-text-cont">
+                        <label>Email Address</label>
+                        <input type="text"
+                          class="input-field" placeholder="Email Address" value="" maxlength="50" name="user-email"
+                          id="cont_email" />
+                        <small>Error Message</small>
+                      </div>
+                      <div class="form-text-cont verror">
+                        <label>Phone Number</label>
+                        <input id="cont_phpne" placeholder="Phone No." type="tel" maxlength="30" name="user-phone"
+                          class="input-field flg-input">
+                        <small>Error Message</small>
+                      </div>
+                      <div class="form-text-cont verror">
+                        <label>Country</label>
+                        <input type="text" class="input-field" placeholder="Country" id="cont_country" value=""
+                          name="user-country" maxlength="50" autocomplete="off">
+                        <small>Error Message</small>
+                      </div>
+                      <div class="form-text-cont width-full">
+                        <label>Message</label>
+                        <textarea class="input-field comment-input" name="requirement" id="writemsg" placeholder="Message" maxlength="2000"></textarea>
+                        <small>Error Message</small>
+                      </div>
+                      <div class="form-text-cont width-full">
+                        <div class="form-conf">
+                          <div class="left">
+                            <span><i><img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
+                            </i>100% Confidential</span><span class="signnda"><i>                  <img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
+                            </i>We Sign NDA</span>
+                          </div>
+                          <div class="form-ctas">
+                            <div class="navigation">
+                              <button id="prev">Previous</button>
+                              <!--<button id="next">Next</button>-->
                             </div>
-                            <div class="form-ctas">
-                              <div class="navigation">
-                                <button id="prev">Previous</button>
-                                <!--<button id="next">Next</button>-->
-                              </div>
-                              <div class="right"><button type="submit" class="submit-btn" id="submitButton" name="submit">Send Now</button></div>
-                            </div>
+                            <div class="right"><button type="submit" class="submit-btn" id="submitButton" name="submit">Send Now</button></div>
                           </div>
                         </div>
                       </div>
-                    </form>
-                  </div>
-               
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-
-
     <section class="content-services padding-t-120 padding-b-120">
       <div class="container">
         <div class="top-section">
@@ -1663,6 +1677,39 @@
         behavior: 'smooth'
       });
       });
+
+
+
+
+
+
+      function toggleTOCMenu() {
+    const hamburgerMenu = document.getElementById("valc-toc");
+    const hamburgerButton = document.getElementById("toc-hb");
+    hamburgerMenu.classList.toggle("active");
+    hamburgerButton.classList.toggle("show");
+}
+document.addEventListener("DOMContentLoaded", function () {
+    var targetElement = document.getElementById("toc-hb");
+    window.addEventListener("scroll", function () {
+        if (targetElement) {
+            var scrollPos = window.scrollY || window.pageYOffset;
+            var targetOffset = targetElement.offsetTop;
+            if (scrollPos > targetOffset) {
+                document.body.classList.add("hb-toc");
+            } else {
+                document.body.classList.remove("hb-toc");
+            }
+        }
+    });
+});
+const links = document.querySelectorAll(".toc-wrap a");
+links.forEach((link) => {
+    link.addEventListener("click", () => {
+        links.forEach((item) => item.classList.remove("active"));
+        link.classList.add("active");
+    });
+});
       
       
       
