@@ -22,6 +22,7 @@
 @import "faq";
 @import "cta-v3";
 @import "footer";
+@import "_toggle-hamburgur";
 
 html {
   overflow-x: hidden;
@@ -303,152 +304,7 @@ html {
 
 .tabs-section.techno-tabs {background: #F9FCFF;}
 
-//Sticky Section SCSS
 
-.link-bar-container {
-  position: sticky;
-  top: 30px;
-  left: 0;
-  z-index: 9;
-  .link-bar {
-    width: 900px;
-    background: #f3f9ff;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 25px 0;
-
-    transition: opacity 0.5s ease-in-out;
-    margin: 0 auto;
-    border-radius: 50px;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      gap: 30px;
-
-      li {
-        cursor: pointer;
-        transition: color 0.3s, background 0.3s;
-        font-size: 18px;
-        color: $darkblack;
-        &.active {
-          color: #0b2fa3;
-          font-weight: 700;
-        }
-      }
-    }
-  }
-}
-
-.hide-nav {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.hb-toc{
-  .link-bar-container{display: none; top: 70px;
-    right: 0; left: auto;
-  &.active{display: block;
-  
-  .link-bar{ margin-right:0;
-    width: 220px;
-    top: 165px;  padding:20px;      margin-right: -50px;   border-radius: 5px;
-
-    ul{gap: 10px;
-      flex-wrap: wrap;     border-left: 3px solid #e5e5e5;
-      padding-left: 15px;
-    li{    flex-basis: 100%; font-size: 16px; position: relative;
-    &:before{content: "";
-      background: $royel-bg;
-      position: absolute;
-      width: 3px;
-      left: -18px;
-      top: 0px;
-      height: 30px;
-      opacity: 0;}
-      &.active{
-        &:before{opacity: 1;}
-      }
-    }
-    }
-}
-  
-  
-  
-  }
-  }
-}
-
-
-.hamburger {
-  position: fixed;
-  width: 45px;
-  height: 45px;
-  padding: 9px 10px 10px;
-  background: $white;
-  border-radius: 10px;
-  top: 110px;
-  right: 15px;
-  cursor: pointer;
-  z-index: 1000;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  .ham-icon {
-    background: url(../images/digital-m/ham-01.svg) no-repeat center;
-    width: 18px;
-    height: 17px;
-    background-size: 100%;
- 
-  }
-  &.show{
-    .ham-icon{ background: url(../images/ham-02.svg) no-repeat center;}
-   }
-}
-
-.hb-toc {
-  .right-column {
-    position: fixed;
-    top: 70px;
-    right: 0;
-    width: 200px;
-    min-height: 65%;
-    background-color: $white;
-    box-shadow: 0px 40px 20px 0px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(221, 221, 221, 0.83);
-    z-index: 999;
-    transform: translateX(100%);
-    transition: transform 0.4s ease;
-    border-radius: 10px;
-    padding: 20px;
- 
-
-    &.active {
-      transform: translateX(0);
-    }
-
-    .sticky-button {
-      display: none;
-    }
-  }
-
-  .fixfull-section .entire-sticky .right-column.active {
-    margin-right: 20px;
-    width: 220px;
-    top: 165px;
-  }
-  .fixfull-section .entire-sticky .right-column {
-    top: 165px;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-}
 
 //Media Query Start From Here
 
@@ -520,13 +376,7 @@ html {
       }
     }
   }
-  .link-bar-container{top: 70px;
-    .link-bar{width: auto; padding: 20px 15px;
-    ul{flex-wrap: wrap; gap: 15px;
-    ul{font-size: 16px;}
-    }
-    }
-  }
+
 }
 
 @media (max-width: 767px) {
