@@ -18,9 +18,36 @@
 @import "guide-topic";
 @import "_case-studies";
 @import "_service-testimonials";
+@import "_case-studies";
 @import "faq";
 @import "cta-v3";
 @import "footer";
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  padding:0;
+  border-radius: 0;
+  color: #fff;
+  background-color:transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 99;
+  &.visible{  opacity: 1;
+    pointer-events: auto;}
+    &:hover{opacity: 0.8;}
+}
+
+
 
 .slide-logo {
   padding-bottom: 0;
@@ -274,13 +301,15 @@
   }
 }
 
+.tabs-section.techno-tabs {background: #F9FCFF;}
+
 //Sticky Section SCSS
 
 .link-bar-container {
   position: sticky;
-  top: 0;
+  top: 30px;
   left: 0;
-  z-index: 1000;
+  z-index: 99;
   .link-bar {
     width: 900px;
     background: #f3f9ff;
@@ -388,6 +417,13 @@
       }
     }
   }
+  .link-bar-container{top: 70px;
+    .link-bar{width: auto; padding: 20px 15px;
+    ul{flex-wrap: wrap; gap: 15px;
+    ul{font-size: 16px;}
+    }
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -483,5 +519,8 @@
         }
       }
     }
+  }
+  .scroll-to-top {top:20%; right:5px;
+  img{width: 60px;}
   }
 }

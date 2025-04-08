@@ -14,6 +14,9 @@
   </head>
   <body id="themeAdd" class="service-menu">
     <?php require_once 'assets/include/menu-v4.php'; ?>
+    <button id="scrollToTopBtn" class="scroll-to-top">
+    <img src="assets/images/digital-m/to-top.svg" class="normal">
+    </button>
     <section class="banner-section padding-t-120 padding-b-120" style="background-image:url(assets/images/digital-m/banner.png);">
       <div class="container">
         <div class="banner-wrap dis-flex justify-sb">
@@ -733,137 +736,208 @@
         </div>
       </div>
     </section>
-    <section class="reputation-section padding-t-120 padding-b-120">
+
+
+
+
+    <section class="reputation-section no-bg padding-t-120 padding-b-120">
       <div class="container">
-        <div class="top-section">
-          <h2>Control Your Reputation</h2>
-          <h3>India’s Largest Online Reputation Management Company</h3>
-          <p>Who Can We Help?</p>
-        </div>
-        <div class="step" id="step1">
-          <div class="row">
-            <label class="column">
-              <picture>
-                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-              </picture>
-              <input type="radio" name="selection" value="Individual" hidden>
-              Individual
-            </label>
-            <label class="column">
-              <picture>
-                <img src="assets/images/digital-m/rep-02.svg" width="58" height="58" alt="pixelcrayons">
-              </picture>
-              <input type="radio" name="selection" value="Business" hidden>
-              Business
-            </label>
+        <div class="multistep-repform">
+          <div class="step" id="step1" style="display:none;">
+            <div class="top-section">
+              <h2>Control Your Reputation</h2>
+              <h3>India’s Largest Online Reputation Management Company</h3>
+              <p>Who Can We Help?</p>
+            </div>
+            <div class="form-row">
+              <label class="column">
+                <picture>
+                  <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Individual" hidden>
+                Individual
+              </label>
+              <label class="column">
+                <picture>
+                  <img src="assets/images/digital-m/rep-02.svg" width="58" height="58" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Business" hidden>
+                Business
+              </label>
+            </div>
           </div>
-        </div>
-        <div class="step" id="step2" style="display: none;">
-          <div class="row">
-            <label class="column">
-              <picture>
-                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-              </picture>
-              <input type="radio" name="selection" value="Celebrities" hidden>
-              Celebrities
-            </label>
-            <label class="column">
-              <picture>
-                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-              </picture>
-              <input type="radio" name="selection" value="Politicians" hidden>
-              Politicians
-            </label>
-            <label class="column">
-              <picture>
-                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-              </picture>
-              <input type="radio" name="selection" value="Executives" hidden>
-              Executives
-            </label>
-            <label class="column">
-              <picture>
-                <img src="assets/images/digital-m/rep-01.svg" width="38" height="50" alt="pixelcrayons">
-              </picture>
-              <input type="radio" name="selection" value="Professionals" hidden>
-              Professionals
-            </label>
+          <div class="step" id="step2" style="display:none;">
+            <div class="top-section">
+              <h2>Control Your Reputation</h2>
+              <h3>India’s Largest Online Reputation Management Company</h3>
+              <p>Who Can We Help?</p>
+            </div>
+            <div class="form-row">
+              <label class="column">
+                <picture>
+                  <img src="assets/images/digital-m/rep-03.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Celebrities" hidden>
+                Fix Negative Search Results
+              </label>
+              <label class="column">
+                <picture>
+                  <img src="assets/images/digital-m/rep-04.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Politicians" hidden>
+                Consumer Review Management
+              </label>
+              <label class="column">
+                <picture>
+                  <img src="assets/images/digital-m/rep-05.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Executives" hidden>
+                Branding and Promotion
+              </label>
+              <label class="column">
+                <picture>
+                  <img src="assets/images/digital-m/rep-06.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Professionals" hidden>
+                Something else
+              </label>
+            </div>
+            <div class="navigation">
+              <button id="prev">Previous</button>
+              <!--<button id="next">Next</button>-->
+            </div>
           </div>
-        </div>
-        <div class="navigation" style="display:none;">
-          <button id="prev">Previous</button>
-          <button id="next">Next</button>
+          <div class="step" id="step3" style="display:none;">
+            <div class="top-section">
+              <h2>Control Your Reputation</h2>
+              <h3>India’s Largest Online Reputation Management Company</h3>
+              <p>Who Can We Help?</p>
+            </div>
+            <div class="form-row">
+              <label class="column">
+                <h2>0-6</h2>
+                <input type="radio" name="selection" value="Celebrities" hidden>
+                0 to 6<br> months
+              </label>
+              <label class="column">
+                <h2>0-6</h2>
+                <input type="radio" name="selection" value="Politicians" hidden>
+                0 to 6<br> months
+              </label>
+              <label class="column">
+                <h2>>12</h2>
+                <input type="radio" name="selection" value="Executives" hidden>
+                More than<br> 12 months
+              </label>
+            </div>
+            <div class="navigation">
+              <button id="prev">Previous</button>
+              <!--<button id="next">Next</button>-->
+            </div>
+          </div>
+          <div class="step" id="step4" style="display:none;">
+            <div class="top-section">
+              <h2>Control Your Reputation</h2>
+              <h3>India’s Largest Online Reputation Management Company</h3>
+              <p>Who Can We Help?</p>
+            </div>
+            <div class="form-row">
+              <label class="column">
+              <picture>
+                  <img src="assets/images/digital-m/rep-07.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Celebrities" hidden>
+                YES
+              </label>
+              <label class="column">
+              <picture>
+                  <img src="assets/images/digital-m/rep-08.svg" width="38" height="50" alt="pixelcrayons">
+                </picture>
+                <input type="radio" name="selection" value="Politicians" hidden>
+                NO
+              </label>
+            </div>
+            <div class="navigation">
+              <button id="prev">Previous</button>
+              <!--<button id="next">Next</button>-->
+            </div>
+          </div>
+          <div class="step" id="step5">
+            <div class="top-section form-top">
+              <h2>Get in Touch</h2>
+              <p>Receive tailored solutions, expert advice, and precise estimates.</p>
+              <div class="soc-box dis-flex">
+                <a href="tel:+918882108080"><i><img loading="lazy" src="assets/images/soc-01.svg" alt="Pixelcrayons" width="20" height="20"></i>Book A Call</a>
+                <a href="https://wa.me/918882108080"><i><img loading="lazy" src="assets/images/soc-02.svg" alt="Pixelcrayons" width="20" height="20"></i>WhatsApp</a>
+                <a href=""><i><img loading="lazy" src="assets/images/soc-03.svg" alt="Pixelcrayons" width="20" height="20"></i>Email us</a>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-wrap">
+              
+                  <div class="form-box">
+                    <form>
+                      <div class="dis-flex justify-sb">
+                        <div class="form-text-cont">
+                          <label>Name</label>
+                          <input type="text" placeholder="Full Name" id="cont_name" class="input-field" value=""
+                            maxlength="50" name="user-name" />
+                          <small>Error Message</small>
+                        </div>
+                        <div class="form-text-cont">
+                          <label>Email Address</label>
+                          <input type="text"
+                            class="input-field" placeholder="Email Address" value="" maxlength="50" name="user-email"
+                            id="cont_email" />
+                          <small>Error Message</small>
+                        </div>
+                        <div class="form-text-cont verror">
+                          <label>Phone Number</label>
+                          <input id="cont_phpne" placeholder="Phone No." type="tel" maxlength="30" name="user-phone"
+                            class="input-field flg-input">
+                          <small>Error Message</small>
+                        </div>
+                        <div class="form-text-cont verror">
+                          <label>Country</label>
+                          <input type="text" class="input-field" placeholder="Country" id="cont_country" value=""
+                            name="user-country" maxlength="50" autocomplete="off">
+                          <small>Error Message</small>
+                        </div>
+                        <div class="form-text-cont width-full">
+                          <label>Message</label>
+                          <textarea class="input-field comment-input" name="requirement" id="writemsg" placeholder="Message" maxlength="2000"></textarea>
+                          <small>Error Message</small>
+                        </div>
+                        <div class="form-text-cont width-full">
+                          <div class="form-conf">
+                            <div class="left">
+                              <span><i><img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
+                              </i>100% Confidential</span><span class="signnda"><i>                  <img loading="lazy" src="assets/images/check-ff.svg" alt="Pixelcrayons">
+                              </i>We Sign NDA</span>
+                            </div>
+                            <div class="form-ctas">
+                              <div class="navigation">
+                                <button id="prev">Previous</button>
+                                <!--<button id="next">Next</button>-->
+                              </div>
+                              <div class="right"><button type="submit" class="submit-btn" id="submitButton" name="submit">Send Now</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="service-process  padding-t-60 padding-b-120" >
-      <div class="container">
-        <div class="top-section">
-          <h2>Our Process</h2>
-        </div>
-        <div class="process" id="process-section">
-          <div class="line-pro">
-            <div class="process-line">
-              <div class="progress"></div>
-            </div>
-            <div class="process-steps">
-              <div class="step" data-step="1">
-                <div class="circle">01</div>
-              </div>
-              <div class="step active" data-step="2">
-                <div class="circle">02</div>
-              </div>
-              <div class="step" data-step="3">
-                <div class="circle">03</div>
-              </div>
-              <div class="step" data-step="4">
-                <div class="circle">04</div>
-              </div>
-              <div class="step" data-step="5">
-                <div class="circle">05</div>
-              </div>
-            </div>
-          </div>
-          <div class="content">
-            <div class="content-item" data-content="1">
-              <picture>
-                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
-              </picture>
-              <h3>Step 1 Deeply understand you business and audience</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <div class="content-item active" data-content="2">
-              <picture>
-                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
-              </picture>
-              <h3>Step 2 Deeply understand you business and audience</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <div class="content-item" data-content="3">
-              <picture>
-                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
-              </picture>
-              <h3>Step 3 Deeply understand you business and audience</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <div class="content-item" data-content="4">
-              <picture>
-                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
-              </picture>
-              <h3>Step 4 Deeply understand you business and audience</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <div class="content-item" data-content="5">
-              <picture>
-                <img src="assets/images/digital-m/process-02.svg" width="42" height="42" alt="pixelcrayons">
-              </picture>
-              <h3>Step 5 Deeply understand you business and audience</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+
+
+
     <section class="content-services padding-t-120 padding-b-120">
       <div class="container">
         <div class="top-section">
@@ -1012,6 +1086,77 @@
       </div>
     </section>
     <?php require_once 'assets/include/common-industries.php'; ?>
+    <section class="tabs-section technologies-tabs padding-t-120 padding-b-120" id="tabs-section-3">
+      <div class="container">
+        <div class="top-section">
+          <h2>Real Revenue Impact for our Clients</h2>
+          <p>We use the most advanced technologies to deliver world-class solutions and the varied demands of clients in the minimum possible time.</p>
+        </div>
+        <div class="tab-flex">
+          <div class="tabs-container">
+            <ul class="tabs">
+              <li class="tab active" data-target="tech01"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Artificial Intelligence</li>
+              <li class="tab" data-target="tech02"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Blockchain</li>
+              <li class="tab" data-target="tech03"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Computer Vision</li>
+              <li class="tab" data-target="tech04"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Internet of Things</li>
+              <li class="tab" data-target="tech05"><img class="normal" src="assets/images/home-images/ticon-01.png"><img class="hover" src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
+            </ul>
+            <div class="tab-content">
+              <div class="content active" id="tech01">
+                <div class="dis-flex">
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="tech02">
+                <div class="dis-flex">
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="tech03">
+                <div class="dis-flex">
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="tech04">
+                <div class="dis-flex">
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="tech05">
+                <div class="dis-flex">
+                  <div class="flex-1 content-div">
+                    <div class="cont-col"><a href="#"><i><img  src="assets/images/home-images/tchn-01.svg"></i>CSS</a></div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>HTML</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Javascript</div>
+                    <div class="cont-col"><i><img  src="assets/images/home-images/tchn-01.svg"></i>Angular</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <?php require_once 'assets/include/guide-topic.php'; ?>
     <section class="full-width-two-column  padding-t-120 padding-t-120">
       <div class="container">
@@ -1499,6 +1644,29 @@
                 });
             });
         }
+      
+      
+      
+        const scrollBtn = document.getElementById('scrollToTopBtn');
+      
+      window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        scrollBtn.classList.add('visible');
+      } else {
+        scrollBtn.classList.remove('visible');
+      }
+      });
+      
+      scrollBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+      });
+      
+      
+      
+      
       
       
       
