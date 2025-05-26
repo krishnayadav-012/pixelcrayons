@@ -40,18 +40,32 @@ const data = {
   },
 
   "field-2": {
-    "label": "Add-Ons (Optional)",
+    "label": "Types of Emails We Create",
     "type": "checkbox",
     "name": "addons",
     "options": [
-      { "name": "Additional Platform", "price": "8000" },
-      { "name": "Reels/Short Video (≤30s)", "price": "8000" },
-      { "name": "Long-Form Blog or LinkedIn Article", "price": "3000" },
-      { "name": "Custom Templates (e.g., Canva)", "price": "12000" },
-      { "name": "Visual Assets (Banners, Ads)", "price": "4000" },
-      { "name": "Comment/DM Engagement Handling", "price": "8000" },
-      { "name": "Paid Ad Strategy + Setup", "price": "12000" },
-      { "name": "Lead Magnet / Promo Design", "price": "10000" }
+      { "name": "Welcome & onboarding flows", "price": "25" },
+      { "name": "Newsletters & promos", "price": "10" },
+      { "name": "Product/feature announcements", "price": "39" },
+      { "name": "Cart abandonment (e-commerce)", "price": "39" },
+      { "name": "Drip campaigns & lead nurturing", "price": "39" },
+      { "name": " Re-engagement & win-back", "price": "39" },
+      { "name": "Survey & feedback campaigns", "price": "39" },
+      { "name": "Event/invite series", "price": "₹69" }
+    ]
+  },
+
+  "field-3": {
+    "label": "Add-Ons (Optional)",
+    "type": "checkbox",
+    "name": "additional-services",
+    "options": [
+      { "name": "Don't Showcase my Project.", "price": "5000" },
+      { "name": "Newsletter Archive on Website", "price": "12,000/month" },
+      { "name": "Advanced Automations (flows)", "price": "16,000/flow" },
+      { "name": "CRM/ESP Integration.", "price": "8,000/setup" },
+      { "name": "Multi-language Campaigns", "price": "Custom quote" },
+      { "name": "Visual Asset Creation (GIFs, etc.)", "price": "4,000/asse" }
     ]
   }
 };
@@ -145,7 +159,6 @@ function createFieldset(key, field, index) {
       customLabel.appendChild(inputContainer);
       optionWrapper.appendChild(customLabel);
     } else {
-      // For checkbox, use two divs with classes "left" and "right"
       const label = document.createElement('label');
       label.style.display = 'flex';
       label.style.justifyContent = 'space-between';
