@@ -61,53 +61,41 @@
                 <div id="gen-form-elm"></div>
                 <div class="gen-form-elm">
                   <div class="project-section">
-  <div class="project-brief">
-    <h3>Project brief</h3>
-    <textarea placeholder="Specify your email project details *"></textarea>
-  </div>
-
-  <div class="project-flex">
-    <div class="attachments">
-      <h4>Attachments</h4>
-    <div class="upload-wrapper">
-  <label class="upload-box" for="fileInput">
-    <div class="upload-icon">    <img src="assets/images/checkout/cloud.svg" alt="cloud"></div>
-    <p>Drop files here to upload or <span class="file-select">choose files</span></p>
-<input type="file" id="fileInput" name="files[]" multiple hidden />
-  </label>
-  <ul id="filePreview" class="file-preview"></ul>
-</div>
-
-    </div>
-
-    <div class="contact-details">
-      <h4>Contact details</h4>
-      <fieldset class="input-field">
-        <input placeholder="Name *" type="text" class="input-area" name="name" data-err="Please Fill Name">
-        <small class="error-message"></small>  
-      </fieldset>
-      <fieldset class="input-field">
-        <input placeholder="Phone *" type="text" class="input-area" name="phone" data-err="Please Fill Phone Number">
-        <small class="error-message"></small>  
-      </fieldset>
-      <fieldset class="input-field">
-        <input placeholder="Email *" type="text" class="input-area" name="email" data-err="Please Fill Email">
-        <small class="error-message"></small>  
-      </fieldset>
-    </div>
-  </div>
-</div>
-
+                    <div class="project-brief">
+                      <h3>Project brief</h3>
+                      <textarea placeholder="Specify your email project details *"></textarea>
+                    </div>
+                    <div class="project-flex">
+                      <div class="attachments">
+                        <h4>Attachments</h4>
+                        <div class="upload-wrapper">
+                          <label class="upload-box" for="fileInput">
+                            <div class="upload-icon">    <img src="assets/images/checkout/cloud.svg" alt="cloud"></div>
+                            <p>Drop files here to upload or <span class="file-select">choose files</span></p>
+                            <input type="file" id="fileInput" name="files[]" multiple hidden />
+                          </label>
+                          <ul id="filePreview" class="file-preview"></ul>
+                        </div>
+                      </div>
+                      <div class="contact-details">
+                        <h4>Contact details</h4>
+                        <fieldset class="input-field">
+                          <input placeholder="Name *" type="text" class="input-area" name="name" data-err="Please Fill Name">
+                          <small class="error-message"></small>  
+                        </fieldset>
+                        <fieldset class="input-field">
+                          <input placeholder="Phone *" type="text" class="input-area" name="phone" data-err="Please Fill Phone Number">
+                          <small class="error-message"></small>  
+                        </fieldset>
+                        <fieldset class="input-field">
+                          <input placeholder="Email *" type="text" class="input-area" name="email" data-err="Please Fill Email">
+                          <small class="error-message"></small>  
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-
-
-
-
-
-
-              
               <div class="cart-wrapper-column">
                 <h3>Cart Summary</h3>
                 <div id="cart-summary" class="cart-summary"></div>
@@ -119,77 +107,74 @@
         </div>
       </div>
     </section>
- 
     <?php require_once 'assets/include/faq.php'; ?>
     <?php require_once 'assets/include/blog-footer.php'; ?>
     </script>
     <script defer src="../assets/js/script.js"></script>
     <script defer src="./assets/js/pxl-cart.js"></script>
-
-
- <script>
-   document.addEventListener('DOMContentLoaded', () => {
-  const fileInput = document.getElementById('fileInput');
-  const filePreview = document.getElementById('filePreview');
-  const dropArea = document.querySelector('.upload-box');
-
-  // Store all files cumulatively
-  let allFiles = [];
-
-  // Function to show the file list
-  const showFiles = () => {
-    filePreview.innerHTML = '';
-    allFiles.forEach(file => {
-      const li = document.createElement('li');
-      li.textContent = file.name;
-      filePreview.appendChild(li);
-    });
-  };
-
-  // Add files to the array and update list
-  const addFiles = (files) => {
-    for (let i = 0; i < files.length; i++) {
-      allFiles.push(files[i]);
-    }
-    showFiles();
-  };
-
-  // Click to trigger file input
-  dropArea.addEventListener('click', () => {
-    fileInput.click();
-  });
-
-  // Input selection
-  fileInput.addEventListener('change', () => {
-    addFiles(fileInput.files);
-    fileInput.value = ''; // reset so you can re-upload same files again if needed
-  });
-
-  // Drag events styling
-  ['dragenter', 'dragover'].forEach(eventName => {
-    dropArea.addEventListener(eventName, (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      dropArea.classList.add('highlight');
-    }, false);
-  });
-
-  ['dragleave', 'drop'].forEach(eventName => {
-    dropArea.addEventListener(eventName, (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      dropArea.classList.remove('highlight');
-    }, false);
-  });
-
-  // Drop files
-  dropArea.addEventListener('drop', (e) => {
-    const droppedFiles = e.dataTransfer.files;
-    addFiles(droppedFiles);
-  });
-});
-
-
-  </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const fileInput = document.getElementById('fileInput');
+      const filePreview = document.getElementById('filePreview');
+      const dropArea = document.querySelector('.upload-box');
+      
+      // Store all files cumulatively
+      let allFiles = [];
+      
+      // Function to show the file list
+      const showFiles = () => {
+       filePreview.innerHTML = '';
+       allFiles.forEach(file => {
+         const li = document.createElement('li');
+         li.textContent = file.name;
+         filePreview.appendChild(li);
+       });
+      };
+      
+      // Add files to the array and update list
+      const addFiles = (files) => {
+       for (let i = 0; i < files.length; i++) {
+         allFiles.push(files[i]);
+       }
+       showFiles();
+      };
+      
+      // Click to trigger file input
+      dropArea.addEventListener('click', () => {
+       fileInput.click();
+      });
+      
+      // Input selection
+      fileInput.addEventListener('change', () => {
+       addFiles(fileInput.files);
+       fileInput.value = ''; // reset so you can re-upload same files again if needed
+      });
+      
+      // Drag events styling
+      ['dragenter', 'dragover'].forEach(eventName => {
+       dropArea.addEventListener(eventName, (e) => {
+         e.preventDefault();
+         e.stopPropagation();
+         dropArea.classList.add('highlight');
+       }, false);
+      });
+      
+      ['dragleave', 'drop'].forEach(eventName => {
+       dropArea.addEventListener(eventName, (e) => {
+         e.preventDefault();
+         e.stopPropagation();
+         dropArea.classList.remove('highlight');
+       }, false);
+      });
+      
+      // Drop files
+      dropArea.addEventListener('drop', (e) => {
+       const droppedFiles = e.dataTransfer.files;
+       addFiles(droppedFiles);
+      });
+      });
+      
+      
+    </script>
   </body>
 </html>
