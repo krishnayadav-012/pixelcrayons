@@ -17,13 +17,9 @@
     <button id="scrollToTopBtn" class="scroll-to-top">
     <img src="assets/images/digital-m/to-top.svg" class="normal">
     </button>
-
-    <div class="hamburger" onclick="toggleTOCMenu()">
-    <span class="ham-icon"></span>
-  </div>
-
-
-
+    <div class="hamburger" onclick="DMtoggleTOCMenu()">
+      <span class="ham-icon"></span>
+    </div>
     <section class="banner-section padding-t-120 padding-b-120" style="background-image:url(assets/images/digital-m/banner.png);">
       <div class="container">
         <div class="banner-wrap dis-flex justify-sb">
@@ -94,75 +90,67 @@
               </div>
             </div>
             <div class="hero-card">
-              <ul>
-                <li>
-                  <i>
-                    <picture>
-                      <img loading="lazy" src="./assets/images/digital-m/boximg-01.svg" alt="Pixelcrayons"
-                        width="48" height="48">
-                    </picture>
-                  </i>
-                  <div class="box-cont">
-                    <h3>74,932,000</h3>
-                    <p>Number of words written & counting</p>
-                  </div>
-                </li>
-                <li>
-                  <i>
-                    <picture>
-                      <img loading="lazy" src="./assets/images/digital-m/boximg-02.svg" alt="Pixelcrayons"
-                        width="39" height="39">
-                    </picture>
-                  </i>
-                  <div class="box-cont">
-                    <h3>60%</h3>
-                    <p>Of articles ranking on page 1</p>
-                  </div>
-                </li>
-                <li>
-                  <i>
-                    <picture>
-                      <img loading="lazy" src="./assets/images/digital-m/boximg-03.svg" alt="Pixelcrayons"
-                        width="43" height="43">
-                    </picture>
-                  </i>
-                  <div class="box-cont">
-                    <h3>45%</h3>
-                    <p>increase in Organic traffic</p>
-                  </div>
-                </li>
-                <li>
-                  <i>
-                    <picture>
-                      <img loading="lazy" src="./assets/images/digital-m/boximg-04.svg" alt="Pixelcrayons"
-                        width="46" height="46">
-                    </picture>
-                  </i>
-                  <div class="box-cont">
-                    <h3>100+</h3>
-                    <p>Satisfied Customer</p>
-                  </div>
-                </li>
-                <li>
-                  <i>
-                    <picture>
-                      <img loading="lazy" src="./assets/images/digital-m/boximg-05.svg" alt="Pixelcrayons"
-                        width="48" height="48">
-                    </picture>
-                  </i>
-                  <div class="box-cont">
-                    <h3>15+</h3>
-                    <p>Industries Served </p>
-                  </div>
-                </li>
-              </ul>
+              <div class="strt-sec">
+                <div class="img-div">
+                  <picture>
+                    <source type="image/webp" srcset="./assets/images/card-thumb.png">
+                    <source type="image/png" srcset="./assets/images/card-thumb.png">
+                    <img loading="lazy" src="./assets/images/card-thumb.png"
+                      alt="Pixelcrayons" width="88" height="92">
+                  </picture>
+                </div>
+                <div class="cont-div">
+                  <p><strong>PixelCrayons’</strong> digital marketing services have been a game-changer for our business, significantly boosting our online.</p>
+                  <h3>-Hendrick</h3>
+                </div>
+              </div>
+              <div class="clb">
+                <img loading="lazy" src="./assets/images/flavia.png" alt="Clutch icon">
+                Flavia A, Review from Clutch.co
+              </div>
+              <div class="ratings">
+                <div class="rating">
+                  <img loading="lazy" src="./assets/images/5-star.svg" alt="Clutch icon">
+                  <span>Rated 4.8/5 stars on <strong>G2</strong></span>
+                </div>
+                <div class="rating">
+                  <img loading="lazy" src="./assets/images/5-star.svg" alt="Clutch icon"><span>Rated 4.9/5 stars on <strong>Clutch</strong></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-   
-    <section class="link-bar-container padding-t-120 padding-b-60" id="valc-toc"> 
+    <section class="stats-section" id="statsSection">
+  <div class="container">
+    <div class="stats-container">
+      <div class="stat-item">
+        <h3 class="counter" data-target="150">0%</h3>
+        <p>Conversion Rate</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="500">0+</h3>
+        <p>Digital Experts</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="15">0+</h3>
+        <p>Revenue Generated</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="100">0+</h3>
+        <p>Satisfied Customer</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="15">0+</h3>
+        <p>Industries Served</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="link-bar-container padding-t-120 padding-b-60" id="valc-toc" style="display:none;">
       <div class="container">
         <div class="link-bar">
           <ul>
@@ -176,22 +164,7 @@
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
     <?php require_once 'assets/include/client-logo.php'; ?>
-
-
-
-
-
-
-
-
     <section class="tabs-section techno-tabs kpi-tabs  padding-t-120 padding-b-120" id="tabs-section-4">
       <div class="container">
         <div class="top-section">
@@ -895,7 +868,8 @@
             <div class="form-row">
               <div class="form-wrap">
                 <div class="form-box">
-                  <form>
+                <form action="" onsubmit="return validateForm(this);" return false;">
+
                     <div class="dis-flex justify-sb">
                       <div class="form-text-cont">
                         <label>Name</label>
@@ -939,7 +913,7 @@
                               <button id="prev">Previous</button>
                               <!--<button id="next">Next</button>-->
                             </div>
-                            <div class="right"><button type="submit" class="submit-btn" id="submitButton" name="submit">Send Now</button></div>
+                            <div class="right"> <input type="submit" id="submitButton" class="submit-btn" value="Send Now" /></div>
                           </div>
                         </div>
                       </div>
@@ -947,6 +921,46 @@
                   </form>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="development-phase padding-t-120 padding-b-60">
+      <div class="container">
+        <div class="top-section">
+          <h2>Our Process</h2>
+        </div>
+        <div class="dis-flex col-box-outer margin-t-50">
+          <div class="flex-5">
+            <div class="box">
+              <h3>Strategy Assessment</h3>
+              <p>Measuring the readiness of your business to build a strategic roadmap.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Technology Assessment</h3>
+              <p>Suggesting technological advancements to fill in the identified gaps.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Implementation</h3>
+              <p>Assessing quality of the in-progress projects to execute successful transformation.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Review</h3>
+              <p>Looking at all the features & functionalities to ensure seamless transformation experience.</p>
+            </div>
+          </div>
+          <div class="flex-5">
+            <div class="box">
+              <h3>Constant 
+              Optimization</h3>
+              <p>Suggesting optimization strategies to support constant growth and innovation.</p>
             </div>
           </div>
         </div>
@@ -1171,6 +1185,63 @@
         </div>
       </div>
     </section>
+    <section class="seo-services guide-services padding-t-120 padding-b-120" id="deliverables">
+      <div class="container">
+        <div class="top-section">
+          <h2>Result-Driven SEO Services</h2>
+          <p>From attracting new audiences to converting leads, our comprehensive digital marketing services are designed to meet your unique business goals.</p>
+        </div>
+        <div class="seo-content">
+          <div class="seo-menu">
+            <ul>
+              <li class="active" data-target="seo-audits">SEO Audit Services</li>
+              <li  data-target="google-seo">Google SEO</li>
+              <li data-target="being-seo">Being SEO</li>
+              <li data-target="local-seo">Local SEO</li>
+              <li data-target="enterprise-seo">Enterprise SEO Services</li>
+              <li data-target="ecommerce-seo">eCommerce SEO Services</li>
+            </ul>
+          </div>
+          <div class="seo-details">
+            <div  id="seo-audits" class="seo-section active">
+              <h3><i><img src="assets/images/digital-m/seo01.svg" width="62" height="52" alt="pixelcrayons"></i>SEO Audit Services</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <ul>
+                <li>Lorem Ipsum is simply dummy text of the printing</li>
+                <li> Lorem Ipsum has been the industry's standard</li>
+              </ul>
+              <iframe src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/home-video.mp4" width="" height=""></iframe>
+            </div>
+            <div id="google-seo" class="seo-section">
+              <h3><i><img src="assets/images/digital-m/seo01.svg" width="62" height="52" alt="pixelcrayons"></i>Google SEO</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="being-seo" class="seo-section">
+              <h3><i><img src="assets/images/digital-m/seo01.svg" width="62" height="52" alt="pixelcrayons"></i>Being SEO</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="local-seo" class="seo-section">
+              <h3><i><img src="assets/images/digital-m/seo01.svg" width="62" height="52" alt="pixelcrayons"></i>Local SEO</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="enterprise-seo" class="seo-section">
+              <h3><i><img src="assets/images/digital-m/seo01.svg" width="62" height="52" alt="pixelcrayons"></i>Enterprise SEO Services</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="ecommerce-seo" class="seo-section">
+              <h3><i><img src="assets/images/digital-m/seo01.svg" width="62" height="52" alt="pixelcrayons"></i>eCommerce SEO Services</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <?php require_once 'assets/include/guide-topic.php'; ?>
     <section class="full-width-two-column  padding-t-120 padding-t-120">
       <div class="container">
@@ -1363,7 +1434,52 @@
         });
       });
     </script>
-    <script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const section = document.getElementById("statsSection");
+    const counters = section.querySelectorAll(".counter");
+    let started = false;
+
+    const startCounters = () => {
+      counters.forEach(counter => {
+        const target = +counter.dataset.target;
+        const isPercentage = counter.textContent.includes('%');
+        const suffix = isPercentage ? '%' : '+';
+
+        let count = 0;
+        const increment = target / 100;
+
+        const update = () => {
+          count += increment;
+          if (count < target) {
+            counter.textContent = Math.ceil(count) + suffix;
+            requestAnimationFrame(update);
+          } else {
+            counter.textContent = target + suffix;
+          }
+        };
+
+        update();
+      });
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !started) {
+          started = true;
+          startCounters();
+        }
+      });
+    }, {
+      threshold: 0.4
+    });
+
+    observer.observe(section);
+  });
+</script>
+
       // Function to initialize tabs
       function initializeTabs(sectionSelector) {
                     const sections = document.querySelectorAll(sectionSelector);
@@ -1639,25 +1755,7 @@
       });
       }
       
-      
-      if (document.getElementById("process-section")) {
-            window.addEventListener("load", function () {
-                const steps = document.querySelectorAll(".step");
-                const contents = document.querySelectorAll(".content-item");
-                const progress = document.querySelector(".progress");
-                const totalSteps = steps.length;
-                
-                steps.forEach((step, index) => {
-                    step.addEventListener("click", function () {
-                        document.querySelector(".step.active").classList.remove("active");
-                        this.classList.add("active");
-                        document.querySelector(".content-item.active").classList.remove("active");
-                        document.querySelector(`.content-item[data-content='${this.dataset.step}']`).classList.add("active");
-                        progress.style.height = `${(index / (totalSteps - 1)) * 100}%`;
-                    });
-                });
-            });
-        }
+
       
       
       
@@ -1677,41 +1775,98 @@
         behavior: 'smooth'
       });
       });
-
-
-
-
-
-
-      function toggleTOCMenu() {
-    const hamburgerMenu = document.getElementById("valc-toc");
-    const hamburgerButton = document.getElementById("toc-hb");
-    hamburgerMenu.classList.toggle("active");
-    hamburgerButton.classList.toggle("show");
-}
-document.addEventListener("DOMContentLoaded", function () {
-    var targetElement = document.getElementById("toc-hb");
-    window.addEventListener("scroll", function () {
-        if (targetElement) {
-            var scrollPos = window.scrollY || window.pageYOffset;
-            var targetOffset = targetElement.offsetTop;
-            if (scrollPos > targetOffset) {
-                document.body.classList.add("hb-toc");
-            } else {
-                document.body.classList.remove("hb-toc");
-            }
-        }
-    });
-});
-const links = document.querySelectorAll(".toc-wrap a");
-links.forEach((link) => {
-    link.addEventListener("click", () => {
-        links.forEach((item) => item.classList.remove("active"));
-        link.classList.add("active");
-    });
-});
       
       
+      
+      
+ 
+
+      function dmtoggleTOCMenu() {
+                const hamburgerMenu = document.getElementById("pixel-toc");
+                const hamburgerButton = document.getElementById("pxtoc-hb");
+                hamburgerMenu.classList.toggle("active");
+                hamburgerButton.classList.toggle("show");
+                }
+                document.addEventListener("DOMContentLoaded", function () {
+                var targetElement = document.getElementById("pxtoc-hb");
+                window.addEventListener("scroll", function () {
+                  if (targetElement) {
+                      var scrollPos = window.scrollY || window.pageYOffset;
+                      var targetOffset = targetElement.offsetTop;
+                      if (scrollPos > targetOffset) {
+                          document.body.classList.add("dmhb-toc");
+                      } else {
+                          document.body.classList.remove("dmhb-toc");
+                      }
+                  }
+                });
+                });
+
+
+
+
+
+               
+    <script>
+  // Reusable function to validate required fields
+  function validateForm(formElement) {
+    const inputs = formElement.querySelectorAll('.input-field, textarea');
+    let isValid = true;
+
+    inputs.forEach((input) => {
+      const errorMsg = input.parentElement.querySelector('small');
+      if (input.value.trim() === '') {
+        errorMsg.textContent = `${getLabelText(input)} is required`;
+        input.classList.add('input-error');
+        isValid = false;
+      } else {
+        errorMsg.textContent = '';
+        input.classList.remove('input-error');
+      }
+    });
+
+    return isValid;
+  }
+
+  // Helper function to get label text for better error messages
+  function getLabelText(input) {
+    const label = input.parentElement.querySelector('label');
+    return label ? label.textContent : 'This field';
+  }
+
+  // Attach the validation to the form submit event
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // prevent default form submission
+      const isFormValid = validateForm(form);
+
+      if (isFormValid) {
+        console.log("Form is valid. Proceed with AJAX or submission.");
+        // Submit via AJAX or manually: form.submit();
+      } else {
+        console.log("Form has errors.");
+      }
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>  
       
       
       

@@ -1,15 +1,14 @@
-
 .link-bar-container {
   position: sticky;
   top: 30px;
   left: 0;
   z-index: 9;
+
   .link-bar {
     width: 900px;
     background: #f3f9ff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 25px 0;
-
     transition: opacity 0.5s ease-in-out;
     margin: 0 auto;
     border-radius: 50px;
@@ -27,9 +26,13 @@
         transition: color 0.3s, background 0.3s;
         font-size: 18px;
         color: $darkblack;
+
         &.active {
           color: #0b2fa3;
           font-weight: 700;
+        }
+        &:hover {
+          color: #0b2fa3;
         }
       }
     }
@@ -40,9 +43,6 @@
   opacity: 0;
   pointer-events: none;
 }
-
-
-
 
 .hamburger {
   position: fixed;
@@ -60,102 +60,122 @@
   display: none;
   align-items: center;
   justify-content: center;
+
   .ham-icon {
     background: url(../images/digital-m/ham-01.svg) no-repeat center;
     width: 18px;
     height: 17px;
     background-size: 100%;
- 
   }
-  &.show{
-    .ham-icon{ background: url(../images/ham-02.svg) no-repeat center;}
-   }
+
+  &.show {
+    .ham-icon {
+      background: url(../images/ham-02.svg) no-repeat center;
+    }
+  }
 }
 
-
-.hb-toc{
-  .link-bar-container{display: none; top: 70px;
-    right: 0; left: auto;
-  &.active{display: block;
-  
-  .link-bar{ margin-right:0;
+/* Updated Section */
+.dmhb-toc {
+  .link-bar-container {
+    /* Instead of display:none, use opacity and pointer-events */
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    position: fixed;
+    top: 170px;
+    right: 40px;
+    left: auto;
     width: 220px;
-    top: 165px;  padding:20px;      margin-right: -50px;   border-radius: 5px;
+    z-index: 999;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    border-radius: 10px;
+    padding: 20px;
+    background: #f3f9ff;
+    box-shadow: 0px 40px 20px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(221, 221, 221, 0.83);
+    .container{padding:0;}
 
-    ul{gap: 10px;
-      flex-wrap: wrap;     border-left: 3px solid #e5e5e5;
-      padding-left: 15px;
-    li{    flex-basis: 100%; font-size: 16px; position: relative;
-    &:before{content: "";
-      background: $royel-bg;
-      position: absolute;
-      width: 3px;
-      left: -18px;
-      top: 0px;
-      height: 30px;
-      opacity: 0;}
-      &.active{
-        &:before{opacity: 1;}
+    .link-bar {
+      margin-right: 0;
+      width: 100%;
+      padding: 0;
+      border-radius:0;
+      box-shadow: none;
+
+      ul {
+        gap: 10px;
+        flex-wrap: wrap;
+        border-left: 3px solid #e5e5e5;
+        padding-left: 15px;
+
+        li {
+          flex-basis: 100%;
+          font-size: 16px;
+          position: relative;
+
+          &:before {
+            content: "";
+            background: $royel-bg;
+            position: absolute;
+            width: 3px;
+            left: -18px;
+            top: 0px;
+            height: 30px;
+            opacity: 0;
+          }
+
+          &.active {
+            &:before {
+              opacity: 1;
+            }
+          }
+        }
       }
     }
+
+    &.active {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(0);
     }
-}
-  
-  
-  
   }
-  }
+
   .hamburger {
     display: flex;
   }
 }
 
-
-
-/*Media Query Start From Here*/
-
-@media (max-width: 1440px) {
- 
-}
-
-@media (max-width: 1320px) {
-
-
- 
- 
-}
-
-@media (max-width: 1024px) {
-}
-
+/* Media Queries */
 @media (max-width: 979px) {
-
-  .link-bar-container{
-    .link-bar {width: auto;
-      ul{flex-wrap: wrap; gap:15px;
-        li{font-size: 15px; font-size: 16px;}
+  .link-bar-container {
+    .link-bar {
+      width: auto;
+      ul {
+        flex-wrap: wrap;
+        gap: 15px;
+        li {
+          font-size: 16px;
+        }
       }
     }
   }
 
-  .hb-toc{
-    .link-bar-container{top: 115px;
-    &.active{
-      .link-bar{margin-right: 0;
-    ul{
-      li{font-size: 15px;}
-    }
-      }
-    }
+  .dmhb-toc {
+    .link-bar-container {
+      top: 165px;
     }
   }
-  
 }
 
 @media (max-width: 767px) {
-
-
-  
+  .dmhb-toc{
+    .link-bar-container{width: 90%; left:0; right:0; margin:0 auto;}
+  }
 }
 
-/*Media Query Ends Here*/
+
+
+@media (max-width: 479px) {
+  
+}

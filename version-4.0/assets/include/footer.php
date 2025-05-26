@@ -114,6 +114,7 @@
       <div class="dis-flex justify-sb items-center ">
         <div class="copyright-left">
                     <p>Copyright © 2004 - 2025 PixelCrayons, All Rights Reserved. A Vinove Company.</p>
+                   
         </div>
         <div class="copyright-right">
           <span class="star-outer" id="star" style="display:none">

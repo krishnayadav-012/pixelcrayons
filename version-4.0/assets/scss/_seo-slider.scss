@@ -24,7 +24,7 @@
       .hdblue {
         background: linear-gradient(90deg, #05164d 0%, #0b2fa3 100%);
         border-radius: 15px 0 15px 0;
-        max-width: 320px;
+        max-width: 355px;
         color: white;
         padding: 15px;
         font-size: 24px;
@@ -108,8 +108,8 @@
         }
       }
 
-      .test-prev,
-      .test-next {
+      .seo-prev,
+      .seo-next {
         padding: 10px 15px;
         cursor: pointer;
         border-radius: 16px;
@@ -130,7 +130,7 @@
           opacity: 0.8;
         }
 
-        &.test-next {
+        &.seo-next {
           background: #e8e8e8 url(../images/digital-m/prev.svg) no-repeat center;
           right: 0;
           transform: rotate(180deg);
@@ -233,12 +233,12 @@
           }
         }
   
-        .test-prev,
-        .test-next {
+        .seo-prev,
+        .seo-next {
           width: 35px;
           height: 35px;
           left:-15px;
-          &.test-next {
+          &.seo-next {
             right: -15px;
           }
         }

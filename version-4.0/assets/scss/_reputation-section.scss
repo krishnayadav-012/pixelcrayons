@@ -41,7 +41,10 @@
           display: block;
         }
 
-        h2 {
+        .h2-like {
+          font-size: 46px;
+          line-height: 58px;
+          margin: 0 0 15px;
           font-weight: $normal-font;
           color: $navy-blue;
         }
@@ -330,7 +333,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 710px;
+    height: 800px;
     background-size: 100% 93%;
   }
 
@@ -341,7 +344,47 @@
   }
 }
 
+.autocomplete-items {
+  &.has-data {
+    display: block;
+    height: 170px;
+    overflow-y: auto;
+    position: absolute;
+    top: 83px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 6px 9px rgba(1, 0, 12, 0.43);
+    background: #fff;
+    border-radius: 5px;
+
+    div {
+      border: 1px solid #e0e6ea;
+      color: #666e86;
+      border: 1px solid #e0e6ea;
+      background-color: #fff;
+      padding: 10px;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 15px 20px;
+
+      &.autocomplete-active,
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+}
+
 /*Media Query Start From Here*/
+
+@media (max-width: 1580px) {
+  .reputation-section {
+    &:before {
+      height: 730px;
+    }
+  }
+}
 
 @media (max-width: 1440px) {
   .reputation-section {
@@ -381,6 +424,21 @@
             &:before {
               left: 8px;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .reputation-section {
+    .multistep-repform {
+      .form-row {
+        .column {
+          .h2-like {
+            font-size: 40px;
+            line-height: 52px;
           }
         }
       }
@@ -437,6 +495,9 @@
         }
       }
     }
+    &:before {
+      height: 700px;
+    }
   }
 }
 
@@ -457,7 +518,35 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .reputation-section {
+    .multistep-repform {
+      .form-row {
+        .column {
+          .h2-like {
+            font-size: 37px;
+            line-height: 45px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 979px) {
+  .reputation-section {
+    .multistep-repform {
+      .form-row {
+        .column {
+          .h2-like {
+            font-size: 35px;
+            line-height: 45px;
+            margin: 0 0 15px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -473,13 +562,17 @@
         }
       }
       .form-row {
-        display: initial;
         gap: 10px;
 
         .column {
           min-width: 100%;
           min-height: initial;
           padding: 15px;
+
+          .h2-like {
+            font-size: 25px;
+            line-height: 33px;
+          }
 
           img {
             width: 40px;

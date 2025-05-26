@@ -142,8 +142,14 @@
     <div class="container">
       <div class="dis-flex justify-sb items-center ">
         <div class="copyright-left">
-                    <p>Copyright <a href="https://www.pixelcrayons.com/staging/wp-admin/post.php?post=2277&amp;action=edit">©</a> 2004 - 2025 PixelCrayons, All Rights Reserved. A Vinove Company.</p>
-        </div>
+                    
+        <p>Copyright <a href="https://www.pixelcrayons.com/staging/wp-admin/post.php?post=2277&amp;action=edit">©</a> 2004 - 2025 PixelCrayons, All Rights Reserved. A Vinove Company.</p>
+        <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Disclaimer</a></li>
+      
+    </ul>
+      </div>
         <div class="copyright-right">
           <span class="star-outer" id="star" style="display:none">
           <span class="star-inner star-hover" id="starthover">

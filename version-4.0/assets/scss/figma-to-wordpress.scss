@@ -71,7 +71,8 @@
       h3 {
         margin: 0 0 20px;
         a {
-          color: $arsenic-dark;
+          color: #110302;
+          &:hover{text-decoration: underline;}
         }
       }
 

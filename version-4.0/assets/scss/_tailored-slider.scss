@@ -239,38 +239,7 @@
           }
         }
 
-        &:first-child {
-          .box-3 {
-            .flip-card-inner {
-              .flip-card-front {
-                background: linear-gradient(180deg, #0f1a99 26%, #511eb7 100%);
-
-                p,
-                h3,
-                h4 {
-                  color: $white;
-                }
-                .prod {
-                  color: rgba(255, 255, 255, 0.8);
-                }
-                .card-bottom {
-                  &:before {
-                    background: rgba(255, 255, 255, 0.3);
-                  }
-                }
-              }
-            }
-          }
-
-          .card-bottom {
-            .cbtn {
-              background: #624de3;
-              color: rgba(255, 255, 255, 0.8);
-            }
-          }
-        }
-
-        &:nth-child(3) {
+        &:nth-child(1n) {
           .box-3 {
             .flip-card-inner {
               .flip-card-front {
@@ -286,17 +255,20 @@
           }
         }
 
-        &:nth-child(4) {
-          .flip-card-inner {
-            .flip-card-front {
-              background: $white;
-            }
-            .card-bottom {
-              .cbtn {
-                background: #dcfbe9;
+        &:nth-child(2n) {
+          .box-3 {
+            .flip-card-inner {
+              .flip-card-front {
+                background: $white;
+              }
+              .card-bottom {
+                .cbtn {
+                  background: #dcfbe9;
+                }
               }
             }
           }
+         
         }
       }
     }

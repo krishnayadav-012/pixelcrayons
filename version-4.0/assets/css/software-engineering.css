@@ -1965,11 +1965,14 @@ input:-webkit-autofill:active {
     border-bottom: 1px solid rgba(5, 22, 77, 0.4);
     padding: 0 0 25px; }
     .slide-logo .logo-section .glide__slide {
-      height: 70px; }
+      height: 90px; }
       .slide-logo .logo-section .glide__slide img {
         width: 100%;
         vertical-align: middle; }
 
+@media (max-width: 1042px) {
+  .slide-logo .logo-section .glide__slide {
+    height: 50px; } }
 @media only screen and (max-width: 479px) {
   .slide-logo {
     display: none;
@@ -2225,25 +2228,30 @@ body.px-international #pxl-ppc-table ul li.on-inter {
   .table-list-section .view-more {
     bottom: 225px; } }
 @media only screen and (max-width: 991px) {
-  .table-list-section .table-list .more-spc {
-    padding: 20px 15px; }
-  .table-list-section .table-list .title {
-    font-size: 16px;
-    min-height: 90px;
-    line-height: 24px; }
-  .table-list-section .table-list .more-txt {
-    min-height: 200px; }
-  .table-list-section .table-list ul li {
-    font-size: 13px;
-    line-height: 24px;
-    padding: 12px 10px;
-    min-height: 120px; }
-  .table-list-section .table-list:first-child ul li {
-    padding-left: 10px; }
-  .table-list-section .table-list .gtstart {
-    font-size: 13px; }
-    .table-list-section .table-list .gtstart:first-child ul li {
+  .table-list-section .table-wrap {
+    position: relative;
+    overflow-x: auto; }
+    .table-list-section .table-wrap .col-box-outer {
+      overflow: scroll;
+      width: 100%;
+      flex-wrap: nowrap; }
+    .table-list-section .table-wrap .table-list .more-spc {
+      padding: 20px 15px; }
+    .table-list-section .table-wrap .table-list .title {
+      font-size: 16px;
+      min-height: 90px;
+      line-height: 24px; }
+    .table-list-section .table-wrap .table-list ul li {
+      font-size: 13px;
+      line-height: 24px;
+      padding: 12px 10px;
+      min-height: 120px; }
+    .table-list-section .table-wrap .table-list:first-child ul li {
       padding-left: 10px; }
+    .table-list-section .table-wrap .table-list .gtstart {
+      font-size: 13px; }
+      .table-list-section .table-wrap .table-list .gtstart:first-child ul li {
+        padding-left: 10px; }
   .table-list-section .view-more {
     bottom: 200px; } }
 @media only screen and (max-width: 790px) {
@@ -2748,7 +2756,12 @@ body.px-international #pxl-ppc-table ul li.on-inter {
       border-radius: 20px;
       background: #e3f0ff;
       color: #212121;
-      font-size: 18px; }
+      font-size: 18px;
+      line-height: 1.5;
+      min-height: 87px;
+      justify-content: center;
+      align-items: center;
+      display: flex; }
     .development-phase .flex-5 .box p {
       font-size: 14px;
       line-height: 160%;
@@ -2807,6 +2820,9 @@ body.px-international #pxl-ppc-table ul li.on-inter {
     padding-bottom: 30px; }
     .development-phase .flex-5 .box {
       padding: 10px 10px 30px; }
+      .development-phase .flex-5 .box h3 {
+        min-height: initial;
+        font-size: 17px; }
     .development-phase .flex-5:nth-child(3n) {
       padding-right: 0; }
     .development-phase .flex-5:nth-child(6n) {
@@ -4156,10 +4172,26 @@ b {
   .footer-copyright .copyright-left p,
   .footer-copyright .copyright-right p {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     color: #ffffff;
     margin: 0; }
+  .footer-copyright .copyright-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .footer-copyright .copyright-left ul {
+      display: flex;
+      align-items: center;
+      margin: 0 0 0 15px; }
+      .footer-copyright .copyright-left ul li {
+        margin: 0 5px; }
+        .footer-copyright .copyright-left ul li a {
+          color: #fff;
+          font-size: 13px; }
+          .footer-copyright .copyright-left ul li a:hover {
+            text-decoration: underline; }
   .footer-copyright .copyright-right p {
     display: flex;
     align-items: center;
@@ -4173,8 +4205,19 @@ b {
 @media (max-width: 1440px) {
   .footer .footer-top .count-sec .count-col {
     margin-right: 25px; }
+  .footer .footer-middle ul li {
+    font-size: 15px; }
   .footer .footer-middle .flex-5 {
     padding-right: 20px; } }
+@media (max-width: 1280px) {
+  .footer-copyright .copyright-left p {
+    font-size: 12px; }
+  .footer-copyright .copyright-left ul {
+    margin-left: 10px; }
+    .footer-copyright .copyright-left ul li a {
+      font-size: 12px; }
+  .footer-copyright .copyright-right p {
+    font-size: 12px; } }
 @media (max-width: 1200px) {
   .footer .footer-middle ul li {
     font-size: 14px;

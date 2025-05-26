@@ -570,6 +570,9 @@
           width:100%;
           .tab {
             padding: 12px;
+            &.active{
+              &:after{top: 20px;}
+            }
           }
         }
       }

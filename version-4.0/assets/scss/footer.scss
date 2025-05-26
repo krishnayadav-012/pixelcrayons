@@ -161,12 +161,23 @@
   .copyright-right {
     p {
       color: $white;
-      font-size: 14px;
+      font-size: 13px;
       line-height: 20px;
       color: $white;
       margin: 0;
     }
     
+  }
+
+  .copyright-left{display: flex; align-items: center; justify-content: center; flex-wrap: wrap;
+  ul{display: flex; align-items: center; margin: 0 0 0 15px;
+  li{margin:0 5px;
+    a{color: #fff;
+      font-size: 13px;
+    &:hover{text-decoration: underline;}
+    }
+  }
+  }
   }
 
   .copyright-right{
@@ -183,9 +194,29 @@
     .footer-top .count-sec .count-col {
       margin-right: 25px;
     }
-    .footer-middle .flex-5 {
-      padding-right: 20px;
+    .footer-middle{
+      ul{
+        li{font-size: 15px;}
+      }
+      .flex-5 {
+        padding-right: 20px;
+        
+      }
     }
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer-copyright {
+    .copyright-left {
+      p{font-size: 12px;}
+      ul{margin-left:10px;
+        li{
+          a{font-size: 12px;}
+        }
+      }
+    }
+    .copyright-right p{font-size: 12px;}
   }
 }
 
@@ -196,6 +227,7 @@
       line-height: 24px;
     }
   }
+  
 }
 
 @media (max-width: 1160px) {

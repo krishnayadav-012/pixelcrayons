@@ -49,17 +49,18 @@
           color: $white;
           font-weight: $normal-font;
         }
-        h2 {
+        span {
           font-size: 32px;
           margin: 0;
           color: $white;
 
-          span {
+         
+        }
+         small {
             font-size: 14px;
             font-weight: $normal-font;
             color: $white;
           }
-        }
       }
 
       .pricing-content {
@@ -192,7 +193,7 @@
         .pricing-header {
           padding: 25px;
 
-          h2 {
+          span {
             font-size: 28px;
           }
         }
