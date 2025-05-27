@@ -170,8 +170,109 @@
           </form>
         </div>
       </div>
-    </checksection>
-    <?php require_once 'assets/include/faq.php'; ?>
+    </section>
+    <section class="common-concerns padding-t-60 padding-b-60">
+      <div class="container">
+        <h2>Common Concerns (Addressed Honestly)</h2>
+        <div class="concerns-grid">
+          <div class="concern-card">
+            <img src="assets/images/checkout/mail-icon.svg" alt="Email Icon">
+            <h3>Email is dead</h3>
+            <p>Far from it. Email is where buying decisions happen. Social media builds interest. Email converts.</p>
+          </div>
+          <div class="concern-card">
+            <img src="assets/images/checkout/mail-icon.svg" alt="Email Icon">
+            <h3>We already use Klaviyo</h3>
+            <p>Tools are just tools. You need strategy + content + execution to get real ROI.</p>
+          </div>
+          <div class="concern-card">
+            <img src="assets/images/checkout/mail-icon.svg" alt="Email Icon">
+            <h3>We don’t have time to manage email</h3>
+            <p>Exactly why we exist. You focus on business—we’ll own the email funnel.</p>
+          </div>
+          <div class="concern-card">
+            <img src="assets/images/checkout/mail-icon.svg" alt="Email Icon">
+            <h3>We tried newsletters, didn’t work</h3>
+            <p>Generic emails don’t work. We create segmented, copy-driven campaigns tied to business goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-journey padding-t-60 padding-b-60">
+      <div class="container">
+        <h2>Client Journey</h2>
+        <div class="journey-track">
+          <div class="journey-step">
+            <div class="dot"></div>
+            <h3>Onboarding</h3>
+            <p>ESP access, brand assets,<br> audience import</p>
+            <span>Week 1</span>
+          </div>
+          <div class="journey-step">
+            <div class="dot"></div>
+            <h3>Strategy</h3>
+            <p>Email calendar, copy +<br> design samples</p>
+            <span>Week 2</span>
+          </div>
+          <div class="journey-step">
+            <div class="dot"></div>
+            <h3>Launch</h3>
+            <p>Campaigns go live with<br> testing & tracking</p>
+            <span>Week 3+</span>
+          </div>
+          <div class="journey-step">
+            <div class="dot"></div>
+            <h3>Optimization</h3>
+            <p>A/B, automation rollout,<br> segmentation</p>
+            <span>Month 2+</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-testimonial padding-t-60 padding-b-60">
+      <div class="container">
+        <div class="top-section">
+          <h2>What Our Clients Have to Say About Us</h2>
+          <p>Clients trust us, and we take great pride in delivering quality solutions that exceed their expectations.</p>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial-card">
+            <div class="test-top">
+              <img src="assets/images/checkout/cl-01.svg" alt="Bas Buys" width="60" height="60">
+              <div class="test-wrap">
+                <h3>Bas Buys</h3>
+                <div class="stars"> <img src="assets/images/checkout/star.svg" alt=star" width="112" height="17"></div>
+              </div>
+            </div>
+            <p>Collaborated with PixelCrayons for a project and we are absolutely happy with the final product. The team did a fantastic job and delivered exactly what was expected. Team communication was excellent.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="test-top">
+              <img src="assets/images/checkout/cl-01.svg" alt="Nito Quiroz" width="60" height="60">
+              <div class="test-wrap">
+                <div class="test-wrap">
+                  <h3>Nito Quiroz</h3>
+                  <div class="stars"> <img src="assets/images/checkout/star.svg" alt=star" width="112" height="17"></div>
+                </div>
+              </div>
+            </div>
+            <p>We had high quality expectations and were not sure if we were going to be able to meet it. PixelCrayons turned out to be a great solution. They understood the requirement well and delivered the end-product on time.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="test-top">
+              <img src="assets/images/checkout/cl-01.svg" alt="Philip Hamichi" width="60" height="60">
+              <div class="test-wrap">
+                <div class="test-wrap">
+                  <h3>Philip Hamichi</h3>
+                  <div class="stars"> <img src="assets/images/checkout/star.svg" alt=star" width="112" height="17"></div>
+                </div>
+              </div>
+            </div>
+            <p>PixelCrayons’ project management has been very flexible and knowledgeable when assigning the right resources. Their developers are skilled and highly professional. They delivered what was expected from them on time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <?php require_once 'assets/include/blog-footer.php'; ?>
     </script>
     <script defer src="../assets/js/script.js"></script>
