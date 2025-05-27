@@ -1,7 +1,7 @@
 const data = {
   "field-1": {
     "label": "Monthly Email Marketing Packages",
-    'elmclass': 'group-packages',
+    'elmclass': 'marketing-packages',
     "type": "radio",
     "name": "Monthly Email Marketing Packages",
     "hasdom": true,
@@ -19,19 +19,19 @@ const data = {
         "campaigns": "4-6 Campaigns/month",
         "desc": "Ideal For D2C, SaaS, or service companies"
       },
-       {
+      {
         "name": "Pro",
         "price": "60000",
         "campaigns": "8-10 Campaigns/month",
         "desc": "Ideal For mid-sized businesses with growing lists"
       },
-       {
+      {
         "name": "Elite",
         "price": "80000",
         "campaigns": "12+ automations Campaigns/month",
         "desc": "Ideal For E-commerce, B2B with segmentation"
       },
-       {
+      {
         "name": "Enterprise",
         "price": " Custom",
         "campaigns": "Full-scale Campaigns/month",
@@ -42,29 +42,46 @@ const data = {
 
   "field-2": {
     "label": "Types of Emails We Create",
-    'elmclass': 'group-addon',
+    'elmclass': 'emails-packages',
     "type": "checkbox",
     "name": "addons",
     "options": [
-      { "name": "Welcome & onboarding flows", "price": "25" },
-      { "name": "Newsletters & promos", "price": "10" },
+      { 
+        "name": "Welcome & onboarding flows", 
+        "price": "25", 
+        "tooltip": "This option hides your project from public view."
+      },
+      { 
+        "name": "Newsletter Archive on Website", 
+        "price": "10",
+        "tooltip": "This option includes an archive of all newsletters on your website."
+      },
       { "name": "Product/feature announcements", "price": "39" },
       { "name": "Cart abandonment (e-commerce)", "price": "39" },
       { "name": "Drip campaigns & lead nurturing", "price": "39" },
       { "name": " Re-engagement & win-back", "price": "39" },
       { "name": "Survey & feedback campaigns", "price": "39" },
-      { "name": "Event/invite series", "price": "₹69" }
+      { "name": "Event/invite series", "price": "69" }
     ]
   },
 
   "field-3": {
     "label": "Add-Ons (Optional)",
     "type": "checkbox",
-    'elmclass': 'group-addon2',
+    'elmclass': 'group-addon',
     "name": "additional-services",
     "options": [
-      { "name": "Don't Showcase my Project.", "price": "5000", 'info' : "This is sample tool tip text", "nandani":true },
-      { "name": "Newsletter Archive on Website", "price": "12,000/month" },
+      { 
+        "name": "Don't Showcase my Project.", 
+        "price": "5000", 
+        "pricerange": true,
+        "tooltip": "This option hides your project from public view."
+      },
+      { 
+        "name": "Newsletter Archive on Website", 
+        "price": "12,000/month",
+        "tooltip": "This option includes an archive of all newsletters on your website."
+      },
       { "name": "Advanced Automations (flows)", "price": "16,000/flow" },
       { "name": "CRM/ESP Integration.", "price": "8,000/setup" },
       { "name": "Multi-language Campaigns", "price": "Custom quote" },
@@ -77,15 +94,14 @@ const formElm = document.getElementById('gen-form-elm');
 const totalPriceDisplay = document.getElementById('total-price');
 
 function createFieldset(key, field, index) {
-  //console.log(field.elmclass);
-  const section = document.createElement('div');
-  let boxClass = 'box'+(index+1);
-  boxClass += ( field.elmclass ) ? ' '+field.elmclass : '';
-  section.className = `section ${boxClass}`.trim();
+  const checksection = document.createElement('div');
+  let boxClass = 'box' + (index + 1);
+  boxClass += (field.elmclass) ? ' ' + field.elmclass : '';
+  checksection.className = `checksection ${boxClass}`.trim();
 
   const legend = document.createElement('h3');
   legend.textContent = field.label;
-  section.appendChild(legend);
+  checksection.appendChild(legend);
 
   const optionWrapper = document.createElement('div');
   optionWrapper.className = field.type === "radio" ? "custom-radio-group" : "checkbox-group";
@@ -123,8 +139,8 @@ function createFieldset(key, field, index) {
 
       const price = document.createElement('div');
       price.className = 'radio-price';
-      price.innerHTML = opt.price.trim().toLowerCase() === 'custom' ? 
-        `<strong>${opt.price}</strong>` : 
+      price.innerHTML = opt.price.trim().toLowerCase() === 'custom' ?
+        `<strong>${opt.price}</strong>` :
         `<strong>₹${parseInt(opt.price).toLocaleString()}</strong> <span>/month</span>`;
 
       topRow.appendChild(namePrice);
@@ -163,24 +179,32 @@ function createFieldset(key, field, index) {
       optionWrapper.appendChild(customLabel);
     } else {
       const label = document.createElement('label');
-      label.style.display = 'flex';
-      label.style.justifyContent = 'space-between';
-      label.style.alignItems = 'center';
-
       label.appendChild(input);
 
       const nameDiv = document.createElement('div');
       nameDiv.className = 'left';
-      const infoToolTip = (opt.info) ? '<div class="info-tip">'+opt.info+'</div>' : '';
-      nameDiv.innerHTML = opt.name+infoToolTip;
-      //nameDiv.innerHTML = infoToolTip;
+      const infoToolTip = (opt.info) ? '' : '';
+      nameDiv.innerHTML = opt.name + infoToolTip;
+
+      // Add tooltip if it exists
+      if (opt.tooltip) {
+        const tooltipSpan = document.createElement('span');
+        tooltipSpan.className = 'tooltip';
+        tooltipSpan.textContent = ''; 
+        const tooltipText = document.createElement('span');
+        tooltipText.className = 'tooltip-text';
+        tooltipText.textContent = opt.tooltip;
+        tooltipSpan.appendChild(tooltipText);
+        nameDiv.appendChild(tooltipSpan);
+      }
+
       const priceDiv = document.createElement('div');
       priceDiv.className = 'right';
-      if( opt.nandani === true ){
+      if (opt.pricerange === true) {
         //priceDiv.textContent =  `${opt.price}`;
-      }else{
-        priceDiv.textContent =  `₹${opt.price}`;
-      }      
+      } else {
+        priceDiv.textContent = `₹${opt.price}`;
+      }
 
       label.appendChild(nameDiv);
       label.appendChild(priceDiv);
@@ -189,19 +213,109 @@ function createFieldset(key, field, index) {
     }
   });
 
-  section.appendChild(optionWrapper);
+  checksection.appendChild(optionWrapper);
 
   if (field.hasdom === true) {
     const compElm = document.createElement('div');
     compElm.className = "comp-table";
-    let elmTable = "<a class='elm-comp' href='javascript:void(0);'>View Full Plan Comparision</a>";
-    elmTable += "<table> <tr> <th>Company</th> <th>Contact</th> <th>Country</th> </tr> <tr> <td>Alfreds Futterkiste</td> <td>Maria Anders</td> <td>Germany</td> </tr> <tr> <td>Centro comercial Moctezuma</td> <td>Francisco Chang</td> <td>Mexico</td> </tr> </table>"; 
-    //compElm.innerHTML = "<a href='javascript:void(0);'>View Full Plan Comparision</a>";
-    compElm.innerHTML = elmTable
-    section.appendChild(compElm);
+    const elmTable = `
+      <a class='elm-comp' href='javascript:void(0);'>View Full Plan Comparison</a>
+      <div class="comparison-table" style="display: none;">
+    <div class="table-container">
+    <table class="responsive-table">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Starter</th>
+                <th>Growth</th>
+                <th>Pro</th>
+                <th>Elite</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="feature">Email Strategy & Calendar</td>
+                <td data-label="starter"><i></i></td>
+                <td data-label="growth"><i></i></td>
+                <td data-label="pro"><i></i></td>
+                <td data-label="elite"><i></i></td>
+            </tr>
+            <tr>
+                <td data-label="feature">Copywriting (per campaign)</td>
+                <td data-label="starter"><i></i></td>
+                <td data-label="growth"><i></i></td>
+                <td data-label="pro"><i></i></td>
+                <td data-label="elite"><i></i></td>
+            </tr>
+            <tr>
+                <td data-label="feature">Design (HTML or builder-based)</td>
+                <td data-label="starter"><i></i></td>
+                <td data-label="growth"><i></i></td>
+                <td data-label="pro"><i></i></td>
+                <td data-label="elite"><i></i></td>
+            </tr>
+
+            <tr>
+                <td data-label="feature">List Segmentation</td>
+                <td data-label="starter">Basic</td>
+                <td data-label="growth"><i></i></td>
+                <td data-label="pro"><i></i></td>
+                <td data-label="elite">Advanced</td>
+            </tr>
+
+                 <tr>
+                <td data-label="feature">Automation Setup</td>
+                <td data-label="starter">--</td>
+                <td data-label="growth">--</td>
+                <td data-label="pro">Basic</td>
+                <td data-label="elite">Advanced</td>
+            </tr>
+
+             <tr>
+                <td data-label="feature">A/B Testing (Subject/Content)</td>
+                <td data-label="starter">--</td>
+                <td data-label="growth"><i></i></td>
+                <td data-label="pro"><i></i></td>
+                <td data-label="elite"><i></i></td>
+            </tr>
+
+             <tr>
+                <td data-label="feature">Performance Reporting</td>
+                <td data-label="starter">Monthly</td>
+                <td data-label="growth">Bi-weekly</td>
+                <td data-label="pro">Weekly</td>
+                <td data-label="elite">Real-time dashboard</td>
+            </tr>
+
+            <tr>
+                <td data-label="feature">Dedicated Account Manager</td>
+                <td data-label="starter">--</td>
+                <td data-label="growth"><i></i></td>
+                <td data-label="pro"><i></i></td>
+                <td data-label="elite"><i></i></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+      </div>`;
+    compElm.innerHTML = elmTable;
+    checksection.appendChild(compElm);
+
+    // Add toggle functionality with active class toggling
+    const toggleLink = compElm.querySelector('.elm-comp');
+    const comparisonTable = compElm.querySelector('.comparison-table');
+    toggleLink.addEventListener('click', () => {
+      const isVisible = comparisonTable.style.display === 'block';
+      comparisonTable.style.display = isVisible ? 'none' : 'block';
+      if (isVisible) {
+        toggleLink.classList.remove('active');
+      } else {
+        toggleLink.classList.add('active');
+      }
+    });
   }
 
-  formElm.appendChild(section);
+  formElm.appendChild(checksection);
 }
 
 function updateCart() {
@@ -383,4 +497,3 @@ async function validateCheckoutProcess(e) {
 
   return false;
 }
-

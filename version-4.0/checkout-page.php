@@ -96,7 +96,7 @@
                   </div>
                 </div>
                 <div class="gen-form-elm">
-                  <div class="section plateforms">
+                  <div class="checksection  plateforms">
                     <h3>Platforms We Have Expertise in</h3>
                     <ul>
                       <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">Mailchimp</li>
@@ -111,7 +111,7 @@
                   </div>
                 </div>
                 <div class="gen-form-elm">
-                  <div class="section checkfaq">
+                  <div class="checksection  checkfaq">
                     <h3>Frequently Asked Questions</h3>
                     <div class="faq-outer">
                       <div class="faq-accordion-item-outer">
@@ -170,7 +170,7 @@
           </form>
         </div>
       </div>
-    </section>
+    </checksection>
     <?php require_once 'assets/include/faq.php'; ?>
     <?php require_once 'assets/include/blog-footer.php'; ?>
     </script>

@@ -78,7 +78,7 @@
       .input-field-column {
         flex: 2;
 
-        .section {
+        .checksection {
           margin-bottom: 20px;
           padding: 30px;
           border: 1px solid #eee;
@@ -338,6 +338,9 @@
               padding: 15px 0 !important;
               cursor: pointer;
               user-select: none;
+                  display: flex;
+    justify-content: space-between;
+    align-items: center;
             }
 
             .checkbox-group input[type="checkbox"] {
@@ -391,44 +394,42 @@
             }
 
             /* Tooltip styling */
-            .tooltip {
-              position: relative;
-              display: inline-block;
-            }
+         .tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 
-            .tooltip .tooltiptext {
-              visibility: hidden;
-              width: 160px;
-              background-color: #333;
-              color: #fff;
-              text-align: center;
-              border-radius: 6px;
-              padding: 7px;
-              position: absolute;
-              z-index: 1;
-              bottom: 125%;
-              left: 50%;
-              margin-left: -80px;
-              opacity: 0;
-              transition: opacity 0.3s;
-              font-size: 14px;
-            }
+&:after{content: "";
+    background: url(../images/checkout/tooltip.svg) no-repeat center;
+    width: 17px;
+    display: inline-block;
+    height: 17px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out; vertical-align: middle;}
 
-            .tooltip .tooltiptext::after {
-              content: "";
-              position: absolute;
-              top: 100%;
-              left: 50%;
-              margin-left: -5px;
-              border-width: 5px;
-              border-style: solid;
-              border-color: #333 transparent transparent transparent;
-            }
-
-            .tooltip:hover .tooltiptext {
-              visibility: visible;
-              opacity: 1;
-            }
+}
+.tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: grey;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the text */
+  left: 50%;
+  margin-left: -60px; /* Center the tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
           }
         }
       }
@@ -747,25 +748,135 @@
   }
 }
 
-.comp-table {
-  margin: auto;
-  max-width: fit-content;
-  display: block;
-  padding: 16px 40px 16px 20px;
-  margin-bottom: 100px;
-  background-color: #fff;
-  border-radius: 100px;
-  border: 1px solid rgba(5, 22, 77, 0.2);
-  color: #05164d;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  position: relative;
-  cursor: pointer;
-  margin: 40px auto;
+.comp-table {margin: 40px auto;
+  .elm-comp{margin: auto;
+    max-width: fit-content;
+    display: block;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 1px solid rgba(5, 22, 77, 0.2);
+    color: #05164d;
+   
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    cursor: pointer;
+
+  &:after{content: "";
+    background: url(../images/checkout/arrow-icon.svg) no-repeat center;
+    width: 17px;
+    display: inline-block;
+    height: 9px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out; transform: rotate(180deg);
+  
+  }
+
+  &.active{background: #f9fcff;
+    &:after{transform: rotate(0deg);}
+  }
+
+    &.hover{background: #f9fcff;}
+
+
+  
+
+
+  }
+
+    .comparison-table{
+   .table-container {
+           overflow-x: auto;
+        
+        }
+
+        table {
+         width: 100%;
+            margin:30px 0 0;
+            border-radius: 10px;
+            border-spacing: 0; 
+            border: 1px solid #AEBEF3; 
+        }
+
+        th, td {
+             padding: 10px;
+            text-align: center;
+            border: 1px solid #AEBEF3;
+            background-color: #fff;
+             color:$black;
+        }
+
+        th {
+           font-size: 18px;
+           font-weight: 700;
+           color:$black;
+        }
+
+        td {
+            background-color: #fff;
+
+            i{position: relative;
+    background: url(../images/checkout/tick-mark.svg) no-repeat center;
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+
+ 
+            }
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+         /* Add rounded corners for the first and last row cells */
+
+         th:first-child{ border-top-left-radius: 10px;}
+          th:last-child{ border-top-right-radius: 10px;}
+    
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 10px;
+        }
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 10px;
+        }
+
+    }
 }
 
 @media (max-width: 768px) {
-  /* Add responsive styles here */
-}
+
+            table, th, td {
+                display: block;
+            }
+
+            th {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            tr {
+                margin-bottom: 10px;
+                border: 1px solid #AEBEF3;
+                display: block;
+            }
+
+            td {
+                display: block;
+                text-align: right;
+                position: relative;
+                padding-left: 50%;
+                text-indent: -50%;
+            }
+
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+

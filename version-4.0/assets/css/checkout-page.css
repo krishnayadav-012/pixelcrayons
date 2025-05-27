@@ -2346,24 +2346,24 @@ input:-webkit-autofill:active {
     padding: 50px 0; }
     .checkout-section .pxl-checkout .checkout-container .input-field-column {
       flex: 2; }
-      .checkout-section .pxl-checkout .checkout-container .input-field-column .section {
+      .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection {
         margin-bottom: 20px;
         padding: 30px;
         border: 1px solid #eee;
         border-radius: 10px;
         background-color: #ffffff;
         box-shadow: 0px 1px 10px 0px #0000000d; }
-        .checkout-section .pxl-checkout .checkout-container .input-field-column .section h3 {
+        .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection h3 {
           margin-bottom: 25px;
           color: #000; }
-        .checkout-section .pxl-checkout .checkout-container .input-field-column .section label {
+        .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection label {
           display: block;
           padding: 20px;
           cursor: pointer; }
-        .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group {
+        .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group {
           display: grid;
           gap: 1.5rem; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio {
             display: flex;
             align-items: flex-start;
             gap: 1rem;
@@ -2374,7 +2374,7 @@ input:-webkit-autofill:active {
             cursor: pointer;
             transition: all 0.3s ease;
             position: relative; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio input[type="radio"] {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input[type="radio"] {
               appearance: none;
               -webkit-appearance: none;
               width: 17px;
@@ -2388,7 +2388,7 @@ input:-webkit-autofill:active {
               left: 20px;
               background: #fff;
               flex-shrink: 0; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio input[type="radio"]::before {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input[type="radio"]::before {
               content: "";
               position: absolute;
               top: 50%;
@@ -2400,84 +2400,84 @@ input:-webkit-autofill:active {
               border-radius: 50%;
               opacity: 0;
               transition: opacity 0.2s ease; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio input[type="radio"]:checked::before {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input[type="radio"]:checked::before {
               opacity: 1; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-content {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-content {
               flex: 1;
               display: flex;
               flex-direction: column;
               gap: 0.25rem; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-top {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-top {
               display: flex;
               justify-content: space-between;
               align-items: flex-start;
               gap: 1rem;
               padding-left: 30px; }
-              .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-top .radio-title {
+              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-top .radio-title {
                 font-weight: 700;
                 font-size: 20px;
                 color: #000; }
-                .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-top .radio-title .radio-sub {
+                .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-top .radio-title .radio-sub {
                   font-weight: 500;
                   color: #6b7280;
                   font-size: 0.875rem; }
-              .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-top .radio-price {
+              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-top .radio-price {
                 font-weight: 700;
                 color: #0b2fa3;
                 font-size: 20px;
                 white-space: nowrap; }
-                .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-top .radio-price span {
+                .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-top .radio-price span {
                   font-size: 12px;
                   color: #666666;
                   font-weight: 400; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-desc {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc {
               font-size: 12px;
               color: #666666;
               font-weight: 400; }
-              .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio .radio-desc .radio-campaigns .highlight {
+              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc .radio-campaigns .highlight {
                 font-weight: 500;
                 font-size: 16px;
                 color: #000; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio input[type="radio"]:checked + .radio-content, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio:has(input[type="radio"]:checked) {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input[type="radio"]:checked + .radio-content, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio:has(input[type="radio"]:checked) {
               border-color: #7c9bff;
               box-shadow: 0px 0px 15px 0px #0b2fa326; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio input[type="radio"]:checked ~ .radio-content {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input[type="radio"]:checked ~ .radio-content {
               box-shadow: none; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-content {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-content {
             flex: 1;
             display: flex;
             flex-direction: column;
             gap: 0.5rem; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-top {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-top {
             display: flex;
             justify-content: space-between;
             align-items: center; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-title {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-title {
             font-size: 1rem;
             font-weight: 600; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-sub {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-sub {
             font-size: 0.9rem;
             font-weight: 400;
             color: #555; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-sub strong {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-sub strong {
             font-weight: 600; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-price {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-price {
             text-align: right;
             color: #1e40af;
             font-size: 1rem; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-price span {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-price span {
             font-size: 0.85rem;
             color: #888; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .radio-desc {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-desc {
             font-size: 0.85rem;
             color: #666;
             text-align: right; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box1 .custom-radio-group .custom-radio input:checked + .radio-content {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input:checked + .radio-content {
             border-radius: 16px; }
-        .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 {
+        .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 {
           position: relative;
           /* Tooltip styling */ }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label {
             padding: 15px 0;
             border-top: 1px solid rgba(0, 0, 0, 0.1);
             margin: 0;
@@ -2489,16 +2489,16 @@ input:-webkit-autofill:active {
             margin-bottom: 0;
             position: relative;
             /* Styling when checkbox is checked */ }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label input[type="checkbox"], .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label input[type="checkbox"] {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label input[type="checkbox"], .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label input[type="checkbox"] {
               position: absolute;
               opacity: 0;
               cursor: pointer;
               height: 0;
               width: 0; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label label, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label label {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label label, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label label {
               /* Custom checkbox square */
               /* Checkmark */ }
-              .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label label::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label label::before {
+              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label label::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label label::before {
                 content: "";
                 position: absolute;
                 left: 0;
@@ -2510,7 +2510,7 @@ input:-webkit-autofill:active {
                 border-radius: 4px;
                 background-color: white;
                 transition: background-color 0.3s, border-color 0.3s; }
-              .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label label::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label label::after {
+              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label label::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label label::after {
                 content: "";
                 position: absolute;
                 left: 6px;
@@ -2522,26 +2522,29 @@ input:-webkit-autofill:active {
                 border-bottom: 3px solid white;
                 opacity: 0;
                 transition: opacity 0.2s; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label input[type="checkbox"]:checked + label::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label input[type="checkbox"]:checked + label::before {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label input[type="checkbox"]:checked + label::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label input[type="checkbox"]:checked + label::before {
               background-color: #0b2fa3;
               border-color: #0b2fa3; }
-            .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 label input[type="checkbox"]:checked + label::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 label input[type="checkbox"]:checked + label::after {
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 label input[type="checkbox"]:checked + label::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 label input[type="checkbox"]:checked + label::after {
               opacity: 1; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group label, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group label {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group label, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group label {
             position: relative;
             padding: 15px 0 !important;
             cursor: pointer;
-            user-select: none; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group input[type="checkbox"], .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group input[type="checkbox"] {
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group input[type="checkbox"], .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group input[type="checkbox"] {
             position: absolute;
             opacity: 0;
             cursor: pointer;
             height: 0;
             width: 0; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group .left, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group .left {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group .left, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group .left {
             position: relative;
             padding-left: 30px; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group .left::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group .left::before {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group .left::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group .left::before {
             content: "";
             position: absolute;
             left: 0;
@@ -2553,7 +2556,7 @@ input:-webkit-autofill:active {
             border-radius: 4px;
             background-color: white;
             transition: all 0.2s ease; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group .left::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group .left::after {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group .left::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group .left::after {
             content: "";
             position: absolute;
             left: 7px;
@@ -2565,40 +2568,44 @@ input:-webkit-autofill:active {
             border-width: 0 2px 2px 0;
             opacity: 0;
             transition: opacity 0.2s ease; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group input[type="checkbox"]:checked ~ .left::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group input[type="checkbox"]:checked ~ .left::before {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group input[type="checkbox"]:checked ~ .left::before, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group input[type="checkbox"]:checked ~ .left::before {
             background-color: #0b2fa3;
             border-color: #0b2fa3; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .checkbox-group input[type="checkbox"]:checked ~ .left::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .checkbox-group input[type="checkbox"]:checked ~ .left::after {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .checkbox-group input[type="checkbox"]:checked ~ .left::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .checkbox-group input[type="checkbox"]:checked ~ .left::after {
             opacity: 1; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .tooltip, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .tooltip {
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip {
             position: relative;
-            display: inline-block; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .tooltip .tooltiptext, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .tooltip .tooltiptext {
+            display: inline-block;
+            cursor: pointer; }
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip:after, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip:after {
+              content: "";
+              background: url(../images/checkout/tooltip.svg) no-repeat center;
+              width: 17px;
+              display: inline-block;
+              height: 17px;
+              margin-left: 10px;
+              transition: all 0.3s ease-in-out;
+              vertical-align: middle; }
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip-text, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip-text {
             visibility: hidden;
-            width: 160px;
-            background-color: #333;
+            width: 200px;
+            background-color: grey;
             color: #fff;
+            font-size: 12px;
+            line-height: 18px;
             text-align: center;
-            border-radius: 6px;
-            padding: 7px;
+            border-radius: 5px;
+            padding: 10px;
             position: absolute;
             z-index: 1;
             bottom: 125%;
+            /* Position the tooltip above the text */
             left: 50%;
-            margin-left: -80px;
+            margin-left: -60px;
+            /* Center the tooltip */
             opacity: 0;
-            transition: opacity 0.3s;
-            font-size: 14px; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .tooltip .tooltiptext::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #333 transparent transparent transparent; }
-          .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box2 .tooltip:hover .tooltiptext, .checkout-section .pxl-checkout .checkout-container .input-field-column .section.box3 .tooltip:hover .tooltiptext {
+            transition: opacity 0.3s; }
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip:hover .tooltip-text, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip:hover .tooltip-text {
             visibility: visible;
             opacity: 1; }
     .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column {
@@ -2826,24 +2833,101 @@ input:-webkit-autofill:active {
     font-weight: 400; }
 
 .comp-table {
-  margin: auto;
-  max-width: fit-content;
-  display: block;
-  padding: 16px 40px 16px 20px;
-  margin-bottom: 100px;
-  background-color: #fff;
-  border-radius: 100px;
-  border: 1px solid rgba(5, 22, 77, 0.2);
-  color: #05164d;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  position: relative;
-  cursor: pointer;
   margin: 40px auto; }
+  .comp-table .elm-comp {
+    margin: auto;
+    max-width: fit-content;
+    display: block;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 1px solid rgba(5, 22, 77, 0.2);
+    color: #05164d;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    cursor: pointer; }
+    .comp-table .elm-comp:after {
+      content: "";
+      background: url(../images/checkout/arrow-icon.svg) no-repeat center;
+      width: 17px;
+      display: inline-block;
+      height: 9px;
+      margin-left: 10px;
+      transition: all 0.3s ease-in-out;
+      transform: rotate(180deg); }
+    .comp-table .elm-comp.active {
+      background: #f9fcff; }
+      .comp-table .elm-comp.active:after {
+        transform: rotate(0deg); }
+    .comp-table .elm-comp.hover {
+      background: #f9fcff; }
+  .comp-table .comparison-table {
+    /* Add rounded corners for the first and last row cells */ }
+    .comp-table .comparison-table .table-container {
+      overflow-x: auto; }
+    .comp-table .comparison-table table {
+      width: 100%;
+      margin: 30px 0 0;
+      border-radius: 10px;
+      border-spacing: 0;
+      border: 1px solid #AEBEF3; }
+    .comp-table .comparison-table th, .comp-table .comparison-table td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #AEBEF3;
+      background-color: #fff;
+      color: #000; }
+    .comp-table .comparison-table th {
+      font-size: 18px;
+      font-weight: 700;
+      color: #000; }
+    .comp-table .comparison-table td {
+      background-color: #fff; }
+      .comp-table .comparison-table td i {
+        position: relative;
+        background: url(../images/checkout/tick-mark.svg) no-repeat center;
+        width: 18px;
+        display: inline-block;
+        height: 18px; }
+    .comp-table .comparison-table tr:nth-child(even) td {
+      background-color: #f9f9f9; }
+    .comp-table .comparison-table th:first-child {
+      border-top-left-radius: 10px; }
+    .comp-table .comparison-table th:last-child {
+      border-top-right-radius: 10px; }
+    .comp-table .comparison-table tr:last-child td:first-child {
+      border-bottom-left-radius: 10px; }
+    .comp-table .comparison-table tr:last-child td:last-child {
+      border-bottom-right-radius: 10px; }
 
 @media (max-width: 768px) {
-  /* Add responsive styles here */ }
+  table, th, td {
+    display: block; }
+
+  th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; }
+
+  tr {
+    margin-bottom: 10px;
+    border: 1px solid #AEBEF3;
+    display: block; }
+
+  td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+    text-indent: -50%; }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    text-transform: uppercase; } }
 
 /*# sourceMappingURL=checkout-page.css.map */
