@@ -210,34 +210,35 @@
     </section>
     <section class="client-journey padding-t-60 padding-b-60">
       <div class="container">
-        <h2>Client Journey</h2>
-        <div class="journey-track">
-          <div class="journey-step">
-            <div class="dot"></div>
-            <h3>Onboarding</h3>
-            <p>ESP access, brand assets,<br> audience import</p>
-            <span>Week 1</span>
-          </div>
-          <div class="journey-step">
-            <div class="dot"></div>
-            <h3>Strategy</h3>
-            <p>Email calendar, copy +<br> design samples</p>
-            <span>Week 2</span>
-          </div>
-          <div class="journey-step">
-            <div class="dot"></div>
-            <h3>Launch</h3>
-            <p>Campaigns go live with<br> testing & tracking</p>
-            <span>Week 3+</span>
-          </div>
-          <div class="journey-step">
-            <div class="dot"></div>
-            <h3>Optimization</h3>
-            <p>A/B, automation rollout,<br> segmentation</p>
-            <span>Month 2+</span>
-          </div>
+      <h2>Client Journey</h2>
+      <div class="timeline">
+        <div class="step">
+          <div class="label">Week 1</div>
+          <div class="dot-line"></div>
+          <div class="content">Onboarding, audit,<br>alerts setup</div>
+        </div>
+        <div class="step">
+          <div class="label">Week 2</div>
+          <div class="dot-line"></div>
+          <div class="content">Strategy creation,<br>baseline report</div>
+        </div>
+        <div class="step">
+          <div class="label">Week 3–4</div>
+          <div class="dot-line"></div>
+          <div class="content">Review management &<br>publishing begins</div>
+        </div>
+        <div class="step">
+          <div class="label">Month 2+</div>
+          <div class="dot-line"></div>
+          <div class="content">Suppression tactics,<br>asset growth</div>
+        </div>
+        <div class="step">
+          <div class="label">Ongoing</div>
+          <div class="dot-line"></div>
+          <div class="content">Reputation monitoring &<br>optimization</div>
         </div>
       </div>
+</div>
     </section>
     <section class="client-testimonial padding-t-60 padding-b-60">
       <div class="container">

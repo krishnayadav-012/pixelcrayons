@@ -95,13 +95,13 @@
           &.box1 {
             .custom-radio-group {
               display: grid;
-              gap: 1.5rem;
+              gap: 20px;
 
               .custom-radio {
                 display: flex;
                 align-items: flex-start;
-                gap: 1rem;
-                padding: 1.25rem;
+                gap: 20px;
+                padding: 20px;
                 border: 2px solid #d1d5db;
                 border-radius: 12px;
                 background-color: #fff;
@@ -670,6 +670,282 @@
       margin-right: 10px;
       transform: scale(1.1);
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .checkout-section {
+    .top-section {
+      padding: 0 0 40px;
+    }
+
+    .check-tabs {
+      flex-wrap: wrap;
+      margin: 0 0 40px;
+      justify-content: center;
+      gap: 10px;
+
+      .service-item {
+        padding: 10px 12px;
+        text-align: center;
+        min-width: 150px;
+      }
+    }
+
+    .pxl-checkout {
+      .checkout-container {
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .input-field-column {
+          flex: 2;
+
+          .checksection {
+            margin-bottom: 15px;
+            padding: 20px;
+
+            h3 {
+              margin-bottom: 20px;
+            }
+
+            label {
+              display: block;
+              padding: 20px;
+              cursor: pointer;
+            }
+
+            &.box1 {
+              .custom-radio-group {
+                gap: 15px;
+
+                .custom-radio {
+                  gap: 15px;
+                  padding: 15px;
+
+                  input[type="radio"] {
+                    top: 15px;
+                    left: 15px;
+                  }
+
+                  input[type="radio"]::before {
+                    width: 10px;
+                    height: 10px;
+                  }
+
+                  .radio-content {
+                    gap: 5px;
+                  }
+
+                  .radio-top {
+                    padding-left: 25px;
+                  }
+
+                  .radio-desc {
+                    font-size: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .cart-wrapper-column {
+          .cart-section {
+            padding: 20px;
+          }
+
+          .cart-white {
+            padding: 20px;
+          }
+
+          .cart-group {
+            padding: 15px 0;
+          }
+
+          .pxl-checkout-btn {
+            font-size: 16px;
+            padding: 15px;
+            margin-top: 30px;
+          }
+
+          .smalltext {
+            font-size: 10px;
+          }
+
+          .cart-checkbox {
+            margin: 20px 0 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .checkout-section {
+    padding-top: 100px;
+    .check-tabs {
+      .service-item {
+        min-width: 47%;
+      }
+    }
+
+    .pxl-checkout {
+      .checkout-container {
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .input-field-column {
+          flex: 2;
+          flex-basis: 100%;
+
+          .checksection {
+            margin-bottom: 20px;
+            padding: 15px;
+
+            h3 {
+              margin-bottom: 20px;
+            }
+
+            label {
+              padding: 15px;
+            }
+
+            &.box1 {
+              .custom-radio-group {
+                gap: 15px;
+
+                .custom-radio {
+                  gap: 15px;
+                  padding: 15px;
+
+                  input[type="radio"] {
+                    top: 13px;
+                    left: 15px;
+                  }
+
+                  input[type="radio"]::before {
+                    width: 10px;
+                    height: 10px;
+                  }
+
+                  .radio-content {
+                    gap: 5px;
+                  }
+
+                  .radio-top {
+                    padding-left: 25px;
+
+                    .radio-title {
+                      font-size: 18px;
+
+                      .radio-sub {
+                        font-weight: 500;
+                      }
+                    }
+
+                    .radio-price {
+                      font-size: 18px;
+
+                      span {
+                        font-size: 12px;
+                      }
+                    }
+                  }
+
+                  .radio-desc {
+                    font-size: 12px;
+                    gap: 0 !important;
+                    margin-top: 5px;
+                    flex-wrap: wrap;
+
+                    .radio-description {
+                      text-align: left;
+                    }
+
+                    .radio-campaigns {
+                      .highlight {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: $black;
+                      }
+                    }
+                  }
+                }
+
+                .radio-desc {
+                  text-align: right;
+                }
+              }
+            }
+
+            &.box2,
+            &.box3 {
+              label {
+                padding: 15px 0;
+                padding-left: 30px !important;
+              }
+
+              .checkbox-group label {
+                padding: 12px 0 !important;
+                gap: 10px;
+              }
+
+              .checkbox-group .left {
+                padding-left: 25px;
+                text-align: left;
+              }
+
+              .checkbox-group .right {
+                text-align: right;
+              }
+
+              .checkbox-group .left::before {
+                width: 14px;
+                height: 14px;
+                top: 12px;
+              }
+
+              .checkbox-group .left::after {
+                left: 6px;
+
+                width: 3px;
+                height: 6px;
+                top: 12px;
+              }
+
+              .tooltip-text {
+                width: 150px;
+              }
+            }
+          }
+        }
+
+        .cart-wrapper-column {
+          top: 2rem;
+
+          .cart-group {
+            padding: 15px 0;
+
+            h4 {
+              font-size: 18px;
+            }
+          }
+
+          .cart-total {
+            font-size: 16px;
+          }
+
+          .pxl-checkout-btn {
+            font-family: sans-serif;
+          }
+
+          .cart-checkbox {
+            font-size: 13px;
+          }
+        }
+      }
     }
   }
 }

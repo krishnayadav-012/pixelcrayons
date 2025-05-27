@@ -3,8 +3,6 @@
 @import "checkout-section";
 @import "footer";
 
-
-
 .project-section {
   margin-bottom: 20px;
   padding: 30px;
@@ -109,7 +107,6 @@
     .contact-details {
       display: flex;
       flex-direction: column;
-    
 
       .input-field {
         margin: 0 0 15px;
@@ -320,83 +317,105 @@
 }
 
 .client-journey {
-  background: #f8f4ff;
+  background: #f7f3fc;
+
+  text-align: center;
 
   h2 {
-    text-align: center;
+    margin: 0 0 70px;
   }
 
-  .journey-track {
+  .timeline {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     position: relative;
-    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
 
     &::before {
       content: "";
       position: absolute;
-      top: 45px;
+      top: 46%;
       left: 0;
       right: 0;
-      height: 2px;
-      background: #cfcfcf;
-      z-index: 1;
+
+      border: 1px dashed rgba(102, 102, 102, 1);
+      z-index: 0;
     }
 
-    .journey-step {
-      width: 23%;
+    .step {
       position: relative;
-      z-index: 2;
-      text-align: center;
-
-      .dot {
-        width: 12px;
-        height: 12px;
-        background: #1e40af;
-        border-radius: 50%;
-        margin: 0 auto 8px;
-        position: relative;
-        z-index: 3;
-      }
-
-      h3 {
-        font-size: 15px;
-        font-weight: 600;
-        margin-bottom: 6px;
-      }
-
-      p {
-        font-size: 13px;
-        color: #555;
-        margin-bottom: 12px;
-        line-height: 1.4;
-      }
-
-      span {
-        font-size: 13px;
-        color: #1e40af;
-        font-weight: 500;
-      }
-    }
-  }
-
-  // Responsive styles
-  @media (max-width: 992px) {
-    .journey-track {
+      width: 20%;
+      display: flex;
       flex-direction: column;
       align-items: center;
+      z-index: 1;
+      text-align: center;
 
-      &::before {
-        display: none;
+      .label {
+        font-weight: 600;
+        color: #0b2fa3;
+        font-size: 18px;
+        padding: 35px 0 0;
       }
 
-      .journey-step {
-        width: 100%;
-        margin-bottom: 40px;
+      .content {
+        font-size: 14px;
+        color: #373737;
+        font-weight: 500;
+        margin-top: 70px;
+      }
 
-        .dot {
-          margin-bottom: 8px;
+      .dot-line {
+        width: 24px;
+        height: 24px;
+        background-color: #0033cc;
+        border: 4px solid #708de8;
+        border-radius: 50%;
+        top: 40%;
+        position: absolute;
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 1px;
+          height: 27px;
+          background: rgba(112, 141, 232, 1);
+          left: 50%;
+          top: 100%;
+          transform: translateX(-50%);
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 4px;
+          height: 4px;
+          top: 38px;
+          background: #708de8;
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 100%;
+        }
+      }
+
+      &:nth-child(2n) {
+        flex-direction: column-reverse;
+
+        .label {
+          padding: 0 0 60px;
+        }
+        .content {
+          margin-top: 0;
+          margin-bottom: 70px;
+        }
+        .dot-line {
+          &:before {
+            top: -30px;
+          }
+          &:after {
+            top: -30px;
+          }
         }
       }
     }
@@ -450,18 +469,6 @@
       }
     }
   }
-
-  // Responsive
-  @media (max-width: 992px) {
-    .testimonials {
-      flex-direction: column;
-      align-items: center;
-
-      .testimonial-card {
-        max-width: 100%;
-      }
-    }
-  }
 }
 
 .footer-section {
@@ -477,30 +484,235 @@
   }
 }
 
-// Media Queries
+// Media Queries Start From Here*//
 
 @media (max-width: 1024px) {
-  .concerns-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .project-section {
+    .project-flex {
+      .upload-box {
+        padding: 23px 20px;
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .common-concerns {
+    .concerns-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .client-journey {
+    h2 {
+      margin: 0 0 40px;
+    }
+    .timeline {
+      flex-direction: column;
+      align-items: center;
+
+      &::before {
+        display: none; // hide the horizontal line
+      }
+
+      .step {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 30px;
+
+        .label {
+          padding: 0 0 15px;
+        }
+
+        .content {
+          margin: 20px 0 0;
+        }
+
+        .dot-line {
+          position: relative;
+          top: 0;
+
+          &::after {
+            height: 20px;
+            top: 100%;
+          }
+
+          &::before {
+            top: 33px;
+          }
+        }
+
+        &:nth-child(2n) {
+          flex-direction: column;
+
+          .label {
+            padding: 0 0 15px;
+          }
+
+          .content {
+            margin: 20px 0 0;
+          }
+
+          .dot-line {
+            &::after {
+              height: 20px;
+              top: 100%;
+            }
+
+            &::before {
+              top: 33px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .client-testimonial {
+    .testimonials {
+      flex-direction: column;
+      align-items: center;
+
+      .testimonial-card {
+        max-width: 100%;
+      }
+    }
   }
 }
 
 @media (max-width: 767px) {
-  .concerns-grid {
-    grid-template-columns: 1fr;
-    .concern-card {
-      text-align: center;
+  .project-section {
+    padding: 20px;
 
-      img {
-        margin: 0 auto 16px;
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      margin: 0 0 15px;
+    }
+
+    .project-brief textarea {
+      height: 100px;
+      padding: 12px;
+      font-size: 14px;
+      font-family: sans-serif;
+    }
+
+    .project-flex {
+      flex-wrap: wrap;
+
+      .attachments {
+        flex-basis: 100%;
       }
 
-      h3 {
+      .upload-wrapper {
+        max-width: 100%;
+        font-family: sans-serif;
+      }
+
+      .upload-box p {
         font-size: 16px;
       }
 
-      p {
-        font-size: 13px;
+      .contact-details {
+        flex-basis: 100%;
+
+        .input-field {
+          margin: 0 0 12px;
+
+          input {
+            padding: 0 12px;
+            font-size: 16px;
+            height: 48px;
+          }
+        }
+      }
+    }
+  }
+
+  .comp-table {
+    margin: 20px 15px;
+
+    .comparison-table {
+      table {
+        border: none;
+      }
+
+      thead {
+        display: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      tr {
+        margin-bottom: 15px;
+        border: 1px solid #aebef3;
+        padding: 10px;
+        border-radius: 10px;
+        background: #fff;
+      }
+
+      td {
+        text-align: left;
+        padding: 0 0 10px 32% !important;
+        position: relative;
+        border: none !important;
+        font-size: 14px;
+        color: #05164d;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &::before {
+          content: attr(data-label);
+          position: absolute;
+          left: 10px;
+          width: 25%;
+          font-weight: bold;
+          text-align: left;
+          color: #0b2fa3;
+        }
+
+        i {
+          margin-left: 5px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .plateforms {
+    ul {
+      gap: 10px;
+      li {
+        padding: 10px;
+        min-width: 120px;
+      }
+    }
+  }
+  .common-concerns {
+    .concerns-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .checkfaq {
+    .faq-outer {
+      .faq-accordion-item-outer {
+        .faq-accordion-toggle {
+          font-size: 16px;
+        }
       }
     }
   }
