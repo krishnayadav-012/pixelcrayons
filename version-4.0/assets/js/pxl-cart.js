@@ -65,7 +65,7 @@ const data = {
       { "name": "Advanced Automations (flows)", "price": "16,000/flow" },
       { "name": "CRM/ESP Integration.", "price": "8,000/setup" },
       { "name": "Multi-language Campaigns", "price": "Custom quote" },
-      { "name": "Visual Asset Creation (GIFs, etc.)", "price": "4,000/asse" }
+      { "name": "Visual Asset Creation (GIFs, etc.)", "price": "4,000/asset" }
     ]
   }
 };

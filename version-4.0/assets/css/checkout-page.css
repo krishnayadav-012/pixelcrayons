@@ -2799,6 +2799,32 @@ input:-webkit-autofill:active {
           color: red;
           font-size: 0.75rem; }
 
+.plateforms ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap; }
+  .plateforms ul li {
+    min-width: 135px;
+    background: #ececec;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .plateforms ul li img {
+      margin-right: 10px; }
+
+.checkfaq .faq-outer .faq-accordion-item-outer {
+  border-top: 1px solid #0000001A;
+  padding: 15px 0 0; }
+  .checkfaq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400; }
+
 .comp-table {
   margin: auto;
   max-width: fit-content;

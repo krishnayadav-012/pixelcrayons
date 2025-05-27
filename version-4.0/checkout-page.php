@@ -95,6 +95,70 @@
                     </div>
                   </div>
                 </div>
+                <div class="gen-form-elm">
+                  <div class="section plateforms">
+                    <h3>Platforms We Have Expertise in</h3>
+                    <ul>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">Mailchimp</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">Klaviyo</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">Sendinblue</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">HubSpot</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">MoEngage</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">Constant Contact</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">ActiveCampaign</li>
+                      <li><img src="assets/images/checkout/pform-01.svg" alt="Plateform" width="24" height="24">Custom SMTP setups</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="gen-form-elm">
+                  <div class="section checkfaq">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-outer">
+                      <div class="faq-accordion-item-outer">
+                        <h4 class="faq-accordion-toggle">Q: Do you handle sending emails too?</h4>
+                        <div class="faq-accordion-content">
+                          <p>Yes, via your ESP. We manage the entire process, including scheduling.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="faq-accordion-item-outer">
+                        <h4 class="faq-accordion-toggle">Q: Do I need to provide content?</h4>
+                        <div class="faq-accordion-content">
+                          <p>No. We write all copy, subject lines, and CTAs—unless you want to provide them.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="faq-accordion-item-outer">
+                        <h4 class="faq-accordion-toggle">Q: What if I don’t have an email list yet?</h4>
+                        <div class="faq-accordion-content">
+                          <p>We’ll help you set up your list and build lead magnets if needed (add-on).
+                          </p>
+                        </div>
+                      </div>
+                      <div class="faq-accordion-item-outer">
+                        <h4 class="faq-accordion-toggle">Q: How do you measure success?</h4>
+                        <div class="faq-accordion-content">
+                          <p>We report on open rate, click-through rate, bounce, unsubscribe, and conversions.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="faq-accordion-item-outer">
+                        <h4 class="faq-accordion-toggle">Q: Will my emails land in inboxes, not spam?</h4>
+                        <div class="faq-accordion-content">
+                          <p>Yes—we follow best practices for deliverability, warmup, and authentication.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="faq-accordion-item-outer">
+                        <h4 class="faq-accordion-toggle">Q: Do you handle GDPR/consent?</h4>
+                        <div class="faq-accordion-content">
+                          <p>Yes, we follow privacy-first email practices and can advise on compliance.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="cart-wrapper-column">
                 <h3>Cart Summary</h3>
