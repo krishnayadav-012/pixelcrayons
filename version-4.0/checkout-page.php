@@ -161,10 +161,20 @@
                 </div>
               </div>
               <div class="cart-wrapper-column">
-                <h3>Cart Summary</h3>
-                <div id="cart-summary" class="cart-summary"></div>
-                <p class="cart-total"><strong>Total:</strong> ₹<span id="total-price">0</span></p>
-                <button id="checkout-button" class="pxl-checkout-btn">Proceed to Payment</button>
+                <div class="cart-section">
+                  <h3>Cart Summary</h3>
+                  <div id="cart-summary" class="cart-summary"></div>
+                  <div class="cart-total"><strong>Total:</strong>  <span>₹<span id="total-price">0</span></span></div>
+                  <label class="cart-checkbox">I consent to the processing of my personal data and agree to the Privacy Policy and the Terms & Conditions.
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  </label>
+                  <button id="checkout-button" class="pxl-checkout-btn">Proceed to Payment</button>
+                  <span class="smalltext">Or fill custom request </span>
+                </div>
+                <div class="cart-white">
+                  <img src="assets/images/checkout/card-logo.svg" alt="cards" width=370" height="82">
+                </div>
               </div>
             </div>
           </form>

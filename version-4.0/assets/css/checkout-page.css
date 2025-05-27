@@ -2612,13 +2612,27 @@ input:-webkit-autofill:active {
       flex: 1;
       position: sticky;
       top: 2rem;
-      background: #282828;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 25px;
-      max-height: calc(100vh - 4rem);
-      overflow-y: auto;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+      /* Hide the default checkbox */
+      /* Create a custom box */
+      /* On hover */
+      /* When checkbox is checked */
+      /* Checkmark/indicator */
+      /* Show the checkmark when checked */
+      /* Checkmark style */ }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-section {
+        background: #282828;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 25px;
+        max-height: calc(100vh - 4rem);
+        overflow-y: auto;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-white {
+        background: #ffffff;
+        border-color: #ffffff;
+        border-radius: 5px;
+        margin: 20px 0 0;
+        padding: 25px; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column h3 {
         color: #ffffff; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-summary {
@@ -2631,7 +2645,6 @@ input:-webkit-autofill:active {
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-group h4 {
           font-size: 18px;
           color: #ffffff;
-          font-size: 1rem;
           margin-bottom: 10px; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-item {
         display: flex;
@@ -2639,15 +2652,17 @@ input:-webkit-autofill:active {
         padding: 4px 0;
         color: #fff; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-item span {
-          color: #fff;
-          font-size: 18px; }
+          color: #bebebe;
+          font-size: 16px; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-item:last-child {
           border-bottom: none; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-total {
         font-size: 18px;
         font-weight: 700;
         text-align: right;
-        color: #ffffff; }
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .pxl-checkout-btn {
         min-width: 100%;
         font-size: 18px;
@@ -2661,16 +2676,70 @@ input:-webkit-autofill:active {
         border-radius: 5px;
         display: inline-block;
         transition: all 0.3s ease-in-out;
-        margin-top: 0;
+        margin-top: 40px;
         text-decoration: none;
         font-family: "Lexend Deca";
         font-weight: 400;
-        border: 1px solid #f76600;
-        margin-top: 10px; }
+        border: 1px solid #f76600; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .pxl-checkout-btn:hover {
           background: #ffffff;
           border-color: #ffffff;
           color: #f76600; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .smalltext {
+        text-align: center;
+        color: #a3a3a3;
+        font-size: 12px;
+        font-weight: normal;
+        width: 100%;
+        display: block;
+        text-decoration: underline;
+        cursor: pointer; }
+        .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .smalltext:hover {
+          color: #ffffff; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox {
+        display: inline-block;
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        user-select: none;
+        color: #bebebe;
+        font-size: 12px;
+        line-height: 150%;
+        margin: 40px 0 0; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .checkmark {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+        border-radius: 4px;
+        transition: background-color 0.3s ease; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox:hover input ~ .checkmark {
+        background-color: rgba(255, 255, 255, 0.3); }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox input:checked ~ .checkmark {
+        background-color: #0b2fa3; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox input:checked ~ .checkmark:after {
+        display: block; }
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox .checkmark:after {
+        left: 7px;
+        top: 3px;
+        width: 5px;
+        height: 10px;
+        border: solid rgba(255, 255, 255, 0.5);
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg); }
   .checkout-section .pxl-checkout .cart {
     background-color: #fff;
     border-top: 3px solid #3498db;

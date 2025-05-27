@@ -440,13 +440,24 @@
         flex: 1;
         position: sticky;
         top: 2rem;
-        background: #282828;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 25px;
-        max-height: calc(100vh - 4rem);
-        overflow-y: auto;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+        .cart-section {
+          background: #282828;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 25px;
+          max-height: calc(100vh - 4rem);
+          overflow-y: auto;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .cart-white {
+          background: $white;
+          border-color: $white;
+          border-radius: 5px;
+          margin: 20px 0 0;
+          padding: 25px;
+        }
 
         h3 {
           color: $white;
@@ -465,7 +476,6 @@
           h4 {
             font-size: 18px;
             color: $white;
-            font-size: 1rem;
             margin-bottom: 10px;
           }
         }
@@ -477,8 +487,8 @@
           color: #fff;
 
           span {
-            color: #fff;
-            font-size: 18px;
+            color: rgba(190, 190, 190, 1);
+            font-size: 16px;
           }
 
           &:last-child {
@@ -491,6 +501,8 @@
           font-weight: 700;
           text-align: right;
           color: $white;
+          display: flex;
+          justify-content: space-between;
         }
 
         .pxl-checkout-btn {
@@ -506,18 +518,98 @@
           border-radius: 5px;
           display: inline-block;
           transition: all 0.3s ease-in-out;
-          margin-top: 0;
+          margin-top: 40px;
           text-decoration: none;
           font-family: "Lexend Deca";
           font-weight: 400;
           border: 1px solid rgba(247, 102, 0, 1);
-          margin-top: 10px;
 
           &:hover {
             background: $white;
             border-color: $white;
             color: rgba(247, 102, 0, 1);
           }
+        }
+
+        .smalltext {
+          text-align: center;
+          color: #a3a3a3;
+          font-size: 12px;
+          font-weight: normal;
+          width: 100%;
+          display: block;
+          text-decoration: underline;
+          cursor: pointer;
+          &:hover {
+            color: $white;
+          }
+        }
+
+        .cart-checkbox {
+          display: inline-block;
+          position: relative;
+          padding-left: 30px;
+          cursor: pointer;
+          font-size: 16px;
+          user-select: none;
+          color: rgba(190, 190, 190, 1);
+          font-size: 12px;
+          line-height: 150%;
+          margin: 40px 0 0;
+        }
+
+        /* Hide the default checkbox */
+        .cart-checkbox input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+        }
+
+        /* Create a custom box */
+        .checkmark {
+          position: absolute;
+          top: 2px;
+          left: 0;
+          height: 20px;
+          width: 20px;
+          background-color: #eee;
+          border-radius: 4px;
+          transition: background-color 0.3s ease;
+        }
+
+        /* On hover */
+        .cart-checkbox:hover input ~ .checkmark {
+          background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* When checkbox is checked */
+        .cart-checkbox input:checked ~ .checkmark {
+          background-color: #0b2fa3;
+        }
+
+        /* Checkmark/indicator */
+        .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .cart-checkbox input:checked ~ .checkmark:after {
+          display: block;
+        }
+
+        /* Checkmark style */
+        .cart-checkbox .checkmark:after {
+          left: 7px;
+          top: 3px;
+          width: 5px;
+          height: 10px;
+          border: solid rgba(255, 255, 255, 0.5);
+          border-width: 0 3px 3px 0;
+          transform: rotate(45deg);
         }
       }
     }
