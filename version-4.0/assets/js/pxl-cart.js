@@ -1,6 +1,7 @@
 const data = {
   "field-1": {
     "label": "Monthly Email Marketing Packages",
+    'elmclass': 'group-packages',
     "type": "radio",
     "name": "Monthly Email Marketing Packages",
     "hasdom": true,
@@ -41,6 +42,7 @@ const data = {
 
   "field-2": {
     "label": "Types of Emails We Create",
+    'elmclass': 'group-addon',
     "type": "checkbox",
     "name": "addons",
     "options": [
@@ -58,9 +60,10 @@ const data = {
   "field-3": {
     "label": "Add-Ons (Optional)",
     "type": "checkbox",
+    'elmclass': 'group-addon2',
     "name": "additional-services",
     "options": [
-      { "name": "Don't Showcase my Project.", "price": "5000" },
+      { "name": "Don't Showcase my Project.", "price": "5000", 'info' : "This is sample tool tip text", "nandani":true },
       { "name": "Newsletter Archive on Website", "price": "12,000/month" },
       { "name": "Advanced Automations (flows)", "price": "16,000/flow" },
       { "name": "CRM/ESP Integration.", "price": "8,000/setup" },
@@ -73,11 +76,11 @@ const data = {
 const formElm = document.getElementById('gen-form-elm');
 const totalPriceDisplay = document.getElementById('total-price');
 
-const boxClasses = ['box1', 'box2', 'box3'];
-
 function createFieldset(key, field, index) {
+  //console.log(field.elmclass);
   const section = document.createElement('div');
-  let boxClass = boxClasses[index] || '';
+  let boxClass = 'box'+(index+1);
+  boxClass += ( field.elmclass ) ? ' '+field.elmclass : '';
   section.className = `section ${boxClass}`.trim();
 
   const legend = document.createElement('h3');
@@ -168,11 +171,16 @@ function createFieldset(key, field, index) {
 
       const nameDiv = document.createElement('div');
       nameDiv.className = 'left';
-      nameDiv.textContent = opt.name;
-
+      const infoToolTip = (opt.info) ? '<div class="info-tip">'+opt.info+'</div>' : '';
+      nameDiv.innerHTML = opt.name+infoToolTip;
+      //nameDiv.innerHTML = infoToolTip;
       const priceDiv = document.createElement('div');
       priceDiv.className = 'right';
-      priceDiv.textContent = `₹${opt.price}`;
+      if( opt.nandani === true ){
+        //priceDiv.textContent =  `${opt.price}`;
+      }else{
+        priceDiv.textContent =  `₹${opt.price}`;
+      }      
 
       label.appendChild(nameDiv);
       label.appendChild(priceDiv);
@@ -186,7 +194,10 @@ function createFieldset(key, field, index) {
   if (field.hasdom === true) {
     const compElm = document.createElement('div');
     compElm.className = "comp-table";
-    compElm.innerHTML = "<a href='javascript:void(0);'>View Full Plan Comparision</a>";
+    let elmTable = "<a class='elm-comp' href='javascript:void(0);'>View Full Plan Comparision</a>";
+    elmTable += "<table> <tr> <th>Company</th> <th>Contact</th> <th>Country</th> </tr> <tr> <td>Alfreds Futterkiste</td> <td>Maria Anders</td> <td>Germany</td> </tr> <tr> <td>Centro comercial Moctezuma</td> <td>Francisco Chang</td> <td>Mexico</td> </tr> </table>"; 
+    //compElm.innerHTML = "<a href='javascript:void(0);'>View Full Plan Comparision</a>";
+    compElm.innerHTML = elmTable
     section.appendChild(compElm);
   }
 
