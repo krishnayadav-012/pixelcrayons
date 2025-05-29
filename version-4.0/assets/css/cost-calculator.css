@@ -2312,6 +2312,28 @@ input:-webkit-autofill:active {
       .calculator-section .calc-wrapper .calculator-card .form-wrapper .calc-field:focus {
         outline: none;
         border-color: #000; }
+      .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .form-actions {
+        width: 100%; }
+      .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group {
+        display: flex;
+        gap: 20px; }
+        .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .costbtn {
+          display: block;
+          line-height: 1;
+          color: #ffffff;
+          border-radius: 5px;
+          text-align: center;
+          padding: 14px 30px;
+          width: 100%;
+          background: #016be3;
+          font-weight: 700;
+          border: 0;
+          font-family: "Lexend Deca", sans-serif;
+          font-size: 16px; }
+          .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .costbtn.btn-red {
+            background: #ff4c64; }
+          .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .costbtn:hover {
+            background: #110302; }
     .calculator-section .calc-wrapper .cpc-instructions-steps {
       display: flex;
       flex-direction: column;

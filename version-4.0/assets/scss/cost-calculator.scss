@@ -114,6 +114,38 @@
           outline: none;
           border-color: $black;
         }
+
+        &.calc-result {
+          .form-actions {
+            width: 100%;
+          }
+          .btn-group {
+            display: flex;
+            gap: 20px;
+            .costbtn {
+              display: block;
+              line-height: 1;
+              color: $white;
+              border-radius: 5px;
+              text-align: center;
+              padding: 14px 30px;
+              width: 100%;
+              background: #016be3;
+              font-weight: $bold;
+              border: 0;
+              font-family: "Lexend Deca", sans-serif;
+              font-size: 16px;
+
+              &.btn-red {
+                background: #ff4c64;
+              }
+
+              &:hover {
+                background: #110302;
+              }
+            }
+          }
+        }
       }
     }
 
@@ -489,7 +521,9 @@
         .calc-faq-item {
           .calc-faq-question {
             font-size: 15px;
-            &:before{top:17px;}
+            &:before {
+              top: 17px;
+            }
           }
         }
       }

@@ -23,7 +23,7 @@
           <div class="calc-wrapper">
             <div class="calculator-card">
               <h3>CPC Calculator</h3>
-              <div class="form-wrapper">
+              <div class="form-wrapper calc-input">
                 <div class="cpc-form-group">
                   <label for="total-cost">Total cost $:</label>
                   <input type="number" class="calc-field" id="total-cost" placeholder="$100">
@@ -37,8 +37,28 @@
                   Solve!
                   </button>
                 </div>
+              </div>
+              <div class="form-wrapper calc-result" style="display: none;">
                 <div class="cpc-form-group">
                   <div id="result" class="cpc-result"></div>
+                </div>
+                <div class="cpc-form-group btn-group">
+                  <div class="form-actions">
+                    <button type="button" class="costbtn back-input" onclick="resetCalculator()">Calculate Again! <i class="ic-corner-up-left"></i></button>
+                  </div>
+                  <div class="form-actions">
+                    <a href="https://www.pixelcrayons.com/staging/contact-us" class="costbtn btn-red">Help me with my CPC</a>
+                  </div>
+                </div>
+                <div class="cpc-form-group btn-group">
+                  <div class="calc-result-info">
+                    <h4><i class="ic-thumbs-up"></i>If your result is “good”</h4>
+                    <p>If your CPC is low, keep up the good work! You might try pushing the envelope with more competitive keywords in your next campaign!</p>
+                  </div>
+                  <div class="calc-result-info">
+                    <h4><i class="ic-thumbs-down"></i>If your result is “bad”</h4>
+                    <p>If your CPC is high, consider targeting more long-tail keywords and lowering your bids.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -168,10 +188,10 @@
           <div class="calc-resources">
             <h3>Additional Resources</h3>
             <ul>
-              <li><a href="/ppc/glossary/what-is-cpc/">What Is Cost Per Click (CPC)?</a></li>
-              <li><a href="/tools/cpc-calculator/">5 Benefits of Using a Cost Per Click (CPC) Calculator</a></li>
-              <li><a href="/social-media/pricing/how-much-does-facebook-advertising-cost/">Cost Per Click on Facebook – The Important Numbers Behind Your Ads</a></li>
-              <li><a href="/blog/social-media/how-much-does-social-media-advertising-cost/">How Much Does Social Media Advertising Cost in 2020?</a></li>
+              <li><a href="#">What Is Cost Per Click (CPC)?</a></li>
+              <li><a href="#">5 Benefits of Using a Cost Per Click (CPC) Calculator</a></li>
+              <li><a href="#">Cost Per Click on Facebook – The Important Numbers Behind Your Ads</a></li>
+              <li><a href="#">How Much Does Social Media Advertising Cost in 2020?</a></li>
             </ul>
           </div>
         </div>
@@ -180,19 +200,32 @@
     <?php require_once 'assets/include/blog-footer.php'; ?>
     <script>
       // CPC Calculator functionality
-              function calculateCPC() {
-                  const totalCost = parseFloat(document.getElementById('total-cost').value);
-                  const clicks = parseInt(document.getElementById('clicks').value);
-                  const resultDiv = document.getElementById('result');
-                  
-                  if (totalCost > 0 && clicks > 0) {
-                      const cpc = totalCost / clicks;
-                      resultDiv.innerHTML = '<strong>CPC: $' + cpc.toFixed(2) + '</strong>';
-                      resultDiv.classList.add('show');
-                  } else {
-                      resultDiv.classList.remove('show');
-                  }
-              }
+      function calculateCPC() {
+      const totalCost = parseFloat(document.getElementById('total-cost').value);
+      const clicks = parseInt(document.getElementById('clicks').value);
+      const resultDiv = document.getElementById('result');
+      const calcInput = document.querySelector('.calc-input');
+      const calcResult = document.querySelector('.calc-result');
+      
+      if (totalCost > 0 && clicks > 0) {
+        const cpc = totalCost / clicks;
+        resultDiv.innerHTML = '<strong>Your CPC is: $' + cpc.toFixed(2) + '</strong>';
+        resultDiv.classList.add('show');
+        calcInput.style.display = 'none'; // Hide input section
+        calcResult.style.display = 'block'; // Show result section
+      } else {
+        resultDiv.innerHTML = '<strong>Please enter valid values.</strong>';
+        resultDiv.classList.remove('show');
+      }
+      }
+      
+      function resetCalculator() {
+      document.getElementById('total-cost').value = '';
+      document.getElementById('clicks').value = '';
+      document.querySelector('.calc-result').style.display = 'none'; // Hide result section
+      document.querySelector('.calc-input').style.display = 'block'; // Show input section
+      }
+      
       
               // FAQ functionality
             let openQuestion = null;
