@@ -491,7 +491,7 @@
           }
         }
 
-        .cart-total {
+        .cart-total, .cart-subtotal {
           font-size: 18px;
           font-weight: 700;
           text-align: right;
@@ -499,6 +499,7 @@
           display: flex;
           justify-content: space-between;
         }
+        .cart-subtotal{color: #BEBEBE;}
 
         .pxl-checkout-btn {
           min-width: 100%;
@@ -933,7 +934,7 @@
             }
           }
 
-          .cart-total {
+          .cart-total, .cart-subtotal {
             font-size: 16px;
           }
 
