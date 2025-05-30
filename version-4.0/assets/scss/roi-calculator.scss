@@ -24,6 +24,10 @@
       text-align: center;
     }
 
+    p {
+      text-align: center;
+    }
+
     h2 {
       font-size: 30px;
       line-height: 1.2;
@@ -59,6 +63,9 @@
       .form-wrapper {
         .cpc-form-group {
           margin: 0 0 20px;
+          &:last-child {
+            margin: 0;
+          }
           label {
             color: #000000;
             font-size: 20px;
@@ -228,6 +235,126 @@
   }
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .modal-box {
+    background: white;
+    color: black;
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0px 0px 52px 0px #624de3;
+
+    h2 {
+      font-size: 50px;
+      line-height: 140%;
+      margin: 0 0 10px;
+      font-weight: $semi-bold;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 15px;
+      background: #eee;
+      border: 1px solid #bebebe;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 50px 0 0;
+
+      .progress-fill {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(to right, #6a00ff, #a66cff);
+        border-color: #0b147c;
+        transition: width 0.3s;
+      }
+    }
+
+    .progressText {
+      display: block;
+      font-size: 18px;
+      color: #666666;
+      margin-top: 10px;
+    }
+
+    .btnclose {
+      min-width: 200px;
+      padding: 17px;
+      color: white;
+      background: #f76600;
+      margin: 30px 0 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 25px;
+      cursor: pointer;
+      &:hover {
+        background: $black;
+      }
+    }
+  }
+  &.show {
+    display: flex;
+  }
+}
+
+.seo-features {
+  .top-section {
+    padding: 0 0 50px;
+  }
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    .feature-card {
+      border-radius: 20px;
+      padding: 30px;
+      text-align: left;
+      border: 1px solid #c4c4c4;
+      transition: transform 0.3s;
+
+      text-align: center;
+
+      .label {
+        display: inline-block;
+        background: #d9ebff;
+        color: $black;
+        line-height: 1.2;
+        padding: 12px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 25px;
+        line-height: 140%;
+        font-weight: $medium-font;
+        margin-bottom: 0.5rem;
+        color: $black;
+      }
+
+      p {
+        font-size: $font-16;
+        color: #686868;
+        font-weight: $medium-font;
+      }
+    }
+  }
+}
+
 @media (max-width: 1366px) {
 }
 
@@ -264,6 +391,31 @@
           font-size: 16px;
           margin-bottom: 20px;
         }
+      }
+    }
+  }
+
+  .modal {
+    .modal-box {
+      padding: 40px;
+      width: 90%;
+      max-width: 90%;
+      h2 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      .progress-bar {
+        margin: 40px 0 0;
+      }
+
+      .progressText {
+        font-size: 18px;
+      }
+
+      .btnclose {
+        margin: 30px 0 0;
+        font-size: 20px;
       }
     }
   }
@@ -336,6 +488,53 @@
         p {
           font-size: 14px;
           margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .modal {
+    .modal-box {
+      padding: 30px;
+      max-width: 95%;
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+      .progress-bar {
+        margin: 30px 0 0;
+      }
+
+      .progressText {
+        font-size: 16px;
+      }
+
+      .btnclose {
+        margin: 25px 0 0;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .seo-features {
+    .top-section {
+      padding: 0 0 40px;
+    }
+    .feature-grid {
+      grid-template-columns: 1fr;
+      .feature-card {
+        .label {
+          line-height: 22px;
+        }
+        h3 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
         }
       }
     }

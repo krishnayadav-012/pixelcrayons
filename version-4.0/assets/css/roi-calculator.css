@@ -2241,6 +2241,8 @@ input:-webkit-autofill:active {
       color: #ffffff;
       margin-bottom: 10px;
       text-align: center; }
+    .calculator-section .calc-banner-content p {
+      text-align: center; }
     .calculator-section .calc-banner-content h2 {
       font-size: 30px;
       line-height: 1.2;
@@ -2266,6 +2268,8 @@ input:-webkit-autofill:active {
         margin: 0 0 20px; }
       .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group {
         margin: 0 0 20px; }
+        .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group:last-child {
+          margin: 0; }
         .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group label {
           color: #000000;
           font-size: 20px;
@@ -2392,6 +2396,96 @@ input:-webkit-autofill:active {
       .roi-intro-section .roi-wrapper .roi-card p strong {
         color: #000; }
 
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; }
+  .modal .modal-box {
+    background: white;
+    color: black;
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0px 0px 52px 0px #624de3; }
+    .modal .modal-box h2 {
+      font-size: 50px;
+      line-height: 140%;
+      margin: 0 0 10px;
+      font-weight: 600; }
+    .modal .modal-box p {
+      font-size: 18px; }
+    .modal .modal-box .progress-bar {
+      width: 100%;
+      height: 15px;
+      background: #eee;
+      border: 1px solid #bebebe;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 50px 0 0; }
+      .modal .modal-box .progress-bar .progress-fill {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(to right, #6a00ff, #a66cff);
+        border-color: #0b147c;
+        transition: width 0.3s; }
+    .modal .modal-box .progressText {
+      display: block;
+      font-size: 18px;
+      color: #666666;
+      margin-top: 10px; }
+    .modal .modal-box .btnclose {
+      min-width: 200px;
+      padding: 17px;
+      color: white;
+      background: #f76600;
+      margin: 30px 0 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 25px;
+      cursor: pointer; }
+      .modal .modal-box .btnclose:hover {
+        background: #000; }
+  .modal.show {
+    display: flex; }
+
+.seo-features .top-section {
+  padding: 0 0 50px; }
+.seo-features .feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; }
+  .seo-features .feature-grid .feature-card {
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #c4c4c4;
+    transition: transform 0.3s;
+    text-align: center; }
+    .seo-features .feature-grid .feature-card .label {
+      display: inline-block;
+      background: #d9ebff;
+      color: #000;
+      line-height: 1.2;
+      padding: 12px;
+      border-radius: 5px;
+      margin-bottom: 10px; }
+    .seo-features .feature-grid .feature-card h3 {
+      font-size: 25px;
+      line-height: 140%;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: #000; }
+    .seo-features .feature-grid .feature-card p {
+      font-size: 16px;
+      color: #686868;
+      font-weight: 500; }
+
 @media (max-width: 1024px) {
   .calculator-section .calc-banner-content h1 {
     font-size: 45px;
@@ -2409,7 +2503,22 @@ input:-webkit-autofill:active {
     gap: 20px; }
     .roi-intro-section .roi-wrapper .roi-card p {
       font-size: 16px;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+
+  .modal .modal-box {
+    padding: 40px;
+    width: 90%;
+    max-width: 90%; }
+    .modal .modal-box h2 {
+      font-size: 40px;
+      line-height: 50px; }
+    .modal .modal-box .progress-bar {
+      margin: 40px 0 0; }
+    .modal .modal-box .progressText {
+      font-size: 18px; }
+    .modal .modal-box .btnclose {
+      margin: 30px 0 0;
+      font-size: 20px; } }
 @media (max-width: 767px) {
   .calculator-section {
     padding: 140px 0 50px; }
@@ -2451,6 +2560,33 @@ input:-webkit-autofill:active {
       font-size: 20px; }
     .roi-intro-section .roi-wrapper .roi-card p {
       font-size: 14px;
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+
+  .modal .modal-box {
+    padding: 30px;
+    max-width: 95%; }
+    .modal .modal-box h2 {
+      font-size: 30px;
+      line-height: 40px; }
+    .modal .modal-box p {
+      font-size: 16px; }
+    .modal .modal-box .progress-bar {
+      margin: 30px 0 0; }
+    .modal .modal-box .progressText {
+      font-size: 16px; }
+    .modal .modal-box .btnclose {
+      margin: 25px 0 0;
+      font-size: 18px; }
+
+  .seo-features .top-section {
+    padding: 0 0 40px; }
+  .seo-features .feature-grid {
+    grid-template-columns: 1fr; }
+    .seo-features .feature-grid .feature-card .label {
+      line-height: 22px; }
+    .seo-features .feature-grid .feature-card h3 {
+      font-size: 20px; }
+    .seo-features .feature-grid .feature-card p {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=roi-calculator.css.map */

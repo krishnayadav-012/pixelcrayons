@@ -58,7 +58,7 @@
         </div>
       </div>
     </section>
-    <section class="roi-intro-section padding-t-120 padding-b-120">
+    <section class="roi-intro-section padding-t-70 padding-b-70">
       <div class="container">
         <div class="top-section b-100">
           <h2>What is an Online Marketing ROI Calculator?</h2>
