@@ -17,30 +17,31 @@
     <section class="calculator-section">
       <div class="container">
         <div class="calc-banner-content">
-          <h1>Cost-Per-Click Calculator</h1>
-          <h2>The Best Place to Get Your Estimated CPC</h2>
-          <p>Quick and easy way to calculate the CPC of your ads.</p>
+          <h1>CPA Calculator</h1>
+          <h2>The Best Place to Get Your Estimated </h2>
+          <p>Cost Per Action based on CPC</p>
           <div class="calc-wrapper">
             <div class="calculator-card">
-              <h3>CPC Calculator</h3>
+              <h3>CPA using CPC</h3>
               <div class="form-wrapper calc-input">
                 <div class="cpc-form-group">
-                  <label for="total-cost">Total cost $:</label>
-                  <input type="number" class="calc-field" id="total-cost" placeholder="$100">
+                  <label for="total-cost">CPA $:</label>
+                  <input type="text" class="calc-field total-cost" placeholder="CPC">
                 </div>
                 <div class="cpc-form-group">
-                  <label for="clicks">Clicks:</label>
-                  <input type="number" class="calc-field"  id="clicks" placeholder="Clicks:">
+                  <label for="clicks">Conversion Rate: <i class="ques"><img src="assets/images/ques-01.svg" class="normal"></i></label>
+                  <div class="input-with-percent">
+                    <input type="text" id="clicks" class="calc-field clicks" placeholder="Conversion Rate" />
+                    <span class="percent-sign">%</span>
+                  </div>
                 </div>
                 <div class="cpc-form-group">
-                  <button onclick="calculateCPC()" class="calc-btn">
-                  Solve!
-                  </button>
+                  <button onclick="calculateCPC()" class="calc-btn">Solve!</button>
                 </div>
               </div>
-              <div class="form-wrapper calc-result" style="display: none;">
+              <div class="form-wrapper calc-result">
                 <div class="cpc-form-group">
-                  <div id="result" class="cpc-result"></div>
+                  <div class="cpc-result result"></div>
                 </div>
                 <div class="cpc-form-group btn-group">
                   <div class="form-actions">
@@ -52,12 +53,12 @@
                 </div>
                 <div class="cpc-form-group btn-group">
                   <div class="calc-result-info">
-                    <h4><i class="ic-thumbs-up"></i>If your result is “good”</h4>
+                    <h4><i class="ic-thumbs-up"></i> If your result is “good”</h4>
                     <p>If your CPC is low, keep up the good work! You might try pushing the envelope with more competitive keywords in your next campaign!</p>
                   </div>
                   <div class="calc-result-info">
-                    <h4><i class="ic-thumbs-down"></i>If your result is “bad”</h4>
-                    <p>If your CPC is low, keep up the good work! You might try pushing the envelope with more competitive keywords in your next campaign!</p>
+                    <h4><i class="ic-thumbs-down"></i> If your result is “bad”</h4>
+                    <p>If your CPC is high, consider optimizing your ad strategy to improve your conversion rate or lower your cost per click.</p>
                   </div>
                 </div>
               </div>
@@ -66,22 +67,22 @@
               <div class="cpc-step">
                 <div class="cpc-step-number">1</div>
                 <div class="cpc-step-content">
-                  <h4>Determine the total cost of your clicks</h4>
-                  <p>Calculate how much you spent on all ad clicks on the ad that you're calculating for. That means if your ad got two clicks and one of your ad clicks was $0.25 and the other was $0.20, you'd input $0.45 as your total cost in our CPC calculator.</p>
+                  <h4>Determine the CPC of your ad campaign</h4>
+                  <p>Knowing the CPC of your ad campaign is the first step toward calculating your cost per action. You'll input your CPC in the first form field.</p>
                 </div>
               </div>
               <div class="cpc-step">
                 <div class="cpc-step-number">2</div>
                 <div class="cpc-step-content">
-                  <h4>Determine how many clicks your ad received</h4>
-                  <p>How many clicks did your ad receive? If we use the example above, you'd input 2 in the "clicks" field of our CPC calculator.</p>
+                  <h4>Determine your conversion rate</h4>
+                  <p>Your conversion rate is the next important number to fill in. You can calculate conversion rate by taking the number of total conversions and dividing it by the number of ad interactions that turned into a conversion.</p>
                 </div>
               </div>
               <div class="cpc-step">
                 <div class="cpc-step-number">3</div>
                 <div class="cpc-step-content">
-                  <h4>Use your new-found CPC metric to improve your campaigns!</h4>
-                  <p>When you click "solve" on our CPC calculator, you'll get an immediate cost-per-click calculation that can help improve your campaigns moving forward!</p>
+                  <h4>Reap the benefits of your new-found CPA!</h4>
+                  <p>When you click solve on our CPA calculator, you'll get an immediate read on your CPA to inform your campaigns moving forward!</p>
                 </div>
               </div>
             </div>
@@ -201,32 +202,42 @@
     <script>
       // CPC Calculator functionality
       function calculateCPC() {
-      const totalCost = parseFloat(document.getElementById('total-cost').value);
-      const clicks = parseInt(document.getElementById('clicks').value);
-      const resultDiv = document.getElementById('result');
-      const calcInput = document.querySelector('.calc-input');
+      const totalCostInput = document.querySelector('.total-cost');
+      const conversionRateInput = document.querySelector('.clicks');
+      const totalCost = parseFloat(totalCostInput.value);
+      const conversionRate = parseFloat(conversionRateInput.value);
+      const resultText = document.querySelector('.result');
       const calcResult = document.querySelector('.calc-result');
+      const calcInput = document.querySelector('.calc-input');
       
-      if (totalCost > 0 && clicks > 0) {
-        const cpc = totalCost / clicks;
-        resultDiv.innerHTML = '<strong>Your CPC is: $' + cpc.toFixed(2) + '</strong>';
-        resultDiv.classList.add('show');
-        calcInput.style.display = 'none'; // Hide input section
-        calcResult.style.display = 'block'; // Show result section
+      // Clear previous result message
+      resultText.innerHTML = '';
+      
+      // Validation check
+      if (
+      !isNaN(totalCost) &&
+      !isNaN(conversionRate) &&
+      totalCost > 0 &&
+      conversionRate > 0
+      ) {
+      const cpa = totalCost / conversionRate;
+      resultText.innerHTML = `<strong>Your CPA is: $${cpa.toFixed(2)}</strong>`;
+      calcResult.style.display = 'block';
+      calcInput.style.display = 'none';
       } else {
-        resultDiv.innerHTML = '<strong>Please enter valid values.</strong>';
-        resultDiv.classList.remove('show');
+      // Only show error message, not the full result section
+      resultText.innerHTML = `<strong style="color: red;">Please enter valid numeric values greater than 0.</strong>`;
+      calcResult.style.display = 'none';
       }
       }
+      
       
       function resetCalculator() {
-      document.getElementById('total-cost').value = '';
-      document.getElementById('clicks').value = '';
-      document.querySelector('.calc-result').style.display = 'none'; // Hide result section
-      document.querySelector('.calc-input').style.display = 'block'; // Show input section
-      }
-      
-      
+      document.querySelector('.total-cost').value = '';
+      document.querySelector('.clicks').value = '';
+      document.querySelector('.calc-result').style.display = 'none';
+      document.querySelector('.calc-input').style.display = 'block';
+      }  
               // FAQ functionality
             let openQuestion = null;
       

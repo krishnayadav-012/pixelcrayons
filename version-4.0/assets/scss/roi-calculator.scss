@@ -1,0 +1,343 @@
+@import "_default";
+@import "menu-v3";
+@import "_menu-white";
+@import "footer";
+
+.calculator-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  background: $gradient-bg;
+  padding: 150px 0 90px;
+
+  .calc-banner-content {
+    position: relative;
+    z-index: 9;
+
+    h1 {
+      font-size: 50px;
+      line-height: 1.2;
+      font-weight: $bold;
+      color: $white;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: $bold;
+      color: $white;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .calc-wrapper {
+    margin: 30px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .calculator-card {
+      flex-basis: 50%;
+      background: $white;
+      padding: 50px;
+      border-radius: 20px;
+
+      h3 {
+        font-size: 30px;
+        font-weight: $bold;
+        margin: 0 0 20px;
+      }
+
+      .form-wrapper {
+        .cpc-form-group {
+          margin: 0 0 20px;
+          label {
+            color: #000000;
+            font-size: 20px;
+            display: block;
+            margin: 0 0 10px;
+            font-weight: $medium-font;
+          }
+          .description {
+            background-color: #eef6ff;
+            border: 1px solid #99cfff;
+            color: #4b4b4b;
+            padding: 10px;
+            border-radius: 5px;
+            line-height: 140%;
+            font-size: 14px;
+          }
+          .calc-field {
+            width: 100%;
+            height: 42px;
+            padding: 10px;
+            border: 1px solid #9d9d9d;
+            color: #9d9d9d;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.2s ease;
+            box-sizing: border-box;
+            font-family: "Lexend Deca", sans-serif;
+          }
+
+          .custom-select {
+            position: relative;
+
+            select {
+              appearance: none;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              width: 100%;
+              padding: 10px 30px 10px 10px;
+              color: #4b4b4b;
+              background: #fff url(../images/angle-img.svg) no-repeat right 10px
+                center/1rem;
+            }
+          }
+          .calc-btn {
+            width: 100%;
+            background: #08b25a;
+            color: white;
+            padding: 11px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0 0;
+            font-size: 16px;
+            font-weight: $bold;
+            text-align: center;
+            font-family: "Lexend Deca", sans-serif;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            &:hover {
+              background: #007438;
+              color: $white;
+            }
+          }
+
+          .result {
+            width: 100%;
+            background: #e3e3e3;
+            border: 1px solid #c6c6c6;
+            color: #8e8e8e;
+            padding: 11px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0 0;
+            font-size: 16px;
+            font-weight: $semi-bold;
+            line-height: 20px;
+            text-align: center;
+
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+
+            &.success {
+              background-color: #d1f5e3;
+              color: #0a773f;
+              font-weight: 600;
+            }
+          }
+        }
+
+        .calc-field:focus {
+          outline: none;
+          border-color: $black;
+        }
+      }
+    }
+  }
+
+  &:after {
+    content: "";
+    background: url(../images/shape-01.png) no-repeat;
+    width: 452px;
+    height: 397px;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  &:before {
+    content: "";
+    background: url(../images/shape-02.png) no-repeat;
+    width: 217px;
+    height: 191px;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 40px;
+  }
+}
+
+.roi-intro-section {
+  .top-section {
+    padding: 0 0 50px;
+  }
+
+  .roi-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .roi-card {
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 15px 0px #016be333;
+      text-align: center;
+
+      h3 {
+        font-size: 30px;
+        margin: 0 0 15px;
+        font-weight: $semi-bold;
+        line-height: 140%;
+      }
+
+      h4 {
+        font-size: 24px;
+        line-height: 140%;
+        font-weight: $semi-bold;
+        margin: 0 0 10px;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 20px;
+
+        a {
+          color: #016be3;
+          text-decoration: underline;
+          font-weight: 500;
+          &:hover {
+            color: #000;
+          }
+        }
+
+        strong {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1024px) {
+  .calculator-section {
+    .calc-banner-content {
+      h1 {
+        font-size: 45px;
+        line-height: 55px;
+      }
+      h2 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    .calc-wrapper {
+      .calculator-card {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  .roi-intro-section {
+    .top-section {
+      padding: 0 0 50px;
+    }
+
+    .roi-wrapper {
+      gap: 20px;
+      .roi-card {
+        p {
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .calculator-section {
+    padding: 140px 0 50px;
+    .calc-banner-content {
+      h1 {
+        font-size: 35px;
+        line-height: 45px;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 1.4;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .calc-wrapper {
+      .calculator-card {
+        padding: 30px;
+        h3 {
+          font-size: 25px;
+        }
+
+        .form-wrapper {
+          .cpc-form-group {
+            margin: 0 0 15px;
+            label {
+              font-size: 18px;
+            }
+            .calc-field {
+              font-size: 14px;
+              font-family: sans-serif;
+            }
+            .calc-btn {
+              font-size: 14px;
+              font-family: sans-serif;
+            }
+            .result {
+              font-size: 14px;
+              font-family: sans-serif;
+            }
+          }
+        }
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
+
+  .roi-intro-section {
+    .top-section {
+      padding: 0 0 50px;
+    }
+
+    .roi-wrapper {
+      gap: 20px;
+      .roi-card {
+        h3 {
+          font-size: 25px;
+        }
+        h4 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
