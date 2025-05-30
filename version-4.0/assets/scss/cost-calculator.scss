@@ -144,6 +144,43 @@
                 background: #110302;
               }
             }
+            .calc-result-info {
+              flex-basis: 50%;
+              h4 {
+                color: #016be3;
+                margin: 0 0 10px;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 500;
+                padding-left: 30px;
+                position: relative;
+                &:before {
+                  content: "";
+                  background: url(../images/thumbs-up.svg) no-repeat;
+                  width: 19px;
+                  height: 19px;
+                  background-size: 100%;
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                }
+              }
+              p {
+                color: #666666;
+                font-size: 12px;
+                line-height: 140%;
+                font-weight: normal;
+              }
+              &:last-child {
+                h4 {
+                  color: #ff4c64;
+                  &:before {
+                    background: url(../images/thumbs-down.svg) no-repeat;
+                    background-size: 100%;
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -409,6 +446,26 @@
   }
 }
 
+@media (max-width: 1366px) {
+  .calculator-section {
+    .calc-wrapper {
+      .calculator-card {
+        padding: 40px;
+        .form-wrapper {
+          &.calc-result {
+            .btn-group {
+              gap: 13px;
+              .costbtn {
+                padding: 14px 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .calculator-section {
     .calc-banner-content {
@@ -486,6 +543,21 @@
             .calc-btn {
               font-size: 14px;
               font-family: sans-serif;
+            }
+          }
+
+          &.calc-result {
+            .btn-group {
+              gap: 15px;
+              flex-wrap: wrap;
+              .costbtn {
+                padding: 14px 20px;
+                font-family: sans-serif;
+                font-size: 16px;
+              }
+              .calc-result-info {
+                flex-basis: 100%;
+              }
             }
           }
         }

@@ -2334,6 +2334,35 @@ input:-webkit-autofill:active {
             background: #ff4c64; }
           .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .costbtn:hover {
             background: #110302; }
+        .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info {
+          flex-basis: 50%; }
+          .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info h4 {
+            color: #016be3;
+            margin: 0 0 10px;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 500;
+            padding-left: 30px;
+            position: relative; }
+            .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info h4:before {
+              content: "";
+              background: url(../images/thumbs-up.svg) no-repeat;
+              width: 19px;
+              height: 19px;
+              background-size: 100%;
+              position: absolute;
+              left: 0;
+              top: 0; }
+          .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info p {
+            color: #666666;
+            font-size: 12px;
+            line-height: 140%;
+            font-weight: normal; }
+          .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info:last-child h4 {
+            color: #ff4c64; }
+            .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info:last-child h4:before {
+              background: url(../images/thumbs-down.svg) no-repeat;
+              background-size: 100%; }
     .calculator-section .calc-wrapper .cpc-instructions-steps {
       display: flex;
       flex-direction: column;
@@ -2529,6 +2558,13 @@ input:-webkit-autofill:active {
             left: 0;
             top: 3px; }
 
+@media (max-width: 1366px) {
+  .calculator-section .calc-wrapper .calculator-card {
+    padding: 40px; }
+    .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group {
+      gap: 13px; }
+      .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .costbtn {
+        padding: 14px 17px; } }
 @media (max-width: 1024px) {
   .calculator-section .calc-banner-content h1 {
     font-size: 45px;
@@ -2577,6 +2613,15 @@ input:-webkit-autofill:active {
         .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .calc-btn {
           font-size: 14px;
           font-family: sans-serif; }
+      .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group {
+        gap: 15px;
+        flex-wrap: wrap; }
+        .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .costbtn {
+          padding: 14px 20px;
+          font-family: sans-serif;
+          font-size: 16px; }
+        .calculator-section .calc-wrapper .calculator-card .form-wrapper.calc-result .btn-group .calc-result-info {
+          flex-basis: 100%; }
     .calculator-section .calc-wrapper .cpc-instructions-steps .cpc-step .cpc-step-number {
       width: 35px;
       height: 35px;

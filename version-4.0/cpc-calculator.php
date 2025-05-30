@@ -57,7 +57,7 @@
                   </div>
                   <div class="calc-result-info">
                     <h4><i class="ic-thumbs-down"></i>If your result is “bad”</h4>
-                    <p>If your CPC is high, consider targeting more long-tail keywords and lowering your bids.</p>
+                    <p>If your CPC is low, keep up the good work! You might try pushing the envelope with more competitive keywords in your next campaign!</p>
                   </div>
                 </div>
               </div>
