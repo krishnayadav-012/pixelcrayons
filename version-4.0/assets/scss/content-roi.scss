@@ -185,27 +185,23 @@
   }
 }
 
-
-
-
-    .error {
-      border-color: red;
-    }
-    .error-message {
-      color: red;
-      font-size: 12px;
-      margin-top: 4px;
-    }
-    .btn-group {
-      display: flex;
-      justify-content: space-between;
-     margin: 10px 0 0;
-     gap:20px;
-
+.error {
+  border-color: red;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0;
+  gap: 20px;
 
   .btn {
-      flex: 1;
-       width: 100%;
+    flex: 1;
+    width: 100%;
     background: #08b25a;
     color: white;
     padding: 11px 20px;
@@ -219,56 +215,106 @@
     cursor: pointer;
     transition: background-color 0.2s ease;
 
+    &.btn-green {
+      background: #08b25a;
 
- &.btn-green {
-         background: #08b25a;
-
-         &:hover{background: #007438;
-    color: #ffffff;}
+      &:hover {
+        background: #007438;
+        color: #ffffff;
+      }
     }
     &.btn-grey {
       background: #bdbdbd;
-             &:hover{background: #007438;
-    color: #ffffff;}
+      &:hover {
+        background: #007438;
+        color: #ffffff;
+      }
     }
+  }
+}
 
+.seo-result {
+  .result {
+    text-align: center;
+    padding: 70px 0 50px;
 
-
+    h2 {
+      font-size: 25px;
+      color: $black;
+      font-weight: 600;
+      line-height: 140%;
     }
-   
-
+    h3 {
+      font-size: 50px;
+      line-height: 1.2;
     }
+    .btn {
+      display: inline-block;
+      background: #016be3;
+      margin: 20px 0 0;
+      color: white;
+      padding: 11px 20px;
+      border: none;
+      border-radius: 5px;
 
-
-    .seo-result{
-        .result {
+      font-size: 16px;
+      font-weight: 700;
       text-align: center;
-     padding:70px 0;
+
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+        color: #fff;
+      }
     }
-    }
-  
-  
-    .result strong {
-      font-size: 24px;
-    }
-    .result-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .result-grid div {
-      background: #f1f1f1;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-    }
+  }
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  padding: 0 0 70px;
+
+
+div {
+  border-right: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  text-align: center;
+  padding: 30px 20px;
+
+  &:nth-child(3n) {
+    border-right: 0;
+  }
+  &:nth-child(4),
+  &:nth-child(5),
+  &:nth-child(6) {
+    border-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 140%;
+    color: $black;
+  }
+  h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+}
+
+
+}
+
 
 @media (max-width: 1366px) {
 }
 
 @media (max-width: 1024px) {
-  .calculator-section {
+  .content-marketing-roi {
     .calc-banner-content {
       h1 {
         font-size: 45px;
@@ -288,50 +334,11 @@
     }
   }
 
-  .roi-intro-section {
-    .top-section {
-      padding: 0 0 50px;
-    }
 
-    .roi-wrapper {
-      gap: 20px;
-      .roi-card {
-        p {
-          font-size: 16px;
-          margin-bottom: 20px;
-        }
-      }
-    }
-  }
-
-  .modal {
-    .modal-box {
-      padding: 40px;
-      width: 90%;
-      max-width: 90%;
-      h2 {
-        font-size: 40px;
-        line-height: 50px;
-      }
-
-      .progress-bar {
-        margin: 40px 0 0;
-      }
-
-      .progressText {
-        font-size: 18px;
-      }
-
-      .btnclose {
-        margin: 30px 0 0;
-        font-size: 20px;
-      }
-    }
-  }
 }
 
 @media (max-width: 767px) {
-  .calculator-section {
+  .content-marketing-roi {
     padding: 140px 0 50px;
     .calc-banner-content {
       h1 {
@@ -380,72 +387,99 @@
     }
   }
 
-  .roi-intro-section {
-    .top-section {
-      padding: 0 0 50px;
-    }
 
-    .roi-wrapper {
-      gap: 20px;
-      .roi-card {
-        h3 {
-          font-size: 25px;
-        }
-        h4 {
-          font-size: 20px;
-        }
-        p {
-          font-size: 14px;
-          margin-bottom: 15px;
-        }
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0;
+gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  .btn {
+font-size: 14px;
+    font-family: sans-serif;
+
+   
+  }
+}
+
+.seo-result {
+  .result {
+    text-align: center;
+    padding: 70px 0 50px;
+
+    h2 {
+      font-size: 25px;
+      color: $black;
+      font-weight: 600;
+      line-height: 140%;
+    }
+    h3 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+    .btn {
+      display: inline-block;
+      background: #016be3;
+      margin: 20px 0 0;
+      color: white;
+      padding: 11px 20px;
+      border: none;
+      border-radius: 5px;
+
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+        color: #fff;
       }
     }
   }
+}
 
-  .modal {
-    .modal-box {
-      padding: 30px;
-      max-width: 95%;
-      h2 {
-        font-size: 30px;
-        line-height: 40px;
-      }
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 
-      p {
-        font-size: 16px;
-      }
-      .progress-bar {
-        margin: 30px 0 0;
-      }
+  padding: 0 0 50px;
 
-      .progressText {
-        font-size: 16px;
-      }
 
-      .btnclose {
-        margin: 25px 0 0;
-        font-size: 18px;
-      }
-    }
+div {
+  border: 1px solid #666666;
+  padding: 20px 20px;
+
+  &:nth-child(3n) {
+    border: 1px solid #666666;
+  }
+  &:nth-child(4),
+  &:nth-child(5),
+  &:nth-child(6) {
+     border: 1px solid #666666;
   }
 
-  .seo-features {
-    .top-section {
-      padding: 0 0 40px;
-    }
-    .feature-grid {
-      grid-template-columns: 1fr;
-      .feature-card {
-        .label {
-          line-height: 22px;
-        }
-        h3 {
-          font-size: 20px;
-        }
-        p {
-          font-size: 14px;
-        }
-      }
-    }
+  p {
+    font-size: 18px;
+    line-height: 140%;
+    color: $black;
   }
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+}
+
+
+}
+
+
+
 }

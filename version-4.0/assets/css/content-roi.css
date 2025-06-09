@@ -2404,124 +2404,152 @@ input:-webkit-autofill:active {
 
 .seo-result .result {
   text-align: center;
-  padding: 70px 0; }
-
-.result strong {
-  font-size: 24px; }
+  padding: 70px 0 50px; }
+  .seo-result .result h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    line-height: 140%; }
+  .seo-result .result h3 {
+    font-size: 50px;
+    line-height: 1.2; }
+  .seo-result .result .btn {
+    display: inline-block;
+    background: #016be3;
+    margin: 20px 0 0;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease; }
+    .seo-result .result .btn:hover {
+      background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+      color: #fff; }
 
 .result-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin-top: 30px; }
-
-.result-grid div {
-  background: #f1f1f1;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center; }
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 0 70px; }
+  .result-grid div {
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    text-align: center;
+    padding: 30px 20px; }
+    .result-grid div:nth-child(3n) {
+      border-right: 0; }
+    .result-grid div:nth-child(4), .result-grid div:nth-child(5), .result-grid div:nth-child(6) {
+      border-bottom: 0; }
+    .result-grid div p {
+      font-size: 20px;
+      line-height: 140%;
+      color: #000; }
+    .result-grid div h2 {
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 140%; }
 
 @media (max-width: 1024px) {
-  .calculator-section .calc-banner-content h1 {
+  .content-marketing-roi .calc-banner-content h1 {
     font-size: 45px;
     line-height: 55px; }
-  .calculator-section .calc-banner-content h2 {
+  .content-marketing-roi .calc-banner-content h2 {
     font-size: 25px; }
-  .calculator-section .calc-banner-content p {
+  .content-marketing-roi .calc-banner-content p {
     font-size: 18px; }
-  .calculator-section .calc-wrapper .calculator-card {
-    flex-basis: 100%; }
-
-  .roi-intro-section .top-section {
-    padding: 0 0 50px; }
-  .roi-intro-section .roi-wrapper {
-    gap: 20px; }
-    .roi-intro-section .roi-wrapper .roi-card p {
-      font-size: 16px;
-      margin-bottom: 20px; }
-
-  .modal .modal-box {
-    padding: 40px;
-    width: 90%;
-    max-width: 90%; }
-    .modal .modal-box h2 {
-      font-size: 40px;
-      line-height: 50px; }
-    .modal .modal-box .progress-bar {
-      margin: 40px 0 0; }
-    .modal .modal-box .progressText {
-      font-size: 18px; }
-    .modal .modal-box .btnclose {
-      margin: 30px 0 0;
-      font-size: 20px; } }
+  .content-marketing-roi .calc-wrapper .calculator-card {
+    flex-basis: 100%; } }
 @media (max-width: 767px) {
-  .calculator-section {
+  .content-marketing-roi {
     padding: 140px 0 50px; }
-    .calculator-section .calc-banner-content h1 {
+    .content-marketing-roi .calc-banner-content h1 {
       font-size: 35px;
       line-height: 45px; }
-    .calculator-section .calc-banner-content h2 {
+    .content-marketing-roi .calc-banner-content h2 {
       font-size: 20px;
       line-height: 1.4; }
-    .calculator-section .calc-banner-content p {
+    .content-marketing-roi .calc-banner-content p {
       font-size: 16px; }
-    .calculator-section .calc-wrapper .calculator-card {
+    .content-marketing-roi .calc-wrapper .calculator-card {
       padding: 30px; }
-      .calculator-section .calc-wrapper .calculator-card h3 {
+      .content-marketing-roi .calc-wrapper .calculator-card h3 {
         font-size: 25px; }
-      .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group {
+      .content-marketing-roi .calc-wrapper .calculator-card .form-wrapper .cpc-form-group {
         margin: 0 0 15px; }
-        .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group label {
+        .content-marketing-roi .calc-wrapper .calculator-card .form-wrapper .cpc-form-group label {
           font-size: 18px; }
-        .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .calc-field {
+        .content-marketing-roi .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .calc-field {
           font-size: 14px;
           font-family: sans-serif; }
-        .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .calc-btn {
+        .content-marketing-roi .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .calc-btn {
           font-size: 14px;
           font-family: sans-serif; }
-        .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .result {
+        .content-marketing-roi .calc-wrapper .calculator-card .form-wrapper .cpc-form-group .result {
           font-size: 14px;
           font-family: sans-serif; }
-    .calculator-section:after {
+    .content-marketing-roi:after {
       display: none; }
 
-  .roi-intro-section .top-section {
-    padding: 0 0 50px; }
-  .roi-intro-section .roi-wrapper {
-    gap: 20px; }
-    .roi-intro-section .roi-wrapper .roi-card h3 {
-      font-size: 25px; }
-    .roi-intro-section .roi-wrapper .roi-card h4 {
-      font-size: 20px; }
-    .roi-intro-section .roi-wrapper .roi-card p {
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column; }
+    .btn-group .btn {
       font-size: 14px;
-      margin-bottom: 15px; }
+      font-family: sans-serif; }
 
-  .modal .modal-box {
-    padding: 30px;
-    max-width: 95%; }
-    .modal .modal-box h2 {
-      font-size: 30px;
-      line-height: 40px; }
-    .modal .modal-box p {
-      font-size: 16px; }
-    .modal .modal-box .progress-bar {
-      margin: 30px 0 0; }
-    .modal .modal-box .progressText {
-      font-size: 16px; }
-    .modal .modal-box .btnclose {
-      margin: 25px 0 0;
-      font-size: 18px; }
+  .seo-result .result {
+    text-align: center;
+    padding: 70px 0 50px; }
+    .seo-result .result h2 {
+      font-size: 25px;
+      color: #000;
+      font-weight: 600;
+      line-height: 140%; }
+    .seo-result .result h3 {
+      font-size: 50px;
+      line-height: 1.2; }
+    .seo-result .result .btn {
+      display: inline-block;
+      background: #016be3;
+      margin: 20px 0 0;
+      color: white;
+      padding: 11px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.2s ease; }
+      .seo-result .result .btn:hover {
+        background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+        color: #fff; }
 
-  .seo-features .top-section {
-    padding: 0 0 40px; }
-  .seo-features .feature-grid {
-    grid-template-columns: 1fr; }
-    .seo-features .feature-grid .feature-card .label {
-      line-height: 22px; }
-    .seo-features .feature-grid .feature-card h3 {
-      font-size: 20px; }
-    .seo-features .feature-grid .feature-card p {
-      font-size: 14px; } }
+  .result-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 0 50px; }
+    .result-grid div {
+      border: 1px solid #666666;
+      padding: 20px 20px; }
+      .result-grid div:nth-child(3n) {
+        border: 1px solid #666666; }
+      .result-grid div:nth-child(4), .result-grid div:nth-child(5), .result-grid div:nth-child(6) {
+        border: 1px solid #666666; }
+      .result-grid div p {
+        font-size: 18px;
+        line-height: 140%;
+        color: #000; }
+      .result-grid div h2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 140%; } }
 
 /*# sourceMappingURL=content-roi.css.map */
