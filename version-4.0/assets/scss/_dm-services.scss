@@ -6,9 +6,11 @@
     .seo-menu {
       width: 25%;
       text-align: left;
-      h3{padding: 0 20px;
+      h3 {
+        padding: 0 20px;
         margin: 0 0 10px;
-        font-weight: 400;}
+        font-weight: 400;
+      }
       ul {
         list-style: none;
         padding: 0;
@@ -24,7 +26,7 @@
             border-color: #4b1bac;
             font-weight: $medium-font;
             color: $darkblack;
-            background: #E9EEFF;
+            background: #e9eeff;
           }
         }
       }
@@ -44,7 +46,9 @@
           align-items: center;
           gap: 18px;
           flex-wrap: wrap;
-          img{margin:0;}
+          img {
+            margin: 0;
+          }
         }
 
         p {
@@ -77,49 +81,88 @@
             }
           }
         }
+
+        .know-more-link {margin: 30px 0 0;
+          a {
+            color: #016be3;
+            display: block;
+          
+            &:after {
+              content: "";
+              background: url(../images/home-images/know-more-arrow-icon.png)
+                top center no-repeat;
+              position: relative;
+              width: 15px;
+              height: 11px;
+              background-size: 100%;
+              top: 0;
+              left: 6px;
+              display: inline-block;
+              transition: all 0.3s ease-in-out;
+            }
+            &:hover{
+              &:after{left: 14px;}
+            }
+          }
+        }
         table {
           width: 100%;
           border-collapse: collapse;
           border: 1px solid #e2eeff;
-          margin:30px 0 0;
-          th, td {
+          margin: 30px 0 0;
+          th,
+          td {
             padding: 12px 16px;
             border: 1px solid #e2eeff;
             text-align: left;
           }
-        
+
           th {
             background-color: #e2eeff;
             font-weight: bold;
           }
-        
+
           tbody tr:nth-child(even) {
             background-color: #f9f9f9;
           }
-        
+
           tbody tr:nth-child(odd) {
             background-color: #ffffff;
           }
         }
-        img{margin:40px 0 0; display:block;}
+        img {
+          margin: 40px 0 0;
+          display: block;
+        }
         &.active {
           display: block;
           opacity: 1;
           transform: translateY(0);
         }
+        a{color: #016be3;
+        &:hover{text-decoration: underline;}
+        }
       }
     }
   }
-  &.guide-services{
-    .seo-content{
-      .seo-menu{
-        ul{border-right: 3px solid #e2eeff; border-left: 0; margin-right: -3px; margin-left:auto;
-        li{    border-left: 0; border-right:3px solid transparent;     margin-right: -3px; margin-left:0;
-        &.active{border-color: #4b1bac;}
+  &.guide-services {
+    .seo-content {
+      .seo-menu {
+        ul {
+          border-right: 3px solid #e2eeff;
+          border-left: 0;
+          margin-right: -3px;
+          margin-left: auto;
+          li {
+            border-left: 0;
+            border-right: 3px solid transparent;
+            margin-right: -3px;
+            margin-left: 0;
+            &.active {
+              border-color: #4b1bac;
+            }
+          }
         }
-        }
-       
-        
       }
     }
   }
@@ -162,7 +205,9 @@
       flex-direction: column;
       .seo-menu {
         width: 100%;
-        h3{padding:0 15px;}
+        h3 {
+          padding: 0 15px;
+        }
         ul {
           li {
             padding: 8px 15px;

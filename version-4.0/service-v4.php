@@ -52,7 +52,7 @@
                   <picture>
                     <img loading="lazy" src="./assets/images/service-images/author-01.svg" width="" height="" alt="pixelcrayons">
                   </picture>
-                  <p><strong>Pixelcrayons’ </strong> digital marketing services have been a game-changer for our business, significantly boosting our online.</p>
+                  <p><strong>Pixelcrayons' </strong> digital marketing services have been a game-changer for our business, significantly boosting our online.</p>
                 </div>
                 <div class="ratings">
                   <div class="rating">
@@ -344,7 +344,7 @@
                           <img loading="lazy" src="assets/images/service-images/tl-01.svg" alt="pixelcrayons" width="44" height="44">
                         </picture>
                         <h3>Startups</h3>
-                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                        <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       </div>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
@@ -355,7 +355,7 @@
                         <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                       </picture>
                       <h3>Startups</h3>
-                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
                       </div>
@@ -372,7 +372,7 @@
                           <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                         </picture>
                         <h3>Startups</h3>
-                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                        <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       </div>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
@@ -383,7 +383,7 @@
                         <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                       </picture>
                       <h3>Startups</h3>
-                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
                       </div>
@@ -400,7 +400,7 @@
                           <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                         </picture>
                         <h3>Startups</h3>
-                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                        <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       </div>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
@@ -411,7 +411,7 @@
                         <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                       </picture>
                       <h3>Startups</h3>
-                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
                       </div>
@@ -428,7 +428,7 @@
                           <img loading="lazy" src="assets/images/service-images/tl-01.svg" alt="pixelcrayons" width="44" height="44">
                         </picture>
                         <h3>Startups</h3>
-                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                        <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       </div>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
@@ -439,7 +439,7 @@
                         <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                       </picture>
                       <h3>Startups</h3>
-                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
                       </div>
@@ -456,7 +456,7 @@
                           <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                         </picture>
                         <h3>Startups</h3>
-                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                        <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       </div>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
@@ -467,7 +467,7 @@
                         <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                       </picture>
                       <h3>Startups</h3>
-                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
                       </div>
@@ -484,7 +484,7 @@
                           <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                         </picture>
                         <h3>Startups</h3>
-                        <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                        <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       </div>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
@@ -495,7 +495,7 @@
                         <img loading="lazy" src="assets/images/service-images/tl-02.svg" alt="pixelcrayons" width="44" height="44">
                       </picture>
                       <h3>Startups</h3>
-                      <p>Tailor-made software solutions to accelerate your startup’s growth.</p>
+                      <p>Tailor-made software solutions to accelerate your startup's growth.</p>
                       <div class="card-bottom">
                         <span class="cbtn">higher accountability</span>
                       </div>
@@ -533,7 +533,7 @@
                   <div class="card">
                     <div class="box-3">
                       <h3>Software Consulting</h3>
-                      <p>Strategic guidance tailored to your project’s unique needs.</p>
+                      <p>Strategic guidance tailored to your project's unique needs.</p>
                       <ul>
                         <li>MVP Development</li>
                         <li>SaaS Development</li>
@@ -559,7 +559,7 @@
                   <div class="card">
                     <div class="box-3">
                       <h3>Custom Software Development</h3>
-                      <p>Strategic guidance tailored to your project’s unique needs, ensuring.</p>
+                      <p>Strategic guidance tailored to your project's unique needs, ensuring.</p>
                       <ul>
                         <li>MVP Development</li>
                         <li>SaaS Development</li>
@@ -585,7 +585,7 @@
                   <div class="card">
                     <div class="box-3">
                       <h3>MVP Development</h3>
-                      <p>Strategic guidance tailored to your project’s unique needs.</p>
+                      <p>Strategic guidance tailored to your project's unique needs.</p>
                       <ul>
                         <li>MVP Development</li>
                         <li>SaaS Development</li>
@@ -1452,7 +1452,7 @@
                 <div class="dis-flex">
                   <div class="flex-2 content-div">
                     <h3>Boost your website traffic and visibility</h3>
-                    <p>Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. </p>
+                    <p>Without consistent site traffic, you're missing out on valuable visitors, leads, and revenue. </p>
                     <ul>
                       <li>While-label Development</li>
                       <li>Software Development</li>
@@ -1585,7 +1585,7 @@
               </picture>
             </div>
             <div class="card-content">
-              <h3>Red Flags in Software Outsourcing: 7 Warning Signs You Can’t Ignore</h3>
+              <h3>Red Flags in Software Outsourcing: 7 Warning Signs You Can't Ignore</h3>
               <p>So, you decided to outsource your software development project....</p>
               <div class="author">
                 <img src="assets/images/home-images/author.svg" alt="Author avatar">
@@ -1602,7 +1602,7 @@
               </picture>
             </div>
             <div class="card-content">
-              <h3>Red Flags in Software Outsourcing: 7 Warning Signs You Can’t Ignore</h3>
+              <h3>Red Flags in Software Outsourcing: 7 Warning Signs You Can't Ignore</h3>
               <p>So, you decided to outsource your software development project....</p>
               <div class="author">
                 <img src="assets/images/home-images/author.svg" alt="Author avatar">
@@ -1619,7 +1619,7 @@
               </picture>
             </div>
             <div class="card-content">
-              <h3>Red Flags in Software Outsourcing: 7 Warning Signs You Can’t Ignore</h3>
+              <h3>Red Flags in Software Outsourcing: 7 Warning Signs You Can't Ignore</h3>
               <p>So, you decided to outsource your software development project....</p>
               <div class="author">
                 <img src="assets/images/home-images/author.svg" alt="Author avatar">
@@ -1725,7 +1725,7 @@
                 </div>
               </div>
               <div class="content-box">
-                <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects.”</p>
+                <p>"We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects."</p>
                 <h5>James Kelly</h5>
                 <span class="designtn">Co-founder, James Kelly</span>
                 <span class="star-image"></span>
@@ -1747,7 +1747,7 @@
                 </div>
               </div>
               <div class="content-box">
-                <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects.”</p>
+                <p>"We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects."</p>
                 <h5>James Kelly</h5>
                 <span class="designtn">Co-founder, James Kelly</span>
                 <span class="star-image"></span>
@@ -1769,7 +1769,7 @@
                 </div>
               </div>
               <div class="content-box">
-                <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects.”</p>
+                <p>"We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up during certain projects."</p>
                 <h5>James Kelly</h5>
                 <span class="designtn">Co-founder, James Kelly</span>
                 <span class="star-image"></span>
@@ -1805,7 +1805,7 @@
             <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p>You can test the services of ValueCoders before committing to long-term engagement. We offer free trial to clients worldwide. This is to give our potential customers a risk-free way to try our software development services before committing to long-term engagement. We strongly believe in our products and services and want to allow everyone to experience firsthand the value we can bring.</p>
-                <p>Just fill out a form and&nbsp;<a href="https://www.valuecoders.com/software-consulting">connect with our team</a>. We hope you’ll take advantage of this and give us a chance to show you what we can do.</p>
+                <p>Just fill out a form and&nbsp;<a href="https://www.valuecoders.com/software-consulting">connect with our team</a>. We hope you'll take advantage of this and give us a chance to show you what we can do.</p>
               </div>
             </div>
           </div>
@@ -1833,7 +1833,7 @@
             <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
                 <p>Yes, we provide all types of&nbsp;<a href="https://www.valuecoders.com/white-label-services"><strong>white-label software development services</strong></a>, including business-to-business (B2B), business-to-customer (B2C), and software-as-a-service (SaaS). Get in touch with our experts to know more about white-label software services.</p>
-                <p>We believe in complete transparency and collaboration with our clients regarding white-label software development. We understand that every business has unique requirements and needs, and we work closely with our clients to ensure that we meet all their specific needs. We also offer 24/7 support and maintenance services to ensure that our client’s businesses always run smoothly.</p>
+                <p>We believe in complete transparency and collaboration with our clients regarding white-label software development. We understand that every business has unique requirements and needs, and we work closely with our clients to ensure that we meet all their specific needs. We also offer 24/7 support and maintenance services to ensure that our client's businesses always run smoothly.</p>
               </div>
             </div>
           </div>
@@ -1876,7 +1876,7 @@
             <h3 class="faq-accordion-toggle" itemprop="name">How does the software development outsourcing process work?</h3>
             <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <div itemprop="text">
-                <p>Software development outsourcing works differently, depending on the project requirements and the company’s needs. But &zwnj;the process typically looks something like this:</p>
+                <p>Software development outsourcing works differently, depending on the project requirements and the company's needs. But &zwnj;the process typically looks something like this:</p>
                 <ul>
                   <li>The company defines the project scope and objectives and finds a trustworthy provider.</li>
                   <li>The provider creates a team of qualified professionals working on the project.</li>
@@ -1907,6 +1907,10 @@
     </section>
     <?php require_once 'assets/include/cta-v3.php'; ?>
     <?php require_once 'assets/include/blog-footer.php'; ?>
+
+ 
+
+    
     <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264" id="pixel-glider-js"></script>
     <script>
       if (document.getElementById("tailored-slide")){
@@ -2145,5 +2149,6 @@
                 
           
     </script>
+
   </body>
 </html>

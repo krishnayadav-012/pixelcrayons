@@ -315,6 +315,8 @@ function createFieldset(key, field, index) {
     });
   }
 
+  
+
   formElm.appendChild(checksection);
 }
 

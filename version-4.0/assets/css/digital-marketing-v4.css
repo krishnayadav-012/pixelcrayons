@@ -2771,7 +2771,7 @@ input:-webkit-autofill:active {
           border-color: #4b1bac;
           font-weight: 500;
           color: #110302;
-          background: #E9EEFF; }
+          background: #e9eeff; }
   .seo-services .seo-content .seo-details {
     width: 73%;
     text-align: left; }
@@ -2811,12 +2811,31 @@ input:-webkit-autofill:active {
             position: absolute;
             left: 0;
             top: 4px; }
+      .seo-services .seo-content .seo-details .seo-section .know-more-link {
+        margin: 30px 0 0; }
+        .seo-services .seo-content .seo-details .seo-section .know-more-link a {
+          color: #016be3;
+          display: block; }
+          .seo-services .seo-content .seo-details .seo-section .know-more-link a:after {
+            content: "";
+            background: url(../images/home-images/know-more-arrow-icon.png) top center no-repeat;
+            position: relative;
+            width: 15px;
+            height: 11px;
+            background-size: 100%;
+            top: 0;
+            left: 6px;
+            display: inline-block;
+            transition: all 0.3s ease-in-out; }
+          .seo-services .seo-content .seo-details .seo-section .know-more-link a:hover:after {
+            left: 14px; }
       .seo-services .seo-content .seo-details .seo-section table {
         width: 100%;
         border-collapse: collapse;
         border: 1px solid #e2eeff;
         margin: 30px 0 0; }
-        .seo-services .seo-content .seo-details .seo-section table th, .seo-services .seo-content .seo-details .seo-section table td {
+        .seo-services .seo-content .seo-details .seo-section table th,
+        .seo-services .seo-content .seo-details .seo-section table td {
           padding: 12px 16px;
           border: 1px solid #e2eeff;
           text-align: left; }
@@ -2834,6 +2853,10 @@ input:-webkit-autofill:active {
         display: block;
         opacity: 1;
         transform: translateY(0); }
+      .seo-services .seo-content .seo-details .seo-section a {
+        color: #016be3; }
+        .seo-services .seo-content .seo-details .seo-section a:hover {
+          text-decoration: underline; }
 .seo-services.guide-services .seo-content .seo-menu ul {
   border-right: 3px solid #e2eeff;
   border-left: 0;

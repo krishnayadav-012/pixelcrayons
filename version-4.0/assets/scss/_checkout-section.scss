@@ -112,8 +112,8 @@
                 input[type="radio"] {
                   appearance: none;
                   -webkit-appearance: none;
-                  width: 17px;
-                  height: 17px;
+                  width: 18px;
+                  height: 18px;
                   border: 2px solid #0b2fa3;
                   border-radius: 50%;
                   margin-top: 7px;
@@ -408,7 +408,7 @@
             .tooltip-text {
               visibility: hidden;
               width: 200px;
-              background-color: grey;
+              background-color: #565555;
               color: #fff;
               font-size: 12px;
               line-height: 18px;
@@ -417,11 +417,21 @@
               padding: 10px;
               position: absolute;
               z-index: 1;
-              bottom: 125%; /* Position the tooltip above the text */
+              bottom: 125%;
               left: 50%;
-              margin-left: -60px; /* Center the tooltip */
+              margin-left: -94px;
               opacity: 0;
               transition: opacity 0.3s;
+              &::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+               border-width: 8px;
+                border-style: solid;
+                border-color: #565555 transparent transparent transparent;
+              }
             }
             .tooltip:hover .tooltip-text {
               visibility: visible;
@@ -491,7 +501,8 @@
           }
         }
 
-        .cart-total, .cart-subtotal {
+        .cart-total,
+        .cart-subtotal {
           font-size: 18px;
           font-weight: 700;
           text-align: right;
@@ -499,7 +510,9 @@
           display: flex;
           justify-content: space-between;
         }
-        .cart-subtotal{color: #BEBEBE;}
+        .cart-subtotal {
+          color: #bebebe;
+        }
 
         .pxl-checkout-btn {
           min-width: 100%;
@@ -671,6 +684,53 @@
       margin-right: 10px;
       transform: scale(1.1);
       cursor: pointer;
+    }
+  }
+
+  .included-vs-not-section {
+
+
+   
+    .included-vs-not-content {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+     
+  
+      .included-box{
+        flex-basis: 48%;
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 0 1px #e5e7eb;
+        &.no-border{padding:0; border:0;     box-shadow: none; flex-basis: 100%;}
+      
+        h4 {
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 15px;
+        }
+        ul {
+         
+          li {
+            position: relative;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            line-height: 1.5;
+            font-size: 14px;
+            &:before{    content: '';
+              width: 6px;
+              height: 6px;
+              border-radius: 100%;
+              background: #666666;
+              left: 0;
+              top: 8px;
+              position: absolute;
+              left: 0;}
+          }
+        }
+      }
+      
     }
   }
 }
@@ -917,7 +977,8 @@
               }
 
               .tooltip-text {
-                width: 150px;
+                width: 160px;
+                margin-left: -75px;
               }
             }
           }
@@ -934,7 +995,8 @@
             }
           }
 
-          .cart-total, .cart-subtotal {
+          .cart-total,
+          .cart-subtotal {
             font-size: 16px;
           }
 
@@ -948,5 +1010,28 @@
         }
       }
     }
+
+
+   
+      .included-vs-not-section {
+       
+        .included-vs-not-content {
+          flex-direction: column;
+          gap: 16px;
+          padding: 16px;
+          .included-box{
+            padding: 15px;
+            flex-basis: 100%;
+          }
+        }
+      }
+   
+
+
   }
+
+
+
+
+
 }

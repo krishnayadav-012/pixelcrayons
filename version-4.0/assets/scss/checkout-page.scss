@@ -1,6 +1,6 @@
 @import "_default";
 @import "menu-v3";
-@import "checkout-section";
+@import "_checkout-section";
 @import "footer";
 
 .project-section {
@@ -484,6 +484,8 @@
   }
 }
 
+
+
 // Media Queries Start From Here*//
 
 @media (max-width: 1024px) {
@@ -717,3 +719,5 @@
     }
   }
 }
+
+

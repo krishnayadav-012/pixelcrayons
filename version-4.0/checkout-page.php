@@ -60,6 +60,110 @@
               <div class="input-field-column">
                 <div id="gen-form-elm"></div>
                 <div class="gen-form-elm">
+                  <div class="checksection  included-vs-not-section">
+                    <h3>Project brief</h3>
+                    <div class="included-vs-not-content">
+                      <div class="included-box">
+                        <h4>Included</h4>
+                        <ul>
+                          <li>Static post visuals (image or carousel)</li>
+                          <li>Platform-specific captions with CTAs &amp; hashtags</li>
+                          <li>Scheduling &amp; publishing</li>
+                          <li>Monthly reporting + analytics</li>
+                          <li>Strategy calls (frequency per plan)</li>
+                        </ul>
+                      </div>
+                      <div class="included-box">
+                        <h4>Not Included (Add-Ons Below)</h4>
+                        <ul>
+                          <li>Reels/short-form video content</li>
+                          <li>Long-form articles or newsletters</li>
+                          <li>Infographics, PDFs, slideshows</li>
+                          <li>Paid ads strategy or execution</li>
+                          <li>Replying to DMs/comments</li>
+                          <li>Influencer outreach</li>
+                          <li>Content for email or SMS campaigns</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="gen-form-elm">
+                  <div class="checksection  included-vs-not-section">
+                    <h3>Setup Fee (One-Time)</h3>
+                    <div class="included-vs-not-content">
+                      <div class="included-box no-border">
+                        <ul>
+                          <li>Full SEO + technical audit</li>
+                          <li>Keyword + entity mapping</li>
+                          <li>Schema + AEO/GEO structure plan</li>
+                          <li> Analytics + GSC setup</li>
+                          <li>Prompt test baseline (ChatGPT, Perplexity, Gemini)</li>
+                          <li>Local SEO readiness (if relevant)</li>
+                        </ul>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+
+
+   <div class="gen-form-elm">
+                  <div class="checksection  included-vs-not-section">
+                    <h3>What’s Included Monthly (All Plans)</h3>
+                    <div class="included-vs-not-content">
+                      <div class="included-box">
+                        <h4>Core SEO</h4>
+                        <ul>
+                          <li>Static post visuals (image or carousel)</li>
+                          <li>Platform-specific captions with CTAs &amp; hashtags</li>
+                          <li>Scheduling &amp; publishing</li>
+                          <li>Monthly reporting + analytics</li>
+                          <li>Strategy calls (frequency per plan)</li>
+                        </ul>
+                      </div>
+                      <div class="included-box">
+                        <h4>Local SEO</h4>
+                        <ul>
+                          <li>Reels/short-form video content</li>
+                          <li>Long-form articles or newsletters</li>
+                          <li>Infographics, PDFs, slideshows</li>
+                          <li>Paid ads strategy or execution</li>
+                          <li>Replying to DMs/comments</li>
+                          <li>Influencer outreach</li>
+                          <li>Content for email or SMS campaigns</li>
+                        </ul>
+                      </div>
+                      <div class="included-box">
+                        <h4>AEO (Answer Engine Optimization)</h4>
+                        <ul>
+                          <li>Reels/short-form video content</li>
+                          <li>Long-form articles or newsletters</li>
+                          <li>Infographics, PDFs, slideshows</li>
+                          <li>Paid ads strategy or execution</li>
+                          <li>Replying to DMs/comments</li>
+                          <li>Influencer outreach</li>
+                          <li>Content for email or SMS campaigns</li>
+                        </ul>
+                      </div>
+                      <div class="included-box">
+                        <h4>GEO (Generative Engine Optimization)</h4>
+                        <ul>
+                          <li>Reels/short-form video content</li>
+                          <li>Long-form articles or newsletters</li>
+                          <li>Infographics, PDFs, slideshows</li>
+                          <li>Paid ads strategy or execution</li>
+                          <li>Replying to DMs/comments</li>
+                          <li>Influencer outreach</li>
+                          <li>Content for email or SMS campaigns</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="gen-form-elm">
                   <div class="project-section">
                     <div class="project-brief">
                       <h3>Project brief</h3>
@@ -129,9 +233,9 @@
                         </div>
                       </div>
                       <div class="faq-accordion-item-outer">
-                        <h4 class="faq-accordion-toggle">Q: What if I don’t have an email list yet?</h4>
+                        <h4 class="faq-accordion-toggle">Q: What if I don't have an email list yet?</h4>
                         <div class="faq-accordion-content">
-                          <p>We’ll help you set up your list and build lead magnets if needed (add-on).
+                          <p>We'll help you set up your list and build lead magnets if needed (add-on).
                           </p>
                         </div>
                       </div>
@@ -197,48 +301,48 @@
           </div>
           <div class="concern-card">
             <img src="assets/images/checkout/mail-icon.svg" alt="Email Icon">
-            <h3>We don’t have time to manage email</h3>
-            <p>Exactly why we exist. You focus on business—we’ll own the email funnel.</p>
+            <h3>We don't have time to manage email</h3>
+            <p>Exactly why we exist. You focus on business—we'll own the email funnel.</p>
           </div>
           <div class="concern-card">
             <img src="assets/images/checkout/mail-icon.svg" alt="Email Icon">
-            <h3>We tried newsletters, didn’t work</h3>
-            <p>Generic emails don’t work. We create segmented, copy-driven campaigns tied to business goals.</p>
+            <h3>We tried newsletters, didn't work</h3>
+            <p>Generic emails don't work. We create segmented, copy-driven campaigns tied to business goals.</p>
           </div>
         </div>
       </div>
     </section>
     <section class="client-journey padding-t-60 padding-b-60">
       <div class="container">
-      <h2>Client Journey</h2>
-      <div class="timeline">
-        <div class="step">
-          <div class="label">Week 1</div>
-          <div class="dot-line"></div>
-          <div class="content">Onboarding, audit,<br>alerts setup</div>
-        </div>
-        <div class="step">
-          <div class="label">Week 2</div>
-          <div class="dot-line"></div>
-          <div class="content">Strategy creation,<br>baseline report</div>
-        </div>
-        <div class="step">
-          <div class="label">Week 3–4</div>
-          <div class="dot-line"></div>
-          <div class="content">Review management &<br>publishing begins</div>
-        </div>
-        <div class="step">
-          <div class="label">Month 2+</div>
-          <div class="dot-line"></div>
-          <div class="content">Suppression tactics,<br>asset growth</div>
-        </div>
-        <div class="step">
-          <div class="label">Ongoing</div>
-          <div class="dot-line"></div>
-          <div class="content">Reputation monitoring &<br>optimization</div>
+        <h2>Client Journey</h2>
+        <div class="timeline">
+          <div class="step">
+            <div class="label">Week 1</div>
+            <div class="dot-line"></div>
+            <div class="content">Onboarding, audit,<br>alerts setup</div>
+          </div>
+          <div class="step">
+            <div class="label">Week 2</div>
+            <div class="dot-line"></div>
+            <div class="content">Strategy creation,<br>baseline report</div>
+          </div>
+          <div class="step">
+            <div class="label">Week 3–4</div>
+            <div class="dot-line"></div>
+            <div class="content">Review management &<br>publishing begins</div>
+          </div>
+          <div class="step">
+            <div class="label">Month 2+</div>
+            <div class="dot-line"></div>
+            <div class="content">Suppression tactics,<br>asset growth</div>
+          </div>
+          <div class="step">
+            <div class="label">Ongoing</div>
+            <div class="dot-line"></div>
+            <div class="content">Reputation monitoring &<br>optimization</div>
+          </div>
         </div>
       </div>
-</div>
     </section>
     <section class="client-testimonial padding-t-60 padding-b-60">
       <div class="container">
@@ -279,7 +383,7 @@
                 </div>
               </div>
             </div>
-            <p>PixelCrayons’ project management has been very flexible and knowledgeable when assigning the right resources. Their developers are skilled and highly professional. They delivered what was expected from them on time.</p>
+            <p>PixelCrayons' project management has been very flexible and knowledgeable when assigning the right resources. Their developers are skilled and highly professional. They delivered what was expected from them on time.</p>
           </div>
         </div>
       </div>
@@ -350,7 +454,19 @@
       });
       });
       
-      
+      document.getElementById('includedToggle').addEventListener('click', function() {
+        var content = document.getElementById('includedContent');
+        var arrow = this.querySelector('.included-arrow');
+        if (content.style.display === 'none' || !content.style.display) {
+          content.style.display = 'block';
+          arrow.style.transform = 'rotate(0deg)';
+        } else {
+          content.style.display = 'none';
+          arrow.style.transform = 'rotate(-90deg)';
+        }
+      });
+      // Set default state to open
+      document.getElementById('includedContent').style.display = 'block';
     </script>
   </body>
 </html>

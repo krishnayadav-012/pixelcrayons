@@ -1999,8 +1999,8 @@ input:-webkit-autofill:active {
             .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input[type="radio"] {
               appearance: none;
               -webkit-appearance: none;
-              width: 17px;
-              height: 17px;
+              width: 18px;
+              height: 18px;
               border: 2px solid #0b2fa3;
               border-radius: 50%;
               margin-top: 7px;
@@ -2211,7 +2211,7 @@ input:-webkit-autofill:active {
           .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip-text, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip-text {
             visibility: hidden;
             width: 200px;
-            background-color: grey;
+            background-color: #565555;
             color: #fff;
             font-size: 12px;
             line-height: 18px;
@@ -2221,12 +2221,19 @@ input:-webkit-autofill:active {
             position: absolute;
             z-index: 1;
             bottom: 125%;
-            /* Position the tooltip above the text */
             left: 50%;
-            margin-left: -60px;
-            /* Center the tooltip */
+            margin-left: -94px;
             opacity: 0;
             transition: opacity 0.3s; }
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip-text::after, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip-text::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              transform: translateX(-50%);
+              border-width: 8px;
+              border-style: solid;
+              border-color: #565555 transparent transparent transparent; }
           .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip:hover .tooltip-text, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip:hover .tooltip-text {
             visibility: visible;
             opacity: 1; }
@@ -2278,7 +2285,8 @@ input:-webkit-autofill:active {
           font-size: 16px; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-item:last-child {
           border-bottom: none; }
-      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-total, .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-subtotal {
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-total,
+      .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-subtotal {
         font-size: 18px;
         font-weight: 700;
         text-align: right;
@@ -2286,7 +2294,7 @@ input:-webkit-autofill:active {
         display: flex;
         justify-content: space-between; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-subtotal {
-        color: #BEBEBE; }
+        color: #bebebe; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .pxl-checkout-btn {
         min-width: 100%;
         font-size: 18px;
@@ -2405,6 +2413,41 @@ input:-webkit-autofill:active {
     margin-right: 10px;
     transform: scale(1.1);
     cursor: pointer; }
+.checkout-section .included-vs-not-section .included-vs-not-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; }
+  .checkout-section .included-vs-not-section .included-vs-not-content .included-box {
+    flex-basis: 48%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 0 1px #e5e7eb; }
+    .checkout-section .included-vs-not-section .included-vs-not-content .included-box.no-border {
+      padding: 0;
+      border: 0;
+      box-shadow: none;
+      flex-basis: 100%; }
+    .checkout-section .included-vs-not-section .included-vs-not-content .included-box h4 {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 15px; }
+    .checkout-section .included-vs-not-section .included-vs-not-content .included-box ul li {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 15px;
+      line-height: 1.5;
+      font-size: 14px; }
+      .checkout-section .included-vs-not-section .included-vs-not-content .included-box ul li:before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background: #666666;
+        left: 0;
+        top: 8px;
+        position: absolute;
+        left: 0; }
 
 @media (max-width: 1024px) {
   .checkout-section .top-section {
@@ -2538,19 +2581,28 @@ input:-webkit-autofill:active {
             height: 6px;
             top: 12px; }
           .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip-text, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip-text {
-            width: 150px; }
+            width: 160px;
+            margin-left: -75px; }
       .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column {
         top: 2rem; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-group {
           padding: 15px 0; }
           .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-group h4 {
             font-size: 18px; }
-        .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-total, .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-subtotal {
+        .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-total,
+        .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-subtotal {
           font-size: 16px; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .pxl-checkout-btn {
           font-family: sans-serif; }
         .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column .cart-checkbox {
-          font-size: 13px; } }
+          font-size: 13px; }
+    .checkout-section .included-vs-not-section .included-vs-not-content {
+      flex-direction: column;
+      gap: 16px;
+      padding: 16px; }
+      .checkout-section .included-vs-not-section .included-vs-not-content .included-box {
+        padding: 15px;
+        flex-basis: 100%; } }
 :root {
   --blue: #016be3;
   --yellow: #ffbc38;
