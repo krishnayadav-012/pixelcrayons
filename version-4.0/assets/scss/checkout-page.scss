@@ -151,6 +151,7 @@
       justify-content: center;
       img {
         margin-right: 10px;
+        vertical-align: middle;
       }
     }
   }
@@ -166,6 +167,28 @@
         padding: 0;
         font-size: 18px;
         font-weight: 400;
+      }
+      .faq-accordion-content {
+        ul {
+          margin: 0 0 15px;
+          li {
+            position: relative;
+            margin-bottom: 5px;
+            padding-left: 15px;
+
+            &:before {
+              content: "";
+              width: 6px;
+              height: 6px;
+              border-radius: 100%;
+              background: #666666;
+              left: 0;
+              top: 10px;
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
       }
     }
   }
@@ -215,6 +238,20 @@
   .comparison-table {
     .table-container {
       overflow-x: auto;
+    }
+
+    .checksection {
+      margin: 30px 0 0;
+      border-color: #fff !important;
+      box-shadow: none !important;
+      .included-vs-not-content {
+        h3 {
+          margin: 0 0 15px !important;
+        }
+        ul {
+          padding-left: 15px;
+        }
+      }
     }
 
     table {
@@ -280,15 +317,17 @@
   }
 
   .concerns-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 
     .concern-card {
       background: #fff;
       border-radius: 15px;
       padding: 24px;
       text-align: left;
+      flex-basis: 295px;
       transition: transform 0.3s ease;
       border: 1px solid #e9e9e9;
 
@@ -361,9 +400,14 @@
 
       .content {
         font-size: 14px;
-        color: #373737;
+        color: #666666;
         font-weight: 500;
-        margin-top: 70px;
+        margin-top: 95px;
+        line-height: 22px;
+        p {
+          margin: 0;
+          color: #000000;
+        }
       }
 
       .dot-line {
@@ -407,7 +451,7 @@
         }
         .content {
           margin-top: 0;
-          margin-bottom: 70px;
+          margin-bottom: 95px;
         }
         .dot-line {
           &:before {
@@ -484,8 +528,6 @@
   }
 }
 
-
-
 // Media Queries Start From Here*//
 
 @media (max-width: 1024px) {
@@ -502,7 +544,9 @@
 
   .common-concerns {
     .concerns-grid {
-      grid-template-columns: repeat(2, 1fr);
+      .concern-card {
+        flex-basis: 50%;
+      }
     }
   }
 
@@ -705,7 +749,10 @@
   }
   .common-concerns {
     .concerns-grid {
-      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+      .concern-card {
+        flex-basis: 100%;
+      }
     }
   }
 
@@ -719,5 +766,3 @@
     }
   }
 }
-
-

@@ -1939,11 +1939,12 @@ input:-webkit-autofill:active {
     align-items: center;
     padding: 10px 25px;
     text-align: center;
-    min-width: 150px;
-    cursor: pointer; }
+    min-width: 200px;
+    cursor: pointer;
+    justify-content: center; }
     .checkout-section .check-tabs .service-item img {
       display: block;
-      margin: 0 0 5px; }
+      margin: 0 auto 5px; }
       .checkout-section .check-tabs .service-item img.normal {
         display: block; }
       .checkout-section .check-tabs .service-item img.hover {
@@ -1958,6 +1959,8 @@ input:-webkit-autofill:active {
         display: none; }
       .checkout-section .check-tabs .service-item:hover img.hover, .checkout-section .check-tabs .service-item.active img.hover {
         display: block; }
+      .checkout-section .check-tabs .service-item:hover a, .checkout-section .check-tabs .service-item.active a {
+        color: #ffffff; }
 .checkout-section .pxl-checkout {
   background: #f8f4ff; }
   .checkout-section .pxl-checkout .checkout-container {
@@ -2056,7 +2059,7 @@ input:-webkit-autofill:active {
               font-size: 12px;
               color: #666666;
               font-weight: 400; }
-              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc .radio-campaigns .highlight {
+              .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc .radio-campaigns strong {
                 font-weight: 500;
                 font-size: 16px;
                 color: #000; }
@@ -2094,6 +2097,16 @@ input:-webkit-autofill:active {
             font-size: 0.85rem;
             color: #666;
             text-align: right; }
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-desc .radio-campaigns {
+              text-align: left; }
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-desc .radio-description .nxt-price strong {
+              font-weight: 700;
+              color: #0b2fa3;
+              font-size: 20px;
+              white-space: nowrap; }
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .radio-desc .radio-description .nxt-percent {
+              font-size: 16px;
+              color: #000; }
           .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio input:checked + .radio-content {
             border-radius: 16px; }
         .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 {
@@ -2237,6 +2250,35 @@ input:-webkit-autofill:active {
           .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box2 .tooltip:hover .tooltip-text, .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box3 .tooltip:hover .tooltip-text {
             visibility: visible;
             opacity: 1; }
+        .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection .checkbox-group .outcome-row {
+          border-top: 1px solid #eee;
+          position: relative;
+          padding: 15px 0 !important;
+          cursor: pointer;
+          user-select: none;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: left;
+          align-items: center;
+          gap: 5px; }
+        .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection .checkbox-group .in-listing ul {
+          margin: 0 0 15px;
+          padding-left: 30px; }
+          .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection .checkbox-group .in-listing ul li {
+            position: relative;
+            margin-bottom: 5px;
+            padding-left: 15px;
+            color: #666666;
+            font-size: 14px; }
+            .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection .checkbox-group .in-listing ul li:before {
+              content: "";
+              width: 6px;
+              height: 6px;
+              border-radius: 100%;
+              background: #666666;
+              top: 9px;
+              position: absolute;
+              left: 0; }
     .checkout-section .pxl-checkout .checkout-container .cart-wrapper-column {
       flex: 1;
       position: sticky;
@@ -2439,7 +2481,7 @@ input:-webkit-autofill:active {
       line-height: 1.5;
       font-size: 14px; }
       .checkout-section .included-vs-not-section .included-vs-not-content .included-box ul li:before {
-        content: '';
+        content: "";
         width: 6px;
         height: 6px;
         border-radius: 100%;
@@ -2554,7 +2596,7 @@ input:-webkit-autofill:active {
                 flex-wrap: wrap; }
                 .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc .radio-description {
                   text-align: left; }
-                .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc .radio-campaigns .highlight {
+                .checkout-section .pxl-checkout .checkout-container .input-field-column .checksection.box1 .custom-radio-group .custom-radio .radio-desc .radio-campaigns strong {
                   font-weight: 500;
                   font-size: 14px;
                   color: #000; }
@@ -2988,7 +3030,8 @@ input:-webkit-autofill:active {
     align-items: center;
     justify-content: center; }
     .plateforms ul li img {
-      margin-right: 10px; }
+      margin-right: 10px;
+      vertical-align: middle; }
 
 .checkfaq .faq-outer .faq-accordion-item-outer {
   border-top: 1px solid #0000001a;
@@ -2998,6 +3041,22 @@ input:-webkit-autofill:active {
     padding: 0;
     font-size: 18px;
     font-weight: 400; }
+  .checkfaq .faq-outer .faq-accordion-item-outer .faq-accordion-content ul {
+    margin: 0 0 15px; }
+    .checkfaq .faq-outer .faq-accordion-item-outer .faq-accordion-content ul li {
+      position: relative;
+      margin-bottom: 5px;
+      padding-left: 15px; }
+      .checkfaq .faq-outer .faq-accordion-item-outer .faq-accordion-content ul li:before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background: #666666;
+        left: 0;
+        top: 10px;
+        position: absolute;
+        left: 0; }
 
 .comp-table {
   margin: 40px auto; }
@@ -3034,6 +3093,14 @@ input:-webkit-autofill:active {
     /* Add rounded corners for the first and last row cells */ }
     .comp-table .comparison-table .table-container {
       overflow-x: auto; }
+    .comp-table .comparison-table .checksection {
+      margin: 30px 0 0;
+      border-color: #fff !important;
+      box-shadow: none !important; }
+      .comp-table .comparison-table .checksection .included-vs-not-content h3 {
+        margin: 0 0 15px !important; }
+      .comp-table .comparison-table .checksection .included-vs-not-content ul {
+        padding-left: 15px; }
     .comp-table .comparison-table table {
       width: 100%;
       margin: 30px 0 0;
@@ -3074,14 +3141,16 @@ input:-webkit-autofill:active {
   text-align: center;
   margin: 0 0 40px; }
 .common-concerns .concerns-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px; }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center; }
   .common-concerns .concerns-grid .concern-card {
     background: #fff;
     border-radius: 15px;
     padding: 24px;
     text-align: left;
+    flex-basis: 295px;
     transition: transform 0.3s ease;
     border: 1px solid #e9e9e9; }
     .common-concerns .concerns-grid .concern-card:hover {
@@ -3132,9 +3201,13 @@ input:-webkit-autofill:active {
         padding: 35px 0 0; }
       .client-journey .timeline .step .content {
         font-size: 14px;
-        color: #373737;
+        color: #666666;
         font-weight: 500;
-        margin-top: 70px; }
+        margin-top: 95px;
+        line-height: 22px; }
+        .client-journey .timeline .step .content p {
+          margin: 0;
+          color: #000000; }
       .client-journey .timeline .step .dot-line {
         width: 24px;
         height: 24px;
@@ -3168,7 +3241,7 @@ input:-webkit-autofill:active {
           padding: 0 0 60px; }
         .client-journey .timeline .step:nth-child(2n) .content {
           margin-top: 0;
-          margin-bottom: 70px; }
+          margin-bottom: 95px; }
         .client-journey .timeline .step:nth-child(2n) .dot-line:before {
           top: -30px; }
         .client-journey .timeline .step:nth-child(2n) .dot-line:after {
@@ -3219,8 +3292,8 @@ input:-webkit-autofill:active {
     .project-section .project-flex .upload-box p {
       font-size: 15px; }
 
-  .common-concerns .concerns-grid {
-    grid-template-columns: repeat(2, 1fr); }
+  .common-concerns .concerns-grid .concern-card {
+    flex-basis: 50%; }
 
   .client-journey h2 {
     margin: 0 0 40px; }
@@ -3340,7 +3413,9 @@ input:-webkit-autofill:active {
       min-width: 120px; }
 
   .common-concerns .concerns-grid {
-    grid-template-columns: repeat(1, 1fr); }
+    gap: 15px; }
+    .common-concerns .concerns-grid .concern-card {
+      flex-basis: 100%; }
 
   .checkfaq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle {
     font-size: 16px; } }

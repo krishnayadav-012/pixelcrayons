@@ -21,8 +21,9 @@
 
       h3 {
         color: $royelblue;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         font-weight: 700;
+        font-size:38px;
       }
 
       p {
@@ -34,11 +35,14 @@
   }
 }
 
+
+
 @media (max-width: 1024px) {
   .stats-section{
     .stats-container{margin: -25px auto 0; padding: 25px;
     .stat-item{
       p{font-size: 16px;}
+      h3{font-size: 30px;}
     }
     }
   }
@@ -53,6 +57,7 @@
     .stat-item {
       width: 50%;
       p{font-size: 14px;}
+      h3{font-size: 30px; margin:0 0 8px;}
     }
   }
 }
