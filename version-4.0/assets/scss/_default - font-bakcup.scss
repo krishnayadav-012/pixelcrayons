@@ -30,8 +30,8 @@ $font-18: 18px;
 $font-16: 16px;
 $normal-font: 400;
 $medium-font: 500;
-$semi-bold: bold;
-$bold: bold;
+$semi-bold: 600;
+$bold: 700;
 $navy-blue: #05164d;
 $gradient: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
 
@@ -42,6 +42,35 @@ $gradient: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
       url("../fonts/LexendDeca-Regular.woff") format("woff"),
       url("../fonts/LexendDeca-Regular.ttf") format("truetype");
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Lexend Deca";
+    src: url("../fonts/LexendDeca-Medium.woff2") format("woff2"),
+      url("../fonts/LexendDeca-Medium.woff") format("woff"),
+      url("../fonts/LexendDeca-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Lexend Deca";
+    src: url("../fonts/LexendDeca-SemiBold.woff2") format("woff2"),
+      url("../fonts/LexendDeca-SemiBold.woff") format("woff"),
+      url("../fonts/LexendDeca-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Lexend Deca";
+    src: url("../fonts/LexendDeca-Bold.woff2") format("woff2"),
+      url("../fonts/LexendDeca-Bold.woff") format("woff"),
+      url("../fonts/LexendDeca-Bold.ttf") format("truetype");
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
   }
@@ -58,7 +87,6 @@ body {
   color: $arsenic-light;
   font-size: 16px;
   line-height: 28px;
-  font-weight: $normal-font;
 }
 
 html {
@@ -69,14 +97,14 @@ h1 {
   font-size: 80px;
   line-height: 1.5;
   color: $yellow;
-  font-weight: $bold;
+  font-weight: $semi-bold;
   margin-bottom: 15px;
 }
 
 h2 {
   font-size: 46px;
   line-height: 58px;
-  font-weight: $bold;
+  font-weight: 700;
   color: $darkblack;
   margin: 0 0 15px;
 }
@@ -84,7 +112,7 @@ h2 {
 h3 {
   font-size: 22px;
   line-height: 30px;
-  font-weight: $bold;
+  font-weight: 500;
   color: $darkblack;
   margin: 0 0 15px;
 }
@@ -92,7 +120,7 @@ h3 {
 h4 {
   font-size: 20px;
   color: $darkblack;
-  font-weight: $bold;
+  font-weight: $semi-bold;
 }
 
 h6 {
@@ -103,7 +131,7 @@ p {
   font-size: 16px;
   color: #5e6373;
   line-height: 28px;
-  font-weight: $normal-font;
+  font-weight: $medium-font;
   margin: 0 0 15px;
 }
 

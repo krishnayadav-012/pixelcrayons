@@ -152,6 +152,9 @@
               font-weight: 600;
             }
           }
+          &.verror{
+            .calc-field{border-color:red;}
+          }
         }
 
         .calc-field:focus {

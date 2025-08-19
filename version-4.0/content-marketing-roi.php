@@ -24,7 +24,10 @@
                 <div class="roi-form">
                   <div class="cpc-form-group">
                     <label>What is your Average Monthly Traffic Value per piece of competitor’s content?</label>
-                    <input type="number" class="calc-field trafficValue" placeholder="$ 4000">
+                    <div class="currency-input">
+                      <span class="currency-symbol">$</span>
+                      <input type="number" class="calc-field trafficValue number" placeholder="4000">
+                    </div>
                     <div class="error-message err-trafficValue"></div>
                   </div>
                   <div class="cpc-form-group">

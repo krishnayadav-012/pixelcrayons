@@ -6,24 +6,6 @@
     src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"), url("../fonts/LexendDeca-Regular.woff") format("woff"), url("../fonts/LexendDeca-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-    font-display: swap; }
-  @font-face {
-    font-family: "Lexend Deca";
-    src: url("../fonts/LexendDeca-Medium.woff2") format("woff2"), url("../fonts/LexendDeca-Medium.woff") format("woff"), url("../fonts/LexendDeca-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap; }
-  @font-face {
-    font-family: "Lexend Deca";
-    src: url("../fonts/LexendDeca-SemiBold.woff2") format("woff2"), url("../fonts/LexendDeca-SemiBold.woff") format("woff"), url("../fonts/LexendDeca-SemiBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap; }
-  @font-face {
-    font-family: "Lexend Deca";
-    src: url("../fonts/LexendDeca-Bold.woff2") format("woff2"), url("../fonts/LexendDeca-Bold.woff") format("woff"), url("../fonts/LexendDeca-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
     font-display: swap; } }
 * {
   margin: 0;
@@ -34,7 +16,8 @@ body {
   font-family: "Lexend Deca", sans-serif;
   color: rgba(65, 65, 65, 0.9);
   font-size: 16px;
-  line-height: 28px; }
+  line-height: 28px;
+  font-weight: 400; }
 
 html {
   scroll-behavior: smooth; }
@@ -43,27 +26,27 @@ h1 {
   font-size: 80px;
   line-height: 1.5;
   color: #ffb81d;
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: 15px; }
 
 h2 {
   font-size: 46px;
   line-height: 58px;
-  font-weight: 700;
+  font-weight: bold;
   color: #110302;
   margin: 0 0 15px; }
 
 h3 {
   font-size: 22px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: bold;
   color: #110302;
   margin: 0 0 15px; }
 
 h4 {
   font-size: 20px;
   color: #110302;
-  font-weight: 600; }
+  font-weight: bold; }
 
 h6 {
   font-size: 18px; }
@@ -72,7 +55,7 @@ p {
   font-size: 16px;
   color: #5e6373;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0 0 15px; }
 
 a {
@@ -488,7 +471,7 @@ input:-webkit-autofill:active {
   text-align: center; }
   .top-section h6 {
     color: #016be3;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     margin: 0 0 10px; }
   .top-section p {
@@ -2237,7 +2220,7 @@ input:-webkit-autofill:active {
     .calculator-section .calc-banner-content h1 {
       font-size: 50px;
       line-height: 1.2;
-      font-weight: 700;
+      font-weight: bold;
       color: #ffffff;
       margin-bottom: 10px;
       text-align: center; }
@@ -2246,7 +2229,7 @@ input:-webkit-autofill:active {
     .calculator-section .calc-banner-content h2 {
       font-size: 30px;
       line-height: 1.2;
-      font-weight: 700;
+      font-weight: bold;
       color: #ffffff;
       margin-bottom: 10px; }
     .calculator-section .calc-banner-content p {
@@ -2264,7 +2247,7 @@ input:-webkit-autofill:active {
       border-radius: 20px; }
       .calculator-section .calc-wrapper .calculator-card h3 {
         font-size: 30px;
-        font-weight: 700;
+        font-weight: bold;
         margin: 0 0 20px; }
       .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group {
         margin: 0 0 20px; }
@@ -2314,7 +2297,7 @@ input:-webkit-autofill:active {
           border-radius: 5px;
           margin: 10px 0 0;
           font-size: 16px;
-          font-weight: 700;
+          font-weight: bold;
           text-align: center;
           font-family: "Lexend Deca", sans-serif;
           cursor: pointer;
@@ -2332,7 +2315,7 @@ input:-webkit-autofill:active {
           border-radius: 5px;
           margin: 10px 0 0;
           font-size: 16px;
-          font-weight: 600;
+          font-weight: bold;
           line-height: 20px;
           text-align: center;
           cursor: pointer;
@@ -2341,6 +2324,8 @@ input:-webkit-autofill:active {
             background-color: #d1f5e3;
             color: #0a773f;
             font-weight: 600; }
+        .calculator-section .calc-wrapper .calculator-card .form-wrapper .cpc-form-group.verror .calc-field {
+          border-color: red; }
       .calculator-section .calc-wrapper .calculator-card .form-wrapper .calc-field:focus {
         outline: none;
         border-color: #000; }
@@ -2377,12 +2362,12 @@ input:-webkit-autofill:active {
     .roi-intro-section .roi-wrapper .roi-card h3 {
       font-size: 30px;
       margin: 0 0 15px;
-      font-weight: 600;
+      font-weight: bold;
       line-height: 140%; }
     .roi-intro-section .roi-wrapper .roi-card h4 {
       font-size: 24px;
       line-height: 140%;
-      font-weight: 600;
+      font-weight: bold;
       margin: 0 0 10px; }
     .roi-intro-section .roi-wrapper .roi-card p {
       font-size: 18px;
@@ -2417,7 +2402,7 @@ input:-webkit-autofill:active {
       font-size: 50px;
       line-height: 140%;
       margin: 0 0 10px;
-      font-weight: 600; }
+      font-weight: bold; }
     .modal .modal-box p {
       font-size: 18px; }
     .modal .modal-box .progress-bar {
