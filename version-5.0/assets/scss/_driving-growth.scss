@@ -1,0 +1,391 @@
+.driving-growth {
+  background: #f2f8ff;
+  .driving-row {
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+
+    .driving-card {
+      flex-basis: 30%;
+      min-height: 400px;
+      perspective: 1000px;
+      position: relative;
+      border-radius: 5px;
+      box-shadow: 0px 40px 80px 30px rgba(0, 0, 0, 0.02);
+
+      &:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-inner {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
+
+        .card-img {
+          margin: 0 0 10px;
+          display: block;
+        }
+
+        h3 {
+          font-size: 24px;
+          font-weight: 700;
+          color: #111827;
+        }
+
+        p {
+          color: #4b5563;
+          line-height: 24px;
+        }
+
+        h4 {
+          width: 100%;
+          padding: 20px 20px 0;
+          margin: 0 0 5px;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 32px;
+          color: #111827;
+          strong {
+            font-weight: 700;
+          }
+        }
+
+        .prod {
+          font-size: 12px;
+          line-height: 17px;
+          padding: 0 20px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          color: rgba(5, 22, 77, 0.8);
+          font-weight: 600;
+        }
+
+        ul {
+          margin: 20px 0 0;
+          li {
+            position: relative;
+            padding-left: 30px;
+            margin: 8px 0 0;
+
+            &:after {
+              content: "";
+              width: 100%;
+              background: url(../images/home-images/card-list.svg) no-repeat;
+              position: absolute;
+              left: 0;
+              top: 5px;
+              width: 19px;
+              height: 19px;
+              background-size: 100%;
+            }
+          }
+        }
+
+        .card-bottom {
+          width: 100%;
+          position: absolute;
+          right: 0;
+          bottom: 30px;
+          margin: 20px 0 0;
+          &:before {
+            content: "";
+            width: 90%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background: #9ca3af;
+
+            height: 1px;
+          }
+          .drive-btn {
+            width: 90%;
+            display: block;
+            border-radius: 5px;
+            background: #f3f4f6;
+            padding: 10px;
+            color: #111827;
+            text-transform: uppercase;
+            margin: 30px auto 0;
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1;
+          }
+        }
+
+        .is-arrow {
+          display: block;
+          text-decoration: underline;
+          color: #0400f5;
+          text-align: right;
+          padding: 20px 20px 0;
+
+          font-weight: 500;
+          width: 100%;
+
+          &:after {
+            content: "";
+            background: url(../menu-images/view-arrow.svg) no-repeat center;
+            width: 11px;
+            display: inline-block;
+            height: 11px;
+            margin-left: 8px;
+            transition: all 0.3s ease-in-out;
+          }
+
+          &:hover {
+            text-decoration: none;
+            &:after {
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding: 30px;
+        backface-visibility: hidden; /* Hide the back side */
+      }
+
+      .flip-card-front {
+        background-color: #0400f5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: $white;
+        text-align: left;
+        border: 1px solid #d1d5db;
+
+        h3 {
+          color: #110302;
+        }
+
+        .card-bottom {
+          &:before {
+            background: rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+
+      .flip-card-back {
+        background-color: #0400f5;
+        box-shadow: 0px 40px 80px 30px rgba(0, 0, 0, 0.02);
+
+        transform: rotateY(180deg); /* Position back side behind */
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: $white;
+        text-align: left;
+
+        h3 {
+          color: $shine-green;
+        }
+
+        ul {
+          li {
+            color: $white;
+          }
+        }
+      }
+
+      &:first-child {
+        .flip-card-inner {
+          .flip-card-front {
+            background: #0400f5;
+
+            p,
+            h3,
+            h4 {
+              color: $white;
+            }
+            .prod {
+              color: rgba(255, 255, 255, 0.8);
+            }
+            .card-bottom {
+              &:before {
+                background: rgba(255, 255, 255, 0.3);
+              }
+            }
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .flip-card-inner {
+          .flip-card-front {
+            background: $white;
+          }
+          h4 {
+            strong {
+              color: #0400f5;
+            }
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .flip-card-inner {
+          .flip-card-front {
+            background: $white;
+          }
+        }
+        h4 {
+          strong {
+            color: #f4b718;
+          }
+        }
+      }
+    }
+  }
+  &.bg-blue {
+    background: #0400f5;
+  }
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 40px;
+    text-align: center;
+    width: 700px;
+    margin: 40px auto 0;
+
+    .review-card {
+      flex: 1;
+      max-width: 300px;
+      padding: 10px;
+      border-right: 1px solid rgba(156, 163, 175, 1);
+      .logo {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+
+      p {
+        font-size: 10px;
+        color: rgba(156, 163, 175, 1);
+        margin-bottom: 12px;
+        line-height: 1;
+      }
+
+      .stars {
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+/*Media Query Start From Here*/
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1280px) {
+  .driving-growth {
+    .driving-row {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 980px) {
+  .driving-growth {
+    .driving-row {
+      width: 100%;
+      gap: 20px;
+
+      .driving-card {
+        flex-basis: 48%;
+
+        .flip-card-inner {
+          h3 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+
+          h4 {
+            font-size: 22px;
+          }
+
+          ul {
+            margin: 20px 0 0;
+            li {
+              position: relative;
+              padding-left: 30px;
+              margin: 8px 0 0;
+            }
+          }
+        }
+      }
+    }
+    .reviews {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .driving-growth {
+    .driving-row {
+      gap: 15px;
+
+      .driving-card {
+        flex-basis: 100%;
+        min-height: 300px;
+        .flip-card-inner {
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        padding: 25px;
+      }
+    }
+    .reviews {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 30px 0 0;
+
+      .review-card {
+        max-width: 100%;
+        border: 1px solid #9ca3af;
+        padding: 15px;
+      }
+    }
+  }
+}
+
+/*Media Query Ends Here*/

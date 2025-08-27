@@ -1,0 +1,89 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 262" width="960" height="262">
+	<title>Group 1762048-svg</title>
+	<defs>
+		<linearGradient id="g1" x1="975.5" y1="-75.2" x2="-775.8" y2="-75.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="483.7" y1="212.8" x2="420" y2="212.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="205.1" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g4" x1="48.2" y1="-21.2" x2="-40.3" y2="-21.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g5" x1="343.2" y1="-21.1" x2="254.7" y2="-21.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g6" x1="652.2" y1="-21.1" x2="563.7" y2="-21.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g7" x1="961.2" y1="-21.1" x2="872.7" y2="-21.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g8" x1="188.7" y1="-6.2" x2="125" y2="-6.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g9" x1="483.7" y1="-6.2" x2="420" y2="-6.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<linearGradient id="g10" x1="786" y1="5.5" x2="745.9" y2="5.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2a82f2"/>
+			<stop offset="1" stop-color="#005ed7"/>
+		</linearGradient>
+		<image width="6" height="13" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNiIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDYgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik01Ljg0NDczIDAuMTMyODEyVjEzSDQuMjE4NzVWMi4xNjMwOUwwLjk0MDQzIDMuMzU4NFYxLjg5MDYyTDUuNTg5ODQgMC4xMzI4MTJINS44NDQ3M1oiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo="/>
+		<image width="9" height="13" id="img2" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDkgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04Ljg4NTc0IDExLjY2NDFWMTNIMC41MDk3NjZWMTEuODMxMUw0LjcwMjE1IDcuMTY0MDZDNS4yMTc3NyA2LjU4OTg0IDUuNjE2MjEgNi4xMDM1MiA1Ljg5NzQ2IDUuNzA1MDhDNi4xODQ1NyA1LjMwMDc4IDYuMzgzNzkgNC45NDA0MyA2LjQ5NTEyIDQuNjI0MDJDNi42MTIzIDQuMzAxNzYgNi42NzA5IDMuOTczNjMgNi42NzA5IDMuNjM5NjVDNi42NzA5IDMuMjE3NzcgNi41ODMwMSAyLjgzNjkxIDYuNDA3MjMgMi40OTcwN0M2LjIzNzMgMi4xNTEzNyA1Ljk4NTM1IDEuODc1OTggNS42NTEzNyAxLjY3MDlDNS4zMTczOCAxLjQ2NTgyIDQuOTEzMDkgMS4zNjMyOCA0LjQzODQ4IDEuMzYzMjhDMy44NzAxMiAxLjM2MzI4IDMuMzk1NTEgMS40NzQ2MSAzLjAxNDY1IDEuNjk3MjdDMi42Mzk2NSAxLjkxNDA2IDIuMzU4NCAyLjIxODc1IDIuMTcwOSAyLjYxMTMzQzEuOTgzNCAzLjAwMzkxIDEuODg5NjUgMy40NTUwOCAxLjg4OTY1IDMuOTY0ODRIMC4yNjM2NzJDMC4yNjM2NzIgMy4yNDQxNCAwLjQyMTg3NSAyLjU4NDk2IDAuNzM4MjgxIDEuOTg3M0MxLjA1NDY5IDEuMzg5NjUgMS41MjM0NCAwLjkxNTAzOSAyLjE0NDUzIDAuNTYzNDc3QzIuNzY1NjIgMC4yMDYwNTUgMy41MzAyNyAwLjAyNzM0MzggNC40Mzg0OCAwLjAyNzM0MzhDNS4yNDcwNyAwLjAyNzM0MzggNS45Mzg0OCAwLjE3MDg5OCA2LjUxMjcgMC40NTgwMDhDNy4wODY5MSAwLjczOTI1OCA3LjUyNjM3IDEuMTM3NyA3LjgzMTA1IDEuNjUzMzJDOC4xNDE2IDIuMTYzMDkgOC4yOTY4OCAyLjc2MDc0IDguMjk2ODggMy40NDYyOUM4LjI5Njg4IDMuODIxMjkgOC4yMzI0MiA0LjIwMjE1IDguMTAzNTIgNC41ODg4N0M3Ljk4MDQ3IDQuOTY5NzMgNy44MDc2MiA1LjM1MDU5IDcuNTg0OTYgNS43MzE0NUM3LjM2ODE2IDYuMTEyMyA3LjExMzI4IDYuNDg3MyA2LjgyMDMxIDYuODU2NDVDNi41MzMyIDcuMjI1NTkgNi4yMjU1OSA3LjU4ODg3IDUuODk3NDYgNy45NDYyOUwyLjQ2OTczIDExLjY2NDFIOC44ODU3NFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo="/>
+		<image width="9" height="14" id="img3" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDkgMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yLjg3NDAyIDUuODAxNzZINC4wMzQxOEM0LjYwMjU0IDUuODAxNzYgNS4wNzEyOSA1LjcwODAxIDUuNDQwNDMgNS41MjA1MUM1LjgxNTQzIDUuMzI3MTUgNi4wOTM3NSA1LjA2NjQxIDYuMjc1MzkgNC43MzgyOEM2LjQ2Mjg5IDQuNDA0MyA2LjU1NjY0IDQuMDI5MyA2LjU1NjY0IDMuNjEzMjhDNi41NTY2NCAzLjEyMTA5IDYuNDc0NjEgMi43MDgwMSA2LjMxMDU1IDIuMzc0MDJDNi4xNDY0OCAyLjA0MDA0IDUuOTAwMzkgMS43ODgwOSA1LjU3MjI3IDEuNjE4MTZDNS4yNDQxNCAxLjQ0ODI0IDQuODI4MTIgMS4zNjMyOCA0LjMyNDIyIDEuMzYzMjhDMy44NjcxOSAxLjM2MzI4IDMuNDYyODkgMS40NTQxIDMuMTExMzMgMS42MzU3NEMyLjc2NTYyIDEuODExNTIgMi40OTMxNiAyLjA2MzQ4IDIuMjkzOTUgMi4zOTE2QzIuMTAwNTkgMi43MTk3MyAyLjAwMzkxIDMuMTA2NDUgMi4wMDM5MSAzLjU1MTc2SDAuMzc3OTNDMC4zNzc5MyAyLjkwMTM3IDAuNTQxOTkyIDIuMzA5NTcgMC44NzAxMTcgMS43NzYzN0MxLjE5ODI0IDEuMjQzMTYgMS42NTgyIDAuODE4MzU5IDIuMjUgMC41MDE5NTNDMi44NDc2NiAwLjE4NTU0NyAzLjUzOTA2IDAuMDI3MzQzOCA0LjMyNDIyIDAuMDI3MzQzOEM1LjA5NzY2IDAuMDI3MzQzOCA1Ljc3NDQxIDAuMTY1MDM5IDYuMzU0NDkgMC40NDA0M0M2LjkzNDU3IDAuNzA5OTYxIDcuMzg1NzQgMS4xMTQyNiA3LjcwODAxIDEuNjUzMzJDOC4wMzAyNyAyLjE4NjUyIDguMTkxNDEgMi44NTE1NiA4LjE5MTQxIDMuNjQ4NDRDOC4xOTE0MSAzLjk3MDcgOC4xMTUyMyA0LjMxNjQxIDcuOTYyODkgNC42ODU1NUM3LjgxNjQxIDUuMDQ4ODMgNy41ODQ5NiA1LjM4ODY3IDcuMjY4NTUgNS43MDUwOEM2Ljk1ODAxIDYuMDIxNDggNi41NTM3MSA2LjI4MjIzIDYuMDU1NjYgNi40ODczQzUuNTU3NjIgNi42ODY1MiA0Ljk1OTk2IDYuNzg2MTMgNC4yNjI3IDYuNzg2MTNIMi44NzQwMlY1LjgwMTc2Wk0yLjg3NDAyIDcuMTM3N1Y2LjE2MjExSDQuMjYyN0M1LjA3NzE1IDYuMTYyMTEgNS43NTA5OCA2LjI1ODc5IDYuMjg0MTggNi40NTIxNUM2LjgxNzM4IDYuNjQ1NTEgNy4yMzYzMyA2LjkwMzMyIDcuNTQxMDIgNy4yMjU1OUM3Ljg1MTU2IDcuNTQ3ODUgOC4wNjgzNiA3LjkwMjM0IDguMTkxNDEgOC4yODkwNkM4LjMyMDMxIDguNjY5OTIgOC4zODQ3NyA5LjA1MDc4IDguMzg0NzcgOS40MzE2NEM4LjM4NDc3IDEwLjAyOTMgOC4yODIyMyAxMC41NTk2IDguMDc3MTUgMTEuMDIyNUM3Ljg3NzkzIDExLjQ4NTQgNy41OTM3NSAxMS44Nzc5IDcuMjI0NjEgMTIuMjAwMkM2Ljg2MTMzIDEyLjUyMjUgNi40MzM1OSAxMi43NjU2IDUuOTQxNDEgMTIuOTI5N0M1LjQ0OTIyIDEzLjA5MzggNC45MTMwOSAxMy4xNzU4IDQuMzMzMDEgMTMuMTc1OEMzLjc3NjM3IDEzLjE3NTggMy4yNTE5NSAxMy4wOTY3IDIuNzU5NzcgMTIuOTM4NUMyLjI3MzQ0IDEyLjc4MDMgMS44NDI3NyAxMi41NTE4IDEuNDY3NzcgMTIuMjUyOUMxLjA5Mjc3IDExLjk0ODIgMC43OTk4MDUgMTEuNTc2MiAwLjU4ODg2NyAxMS4xMzY3QzAuMzc3OTMgMTAuNjkxNCAwLjI3MjQ2MSAxMC4xODQ2IDAuMjcyNDYxIDkuNjE2MjFIMS44OTg0NEMxLjg5ODQ0IDEwLjA2MTUgMS45OTUxMiAxMC40NTEyIDIuMTg4NDggMTAuNzg1MkMyLjM4NzcgMTEuMTE5MSAyLjY2ODk1IDExLjM3OTkgMy4wMzIyMyAxMS41Njc0QzMuNDAxMzcgMTEuNzQ5IDMuODM0OTYgMTEuODM5OCA0LjMzMzAxIDExLjgzOThDNC44MzEwNSAxMS44Mzk4IDUuMjU4NzkgMTEuNzU0OSA1LjYxNjIxIDExLjU4NUM1Ljk3OTQ5IDExLjQwOTIgNi4yNTc4MSAxMS4xNDU1IDYuNDUxMTcgMTAuNzkzOUM2LjY1MDM5IDEwLjQ0MjQgNi43NSAxMCA2Ljc1IDkuNDY2OEM2Ljc1IDguOTMzNTkgNi42Mzg2NyA4LjQ5NzA3IDYuNDE2MDIgOC4xNTcyM0M2LjE5MzM2IDcuODExNTIgNS44NzY5NSA3LjU1NjY0IDUuNDY2OCA3LjM5MjU4QzUuMDYyNSA3LjIyMjY2IDQuNTg0OTYgNy4xMzc3IDQuMDM0MTggNy4xMzc3SDIuODc0MDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
+		<image width="11" height="13" id="img4" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMSAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjE0OTQgOC42OTMzNlYxMC4wMjkzSDAuOTAzMzJWOS4wNzEyOUw2LjYzMzc5IDAuMjAzMTI1SDcuOTYwOTRMNi41MzcxMSAyLjc2OTUzTDIuNzQ5MDIgOC42OTMzNkgxMC4xNDk0Wk04LjM2NTIzIDAuMjAzMTI1VjEzSDYuNzM5MjZWMC4yMDMxMjVIOC4zNjUyM1oiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: url(#g1);stroke-linejoin: round;stroke-opacity: .1;stroke-width: 5;stroke-dasharray: 10 } 
+		.s1 { opacity: .1;fill: url(#g2) } 
+		.s2 { fill: #53a0fd } 
+		.s3 { fill: none;stroke: url(#g3);stroke-linecap: round;stroke-opacity: .1;stroke-width: 5;stroke-dasharray: 10 } 
+		.s4 { fill: none;stroke: #1476f2;stroke-opacity: .3 } 
+		.s5 { opacity: .1;fill: url(#g4) } 
+		.s6 { opacity: .1;fill: url(#g5) } 
+		.s7 { opacity: .1;fill: url(#g6) } 
+		.s8 { opacity: .1;fill: url(#g7) } 
+		.s9 { opacity: .1;fill: url(#g8) } 
+		.s10 { opacity: .1;fill: url(#g9) } 
+		.s11 { opacity: .1;fill: url(#g10) } 
+	</style>
+	<path id="Layer" class="s0" d="m22 26h914v115.1c0 58.5-47.4 105.9-105.9 105.9h-702.2c-58.5 0-105.9-47.4-105.9-105.9z"/>
+	<path id="Layer" class="s1" d="m449 244.6c0-9.2 7.4-16.6 16.6-16.6 9.2 0 16.7 7.4 16.7 16.6 0 9.2-7.5 16.7-16.7 16.7-9.2 0-16.6-7.5-16.6-16.7z"/>
+	<path id="Layer" class="s2" d="m457.3 244.6c0-4.6 3.7-8.3 8.3-8.3 4.6 0 8.4 3.7 8.4 8.3 0 4.6-3.8 8.3-8.4 8.3-4.6 0-8.3-3.7-8.3-8.3z"/>
+	<path id="Layer" class="s3" d="m25 26.1h911"/>
+	<path id="Layer" class="s4" d="m21.8 64.4v-38.3"/>
+	<path id="Layer" class="s5" d="m0 23.1c0-12.8 10.3-23.1 23.1-23.1 12.8 0 23.1 10.3 23.1 23.1 0 12.7-10.3 23.1-23.1 23.1-12.8 0-23.1-10.4-23.1-23.1z"/>
+	<path id="Layer" class="s2" d="m9 22.9c0-7.7 6.2-13.9 13.9-13.9 7.6 0 13.8 6.2 13.8 13.9 0 7.6-6.2 13.8-13.8 13.8-7.7 0-13.9-6.2-13.9-13.8z"/>
+	<path id="Layer" class="s4" d="m316.8 64.5v-38.4"/>
+	<path id="Layer" class="s6" d="m295 23.2c0-12.8 10.3-23.1 23.1-23.1 12.8 0 23.1 10.3 23.1 23.1 0 12.7-10.3 23.1-23.1 23.1-12.8 0-23.1-10.4-23.1-23.1z"/>
+	<path id="Layer" class="s2" d="m304.2 23.2c0-7.7 6.2-13.9 13.9-13.9 7.7 0 13.9 6.2 13.9 13.9 0 7.6-6.2 13.8-13.9 13.8-7.7 0-13.9-6.2-13.9-13.8z"/>
+	<path id="Layer" class="s4" d="m625.8 64.5v-38.4"/>
+	<path id="Layer" class="s7" d="m604 23.2c0-12.8 10.3-23.1 23.1-23.1 12.8 0 23.1 10.3 23.1 23.1 0 12.7-10.3 23.1-23.1 23.1-12.8 0-23.1-10.4-23.1-23.1z"/>
+	<path id="Layer" class="s2" d="m613.2 23.2c0-7.7 6.2-13.9 13.9-13.9 7.7 0 13.9 6.2 13.9 13.9 0 7.6-6.2 13.8-13.9 13.8-7.7 0-13.9-6.2-13.9-13.8z"/>
+	<path id="Layer" class="s4" d="m934.8 64.5v-38.4"/>
+	<path id="Layer" class="s8" d="m913 23.2c0-12.8 10.3-23.1 23.1-23.1 12.8 0 23.1 10.3 23.1 23.1 0 12.7-10.3 23.1-23.1 23.1-12.8 0-23.1-10.4-23.1-23.1z"/>
+	<path id="Layer" class="s2" d="m922.2 23.2c0-7.7 6.3-13.9 13.9-13.9 7.7 0 13.9 6.2 13.9 13.9 0 7.6-6.2 13.8-13.9 13.8-7.7 0-13.9-6.2-13.9-13.8z"/>
+	<path id="Layer" class="s9" d="m154 25.7c0-9.2 7.4-16.6 16.6-16.6 9.2 0 16.7 7.4 16.7 16.6 0 9.2-7.5 16.6-16.7 16.6-9.2 0-16.6-7.4-16.6-16.6z"/>
+	<path id="Layer" class="s2" d="m162.3 25.7c0-4.6 3.7-8.3 8.3-8.3 4.6 0 8.3 3.7 8.3 8.3 0 4.6-3.7 8.3-8.3 8.3-4.6 0-8.3-3.7-8.3-8.3z"/>
+	<path id="Layer" class="s10" d="m449 25.7c0-9.2 7.4-16.6 16.6-16.6 9.2 0 16.7 7.4 16.7 16.6 0 9.2-7.5 16.6-16.7 16.6-9.2 0-16.6-7.4-16.6-16.6z"/>
+	<path id="Layer" class="s2" d="m457.3 25.7c0-4.6 3.7-8.3 8.3-8.3 4.6 0 8.4 3.7 8.4 8.3 0 4.6-3.8 8.3-8.4 8.3-4.6 0-8.3-3.7-8.3-8.3z"/>
+	<path id="Layer" class="s11" d="m764.2 25.5c0-5.8 4.6-10.4 10.4-10.4 5.8 0 10.5 4.6 10.5 10.4 0 5.8-4.7 10.5-10.5 10.5-5.8 0-10.4-4.7-10.4-10.5z"/>
+	<path id="Layer" class="s2" d="m769.4 25.5c0-2.9 2.3-5.2 5.2-5.2 2.9 0 5.3 2.3 5.3 5.2 0 2.9-2.4 5.3-5.3 5.3-2.9 0-5.2-2.4-5.2-5.3z"/>
+	<use id="1" href="#img1" transform="matrix(1,0,0,1,18,17)"/>
+	<use id="2" href="#img2" transform="matrix(1,0,0,1,313,16)"/>
+	<use id="3" href="#img3" transform="matrix(1,0,0,1,622,16)"/>
+	<use id="4" href="#img4" transform="matrix(1,0,0,1,930,16)"/>
+</svg>

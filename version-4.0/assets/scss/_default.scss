@@ -725,8 +725,8 @@ input:-webkit-autofill:active {
       content: "";
       background: url(../images/home-images/white-cta.svg) no-repeat;
 
-      width: 26px;
-      height: 26px;
+      width: 24px;
+      height: 24px;
       background-size: 100%;
       display: inline-block;
       margin-left: 10px;
@@ -737,17 +737,19 @@ input:-webkit-autofill:active {
     }
 
     &.white {
-      background: $white;
-      color: $navy-blue;
+      background: #DFFB0B;
+      color: #0400F5;
       &:after {
-        background: url(../images/home-images/blue-cta.svg) no-repeat;
+        background: url(../images/home-images/bluegr-cta.svg) no-repeat;
+         background-size: 100%;
       }
       &:hover {
         &:after {
-          background: url(../images/home-images/blue-hovercta.svg) no-repeat;
+          background: url(../images/home-images/bluegr-hovercta.svg) no-repeat;
+           background-size: 100%;
         }
-        background: #016be3;
-        color: $white;
+        background: $white;
+        color: #0400F5;
       }
     }
   }

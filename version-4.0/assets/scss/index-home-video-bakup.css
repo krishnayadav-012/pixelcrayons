@@ -504,23 +504,25 @@ input:-webkit-autofill:active {
     .btn-container .cta-button:after {
       content: "";
       background: url(../images/home-images/white-cta.svg) no-repeat;
-      width: 26px;
-      height: 26px;
+      width: 24px;
+      height: 24px;
       background-size: 100%;
       display: inline-block;
       margin-left: 10px; }
     .btn-container .cta-button:hover {
       background: #016be3; }
     .btn-container .cta-button.white {
-      background: #ffffff;
-      color: #05164d; }
+      background: #DFFB0B;
+      color: #0400F5; }
       .btn-container .cta-button.white:after {
-        background: url(../images/home-images/blue-cta.svg) no-repeat; }
+        background: url(../images/home-images/bluegr-cta.svg) no-repeat;
+        background-size: 100%; }
       .btn-container .cta-button.white:hover {
-        background: #016be3;
-        color: #ffffff; }
+        background: #ffffff;
+        color: #0400F5; }
         .btn-container .cta-button.white:hover:after {
-          background: url(../images/home-images/blue-hovercta.svg) no-repeat; }
+          background: url(../images/home-images/bluegr-hovercta.svg) no-repeat;
+          background-size: 100%; }
 
 .explore-btn {
   position: relative;

@@ -1,0 +1,175 @@
+.service-testimonials {
+  .top-section {
+    h3 {
+      color: #5e6373;
+      font-weight: $normal-font;
+    }
+  }
+  .service-slider {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+
+    .glider {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .srvice-card {
+      padding: 10px;
+
+      .ser-wrap {
+        background: white;
+
+        .content {
+          padding-left: 30px;
+          border-left: 1px solid #02b3c4;
+          p {
+            font-weight: $normal-font;
+          }
+          img {
+            display: block;
+            margin: 0 0 5px;
+          }
+        }
+
+        .reve {
+          font-size: 21px;
+          color: $darkblack;
+          margin: 30px 0 0;
+          .xx {
+            font-size: 46px;
+            color: #41d48c;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .test-button {
+      position: absolute;
+      top: 20%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      left: 0;
+
+      .glider-dots {
+        align-items: center;
+        .glider-dot {
+          display: inline-block;
+          background: $navy-blue;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin: 0 2px;
+          display: none;
+          &.active {
+            background: $navy-blue;
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+
+      .test-prev,
+      .test-next {
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 16px;
+        background: #e8e8e8 url(../images/digital-m/prev.svg) no-repeat center;
+        width: 42px;
+        height: 42px;
+        top: 50%;
+        font-size: 0;
+        opacity: 1;
+        left: -50px;
+        transform: rotate(0);
+        font-size: 0;
+        border: 0;
+        position: absolute;
+        border-radius: 100%;
+
+        &:hover {
+          opacity: 0.8;
+        }
+
+        &.test-next {
+          background: #e8e8e8 url(../images/digital-m/prev.svg) no-repeat center;
+          right: 0;
+          transform: rotate(180deg);
+          left: auto;
+          right: -50px;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Media Query Start From Here*/
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1330px) {
+}
+
+@media (max-width: 1024px) {
+  .service-testimonials {
+    .service-slider {
+      width: 90%;
+    }
+  }
+}
+@media (max-width: 979px) {
+}
+
+@media (max-width: 767px) {
+  .service-testimonials {
+    .service-slider {
+      width: 100%;
+      .srvice-card {
+        padding: 20px;
+        .ser-wrap {
+          .content {
+            padding-left: 20px;
+            img {
+              margin: 0 0 5px;
+            }
+          }
+
+          .reve {
+            font-size: 21px;
+            margin: 25px 0 0;
+            .xx {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+
+      .test-button {
+        top: 35%;
+        .test-prev,
+        .test-next {
+          padding: 10px 15px;
+
+          width: 35px;
+          height: 35px;
+          left: -15px;
+
+          &.test-next {
+            right: -15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Media Query Ends Here*/

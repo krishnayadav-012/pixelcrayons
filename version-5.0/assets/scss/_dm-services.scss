@@ -1,0 +1,238 @@
+.seo-services {
+  .seo-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .seo-menu {
+      width: 25%;
+      text-align: left;
+      h3 {
+        padding: 0 20px;
+        margin: 0 0 10px;
+        font-weight: 400;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        border-left: 3px solid #f6f6f6;
+        li {
+          padding: 10px 20px;
+          cursor: pointer;
+          border-left: 3px solid transparent;
+          transition: all 0.3s ease;
+          color: #666666;
+          margin-left: -3px;
+          &.active {
+            border-color: #4b1bac;
+            font-weight: $medium-font;
+            color: $darkblack;
+            background: #e9eeff;
+          }
+        }
+      }
+    }
+
+    .seo-details {
+      width: 73%;
+      text-align: left;
+      .seo-section {
+        display: none;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+
+        h3 {
+          display: flex;
+          align-items: center;
+          gap: 18px;
+          flex-wrap: wrap;
+          img {
+            margin: 0;
+          }
+        }
+
+        p {
+          font-weight: $normal-font;
+        }
+        iframe {
+          margin: 30px 0 0;
+          width: 100%;
+          height: 380px;
+          border: 0;
+        }
+        ul {
+          margin: 25px 0;
+          li {
+            margin-bottom: 10px;
+            font-weight: 500;
+            padding-left: 30px;
+            position: relative;
+            font-weight: 400;
+            &:before {
+              content: "";
+              background: url(../images/home-images/listing.svg) no-repeat
+                center;
+              width: 20px;
+              height: 20px;
+              background-size: 100%;
+              position: absolute;
+              left: 0;
+              top: 4px;
+            }
+          }
+        }
+
+        .know-more-link {margin: 30px 0 0;
+          a {
+            color: #016be3;
+            display: block;
+          
+            &:after {
+              content: "";
+              background: url(../images/home-images/know-more-arrow-icon.png)
+                top center no-repeat;
+              position: relative;
+              width: 15px;
+              height: 11px;
+              background-size: 100%;
+              top: 0;
+              left: 6px;
+              display: inline-block;
+              transition: all 0.3s ease-in-out;
+            }
+            &:hover{
+              &:after{left: 14px;}
+            }
+          }
+        }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          border: 1px solid #e2eeff;
+          margin: 30px 0 0;
+          th,
+          td {
+            padding: 12px 16px;
+            border: 1px solid #e2eeff;
+            text-align: left;
+          }
+
+          th {
+            background-color: #e2eeff;
+            font-weight: bold;
+          }
+
+          tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+          }
+
+          tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+          }
+        }
+        img {
+          margin: 40px 0 0;
+          display: block;
+        }
+        &.active {
+          display: block;
+          opacity: 1;
+          transform: translateY(0);
+        }
+        a{color: #016be3;
+        &:hover{text-decoration: underline;}
+        }
+      }
+    }
+  }
+  &.guide-services {
+    .seo-content {
+      .seo-menu {
+        ul {
+          border-right: 3px solid #e2eeff;
+          border-left: 0;
+          margin-right: -3px;
+          margin-left: auto;
+          li {
+            border-left: 0;
+            border-right: 3px solid transparent;
+            margin-right: -3px;
+            margin-left: 0;
+            &.active {
+              border-color: #4b1bac;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media Query Start From Here
+
+@media (max-width: 1440px) {
+}
+@media (max-width: 1320px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 979px) {
+  .seo-services {
+    .seo-content {
+      .seo-menu {
+        width: 35%;
+      }
+      .seo-details {
+        width: 60%;
+        .seo-section {
+          h3 {
+            gap: 15px;
+          }
+          iframe {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .seo-services {
+    .seo-content {
+      flex-direction: column;
+      .seo-menu {
+        width: 100%;
+        h3 {
+          padding: 0 15px;
+        }
+        ul {
+          li {
+            padding: 8px 15px;
+            margin-left: -2px;
+          }
+        }
+      }
+
+      .seo-details {
+        width: 100%;
+        margin: 30px 0 0;
+        .seo-section {
+          iframe {
+            height: 200px;
+          }
+          ul {
+            margin: 25px 0 0;
+            li {
+              &:before {
+                top: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
