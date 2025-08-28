@@ -711,11 +711,12 @@ input:-webkit-autofill:active {
 
   .cta-button {
     display: inline-flex;
-    padding: 14px 16px;
+    padding: 10px 20px;
+    line-height: 24px;
     cursor: pointer;
     position: relative;
-    background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
-    color: $white;
+    background: $shine-green;
+    color: $royelblue;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: $medium-font;
@@ -724,7 +725,7 @@ input:-webkit-autofill:active {
 
     &:after {
       content: "";
-      background: url(../images/home-images/white-cta.svg) no-repeat;
+      background: url(../images/home-images/bluegr-cta.svg) no-repeat;
 
       width: 24px;
       height: 24px;
@@ -734,7 +735,9 @@ input:-webkit-autofill:active {
     }
 
     &:hover {
-      background: #016be3;
+      background: $royelblue; color:$white;
+      &:after{background: url(../images/home-images/white-cta.svg) no-repeat;
+           background-size: 100%;}
     }
 
     &.white {

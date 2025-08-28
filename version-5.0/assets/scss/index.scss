@@ -5,15 +5,9 @@
 @import "_growth-partner";
 @import "_three-column-section";
 @import "_white-label";
-
-@import "_work-tab";
-@import "_scroll-section";
-@import "_button-section";
 @import "_excellence";
-@import "_it-initiative";
 @import "_glider";
 @import "_indstries-slider-section";
-@import "_latest-insight";
 @import "_success-slider";
 @import "_client-testimonials";
 @import "faq";
@@ -163,12 +157,6 @@
   }
 }
 
-.btn-container {
-  .cta-button {
-    padding: 10px 20px;
-  }
-}
-
 .is-arrow {
   color: $royelblue;
   font-size: $font-16;
@@ -180,7 +168,9 @@
   }
 }
 
-.bg-blue{background:$royelblue;}
+.bg-blue {
+  background: $royelblue;
+}
 
 // Media Query Start From Here
 
@@ -198,11 +188,29 @@
     #background-video {
       height: 100%;
     }
+    h1 {
+      font-size: 65px;
+      br {
+        display: none;
+      }
+    }
     p {
       margin: 20px 0 0;
     }
     .for-client-logo-box {
       margin: 100px 0 0;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .hero-section {
+    height: 770px;
+    #background-video {
+      height: 100%;
+    }
+    p {
+      font-size: 20px;
     }
   }
 }
@@ -221,18 +229,22 @@
       display: none;
     }
 
+    h1 {
+      font-size: 45px;
+      line-height: 55px;
+    }
+
     p {
-      font-size: 16px;
-      margin: 50px 0 0;
+      font-size: 18px;
+      margin: 20px 0 0;
       a {
         font-size: 18px;
       }
-    }
-    .large-text {
-      font-size: 20px;
-      .anm-text {
-        width: 130px;
-        padding: 12px 10px;
+      &.font-18 {
+        font-size: 16px;
+        a {
+          font-size: 16px;
+        }
       }
     }
     .for-client-logo-box {
@@ -246,15 +258,6 @@
   .hero-section {
     p {
       margin: 20px 0 0;
-    }
-    .large-text {
-      font-size: 18px;
-    }
-
-    .large-text {
-      .anm-text {
-        width: 120px;
-      }
     }
     .for-client-logo-box {
       margin: 50px 0 0;
