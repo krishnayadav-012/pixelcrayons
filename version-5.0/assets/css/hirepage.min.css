@@ -2955,7 +2955,7 @@ b {
     align-items: center;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    padding: 20px 20px 20px 0;
+    padding: 20px 35px 20px 0;
     position: relative;
     font-weight: 600;
     color: #111827;
