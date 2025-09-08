@@ -1,6 +1,7 @@
 @import "_default";
 @import "_menu-v5";
 @import "_client-logo";
+@import "_integration-banner";
 @import "_glide-core";
 @import "hiring-model";
 @import "faq";
@@ -11,9 +12,9 @@
 @import "guide-topic";
 @import "cta-v3";
 @import "_tech-banner-with-form";
+@import "banner-form-v1";
 @import "all-industries";
 @import "technology-unique";
-@import "banner-form-v1";
 @import "footer";
 
 @import "all-industries";
@@ -21,16 +22,58 @@
 @import "blog";
 @import "case";
 
+.banner-with-form {
+  padding-bottom: 120px;
+}
 
-.banner-with-form{padding-bottom:120px;}
-
-
+.integration-banner {
+  .dis-flex {
+    .left-sec {
+      .banner-content {
+        h2 {
+          font-weight: 500;
+          font-size: 18px;
+          color: #ffffff;
+          margin: 0 0 20px;
+          line-height: 1.3;
+        }
+      }
+    }
+    .hire-form {
+      .form-wrap {
+        .top-sec {height:20px;
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
 
 .hire-main {
   background: #1e5799; /* Old browsers */
-  background: -moz-linear-gradient(top,  #1e5799 0%, #ffffff 0%, #fafcff 20%, #e7f0ffa6 49%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #1e5799 0%,#ffffff 0%,#fafcff 20%,#e7f0ffa6 49%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #1e5799 0%,#ffffff 0%,#fafcff 20%,#e7f0ffa6 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(
+    top,
+    #1e5799 0%,
+    #ffffff 0%,
+    #fafcff 20%,
+    #e7f0ffa6 49%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #1e5799 0%,
+    #ffffff 0%,
+    #fafcff 20%,
+    #e7f0ffa6 49%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1e5799 0%,
+    #ffffff 0%,
+    #fafcff 20%,
+    #e7f0ffa6 49%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e7f0ff',GradientType=0 ); /* IE6-9 */
   padding-bottom: 0;
   color: $white;
@@ -47,10 +90,10 @@
     span {
       font-weight: 400;
       font-size: 18px;
-      color: #016BE3;
+      color: #016be3;
       display: block;
       line-height: 25px;
-  font-weight: normal;
+      font-weight: normal;
     }
 
     p {
@@ -84,7 +127,7 @@
           top: 8px;
           width: 8px;
           height: 8px;
-          background: #016BE3;
+          background: #016be3;
           border-radius: 50%;
         }
 
@@ -109,14 +152,14 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
-        color: #016BE3;
+        color: #016be3;
       }
 
       span {
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #666E86;
+        color: #666e86;
         padding-bottom: 0;
         margin-top: 4px;
       }
@@ -126,7 +169,7 @@
     background: url(../images/hire/hire-header-logo-img.svg) 0 0 no-repeat;
     background-size: 100%;
     width: 100%;
-    height:80px;
+    height: 80px;
     margin: 10px 0;
   }
   .formbox-new {
@@ -166,7 +209,7 @@
         color: $contentDay;
         margin-bottom: 10px;
         padding: 12px 20px;
-    font-weight: normal;
+        font-weight: normal;
       }
 
       .writebox {
@@ -181,7 +224,7 @@
           font-size: 14px;
           padding: 12px 20px;
           color: $contentDay;
-      font-weight: normal;
+          font-weight: normal;
           resize: none;
         }
 
@@ -199,15 +242,15 @@
             line-height: 12px;
             color: $contentDay;
             text-transform: uppercase;
-        font-weight: normal;
+            font-weight: normal;
           }
         }
       }
     }
   }
-    .dis-flex{
-      margin-top: 40px;
-    }
+  .dis-flex {
+    margin-top: 40px;
+  }
 }
 
 .get-started {
@@ -233,7 +276,6 @@
         background-color: #60ac0b;
         border-color: #60ac0b;
       }
-
     }
   }
 }
@@ -251,18 +293,17 @@
     .has-anchor {
       &:hover {
         .box-3 {
-          border: 1px solid #016BE3;
+          border: 1px solid #016be3;
           box-shadow: 0px 16px 40px rgba(176, 202, 228, 0.2);
           border-radius: 5px;
         }
-
       }
     }
 
     .box-3 {
       height: 100%;
       min-height: 320px;
-      border: 1px solid rgba(212,224,237,0.7);
+      border: 1px solid rgba(212, 224, 237, 0.7);
       border-radius: 5px;
       padding: 60px 40px;
       transition: all 0.3s ease-in-out;
@@ -271,7 +312,7 @@
       p {
         margin-top: 20px;
       }
-      p{
+      p {
         opacity: 0.9;
       }
 
@@ -319,14 +360,13 @@
   }
 }
 
-.expertise{
+.expertise {
   .threebox {
-    .box-3{
+    .box-3 {
       min-height: 250px;
     }
   }
 }
-
 
 .why-does-soft-develop-list-section {
   &.outsource-soft-development {
@@ -496,7 +536,6 @@
     }
   }
 
-
   .img-box {
     padding-left: 50px;
     padding-top: 10px;
@@ -509,7 +548,8 @@
       &::before {
         content: "";
         position: absolute;
-        background: url(../images/technology/tech-vector-shape-before-after.png) 0 0 no-repeat;
+        background: url(../images/technology/tech-vector-shape-before-after.png)
+          0 0 no-repeat;
         width: 75px;
         height: 66px;
         top: -25px;
@@ -520,7 +560,8 @@
       &::after {
         content: "";
         position: absolute;
-        background: url(../images/technology/tech-vector-shape-before-after.png) 0 0 no-repeat;
+        background: url(../images/technology/tech-vector-shape-before-after.png)
+          0 0 no-repeat;
         width: 75px;
         height: 66px;
         bottom: -18px;
@@ -531,21 +572,19 @@
   }
 }
 
-
 .page-id-3432 {
   .all-industries-section {
-      .flex-2 {
-          &:nth-child(2) {
-              .industry-box {
-                  &:nth-child(1) {
-                      //display: none !important;
-                  }
-              }
+    .flex-2 {
+      &:nth-child(2) {
+        .industry-box {
+          &:nth-child(1) {
+            //display: none !important;
           }
+        }
       }
+    }
   }
 }
-
 
 @media only screen and (max-width: 1600px) {
   .why-choose-three-column-section {
@@ -556,9 +595,9 @@
     }
   }
 
-  .hire-main{
-    .for-client-logo-box{
-      height:65px;
+  .hire-main {
+    .for-client-logo-box {
+      height: 65px;
     }
   }
 
@@ -575,10 +614,10 @@
       }
     }
   }
-  .hire-main{
-      .dis-flex{
-        margin-top: 34px;
-      }
+  .hire-main {
+    .dis-flex {
+      margin-top: 34px;
+    }
   }
 }
 
@@ -598,30 +637,29 @@
         padding-left: 10px;
       }
     }
-    .for-client-logo-box{
+    .for-client-logo-box {
       height: 57px;
     }
   }
 
-  .do-you-need-ios-mobile{
-    .img-box{
-      picture{
-        &::after{
+  .do-you-need-ios-mobile {
+    .img-box {
+      picture {
+        &::after {
           right: -25px;
         }
       }
     }
-  }  
-
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  .hire-main{
-    padding-bottom:20px;
-    .for-client-logo-box{
+  .hire-main {
+    padding-bottom: 20px;
+    .for-client-logo-box {
       height: 57px;
     }
-  } 
+  }
 }
 
 @media screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
@@ -639,7 +677,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
   .hire-main {
     .hire-content {
       width: 100%;
@@ -717,7 +754,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
   .why-choose-three-column-section {
     .threebox {
       .flex-3 {
@@ -739,7 +775,6 @@
       .box-2 {
         ul {
           margin-bottom: 50px;
-
         }
       }
     }
@@ -759,8 +794,8 @@
       }
     }
   }
-  .hire-main{
-    .for-client-logo-box{
+  .hire-main {
+    .for-client-logo-box {
       height: 118px;
     }
   }
@@ -771,21 +806,52 @@
     padding-bottom: 40px;
     .hire-content {
       .hire-counter {
-
         &:first-child,
         &:last-child {
           padding-left: 10px;
         }
       }
     }
-    .for-client-logo-box{
+    .for-client-logo-box {
       height: 103px;
     }
   }
+
+  .integration-banner {
+  .dis-flex {padding: 0;
+    .left-sec { margin:0;
+      .banner-content {
+        h2 {
+          font-size: 16px;
+          line-height: 26px;
+          margin: 0 0 15px;
+        }
+      }
+    }
+   
+  }
+}
 }
 
 @media screen and (max-width: 767px) {
-  .banner-with-form{padding-bottom:40px;}
+  .banner-with-form {
+    padding-bottom: 40px;
+  }
+  .integration-banner{
+     .dis-flex {
+      .left-sec{
+         .banner-content{
+           ul{
+            li{
+              font-size: 16px;
+              margin: 0 0 8px;
+              padding-left: 18px;
+            }
+           }
+         }
+      }
+     }
+  }
   .hire-main {
     padding-top: 100px;
 
@@ -793,7 +859,8 @@
       width: 100%;
       padding-right: 0;
 
-      h2, span {
+      h2,
+      span {
         font-size: 16px;
       }
 
@@ -808,7 +875,6 @@
           font-size: 16px;
           margin-bottom: 10px;
         }
-
       }
 
       .inner-content {
@@ -825,7 +891,7 @@
         }
       }
     }
-    .for-client-logo-box{
+    .for-client-logo-box {
       height: 75px;
     }
 
@@ -923,10 +989,9 @@
 }
 
 @media screen and (max-width: 450px) {
-  .hire-main{
-    .for-client-logo-box{
+  .hire-main {
+    .for-client-logo-box {
       height: 45px;
     }
   }
-
 }

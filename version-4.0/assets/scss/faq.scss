@@ -34,10 +34,10 @@
       align-items: center;
       cursor: pointer;
       transition: all 0.2s ease-in-out;
-      padding: 20px 20px 20px 0;
+      padding: 20px 35px 20px 0;
       position: relative;
       font-weight: 600;
-      color: #110302;
+      color: #111827;
       border-bottom: 1px solid #e4e4e4;
       margin: 0;
       font-size: 20px;
@@ -78,7 +78,7 @@
       p {
         margin: 0 0 10px;
         font-weight: $normal-font;
-        color: #5e6373;
+        color: #4B5563;
       }
 
       ul,
@@ -89,6 +89,7 @@
           margin: 10px 0 0;
           position: relative;
           padding-left: 18px;
+          color:#4B5563;
 
           &:before {
             content: "";

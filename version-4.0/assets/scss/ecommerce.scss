@@ -1,5 +1,7 @@
 @import "_default";
 @import "_menu-v5";
+@import "_integration-banner";
+@import "banner-form-v1";
 @import "_client-logo";
 @import "_glide-core";
 @import "_service-card";
@@ -52,7 +54,7 @@
     z-index: 9;
 
     .left-sec {
-      flex-basis: 60%;
+      flex-basis: 55%;
 
       .breadcrumbs {
         position: initial;
@@ -100,10 +102,13 @@
         border-radius: 15px;
         .video-sec {
           padding: 30px;
-          .clb{display: flex;
+          .clb {
+            display: flex;
             align-items: center;
             color: rgba(19, 30, 41, 0.4);
-            font-weight: 500; margin:20px 0 0;}
+            font-weight: 500;
+            margin: 20px 0 0;
+          }
         }
 
         .ratings {
@@ -148,6 +153,21 @@
         background: $white;
       }
     }
+  }
+  .service-bottom-section {
+    padding: 0;
+  }
+}
+
+.integration-banner {
+  .dis-flex{
+     .hire-form {
+      .form-wrap {
+        .top-sec{height: 20px;
+          img{display:none;}
+        }
+      }
+     }
   }
 }
 
@@ -332,7 +352,9 @@
   }
 }
 
-.develop-section{margin-bottom:40px;}
+.develop-section {
+  margin-bottom: 40px;
+}
 
 @media only screen and (max-width: 1600px) {
   .banner-section {
@@ -348,22 +370,24 @@
 @media only screen and (max-width: 1320px) {
   .banner-section {
     min-height: 600px;
-    .banner-wrap{
-      .right-sec{flex-basis: 33%; width: 33%;
-        .hero-card{
-          .video-sec{padding: 20px;
-          h3{font-size: 18px;}
-          .clb{font-size: 16px;}
+    .banner-wrap {
+      .right-sec {
+        flex-basis: 33%;
+        width: 33%;
+        .hero-card {
+          .video-sec {
+            padding: 20px;
+            h3 {
+              font-size: 18px;
+            }
+            .clb {
+              font-size: 16px;
+            }
           }
         }
       }
-    }   
+    }
   }
-
-
-
-
-
 }
 @media only screen and (max-width: 1024px) {
   .ecomsol {
@@ -484,6 +508,10 @@
     }
   }
 
+ .integration-banner {
+  .dis-flex{padding: 0;}
+ }
+
   .services-three-column-section {
     .threebox {
       .box-3 {
@@ -531,8 +559,10 @@
 }
 
 @media screen and (max-width: 767px) {
-  .banner-section .banner-wrap .left-sec .banner-content h1{font-size: 35px;
-    line-height: 45px;}
+  .banner-section .banner-wrap .left-sec .banner-content h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
 
   .ecomsol {
     .flex-2 {
@@ -572,7 +602,6 @@
         .banner-content {
           h1 {
             margin: 0 0 20px;
-
           }
         }
         .banner-form {

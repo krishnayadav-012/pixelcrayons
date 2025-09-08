@@ -11,10 +11,10 @@
     <link rel="preload stylesheet" type="text/css" href="assets/css/technology.min.css" as="style"/>
 </head>
 <body id="themeAdd" class="service-menu-cl">
-<?php require_once 'assets/include/menu-v2nb.php'; ?>
+ <?php require_once 'assets/include/menu-v5.php'; ?>
     <!-- Banner section -->
     <div class="popup-pxlbd">
-    <?php require_once 'assets/include/menu-v2nb.php'; ?>
+   <?php require_once 'assets/include/menu-v5.php'; ?>
     </div>
     <section class="banner-with-form padding-t-120 padding-b-120">
       <div class="container">
@@ -82,11 +82,162 @@
         </div>
         <!-- Clients logo section -->
       </div>
-      <?php require_once '../assets/include/awards.php'; ?>
+    
     </section>
 
+
+   <section class="integration-banner padding-t-120 padding-b-120">
+      <div class="container">
+        <div class="banner-wrap dis-flex items-center justify-sb">
+          <div class="left-sec">
+           
+            <div class="banner-content hire-content">
+              <h1>.NET Development Services</h1>
+            <h2>Experienced Development Team & 2X Faster Delivery</h2>
+            <p>Get high-quality, engaging, and feature-rich websites, web applications, and portals. We are a team of qualified ASP.NET developers who have delivered 5400+ successful projects to clients across the globe.</p>
+            <ul>
+              <li>Strict NDAs</li>
+              <li>Expert & Experienced Developers</li>
+              <li>Efficient .NET Project Management</li>
+              <li>Consistent Delivery Of .NET Solutions</li>
+            </ul>
+            </div>
+          </div>
+          <div class="hire-form text-center">
+            <div class="form-wrap">
+              <!--<div class="top-sec">
+                <picture>
+                   <img loading="lazy" src="assets/images/hire-boy.svg" alt="pixel" width="393" height="260">
+                </picture>
+                </div>-->
+              <div class="top-sec">
+                <picture>
+                  <img loading="lazy" src="assets/images/integration-boy.png" alt="pixel" width="314" height="178">
+                </picture>
+              </div>
+              <div class="mid-sec">
+                <div class="head-sec">
+                  <h3>Start Your 7-day Trial</h3>
+                  <p>Try Before, Commit Later</p>
+                </div>
+                <div class="popup-wrapper form-visible">
+                  <div class="popWrap">
+                    <div class="popup-content">
+                      <div class="banner-form-section">
+                        <div class="form-content-box">
+                          <div class="banner-form-outer">
+                            <form id="hireform" action="https://www.pixelcrayons.com/p2wp/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
+                              <div class="form-inner dis-flex">
+                                <div class="form-head-cont">
+                                  <div class="user-input">
+                                    <label>Full Name*</label>
+                                    <input type="text" autocomplete="off" id="cont_name" class="input-field" value="" placeholder="Enter your full Name" name="fullname">
+                                    <small></small>
+                                  </div>
+                                </div>
+                                <div class="form-head-cont">
+                                  <div class="user-input">
+                                    <label>Email Address*</label>
+                                    <input type="text" id="cont_email" autocomplete="off" class="input-field" value="" placeholder="Enter your email Address" name="email" maxlength="50">
+                                    <small></small>
+                                  </div>
+                                </div>
+                                <div class="form-head-cont cont_country_section">
+                                  <div class="user-input form-control success">
+                                    <label>Country*</label>
+                                    <input id="cont_country" type="text" class="input-field" value="" name="user-country" placeholder="Enter Country" maxlength="50" autocomplete="off">
+                                    <small>success</small>
+                                  </div>
+                                </div>
+                                <div class="form-head-cont">
+                                  <div class="user-input">
+                                    <label>Phone No.</label>
+                                    <input type="tel" autocomplete="off" maxlength="12" class="input-field" id="input_phpne" value="" placeholder="Enter phone No." name="phone">
+                                    <small></small>
+                                  </div>
+                                </div>
+                                <div class="form-head-cont  width-full form-textarea">
+                                  <label>Description*</label>
+                                  <div class="user-input">
+                                    <textarea class="form-input comment-input" autocomplete="off" id="bn-req" placeholder="Project Brief" name="user-req"></textarea>
+                                    <small>Please Fill Requirement</small>
+                                    <!-- 
+                                      <div class="drop-input attachment_brw" id="uploadcontact">
+                                        <div id="dropcontact"></div>
+                                      </div> 
+                                      -->
+                                    <div id="drop-area" class="dropzone">
+                                      <input type="file" name="files[]" id="fileElem" multiple="" accept="image/*,application/pdf,.psd,.zip,.docx,.xlsx,.xls,.txt" onchange="handleFiles(this.files)" style="display:none;">
+                                      <button class="button" id="browse-btn" type="button" onclick="document.getElementById('fileElem').click()">Browse |  Drop Files Here</button>
+                                      <input type="hidden" name="up-counter" id="uplcounter" value="0">
+                                    </div>
+                                  </div>
+                                  <div id="gloader" class="gal-loader">
+                                    <div class="loader"></div>
+                                    <div id="gallery"></div>
+                                  </div>
+                                  <p id="file-type-error"></p>
+                                </div>
+                                <div id="gloader" class="gal-loader">
+                                  <div class="loader"></div>
+                                  <div id="gallery" class="gallery"></div>
+                                </div>
+                                <span id="file-type-error"></span>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="button-section">
+                  <div class="btn-div">
+                    <a class="white-btn" href="#">Get A free Quote</a>
+                    <span class="gura">100% Privacy Guaranteed</span>
+                  </div>
+                </div>
+              </div>
+              <!--
+                <div class="bottom-sec">
+                  <a class="use-form" href="#contact-sec">Or, Use this form to tell us about your needs</a>
+                  <div class="frm-list">
+                    <ul>
+                      <li class="process">
+                        100% confidential
+                        <div class="info">
+                          <h4>Your privacy is our top priority</h4>
+                          <p>We understand the importance of confidentiality and privacy when it comes to handling sensitive information. You can trust that your personal and business information is safe with us.</p>
+                        </div>
+                      </li>
+                      <li class="process">
+                        We sign NDA
+                        <div class="info">
+                          <h4>Your sensitive information is protected</h4>
+                          <p>We are happy to sign a Non-disclosure Agreement (NDA). It provides an added layer of protection for your sensitive information and ensures that it is not disclosed to any third parties.</p>
+                        </div>
+                      </li>
+                      <li class="process">
+                        Our Process
+                        <div class="info">
+                          <h4>What happens after you contact us?</h4>
+                          <p>Our solution experts will answer your questions in a secure online meeting. You will get good information and honest advice in plain English. You are then free to choose how to move forward.</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
     <!-- Clients logo section -->
-    <?php require_once '../assets/include/awards.php'; ?>
+    <?php require_once 'assets/include/client-logo.php'; ?>
 
     <section class="why-choose-three-column-section ios-app-services padding-t-120 padding-b-120">
         <div class="container">

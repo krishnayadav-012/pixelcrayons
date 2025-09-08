@@ -1,6 +1,8 @@
 @import "_default";
 @import "_menu-v5";
 @import "_counter-award";
+@import "_integration-banner";
+@import "banner-form-v1";
 @import "_excellence";
 @import "_tailored-slider";
 @import "_sticky-section";
@@ -60,7 +62,7 @@
     }
 
     .left-box {
-      flex-basis: 60%;
+      flex-basis: 55%;
       h1 {
         font-size: 60px;
         color: $white;
@@ -265,7 +267,17 @@
   background: #f9fcff;
 }
 
-
+.integration-banner {
+  .dis-flex{
+     .hire-form {
+      .form-wrap {
+        .top-sec{height: 20px;
+          img{display:none;}
+        }
+      }
+     }
+  }
+}
 // Media Query Start From Here
 
 
@@ -284,6 +296,12 @@
         flex-basis: 36%;
       }
     }
+  }
+
+  .integration-banner{
+     .dis-flex{
+       .hire-form{flex-basis: 38%;}
+     }
   }
 }
 @media (max-width: 1366px) {
@@ -308,6 +326,14 @@
       }
     }
   }
+
+      .integration-banner {
+        .dis-flex {
+          .hire-form {
+        flex-basis: 38%;
+      }
+        }
+    }
 }
 
 @media (max-width: 1280px) {
@@ -318,7 +344,7 @@
     }
     .content-wrap {
       .left-box {
-        flex-basis: 60%;
+        flex-basis: 55%;
         h1 {
           font-size: 50px;
         }
@@ -393,6 +419,9 @@
       line-height: 20px;
     }
   }
+  .integration-banner {
+  .dis-flex{padding: 0;}
+ }
 }
 
 @media (max-width: 767px) {

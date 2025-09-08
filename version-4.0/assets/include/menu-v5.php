@@ -26,7 +26,7 @@
               <a href="#">Solutions</a> <span class="arrow-btn"></span>
               <div class="menu-mega small-menu solution-menu">
                 <div class="dis-flex tab-menu">
-                  <div id="mnu-tech" class="dis-flex tab-contents">
+                  <div id="mnu-hire" class="dis-flex tab-contents">
                     <div class="right-tabs">
                       <div class="tab-content">
                         <div class="dis-flex menu-column">

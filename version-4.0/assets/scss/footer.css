@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$gradient".
+Error: Undefined variable: "$royelblue".
         on line 44 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\footer.scss
 
 39:     line-height: 24px;
@@ -7,7 +7,7 @@ Error: Undefined variable: "$gradient".
 41:   }
 42: 
 43:   .footer-top .subs-box {
-44:     background: $gradient;
+44:     background: $royelblue;
 45:     position: relative;
 46:     padding: 20px 40px;
 47:     flex-basis: 30%;
@@ -73,4 +73,4 @@ D:/New folder/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gradient\".\A         on line 44 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\footer.scss\A \A 39:     line-height: 24px;\A 40:     margin: 0;\A 41:   }\A 42: \A 43:   .footer-top .subs-box {\A 44:     background: $gradient;\A 45:     position: relative;\A 46:     padding: 20px 40px;\A 47:     flex-basis: 30%;\A 48:     display: flex;\A 49:     align-items: center;"; }
+  content: "Error: Undefined variable: \"$royelblue\".\A         on line 44 of C:\xampp\htdocs\pixelcrayons\version-4.0\assets\scss\footer.scss\A \A 39:     line-height: 24px;\A 40:     margin: 0;\A 41:   }\A 42: \A 43:   .footer-top .subs-box {\A 44:     background: $royelblue;\A 45:     position: relative;\A 46:     padding: 20px 40px;\A 47:     flex-basis: 30%;\A 48:     display: flex;\A 49:     align-items: center;"; }

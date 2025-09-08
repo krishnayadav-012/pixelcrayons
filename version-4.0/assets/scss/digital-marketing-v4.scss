@@ -1,6 +1,8 @@
 @import "_default";
 @import "_menu-v5";
 @import "_banner-counter";
+@import "_integration-banner";
+@import "banner-form-v1";
 @import "_client-logo";
 @import "_work-tab";
 @import "_dm-pricing";
@@ -328,7 +330,17 @@ html {
 
 .tabs-section.techno-tabs {background: #F9FCFF;}
 
-
+.integration-banner {
+  .dis-flex{
+     .hire-form {
+      .form-wrap {
+        .top-sec{height: 20px;
+          img{display:none;}
+        }
+      }
+     }
+  }
+}
 
 //Media Query Start From Here
 
@@ -400,6 +412,10 @@ html {
       }
     }
   }
+
+   .integration-banner {
+  .dis-flex{padding: 0;}
+ }
 
 }
 

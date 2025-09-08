@@ -1,6 +1,8 @@
 @import "_default";
 @import "_menu-v5";
 @import "_client-logo";
+@import "_integration-banner";
+@import "banner-form-v1";
 @import "_glide-core";
 @import "_service-card";
 @import "_get-started";
@@ -266,6 +268,18 @@
         }
       }
     }
+  }
+}
+
+.integration-banner {
+  .dis-flex{
+     .hire-form {
+      .form-wrap {
+        .top-sec{height: 20px;
+          img{display:none;}
+        }
+      }
+     }
   }
 }
 
@@ -717,6 +731,10 @@
       }
     }
   }
+
+   .integration-banner {
+  .dis-flex{padding: 0;}
+ }
   
 
   .services-two-column-section {
