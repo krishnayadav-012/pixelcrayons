@@ -1423,13 +1423,17 @@ input:-webkit-autofill:active {
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
       left: 67%; } }
 @media screen and (max-width: 1390px) {
+  .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column .flex-4 {
+    flex-basis: 25%; }
   .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column a {
     padding: 5px 20px 5px 5px;
     margin: 0 0 2px 31px;
     width: 100%; }
     .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column a.top-head {
       padding: 5px 20px 5px 35px;
-      width: 100%; } }
+      width: 100%; }
+  .header-two .header-item-right .menu ul li .menu-mega.service-menu {
+    width: 92%; } }
 @media screen and (max-width: 1280px) {
   .header-two .container {
     padding: 0 20px; }

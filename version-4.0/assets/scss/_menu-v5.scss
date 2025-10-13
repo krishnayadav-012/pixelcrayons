@@ -868,6 +868,7 @@ $font16: 16px;
               .right-tabs {
                 .tab-content {
                   .menu-column {
+                    .flex-4{flex-basis: 25%;}
                     a {
                       padding: 5px 20px 5px 5px;
                       margin: 0 0 2px 31px;
@@ -882,6 +883,7 @@ $font16: 16px;
               }
             }
           }
+          &.service-menu{width: 92%;}
         }
       }
     }
