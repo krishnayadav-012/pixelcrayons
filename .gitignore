@@ -1,0 +1,11 @@
+*/\.htaccess
+.htaccess
+/wp/*
+/wp/wp-config.php
+/wp/wp-admin/*
+/wp/wp-includes/*
+/wp/wp-content/uploads/*
+/wp/wp-content/upgrade/*
+
+version-3.0/*
+version-2.0/*
