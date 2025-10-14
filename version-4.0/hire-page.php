@@ -27,7 +27,7 @@
                         <p>We'll get back to you shortly!</p>
                      </div>
                      <div class="banner-form-outer">
-                        <form id="hireform" action="https://www.pixelcrayons.com/p2wp/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
+                        <form id="hireform" action="https://www.pixelcrayons.com/staging/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
                            <div class="form-inner dis-flex">
                               <div class="form-head-cont">
                                  <div class="user-input">
@@ -68,7 +68,7 @@
                                  <input type="hidden" id="g-recaptcha-response2" name="g-recaptcha-response">
                                  <input type="hidden" name="Uploadedfilename" id="Uploadedfilename" value="">
                                  <input type="hidden" name="frmqueryString" value="">
-                                 <input type="hidden" name="page_url" value="https://www.pixelcrayons.com/p2wp/hire-developer-programmer-india">
+                                 <input type="hidden" name="page_url" value="https://www.pixelcrayons.com/staging/hire-developer-programmer-india">
                                  <input type="hidden" name="formname" value="hire-form">
                                  <button type="submit" id="submithireform" class="hire-banner-form-btn">Hire our Experts</button>
                               </div>
@@ -83,7 +83,7 @@
       <section class="banner-with-form padding-t-120 padding-b-120">
          <div class="container">
             <div class="breadcrumbs service-breadcrumbs">
-               <a href="https://www.pixelcrayons.com/p2wp">Home</a> Hire Developers
+               <a href="https://www.pixelcrayons.com/staging">Home</a> Hire Developers
             </div>
             <div class="dis-flex justify-sb">
                <div class="hire-content">
@@ -123,7 +123,7 @@
                               <div class="banner-form-section">
                                  <div class="form-content-box">
                                     <div class="banner-form-outer">
-                                       <form id="hireform" action="https://www.pixelcrayons.com/p2wp/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
+                                       <form id="hireform" action="https://www.pixelcrayons.com/staging/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
                                           <div class="form-inner dis-flex">
                                              <div class="form-head-cont">
                                                 <div class="user-input">
@@ -1114,7 +1114,7 @@
                   </div>
                </div>
                <div class="form-box-outer right-box bg-voilet">
-                  <form id="contact-form-section" action="https://www.pixelcrayons.com/p2wp/sendmail1.php" class="contact-form-box" enctype="multipart/form-data" method="POST" name="footerform" onsubmit="fvcCmnFormValidation(); return false;">
+                  <form id="contact-form-section" action="https://www.pixelcrayons.com/staging/sendmail1.php" class="contact-form-box" enctype="multipart/form-data" method="POST" name="footerform" onsubmit="fvcCmnFormValidation(); return false;">
                      <div class="form-inner dis-flex">
                         <div class="form-text-cont">
                            <div class="user-input">
@@ -1201,7 +1201,7 @@
                            <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                            <input type="hidden" name="Uploadedfilename" id="fUploadedfilename" value="">
                            <input type="hidden" name="frmqueryString" value="">
-                           <input type="hidden" name="page_url" value="https://www.pixelcrayons.com/p2wp/">
+                           <input type="hidden" name="page_url" value="https://www.pixelcrayons.com/staging/">
                            <input type="hidden" name="formname" value="footer-form">
                            <!--
                               <input type="hidden" name="vc_csrf" value="">

@@ -57,7 +57,7 @@
                       <div class="banner-form-section">
                         <div class="form-content-box">
                           <div class="banner-form-outer">
-                            <form id="hireform" action="https://www.pixelcrayons.com/p2wp/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
+                            <form id="hireform" action="https://www.pixelcrayons.com/staging/sendmail1.php" name="hireform" enctype="multipart/form-data" method="post" class="request-quote-form" onsubmit="vcCmnFormValidation(); return false;">
                               <div class="form-inner dis-flex">
                                 <div class="form-head-cont">
                                   <div class="user-input">

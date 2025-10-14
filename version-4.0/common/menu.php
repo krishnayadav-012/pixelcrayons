@@ -15,9 +15,9 @@
       }
       return $is_mobile;
   }
-  $is_staging = ( isset( $_SERVER['PHP_SELF'] ) && (strpos( $_SERVER['PHP_SELF'], 'p2wp' ) !== false) )  ?  true : false;
+  $is_staging = ( isset( $_SERVER['PHP_SELF'] ) && (strpos( $_SERVER['PHP_SELF'], 'staging' ) !== false) )  ?  true : false;
   if( $is_staging ){
-  $site_url   = 'https://www.pixelcrayons.com/p2wp/';
+  $site_url   = 'https://www.pixelcrayons.com/staging/';
   }else{
   $site_url   = 'https://www.pixelcrayons.com/';
   }

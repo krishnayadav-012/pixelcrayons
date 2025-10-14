@@ -17,7 +17,7 @@
   }
   $is_staging = ( isset( $_SERVER['PHP_SELF'] ) && (strpos( $_SERVER['PHP_SELF'], 'v2wp' ) !== false) )  ?  true : false;
   if( $is_staging ){
-  $site_url   = 'https://pixelcrayons.com/p2wp/';
+  $site_url   = 'https://pixelcrayons.com/staging/';
   }else{
   $site_url   = 'http://pixelcrayons.com/';
   }  

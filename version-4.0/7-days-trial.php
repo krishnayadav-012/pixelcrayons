@@ -353,7 +353,7 @@
             </div>
           </div>
           <div class="form-box-outer right-box bg-voilet">
-            <form id="contact-form-section" action="https://www.pixelcrayons.com/p2wp/sendmail1.php" class="contact-form-box" enctype="multipart/form-data" method="POST" name="footerform" onsubmit="fvcCmnFormValidation(); return false;">
+            <form id="contact-form-section" action="https://www.pixelcrayons.com/staging/sendmail1.php" class="contact-form-box" enctype="multipart/form-data" method="POST" name="footerform" onsubmit="fvcCmnFormValidation(); return false;">
               <div class="form-inner dis-flex">
                 <div class="form-text-cont">
                   <div class="user-input">
@@ -440,7 +440,7 @@
                   <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                   <input type="hidden" name="Uploadedfilename" id="fUploadedfilename" value="">
                   <input type="hidden" name="frmqueryString" value="">
-                  <input type="hidden" name="page_url" value="https://www.pixelcrayons.com/p2wp/">
+                  <input type="hidden" name="page_url" value="https://www.pixelcrayons.com/staging/">
                   <input type="hidden" name="formname" value="footer-form">
                   <!--
                     <input type="hidden" name="vc_csrf" value="">
