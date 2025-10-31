@@ -8,7 +8,7 @@
   }
 
   .tabs-container {
-    flex-basis: 45%;
+    flex-basis: 50%;
 
     .tabs {
       list-style: none;
@@ -18,11 +18,11 @@
       background: #fff;
       box-shadow: 20px 30px 50px 0px #0000000d;
       border: 1px solid #dbdbdb;
-      max-width: 500px;
+      max-width: 630px;
       justify-content: space-between;
       padding: 15px;
       border-radius: 10px;
-      gap: 20px;
+      gap: 15px;
 
       .tab {
         border: none;
@@ -48,7 +48,7 @@
 
         &.active,
         &:hover {
-          background: $gradient;
+          background: $royelblue;
           color: $white;
           .hover {
             display: inline-block;
@@ -61,7 +61,7 @@
     }
 
     .tab-content {
-      margin:60px 0 0;
+      margin: 60px 0 0;
       .content {
         display: none;
 
@@ -183,17 +183,23 @@
           }
           .content-div {
             flex-basis: 50%;
-            h3{
-              a{color:$darkblack;
-              &:hover{text-decoration: underline;}
+            h3 {
+              a {
+                color: $darkblack;
+                &:hover {
+                  text-decoration: underline;
+                }
               }
             }
             ul {
               margin: 20px 0 0;
               li {
                 flex-basis: 100%;
-                a{color:$arsenic-light;
-                  &:hover{text-decoration: underline;}
+                a {
+                  color: $arsenic-light;
+                  &:hover {
+                    text-decoration: underline;
+                  }
                 }
                 &:last-child {
                   margin: 0;
@@ -207,9 +213,13 @@
   }
 
   &.technologies-tabs {
-    background: linear-gradient(90deg, #05164d 0%, #0c33b3 100%); position: relative;
+    background: linear-gradient(90deg, #05164d 0%, #0c33b3 100%);
+    position: relative;
 
-    .container{position: relative; z-index: 9;}
+    .container {
+      position: relative;
+      z-index: 9;
+    }
 
     .top-section {
       text-align: left;
@@ -329,27 +339,40 @@
       }
     }
 
-    &:after{content:'';
+    &:after {
+      content: "";
       background: url(../images/home-images/tech-bg.png) no-repeat center;
       width: 100%;
       position: absolute;
       height: 100%;
       top: 0;
       left: 0;
-      right:0;
-      margin:0 auto;
-     
-     }
+      right: 0;
+      margin: 0 auto;
+    }
   }
 
-  &.kpi-tabs{
+  &.kpi-tabs {
     .tabs-container {
-      .tabs{max-width: 80%; margin: 0 auto; background: #fff; box-shadow: 20px 30px 50px 0px #0000000d; border: 1px solid #dbdbdb;     padding: 15px; border-radius: 10px;
-      .tab{margin:0;
-        &.active, &:hover{    background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
-          color: #fff;}
-      &:after{display:none;}
-      }
+      .tabs {
+        max-width: 80%;
+        margin: 0 auto;
+        background: #fff;
+        box-shadow: 20px 30px 50px 0px #0000000d;
+        border: 1px solid #dbdbdb;
+        padding: 15px;
+        border-radius: 10px;
+        .tab {
+          margin: 0;
+          &.active,
+          &:hover {
+            background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+            color: #fff;
+          }
+          &:after {
+            display: none;
+          }
+        }
       }
     }
   }
@@ -362,19 +385,17 @@
 
 @media (max-width: 1380px) {
   .tabs-section {
-   
-    &.techno-tabs  {
-  
-      .tabs-container{
-        .tabs {gap: 10px;
-         .tab{font-size: 16px;}
+    &.techno-tabs {
+      .tabs-container {
+        .tabs {
+          gap: 10px;
+          .tab {
+            font-size: 16px;
+          }
         }
       }
-  
-      
     }
   }
-
 }
 
 @media (max-width: 1320px) {
@@ -383,17 +404,18 @@
       flex-basis: 50%;
     }
     &.technologies-tabs {
-  
       .tab-content {
         .content-div {
-          .cont-col {flex-basis:48%;
+          .cont-col {
+            flex-basis: 48%;
             min-height: 60px;
           }
         }
       }
-  
-      &:after{display:none;
-       }
+
+      &:after {
+        display: none;
+      }
     }
   }
 }
@@ -423,30 +445,40 @@
     }
 
     &.technologies-tabs {
-      .tabs-container{
-        .tabs{padding: 20px;
-        .tab{padding: 14px; font-size: 15px;
-        &.active{
-          &.after{top: 21px;
-            right: 15px;}
-        }
-        }
+      .tabs-container {
+        .tabs {
+          padding: 20px;
+          .tab {
+            padding: 14px;
+            font-size: 15px;
+            &.active {
+              &.after {
+                top: 21px;
+                right: 15px;
+              }
+            }
+          }
         }
       }
-      .tab-content {padding: 20px;
+      .tab-content {
+        padding: 20px;
         .content-div {
-          .cont-col {flex-basis: 100%;
+          .cont-col {
+            flex-basis: 100%;
             min-height: 60px;
           }
         }
       }
-  
-      &:after{display:none;
-       }
+
+      &:after {
+        display: none;
+      }
     }
-    &.kpi-tabs{
-      .tabs-container{
-        .tabs{max-width: 100%;}
+    &.kpi-tabs {
+      .tabs-container {
+        .tabs {
+          max-width: 100%;
+        }
       }
     }
   }
@@ -561,23 +593,28 @@
 
     &.technologies-tabs {
       position: relative;
-      .top-section{text-align: center;}
+      .top-section {
+        text-align: center;
+      }
       .tabs-container {
         border-radius: 15px;
         .tabs {
           padding: 20px;
           border-radius: 15px 15px 0 0;
-          width:100%;
+          width: 100%;
           .tab {
             padding: 12px;
-            &.active{
-              &:after{top: 20px;}
+            &.active {
+              &:after {
+                top: 20px;
+              }
             }
           }
         }
       }
-  
-      .tab-content {width:100%;
+
+      .tab-content {
+        width: 100%;
         padding: 30px;
         border-radius: 0 0 15px 15px;
         margin: 0;
@@ -586,22 +623,28 @@
           display: flex;
           flex-wrap: wrap;
           gap: 10px;
-          .cont-col {flex-basis: 100%;
+          .cont-col {
+            flex-basis: 100%;
             min-height: 60px;
           }
         }
       }
-  
-      &:after{display:none;
-       }
+
+      &:after {
+        display: none;
+      }
     }
 
-    &.kpi-tabs{
-      .tabs-container{
-        .tabs{max-width: 100%;}
+    &.kpi-tabs {
+      .tabs-container {
+        .tabs {
+          max-width: 100%;
+        }
         .tab-content {
           .content {
-            .img-div{margin: 30px 0 0;}
+            .img-div {
+              margin: 30px 0 0;
+            }
           }
         }
       }

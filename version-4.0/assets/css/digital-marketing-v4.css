@@ -2960,7 +2960,7 @@ input:-webkit-autofill:active {
     justify-content: space-between;
     align-items: center; }
   .tabs-section .tabs-container {
-    flex-basis: 45%; }
+    flex-basis: 50%; }
     .tabs-section .tabs-container .tabs {
       list-style: none;
       padding: 0;
@@ -2969,11 +2969,11 @@ input:-webkit-autofill:active {
       background: #fff;
       box-shadow: 20px 30px 50px 0px #0000000d;
       border: 1px solid #dbdbdb;
-      max-width: 500px;
+      max-width: 630px;
       justify-content: space-between;
       padding: 15px;
       border-radius: 10px;
-      gap: 20px; }
+      gap: 15px; }
       .tabs-section .tabs-container .tabs .tab {
         border: none;
         padding: 10px;
@@ -2992,7 +2992,7 @@ input:-webkit-autofill:active {
         .tabs-section .tabs-container .tabs .tab .hover {
           display: none; }
         .tabs-section .tabs-container .tabs .tab.active, .tabs-section .tabs-container .tabs .tab:hover {
-          background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
+          background: #0400F5;
           color: #ffffff; }
           .tabs-section .tabs-container .tabs .tab.active .hover, .tabs-section .tabs-container .tabs .tab:hover .hover {
             display: inline-block; }
@@ -3192,7 +3192,7 @@ input:-webkit-autofill:active {
               border-color: #016be3;
               background: #fff; }
     .tabs-section.technologies-tabs:after {
-      content: '';
+      content: "";
       background: url(../images/home-images/tech-bg.png) no-repeat center;
       width: 100%;
       position: absolute;

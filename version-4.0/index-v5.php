@@ -224,7 +224,61 @@
         </div>
       </div>
     </section>
-    <section class="growth-partner padding-t-120 padding-b-120">
+    <section class="tabs-section tab-with-bluebg padding-t-120 padding-b-120" id="tabs-section-1">
+      <div class="container">
+        <div class="tab-flex">
+          <div class="tabs-container">
+            <div class="top-section text-left">
+              <h2>What We Do</h2>
+            </div>
+            <ul class="tabs">
+              <li class="tab active" data-target="marketing"><img src="assets/images/home-images/tabicon01.svg" class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Marketing</li>
+              <li class="tab" data-target="engineer"><img src="assets/images/home-images/tabicon01.svg" class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Engineering</li>
+              <li class="tab" data-target="analytics"><img src="assets/images/home-images/tabicon01.svg" class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Analytics</li>
+              <li class="tab" data-target="design"><img src="assets/images/home-images/tabicon01.svg" class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Design</li>
+            </ul>
+            <div class="tab-content">
+              <div class="content active" id="marketing">
+                <h3>Marketing</h3>
+                <p>We help your clients grow faster with done-for-you execution that converts.</p>
+                <ul>
+                  <li>Paid media (Meta, Google, LinkedIn)</li>
+                  <li>Funnel and CRO optimization</li>
+                  <li>Email and automation workflows</li>
+                </ul>
+                <div class="btn-container">
+                  <a href="#" class="cta-button yellow">
+                  CONTACT US
+                  </a>
+                </div>
+              </div>
+              <div class="content" id="engineer">
+                <h3>Engineering</h3>
+                <p>We deliver enterprise-grade solutions to enhance operational efficiency and drive business growth.</p>
+                <a href="#" class="is-arrow">Explore to Get the details</a>
+              </div>
+              <div class="content" id="analytics">
+                <h3>Analytics</h3>
+                <p>We provide agencies with flexible hiring models and specialized software development services.</p>
+                <a href="#" class="is-arrow">Explore to Get the details</a>
+              </div>
+              <div class="content" id="design">
+                <h3>Design</h3>
+                <p>We provide agencies with flexible hiring models and specialized software development services.</p>
+                <a href="#" class="is-arrow">Explore to Get the details</a>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="assets/images/home-images/tab-image01.png" alt="Marketing" class="tab-image active" id="img-marketing">
+            <img src="assets/images/home-images/tab-02.png" alt="Engineer" class="tab-image" id="img-engineer">
+            <img src="assets/images/home-images/tab-01.png" alt="Analytics" class="tab-image" id="img-analytics">
+            <img src="assets/images/home-images/tab-02.png" alt="Design" class="tab-image" id="img-design">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--<section class="growth-partner padding-t-120 padding-b-120">
       <div class="container">
         <div class="growth-wrap dis-flex justify-sb">
           <div class="text-content">
@@ -275,7 +329,7 @@
           </div>
         </div>
       </div>
-    </section>
+      </section>-->
     <section class="three-column-section  padding-t-120 padding-b-120">
       <div class="container">
         <div class="top-section">
@@ -362,60 +416,60 @@
     </section>
     <section class="white-label-sc bg-blue padding-t-120 padding-b-150">
       <div class="container">
+        <div class="top-section text-center">
+          <h2>White-label Solutions You Can Count On</h2>
+          <p>We deliver 100% white-label services - our team plugs into your pods, works under your brand (NDA-backed), and scales capacity without new hires.</p>
+        </div>
         <div class="white-label__content">
           <div class="white-label__image">
             <picture>
-              <source type="image/webp" srcset="assets/images/home-images/white-label.png">
-              <source type="image/png" srcset="assets/images/home-images/white-label.png">
-              <img loading="lazy" src="assets/images/home-images/white-label.png" alt="pc"
+              <source type="image/webp" srcset="assets/images/home-images/white-lab.png">
+              <source type="image/png" srcset="assets/images/home-images/white-lab.png">
+              <img loading="lazy" src="assets/images/home-images/white-lab.png" alt="pc"
                 width="650" height="670">
             </picture>
           </div>
-          <div class="top-section text-center">
-            <h2>White-label Solutions You Can Count On</h2>
-            <p>We deliver 100% white-label services - our team plugs into your pods, works under your brand (NDA-backed), and scales capacity without new hires.</p>
-          </div>
-        </div>
-        <div class="white-label__grid">
-          <div class="persona-card">
-            <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-            </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
-          </div>
-          <div class="persona-card">
-            <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-            </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
-          </div>
-          <div class="persona-card">
-            <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-            </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
-          </div>
-          <div class="persona-card">
-            <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
-                width="44" height="44">
-            </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
+          <div class="white-label__grid">
+            <div class="persona-card">
+              <picture>
+                <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+                <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+              </picture>
+              <h3>Delivery under your brand, NDA</h3>
+              <a href="#" class="is-arrow">Learn More</a>
+            </div>
+            <div class="persona-card">
+              <picture>
+                <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+                <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+              </picture>
+              <h3>Embedded pods, tool-chain compatible</h3>
+              <a href="#" class="is-arrow">Learn More</a>
+            </div>
+            <div class="persona-card">
+              <picture>
+                <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+                <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+              </picture>
+              <h3>Delivery under your brand, NDA</h3>
+              <a href="#" class="is-arrow">Learn More</a>
+            </div>
+            <div class="persona-card">
+              <picture>
+                <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+                <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc"
+                  width="44" height="44">
+              </picture>
+              <h3>Delivery under your brand, NDA</h3>
+              <a href="#" class="is-arrow">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -627,6 +681,132 @@
                 </picture>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tabs-section techno-tabs padding-t-120 padding-b-120" id="tabs-section-2">
+      <div class="container">
+        <div class="top-section">
+          <h2>Improve and Innovate with the Tech Trends</h2>
+          <p>Our team can assist you in transforming your business with the latest tech capabilities to stay ahead of the curve.</p>
+        </div>
+        <div class="tab-flex">
+          <div class="tabs-container">
+            <ul class="tabs">
+              <li class="tab active" data-target="ai"><img src="assets/images/home-images/tech-icon.svg">Artificial Intelligence</li>
+              <li class="tab" data-target="blockc"><img src="assets/images/home-images/tech-icon.svg">Blockchain</li>
+              <li class="tab" data-target="cvision"><img src="assets/images/home-images/tech-icon.svg">Computer Vision</li>
+              <li class="tab" data-target="iot"><img src="assets/images/home-images/tech-icon.svg">Internet of Things</li>
+              <li class="tab" data-target="mixedr"><img src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
+            </ul>
+            <div class="tab-content">
+              <div class="content active" id="ai">
+                <div class="dis-flex">
+                  <div class="flex-2 img-div">
+                    <picture>
+                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
+                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
+                    </picture>
+                  </div>
+                  <div class="flex-2 content-div">
+                    <h3>Design Services</h3>
+                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
+                    <ul>
+                      <li>MVP & SaaS Development</li>
+                      <li>CTO as a Service </li>
+                      <li>Data Analytics & DevOps</li>
+                      <li>Technology Consulting</li>
+                    </ul>
+                    <a href="#" class="is-arrow">Find Out More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="blockc">
+                <div class="dis-flex">
+                  <div class="flex-2 img-div">
+                    <picture>
+                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
+                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
+                    </picture>
+                  </div>
+                  <div class="flex-2 content-div">
+                    <h3>Blockchain</h3>
+                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
+                    <ul>
+                      <li>MVP & SaaS Development</li>
+                      <li>CTO as a Service </li>
+                      <li>Data Analytics & DevOps</li>
+                      <li>Technology Consulting</li>
+                    </ul>
+                    <a href="#" class="is-arrow">Find Out More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="cvision">
+                <div class="dis-flex">
+                  <div class="flex-2 img-div">
+                    <picture>
+                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
+                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
+                    </picture>
+                  </div>
+                  <div class="flex-2 content-div">
+                    <h3>Computer Vision</h3>
+                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
+                    <ul>
+                      <li>MVP & SaaS Development</li>
+                      <li>CTO as a Service </li>
+                      <li>Data Analytics & DevOps</li>
+                      <li>Technology Consulting</li>
+                    </ul>
+                    <a href="#" class="is-arrow">Find Out More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="iot">
+                <div class="dis-flex">
+                  <div class="flex-2 img-div">
+                    <picture>
+                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
+                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
+                    </picture>
+                  </div>
+                  <div class="flex-2 content-div">
+                    <h3>Internet of Things</h3>
+                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
+                    <ul>
+                      <li>MVP & SaaS Development</li>
+                      <li>CTO as a Service </li>
+                      <li>Data Analytics & DevOps</li>
+                      <li>Technology Consulting</li>
+                    </ul>
+                    <a href="#" class="is-arrow">Find Out More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="mixedr">
+                <div class="dis-flex">
+                  <div class="flex-2 img-div">
+                    <picture>
+                      <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
+                      <img loading="lazy" src="assets/images/home-images/technology-01.png"width="484" height="282">
+                    </picture>
+                  </div>
+                  <div class="flex-2 content-div">
+                    <h3>Mixed Reality</h3>
+                    <p>Our design team creates user-centric experiences that captivate audiences.</p>
+                    <ul>
+                      <li>MVP & SaaS Development</li>
+                      <li>CTO as a Service </li>
+                      <li>Data Analytics & DevOps</li>
+                      <li>Technology Consulting</li>
+                    </ul>
+                    <a href="#" class="is-arrow">Find Out More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1026,9 +1206,6 @@
     <?php require_once 'assets/include/blog-footer.php'; ?>
     <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264" id="pixel-glider-js"></script>
     <script>
-     
-      
-      
       if (document.getElementById("industries-glider")) {
       window.addEventListener("load", function () {
       var gliderElement = document.querySelector(".industries-slider .glider");
@@ -1209,6 +1386,6 @@
            
           
     </script>
-  <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519" id="pixel-script-js"></script>
+    <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519" id="pixel-script-js"></script>
   </body>
 </html>

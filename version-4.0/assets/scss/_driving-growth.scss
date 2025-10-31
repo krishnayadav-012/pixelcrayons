@@ -116,7 +116,10 @@
             font-size: 12px;
             font-weight: bold;
             line-height: 1;
-            &:hover{background:$shine-green; color:$royelblue;}
+            &:hover {
+              background: $shine-green;
+              color: $royelblue;
+            }
           }
         }
 
@@ -361,7 +364,7 @@
 
       .driving-card {
         flex-basis: 100%;
-        min-height: 300px;
+        min-height: 345px;
         .flip-card-inner {
           p {
             font-size: 16px;
