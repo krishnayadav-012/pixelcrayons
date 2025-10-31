@@ -1,13 +1,13 @@
 .driving-growth {
   background: #f2f8ff;
   .driving-row {
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 
     .driving-card {
-      flex-basis: 30%;
+      flex-basis: calc(24% - 10px);
       min-height: 400px;
       perspective: 1000px;
       position: relative;
@@ -252,6 +252,18 @@
           }
         }
       }
+       &:nth-child(4) {
+        .flip-card-inner {
+          .flip-card-front {
+            background: $white;
+          }
+        }
+        h4 {
+          strong {
+            color: #f4b718;
+          }
+        }
+      }
     }
   }
   &.bg-blue {
@@ -311,9 +323,10 @@
 @media (max-width: 1280px) {
   .driving-growth {
     .driving-row {
-      width: 90%;
+      width: 100%;
     }
   }
+  .driving-growth .driving-row .driving-card .flip-card-front, .driving-growth .driving-row .driving-card .flip-card-back{padding:15px;}
 }
 
 @media (max-width: 1024px) {

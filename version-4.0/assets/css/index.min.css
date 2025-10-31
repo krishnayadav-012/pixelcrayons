@@ -467,7 +467,7 @@ input:-webkit-autofill:active {
       margin-left: 15px; }
 
 .top-section {
-  padding: 0 0 100px;
+  padding: 0 0 80px;
   text-align: center; }
   .top-section h6 {
     color: #0400F5;
@@ -2240,7 +2240,7 @@ input:-webkit-autofill:active {
               border-color: #016be3;
               background: #fff; }
     .tabs-section.technologies-tabs:after {
-      content: '';
+      content: "";
       background: url(../images/home-images/tech-bg.png) no-repeat center;
       width: 100%;
       position: absolute;

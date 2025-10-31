@@ -192,6 +192,43 @@
               </div>
             </div>
           </div>
+          <div class="driving-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div>
+                  <picture class="card-img">
+                    <source type="image/webp" srcset="assets/images/home-images/drive-02.png">
+                    <source type="image/png" srcset="assets/images/home-images/drive-02.png">
+                    <img loading="lazy" src="assets/images/home-images/drive-02.png"
+                      alt="Workstatus" width="44" height="44">
+                  </picture>
+                  <h3>B2C eCommerce</h3>
+                  <p>Launch Faster With Unified Development, CRO, and Campaigns
+                  </p>
+                </div>
+                <div class="card-bottom">
+                  <a class="drive-btn">See tailored plan</a>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <picture class="card-img">
+                  <source type="image/webp" srcset="assets/images/home-images/drive-02.png">
+                  <source type="image/png" srcset="assets/images/home-images/drive-02.png">
+                  <img loading="lazy" src="assets/images/home-images/drive-02.png"
+                    alt="Workstatus" width="44" height="44">
+                </picture>
+                <h3>B2C eCommerce</h3>
+                <ul>
+                  <li>Stop vendor ping‑pong and launch faster
+                  </li>
+                  <li>Fix speed, CRO, and campaigns without handoffs</li>
+                </ul>
+                <div class="card-bottom">
+                  <a class="drive-btn">See tailored plan</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="reviews">
           <div class="review-card">
