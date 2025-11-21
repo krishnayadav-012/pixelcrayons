@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$royelblue".\a         on line 12 of C:xampphtdocspixelcrayonsversion-4.0\assetsscssúq.scss\a\a 7:       border: 1px solid #e4e4e4;\a 8:       border-radius: 5px;\a 9:       margin: 0 0 20px;\a 10:       padding: 0 20px;\a 11:       &.active {\a 12:         border-bottom: 2px solid $royelblue;\a 13:         .faq-accordion-content {\a 14:           display: block;\a 15:         }\a 16: \a 17:         .open-icon {';
+}
+
+/*# sourceMappingURL=faq.min.css.map */

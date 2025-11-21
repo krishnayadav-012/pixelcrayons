@@ -1,23 +1,24 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-logo";
-@import "_glide-core";
-@import "_service-table";
-@import "_get-started";
-@import "_develop-section";
-@import "_client-section";
-@import "_counter-column-section";
-@import "_development-phase";
-@import "_tech-stack";
-@import "_industry-section";
-@import "hiring-model";
-@import "guide-topic";
-@import "_case-studies";
-@import "faq";
-@import "testimonial";
-@import "video-with-banner";
-@import "footer";
-@import "cta-v3";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-logo" as *;
+@use "_glide-core" as *;
+@use "_service-table" as *;
+@use "_get-started" as *;
+@use "_develop-section" as *;
+@use "_client-section" as *;
+@use "_counter-column-section" as *;
+@use "_development-phase" as *;
+@use "_tech-stack" as *;
+@use "_industry-section" as *;
+@use "hiring-model" as *;
+@use "guide-topic" as *;
+@use "_case-studies" as *;
+@use "faq" as *;
+@use "testimonial" as *;
+@use "video-with-banner" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
 
 
 .slide-logo{padding-bottom:0;}

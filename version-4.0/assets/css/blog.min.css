@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$white".\a         on line 2 of C:xampphtdocspixelcrayonsversion-4.0\assetsscss\blog.scss\a\a 1: .our-blog .blog-card {\a 2:   background: $white;\a 3:   border: 1px solid #efefef;\a 4:   border-radius: 5px;\a 5:   margin: 0 10px;\a 6:   height: 100%;\a 7:   transition: all 0.3s ease-in-out;';
+}
+
+/*# sourceMappingURL=blog.min.css.map */

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$contentDay".\a         on line 6 of C:xampphtdocspixelcrayonsversion-4.0\assetsscssºnner-video.scss\a\a 1: .hire-main {\a 2:     .videobox {\a 3:       width: 36%;\a 4:       iframe {\a 5:         vertical-align: bottom;\a 6:         background-color: $contentDay;\a 7:         width: 100%;\a 8:         border: 0;\a 9:       }\a 10:      \a 11:       .client-videos {';
+}
+
+/*# sourceMappingURL=banner-video.min.css.map */

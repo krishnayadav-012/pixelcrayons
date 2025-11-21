@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$white".\a         on line 30 of C:xampphtdocspixelcrayonsversion-4.0\assetsscssvideo-with-banner.scss\a\a 25:     font-weight: 400;\a 26:     margin: 0 0 15px;\a 27:     a {\a 28:       color: rgba(255, 255, 255, 0.5);\a 29:       &:hover {\a 30:         color: $white;\a 31:       }\a 32:     }\a 33:   }\a 34: \a 35:   .badges {';
+}
+
+/*# sourceMappingURL=video-with-banner.min.css.map */

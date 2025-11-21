@@ -1,0 +1,750 @@
+.our-process {
+    .process-img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-top: 20px;
+    }
+  
+    .card {
+      padding: 80px 30px 0 30px;
+  
+      p {
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        font-weight: 600;
+        padding: 6px 0;
+        opacity: 0.9;
+      }
+    }
+  
+    .process-card {
+      margin-top: 110px;
+      padding-top: 30px;
+  
+      .card-single {
+        width: 35%;
+        margin: auto;
+        padding: 0 30px;
+  
+        h3 {
+          margin-bottom: 10px;
+        }
+  
+        p {
+          // font-size: 16px;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+//   ----que-ans
+
+.ques-ans-section {
+    .flex-2 {
+        margin-top: 60px;
+        &:nth-child(2n-1) {
+            padding-right: 70px;
+        }
+        &:nth-child(2n) {
+            padding-left: 70px;
+        }
+    }
+    h3 {
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0 40px 0 30px;
+        position: relative;
+        &::before {
+            content: "";
+            clear: both;
+            display: block;
+            background: #016BE3;
+            height: 4px;
+            width: 20px;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            top: 12px;
+        }
+    }
+    .content-box {
+        // padding-top: 5px;
+        padding-left: 30px;
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+            line-height: 29px;
+        }
+
+        ul,ol {
+            padding-left: 20px;
+            li {
+                margin: 6px 0;
+            }
+        }
+    }
+    .no-list-type {
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    }
+}
+
+// ------vetting-process
+  .process-timeline-section {
+    .vetting-process {
+        p {
+            margin-top: 20px;
+        }
+    }
+    .timeline {
+        position: relative;
+        margin-top: 110px;
+        ul {
+            list-style: none;
+            li {
+                position: relative;
+                width: 50%;
+                &:nth-child(even) {
+                    text-align: right;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50%;
+                        right: -54px;
+                        top: 50%;
+                        transform: translate(0%, -50%);
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        height: 20px;
+                        width: 80px;
+                        right: 70px;
+                        top: 50%;
+                        transform: translate(0%, -50%);
+                        background-image: url("../images/company/vetting-process-dot-img.png");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+
+                    }
+                    &:nth-child(2) {
+                        &::before {
+                            background-image: url(../images/company/vetting-process-img2.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                    &:nth-child(4) {
+                        &::before {
+                            background-image: url(../images/company/vetting-process-img4.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                }
+                &:nth-child(odd) {
+                    text-align: left;
+                    margin-left: auto;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50%;
+                        left: -47px;
+                        top: 50%;
+                        transform: translate(0%, -50%);
+
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        height: 20px;
+                        width: 80px;
+                        left: 80px;
+                        top: 50%;
+                        transform: translate(0%, -50%);
+                        background-image: url(../images/company/vetting-process-dot-img.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+
+                    }
+                    &:nth-child(1) {
+                        &::before {
+                            background-image: url(../images/company/vetting-process-img1.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                    &:nth-child(3) {
+                        &::before {
+                            background-image: url(../images/company/vetting-process-img3.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+                    &:nth-child(5) {
+                        &::before {
+                            background-image: url(../images/company/vetting-process-img5.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                    }
+                }
+                &:nth-child(even) {
+                    .content {
+                        margin-right: 174px;
+                        text-align: left;
+                    }
+                }
+                &:nth-child(odd) {
+                    .content {
+                        margin-left: 184px;
+                    }
+                }
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            height: 75%;
+            width: 0;
+            border-left: 0.4px dashed #016BE3;
+            left: 50%;
+            top: 15%;
+            transform: translateX(-50%);
+        }
+        .content {
+            padding: 50px 0px;
+            h3 {
+                font-size: 24px;
+                line-height: 33px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 32px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+// -------how are we different
+
+.how-are-we-different-section {
+    .dotsdull {
+        border: 1px solid #016BE3;
+        border-radius: 10px;
+    }
+    .bluebgs {
+        background: #016BE3;
+        border-radius: 10px;
+        padding: 18px 89px;
+        align-items: center;
+        .leftblue {
+            h3 {
+                color: $white;
+            }
+            h4 {
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 64px;
+                color: #FFFFFF;
+            }
+        }
+        .vresus {
+            background: #78B7FF;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            text-align: center;
+            border: 2.24px solid #FFFFFF;
+            margin-left: -39px;
+            p {
+                padding: 16px 13px;
+                font-size: 31.14px;
+                line-height: 38px;
+                color: $darkYellow;
+                font-weight: bold;
+            }
+        }
+    }
+    .bluebottom {
+        .leftbluebottom {
+            padding: 20px 141px 60px 65px;
+            position: relative;
+            .mobileonly {
+                display: none;
+            }
+            &:first-child {
+                &::after {
+                    content: "";
+                    border-left: 1px solid #016BE3;
+                    position: absolute;
+                    width: 1px;
+                    height: 89%;
+                    right: 4px;
+                    top: 11%;
+                }
+            }
+            ul {
+                list-style: none;
+            }
+        }
+    }
+    .tick-icon-list {
+        li {
+            position: relative;
+            list-style-type: none;
+            padding-left: 30px;
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 28px;
+            opacity: 0.9;
+            &::before{
+                content: "";
+                clear: both;
+                display: block;
+                background: url(../images/company/tick-list-icon.png)  no-repeat;
+                width: 18px;
+                height: 18px;
+                position: absolute;
+                top: 7px;
+                left: 0;
+                border-radius: 50px;
+            }
+        }
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .process-timeline-section {
+        .timeline {
+            margin-top: 70px;
+            .content {
+                p {
+                    line-height: 28px;
+                    margin-top: 10px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+    .how-are-we-different-section {
+        .tick-icon-list {
+            li {
+                margin-top: 20px;
+            }
+        }
+        .bluebottom {
+            .leftbluebottom {
+                padding: 20px 5% 40px;
+            }
+        }
+    }
+
+    .ques-ans-section {
+        .flex-2 {
+            margin-top: 40px;
+            &:nth-child(2n-1) {
+                padding-right: 50px;
+            }
+            &:nth-child(2n) {
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .process-timeline-section {
+        .timeline {
+            .content {
+                p {
+                    line-height: 24px;
+                    margin-top: 10px;
+                    font-size: 16px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+    .how-are-we-different-section {
+        .dotsdull {
+            .vresus {
+                h4 {
+                    margin: 17px 0 10px;
+                }
+            }
+            .bluebgs {
+                padding: 14px 78px;
+                .vresus {
+                    width: 66px;
+                    height: 66px;
+                }
+                .leftblue {
+                    h4 {
+                        font-size: 23px;
+                        line-height: 30px;
+                    }
+                }
+            }
+            li {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .ques-ans-section {
+        .flex-2 {
+            margin-top: 40px;
+            &:nth-child(2n-1) {
+                padding-right: 30px;
+            }
+            &:nth-child(2n) {
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .process-timeline-section {
+        .timeline {
+            &::before {
+                left: 120px;
+            }
+            ul {
+                li {
+                    width: 100%;
+                    text-align: left;
+                    &:nth-child(odd),
+                    &:nth-child(even) {
+                        text-align: left;
+                        margin-left: 0;
+                        &::before {
+                            height: 89px;
+                            width: 89px;
+                            left: 76px;
+                        }
+                        &::after {
+                            height: 14px;
+                            width: 55px;
+                            left: 186px;
+                        }
+                        .content {
+                            margin-left: 291px;
+                            padding: 32px 0px;
+                            margin-right: 0px;
+                            h3 {
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                            p {
+                                font-size: 16px;
+                                line-height: 24px;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .how-are-we-different-section {
+        .dotsdull {
+            li {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .our-process {
+        .process-img {
+          margin-top: 0 !important;
+          width: 80%;
+          margin: auto;
+        }
+    
+        .process-card {
+          margin-top: 70px;
+          padding-top: 20px;
+        }
+    
+        .card {
+          padding: 45px 30px 0 30px;
+        }
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .our-process {
+        counter-reset: step;
+    
+        .process-img {
+          display: none;
+        }
+    
+        .card {
+          flex-basis: 100%;
+          background: #fff;
+          margin-bottom: 14px;
+          padding: 80px 30px 30px 30px;
+          position: relative;
+    
+          p {
+            background: transparent;
+          }
+    
+          &::before {
+            counter-increment: step;
+            content: "" counter(step);
+            position: absolute;
+            top: 25px;
+            color: #016be3;
+            left: 0;
+            right: 0;
+            border: 1px solid #016be3;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+          }
+        }
+    
+        .process-card {
+          margin-top: 40px;
+    
+          .card-single {
+            width: 100%;
+          }
+        }
+
+
+    }
+
+    .process-timeline-section {
+        .timeline {
+            &::before {
+                left: 70px;
+            }
+            ul {
+                li {
+                    width: 100%;
+                    text-align: left;
+                    &:nth-child(odd),
+                    &:nth-child(even) {
+                        text-align: left;
+                        margin-left: 0;
+                        &::before {
+                            height: 89px;
+                            width: 89px;
+                            left: 27px;
+                        }
+                        &::after {
+                            left: 127px;
+                        }
+                        .content {
+                            margin-left: 221px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .how-are-we-different-section {
+        .bluebottom {
+            .leftbluebottom {
+                padding: 0;
+                &:first-child::after {
+                    border-left: 0;
+                }        
+                .mobileonly {
+                    display: block;
+                }
+                ul {
+                    padding: 10px 20px 40px;
+                }
+                &.flex-2{
+                    flex-basis: 100%;
+                }
+            }
+        }
+        .dotsdull {
+            li {
+                font-size: 14px;
+                line-height: 22px;
+            }
+            .bluebgs {
+                padding: 15px 29px;
+                margin-bottom: 27px;
+            }
+            .desktoponly {
+                display: none;
+            }
+            .vresus {
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+        .mobile {
+            background: #78B7FF;
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            text-align: center;
+            border: 2.24px solid #fff;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h4 {
+                margin: 0;
+                font-weight: 600;
+                font-size: 22px;
+                color: #fff;
+            }
+        }
+    }
+
+    .ques-ans-section {
+        .flex-2 {
+            &:first-child {
+                margin-top: 0;
+            }
+            margin-top: 30px;
+            &:nth-child(2n-1) {
+                padding-right: 0;
+            }
+            &:nth-child(2n) {
+                padding-left: 0;
+            }
+        }
+        .content-box {
+            p {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .process-timeline-section {
+        .vetting-process {
+            p {
+                margin-top: 15px;
+            }
+        }
+        .timeline {
+            margin-top: 40px;
+            &::before {
+                left: 30px;
+                top: 110px;
+                height: calc(90% - 110px);
+            }
+            ul {
+                li {
+                    width: 100%;
+                    text-align: left;
+                    &:nth-child(odd),
+                    &:nth-child(even) {
+                        text-align: left;
+                        margin-left: 0;
+                        &::before {
+                            height: 60px;
+                            width: 60px;
+                            left: 0;
+                        }
+                        &::after {
+                            height: 8px;
+                            width: 34px;
+                            left: 68px;
+                        }
+                        .content {
+                            margin-left: 119px;
+                            padding: 25px 0px;
+                            margin-right: 0;
+                            h3 {
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                            p {
+                                font-size: 14px;
+                                line-height: 22px;
+                                margin-top: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .how-are-we-different-section {
+        .bluebottom {
+            .leftbluebottom {
+                .mobileonly {
+                    display: block;
+                }
+                ul {
+                    padding: 10px 15px 40px;
+                }
+            }
+        }
+        .dotsdull {
+            .bluebgs {
+                padding: 15px 20px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .ques-ans-section {
+        .content-box {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}

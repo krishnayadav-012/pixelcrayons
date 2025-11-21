@@ -1,17 +1,18 @@
-@import "_default";
-@import "_menu-v5";
-@import "awards";
-@import "faq";
-@import "tech-stack";
-@import "tech-stack-v1";
-@import "blog";
-@import "all-industries";
-@import "case";
-@import "testimonial";
-@import "footer";
-@import "cta-v3";
-@import "banner-form-v1";
-@import "_tech-banner-with-form";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "awards" as *;
+@use "faq" as *;
+@use "_tech-stack" as *;
+@use "tech-stack-v1" as *;
+@use "blog" as *;
+@use "all-industries" as *;
+@use "case" as *;
+@use "testimonial" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
+@use "banner-form-v1" as *;
+@use "_tech-banner-with-form" as *;
 
 
 .why-choose-three-column-section {

@@ -1,16 +1,17 @@
-@import "_default";
-@import "_menu-v5";
-@import "faq";
-@import "blog";
-@import "testimonial";
-@import "guide-topic";
-@import "footer";
-@import "awards";
-@import "hiring-model";
-@import "cta-v3";
-@import "industries-c";
-@import "industries-unique";
-@import "banner-with-video";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "faq" as *;
+@use "blog" as *;
+@use "testimonial" as *;
+@use "guide-topic" as *;
+@use "footer" as *;
+@use "awards" as *;
+@use "hiring-model" as *;
+@use "cta-v3" as *;
+@use "industries-c" as *;
+@use "industries-unique" as *;
+@use "banner-with-video" as *;
 
 
 .banner-main {

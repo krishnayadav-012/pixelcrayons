@@ -1,15 +1,16 @@
-@import "_default";
-@import "_menu-v5";
-@import "awards";
-@import "hiring-model";
-@import "faq";
-@import "case";
-@import "tech-stack";
-@import "testimonial";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "awards" as *;
+@use "hiring-model" as *;
+@use "faq" as *;
+@use "case" as *;
+@use "_tech-stack" as *;
+@use "testimonial" as *;
 
-// @import "cta";
-@import "footer";
-@import "cta-v3";
+@use "cta" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
 
 .banner-main {
   background: $lighter-blue;

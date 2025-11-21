@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$white".\a         on line 262 of C:xampphtdocspixelcrayonsversion-4.0\assetsscsshow-we-works.scss\a\a 257:         border-radius: 10px;\a 258:         padding: 18px 89px;\a 259:         align-items: center;\a 260:         .leftblue {\a 261:             h3 {\a 262:                 color: $white;\a 263:             }\a 264:             h4 {\a 265:                 font-weight: 600;\a 266:                 font-size: 30px;\a 267:                 line-height: 64px;';
+}
+
+/*# sourceMappingURL=how-we-works.min.css.map */

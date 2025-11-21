@@ -1,19 +1,20 @@
-@import "_default";
-@import "_menu-v5";
-@import "_counter-award";
-@import "_work-tab";
-@import "_scroll-section";
-@import "_button-section";
-@import "_excellence";
-@import "_it-initiative";
-@import "_glider";
-@import "_indstries-slider-section";
-@import "_latest-insight";
-@import "_success-slider";
-@import "_client-testimonials";
-@import "faq";
-@import "cta-v3";
-@import "footer";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_counter-award" as *;
+@use "_work-tab" as *;
+@use "_scroll-section" as *;
+@use "_button-section" as *;
+@use "_excellence" as *;
+@use "_it-initiative" as *;
+@use "_glider" as *;
+@use "_indstries-slider-section" as *;
+@use "_latest-insight" as *;
+@use "_success-slider" as *;
+@use "_client-testimonials" as *;
+@use "faq" as *;
+@use "cta-v3" as *;
+@use "footer" as *;
 
 .hero-section {
   //background: url("../images/home/home-banner-img.webp") top center no-repeat;

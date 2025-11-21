@@ -1,23 +1,24 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-logo";
-@import "hiring-model";
-@import "_service-table";
-@import "_service-casestudy";
-@import "_glide-core";
-@import "_industry-section";
-@import "faq";
-@import "blog";
-@import "case";
-@import "tech-stack";
-@import "testimonial";
-@import "guide-topic";
-@import "service-unique";
-@import "service-p";
-@import "all-industries";
-@import "banner-with-video";
-@import "footer";
-@import "cta-v3";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-logo" as *;
+@use "hiring-model" as *;
+@use "_service-table" as *;
+@use "_service-casestudy" as *;
+@use "_glide-core" as *;
+@use "_industry-section" as *;
+@use "faq" as *;
+@use "blog" as *;
+@use "case" as *;
+@use "_tech-stack" as *;
+@use "testimonial" as *;
+@use "guide-topic" as *;
+@use "service-unique" as *;
+@use "service-p" as *;
+@use "all-industries" as *;
+@use "banner-with-video" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
 
 .page-id-2366 {
   .tools-developer {

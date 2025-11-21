@@ -11,6 +11,25 @@
     <meta property="og:title" content="Top IT & Software Outsourcing Company in India - @PixelCrayons" />
     <?php require_once 'assets/include/header-files.php'; ?>
     <link rel="preload stylesheet" type="text/css" href="assets/css/index.v5.css" defer />
+    <style type="text/css">
+    @media (max-width: 1139px) {
+    .menu-sc-box{display:none;}
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo{padding-bottom:10px;}
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu{left: auto;}
+    }
+    
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu 
+    .tab-contents .right-tabs .tab-content a.b-title{font-weight:900 !important;}
+
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a.b-title.mt-10{margin-top: 25px;}
+    .serv-submu{margin: 0 0 15px 15px;}
+
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content 
+    .menu-column a{padding: 5px; margin: 0 0 5px;}
+
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content 
+    .menu-column a:hover{background: #f9fafb; width: max-content;}
+    </style>
   </head>
   <body id="themeAdd" class="home">
     <?php require_once 'assets/include/menu-v5.php'; ?>

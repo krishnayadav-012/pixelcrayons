@@ -1,8 +1,9 @@
-@import "_default";
-@import "footer";
-@import "_client-logo";
-@import "_glide-core";
-@import "_contact-testimonials";
+@use "_default" as *;
+@use "_default" as *;
+@use "footer" as *;
+@use "_client-logo" as *;
+@use "_glide-core" as *;
+@use "_contact-testimonials" as *;
 
 
 .contact-us-section {

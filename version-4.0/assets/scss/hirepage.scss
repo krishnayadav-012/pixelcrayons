@@ -1,20 +1,21 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-section";
-@import "_counter-column-section";
-@import "_table-section";
-@import "_get-started";
-@import "_image-content";
-@import "_tech-stack";
-@import "_hire-process";
-@import "_case-studies";
-@import "guide-topic";
-@import "faq";
-@import "_banner-with-form";
-@import "tech-stack-v1";
-@import "footer";
-@import "cta-v3";
-@import "banner-form-v1";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-section" as *;
+@use "_counter-column-section" as *;
+@use "_table-section" as *;
+@use "_get-started" as *;
+@use "_image-content" as *;
+@use "_tech-stack" as *;
+@use "_hire-process" as *;
+@use "_case-studies" as *;
+@use "guide-topic" as *;
+@use "faq" as *;
+@use "_banner-with-form" as *;
+@use "tech-stack-v1" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
+@use "banner-form-v1" as *;
 
 .why-choose-three-column-section {
   counter-reset: section;

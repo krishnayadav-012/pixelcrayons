@@ -1,15 +1,16 @@
-@import "_default";
-//@import "menu";//
-@import "menu-v2";
-@import "awards";
-@import "faq";
-@import "blog";
-@import "testimonial";
-@import "tech-stack";
-@import "all-industries";
-@import "cta-v3";
-@import "guide-topic";
-@import "footer";
+@use "_default" as *;
+@use "_default" as *;
+@use "menu" as *;
+@use "menu-v2" as *;
+@use "awards" as *;
+@use "faq" as *;
+@use "blog" as *;
+@use "testimonial" as *;
+@use "_tech-stack" as *;
+@use "all-industries" as *;
+@use "cta-v3" as *;
+@use "guide-topic" as *;
+@use "footer" as *;
 
 
 

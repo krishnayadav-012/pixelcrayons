@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$gradient-bg".\a         on line 2 of C:xampphtdocspixelcrayonsversion-4.0\assetsscssЄ-v2.scss\a\a 1: .light-theme-grey-bg {\a 2:     background: $gradient-bg;\a 3:   }\a 4:   \a 5:   .error-img-section {\a 6:     background: $gradient-bg;\a 7:   ';
+}
+
+/*# sourceMappingURL=404-v2.min.css.map */

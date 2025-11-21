@@ -1,15 +1,16 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-logo";
-@import "_glide-core";
-@import "_get-started";
-@import "_client-section";
-@import "_counter-column-section";
-@import "faq";
-@import "testimonial";
-@import "footer";
-@import "_form-county";
-@import "_service-casestudy";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-logo" as *;
+@use "_glide-core" as *;
+@use "_get-started" as *;
+@use "_client-section" as *;
+@use "_counter-column-section" as *;
+@use "faq" as *;
+@use "testimonial" as *;
+@use "footer" as *;
+@use "_form-county" as *;
+@use "_service-casestudy" as *;
 
 .slide-logo {
   padding-bottom: 0;

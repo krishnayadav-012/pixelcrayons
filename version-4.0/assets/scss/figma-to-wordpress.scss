@@ -1,17 +1,18 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-logo";
-@import "_integration-banner";
-@import "banner-form-v1";
-@import "_glide-core";
-@import "_client-section";
-@import "_service-table";
-@import "_get-started";
-@import "testimonial";
-@import "guide-topic";
-@import "faq";
-@import "footer";
-@import "cta-v3";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-logo" as *;
+@use "_integration-banner" as *;
+@use "banner-form-v1" as *;
+@use "_glide-core" as *;
+@use "_client-section" as *;
+@use "_service-table" as *;
+@use "_get-started" as *;
+@use "testimonial" as *;
+@use "guide-topic" as *;
+@use "faq" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
 
 .slide-logo {
   padding-bottom: 0;

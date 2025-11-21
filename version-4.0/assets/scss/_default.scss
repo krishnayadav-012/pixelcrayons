@@ -1,6 +1,7 @@
 /*========== Variables ==========*/
 
 /*======BG Colors ======*/
+$darkcolor: #010101;
 $darkYellow: #ffc732;
 $yellow: #ffb81d;
 $bg-blue: #05247e;
@@ -40,10 +41,10 @@ $grey-300:#D1D5DB;
 
 @media only screen and (min-width: 768px) {
   @font-face {
-    font-family: "Lexend Deca";
-    src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"),
-      url("../fonts/LexendDeca-Regular.woff") format("woff"),
-      url("../fonts/LexendDeca-Regular.ttf") format("truetype");
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+      url("../fonts/Montserrat-Medium.woff") format("woff"),
+      url("../fonts/Montserrat-Medium.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -57,7 +58,7 @@ $grey-300:#D1D5DB;
 }
 
 body {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: $arsenic-light;
   font-size: 16px;
   line-height: 28px;

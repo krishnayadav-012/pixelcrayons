@@ -1,3 +1,5 @@
+@use "_default" as *;
+
 $darkcolor: #262626;
 $lightcolor: #5d6579;
 $whitecolor: #fff;
@@ -529,15 +531,83 @@ $font16: 16px;
             }
 
             &.service-menu {
-              width: 90%;
+              width: 100%;
               right: 0;
               margin: 0 auto;
-              border-radius: 10px;
+              
 
               .tab-menu {
                 .tab-contents {
+                  width: 100%;
+                min-height: 525px;
+                height: 100%;
+                .left-tabs {
+                  flex-basis: 20%;
+                  border-right: 1px solid #e6e6e6;
+                  padding: 15px 25px 15px 0;
+
+                  .tab-nav {
+                    li {
+                      width: 100%;
+
+                      a {
+                        display: block;
+                        padding: 15px 35px 15px 15px;
+                        color: $darkcolor;
+                        position: relative;
+                        cursor: pointer;
+                        background: $whitecolor;
+                        border-radius: 10px;
+                        font-weight: 500;
+                        position: relative;
+                        font-size: 16px;
+                        &:after {
+                          content: "";
+                          background: url(../header-images/arrow.svg) no-repeat
+                            center;
+                          position: absolute;
+                          top: 17px;
+                          right: 15px;
+                          width: 14px;
+                          height: 19px;
+                          background-size: 100%;
+                          opacity: 0;
+                          left: auto;
+                          bottom: auto;
+                        }
+                      }
+                      &.no-link {
+                        a {
+                          cursor: default;
+                        }
+                      }
+
+                      &.is-active {
+                        a {
+                          background: #eff6ff;
+                          &:after {
+                            opacity: 1;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
                   .right-tabs {
+                    flex-basis: 80%;
+                  padding: 0 20px;
+                  &.flex-full {
+                    flex-basis: 100%;
+                  }
                     .tab-content {
+                      width: 100%;
+                      display: none;
+                      height: 100%;
+                      &.is-active {
+                      display: flex;
+                      justify-content: space-between;
+                      flex-wrap: wrap;
+                      }
                       .menu-column {
                         padding: 0;
                         .flex-5 {

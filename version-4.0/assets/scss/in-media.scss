@@ -1,8 +1,9 @@
-@import "_default";
-@import "_menu-v5";
-@import "testimonial";
-@import "cta-v3";
-@import "footer";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "testimonial" as *;
+@use "cta-v3" as *;
+@use "footer" as *;
 
 .for-media-banner-section {
   padding: 100px 0 80px;

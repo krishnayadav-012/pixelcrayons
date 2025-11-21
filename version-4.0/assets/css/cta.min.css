@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$darker-blue".\a         on line 21 of C:xampphtdocspixelcrayonsversion-4.0\assetsscss\cta.scss\a\a 16:     z-index: 0;\a 17:   }\a 18:   .left-box {\a 19:     flex-basis: 44%;\a 20:     padding: 164px 45px 111px 0;\a 21:     background: $darker-blue;\a 22:     color: $white;\a 23:     position: relative;\a 24:     z-index: 1;\a 25:     p {\a 26:       color: #dfdfdf;';
+}
+
+/*# sourceMappingURL=cta.min.css.map */

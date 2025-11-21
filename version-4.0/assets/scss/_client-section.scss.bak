@@ -1,0 +1,200 @@
+.client-img-section {
+  .left-box {
+    padding-right: 60px;
+    .heading {
+      h5 {
+        color: $royelblue;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 0 10px;
+      }
+
+      h2 {
+        &:after {
+          right: auto;
+          bottom: -20px;
+        }
+      }
+      p {
+        width: 100%;
+        margin: 0 0 20px;
+      }
+      ul {
+        margin-top: 30px;
+
+        li {
+          margin: 0 0 8px;
+          position: relative;
+          padding-left: 22px;
+          &::before {
+            content: "";
+            background: url(../images/list-check.svg) no-repeat;
+            width: 15px;
+            height: 14px;
+            position: absolute;
+            top: 7px;
+            left: 0;
+          }
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .right-box {
+    flex-basis: 45%;
+
+    .client-section {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 20px;
+      .client-row {
+        position: relative;
+        overflow: hidden;
+        height: 80px;
+        .client-stack {
+          ul {
+            display: flex;
+            min-width: 150%;
+            justify-content: space-around;
+            column-gap: 15px;
+            position: absolute;
+            li {
+              height: 80px;
+              min-width: 170px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 7px;
+              border: 1.376px solid rgba(221, 221, 221, 0.83);
+              background: #fff;
+              img {
+                vertical-align: middle;
+              }
+              &:hover {
+                color: $yellow;
+              }
+            }
+          }
+        }
+
+        .hover:hover {
+          color: red;
+        }
+      }
+    }
+
+    .award-sc {
+      .award-wrap {
+        position: relative;
+        overflow: hidden;
+        height: 95px;
+        margin: 25px 0 0;
+
+        h5 {
+          font-size: 15px;
+          color: #0a1747;
+          font-weight: 500;
+        }
+        .award-row {
+          ul {
+            display: flex;
+            min-width: 150%;
+            justify-content: space-around;
+            column-gap: 15px;
+            position: absolute;
+            li {
+              height: 90px;
+              min-width: 170px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 7px;
+              border: 1.376px solid rgba(221, 221, 221, 0.83);
+              background: #fff;
+              .aw-icon {
+                min-height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                  vertical-align: middle;
+                }
+                
+              }
+
+              &:hover {
+                background: #fff;
+                cursor: default;
+                border-color: $royelblue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes slide_to_left {
+  0% {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slide_to_right {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.award-animate-slide-to-left {
+  animation: slide_to_left 15s linear infinite;
+}
+
+.award-animate-slide-to-right {
+  animation: slide_to_right 15s linear infinite;
+}
+
+.hover\:pause:hover {
+  animation-play-state: paused;
+}
+
+@media only screen and (max-width: 991px) {
+  .client-img-section {
+    .left-box {
+      flex-basis: 100%;
+      padding-right: 0;
+      .heading {
+        h2 {
+          text-align: center;
+          &:after {
+            right: 0;
+          }
+        }
+        p {
+          text-align: center;
+        }
+      }
+      ul {
+        margin-top: 20px;
+      }
+    }
+    .right-box {
+      flex-basis: 100%;
+      margin: 40px 0 0;
+    }
+  }
+}

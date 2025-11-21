@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$white".\a         on line 23 of C:xampphtdocspixelcrayonsversion-4.0\assetsscss\cta-v2.scss\a\a 18:   // }\a 19:   .left-box {\a 20:     flex-basis: 40%;\a 21:     padding-right: 45px;\a 22:     background: #021652;\a 23:     color: $white;\a 24:     position: relative;\a 25:     z-index: 1;\a 26:     p {\a 27:       color: #DFDFDF;\a 28:     }';
+}
+
+/*# sourceMappingURL=cta-v2.min.css.map */

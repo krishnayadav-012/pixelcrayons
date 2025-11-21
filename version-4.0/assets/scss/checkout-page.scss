@@ -1,7 +1,8 @@
-@import "_default";
-@import "menu-v3";
-@import "_checkout-section";
-@import "footer";
+@use "_default" as *;
+@use "_default" as *;
+@use "menu-v3" as *;
+@use "_checkout-section" as *;
+@use "footer" as *;
 
 .project-section {
   margin-bottom: 20px;

@@ -1,10 +1,11 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-logo";
-@import "_glide-core";
-@import "faq";
-@import "cta-v3";
-@import "footer";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-logo" as *;
+@use "_glide-core" as *;
+@use "faq" as *;
+@use "cta-v3" as *;
+@use "footer" as *;
 .hero-section {
   padding: 117px 0 80px;
   background-size: cover;

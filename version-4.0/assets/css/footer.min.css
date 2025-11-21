@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$royelblue".\a         on line 44 of C:xampphtdocspixelcrayonsversion-4.0\assetsscss\footer.scss\a\a 39:     line-height: 24px;\a 40:     margin: 0;\a 41:   }\a 42: \a 43:   .footer-top .subs-box {\a 44:     background: $royelblue;\a 45:     position: relative;\a 46:     padding: 20px 40px;\a 47:     flex-basis: 30%;\a 48:     display: flex;\a 49:     align-items: center;';
+}
+
+/*# sourceMappingURL=footer.min.css.map */

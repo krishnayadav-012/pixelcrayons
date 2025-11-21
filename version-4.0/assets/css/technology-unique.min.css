@@ -1,0 +1,228 @@
+.php-api .dis-flex {
+  justify-content: space-between;
+}
+
+.php-api .content-div {
+  flex-basis: 30%;
+  margin-top: 20px;
+}
+
+.php-api .content-div p {
+  width: 100%;
+  text-align: left;
+  margin: 0 0 20px;
+}
+
+.php-api .content-div h2:after {
+  right: auto;
+}
+
+.php-api .right-div {
+  flex-basis: 68%;
+}
+
+.php-api .right-div .text-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.php-api .right-div .text-row .flex-3 .box-3 {
+  padding: 30px 20px;
+}
+
+.php-api .right-div .text-row .flex-3 .box-3 h3 {
+  margin: 0;
+}
+
+.expertise .flex-2 {
+  padding: 0 10px;
+  margin: 20px 0 0;
+}
+
+.prod-dev .flex-4 {
+  padding: 0 10px;
+  margin: 20px 0 0;
+}
+
+.support-center-img-section .center-box-outer {
+  position: relative;
+  margin-top: 150px;
+}
+
+.support-center-img-section .center-img {
+  text-align: center;
+}
+
+.support-center-img-section .center-img img {
+  max-width: 640px;
+}
+
+.support-center-img-section .col-box {
+  position: absolute;
+  text-align: center;
+  max-width: 240px;
+  font-weight: 400;
+  font-weight: 500;
+}
+
+.support-center-img-section .col-box p {
+  opacity: 0.9;
+}
+
+.support-center-img-section .box-1 {
+  left: 20px;
+  bottom: 60px;
+}
+
+.support-center-img-section .box-2 {
+  top: 40px;
+  left: 180px;
+}
+
+.support-center-img-section .box-3 {
+  top: -60px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.support-center-img-section .box-4 {
+  top: 40px;
+  right: 180px;
+}
+
+.support-center-img-section .box-5 {
+  bottom: 60px;
+  right: 20px;
+}
+
+.cms-develop .heading {
+  margin: 0 0 100px;
+}
+
+.cms-develop .flex-wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cms-develop .flex-wrap .cms-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: -1;
+}
+
+.cms-develop .flex-wrap .dis-flex {
+  justify-content: space-between;
+}
+
+.cms-develop .flex-wrap .dis-flex .flex-2 {
+  flex-basis: 30%;
+  margin: 20px 0 0;
+}
+
+.cms-develop .flex-wrap .dis-flex .flex-2 .box-3 {
+  padding: 40px;
+}
+
+@media screen and (max-width: 1320px) {
+  .support-center-img-section .center-box-outer {
+    margin-top: 110px;
+  }
+  .support-center-img-section .box-1 {
+    bottom: 50px;
+  }
+  .support-center-img-section .box-2 {
+    top: 20px;
+    left: 150px;
+  }
+  .support-center-img-section .box-4 {
+    top: 20px;
+    right: 160px;
+  }
+  .support-center-img-section .box-5 {
+    bottom: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .support-center-img-section .center-img img {
+    max-width: 520px;
+  }
+  .support-center-img-section .col-box p {
+    font-size: 16px;
+  }
+  .cms-develop .heading {
+    margin: 0 0 50px;
+  }
+  .cms-develop .flex-wrap .cms-image {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .support-center-img-section {
+    counter-reset: section;
+  }
+  .support-center-img-section .center-box-outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .support-center-img-section .center-img {
+    display: none;
+  }
+  .support-center-img-section .box-1, .support-center-img-section .box-2, .support-center-img-section .box-3, .support-center-img-section .box-4, .support-center-img-section .box-5 {
+    top: 0;
+    left: 0;
+  }
+  .support-center-img-section .col-box {
+    position: relative;
+    flex-basis: 50%;
+    max-width: none;
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+  .support-center-img-section .col-box:before {
+    counter-increment: section;
+    content: "0" counter(section);
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+  }
+  .cms-develop .flex-wrap .cms-image {
+    position: static;
+    width: auto;
+    margin: 0 auto 30px;
+  }
+  .cms-develop .flex-wrap .dis-flex .flex-2 {
+    flex-basis: 50%;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .php-api .dis-flex .content-div {
+    flex-basis: 100%;
+  }
+  .php-api .dis-flex .right-div {
+    flex-basis: 100%;
+    margin: 20px 0 0;
+  }
+  .expertise .flex-2, .prod-dev .flex-4 {
+    padding: 0;
+    margin: 15px 0 0;
+  }
+  .cms-develop .flex-wrap .dis-flex .flex-2 {
+    flex-basis: 100%;
+    margin: 15px 0 0;
+    padding: 0;
+  }
+  .cms-develop .flex-wrap .dis-flex .flex-2 .box-3 {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=technology-unique.min.css.map */

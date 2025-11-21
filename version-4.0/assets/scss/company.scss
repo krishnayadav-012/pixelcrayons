@@ -1,18 +1,19 @@
-@import "_default";
-@import "_menu-v5";
-@import "_client-logo";
-@import "_glide-core";
-@import "hiring-model";
-@import "footer";
-@import "cta";
-@import "footer";
-@import "cta-v3";
-@import "partnership-programme";
-@import "products";
-@import "how-we-works";
-@import "client-review";
-@import "faq";
-@import "404-v2";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_client-logo" as *;
+@use "_glide-core" as *;
+@use "hiring-model" as *;
+@use "footer" as *;
+@use "cta" as *;
+@use "footer" as *;
+@use "cta-v3" as *;
+@use "partnership-programme" as *;
+@use "products" as *;
+@use "how-we-works" as *;
+@use "client-review" as *;
+@use "faq" as *;
+@use "404-v2" as *;
 
 // .page-id-719 {
 //     .margin-t-80 {

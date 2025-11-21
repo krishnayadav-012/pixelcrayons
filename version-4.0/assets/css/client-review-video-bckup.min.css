@@ -1,0 +1,144 @@
+.banner-main.for-client-banner {
+  background: url(../images/for-client-banner.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.banner-main.for-client-banner p {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.client-testmonial-section .glider-track {
+  padding: 20px 0;
+}
+
+.client-testmonial-section .glider-dot {
+  width: 9px;
+  height: 9px;
+  background: #d9d9d9;
+  margin-top: 20px;
+}
+
+.client-testmonial-section .glider-dot.active {
+  background: #016be3;
+}
+
+.client-testmonial-section .slide-item {
+  padding: 0 10px;
+}
+
+.client-testmonial-section .slide-item .item-box {
+  background: #fff;
+  box-shadow: 0 4px 30px rgba(218, 226, 234, 0.5);
+  border-radius: 0 0 5px 5px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+  height: 100%;
+}
+
+.client-testmonial-section .slide-item .item-box:hover {
+  border-color: #016be3;
+}
+
+.client-testmonial-section .slide-item iframe {
+  border: 0;
+  width: 100%;
+}
+
+.client-testmonial-section .slide-item .content-box {
+  padding: 25px 30px 30px;
+}
+
+.client-testmonial-section .slide-item p {
+  opacity: 0.9;
+}
+
+.client-testmonial-section .slide-item .client-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #253053;
+  opacity: 0.9;
+  margin-top: 20px;
+  display: block;
+  font-family: "Noto Sans";
+}
+
+.clients-content-section {
+  margin-top: 60px;
+}
+
+.clients-content-section .flex-3 {
+  padding: 0 10px;
+}
+
+.clients-content-section .flex-3:nth-child(2) .item-box:last-child .content-box {
+  min-height: 229px;
+}
+
+.clients-content-section .flex-3:first-child .item-box:last-child .content-box {
+  min-height: 418px;
+}
+
+.clients-content-section .item-box {
+  margin: 10px 0;
+}
+
+.clients-content-section .content-box {
+  background: #fff;
+  box-shadow: 0 4px 30px rgba(218, 226, 234, 0.5);
+  border-radius: 5px;
+  padding: 40px 25px 30px 40px;
+  position: relative;
+  border: 1px solid #fff;
+}
+
+.clients-content-section .content-box::before {
+  content: "";
+  background: url(../images/quote-gray.png) top center no-repeat;
+  width: 19px;
+  height: 16px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.clients-content-section .content-box p {
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.clients-content-section .content-box h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #253053;
+  opacity: 0.9;
+  font-family: "Noto Sans";
+}
+
+.clients-content-section .content-box .title-box {
+  margin-top: 20px;
+}
+
+.clients-content-section .content-box .title-box p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+.clients-content-section .content-box:hover {
+  border-color: #016be3;
+}
+
+@media only screen and (max-width: 767px) {
+  .clients-content-section {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=client-review-video-bckup.min.css.map */

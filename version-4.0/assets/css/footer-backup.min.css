@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$royelblue".\a         on line 62 of C:xampphtdocspixelcrayonsversion-4.0\assetsscss\footer-backup.scss\a\a 57:           }\a 58:           .social-image{display:block; opacity: 0.9;}\a 59:           .social-image-hover{display:none;}\a 60: \a 61:           &:hover {\a 62:             color: $royelblue;\a 63:             opacity: 1;\a 64:             .social-image-hover{display:block;}\a 65:             .social-image{display:none;}\a 66: \a 67:             img {';
+}
+
+/*# sourceMappingURL=footer-backup.min.css.map */

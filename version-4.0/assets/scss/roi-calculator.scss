@@ -1,7 +1,8 @@
-@import "_default";
-@import "_menu-v5";
-@import "_menu-white";
-@import "footer";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
+@use "_menu-white" as *;
+@use "footer" as *;
 
 .calculator-section {
   position: relative;

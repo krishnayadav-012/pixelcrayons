@@ -1018,7 +1018,7 @@ input:-webkit-autofill:active {
           .header-two .header-item-right .menu ul li .menu-mega a:hover {
             background: #fff9eb; }
         .header-two .header-item-right .menu ul li .menu-mega.small-menu {
-          left: 64%;
+          left: 67%;
           width: 280px;
           padding: 20px;
           border-radius: 10px; }
@@ -1037,18 +1037,17 @@ input:-webkit-autofill:active {
                   width: auto;
                   margin: 5px 0 0; }
           .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-            width: 580px;
-            left: 50%;
+            width: 320px;
+            left: 55%;
             margin: 0 auto;
             border-radius: 10px; }
-            .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu .tab-menu .tab-contents .right-tabs .tab-content a .title .menuicon {
-              top: 11px; }
           .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-            width: 500px;
-            left: 50%; }
+            left: 63%; }
           .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
             width: 280px;
-            left: 67%; }
+            left: 69%; }
+          .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+            left: 51%; }
         .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents {
           width: 100%;
           min-height: 210px;
@@ -1089,7 +1088,7 @@ input:-webkit-autofill:active {
                     line-height: 22px;
                     color: #0f172b; }
                     .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .tab-title a .title:hover {
-                      color: #ffaf00; }
+                      color: #0400f5; }
                   .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .tab-title a .menuicon {
                     position: absolute;
                     left: 10px;
@@ -1145,7 +1144,7 @@ input:-webkit-autofill:active {
                     cursor: default; }
                   .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column a:hover {
                     color: #0400f5;
-                    background: #F9FAFB; }
+                    background: #f9fafb; }
                     .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column a:hover .menuicon {
                       filter: none; }
                     .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column a:hover .title {
@@ -1154,7 +1153,7 @@ input:-webkit-autofill:active {
                 font-weight: 400 !important;
                 font-size: 12px;
                 line-height: 20px;
-                color: #45556c;
+                color: #4b5563;
                 display: block;
                 padding: 10px;
                 border-radius: 10px;
@@ -1162,7 +1161,7 @@ input:-webkit-autofill:active {
                 .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content a .title {
                   color: #0f172b; }
                   .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content a .title.view-all {
-                    color: #ffad00; }
+                    color: #0400f5; }
                     .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content a .title.view-all:hover {
                       color: #0f172b; }
                   .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content a .title .menuicon {
@@ -1267,43 +1266,236 @@ input:-webkit-autofill:active {
                     left: 10px;
                     top: 15px; }
         .header-two .header-item-right .menu ul li .menu-mega.service-menu {
-          width: 90%;
+          width: 100%;
           right: 0;
-          margin: 0 auto;
-          border-radius: 10px; }
-          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column {
-            padding: 0; }
-            .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .flex-5 {
-              padding: 0 0 30px; }
-            .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo {
-              border-left: 1px solid #e5e5e5;
-              padding-left: 20px;
-              background: #f4f4f4;
-              position: relative;
-              padding-bottom: 40px; }
-              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo:after {
-                content: "";
-                background: #f4f4f4;
-                width: 100px;
-                height: 100%;
-                right: -30px;
-                top: 0;
-                position: absolute;
-                border-radius: 0 10px 10px 0;
-                z-index: -1; }
-              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo a.top-head.no-padd {
-                padding: 10px 0 0; }
-                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo a.top-head.no-padd .title {
-                  color: #6b7280; }
-                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo a.top-head.no-padd:hover {
-                  color: #6b7280;
-                  cursor: default;
+          margin: 0 auto; }
+          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents {
+            width: 100%;
+            min-height: 525px;
+            height: 100%; }
+            .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs {
+              flex-basis: 20%;
+              border-right: 1px solid #e6e6e6;
+              padding: 15px 25px 15px 0; }
+              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs .tab-nav li {
+                width: 100%; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs .tab-nav li a {
+                  display: block;
+                  padding: 15px 35px 15px 15px;
+                  color: #0f172b;
+                  position: relative;
+                  cursor: pointer;
+                  background: #fff;
+                  border-radius: 10px;
+                  font-weight: 500;
+                  position: relative;
+                  font-size: 14px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs .tab-nav li a:after {
+                    content: "";
+                    background: url(../header-images/arrow-icon.svg) no-repeat center;
+                    position: absolute;
+                    top: 17px;
+                    right: 15px;
+                    width: 14px;
+                    height: 19px;
+                    background-size: 100%;
+                    opacity: 0;
+                    left: auto;
+                    bottom: auto; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs .tab-nav li.no-link a {
+                  cursor: default; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs .tab-nav li.is-active a {
+                  background: #eff6ff; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .left-tabs .tab-nav li.is-active a:after {
+                    opacity: 1; }
+            .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs {
+              flex-basis: 80%;
+              padding: 0 20px; }
+              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.flex-full {
+                flex-basis: 100%; }
+              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content {
+                width: 100%;
+                display: none;
+                height: 100%; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .four-column {
+                  width: 100%; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .three-column {
+                  width: 68%; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .title {
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 26px;
+                  color: #0f172b;
+                  display: block;
+                  transition: all 0.3s ease-in-out;
+                  margin-bottom: 2px; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .tab-title {
+                  padding: 15px 0;
+                  border-bottom: 1px solid #e6e6e6;
+                  width: 100%; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .tab-title a {
+                    padding-left: 70px;
+                    position: relative;
+                    display: block;
+                    margin: 0;
+                    font-weight: 400 !important;
+                    font-size: 12px;
+                    text-transform: capitalize; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .tab-title a .title {
+                      font-size: 14px;
+                      line-height: 22px;
+                      color: #0f172b;
+                      text-transform: capitalize; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .tab-title a .menuicon {
+                      position: absolute;
+                      left: 10px;
+                      top: 10px;
+                      filter: none; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content.is-active {
+                  display: flex;
+                  justify-content: space-between;
+                  flex-wrap: wrap; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column {
+                  padding: 15px 0 30px;
+                  width: 100%; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column .flex-2 {
+                    flex-basis: 50%;
+                    padding: 0 5px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column .flex-4 {
+                    flex-basis: 25%;
+                    padding: 0 5px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column .head {
+                    color: #9f9f9f;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    margin: 10px 0 10px;
+                    display: block; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column .head.opacity-0 {
+                      opacity: 0; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column a {
+                    margin: 0 0 15px;
+                    padding: 0;
+                    width: 100%;
+                    line-height: 20px; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .menu-column a:hover {
+                      color: #0400f5;
+                      background: transparent; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a {
+                  font-weight: 400 !important;
+                  font-size: 14px;
+                  line-height: 20px;
+                  display: block;
+                  padding: 10px;
+                  border-radius: 10px;
                   background: transparent; }
-              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo .m-0 {
-                margin: 0 20px; }
-              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo p {
-                font-size: 10px;
-                line-height: 20px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a .title {
+                    font-size: 15px;
+                    line-height: 22px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a:hover {
+                    background: #eff6ff; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a:hover:after {
+                      display: none; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a.view-more {
+                    color: #0400f5;
+                    padding: 30px 0 0;
+                    transition: all 0.3s ease-in-out;
+                    border-top: 1px solid #e6e6e6;
+                    border-radius: 0;
+                    margin: 20px 0 0;
+                    font-weight: 500;
+                    position: relative;
+                    transition: all 0.3s ease-in-out; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a.view-more:after {
+                      content: "";
+                      background: url(../header-images/arrow.svg) no-repeat center;
+                      display: inline-block;
+                      position: relative;
+                      opacity: 1;
+                      width: 14px;
+                      height: 19px;
+                      background-size: 100%;
+                      vertical-align: middle;
+                      margin-left: 10px;
+                      bottom: auto;
+                      transition: all 0.3s ease-in-out; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a.view-more:hover {
+                      background-color: transparent; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content a.view-more:hover:after {
+                        margin-left: 15px; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .double-menu a {
+                  margin-bottom: 0;
+                  padding-top: 8px;
+                  padding-bottom: 8px;
+                  font-size: 15px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .double-menu a.op0 {
+                    opacity: 0; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .double-menu a:hover {
+                    color: #0400f5;
+                    text-decoration: underline; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .double-menu a.top-head {
+                    padding: 10px; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .double-menu a.top-head:hover {
+                      text-decoration: none; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .double-menu.margin-t-15 {
+                  margin-top: 15px; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .other-menu {
+                  width: 30%;
+                  position: relative;
+                  padding-left: 20px;
+                  border-left: 1px solid #e6e6e6;
+                  background: #f8f9fa; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .other-menu:after {
+                    content: "";
+                    position: absolute;
+                    right: -60px;
+                    top: 0;
+                    height: 100%;
+                    width: 25%;
+                    background: #f8f9fa; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .other-menu .tab-title a {
+                    padding-left: 10px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .other-menu .flex-1 a {
+                    padding-left: 55px;
+                    position: relative; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs .tab-content .other-menu .flex-1 a .menuicon {
+                      position: absolute;
+                      left: 10px;
+                      top: 15px; }
+              .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs {
+                display: flex; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .tab-content {
+                  width: 68%; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .tab-content .three-column {
+                    width: 98%; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .other-menu {
+                  display: block;
+                  width: 30%;
+                  height: auto;
+                  width: 30%;
+                  position: relative;
+                  padding-left: 20px;
+                  border-left: 1px solid #e6e6e6;
+                  background: #f8f9fa; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .other-menu:after {
+                    content: "";
+                    position: absolute;
+                    right: -60px;
+                    top: 0;
+                    height: 100%;
+                    width: 20%;
+                    background: #f8f9fa; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .other-menu .tab-title a {
+                    padding-left: 10px; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .other-menu .menu-column a {
+                    padding-left: 55px;
+                    position: relative;
+                    width: calc(100% - 10px);
+                    margin: 0 0 10px -10px; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-contents .right-tabs.hire-tabs .other-menu .menu-column a .menuicon {
+                      position: absolute;
+                      left: 10px;
+                      top: 15px; }
       .header-two .header-item-right .menu ul li:hover .menu-mega {
         display: block; }
     .header-two .header-item-right .cta-wrap {
@@ -1387,30 +1579,49 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 2490px) {
   .header-two .header-item-right .menu ul li .menu-mega.small-menu {
     left: 69%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+      left: 52%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-      left: 50%; }
+      left: 56%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu .agencies-menu {
+      left: 52%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-      left: 60%; }
+      left: 65%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
-      left: 72%; } }
-@media screen and (max-width: 1700px) {
+      left: 74%; } }
+@media screen and (max-width: 1920px) {
+  .header-two .header-item-right .menu ul li .menu-mega.small-menu {
+    left: 72%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+      left: 52%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
+      left: 57%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
+      left: 68%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
+      left: 75%; } }
+@media screen and (max-width: 1780px) {
   .header-two .container {
     max-width: 100%; }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu {
-    left: 66%; }
+    left: 68%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+      left: 46%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
       left: 50%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-      left: 50%; }
+      left: 64%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
-      left: 70%; } }
+      left: 73%; } }
 @media screen and (max-width: 1580px) {
   .header-two .header-item-right .menu ul li .menu-mega.small-menu {
     left: 66%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+      left: 40%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-      left: 38%; }
+      left: 46%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-      left: 50%; }
+      left: 60%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
       left: 70%; } }
 @media screen and (max-width: 1440px) {
@@ -1418,8 +1629,10 @@ input:-webkit-autofill:active {
     padding: 0 20px; }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu {
     left: 64%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+      left: 35%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-      left: 50%; }
+      left: 57%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
       left: 67%; } }
 @media screen and (max-width: 1390px) {
@@ -1431,9 +1644,7 @@ input:-webkit-autofill:active {
     width: 100%; }
     .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .menu-column a.top-head {
       padding: 5px 20px 5px 35px;
-      width: 100%; }
-  .header-two .header-item-right .menu ul li .menu-mega.service-menu {
-    width: 92%; } }
+      width: 100%; } }
 @media screen and (max-width: 1280px) {
   .header-two .container {
     padding: 0 20px; }
@@ -1446,10 +1657,14 @@ input:-webkit-autofill:active {
       width: 100%; }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu {
     left: 58%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.agencies-menu {
+      left: 25%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-      left: 40%; }
+      left: 50%; }
+    .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
+      left: 32%; }
     .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
-      left: 67%; } }
+      left: 63%; } }
 @media screen and (max-width: 1139px) {
   .header-two {
     position: fixed;
@@ -1521,14 +1736,170 @@ input:-webkit-autofill:active {
                 width: 100%;
                 border-radius: 0;
                 margin-top: 20px; }
-                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column {
-                  padding-bottom: 20px; }
-                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo {
-                    margin-top: 15px;
-                    padding-bottom: 0;
-                    padding-left: 20px; }
-                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .comp-logo:after {
-                      display: none; }
+                .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents {
+                  width: 100%;
+                  min-height: initial; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .left-tabs {
+                    display: none; }
+                  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs {
+                    flex-basis: 100%;
+                    padding: 0; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content {
+                      min-height: initial;
+                      display: block !important;
+                      height: auto; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .four-column {
+                        width: 100%; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .three-column {
+                        width: 100%; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .title {
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 26px;
+                        color: #262626;
+                        display: block;
+                        transition: all 0.3s ease-in-out;
+                        margin-bottom: 2px; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .tab-title {
+                        padding: 10px 25px 10px 0;
+                        border-bottom: 1px solid #e6e6e6;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        position: relative; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .tab-title a {
+                          padding: 10px 10px 10px 55px;
+                          margin: 0 0 0 -10px;
+                          width: 100%; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .tab-title a .title {
+                            font-size: 15px;
+                            line-height: 20px;
+                            color: #0f172b; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .tab-title a .menuicon {
+                            left: 8px;
+                            width: 35px;
+                            height: 35px; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content.is-active {
+                        display: block; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column {
+                        padding: 15px 0 0;
+                        width: 100%; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column.sub-service {
+                          display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column.hr-submenu {
+                          display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column.sub-tech {
+                          display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column.m-active {
+                          display: block; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .flex-2 {
+                          flex-basis: 100%;
+                          padding: 0;
+                          margin: 0; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .flex-4 {
+                          flex-basis: 100%;
+                          padding: 0;
+                          margin: 0 0 25px; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .flex-4.margin-0 {
+                            margin: 0; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .head {
+                          font-size: 13px;
+                          margin: 8px 0 8px; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .head.opacity-0 {
+                            display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column a {
+                          width: 100%;
+                          margin: 0; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content a {
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 20px;
+                        color: #5d6579;
+                        display: block;
+                        padding: 10px;
+                        border-radius: 10px;
+                        background: transparent; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content a .title {
+                          font-size: 14px;
+                          line-height: 20px; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content a:hover {
+                          background: #eff6ff; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content a:hover:after {
+                            display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content a.view-more {
+                          padding: 20px 0 0;
+                          margin: 10px 0 0; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content a.view-more:after {
+                            display: inline-block; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu {
+                        width: 100%;
+                        position: relative;
+                        padding-left: 0;
+                        border-left: none;
+                        background: #fff; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu.mob-hide {
+                          display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu:after {
+                          display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu .tab-title {
+                          padding: 0; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu .tab-title a {
+                            padding: 8px;
+                            width: calc(100% - 10px);
+                            margin: 0 0 5px -10px; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu .tab-title .ser-arrow-btn {
+                            right: -15px; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu .flex-1 {
+                          flex-basis: 100%; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu .flex-1 a {
+                            padding-left: 55px;
+                            position: relative; }
+                            .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .other-menu .flex-1 a .menuicon {
+                              position: absolute;
+                              left: 10px;
+                              top: 15px; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .double-menu {
+                        margin: 0 0 20px; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .double-menu.margin-t-15 {
+                          margin: 0 0 20px; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .double-menu a {
+                          margin-bottom: 0;
+                          padding-top: 5px;
+                          padding-bottom: 5px;
+                          font-size: 15px; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .double-menu a.op0 {
+                            display: none; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .double-menu a.top-head {
+                            padding: 8px; }
+                    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs {
+                      display: flex;
+                      flex-wrap: wrap; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .tab-content {
+                        width: 100%; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .tab-content .three-column {
+                          width: 100%; }
+                      .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu {
+                        width: 100%;
+                        position: relative;
+                        padding-left: 0;
+                        border-left: none;
+                        background: #fff; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu.tab-content {
+                          width: 100%;
+                          height: auto;
+                          min-height: auto; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu.mob-hide {
+                          display: none !important; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu:after {
+                          display: none; }
+                        .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu .tab-title {
+                          padding: 0; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu .tab-title a {
+                            padding: 8px;
+                            width: 100%;
+                            margin: 0 0 5px -10px; }
+                          .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs.hire-tabs .other-menu .tab-title .ser-arrow-btn {
+                            right: -15px; }
               .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents {
                 width: 100%;
                 min-height: initial; }
@@ -1563,7 +1934,7 @@ input:-webkit-autofill:active {
                         .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .tab-title a .title {
                           font-size: 15px;
                           line-height: 20px;
-                          color: #262626; }
+                          color: #0f172b; }
                         .header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .tab-title a .menuicon {
                           left: 8px;
                           width: 35px;

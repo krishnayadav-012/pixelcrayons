@@ -1,0 +1,7 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: 'Error: Undefined variable: "$white".\a         on line 3 of C:xampphtdocspixelcrayonsversion-4.0\assetsscss\cta-v3.scss\a\a 1: .footer-form-section {\a 2:   position: relative;\a 3:   background: $white;\a 4: \a 5:   ::placeholder {\a 6:     color: rgba(50, 50, 50, 0.5);\a 7:   }\a 8: ';
+}
+
+/*# sourceMappingURL=cta-v3.min.css.map */

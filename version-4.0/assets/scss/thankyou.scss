@@ -1,5 +1,6 @@
-@import "_default";
-@import "_menu-v5";
+@use "_default" as *;
+@use "_default" as *;
+@use "_menu-v5" as *;
 body{background-color: #1D1C39;
   color: #BDB7B7;}
   .bg-voilet {
