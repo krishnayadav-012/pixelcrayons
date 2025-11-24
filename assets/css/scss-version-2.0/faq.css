@@ -1,0 +1,194 @@
+.faq h2 {
+  font-weight: 500;
+}
+
+.faq .faq-accordion-default {
+  border: 0.927304px solid #dcdcdc;
+  border-radius: 6px;
+  padding: 30px 25px 28px 37px;
+  margin-bottom: 20px;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default {
+  display: block;
+  opacity: 0.9;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default ul {
+  list-style: disc;
+  padding: 10px 25px;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default ul li {
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default ul li strong, .faq .faq-accordion-default .faq-accordion-content-default ul li b {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default ol {
+  padding: 25px;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default ol li {
+  margin-bottom: 10px;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default p {
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.faq .faq-accordion-default .faq-accordion-content-default p strong, .faq .faq-accordion-default .faq-accordion-content-default p b {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.faq .faq-outer {
+  border: 0.927304px solid #dcdcdc;
+  border-radius: 6px;
+}
+
+.faq .faq-outer .faq-accordion-item-outer {
+  padding: 24px 30px 28px 60px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle {
+  position: relative;
+  cursor: pointer;
+}
+
+.faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle::before {
+  content: "";
+  clear: both;
+  display: block;
+  background: #016be3;
+  height: 3px;
+  width: 15px;
+  border-radius: 4px;
+  position: absolute;
+  left: -28px;
+  top: 11px;
+}
+
+.faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle:after {
+  content: "";
+  clear: both;
+  display: block;
+  background: #016be3;
+  height: 15px;
+  width: 3px;
+  border-radius: 4px;
+  position: absolute;
+  left: -22px;
+  top: 5px;
+}
+
+.faq .faq-outer .faq-accordion-item-outer .faq-accordion-content {
+  display: none;
+}
+
+.faq .faq-outer .faq-accordion-item-outer .faq-accordion-content p {
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle {
+  color: #016be3;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-toggle::after {
+  display: none;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
+  display: block;
+  opacity: 0.9;
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul {
+  list-style: disc;
+  padding-left: 25px;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666E86;
+  line-height: 26px;
+  opacity: 0.9;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol {
+  padding: 25px;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content ol li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666E86;
+  line-height: 26px;
+  opacity: 0.9;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li {
+  font-weight: normal;
+}
+
+.faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p strong, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content p p, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li strong, .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content li p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.faq.faq-section .faq-outer .faq-accordion-item-outer:hover .faq-accordion-toggle {
+  color: #016be3;
+  cursor: default;
+}
+
+.faq.faq-section .faq-outer .faq-accordion-item-outer:hover .faq-accordion-toggle::after {
+  display: none;
+}
+
+.faq.faq-section .faq-outer .faq-accordion-item-outer:hover .faq-accordion-content {
+  display: block;
+  opacity: 0.9;
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 767px) {
+  .faq .faq-outer .faq-accordion-item-outer {
+    padding: 24px 30px 28px 40px;
+  }
+  .faq .faq-outer .faq-accordion-item-outer.active .faq-accordion-content {
+    opacity: 1;
+  }
+  .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle::before {
+    top: 13px;
+  }
+  .faq .faq-outer .faq-accordion-item-outer .faq-accordion-toggle:after {
+    top: 7px;
+  }
+  .faq .faq-accordion-default .faq-accordion-content-default {
+    opacity: 1;
+  }
+}
+
+
+/*# sourceMappingURL=faq.css.map */

@@ -16,7 +16,7 @@
 @use "footer" as *;
 
 .hero-section {
-  //background: url("../images/home/home-banner-img.webp") top center no-repeat;
+  // background: url("../images/home/home-banner-img.webp") top center no-repeat; 
   background-size: cover;
   height: 100vh;
   display: grid;
@@ -321,8 +321,7 @@
   }
 }
 
-@media (max-width: 1024px) {
-}
+
 
 @media (max-width: 979px) {
   .hero-section {
@@ -395,6 +394,7 @@
         }
         .tab-content {
           margin: 30px 0 0;
+          
           .content {
             p {
               font-size: 16px;

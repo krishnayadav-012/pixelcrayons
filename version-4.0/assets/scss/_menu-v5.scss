@@ -16,13 +16,14 @@ $font16: 16px;
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 25px 0;
+  padding: 10px 0;
   z-index: 99;
   transition: all 0.3s ease-in-out;
   .container {
     padding: 0 30px;
     width: 100%;
     max-width: 1900px;
+    
   }
   .wrapper {
     display: flex;
@@ -265,19 +266,21 @@ $font16: 16px;
                     .tab-title {
                       padding: 15px 0;
                       border-bottom: 1px solid $greycolor;
-                      text-transform: uppercase;
+                      text-transform: capitalize;
                       width: 100%;
                       a {
                         padding-left: 70px;
                         position: relative;
                         display: block;
                         margin: 0;
+                        font-size: 12px;
                         font-weight: 400 !important;
 
                         .title {
                           font-size: $font14;
                           line-height: 22px;
                           color: #0f172b;
+                          margin-bottom: 2px;
 
                           &:hover {
                             color: #ffaf00;
@@ -298,7 +301,7 @@ $font16: 16px;
                     }
 
                     .menu-column {
-                      padding: 0 0 30px;
+                      padding: 15px 0 30px;
                       width: 100%;
                       justify-content: space-between;
                       .flex-2 {
@@ -337,7 +340,7 @@ $font16: 16px;
                         position: relative;
                         padding: 5px 40px 5px 5px;
                         width: max-content;
-                        line-height: 1.2;
+                        line-height: 20px;
                         border-radius: 5px;
                         &.top-head {
                           margin: 15px 0 0;
@@ -368,9 +371,10 @@ $font16: 16px;
                     }
                     a {
                       font-weight: 400 !important;
-                      font-size: $font12;
+                      font-size: $font14;
                       line-height: 20px;
-                      color: #45556c;
+                      // color: #45556c;
+                      color: #4b5563;
                       display: block;
                       padding: 10px;
                       border-radius: 10px;
@@ -560,7 +564,7 @@ $font16: 16px;
                         border-radius: 10px;
                         font-weight: 500;
                         position: relative;
-                        font-size: 16px;
+                        font-size: 14px;
                         &:after {
                           content: "";
                           background: url(../header-images/arrow.svg) no-repeat
@@ -602,14 +606,14 @@ $font16: 16px;
                     .tab-content {
                       width: 100%;
                       display: none;
-                      height: 100%;
+                      height: auto;
                       &.is-active {
                       display: flex;
                       justify-content: space-between;
                       flex-wrap: wrap;
                       }
                       .menu-column {
-                        padding: 0;
+                        // padding: 0;
                         .flex-5 {
                           padding: 0 0 30px;
                         }
@@ -1009,7 +1013,7 @@ $font16: 16px;
     width: 100%;
     background: #1d1c39;
     z-index: 99;
-    padding: 20px 0;
+    padding: 10px 0;
 
     .header-item-left {
       display: flex;
@@ -1238,6 +1242,7 @@ $font16: 16px;
                         //padding: 10px;
                         //border-radius: 10px;
                         //background: transparent;
+                        
 
                         .title {
                           //font-size: 14px;
@@ -1576,3 +1581,54 @@ $font16: 16px;
     }
   }
 }
+
+
+@media screen and (max-width: 1139px) {
+
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column.sub-service
+   {
+        display: none;
+    }
+    .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column.m-active {
+        display: block;
+    }
+        .header-two .ser-arrow-btn.rot, .header-two .hr-arrow-btn.rot, .header-two .tech-arrow-btn.rot {
+        transform: rotate(90deg);
+    }
+  
+  .tab-content{
+    position: relative;
+    
+  }
+
+  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs{
+
+    flex-basis: 100% !important;
+    padding: 0 0 !important;
+  }
+
+  .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents {
+    min-height: unset;
+  }
+
+.tab-content .four-column .tab-title a img{
+  display: none !important;
+}
+
+.header-two .header-item-right .menu ul li .menu-mega .tab-menu .tab-contents .right-tabs .tab-content .tab-title a {
+    padding: 10px !important;}
+
+.header-two .header-item-right .menu ul li .menu-mega.small-menu .tab-menu .tab-contents .right-tabs .tab-content a .title .menuicon {
+    display: none !important;
+}
+
+.header-two .header-item-right .menu ul li .menu-mega.small-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column .top-head {
+  padding: 10px !important;
+}
+
+}
+.header-two .ser-arrow-btn {
+    top: 25px;  
+}
+
+

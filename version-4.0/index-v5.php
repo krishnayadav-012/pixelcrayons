@@ -10,7 +10,7 @@
       content="software outsourcing company, offshore software company, IT outsourcing company, software outsourcing firm, offshore software firm, software outsourcing firm in India, software outsourcing company in India" />
     <meta property="og:title" content="Top IT & Software Outsourcing Company in India - @PixelCrayons" />
     <?php require_once 'assets/include/header-files.php'; ?>
-    <link rel="preload stylesheet" type="text/css" href="assets/css/index.v5.css" defer />
+    <link rel="preload stylesheet" type="text/css" href="assets/css/index-v5.css" defer />
     <style type="text/css">
     @media (max-width: 1139px) {
     .menu-sc-box{display:none;}
