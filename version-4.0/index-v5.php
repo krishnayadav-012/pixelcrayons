@@ -29,6 +29,262 @@
 
     .header-two .header-item-right .menu ul li .menu-mega.service-menu .tab-menu .tab-contents .right-tabs .tab-content 
     .menu-column a:hover{background: #f9fafb; width: max-content;}
+
+
+
+
+/* ------------------------------- */
+/* SNOWFALL EFFECT (PURE CSS)      */
+/* ------------------------------- */
+.lights{
+  width: 100%;
+}
+.lights .blink{
+ position: absolute;
+    bottom: 0;
+  bottom:0;
+  left: 0;
+  animation: twinkle 2s 
+ease-in-out infinite;
+}
+.blink{
+      border-radius: 50%;
+}
+.red.blink{
+
+left:10% ;
+      width: 5px;
+    height: 4px;
+    background: red;
+}
+.green.blink{
+ width: 5px;
+ left:12%;
+    height: 4px;
+     background: green;
+}
+.blue.blink{ width: 5px;
+    height: 4px;
+    left:20%;
+   background: blue;
+  }
+
+
+@keyframes identifier {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+}
+}
+.santa-sleigh {
+    position: absolute;
+   
+    top: 10%; 
+    left: 0; 
+    width: 100px; 
+    height: 50px;
+    animation: flyAcross 12s linear infinite; 
+}
+@keyframes flyAcross {
+    0% {
+        left: 0;
+        
+    }
+   
+    100% {
+        right: 0; 
+        left:100%;
+        
+     
+    }
+  }
+/* Main banner wrapper */
+.top-banner {
+  width: 100%;
+  height: 60px;
+   background: linear-gradient(to right, #C41E3A, #8B0000, #0F6D32);
+  color: white;
+  border-bottom: 1px solid rgba(4, 12, 23, 0.7);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+  overflow: hidden;
+}
+.top-banner:after{
+  position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3c3939;
+    opacity: 0.5;
+    z-index: -1;
+    content: "";
+}
+
+/* Inner flex layout */
+.banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Text area */
+.banner-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  line-height: 1.2;
+}
+
+/* Stars */
+.star {
+  color: gold;
+  font-size: 16px;
+  animation: twinkle 1.6s infinite ease-in-out;
+}
+
+/* Headline text */
+.headline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: gold;
+}
+
+
+.subtext {
+  font-size: 11px;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+
+.banner-close {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.banner-close:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+
+@media (max-width: 480px) {
+  .headline-text {
+    font-size: 12px;
+  }
+  .subtext {
+    font-size: 10px;
+  }
+}
+
+.top-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.snow-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.rain-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.rain-icon {
+  position: absolute;
+  top: -10px; 
+  color: white; 
+  font-size: 8px; 
+  opacity: 0.7; 
+
+  animation-name: rainFalling;
+  animation-timing-function: linear;
+  animation-iteration-count: forwards;
+}
+@keyframes rainFalling {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.8;
+  }
+  100% {
+    
+    transform: translateY(105vh) translateX(5px); 
+    opacity: 0;
+  }
+}
+
+.header-two{
+  top:60px;
+}
+.header-two.sc-up {
+    top: 60px;
+}
+.header-two.sc-down.header-bg {
+    top: 0;
+}
+.header-two.header-bg.sc-up {
+    top: 0;
+}
+.top-banner.off {
+    display: none;
+}
+.header-two.top-hide{
+  top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
     </style>
   </head>
   <body id="themeAdd" class="home">

@@ -1,3 +1,105 @@
+
+
+<div class="top-banner">
+
+<div class="sky">
+        <!-- Replace 'santas.gif' with your own image URL -->
+        <img class="santa-sleigh" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/santas.gif" alt="Santa and Reindeer">
+    </div>
+   <div id="rainContainer" class="rain-container">
+
+   <div class="lights">
+    <div class="red blink" style="left:1%;"></div>
+    <div class="green blink" style="left:5%;"></div>
+    <div class="blue blink" style="left:10%;"></div>
+    <div class="red blink"style="left:15%;"></div>
+    <div class="green blink" style="left:20%;"></div>
+    <div class="blue blink" style="left:25%;"></div>
+    <div class="red blink"style="left:30%"></div>
+    <div class="green blink"style="left:35%;"></div>
+    <div class="blue blink"style="left:40%;"></div>
+    <div class="red blink"style="left:45%;"></div>
+    <div class="green blink"style="left:50%;"></div>
+    <div class="blue blink"style="left:55%;"></div>
+    <div class="red blink"style="left:60%;"></div>
+    <div class="green blink"style="left:65%;"></div>
+    <div class="blue blink"style="left:70%;"></div>
+    <div class="red blink"style="left:75%;"></div>
+    <div class="green blink"style="left:80%;"></div>
+    <div class="blue blink"style="left:85%;"></div>
+    <div class="red blink"style="left:90%;"></div>
+    <div class="green blink"style="left:9%;"></div>
+    <div class="blue blink"style="left:99%;"></div>
+   </div>
+  <!-- Snowfall layers -->
+  <div class="snow-container">
+  <!-- <div class="snowflake">❄</div> -->
+  <!-- <div class="snowflake">✦</div> -->
+ 
+</div>
+</div>
+  <div class="banner-inner">
+    <div class="banner-text">
+      <div class="headline">
+        <span class="star">★</span>
+        <span class="headline-text">Open For Business All Holiday Season</span>
+        <span class="star">★</span>
+      </div>
+      <div class="subtext">Your invisible growth partner is here for you.</div>
+    </div>
+
+    <button class="banner-close" aria-label="Close Banner">
+      ✕
+    </button>
+  </div>
+</div>
+<script>
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('.banner-close')) {
+        document.querySelector('.top-banner').classList.add('off');
+        document.querySelector('.header-two').classList.add('top-hide');
+    }
+});
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const rainContainer = document.getElementById('rainContainer');
+    // The icons provided by the user
+    const icons = ['❄', '✦', '✧']; 
+
+    function createRainIcon() {
+        const iconElement = document.createElement('div');
+        iconElement.classList.add('rain-icon');
+        
+        // Select a random icon from the list
+        iconElement.textContent = icons[Math.floor(Math.random() * icons.length)]; 
+
+        // Randomize starting horizontal position (0% to 100% width)
+        iconElement.style.left = Math.random() * 100 + 'vw'; 
+        
+        // Randomize animation duration for a varied rain speed
+        // Duration range: 1.5s to 3.5s (similar to your fast times)
+        iconElement.style.animationDuration = Math.random() * 2 + 1.5 + 's'; 
+
+        // Add a slight random delay so they don't all start at once
+        iconElement.style.animationDelay = Math.random() * 0.5 + 's'; 
+        
+        rainContainer.appendChild(iconElement);
+
+        // Remove the element after it finishes its animation (when it hits the bottom)
+        iconElement.addEventListener('animationend', () => {
+            iconElement.remove();
+        });
+    }
+
+    // Continuously generate new rain icons quickly (e.g., every 50ms)
+    // This makes the effect feel heavy and continuous.
+    setInterval(createRainIcon, 50); 
+});
+</script>
+
+
+
 <header class="header-two">
   <div class="container">
     <div class="wrapper">
