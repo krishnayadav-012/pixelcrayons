@@ -146,6 +146,7 @@ $font16: 16px;
               &:after {
                 display: none;
               }
+              
               .menuicon {
                 position: absolute;
                 left: 10px;
@@ -153,6 +154,7 @@ $font16: 16px;
                 display: block;
                 filter: grayscale(1);
               }
+
               &:last-child {
                 margin: 0;
               }
@@ -163,7 +165,7 @@ $font16: 16px;
             }
 
             &.small-menu {
-              
+              left:64%;
               width: 280px;
               padding: 20px;
               border-radius: 10px;
@@ -201,7 +203,7 @@ $font16: 16px;
 
               &.solution-menu {
                 width: 320px;
-                left: 55%;
+                left: 57%;
                 margin: 0 auto;
                 border-radius: 10px;
                 .tab-menu {
@@ -1013,7 +1015,7 @@ $font16: 16px;
           &.small-menu {
             left: 58%;
             &.industries-menu {
-              left: 50%;
+              left: 57%;
             }
             &.about-menu {
               left: 63%;
