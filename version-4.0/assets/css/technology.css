@@ -1774,6 +1774,16 @@ input:-webkit-autofill:active {
     left: 75%;
   }
 }
+@media screen and (max-width: 1920px) {
+  .header-two .header-item-right .menu ul li .menu-mega .industries-menu {
+    left: 68%;
+  }
+}
+@media screen and (max-width: 1780px) {
+  .header-two .header-item-right .menu ul li .menu-mega .industries-menu {
+    left: 64%;
+  }
+}
 @media screen and (max-width: 1700px) {
   .header-two .container {
     max-width: 100%;
@@ -1785,7 +1795,7 @@ input:-webkit-autofill:active {
     left: 50%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-    left: 50%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
     left: 70%;
@@ -1796,10 +1806,10 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 38%;
+    left: 46%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-    left: 50%;
+    left: 60%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
     left: 70%;
@@ -1813,7 +1823,7 @@ input:-webkit-autofill:active {
     left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-    left: 50%;
+    left: 57%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
     left: 67%;
@@ -1833,7 +1843,7 @@ input:-webkit-autofill:active {
     width: 100%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.service-menu {
-    width: 92%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -1853,10 +1863,13 @@ input:-webkit-autofill:active {
     left: 58%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-    left: 40%;
+    left: 50%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
-    left: 67%;
+    left: 63%;
+  }
+  .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
+    left: 38%;
   }
 }
 @media screen and (max-width: 1139px) {
