@@ -1645,7 +1645,6 @@ input:-webkit-autofill:active {
 }
 .header-two .header-item-right .menu ul li:hover .menu-mega {
   display: block;
-  left: 63%;
 }
 .header-two .header-item-right .cta-wrap {
   display: inline-block;
