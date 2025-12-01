@@ -33,9 +33,6 @@
    </div>
   <!-- Snowfall layers -->
   <div class="snow-container">
-  <!-- <div class="snowflake">❄</div> -->
-  <!-- <div class="snowflake">✦</div> -->
- 
 </div>
 </div>
   <div class="banner-inner">

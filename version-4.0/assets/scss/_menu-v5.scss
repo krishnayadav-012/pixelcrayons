@@ -189,6 +189,7 @@ $font16: 16px;
                           &.top-head {
                             padding: 5px 5px 8px 38px;
                             width: auto;
+                            font-size: $font12;
                             margin: 5px 0 0;
                           }
                         }
@@ -199,7 +200,7 @@ $font16: 16px;
               }
 
               &.solution-menu {
-                width: 580px;
+                width: 320px;
                 left: 50%;
                 margin: 0 auto;
                 border-radius: 10px;
@@ -221,7 +222,7 @@ $font16: 16px;
               }
 
               &.industries-menu {
-                width: 500px;
+                
                 left: 50%;
               }
 
@@ -349,6 +350,7 @@ $font16: 16px;
                           line-height: 1;
                           .title {
                             margin: 0;
+                            
                           }
                           &.p0 {
                             margin-top: 0;
@@ -844,15 +846,15 @@ $font16: 16px;
       .menu ul li {
         .menu-mega {
           &.small-menu {
-            left: 69%;
+            left: 72%;
             &.solution-menu {
-              left: 50%;
+              left: 57%;
             }
             &.industries-menu {
-              left: 60%;
+              left: 68%;
             }
             &.about-menu {
-              left: 72%;
+              left: 75%;
             }
           }
         }
@@ -860,6 +862,7 @@ $font16: 16px;
     }
   }
 }
+
 
 @media screen and (max-width: 1700px) {
   .header-two {
@@ -1631,9 +1634,3 @@ $font16: 16px;
 .header-two .ser-arrow-btn {
     top: 25px;  
 }
-
-
-
-
-
-

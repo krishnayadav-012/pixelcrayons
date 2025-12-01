@@ -51,17 +51,16 @@ ease-in-out infinite;
       border-radius: 50%;
 }
 .red.blink{
-
-left:10% ;
-      width: 5px;
-    height: 4px;
-    background: red;
+   left:10% ;
+   width: 5px;
+   height: 4px;
+   background: red;
 }
 .green.blink{
  width: 5px;
  left:12%;
-    height: 4px;
-     background: green;
+ height: 4px;
+ background: green;
 }
 .blue.blink{ width: 5px;
     height: 4px;
@@ -255,6 +254,17 @@ left:10% ;
   }
 }
 
+.header-two.sc-up .header-item-right .mob-nav{
+  top:88px !important;
+
+} 
+.header-two.sc-down .header-item-right .mob-nav{
+  top:88px !important;
+}
+.header-two .header-item-right .mob-nav{
+  top:153px !important;
+
+}
 .header-two{
   top:60px;
 }

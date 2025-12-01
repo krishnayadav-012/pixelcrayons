@@ -1242,10 +1242,11 @@ input:-webkit-autofill:active {
 .header-two .header-item-right .menu ul li .menu-mega.small-menu .tab-menu .tab-contents .right-tabs .tab-content .menu-column a.top-head {
   padding: 5px 5px 8px 38px;
   width: auto;
+  font-size: 12px;
   margin: 5px 0 0;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-  width: 580px;
+  width: 320px;
   left: 50%;
   margin: 0 auto;
   border-radius: 10px;
@@ -1254,7 +1255,6 @@ input:-webkit-autofill:active {
   top: 11px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-  width: 500px;
   left: 50%;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
@@ -1762,16 +1762,16 @@ input:-webkit-autofill:active {
 
 @media screen and (max-width: 2490px) {
   .header-two .header-item-right .menu ul li .menu-mega.small-menu {
-    left: 69%;
+    left: 72%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 50%;
+    left: 57%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
-    left: 60%;
+    left: 68%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.about-menu {
-    left: 72%;
+    left: 75%;
   }
 }
 @media screen and (max-width: 1700px) {
