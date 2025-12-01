@@ -163,7 +163,7 @@ $font16: 16px;
             }
 
             &.small-menu {
-              left: 64%;
+              
               width: 280px;
               padding: 20px;
               border-radius: 10px;
@@ -201,7 +201,7 @@ $font16: 16px;
 
               &.solution-menu {
                 width: 320px;
-                left: 50%;
+                left: 55%;
                 margin: 0 auto;
                 border-radius: 10px;
                 .tab-menu {
@@ -223,12 +223,12 @@ $font16: 16px;
 
               &.industries-menu {
                 
-                left: 50%;
+                left: 61%;
               }
 
               &.about-menu {
                 width: 280px;
-                left: 67%;
+                left: 64%;
               }
             }
 
@@ -673,6 +673,7 @@ $font16: 16px;
           &:hover {
             .menu-mega {
               display: block;
+              left: 63%;
             }
           }
         }
@@ -872,6 +873,11 @@ $font16: 16px;
         left: 64%;
     }
 }
+@media screen and (max-width: 2490px) {
+    .header-two .header-item-right .menu ul li .menu-mega .industries-menu {
+        left: 65% !important;
+    }
+  }
 
 @media screen and (max-width: 1700px) {
   .header-two {
