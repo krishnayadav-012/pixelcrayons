@@ -1,5 +1,4 @@
 
-
 <div class="top-banner">
 
 <div class="sky">
@@ -7,7 +6,6 @@
         <img class="santa-sleigh" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/santas.gif" alt="Santa and Reindeer">
     </div>
    <div id="rainContainer" class="rain-container">
-
    <div class="lights">
     <div class="red blink" style="left:1%;"></div>
     <div class="green blink" style="left:5%;"></div>
