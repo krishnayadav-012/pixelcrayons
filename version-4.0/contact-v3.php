@@ -7,8 +7,10 @@
     <title>px - form</title>
 
     <link rel="preload stylesheet" type="text/css" href="assets/form-version-v3/form-county.css" defer />
+    <link rel="stylesheet" href="assets/css/index-v5.css">
+    <link rel="stylesheet" href="assets/css/dev-style.css">
     <link rel="preload stylesheet" type="text/css"
-        href="https://www.valuecoders.com/wp-content/themes/valuecoders/dev-style.css" defer />
+        href="https://www.pixelcrayons.com/wp-content/cache/min/1/wp-content/themes/pixelcrayons/dev-style.css?ver=1766056420" defer />
     <link rel="preload stylesheet" type="text/css" href="assets/css/contact-v3.css" defer />
     <!-- SEO Structured Data -->
     <script type="application/ld+json">
@@ -55,8 +57,9 @@
     <script defer src="assets/form-version-v3/form-validation-v10.js"></script>
 </head>
 
-<body>
+<body class="pxl-contant-page">
     <main>
+        <?php require_once 'assets/include/menu-v5.php'; ?>
         <div class="container">
             <!-- Mobile Header -->
             <section class="mobile-header">
@@ -65,7 +68,7 @@
                         <div class="pulse-dot"></div>
                         <div class="pulse-inner"></div>
                     </div>
-                    Accepting New Projects
+                    Partner Intake: Open
                 </div>
                 <h1>
                     Let's Build Something <br />
@@ -131,7 +134,7 @@
                                     d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
                                 </path>
                             </svg>
-                            Global Hubs
+                            Global Delivery Hubs
                         </p>
                         <div class="global-hubs-card">
                             <div class="location-tabs" id="locationTabs"></div>
@@ -153,9 +156,19 @@
                                 <span class="contact-card-subtitle">Response time: &lt; 8 hours</span>
                             </div>
                         </div>
-                        <svg class="icon-lg contact-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M7 7l6 6 6-6M7 11l6 6 6-6"></path>
+                        
+                        <svg id='Up_Right_24' class="icon-lg contact-arrow" width='16' height='16' viewBox='0 0 24 24'
+                            xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                            <rect width='24' height='24' stroke='none' fill='#000000' opacity='0' />
+
+
+                            <g transform="matrix(0.53 0 0 0.53 12 12)">
+                                <path
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                    transform=" translate(-25, -25)"
+                                    d="M 42.980469 5.992188 C 42.941406 5.992188 42.90625 5.996094 42.871094 6 L 27 6 C 26.640625 5.996094 26.304688 6.183594 26.121094 6.496094 C 25.941406 6.808594 25.941406 7.191406 26.121094 7.503906 C 26.304688 7.816406 26.640625 8.003906 27 8 L 40.585938 8 L 6.292969 42.292969 C 6.03125 42.542969 5.925781 42.917969 6.019531 43.265625 C 6.109375 43.617188 6.382813 43.890625 6.734375 43.980469 C 7.082031 44.074219 7.457031 43.96875 7.707031 43.707031 L 42 9.414063 L 42 23 C 41.996094 23.359375 42.183594 23.695313 42.496094 23.878906 C 42.808594 24.058594 43.191406 24.058594 43.503906 23.878906 C 43.816406 23.695313 44.003906 23.359375 44 23 L 44 7.125 C 44.011719 7.035156 44.011719 6.941406 44 6.851563 L 44 6 L 43.144531 6 C 43.089844 5.992188 43.035156 5.988281 42.980469 5.992188 Z"
+                                    stroke-linecap="round" />
+                            </g>
                         </svg>
                     </a>
                 </div>
@@ -196,12 +209,12 @@
                                 <section class="form-section">
                                     <h3 class="section-title">
                                         <span class="section-number">1</span>
-                                        
-                                       <div class="tworoes-text">
-                                        Project Context <br>    
-                                        <span>Tell us what you're looking for.</span>
-                                       </div>
-                                        
+
+                                        <div class="tworoes-text">
+                                            Project Context <br>
+                                            <span>Tell us what you're looking for.</span>
+                                        </div>
+
                                     </h3>
 
 
@@ -404,9 +417,9 @@
                                     <h3 class="section-title">
                                         <span class="section-number">2</span>
                                         <div class="tworoes-text">
-                                        Contact Details <br>    
-                                        <span>Where should we send the proposal?</span>
-                                       </div>
+                                            Contact Details <br>
+                                            <span>Where should we send the proposal?</span>
+                                        </div>
                                     </h3>
 
                                     <div class="input-grid">
@@ -438,17 +451,12 @@
                                             <label for="cont_country" class="form-label">Country</label>
                                         </div>
                                         <div class="input-wrapper">
-                                            <div class="input-icon">
-                                                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-width="2"
-                                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
-                                                    </path>
-                                                </svg>
+                                            <div class="input-icon flags">
+
                                             </div>
-                                            <input type="text" id="cont_country" name="country"
-                                                class="form-input has-icon" placeholder=" ">
-                                            <label for="cont_country" class="form-label">Country</label>
+                                            <input type="text" name="phone" id="phone" class="form-input has-icon"
+                                                placeholder=" ">
+                                            <label for="phone" class="form-label country-flag">Phone (Optional)</label>
                                         </div>
 
 
@@ -457,7 +465,8 @@
                                     <div class="textarea-wrapper">
                                         <textarea id="message" name="message" class="form-textarea" rows="5"
                                             placeholder=" "></textarea>
-                                        <label for="message" class="form-label">Project Details *</label>
+                                        <label for="message" class="form-label">Tell us about your project or needs
+                                            *</label>
 
                                     </div>
 
@@ -485,48 +494,52 @@
 
 
                                     <div class="form-grid full-w input-wrapper">
-                                            <div class="custom-select-container" id="interestDropdown">
-                                                <select name="interest" id="real-data-input" required="" style="display:none;">
-                                                    <option value=""></option>
-                                                    <option value="White-Label Partnership">White-Label Partnership
-                                                    </option>
-                                                    <option value="Project Quote">Project Quote</option>
-                                                    <option value="Dedicated Team / Retainer">Dedicated Team /
-                                                        Retainer</option>
-                                                    <option value="General Inquiry">General Inquiry</option>
-                                                    <option value="Existing Client Support">Existing Client Support
-                                                    </option>
-                                                </select>
+                                        <div class="custom-select-container" id="interestDropdown">
+                                            <select name="interest" id="real-data-input" required=""
+                                                style="display:none;">
+                                                <option value=""></option>
+                                                <option value="White-Label Partnership">White-Label Partnership
+                                                </option>
+                                                <option value="Project Quote">Project Quote</option>
+                                                <option value="Dedicated Team / Retainer">Dedicated Team /
+                                                    Retainer</option>
+                                                <option value="General Inquiry">General Inquiry</option>
+                                                <option value="Existing Client Support">Existing Client Support
+                                                </option>
+                                            </select>
 
-                                                
 
-                                                <div class="select-trigger" onclick="this.parentElement.classList.toggle('active')">
-                                                    <span id="display-text"></span>
-                                                </div>
 
-                                                <label class="floating-label">I'm interested in *</label>
-
-                                                <div class="arrow-icon">
-                                                    <svg width="10px" height="10px" viewBox="0 0 122.88 80.593">
-                                                        <g>
-                                                            <polygon points="122.88,0 122.88,30.82 61.44,80.593 0,30.82 0,0 61.44,49.772 122.88,0"></polygon>
-                                                        </g>
-                                                    </svg>
-                                                </div>
-
-                                                <ul class="main-list-box">
-                                                    <li onclick="selectOption('White-Label Partnership')">
-                                                        White-Label Partnership</li>
-                                                    <li onclick="selectOption('Project Quote')">Project Quote</li>
-                                                    <li onclick="selectOption('Dedicated Team / Retainer')">
-                                                        Dedicated Team / Retainer</li>
-                                                    <li onclick="selectOption('General Inquiry')">General Inquiry
-                                                    </li>
-                                                    <li onclick="selectOption('Existing Client Support')">Existing
-                                                        Client Support</li>
-                                                </ul>
+                                            <div class="select-trigger"
+                                                onclick="this.parentElement.classList.toggle('active')">
+                                                <span id="display-text"></span>
                                             </div>
+
+                                            <label class="floating-label">I'm interested in *</label>
+
+                                            <div class="arrow-icon">
+                                                <svg width="10px" height="10px" viewBox="0 0 122.88 80.593">
+                                                    <g>
+                                                        <polygon
+                                                            points="122.88,0 122.88,30.82 61.44,80.593 0,30.82 0,0 61.44,49.772 122.88,0">
+                                                        </polygon>
+                                                    </g>
+                                                </svg>
+                                            </div>
+
+                                            <ul class="main-list-box">
+                                                <li onclick="selectOption('White-Label Partnership')">
+                                                    White-Label Partnership</li>
+                                                <li onclick="selectOption('Project Quote')">Project Quote</li>
+                                                <li onclick="selectOption('Dedicated Team / Retainer')">
+                                                    Dedicated Team / Retainer</li>
+                                                <li onclick="selectOption('General Inquiry')">General Inquiry
+                                                </li>
+                                                <li onclick="selectOption('Existing Client Support')">Existing
+                                                    Client Support</li>
+                                            </ul>
                                         </div>
+                                    </div>
 
 
                                 </section>
@@ -534,23 +547,35 @@
                                 <!-- Form Footer -->
                                 <div class="form-footer">
                                     <div class="info-badges">
-                                        <p> <span><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg></span> Your data is protected by our <a href="#">Privacy Policy</a></p>
+                                        <p> <span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    class="w-5 h-5 text-brand-600 dark:text-lime-400"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                                    <path d="m9 12 2 2 4-4"></path>
+                                                </svg></span> Your data is protected by our <a href="#">Privacy
+                                                Policy</a></p>
                                     </div>
-                                <div class="submit-btn-right">
-                                    <button type="submit" class="submit-button" id="submitBtn">
-                                        <span id="btnText">Submit Request</span>
-                                        <svg id="btnArrow" class="icon-lg" fill="none" stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                        </svg>
-                                        <div id="btnSpinner" class="spinner hidden"></div>
-                                    </button>
+                                    <div class="submit-btn-right">
+                                        <button type="submit" class="submit-button" id="submitBtn">
+                                            <span id="btnText">Submit Request</span>
+                                            <svg id="btnArrow" class="icon-lg" fill="none" stroke="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                            </svg>
+                                            <div id="btnSpinner" class="spinner hidden"></div>
+                                        </button>
 
-                                   <p> <span><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg></span> Avg. Response Time: < 4 Business Hours
-</p>
+                                        <p> <span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    class="w-5 h-5 text-brand-600 dark:text-lime-400"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                                    <path d="m9 12 2 2 4-4"></path>
+                                                </svg></span> Avg. Response Time: < 4 Business Hours </p>
 
-                                 </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -699,6 +724,19 @@
                 document.getElementById('interestDropdown').classList.remove('active');
             }
         }
+
+
+ 
+
+    const cards = document.querySelectorAll('.service-card');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            // Toggle adds the class if it's missing, and removes it if it's there
+            card.classList.toggle('selected');
+        });
+    });
+
     </script>
 
 </body>
