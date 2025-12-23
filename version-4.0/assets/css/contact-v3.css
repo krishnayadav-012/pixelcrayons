@@ -1484,6 +1484,7 @@ body.dark .mobile-header p {
   justify-content: space-between;
   align-items: start;
   margin-top: 110px;
+  margin-bottom: 50px;
 }
 
 /* === Left Column === */
@@ -3237,7 +3238,7 @@ Enterprise File Uploader Theme
 /* Flex Container */
 .services-container {
   display: flex;
-  flex-wrap: wrap; /* Makes it responsive */
+  flex-wrap: wrap;
   gap: 10px;
   width: 100%;
   justify-content: flex-start;
