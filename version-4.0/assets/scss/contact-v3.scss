@@ -2036,6 +2036,11 @@ to{transform:rotate(360deg)}
     padding: 10px 15px;
     border-bottom: 1px solid #d4d4d430;
 }
+
+.custom-select-container.overflow-list.active .main-list-box{
+height: 185px;
+overflow-y: scroll;
+}
 .form-section .autocomplete-items div strong{
     font-weight: 500;
 }

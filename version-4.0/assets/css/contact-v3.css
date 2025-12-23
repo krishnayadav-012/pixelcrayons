@@ -3200,6 +3200,11 @@ Enterprise File Uploader Theme
   border-bottom: 1px solid rgba(212, 212, 212, 0.1882352941);
 }
 
+.custom-select-container.overflow-list.active .main-list-box {
+  height: 185px;
+  overflow-y: scroll;
+}
+
 .form-section .autocomplete-items div strong {
   font-weight: 500;
 }

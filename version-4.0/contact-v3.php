@@ -494,7 +494,7 @@
 
 
                                     <div class="form-grid full-w input-wrapper">
-                                        <div class="custom-select-container" id="interestDropdown">
+                                        <div class="custom-select-container overflow-list" id="interestDropdown">
                                             <select name="interest" id="real-data-input" required=""
                                                 style="display:none;">
                                                 <option value=""></option>
@@ -724,7 +724,7 @@
                 document.getElementById('interestDropdown').classList.remove('active');
             }
         }
-        
+
 
  
 
