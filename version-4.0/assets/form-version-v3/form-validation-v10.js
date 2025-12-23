@@ -325,8 +325,8 @@ const locations = [
     name: 'New York', 
     country: 'USA', 
     flag: 'https://flagcdn.com/w40/us.png',
-    address: 'One World Trade Center, New York', 
-    phone: '+1 888 123 4567', 
+    address: '5900 Balcones Drive, STE 100, Austin , TX 78731, USA', 
+    phone: '+1 628 9003009', 
     timeZone: 'America/New_York', 
     email: 'sales.us@valuecoders.com' 
 },
@@ -335,8 +335,8 @@ const locations = [
     name: 'London', 
     country: 'UK', 
     flag: 'https://flagcdn.com/w40/gb.png',
-    address: 'Canary Wharf, London E14', 
-    phone: '+44 20 7123 4567', 
+    address: '167-169 Great Portland Street, 5th Floor, London W1W 5PF, United Kingdom', 
+    phone: '+44 20 3239 2299', 
     timeZone: 'Europe/London', 
     email: 'sales.uk@valuecoders.com' 
 },
@@ -345,8 +345,7 @@ const locations = [
     name: 'Dubai', 
     country: 'UAE', 
     flag: 'https://flagcdn.com/w40/ae.png',
-    address: 'Business Bay, Dubai', 
-    phone: '+971 4 123 4567', 
+    address: '541, 8W, Level 5, Dubai Airport Free Zone, Dubai, United Arab Emirates',  
     timeZone: 'Asia/Dubai', 
     email: 'sales.ae@valuecoders.com' 
 },
@@ -355,8 +354,8 @@ const locations = [
     name: 'Noida', 
     country: 'India', 
     flag: 'https://flagcdn.com/w40/in.png',
-    address: 'PixelCrayons Tower, Udyog Vihar, Delhi NCR', 
-    phone: '+91 124 430 0000', 
+    address: 'Noida : 11th Floor, Max Square, Noida-Greater Noida Expy, Sector 129, Noida, Uttar Pradesh 201304', 
+    phone: '+91 965 018 5287', 
     timeZone: 'Asia/Kolkata', 
     email: 'sales@valuecoders.com' 
 },

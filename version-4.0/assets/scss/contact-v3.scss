@@ -448,7 +448,8 @@ body.dark .mobile-header p {
     margin-bottom: 2rem;
     border-radius: 9999px;
     background: var(--blue-50);
-    color: var(--navy-700);
+    // color: var(--navy-700);
+    color: var(--amber-500);
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1208,8 +1209,18 @@ body.dark .form-input:not(:placeholder-shown) + .form-label {
 .form-section .iti__country-list{
     max-width: 380px;
 }
+.form-section .input-wrapper .iti__country-list{
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+}
+.iti__country.iti__standard.iti__highlight{
+    background-color: #f8fafc;
+    color: var(--amber-500);
+    
+}
 .form-section .iti__country{
     padding: 5px 10px;
+    border: none;
 }
 .country-codes{
     left: 80px;
@@ -2015,14 +2026,22 @@ to{transform:rotate(360deg)}
 .form-section .autocomplete-items div{
     // background-color: #fff;
     color: #4B5563;
+    padding: 5px 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.form-section .autocomplete-items div:hover{
+    background-color:#e2e8f0 ;
+
 }
 .form-section .autocomplete-items {
-    background-color: #f8fafc;
+    background-color: #fff;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
             border: 2px solid var(--slate-200);
 }
 .form-section .autocomplete-items{
     border-radius: 5px;
+    padding: 10px;
 }
 
 
