@@ -309,20 +309,7 @@ body.dark .nav-phone:hover {
     color: var(--amber-400);
 }
 
-/* === Main Content === */
-main {
-    position: relative;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 1600px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 /* === Mobile Header === */
 .mobile-header {
@@ -425,6 +412,7 @@ body.dark .mobile-header p {
     gap: 3rem;
     justify-content: space-between;
     align-items: start;
+    margin-top: 110px;
 }
 
 /* === Left Column === */
@@ -448,7 +436,6 @@ body.dark .mobile-header p {
     margin-bottom: 2rem;
     border-radius: 9999px;
     background: var(--blue-50);
-    // color: var(--navy-700);
     color: var(--amber-500);
     font-size: 12px;
     font-weight: 700;
@@ -456,6 +443,7 @@ body.dark .mobile-header p {
     letter-spacing: 0.1em;
     border: 1px solid var(--blue-100);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 body.dark .hero-badge {
@@ -1880,7 +1868,7 @@ body.dark .footer-icon:hover {
 
 @media (max-width: 768px) {
     .form-content {
-        padding: 1.5rem;
+        padding: 1.5rem 14px;
     }
 
     .console-header {
@@ -1897,6 +1885,7 @@ body.dark .footer-icon:hover {
 
     .form-footer {
         flex-direction: column;
+         gap: 10px;
     }
 
     .submit-button {
@@ -1907,6 +1896,8 @@ body.dark .footer-icon:hover {
     .info-badges {
         flex-direction: column;
         width: 100%;
+        align-items: center;
+       
     }
 
     .info-badge {
@@ -1938,6 +1929,10 @@ body.dark .footer-icon:hover {
         width: 100%;
 
     }
+    .pxl-contant-page .mobile-header{
+        margin-top: 7rem;
+    }
+    
     .left-column{
         width: 100%;
     }
@@ -1946,6 +1941,9 @@ body.dark .footer-icon:hover {
     }
    
 }
+@media screen and (max-width:1023px) {
+    .pxl-contant-page .content-grid{margin-top: 40px;}
+}
 @media screen and (max-width: 767px) {
     .scope-button{
         width: calc(50% - 7px);
@@ -1953,12 +1951,21 @@ body.dark .footer-icon:hover {
     .service-card{
         width: calc(33.33% - 10px) !important;
     }
+    .upload-container{
+        padding: 20px !important;
+        flex-direction: column;
+    }
 }
 @media screen and (max-width: 540px) {
     .scope-button{
         width: 100%;
         padding: 10px 12px;
         min-height: 3rem;
+    }
+   
+    .upload-icon-circle svg{
+        width: 16px;
+        height: 16px;
     }
     .scope-checkbox{
                 bottom: unset;
