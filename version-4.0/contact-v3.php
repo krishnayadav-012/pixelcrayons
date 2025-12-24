@@ -7,7 +7,6 @@
     <title>px - form</title>
 
     <link rel="preload stylesheet" type="text/css" href="assets/form-version-v3/form-county.css" defer />
-    <link rel="stylesheet" href="assets/css/index-v5.css">
     <link rel="stylesheet" href="assets/css/dev-style.css">
     <link rel="preload stylesheet" type="text/css"
         href="https://www.pixelcrayons.com/wp-content/cache/min/1/wp-content/themes/pixelcrayons/dev-style.css?ver=1766056420" defer />
@@ -736,6 +735,13 @@
             card.classList.toggle('selected');
         });
     });
+
+
+if(document.querySelector(".header-two")){var lastScrollTop=0;window.addEventListener("scroll",function(){window.pageYOffset>10?document.querySelector(".header-two").classList.add("header-bg"):document.querySelector(".header-two").classList.remove("header-bg");let scrollST=window.pageYOffset||document.documentElement.scrollTop;if(scrollST>lastScrollTop){document.querySelector(".header-two").classList.remove("sc-up");document.querySelector(".header-two").classList.add("sc-down")}else{document.querySelector(".header-two").classList.remove("sc-down");document.querySelector(".header-two").classList.add("sc-up")}
+lastScrollTop=scrollST<=0?0:scrollST})}
+
+
+
 
     </script>
 
