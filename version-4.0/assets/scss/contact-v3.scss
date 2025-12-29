@@ -529,6 +529,8 @@ body.dark .cert-item {
 
 .cert-item svg {
     color: var(--amber-500);
+    width: 17px;
+    height: 17px;
 }
 
 /* === Global Hubs === */
@@ -1193,7 +1195,16 @@ body.dark .form-input:not(:placeholder-shown) + .form-label {
 .iti__selected-flag .iti__arrow{
     border-color: #475569 !important;
     margin-left: 9px;
+    transition: 0.4s !important;
 }
+.iti__selected-flag .iti__arrow.iti__arrow--up {
+    transform: rotate(-136deg) !important;
+    transition: 0.4s;
+    margin-top: 5px;
+}
+
+
+
 .iti__flag-container .iti__selected-flag{
     border-right: 1px solid #ddd;
 
@@ -2370,10 +2381,19 @@ ease;
     background-color: #fff;
     border: 2px solid var(--amber-500);
 }
+
 .header-two .header-item-right .menu ul li.menu-item-has-children a{color: #45556c;}
 .header-two .header-item-left .large .dark{display: block;}
 .header-two .header-item-left .large .light{display: none;}
-// .pxl-contant-page .header-two{top: 60px;}
+
+@media screen and (max-width: 1139px) {
+    .header-two .header-item-left .large .light {display: block;}
+    .header-two .header-item-left .large .dark{display: none;}
+       .header-two.sc-up img.light{display: block;}
+    .header-two.header-bg.sc-up{background-color: #1d1c39 !important;}  
+.header-two.sc-down.header-bg{background-color: #1d1c39 !important;}
+}
+
 .header-two {
     top: 60px;
     
@@ -2409,3 +2429,4 @@ ease;
     background: #fff;
     border: none;
 }
+.section-title.no-border{border: none; margin-bottom: 0;}
