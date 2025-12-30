@@ -30,6 +30,7 @@
     --myfont: "Plus Jakarta Sans", sans-serif;
     --heading-color: #05164d;
     --border-color:#e5e7eb;
+    --font-mons:"Montserrat", sans-serif;
 }
 
 /* === Selection === */
@@ -1102,6 +1103,7 @@ body.dark .input-icon {
     color: var(--navy-900);
     transition: all 0.2s ease;
     outline: none;
+    font-family:var(--font-mons) ;
 }
 
 
@@ -2065,6 +2067,7 @@ overflow-y: scroll;
 
 .form-section .autocomplete-items div:hover{
     background-color:#f1f5f9 ;
+    cursor: pointer;
 
 }
 .form-section .autocomplete-items {
@@ -2170,18 +2173,19 @@ overflow-y: scroll;
 }
 
 /* Text Styles */
+
 .card-title {
   font-size: 12px;
   color: #1e293b;
   margin: 0;
-  line-height: unset;
+  line-height: 18px;
 }
 
 .card-desc {
   font-size: 10px;
   color: #94a3b8;
   margin: 4px;
-  line-height: 0;
+  line-height: 12px;
 }
 
 /* Responsive adjustments for mobile */
@@ -2430,3 +2434,5 @@ ease;
     border: none;
 }
 .section-title.no-border{border: none; margin-bottom: 0;}
+.ad-file{
+margin-bottom: 10px;}
