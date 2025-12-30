@@ -2802,7 +2802,7 @@ body.dark .mobile-header p {
   gap: 3rem;
   justify-content: space-between;
   align-items: start;
-  margin-top: 110px;
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 
@@ -4334,9 +4334,20 @@ body.dark .footer-icon:hover {
     padding: 10px !important;
   }
 }
+@media screen and (max-width: 1024px) {
+  .input-wrapper {
+    width: 100%;
+  }
+  .direct-contact-card {
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 1023px) {
   .pxl-contant-page .content-grid {
     margin-top: 40px;
+  }
+  .mobile-footer {
+    gap: 1rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -4380,9 +4391,6 @@ body.dark .footer-icon:hover {
   .mobile-footer {
     margin-top: 1rem;
     padding-top: 1rem;
-  }
-  main {
-    padding: 2rem 0rem;
   }
   .submit-btn-right p {
     font-size: 10px;
@@ -4616,6 +4624,7 @@ Enterprise File Uploader Theme
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   padding: 20px;
+  min-width: 115px;
 }
 
 .service-card:hover:not(.selected) {
