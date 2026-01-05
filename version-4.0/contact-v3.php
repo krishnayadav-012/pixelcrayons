@@ -347,12 +347,7 @@
                                             <div class="service-card" data-value="Marketing (Ads, SEO, Email, Social)"
                                                 data-req="MARKETING">
                                                 <div class="card-icon">
-                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
-                                                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                                                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-                                                    </svg>
+                                                   <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M11 5L6 9H2V15H6L11 19V5Z"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
                                                 </div>
                                                 <div class="c-right-text">
                                                     <h4 class="card-title">Marketing</h4>
@@ -363,11 +358,7 @@
                                             <div class="service-card" data-value="Engineering (Web, eCommerce, Apps)"
                                                 data-req="ENGINEERING">
                                                 <div class="card-icon">
-                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                        <polyline points="16 18 22 12 16 6"></polyline>
-                                                        <polyline points="8 6 2 12 8 18"></polyline>
-                                                    </svg>
+                                                   <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M16 18l6-6-6-6"></path><path d="M8 6l-6 6 6 6"></path><path d="M12 4.5l-2 15"></path></svg>
                                                 </div>
                                                  <div class="c-right-text">
                                                 <h4 class="card-title">Engineering</h4>
@@ -377,12 +368,7 @@
                                             <div class="service-card" data-value="AI-Powered Growth & Automation"
                                                 data-req="AI_GROWTH_AUTOMATION">
                                                 <div class="card-icon">
-                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                        <line x1="18" y1="20" x2="18" y2="10"></line>
-                                                        <line x1="12" y1="20" x2="12" y2="4"></line>
-                                                        <line x1="6" y1="20" x2="6" y2="14"></line>
-                                                    </svg>
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>                                                   
                                                 </div>
                                                  <div class="c-right-text">
                                                 <h4 class="card-title">AI-Powered Growth & Automation</h4>
@@ -392,12 +378,7 @@
                                             <div class="service-card" data-value="Analytics & Data"
                                                 data-req="ANALYTICS_DATA">
                                                 <div class="card-icon">
-                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                        <line x1="18" y1="20" x2="18" y2="10"></line>
-                                                        <line x1="12" y1="20" x2="12" y2="4"></line>
-                                                        <line x1="6" y1="20" x2="6" y2="14"></line>
-                                                    </svg>
+                                                   <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
                                                 </div>
                                                  <div class="c-right-text">
                                                 <h4 class="card-title">Analytics</h4>
@@ -407,16 +388,7 @@
                                             <div class="service-card" data-value="Design (UI/UX, Creative)"
                                                 data-req="DESIGN">
                                                 <div class="card-icon">
-                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                        <circle cx="13.5" cy="6.5" r=".5"></circle>
-                                                        <circle cx="17.5" cy="10.5" r=".5"></circle>
-                                                        <circle cx="8.5" cy="7.5" r=".5"></circle>
-                                                        <circle cx="6.5" cy="12.5" r=".5"></circle>
-                                                        <path
-                                                            d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.92 0 1.7-.39 2.3-1.03a3.14 3.14 0 0 0 .7-2.97 3.4 3.4 0 0 1 .3-3.03c.5-.8 1.4-1.1 2.3-1.1h1.4c1.7 0 3-1.3 3-3 0-5.5-4.5-10-10-10z">
-                                                        </path>
-                                                    </svg>
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l5 5"></path><path d="M9.5 9.5L11 11"></path></svg>
                                                 </div>
                                                  <div class="c-right-text">
                                                 <h4 class="card-title">Design</h4>

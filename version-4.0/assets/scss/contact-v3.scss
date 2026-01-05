@@ -1327,9 +1327,12 @@ body.dark .form-footer {
     margin-right:8px ;
     color: var(--amber-500);
 }
+.info-badges p span{
+    display: flex;
+}
 .info-badges p{
     font-size: 12px;
-   
+   display: flex;
     align-items: center;
     
 }
@@ -1426,7 +1429,7 @@ body.dark .badge-title {
     margin-left: auto;
     font-weight: 700;
     border: none;
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.2s ease;
     box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.2);
@@ -1979,14 +1982,14 @@ overflow-y: scroll;
     width: calc(33.33% - 10px);
     background: #f8fafc;
     border: 1.5px solid #e2e8f0;
-    border-radius: 20px;
+    border-radius: 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    min-height: 80px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
-    padding: 15px;
+    padding: 11px;
     
 }
 .c-right-text{
@@ -2366,9 +2369,10 @@ ease;
         align-items: center;
        
     }
-    .info-badges p{display: block;
+    .info-badges p{display: flex;
     margin-bottom: 0;
     line-height: unset;}
+    .info-badges p a{margin-left: 5px;}
 
     .info-badge {
         width: 100%;
@@ -2413,6 +2417,7 @@ ease;
 @media (max-width: 600px) {
 .service-card {
 min-width: calc(50% - 16px); /* 2 cards per row on small screens */
+min-height: 68px;
 }
 }
 
