@@ -1329,8 +1329,9 @@ body.dark .form-footer {
 }
 .info-badges p{
     font-size: 12px;
-    display: flex;align-items: center;
-    line-height: 0;
+   
+    align-items: center;
+    
 }
 .info-badges p a{
     text-decoration: underline;
@@ -1964,7 +1965,6 @@ overflow-y: scroll;
   width: 28px;
   height: 28px;
   color: #94a3b8; /* Default gray icon */
-  margin-bottom: 16px;
   transition: color 0.3s ease;
 }
 
@@ -1976,12 +1976,11 @@ overflow-y: scroll;
 /* Base Card */
 .service-card {
     position: relative;
-    width: calc(16.66% - 10px);
+    width: calc(33.33% - 10px);
     background: #f8fafc;
     border: 1.5px solid #e2e8f0;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -1990,6 +1989,13 @@ overflow-y: scroll;
     padding: 15px;
     
 }
+.c-right-text{
+
+    text-align: left;
+    margin-left: 13px;
+
+}
+.c-right-text .card-desc{margin: 0;}
 
 .service-card:hover:not(.selected) {
     border-color: #cbd5e1;
@@ -2293,6 +2299,7 @@ ease;
 
 
 @media screen and (max-width:1024px) {
+    .form-content{padding: 2rem;}
     
     .input-wrapper{width: 100%;}
     .direct-contact-card{margin-bottom: 50px;}
@@ -2359,6 +2366,9 @@ ease;
         align-items: center;
        
     }
+    .info-badges p{display: block;
+    margin-bottom: 0;
+    line-height: unset;}
 
     .info-badge {
         width: 100%;

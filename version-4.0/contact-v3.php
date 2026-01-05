@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +9,8 @@
     <link rel="preload stylesheet" type="text/css" href="assets/form-version-v3/form-county.css" defer />
     <link rel="stylesheet" href="assets/css/dev-style.css">
     <link rel="preload stylesheet" type="text/css"
-        href="https://www.pixelcrayons.com/wp-content/cache/min/1/wp-content/themes/pixelcrayons/dev-style.css?ver=1766056420" defer />
+        href="https://www.pixelcrayons.com/wp-content/cache/min/1/wp-content/themes/pixelcrayons/dev-style.css?ver=1766056420"
+        defer />
     <link rel="preload stylesheet" type="text/css" href="assets/css/contact-v3.css" defer />
     <!-- SEO Structured Data -->
     <script type="application/ld+json">
@@ -101,15 +101,33 @@
                     <div class="certifications-strip">
                         <div class="certifications-list">
                             <div class="cert-item">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
                                 ISO 9001:2015
                             </div>
                             <div class="cert-item">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
                                 ISO 27001:2013
                             </div>
                             <div class="cert-item">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 text-brand-600 dark:text-lime-400" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
                                 CMMI Level 3
                             </div>
                         </div>
@@ -144,7 +162,7 @@
                                 <span class="contact-card-subtitle">Response time: &lt; 8 hours</span>
                             </div>
                         </div>
-                        
+
                         <svg id='Up_Right_24' class="icon-lg contact-arrow" width='16' height='16' viewBox='0 0 24 24'
                             xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
                             <rect width='24' height='24' stroke='none' fill='#000000' opacity='0' />
@@ -321,9 +339,13 @@
 
                                     <div class="services-section">
                                         <h3 class="section-title no-border">Service(s) I need help with</h3>
-
+                                        <span id="scopeError" class="field-error hidden" tabindex="-1"
+                                            aria-live="assertive">
+                                            Please select Project scope.
+                                        </span>
                                         <div class="services-container">
-                                            <div class="service-card ">
+                                            <div class="service-card" data-value="Marketing (Ads, SEO, Email, Social)"
+                                                data-req="MARKETING">
                                                 <div class="card-icon">
                                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -332,11 +354,14 @@
                                                         <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
                                                     </svg>
                                                 </div>
-                                                <h4 class="card-title">Marketing</h4>
-                                                <p class="card-desc">Ads, SEO, Social</p>
+                                                <div class="c-right-text">
+                                                    <h4 class="card-title">Marketing</h4>
+                                                    <p class="card-desc">Ads, SEO, Social</p>
+                                                </div>
                                             </div>
 
-                                            <div class="service-card">
+                                            <div class="service-card" data-value="Engineering (Web, eCommerce, Apps)"
+                                                data-req="ENGINEERING">
                                                 <div class="card-icon">
                                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -344,11 +369,13 @@
                                                         <polyline points="8 6 2 12 8 18"></polyline>
                                                     </svg>
                                                 </div>
+                                                 <div class="c-right-text">
                                                 <h4 class="card-title">Engineering</h4>
-                                                <p class="card-desc">Web, App, AI</p>
+                                                <p class="card-desc">Web, App, AI</p> </div>
                                             </div>
 
-                                            <div class="service-card">
+                                            <div class="service-card" data-value="AI-Powered Growth & Automation"
+                                                data-req="AI_GROWTH_AUTOMATION">
                                                 <div class="card-icon">
                                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -357,11 +384,28 @@
                                                         <line x1="6" y1="20" x2="6" y2="14"></line>
                                                     </svg>
                                                 </div>
-                                                <h4 class="card-title">Analytics</h4>
-                                                <p class="card-desc">GA4, Dashboards</p>
+                                                 <div class="c-right-text">
+                                                <h4 class="card-title">AI-Powered Growth & Automation</h4>
+                                                <p class="card-desc">GA4, Dashboards</p> </div>
                                             </div>
 
-                                            <div class="service-card">
+                                            <div class="service-card" data-value="Analytics & Data"
+                                                data-req="ANALYTICS_DATA">
+                                                <div class="card-icon">
+                                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                                                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                                                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                                                    </svg>
+                                                </div>
+                                                 <div class="c-right-text">
+                                                <h4 class="card-title">Analytics</h4>
+                                                <p class="card-desc">GA4, Dashboards</p> </div>
+                                            </div>
+
+                                            <div class="service-card" data-value="Design (UI/UX, Creative)"
+                                                data-req="DESIGN">
                                                 <div class="card-icon">
                                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -374,11 +418,13 @@
                                                         </path>
                                                     </svg>
                                                 </div>
+                                                 <div class="c-right-text">
                                                 <h4 class="card-title">Design</h4>
-                                                <p class="card-desc">UI/UX, Creative</p>
+                                                <p class="card-desc">UI/UX, Creative</p> </div>
                                             </div>
 
-                                            <div class="service-card">
+                                            <div class="service-card" data-value="Not sure yet / Multiple"
+                                                data-req="NOT_SURE_OR_MULTIPLE">
                                                 <div class="card-icon">
                                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -387,8 +433,9 @@
                                                         <polyline points="2 12 12 17 22 12"></polyline>
                                                     </svg>
                                                 </div>
+                                                 <div class="c-right-text">
                                                 <h4 class="card-title">Other</h4>
-                                                <p class="card-desc">Consulting / Mix</p>
+                                                <p class="card-desc">Consulting / Mix</p> </div>
                                             </div>
                                         </div>
 
@@ -397,6 +444,8 @@
 
 
                                     </div>
+
+
 
                                 </section>
 
@@ -480,7 +529,6 @@
                                         </label>
                                     </div>
 
-
                                     <div class="form-grid full-w input-wrapper">
                                         <div class="custom-select-container overflow-list" id="interestDropdown">
                                             <select name="interest" id="real-data-input" required=""
@@ -495,8 +543,6 @@
                                                 <option value="Existing Client Support">Existing Client Support
                                                 </option>
                                             </select>
-
-
 
                                             <div class="select-trigger"
                                                 onclick="this.parentElement.classList.toggle('active')">
@@ -529,7 +575,6 @@
                                         </div>
                                     </div>
 
-
                                 </section>
 
                                 <!-- Form Footer -->
@@ -541,7 +586,8 @@
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                                     <path d="m9 12 2 2 4-4"></path>
-                                                </svg></span> Your data is protected by our <a href="/privacy-policy">Privacy
+                                                </svg></span> Your data is protected by our <a
+                                                href="/privacy-policy">Privacy
                                                 Policy</a></p>
                                     </div>
                                     <div class="submit-btn-right">
@@ -714,20 +760,24 @@
         }
 
 
- 
 
-    const cards = document.querySelectorAll('.service-card');
 
-    cards.forEach(card => {
-        card.addEventListener('click', () => {
-            // Toggle adds the class if it's missing, and removes it if it's there
-            card.classList.toggle('selected');
+        const cards = document.querySelectorAll('.service-card');
+
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                // Toggle adds the class if it's missing, and removes it if it's there
+                card.classList.toggle('selected');
+            });
         });
-    });
 
 
-if(document.querySelector(".header-two")){var lastScrollTop=0;window.addEventListener("scroll",function(){window.pageYOffset>10?document.querySelector(".header-two").classList.add("header-bg"):document.querySelector(".header-two").classList.remove("header-bg");let scrollST=window.pageYOffset||document.documentElement.scrollTop;if(scrollST>lastScrollTop){document.querySelector(".header-two").classList.remove("sc-up");document.querySelector(".header-two").classList.add("sc-down")}else{document.querySelector(".header-two").classList.remove("sc-down");document.querySelector(".header-two").classList.add("sc-up")}
-lastScrollTop=scrollST<=0?0:scrollST})}
+        if (document.querySelector(".header-two")) {
+            var lastScrollTop = 0; window.addEventListener("scroll", function () {
+                window.pageYOffset > 10 ? document.querySelector(".header-two").classList.add("header-bg") : document.querySelector(".header-two").classList.remove("header-bg"); let scrollST = window.pageYOffset || document.documentElement.scrollTop; if (scrollST > lastScrollTop) { document.querySelector(".header-two").classList.remove("sc-up"); document.querySelector(".header-two").classList.add("sc-down") } else { document.querySelector(".header-two").classList.remove("sc-down"); document.querySelector(".header-two").classList.add("sc-up") }
+                lastScrollTop = scrollST <= 0 ? 0 : scrollST
+            })
+        }
 
 
     </script>
