@@ -461,7 +461,7 @@ body.dark .hero-badge {
     font-size: 3rem;
     font-weight: 700;
     color: var(--heading-color);
-    line-height: 0.95;
+    line-height: 85px;
     letter-spacing: -0.025em;
     margin-bottom: 1.5rem;
 }
@@ -587,7 +587,7 @@ body.dark .location-tabs {
 
 .location-tab {
     flex: 1;
-    min-width: 80px;
+    min-width: 74px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1245,7 +1245,7 @@ body.dark .form-input:not(:placeholder-shown) + .form-label {
 
 .form-textarea {
     width: 100%;
-    padding: 0.875rem 1rem;
+    padding: 22px 20px;
     font-family: inherit;
     font-size: 1rem;
    color: var(--navy-900);
@@ -1681,22 +1681,18 @@ body.dark .marquee-label {
     border-top: 1px solid var(--slate-200);
     border-bottom: 1px solid var(--slate-200);
     padding: 2rem 0;
-    background: rgba(248, 250, 252, 0.5);
-}
-
-body.dark .logo-marquee {
-    border-color: rgba(255, 255, 255, 0.05);
-    background: rgba(255, 255, 255, 0.05);
 }
 
 .marquee-content {
     display: flex;
-    animation: marquee 40s linear infinite;
+    animation: marquee 10s linear infinite;
     white-space: nowrap;
+    align-items: center;
+    gap: 25px;
 }
 
 .marquee-item {
-    padding: 0 4rem;
+    min-width: 24%;
     font-size: 1.875rem;
     font-weight: 900;
     color: var(--slate-300);
@@ -1704,6 +1700,7 @@ body.dark .logo-marquee {
     letter-spacing: 0.1em;
     user-select: none;
     opacity: 0.6;
+    text-align: center;
     transition: all 0.5s;
 }
 
@@ -1711,8 +1708,8 @@ body.dark .marquee-item {
     color: rgba(255, 255, 255, 0.1);
 }
 
-.marquee-item:hover {
-    color: var(--slate-400);
+.marquee-item:hover {    
+    opacity: 1;
 }
 
 body.dark .marquee-item:hover {
@@ -1979,7 +1976,7 @@ overflow-y: scroll;
 /* Base Card */
 .service-card {
     position: relative;
-    width: calc(20% - 10px);
+    width: calc(16.66% - 10px);
     background: #f8fafc;
     border: 1.5px solid #e2e8f0;
     border-radius: 20px;
@@ -1990,8 +1987,8 @@ overflow-y: scroll;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
-    padding: 20px;
-    min-width: 115px;
+    padding: 15px;
+    
 }
 
 .service-card:hover:not(.selected) {
@@ -2064,6 +2061,7 @@ overflow-y: scroll;
     align-items: center;
     transition: all 0.2s ease;
 }
+.select-trigger span{font-size: 14px;}
 
 /* The Custom Options Menu (The part you wanted changed) */
 .main-list-box {
