@@ -280,7 +280,6 @@
                                             </div>
                                         </div>
 
-
                                         <div class="form-grid input-wrapper">
                                             <div class="custom-select-container" id="interestDropdown">
                                                 <select name="interest" id="real-data-input" required
@@ -334,7 +333,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-
                                     </div>
 
                                     <div class="services-section">
@@ -347,7 +345,12 @@
                                             <div class="service-card" data-value="Marketing (Ads, SEO, Email, Social)"
                                                 data-req="MARKETING">
                                                 <div class="card-icon">
-                                                   <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M11 5L6 9H2V15H6L11 19V5Z"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                                                        stroke="currentColor" stroke-width="2.5">
+                                                        <path d="M11 5L6 9H2V15H6L11 19V5Z"></path>
+                                                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                                                    </svg>
                                                 </div>
                                                 <div class="c-right-text">
                                                     <h4 class="card-title">Marketing</h4>
@@ -358,41 +361,64 @@
                                             <div class="service-card" data-value="Engineering (Web, eCommerce, Apps)"
                                                 data-req="ENGINEERING">
                                                 <div class="card-icon">
-                                                   <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M16 18l6-6-6-6"></path><path d="M8 6l-6 6 6 6"></path><path d="M12 4.5l-2 15"></path></svg>
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                                                        stroke="currentColor" stroke-width="2.5">
+                                                        <path d="M16 18l6-6-6-6"></path>
+                                                        <path d="M8 6l-6 6 6 6"></path>
+                                                        <path d="M12 4.5l-2 15"></path>
+                                                    </svg>
                                                 </div>
-                                                 <div class="c-right-text">
-                                                <h4 class="card-title">Engineering</h4>
-                                                <p class="card-desc">Web, App, AI</p> </div>
+                                                <div class="c-right-text">
+                                                    <h4 class="card-title">Engineering</h4>
+                                                    <p class="card-desc">Web, App, AI</p>
+                                                </div>
                                             </div>
 
                                             <div class="service-card" data-value="AI-Powered Growth & Automation"
                                                 data-req="AI_GROWTH_AUTOMATION">
                                                 <div class="card-icon">
-                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>                                                   
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                                                        stroke="currentColor" stroke-width="2.5">
+                                                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                                                    </svg>
                                                 </div>
-                                                 <div class="c-right-text">
-                                                <h4 class="card-title">AI-Powered Growth & Automation</h4>
-                                                <p class="card-desc">GA4, Dashboards</p> </div>
+                                                <div class="c-right-text">
+                                                    <h4 class="card-title">AI-Powered Growth & Automation</h4>
+                                                    <p class="card-desc">GA4, Dashboards</p>
+                                                </div>
                                             </div>
 
                                             <div class="service-card" data-value="Analytics & Data"
                                                 data-req="ANALYTICS_DATA">
                                                 <div class="card-icon">
-                                                   <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                                                        stroke="currentColor" stroke-width="2.5">
+                                                        <path d="M18 20V10"></path>
+                                                        <path d="M12 20V4"></path>
+                                                        <path d="M6 20v-6"></path>
+                                                    </svg>
                                                 </div>
-                                                 <div class="c-right-text">
-                                                <h4 class="card-title">Analytics</h4>
-                                                <p class="card-desc">GA4, Dashboards</p> </div>
+                                                <div class="c-right-text">
+                                                    <h4 class="card-title">Analytics</h4>
+                                                    <p class="card-desc">GA4, Dashboards</p>
+                                                </div>
                                             </div>
 
                                             <div class="service-card" data-value="Design (UI/UX, Creative)"
                                                 data-req="DESIGN">
                                                 <div class="card-icon">
-                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l5 5"></path><path d="M9.5 9.5L11 11"></path></svg>
+                                                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                                                        stroke="currentColor" stroke-width="2.5">
+                                                        <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                                        <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                                        <path d="M2 2l5 5"></path>
+                                                        <path d="M9.5 9.5L11 11"></path>
+                                                    </svg>
                                                 </div>
-                                                 <div class="c-right-text">
-                                                <h4 class="card-title">Design</h4>
-                                                <p class="card-desc">UI/UX, Creative</p> </div>
+                                                <div class="c-right-text">
+                                                    <h4 class="card-title">Design</h4>
+                                                    <p class="card-desc">UI/UX, Creative</p>
+                                                </div>
                                             </div>
 
                                             <div class="service-card" data-value="Not sure yet / Multiple"
@@ -405,9 +431,10 @@
                                                         <polyline points="2 12 12 17 22 12"></polyline>
                                                     </svg>
                                                 </div>
-                                                 <div class="c-right-text">
-                                                <h4 class="card-title">Other</h4>
-                                                <p class="card-desc">Consulting / Mix</p> </div>
+                                                <div class="c-right-text">
+                                                    <h4 class="card-title">Other</h4>
+                                                    <p class="card-desc">Consulting / Mix</p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -477,29 +504,29 @@
                                         <label for="message" class="form-label">Tell us about your project or needs
                                             *</label>
 
+                                        <div class="upload-text under-messgae">
+
+                                            
+                                                <label class="upload-container" for="file-upload-input">
+                                                    <input type="file" id="file-upload-input" hidden>
+
+                                                    <div class="upload-text">
+                                                        
+                                                        <span class="upload-subtitle">Drag & drop or click to browse
+                                                            (PDF, Docx,
+                                                            Max 10MB)</span>
+                                                    </div>
+                                                </label>
+                                            
+                                        </div>
+
+
+
+
+
                                     </div>
 
-                                    <div class="upload-section">
-                                        <label class="upload-container" for="file-upload-input">
-                                            <input type="file" id="file-upload-input" hidden>
 
-                                            <div class="upload-icon-circle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                                    <polyline points="17 8 12 3 7 8"></polyline>
-                                                    <line x1="12" y1="3" x2="12" y2="15"></line>
-                                                </svg>
-                                            </div>
-
-                                            <div class="upload-text">
-                                                <span class="upload-title">Upload Project Specs / RFP</span>
-                                                <span class="upload-subtitle">Drag & drop or click to browse (PDF, Docx,
-                                                    Max 10MB)</span>
-                                            </div>
-                                        </label>
-                                    </div>
 
                                     <div class="form-grid full-w input-wrapper">
                                         <div class="custom-select-container overflow-list" id="interestDropdown">
