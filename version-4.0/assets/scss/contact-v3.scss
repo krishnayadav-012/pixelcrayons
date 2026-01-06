@@ -1953,8 +1953,8 @@ overflow-y: scroll;
   flex-wrap: wrap; 
   gap: 10px;
   width: 100%;
-  justify-content: flex-start;
-    }
+  justify-content: space-between;
+}
 .service-card:hover, 
 .service-card.active {
   background: #ffffff;
@@ -1985,7 +1985,7 @@ overflow-y: scroll;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
-    min-height: 80px;
+    min-height: 60px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
@@ -2172,7 +2172,7 @@ ease;
     justify-content: center;
     gap: 20px;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     background-color: #fff;
     border: 2px dashed #cbd5e1; /* The dashed border from your image */
     border-radius: 16px;
@@ -2247,13 +2247,6 @@ ease;
 .header-two .header-item-right .menu ul li.menu-item-has-children a{color: #45556c;}
 .header-two .header-item-left .large .dark{display: block;}
 .header-two .header-item-left .large .light{display: none;}
-
-
-
-.header-two {
-    top: 60px;
-    
-}
 
 .header-two.sc-up{
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
@@ -2417,7 +2410,6 @@ ease;
 @media (max-width: 600px) {
 .service-card {
 min-width: calc(50% - 16px); /* 2 cards per row on small screens */
-min-height: 68px;
 }
 }
 
