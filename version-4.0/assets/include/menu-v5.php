@@ -1,8 +1,8 @@
-
+<!-- 
 <div class="top-banner">
 
 <div class="sky">
-        <!-- Replace 'santas.gif' with your own image URL -->
+        <!-- Replace 'santas.gif' with your own image URL 
         <img class="santa-sleigh" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/santas.gif" alt="Santa and Reindeer">
     </div>
    <div id="rainContainer" class="rain-container">
@@ -29,7 +29,7 @@
     <div class="green blink"style="left:9%;"></div>
     <div class="blue blink"style="left:99%;"></div>
    </div>
-  <!-- Snowfall layers -->
+  <!-- Snowfall layers 
   <div class="snow-container">
 </div>
 </div>
@@ -47,7 +47,7 @@
       ✕
     </button>
   </div>
-</div>
+</div> -->
 <script>
 
   document.addEventListener('click', function(e) {
