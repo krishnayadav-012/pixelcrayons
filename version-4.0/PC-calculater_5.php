@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="bg-slate-50 text-slate-900 mt-28">
+<body class="bg-slate-50 text-slate-900 mt-24">
     <main>
         <?php require_once 'assets/include/menu-v5.php'; ?>
 
@@ -50,12 +50,12 @@
     </div>
 
         <div class=" container">
-            <div id="calculator" class="max-w-7xl mx-auto px-4 -mt-10 pb-20">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div id="calculator" class="max-w-7xl mx-auto px-4  pb-20">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start py-16">
 
                     <div class="lg:col-span-5 space-y-6 lg:sticky lg:top-8">
                         <div class="bg-slate-800 text-white p-6 rounded-2xl shadow-xl">
-                            <h2 class="text-xl font-bold mb-2">Agency Parameters</h2>
+                            <h2 class="text-xl font-bold mb-2 text-white">Agency Parameters</h2>
                             <p class="text-slate-400 text-sm">Update these values to see your custom report.</p>
                         </div>
 
@@ -170,12 +170,12 @@
                             <div class="bg-indigo-900 text-white rounded-2xl p-8 shadow-xl">
                                 <div class="flex items-center gap-3 mb-6">
                                     <div class="p-2 bg-indigo-700 rounded-lg">🛡️</div>
-                                    <h3 class="text-xl font-bold">Recovery Potential</h3>
+                                    <h3 class="text-xl font-bold text-white">Recovery Potential</h3>
                                 </div>
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                     <div>
                                         <p class="text-indigo-200 text-sm mb-2">Recoverable Revenue / Year</p>
-                                        <p id="resRecoveryPotential" class="text-4xl font-black">$0</p>
+                                        <p id="resRecoveryPotential" class="text-4xl font-black text-white">$0</p>
                                         <p class="text-indigo-300 text-xs mt-2">By optimizing delivery consistency.</p>
                                     </div>
                                     <div class="space-y-3 text-sm text-indigo-100">
@@ -298,7 +298,7 @@
 
         // Initial Run
         calculate();
-        
+
 
             if (document.querySelector(".header-two")) {
                 var lastScrollTop = 0; window.addEventListener("scroll", function () {
