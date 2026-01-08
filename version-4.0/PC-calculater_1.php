@@ -16,21 +16,21 @@
             position: sticky;
             top: 2rem;
         }
-
+        
         input[type=number]::-webkit-inner-spin-button,
         input[type=number]::-webkit-outer-spin-button {
             -webkit-appearance: none;
             margin: 0;
         }
-    </style>
-    <link rel=" stylesheet" type="text/css" href="assets/css/contact-v3.css" defer />
+        </style>
+    <link rel=" stylesheet" type="text/css" href="assets/css/cal-layout.css" defer />
+    
 
 </head>
 
 <body class="bg-slate-50 text-slate-900   mt-24">
+    <?php require_once 'assets/include/menu-v5.php'; ?>
     <main>
-        <?php require_once 'assets/include/menu-v5.php'; ?>
- 
         <div class="py-20 px-3 banner bg-white ">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6">See How Much Profit
@@ -194,6 +194,8 @@
             </div>
         </div>
 
+
+        <script src="assets/js/script.js"></script>
         <script>
             const state = {
                 roles: { mediaBuyer: 1, seo: 1, cro: 0, analytics: 0 },
@@ -306,13 +308,7 @@
             init();
 
 
-            if (document.querySelector(".header-two")) {
-                var lastScrollTop = 0; window.addEventListener("scroll", function () {
-                    window.pageYOffset > 10 ? document.querySelector(".header-two").classList.add("header-bg") : document.querySelector(".header-two").classList.remove("header-bg"); let scrollST = window.pageYOffset || document.documentElement.scrollTop; if (scrollST > lastScrollTop) { document.querySelector(".header-two").classList.remove("sc-up"); document.querySelector(".header-two").classList.add("sc-down") } else { document.querySelector(".header-two").classList.remove("sc-down"); document.querySelector(".header-two").classList.add("sc-up") }
-                    lastScrollTop = scrollST <= 0 ? 0 : scrollST
-                })
-            }
-
+       
 
         </script>
 

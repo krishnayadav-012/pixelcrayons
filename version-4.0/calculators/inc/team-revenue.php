@@ -12,7 +12,6 @@
                 </svg>
                 Team & Revenue Configuration
             </h2>
-
             <section class="space-y-10">
                 <div>
                     <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">Roles Needed
