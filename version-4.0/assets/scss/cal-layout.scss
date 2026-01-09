@@ -18,32 +18,83 @@ nav a:hover {
 }
 
 
-.header-two .header-item-right .menu ul li.menu-item-has-children a{color: #45556c;}
-.header-two .header-item-left .large .dark{display: block;}
-.header-two .header-item-left .large .light{display: none;}
+.header-two .header-item-right .menu ul li.menu-item-has-children a {
+    color: #45556c;
+}
 
-.header-two.sc-up{
+.header-two .header-item-left .large .dark {
+    display: block;
+}
+
+.header-two .header-item-left .large .light {
+    display: none;
+}
+
+.header-two.sc-up {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.header-two.sc-down.header-bg:hover{
+.header-two.sc-down.header-bg:hover {
     background-color: #fff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
 .header-two.sc-down.header-bg {
     background: unset;
     backdrop-filter: unset;
     border-bottom: unset;
     box-shadow: unset;
-    
+
 }
+
+.master-calc h1 {
+    font-size: 80px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1440px) {
+    .master-calc h1 {
+        font-size: 65px;
+        line-height: 91px;
+    }
+}
+
 @media screen and (max-width: 1139px) {
-.header-two .header-item-left .large .light {display: block;}
-.header-two .header-item-left .large .dark{display: none;}
-.header-two.sc-up img.light{display: block;}
-.header-two.header-bg.sc-up{background-color: #1d1c39 !important;}  
-.header-two.sc-down.header-bg{background-color: #1d1c39 !important;}
-header nav li > a {
-    color: #fff !important;
+    .header-two .header-item-left .large .light {
+        display: block;
+    }
+
+    .header-two .header-item-left .large .dark {
+        display: none;
+    }
+
+    .header-two.sc-up img.light {
+        display: block;
+    }
+
+    .header-two.header-bg.sc-up {
+        background-color: #1d1c39 !important;
+    }
+
+    .header-two.sc-down.header-bg {
+        background-color: #1d1c39 !important;
+    }
+
+    header nav li>a {
+        color: #fff !important;
+    }
 }
+
+@media only screen and (max-width: 991px) {
+    .master-calc h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .master-calc h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
 }

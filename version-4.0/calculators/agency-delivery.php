@@ -7,7 +7,6 @@
     <link rel=" stylesheet" type="text/css"
         href="https://www.pixelcrayons.com/wp-content/cache/min/1/wp-content/themes/pixelcrayons/dev-style.css?ver=1766056420"
         defer />
-
     <title>PodCalc | Agency Capacity & Burnout Calculator</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -58,7 +57,6 @@
             </div>
         </div>
     </div>
-
 
         <div class=" container">
             <?php require_once 'inc/agency-delivery.php'; ?>

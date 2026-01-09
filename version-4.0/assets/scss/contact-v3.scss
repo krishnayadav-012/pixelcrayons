@@ -1530,7 +1530,7 @@ nav a:hover {
 }
 
 /* === Responsive === */
-@media (min-width: 768px) {
+@media (min-width: 768px){
     .nav-link {
         display: block;
     }
@@ -1542,7 +1542,7 @@ nav a:hover {
     .footer-container {
         flex-direction: row;
         justify-content: space-between;
-    }
+    }    
 }
 
 @media (min-width: 1024px) {
@@ -2088,6 +2088,7 @@ ease;
         padding: 20px !important;
         flex-direction: column;
     }
+    .marquee-item{min-width: 33%;}
 }
 
 @media screen and (max-width:640px){

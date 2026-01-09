@@ -3684,6 +3684,17 @@ nav a:hover {
   box-shadow: unset;
 }
 
+.master-calc h1 {
+  font-size: 80px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 1440px) {
+  .master-calc h1 {
+    font-size: 65px;
+    line-height: 91px;
+  }
+}
 @media screen and (max-width: 1139px) {
   .header-two .header-item-left .large .light {
     display: block;
@@ -3702,6 +3713,18 @@ nav a:hover {
   }
   header nav li > a {
     color: #fff !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .master-calc h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .master-calc h1 {
+    font-size: 35px;
+    line-height: 45px;
   }
 }
 

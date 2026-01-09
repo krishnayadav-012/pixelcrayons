@@ -4929,6 +4929,9 @@ Enterprise File Uploader Theme
     padding: 20px !important;
     flex-direction: column;
   }
+  .marquee-item {
+    min-width: 33%;
+  }
 }
 @media screen and (max-width: 640px) {
   #gallery {
