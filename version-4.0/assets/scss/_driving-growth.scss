@@ -1,6 +1,10 @@
 @use "_default" as *;
 .driving-growth {
   background: #f2f8ff;
+  padding: 100px 0;
+  .top-section{ 
+    padding-bottom: 60px;
+  }
   .driving-row {
     gap: 20px;
     flex-wrap: wrap;
@@ -32,12 +36,13 @@
         }
 
         h3 {
-          font-size: 24px;
+          font-size: 22px;
           font-weight: 700;
           color: #111827;
         }
 
         p {
+          font-weight: 500;
           color: #4b5563;
           line-height: 24px;
         }
@@ -160,18 +165,16 @@
         height: 100%;
         border-radius: 5px;
         padding: 30px;
-        backface-visibility: hidden; /* Hide the back side */
+        backface-visibility: hidden;
       }
 
       .flip-card-front {
-        background-color: #0400f5;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
         color: $white;
         text-align: left;
-        border: 1px solid #d1d5db;
 
         h3 {
           color: #110302;
@@ -209,16 +212,12 @@
       &:first-child {
         .flip-card-inner {
           .flip-card-front {
-            background: #0400f5;
+                background: #ffffff;
 
-            p,
-            h3,
-            h4 {
-              color: $white;
-            }
-            .prod {
-              color: rgba(255, 255, 255, 0.8);
-            }
+           
+            // .prod {
+            //   color: rgba(255, 255, 255, 0.8);
+            // }
             .card-bottom {
               &:before {
                 background: rgba(255, 255, 255, 0.3);

@@ -3727,5 +3727,16 @@ nav a:hover {
     line-height: 45px;
   }
 }
+.master-calc .banner h1 {
+  color: #fff !important;
+}
+
+.master-calc .banner p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.master-calc .banner {
+  background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%) !important;
+}
 
 /*# sourceMappingURL=cal-layout.css.map */

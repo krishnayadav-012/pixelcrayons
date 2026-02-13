@@ -1,0 +1,41 @@
+@use "_default" as *;
+
+.high-vhelocity{
+padding: 30px 0;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(0deg, #0B147C 0%, #0400F5 100%);
+    &::after{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: url(../images/home-images/cta-grid.png);
+        background-repeat: no-repeat;
+        content: "";
+        width: 60%;
+        height: 100%;
+    }
+    .inner-part{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .left-part{
+            width: calc(60% - 10px);
+            h2{
+                color: $white;
+                margin-top: 10px;
+                font-size: 40px;
+            }
+            p{
+                color: #D1D5DB;
+                font-size: 18px;
+                line-height: 140%;
+                font-weight: 500;
+                margin: 0;
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+}

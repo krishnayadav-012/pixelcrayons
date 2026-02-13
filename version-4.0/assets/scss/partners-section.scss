@@ -1,0 +1,131 @@
+@use "_default" as *;
+
+
+$text-gray: #4B5563;
+$bg-light: #FAFAFA;
+
+.pixel-section {
+  padding: 80px 20px;
+  background-color: #fff;
+
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+  }
+
+  // Left Side
+  .text-content {
+    flex: 1;
+    min-width: 320px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: 800;
+      color: $headign-color;
+      line-height: 1.2;
+      margin-bottom: 20px;
+
+      span { color: $royelblue; }
+    }
+
+    p {
+      font-size: 18px;
+      color: $text-gray;
+      margin-bottom: 40px;
+    }
+
+    .features-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 15px;
+        color: $headign-color;
+
+        &::before {
+          content: '✔'; // Replace with SVG icon for better look
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 20px;
+          height: 20px;
+          border: 2px solid $royelblue;
+          border-radius: 50%;
+          color: $royelblue;
+          font-size: 10px;
+          margin-right: 10px;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+
+  // Right Side
+  .visual-content {
+    flex: 1;
+    min-width: 320px;
+
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+
+      .logo-card {
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+
+        img { max-width: 100%; height: auto; }
+
+        &.active {
+          border: 2px solid $royelblue;
+          box-shadow: 0 10px 20px rgba(85, 40, 255, 0.1);
+        }
+      }
+    }
+
+    .stats-bar {
+      background: #0a0a0b;
+      color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-between;
+
+      .stat-item {
+        text-align: left;
+        h3 { font-size: 28px; margin: 0; }
+        p { font-size: 12px; color: #888; margin: 5px 0 0; }
+      }
+    }
+  }
+
+  // Responsive Adjustments
+  @media (max-width: 992px) {
+    .text-content h1 { font-size: 36px; }
+    .features-list { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 600px) {
+    .logo-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-bar {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+}

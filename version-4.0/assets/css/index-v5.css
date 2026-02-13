@@ -2652,7 +2652,7 @@ input:-webkit-autofill:active {
   background: #fff;
   box-shadow: 20px 30px 50px 0px rgba(0, 0, 0, 0.0509803922);
   border: 1px solid #dbdbdb;
-  max-width: 630px;
+  max-width: 638px;
   justify-content: space-between;
   padding: 15px;
   border-radius: 10px;
@@ -2660,12 +2660,13 @@ input:-webkit-autofill:active {
 }
 .tabs-section .tabs-container .tabs .tab {
   border: none;
+  font-weight: 600;
   padding: 10px;
   font-size: 18px;
   cursor: pointer;
   border-radius: 10px;
   transition: background 0.3s;
-  color: #110302;
+  color: #111827;
   display: flex;
   flex-wrap: wrap;
 }
@@ -2697,6 +2698,7 @@ input:-webkit-autofill:active {
 }
 .tabs-section .tabs-container .tab-content .content h3 {
   margin: 10px 0;
+  font-weight: 600;
 }
 .tabs-section .tabs-container .tab-content .content p {
   font-weight: 500;
@@ -3146,6 +3148,10 @@ input:-webkit-autofill:active {
 }
 .driving-growth {
   background: #f2f8ff;
+  padding: 100px 0;
+}
+.driving-growth .top-section {
+  padding-bottom: 60px;
 }
 .driving-growth .driving-row {
   gap: 20px;
@@ -3176,11 +3182,12 @@ input:-webkit-autofill:active {
   display: block;
 }
 .driving-growth .driving-row .driving-card .flip-card-inner h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: #111827;
 }
 .driving-growth .driving-row .driving-card .flip-card-inner p {
+  font-weight: 500;
   color: #4b5563;
   line-height: 24px;
 }
@@ -3291,17 +3298,15 @@ input:-webkit-autofill:active {
   height: 100%;
   border-radius: 5px;
   padding: 30px;
-  backface-visibility: hidden; /* Hide the back side */
+  backface-visibility: hidden;
 }
 .driving-growth .driving-row .driving-card .flip-card-front {
-  background-color: #0400f5;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   color: #ffffff;
   text-align: left;
-  border: 1px solid #d1d5db;
 }
 .driving-growth .driving-row .driving-card .flip-card-front h3 {
   color: #110302;
@@ -3326,15 +3331,7 @@ input:-webkit-autofill:active {
   color: #ffffff;
 }
 .driving-growth .driving-row .driving-card:first-child .flip-card-inner .flip-card-front {
-  background: #0400f5;
-}
-.driving-growth .driving-row .driving-card:first-child .flip-card-inner .flip-card-front p,
-.driving-growth .driving-row .driving-card:first-child .flip-card-inner .flip-card-front h3,
-.driving-growth .driving-row .driving-card:first-child .flip-card-inner .flip-card-front h4 {
-  color: #ffffff;
-}
-.driving-growth .driving-row .driving-card:first-child .flip-card-inner .flip-card-front .prod {
-  color: rgba(255, 255, 255, 0.8);
+  background: #ffffff;
 }
 .driving-growth .driving-row .driving-card:first-child .flip-card-inner .flip-card-front .card-bottom:before {
   background: rgba(255, 255, 255, 0.3);

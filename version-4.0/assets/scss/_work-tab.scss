@@ -1,7 +1,6 @@
 @use "_default" as *;
 .tabs-section {
   background: #f9fcff;
-
   .tab-flex {
     display: flex;
     justify-content: space-between;
@@ -10,7 +9,6 @@
 
   .tabs-container {
     flex-basis: 50%;
-
     .tabs {
       list-style: none;
       padding: 0;
@@ -19,7 +17,7 @@
       background: #fff;
       box-shadow: 20px 30px 50px 0px #0000000d;
       border: 1px solid #dbdbdb;
-      max-width: 630px;
+      max-width: 638px;
       justify-content: space-between;
       padding: 15px;
       border-radius: 10px;
@@ -27,14 +25,16 @@
 
       .tab {
         border: none;
+        font-weight: 600;
         padding: 10px;
         font-size: $font-18;
         cursor: pointer;
         border-radius: 10px;
         transition: background 0.3s;
-        color: $darkblack;
+        color: #111827;
         display: flex;
         flex-wrap: wrap;
+
         img {
           margin-right: 5px;
           vertical-align: middle;
@@ -43,6 +43,7 @@
         .normal {
           display: inline-block;
         }
+
         .hover {
           display: none;
         }
@@ -51,9 +52,11 @@
         &:hover {
           background: $royelblue;
           color: $white;
+
           .hover {
             display: inline-block;
           }
+
           .normal {
             display: none;
           }
@@ -63,11 +66,13 @@
 
     .tab-content {
       margin: 60px 0 0;
+
       .content {
         display: none;
 
         h3 {
           margin: 10px 0;
+          font-weight: 600;
         }
 
         p {
@@ -78,16 +83,17 @@
           margin: 40px 0 0;
           display: flex;
           flex-wrap: wrap;
+
           li {
             flex-basis: 48%;
             margin-bottom: 10px;
             font-weight: $normal-font;
             padding-left: 30px;
             position: relative;
+
             &:before {
               content: "";
-              background: url(../images/home-images/listing.svg) no-repeat
-                center;
+              background: url(../images/home-images/listing.svg) no-repeat center;
               width: 20px;
               height: 20px;
               background-size: 100%;
@@ -95,8 +101,10 @@
               left: 0;
               top: 4px;
             }
+
             a {
               color: #656565;
+
               &:hover {
                 text-decoration: underline;
               }
@@ -161,6 +169,7 @@
           &:hover {
             background: #edf1ff;
             color: #05164d;
+
             &:after {
               content: "";
               background: $royelblue;
@@ -179,29 +188,38 @@
           .dis-flex {
             justify-content: space-between;
           }
+
           .img-div {
             flex-basis: 40%;
           }
+
           .content-div {
             flex-basis: 50%;
+
             h3 {
               a {
                 color: $darkblack;
+
                 &:hover {
                   text-decoration: underline;
                 }
               }
             }
+
             ul {
               margin: 20px 0 0;
+
               li {
                 flex-basis: 100%;
+
                 a {
                   color: $arsenic-light;
+
                   &:hover {
                     text-decoration: underline;
                   }
                 }
+
                 &:last-child {
                   margin: 0;
                 }
@@ -224,9 +242,11 @@
 
     .top-section {
       text-align: left;
+
       h2 {
         color: $white;
       }
+
       p {
         color: #bdb7b7;
       }
@@ -255,21 +275,23 @@
         .tab {
           color: $white;
           padding: 18px;
+
           img {
             margin-right: 10px;
           }
+
           &.active {
             background: $white;
             color: $navy-blue;
             position: relative;
+
             &:after {
               content: "";
               position: absolute;
               top: 25px;
               right: 20px;
 
-              background: url(../images/home-images/tab-arrow.svg) no-repeat
-                center;
+              background: url(../images/home-images/tab-arrow.svg) no-repeat center;
               background-size: 100%;
               width: 13px;
               height: 13px;
@@ -279,6 +301,7 @@
               background-size: 100%;
             }
           }
+
           &:hover {
             background: $white;
             color: $navy-blue;
@@ -299,6 +322,7 @@
         flex-wrap: wrap;
 
         gap: 10px;
+
         .cont-col {
           flex-basis: 49%;
           display: flex;
@@ -315,6 +339,7 @@
           i {
             width: 36px;
             margin-right: 10px;
+
             img {
               width: 100%;
               vertical-align: middle;
@@ -363,13 +388,16 @@
         border: 1px solid #dbdbdb;
         padding: 15px;
         border-radius: 10px;
+
         .tab {
           margin: 0;
+
           &.active,
           &:hover {
             background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
             color: #fff;
           }
+
           &:after {
             display: none;
           }
@@ -381,8 +409,7 @@
 
 // Media Query Start From Here
 
-@media (max-width: 1440px) {
-}
+@media (max-width: 1440px) {}
 
 @media (max-width: 1380px) {
   .tabs-section {
@@ -390,6 +417,7 @@
       .tabs-container {
         .tabs {
           gap: 10px;
+
           .tab {
             font-size: 16px;
           }
@@ -404,6 +432,7 @@
     .tabs-container {
       flex-basis: 50%;
     }
+
     &.technologies-tabs {
       .tab-content {
         .content-div {
@@ -428,6 +457,7 @@
         .content {
           ul {
             margin: 25px 0 0;
+
             li {
               flex-basis: 100%;
             }
@@ -435,6 +465,7 @@
         }
       }
     }
+
     &.techno-tabs {
       .tabs-container {
         .tabs {
@@ -449,9 +480,11 @@
       .tabs-container {
         .tabs {
           padding: 20px;
+
           .tab {
             padding: 14px;
             font-size: 15px;
+
             &.active {
               &.after {
                 top: 21px;
@@ -461,8 +494,10 @@
           }
         }
       }
+
       .tab-content {
         padding: 20px;
+
         .content-div {
           .cont-col {
             flex-basis: 100%;
@@ -475,6 +510,7 @@
         display: none;
       }
     }
+
     &.kpi-tabs {
       .tabs-container {
         .tabs {
@@ -485,14 +521,14 @@
   }
 }
 
-@media (max-width: 979px) {
-}
+@media (max-width: 979px) {}
 
 @media (max-width: 767px) {
   .tabs-section {
     .tab-flex {
       flex-wrap: wrap;
     }
+
     .tabs-container {
       flex-basis: 100%;
 
@@ -501,6 +537,7 @@
 
         .tab {
           font-size: $font-16;
+
           img {
             display: block;
             margin: 0 0 2px;
@@ -510,6 +547,7 @@
 
       .tab-content {
         margin: 30px 0 0;
+
         .content {
           h3 {
             margin: 10px 0;
@@ -517,9 +555,11 @@
 
           ul {
             margin: 20px 0 0;
+
             li {
               padding-left: 27px;
               position: relative;
+
               &:before {
                 top: 3px;
                 width: 18px;
@@ -546,6 +586,7 @@
           border-bottom: 3px solid #dde5;
           margin: 0;
           justify-content: space-between;
+
           .tab {
             font-size: 15px;
             flex-basis: 47%;
@@ -571,16 +612,21 @@
               justify-content: space-between;
               flex-wrap: wrap;
             }
+
             .img-div {
               flex-basis: 100%;
             }
+
             .content-div {
               flex-basis: 100%;
               margin: 10px 0 0;
+
               ul {
                 margin: 20px 0 0;
+
                 li {
                   flex-basis: 100%;
+
                   &:last-child {
                     margin: 0;
                   }
@@ -594,17 +640,22 @@
 
     &.technologies-tabs {
       position: relative;
+
       .top-section {
         text-align: center;
       }
+
       .tabs-container {
         border-radius: 15px;
+
         .tabs {
           padding: 20px;
           border-radius: 15px 15px 0 0;
           width: 100%;
+
           .tab {
             padding: 12px;
+
             &.active {
               &:after {
                 top: 20px;
@@ -619,11 +670,13 @@
         padding: 30px;
         border-radius: 0 0 15px 15px;
         margin: 0;
+
         .content-div {
           width: 100%;
           display: flex;
           flex-wrap: wrap;
           gap: 10px;
+
           .cont-col {
             flex-basis: 100%;
             min-height: 60px;
@@ -641,6 +694,7 @@
         .tabs {
           max-width: 100%;
         }
+
         .tab-content {
           .content {
             .img-div {
@@ -652,3 +706,4 @@
     }
   }
 }
+
