@@ -213,13 +213,13 @@
             <h2>What We Do</h2>
           </div>
           <ul class="tabs">
-            <li class="tab active" data-target="marketing"><img src="assets/images/home-images/tabicon01.svg"
+            <li class="tab active" data-target="marketing"><img src="assets/images/home-images/marketing.svg"
                 class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Marketing</li>
-            <li class="tab" data-target="engineer"><img src="assets/images/home-images/tabicon01.svg"
+            <li class="tab" data-target="engineer"><img src="assets/images/home-images/engineering.svg"
                 class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Engineering</li>
-            <li class="tab" data-target="analytics"><img src="assets/images/home-images/tabicon01.svg"
+            <li class="tab" data-target="analytics"><img src="assets/images/home-images/analytics.svg"
                 class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Analytics</li>
-            <li class="tab" data-target="design"><img src="assets/images/home-images/tabicon01.svg" class="normal"><img
+            <li class="tab" data-target="design"><img src="assets/images/home-images/design.svg" class="normal"><img
                 src="assets/images/home-images/iconhov01.svg" class="hover">Design</li>
           </ul>
           <div class="tab-content">
@@ -413,28 +413,28 @@
       <div class="content-wrapper">
 
         <div class="text-content">
-          <h1>Why Agencies Work With <span>PixelCrayons</span></h1>
+          <h2>Why Agencies Work With <span>PixelCrayons</span></h2>
           <p>Agencies stay with us because we make delivery easier—not complicated.</p>
 
           <ul class="features-list">
-            <li><span class="icon"></span> Zero Client Competition</li>
-            <li><span class="icon"></span> 100% White-Label Delivery</li>
-            <li><span class="icon"></span> One Unified Delivery Partner</li>
-            <li><span class="icon"></span> Predictable, Transparent Execution</li>
-            <li><span class="icon"></span> Long-Term Growth Support</li>
-            <li><span class="icon"></span> Simple Rules. Reliable Outcomes</li>
+            <li> Zero Client Competition</li>
+            <li> 100% White-Label Delivery</li>
+            <li> One Unified Delivery Partner</li>
+            <li> Predictable, Transparent Execution</li>
+            <li> Long-Term Growth Support</li>
+            <li> Simple Rules. Reliable Outcomes</li>
           </ul>
         </div>
 
         <div class="visual-content">
-          <div class="logo-grid">
-            <div class="logo-card"><img src="cmmi-logo.png" alt="CMMI Level 3"></div>
-            <div class="logo-card active"><img src="android-logo.png" alt="Android Recommended"></div>
-            <div class="logo-card"><img src="clutch-logo.png" alt="Clutch 4.8"></div>
-            <div class="logo-card"><img src="goodfirms-logo.png" alt="GoodFirms"></div>
-            <div class="logo-card"><img src="google-cloud-logo.png" alt="Google Cloud Partner"></div>
-            <div class="logo-card"><img src="microsoft-logo.png" alt="Microsoft Partner"></div>
-          </div>
+          <ul class="logo-grid">
+            <li><img src="assets/images/home-images/cmmi.png" alt="CMMI Level 3"></li>
+            <li><img src="assets/images/home-images/android-logo.png" alt="Android Recommended"></li>
+            <li><img src="assets/images/home-images/clutch-logo.png" alt="Clutch 4.8"></li>
+            <li><img src="assets/images/home-images/goodfirms-logo.png" alt="GoodFirms"></li>
+            <li><img src="assets/images/home-images/google-cloud-logo.png" alt="Google Cloud Partner"></li>
+            <li><img src="assets/images/home-images/microsoft-logo.png" alt="Microsoft Partner"></li>
+          </ul>
 
           <div class="stats-bar">
             <div class="stat-item">
@@ -460,1182 +460,388 @@
     </div>
   </section>
 
-
-
-
-
-
   <!-- work with  -->
 
+  <!-- high-velocity -->
+
+  <section class="high-vhelocity second-section" id="box-grids">
+    <div class="container">
+      <div class="inner-part">
+        <div class="left-part">
+          <h3>White-label delivery lets agencies grow without hiring risk, margin erosion, or client-facing stress.</h3>
+          <p>We operate as the back-end delivery engine for agencies scaling recurring.</p>
+          <a href="#" class="home-cta-button">CONTACT US</a>
+        </div>
+
+        <div class="right-part">
+          <div class="slide-boxes">
+            <div class="box"><img src="assets/images/home-images/p-v-3.png" alt=""></div>
+            <div class="box"><img src="assets/images/home-images/p-v-2.png" alt=""></div>
+            <div class="box active"><img src="assets/images/home-images/p-v-1.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- high-velocity end-->
 
 
-  <section class="three-column-section  padding-t-120 padding-b-120">
+
+  <!-- insights section  -->
+  <section class="insights">
     <div class="container">
-      <div class="top-section">
-        <h2>Let Us Turn Your Digital Challenges into Opportunities</h2>
-        <p>
-          From attracting new audiences to converting leads, our end-to-end solutions are designed to meet your unique
-          business goals.
-        </p>
+
+      <div class="insights__top-part">
+        <div>
+          <h2>Insights for Growing Agencies</h2>
+          <p>Practical reads on scaling delivery, protecting margins, and managing peak workload.</p>
+        </div>
+
+        <a href="#" class="btn-outline">
+          VIEW ALL BLOGS
+        </a>
       </div>
-      <div class="card-row">
-        <div class="card">
-          <img class="card-icon" loading="lazy" src="assets/images/home-images/icon-01.svg" alt="Pixelcrayons"
-            width="44" height="44">
-          <h3>Struggling with low conversion?</h3>
-          <p>Turn visits into revenue with CRO and fast testing.</p>
-          <ul>
-            <li>Analytics teardown</li>
-            <li>Hypothesis testing</li>
-            <li>A/B rollouts</li>
-          </ul>
-          <a href="#" class="is-arrow">Learn More</a>
-        </div>
-        <div class="card">
-          <img class="card-icon" loading="lazy" src="assets/images/home-images/icon-01.svg" alt="Pixelcrayons"
-            width="44" height="44">
-          <h3>Struggling with low conversion?</h3>
-          <p>Turn visits into revenue with CRO and fast testing.</p>
-          <ul>
-            <li>Analytics teardown</li>
-            <li>Hypothesis testing</li>
-            <li>A/B rollouts</li>
-          </ul>
-          <a href="#" class="is-arrow">Learn More</a>
-        </div>
-        <div class="card">
-          <img class="card-icon" loading="lazy" src="assets/images/home-images/icon-01.svg" alt="Pixelcrayons"
-            width="44" height="44">
-          <h3>Struggling with low conversion?</h3>
-          <p>Turn visits into revenue with CRO and fast testing.</p>
-          <ul>
-            <li>Analytics teardown</li>
-            <li>Hypothesis testing</li>
-            <li>A/B rollouts</li>
-          </ul>
-          <a href="#" class="is-arrow">Learn More</a>
-        </div>
-        <div class="card">
-          <img class="card-icon" loading="lazy" src="assets/images/home-images/icon-01.svg" alt="Pixelcrayons"
-            width="44" height="44">
-          <h3>Struggling with low conversion?</h3>
-          <p>Turn visits into revenue with CRO and fast testing.</p>
-          <ul>
-            <li>Analytics teardown</li>
-            <li>Hypothesis testing</li>
-            <li>A/B rollouts</li>
-          </ul>
-          <a href="#" class="is-arrow">Learn More</a>
-        </div>
-        <div class="card">
-          <img class="card-icon" loading="lazy" src="assets/images/home-images/icon-01.svg" alt="Pixelcrayons"
-            width="44" height="44">
-          <h3>Struggling with low conversion?</h3>
-          <p>Turn visits into revenue with CRO and fast testing.</p>
-          <ul>
-            <li>Analytics teardown</li>
-            <li>Hypothesis testing</li>
-            <li>A/B rollouts</li>
-          </ul>
-          <a href="#" class="is-arrow">Learn More</a>
-        </div>
-        <div class="card">
-          <img class="card-icon" loading="lazy" src="assets/images/home-images/icon-01.svg" alt="Pixelcrayons"
-            width="44" height="44">
-          <h3>Struggling with low conversion?</h3>
-          <p>Turn visits into revenue with CRO and fast testing.</p>
-          <ul>
-            <li>Analytics teardown</li>
-            <li>Hypothesis testing</li>
-            <li>A/B rollouts</li>
-          </ul>
-          <a href="#" class="is-arrow">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="white-label-sc bg-blue padding-t-120 padding-b-150">
-    <div class="container">
-      <div class="top-section text-center">
-        <h2>White-label Solutions You Can Count On</h2>
-        <p>We deliver 100% white-label services - our team plugs into your pods, works under your brand (NDA-backed),
-          and scales capacity without new hires.</p>
-      </div>
-      <div class="white-label__content">
-        <div class="white-label__image">
-          <picture>
-            <source type="image/webp" srcset="assets/images/home-images/white-lab.png">
-            <source type="image/png" srcset="assets/images/home-images/white-lab.png">
-            <img loading="lazy" src="assets/images/home-images/white-lab.png" alt="pc" width="650" height="670">
-          </picture>
-        </div>
-        <div class="white-label__grid">
-          <div class="persona-card">
+
+      <div class="insights__grid">
+
+        <!-- Card 1 -->
+        <div class="blog-card">
+          <div class="blog-card__image">
             <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
+              <img src="assets/images/home-images/scaling.png" alt="Blog Card 1">
             </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
           </div>
-          <div class="persona-card">
+
+          <div class="blog-card__content">
+            <span>WHITE LABEL SOLUTIONS</span>
+            <h3>Scaling Delivery Without the Hiring Headaches</h3>
+
+            <div class="blog-card__footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/40" alt="">
+                <div>
+                  <p>Kristi Ray</p>
+                  <span>Jan 22, 2026</span>
+                </div>
+              </div>
+
+              <a href="#">Read More </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="blog-card">
+          <div class="blog-card__image">
+            <img src="assets/images/home-images/protecting.png" alt="Blog Card 2">
+          </div>
+          <div class="blog-card__content">
+            <span>ECOMMERCE</span>
+            <h3>Protecting Your Agency Margins in 2025</h3>
+            <div class="blog-card__footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/40" alt="">
+                <div>
+                  <p>Kristi Ray</p>
+                  <span>Jan 22, 2026</span>
+                </div>
+              </div>
+              <a href="#">Read More </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="blog-card">
+          <div class="blog-card__image">
             <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
+              <img src="assets/images/home-images/managing.png" alt="Blog Card 3">
             </picture>
-            <h3>Embedded pods, tool-chain compatible</h3>
-            <a href="#" class="is-arrow">Learn More</a>
           </div>
-          <div class="persona-card">
-            <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
-            </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
-          </div>
-          <div class="persona-card">
-            <picture>
-              <img class="normal" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
-              <img class="hover" loading="lazy" src="assets/images/home-images/wh-01.svg" alt="pc" width="44"
-                height="44">
-            </picture>
-            <h3>Delivery under your brand, NDA</h3>
-            <a href="#" class="is-arrow">Learn More</a>
+
+          <div class="blog-card__content">
+            <span>DIGITAL MARKETING</span>
+            <h3>Managing Peak Workloads: A Guide for Agency Owners</h3>
+
+            <div class="blog-card__footer">
+              <div class="author">
+                <img src="https://i.pravatar.cc/40" alt="">
+                <div>
+                  <p>Kristi Ray</p>
+                  <span>Jan 22, 2026</span>
+                </div>
+              </div>
+
+              <a href="#">Read More </a>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
-  <section class="client-img-section padding-t-120 padding-b-120">
+
+  <!-- insights section end -->
+
+
+
+
+  <!-- feedback section start -->
+
+  <section class="testimonial-section-v6">
     <div class="container">
-      <div class="dis-flex why-ws">
-        <div class="flex-2 left-box">
-          <div class="top-section">
-            <h2>Experience Excellence with pixelcrayons</h2>
-            <p>Embrace the transformative power of technology with pixelcrayons, where our expertise meets your vision.
-            </p>
-            <p>From startups to big enterprises, development organizations to digital agencies, and SMEs to Governments,
-              we cater to varied software requirements, delivering .</p>
-          </div>
-          <div class="btn-container">
-            <a href="#" class="cta-button yellow">
-              GET STARTED
-            </a>
-          </div>
-        </div>
-        <div class="flex-2 right-box">
-          <div class="dis-flex">
-            <div class="flex-2 why-left">
-              <div class="plateform">
-                <h3>One Platform,
-                  Endless Efficiency
-                </h3>
-                <ul>
-                  <li>India's Top 1% Software Talent</li>
-                  <li>Startups to Fortune 500</li>
-                  <li>Productivity metrics</li>
-                  <li>Transparent reporting</li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex-2 why-right">
-              <div class="client-section">
-                <div class="client-row">
-                  <div class="client-stack award-animate-slide-to-left hover:pause">
-                    <ul>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-01.png" alt="pixelcrayons" width="76"
-                            height="29">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-02.png" alt="pixelcrayons" width="113"
-                            height="17">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-03.png" alt="pixelcrayons" width="85"
-                            height="28">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-04.png" alt="pixelcrayons" width="68"
-                            height="46">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-05.png" alt="pixelcrayons" width="91"
-                            height="40">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-06.png" alt="pixelcrayons" width="98"
-                            height="49">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-07.png" alt="pixelcrayons" width="80"
-                            height="33">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-08.png" alt="pixelcrayons" width="110"
-                            height="50">
-                        </picture>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="client-row">
-                  <div class="client-stack award-animate-slide-to-right hover:pause">
-                    <ul>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-09.png" alt="pixelcrayons" width="83"
-                            height="82">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-10.png" alt="pixelcrayons" width="63"
-                            height="29">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-11.png" alt="pixelcrayons" width="102"
-                            height="32">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-12.png" alt="pixelcrayons" width="92"
-                            height="53">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-13.png" alt="pixelcrayons" width="61"
-                            height="26">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-14.png" alt="pixelcrayons" width="87"
-                            height="44">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-15.png" alt="pixelcrayons" width="94"
-                            height="38">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-16.png" alt="pixelcrayons" width="93"
-                            height="50">
-                        </picture>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="client-row">
-                  <div class="client-stack award-animate-slide-to-left hover:pause">
-                    <ul>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-17.png" alt="pixelcrayons" width="104"
-                            height="30">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-18.png" alt="pixelcrayons" width="96"
-                            height="30">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-19.png" alt="pixelcrayons" width="50"
-                            height="50">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-20.png" alt="pixelcrayons" width="82"
-                            height="49">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-21.png" alt="pixelcrayons" width="109"
-                            height="27">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-22.png" alt="pixelcrayons" width="103"
-                            height="54">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-23.png" alt="pixelcrayons" width="94"
-                            height="50">
-                        </picture>
-                      </li>
-                      <li>
-                        <picture>
-                          <img loading="lazy" src="assets/images/home-images/whyI-24.png" alt="pixelcrayons" width="100"
-                            height="33">
-                        </picture>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="award-row">
-            <ul>
-              <li>
-                <a href="#" target="_blank">
-                  <picture>
-                    <img loading="lazy" src="assets/images/home-images/aw-01.svg" alt="pixelcrayons" width="68"
-                      height="53">
-                  </picture>
-                </a>
-              </li>
-              <li>
-                <picture>
-                  <img loading="lazy" src="assets/images/home-images/aw-02.svg" alt="pixelcrayons" width="92"
-                    height="35">
-                </picture>
-              </li>
-              <li>
-                <a href="https://www.goodfirms.co/company/pixelcrayons" target="_blank">
-                  <picture>
-                    <img loading="lazy" src="assets/images/home-images/aw-03.svg" alt="pixelcrayons" width="66"
-                      height="45">
-                  </picture>
-                </a>
-              </li>
-              <li>
-                <a href="https://clutch.co/profile/pixelcrayons#highlights" target="_blank">
-                  <picture>
-                    <img loading="lazy" src="assets/images/home-images/aw-04.svg" alt="pixelcrayons" width="100"
-                      height="15">
-                  </picture>
-                </a>
-              </li>
-              <li>
-                <picture>
-                  <img loading="lazy" src="assets/images/home-images/aw-05.svg" alt="pixelcrayons" width="35"
-                    height="58">
-                </picture>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  </section>
-  <section class="tabs-section techno-tabs padding-t-120 padding-b-120" id="tabs-section-2">
-    <div class="container">
-      <div class="top-section">
-        <h2>Improve and Innovate with the Tech Trends</h2>
-        <p>Our team can assist you in transforming your business with the latest tech capabilities to stay ahead of the
-          curve.</p>
-      </div>
-      <div class="tab-flex">
-        <div class="tabs-container">
-          <ul class="tabs">
-            <li class="tab active" data-target="ai"><img src="assets/images/home-images/tech-icon.svg">Artificial
-              Intelligence</li>
-            <li class="tab" data-target="blockc"><img src="assets/images/home-images/tech-icon.svg">Blockchain</li>
-            <li class="tab" data-target="cvision"><img src="assets/images/home-images/tech-icon.svg">Computer Vision
-            </li>
-            <li class="tab" data-target="iot"><img src="assets/images/home-images/tech-icon.svg">Internet of Things</li>
-            <li class="tab" data-target="mixedr"><img src="assets/images/home-images/tech-icon.svg">Mixed Reality</li>
-          </ul>
-          <div class="tab-content">
-            <div class="content active" id="ai">
-              <div class="dis-flex">
-                <div class="flex-2 img-div">
-                  <picture>
-                    <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                    <img loading="lazy" src="assets/images/home-images/technology-01.png" width="484" height="282">
-                  </picture>
-                </div>
-                <div class="flex-2 content-div">
-                  <h3>Design Services</h3>
-                  <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                  <ul>
-                    <li>MVP & SaaS Development</li>
-                    <li>CTO as a Service </li>
-                    <li>Data Analytics & DevOps</li>
-                    <li>Technology Consulting</li>
-                  </ul>
-                  <a href="#" class="is-arrow">Find Out More</a>
-                </div>
-              </div>
-            </div>
-            <div class="content" id="blockc">
-              <div class="dis-flex">
-                <div class="flex-2 img-div">
-                  <picture>
-                    <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                    <img loading="lazy" src="assets/images/home-images/technology-01.png" width="484" height="282">
-                  </picture>
-                </div>
-                <div class="flex-2 content-div">
-                  <h3>Blockchain</h3>
-                  <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                  <ul>
-                    <li>MVP & SaaS Development</li>
-                    <li>CTO as a Service </li>
-                    <li>Data Analytics & DevOps</li>
-                    <li>Technology Consulting</li>
-                  </ul>
-                  <a href="#" class="is-arrow">Find Out More</a>
-                </div>
-              </div>
-            </div>
-            <div class="content" id="cvision">
-              <div class="dis-flex">
-                <div class="flex-2 img-div">
-                  <picture>
-                    <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                    <img loading="lazy" src="assets/images/home-images/technology-01.png" width="484" height="282">
-                  </picture>
-                </div>
-                <div class="flex-2 content-div">
-                  <h3>Computer Vision</h3>
-                  <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                  <ul>
-                    <li>MVP & SaaS Development</li>
-                    <li>CTO as a Service </li>
-                    <li>Data Analytics & DevOps</li>
-                    <li>Technology Consulting</li>
-                  </ul>
-                  <a href="#" class="is-arrow">Find Out More</a>
-                </div>
-              </div>
-            </div>
-            <div class="content" id="iot">
-              <div class="dis-flex">
-                <div class="flex-2 img-div">
-                  <picture>
-                    <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                    <img loading="lazy" src="assets/images/home-images/technology-01.png" width="484" height="282">
-                  </picture>
-                </div>
-                <div class="flex-2 content-div">
-                  <h3>Internet of Things</h3>
-                  <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                  <ul>
-                    <li>MVP & SaaS Development</li>
-                    <li>CTO as a Service </li>
-                    <li>Data Analytics & DevOps</li>
-                    <li>Technology Consulting</li>
-                  </ul>
-                  <a href="#" class="is-arrow">Find Out More</a>
-                </div>
-              </div>
-            </div>
-            <div class="content" id="mixedr">
-              <div class="dis-flex">
-                <div class="flex-2 img-div">
-                  <picture>
-                    <source type="image/webp" srcset="assets/images/home-images/technology-01.png">
-                    <img loading="lazy" src="assets/images/home-images/technology-01.png" width="484" height="282">
-                  </picture>
-                </div>
-                <div class="flex-2 content-div">
-                  <h3>Mixed Reality</h3>
-                  <p>Our design team creates user-centric experiences that captivate audiences.</p>
-                  <ul>
-                    <li>MVP & SaaS Development</li>
-                    <li>CTO as a Service </li>
-                    <li>Data Analytics & DevOps</li>
-                    <li>Technology Consulting</li>
-                  </ul>
-                  <a href="#" class="is-arrow">Find Out More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="industries-slider-section  bg-light padding-t-120 padding-b-120">
-    <div class="container">
-      <div class="top-section b-100">
-        <h2>Industries We Cater to</h2>
-        <p>Get what you are looking for to fulfill your software development and outsourcing needs at ValueCoders, with
-          our expertise on all in-demand technologies & platforms.</p>
-      </div>
-    </div>
-    <div class="dis-flex glider-contain industries-slider" id="industries-glider">
-      <div class="glider">
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-02.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-        <div class="industry-card">
-          <div class="card-bg" style="background-image:url(assets/images/home-images/ind-01.png);"></div>
-          <div class="card-content">
-            <h5>TRAVEL & TOURISM</h5>
-            <h4>Innovate software for travel & Tourism...</h4>
-            <div class="hover-content">
-              <p>Embrace the transformative power of technology with ValueCoders.</p>
-              <a href="#" class="expand">Expand</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="test-button">
-        <button aria-label="Previous" class="test-prev">«</button>
-        <button aria-label="Next" class="test-next">»</button>
-        <div role="tablist" class="dots"></div>
-      </div>
-    </div>
-  </section>
-  <section class="success-slider-section  padding-t-120 padding-b-120">
-    <div class="container">
-      <div class="top-section">
-        <h2>Success Stories</h2>
-        <p>Get what you are looking for to fulfill your software development and outsourcing needs at ValueCoders.</p>
-      </div>
-      <div class="dis-flex glider-contain success-slider" id="success-glider">
-        <div class="glider">
-          <div class="industry-card">
-            <div class="card-bg" style="background-image:url(assets/images/home-images/success-01.png);"><span
-                class="category">IT Consulting & Strategy</span>
-              <a class="move" href="#"></a>
-            </div>
-            <div class="card-content">
-              <h4>Innovate software for travel & Tourism...</h4>
-              <p>The client wanted to build a web portal where customers could purchase motorcycles online and dealers
-                could access and manage their agent accounts.</p>
-            </div>
-          </div>
-          <div class="industry-card">
-            <div class="card-bg" style="background-image:url(assets/images/home-images/success-02.png);"> <span
-                class="category">Website Development</span>
-              <a class="move" href="#"></a>
-            </div>
-            <div class="card-content">
-              <h4>Best Travel Platform</h4>
-              <p>The smart integrated platform is founded on the pillars...</p>
-            </div>
-          </div>
-          <div class="industry-card">
-            <div class="card-bg" style="background-image:url(assets/images/home-images/test-01.jpg);"><span
-                class="category">IT Consulting & Strategy</span>
-              <a class="move" href="#"></a>
-            </div>
-            <div class="card-content">
-              <h4>Change Slider prtal</h4>
-              <p>The client wanted to build a web portal where customers could purchase motorcycles online and dealers
-                could access and manage their agent accounts.</p>
-            </div>
-          </div>
-          <div class="industry-card">
-            <div class="card-bg" style="background-image:url(assets/images/home-images/success-02.png);"> <span
-                class="category">Website Development</span>
-              <a class="move" href="#"></a>
-            </div>
-            <div class="card-content">
-              <h4>Travel Platform portal</h4>
-              <p>The smart integrated platform is founded on the pillars...</p>
-            </div>
-          </div>
-          <div class="industry-card">
-            <div class="card-bg" style="background-image:url(assets/images/home-images/test-01.jpg);"><span
-                class="category">IT Notice</span>
-              <a class="move" href="#"></a>
-            </div>
-            <div class="card-content">
-              <h4>Slider prtal</h4>
-              <p>The client wanted to build a web portal where customers could purchase motorcycles online and dealers
-                could access and manage their agent accounts.</p>
-            </div>
-          </div>
-          <div class="industry-card">
-            <div class="card-bg" style="background-image:url(assets/images/home-images/success-02.png);"> <span
-                class="category">Website Devops</span>
-              <a class="move" href="#"></a>
-            </div>
-            <div class="card-content">
-              <h4>Platform portal</h4>
-              <p>The smart integrated platform is founded on the pillars...</p>
-            </div>
-          </div>
-        </div>
-        <div class="test-button">
-          <button aria-label="Previous" class="test-prev">«</button>
-          <button aria-label="Next" class="test-next">»</button>
-          <div role="tablist" class="dots"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="client-testimonial light-background  padding-t-120 padding-b-120">
-    <div class="container">
-      <div class="top-section b-100">
+      <div class="top-part">
         <h2>See What our Clients are Saying...</h2>
         <p>Our hard work is appreciated by our clients all across the globe. Here are a few testimonials sent by some of
-          our clients:
+          our clients:</p>
       </div>
-      <div class="client-out">
-        <div class="test-row">
-          <div class="vid-wrap">
-            <div class="client-videos" id="cvbox-1">
-              <div class="client-video-box">
-                <iframe class="yt-player" id="ytiframe-1" style="display:none;"></iframe>
-                <a class="frame-mask" href="javascript:void(0);"
-                  onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                  <picture>
-                    <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                    <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290"
-                      height="328">
-                  </picture>
-                  <div class="playBtn">
-                    <div class="playsc"><span class="playicon"></span></div>
-                  </div>
-                </a>
+      <div class="glider-contain">
+        <div class="testimonial-cards glider">
+          <div class="testimonial-card">
+            <div class="card-image">
+              <img src="assets/images/home-images/testimonial-img-1.png" alt="James Kelly">
+              <div class="play-icon">
+                <span class="play-btn"> Play </span>
               </div>
             </div>
-            <div class="content-box">
-              <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale
-                up during certain projects.”</p>
-              <h5>James Kelly</h5>
-              <span class="designtn">Co-founder, James Kelly</span>
-              <span class="star-image"></span>
-            </div>
-          </div>
-          <div class="vid-wrap">
-            <div class="client-videos" id="cvbox-1">
-              <div class="client-video-box">
-                <iframe class="yt-player" id="ytiframe-1" style="display:none;"></iframe>
-                <a class="frame-mask" href="javascript:void(0);"
-                  onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                  <picture>
-                    <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                    <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290"
-                      height="328">
-                  </picture>
-                  <div class="playBtn">
-                    <div class="playsc"><span class="playicon"></span></div>
-                  </div>
-                </a>
+            <div class="card-content">
+              <div class="rating">
+                <ul>
+                  <li><img src="assets/images/home-images/stars-4.5.svg" alt=""></li>
+                </ul>
+              </div>
+
+              <p>We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up
+                during certain projects.</p>
+
+              <div class="author-info">
+                <img src="assets/images/home-images/Airtel-Foundation.png" alt="Company Logo">
+
+                <div class="details">
+                  <span>James Kelly</span>
+                  <p>Co-founder, Miracle Choice</p>
+                </div>
               </div>
             </div>
-            <div class="content-box">
-              <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale
-                up during certain projects.”</p>
-              <h5>James Kelly</h5>
-              <span class="designtn">Co-founder, James Kelly</span>
-              <span class="star-image"></span>
-            </div>
           </div>
-          <div class="vid-wrap">
-            <div class="client-videos" id="cvbox-1">
-              <div class="client-video-box">
-                <iframe class="yt-player" id="ytiframe-1" style="display:none;"></iframe>
-                <a class="frame-mask" href="javascript:void(0);"
-                  onclick="playTetiVideo(1, 'https://www.youtube.com/embed/aErqOtvMClY?autoplay=1', this)">
-                  <picture>
-                    <source type="image/png" srcset="assets/images/home-images/clinet-02.png">
-                    <img loading="lazy" src="assets/images/home-images/clinet-02.png" alt="Valuecoders" width="290"
-                      height="328">
-                  </picture>
-                  <div class="playBtn">
-                    <div class="playsc"><span class="playicon"></span></div>
-                  </div>
-                </a>
+          <div class="testimonial-card">
+            <div class="card-image">
+              <img src="assets/images/home-images/testimonial-img-1.png" alt="James Kelly">
+              <div class="play-icon">
+                <span class="play-btn"> Play </span>
               </div>
             </div>
-            <div class="content-box">
-              <p>“We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale
-                up during certain projects.”</p>
-              <h5>James Kelly</h5>
-              <span class="designtn">Co-founder, James Kelly</span>
-              <span class="star-image"></span>
+            <div class="card-content">
+              <div class="rating">
+                <ul>
+                  <li><img src="assets/images/home-images/stars-4.5.svg" alt=""></li>
+                </ul>
+              </div>
+
+              <p>We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up
+                during certain projects.</p>
+
+              <div class="author-info">
+                <img src="assets/images/home-images/Airtel-Foundation.png" alt="Company Logo">
+
+                <div class="details">
+                  <span>James Kelly</span>
+                  <p>Co-founder, Miracle Choice</p>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="testimonial-card">
+            <div class="card-image">
+              <img src="assets/images/home-images/testimonial-img-1.png" alt="James Kelly">
+              <div class="play-icon">
+                <span class="play-btn"> Play </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="rating">
+                <ul>
+                  <li><img src="assets/images/home-images/stars-4.5.svg" alt=""></li>
+                </ul>
+              </div>
+
+              <p>We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up
+                during certain projects.</p>
+
+              <div class="author-info">
+                <img src="assets/images/home-images/Airtel-Foundation.png" alt="Company Logo">
+
+                <div class="details">
+                  <span>James Kelly</span>
+                  <p>Co-founder, Miracle Choice</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+        <div id="dots" class="glider-dots"></div>
       </div>
     </div>
   </section>
-  <section class="faq-section padding-t-120 padding-b-120">
+
+  <!-- feedback section end -->
+
+  <!-- faq-section start -->
+
+
+  <section class="faq-section">
     <div class="container">
-      <div class="top-section">
-        <h2>Frequently Asked Questions</h2>
-        <p>Here are some questions related to software outsourcing that our clients frequently ask:</p>
-      </div>
-      <div class="faq-outer" itemscope="" itemtype="https://schema.org/FAQPage">
-        <div class="faq-accordion-item-outer active" itemscope="" itemprop="mainEntity"
-          itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">Why should I choose ValueCoders for software engineering,
-            consulting, and outsourcing?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>We are a highly experienced and qualified team of professionals with a proven track record of
-                delivering quality software solutions to clients. Here are a few reasons to choose us:</p>
-              <ul>
-                <li>675+ software developers</li>
-                <li>Expertise in different technologies</li>
-                <li>Strong reputation for quality work</li>
-                <li>Experience working on complex projects for different industry verticals</li>
-              </ul>
-            </div>
-          </div>
+      <div class="inner-part">
+
+        <!-- LEFT CONTENT -->
+        <div class="faq-left">
+          <h2>
+            Frequently Asked <span>Questions</span>
+          </h2>
+          <p>
+            Here are some questions related to software outsourcing that our clients frequently ask.
+          </p>
         </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">Can I test the services of ValueCoders before committing to
-            long-term engagement?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>You can test the services of ValueCoders before committing to long-term engagement. We offer free trial
-                to clients worldwide. This is to give our potential customers a risk-free way to try our software
-                development services before committing to long-term engagement. We strongly believe in our products and
-                services and want to allow everyone to experience firsthand the value we can bring.</p>
-              <p>Just fill out a form and&nbsp;<a href="https://www.valuecoders.com/software-consulting">connect with
-                  our team</a>. We hope you’ll take advantage of this and give us a chance to show you what we can do.
-              </p>
+        <!-- RIGHT ACCORDION -->
+        <div class="faq-right">
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Why should you choose PixelCrayons as a digital agency?</h3>
+              <span class="icon"></span>
+            </div>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">How much does outsourcing software development to India cost?
-          </h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>The cost of&nbsp;<a
-                  href="https://www.valuecoders.com/software-outsourcing-services-company"><strong>outsourcing software
-                    development</strong></a> depends on several factors such as:</p>
-              <ul>
-                <li>Size and build of the application</li>
-                <li>Features &amp; third-party integrations</li>
-                <li>APIs</li>
-                <li>Animations</li>
-                <li>Localizations</li>
-                <li>Backend</li>
-                <li>Cross-platform toolsets</li>
-                <li>Platforms, and more.</li>
-              </ul>
-              <p>If you share your basic idea, we can provide you with an ETA and estimated cost.</p>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How do I get started with your digital services?</h3>
+              
+            </div>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">I own a digital agency. Do you offer white-label software
-            development services?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>Yes, we provide all types of&nbsp;<a
-                  href="https://www.valuecoders.com/white-label-services"><strong>white-label software development
-                    services</strong></a>, including business-to-business (B2B), business-to-customer (B2C), and
-                software-as-a-service (SaaS). Get in touch with our experts to know more about white-label software
-                services.</p>
-              <p>We believe in complete transparency and collaboration with our clients regarding white-label software
-                development. We understand that every business has unique requirements and needs, and we work closely
-                with our clients to ensure that we meet all their specific needs. We also offer 24/7 support and
-                maintenance services to ensure that our client’s businesses always run smoothly.</p>
+
+          <div class="faq-item active">
+            <div class="faq-question">
+              <h3>Can I hire dedicated teams for my project?</h3>
+              
+            </div>
+            <div class="faq-answer">
+              <p>Here are some questions related to software outsourcing that our clients frequently ask:</p>
             </div>
           </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">Do you work with startups and clients on a budget?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>Yes, we work with startups. Since our establishment, we have worked with thousands of startups across
-                the globe and become the proud partner in their success journey. We have built hundreds of Minimum
-                Viable Products (MVPs) and scaled several startups to new heights. Also, we provide you with initial
-                technology consulting that helps you cut costs &amp; time.</p>
-              <p>Let us know your budget, and our experts will be happy to help you.</p>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Is outsourcing software development risky? How do you mitigate risks?</h3>
+              
+            </div>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">Is outsourcing software development risky? How do you ensure
-            IP (Intellectual Property) and data protection?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p><a href="https://www.valuecoders.com/outsource-software-product-development-services"><strong>Software
-                    product development outsourcing</strong></a>&nbsp;is not risky at all if you outsource your project
-                to a reputed company. ValueCoders ensures IP (Intellectual Property) &amp; data protection in the
-                following ways:</p>
-              <ul>
-                <li>We sign a Non-Disclosure Agreement (NDA)</li>
-                <li>We meet special industry regulations such as GDPR, HIPAA, etc.</li>
-                <li>We follow secure coding and data protection practices</li>
-                <li>We establish firewalls, encryption, and VPN services to prevent online security breaches</li>
-                <li>All our employees are strictly verified before recruitment</li>
-              </ul>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What are the advantages of outsourcing software development?</h3>
+              
+            </div>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">I want to outsource software development. What engagement
-            options do you offer?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>At ValueCoders, we offer a variety of engagement models to suit your specific project requirements.
-                Whether you need a dedicated team of coders for an ongoing project or just a few extra hands for a
-                one-off task, we have an engagement model that will fit your needs.</p>
-              <p><strong><a href="https://www.valuecoders.com/dedicated-development-teams">Dedicated
-                    Team</a>:</strong>&nbsp;Dedicated team model comprises a PM, SW Engineer, QA Engineer, and other
-                roles defined for each specific project.</p>
-              <p><strong><a href="https://www.valuecoders.com/it-staff-augmentation-services">Staff
-                    Augmentation</a>:</strong>&nbsp;We provide extra talent to boost your specific projects. This
-                extended team works as a part of your local team, attending your daily meetings and reporting directly
-                to your manager.</p>
-              <p><strong><a href="https://www.valuecoders.com/offshore-software-development-center-india">Offshore
-                    Development Center</a>:</strong>&nbsp;We also provide a dedicated software development office with
-                all required infrastructure and employees in India. Our ODC model helps you save budget and speed up
-                development, recruiting, and optimizing accounting and HR.</p>
-            </div>
-          </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">How does the software development outsourcing process work?
-          </h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>Software development outsourcing works differently, depending on the project requirements and the
-                company’s needs. But &zwnj;the process typically looks something like this:</p>
-              <ul>
-                <li>The company defines the project scope and objectives and finds a trustworthy provider.</li>
-                <li>The provider creates a team of qualified professionals working on the project.</li>
-                <li>The team works closely with the client to ensure all deliverables meet or exceed expectations.</li>
-                <li>Upon completion, the client gives final approval and pays for the work completed.</li>
-              </ul>
-              <p>Each software development outsourcing project is unique, so this process will vary somewhat from case
-                to case.</p>
-              <p>It fulfills the requirement of a capable team cost-efficiently, and you get technical support after the
-                experts complete the project.</p>
-            </div>
-          </div>
-        </div>
-        <div class="faq-accordion-item-outer" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 class="faq-accordion-toggle" itemprop="name">What are the advantages of outsourcing software development
-            to India over Latin America, the Philippines or Eastern Europe?</h3>
-          <div class="faq-accordion-content" itemscope="" itemprop="acceptedAnswer"
-            itemtype="https://schema.org/Answer">
-            <div itemprop="text">
-              <p>Many reasons make India an ideal destination for&nbsp;<a
-                  href="https://www.valuecoders.com/software-outsourcing-services-company"><strong>software outsourcing
-                    services</strong></a>. Here are a few reasons that give a competitive edge to India over Latin
-                America, the Philippines, or Eastern Europe:</p>
-              <ul>
-                <li>Outsourcing software development projects to India is always more cost-effective.</li>
-                <li>You get a large pool of English-speaking skilled workforce in India, which might be a challenge in
-                  Eastern Europe and Philippines.</li>
-                <li>Indian companies provide state-of-the-art infrastructural and technological support to the clients
-                  outsourcing to them.</li>
-                <li>IT companies in India keep themselves abreast with the latest technological advancements.</li>
-              </ul>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
   </section>
+
+
+  <!-- faq-section end-->
+
+
   <?php require_once 'assets/include/cta-v3.php'; ?>
   <?php require_once 'assets/include/blog-footer.php'; ?>
   <script
     src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264"
     id="pixel-glider-js"></script>
   <script>
-    if (document.getElementById("industries-glider")) {
-      window.addEventListener("load", function () {
-        var gliderElement = document.querySelector(".industries-slider .glider");
-        if (gliderElement) {
-          new Glider(gliderElement, {
-            slidesToShow: 6, // Default for large screens
-            slidesToScroll: 1,
-            draggable: true,
-            scrollLock: true,
-            duration: 2.25,
-            dots: ".industries-slider .dots",
-            arrows: { prev: "#industries-glider .test-prev", next: "#industries-glider .test-next" },
-            responsive: [
-              { breakpoint: 320, settings: { slidesToShow: 1, slidesToScroll: 1, itemWidth: '100%', duration: 2.25 } },
-              { breakpoint: 767, settings: { slidesToShow: 1, slidesToScroll: 1, itemWidth: '100%', duration: 2.25 } },
-              { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1, itemWidth: '50%', duration: 2.25 } },
-              { breakpoint: 1400, settings: { slidesToShow: 6, slidesToScroll: 1, itemWidth: '16.66%', duration: 2.25 } }
-            ]
-          });
-        }
-      });
+
+    // slidr box cta
+    if (document.getElementById("box-grids")) {
+      const slides = document.querySelectorAll('.slide-boxes .box');
+      let index = 0;
+
+      setInterval(() => {
+        slides[index].classList.remove('active');
+
+        index++;
+        if (index >= slides.length) index = 0;
+
+        slides[index].classList.add('active');
+      }, 2000);
     }
 
-
-
-
-
-    if (document.getElementById("client-slider")) {
-      window.addEventListener("load", () => {
-        const gliderElement = document.querySelector(".client-slider .glider");
-        const progressBar = document.querySelector(".client-progress-bar");
-
-        if (gliderElement && progressBar) {
-          let glider; // Declare glider variable
-
-          glider = new Glider(gliderElement, {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            draggable: true,
-            duration: 2.25,
-            dots: ".dots",
-            arrows: {
-              prev: ".cl-prev",
-              next: ".cl-next",
-            },
-            responsive: [
-              {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 1,
-                },
-              },
-              {
-                breakpoint: 979,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                },
-              },
-              {
-                breakpoint: 767,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                },
-              },
-            ],
-          });
-
-          // Update progress bar
-          function updateProgress() {
-            const currentSlide = glider.slide;
-            const totalSlides = glider.slides.length;
-            const slidesToShow = glider.opt.slidesToShow;
-            const maxSlides = totalSlides - slidesToShow;
-            const progress = (currentSlide / maxSlides) * 100;
-            progressBar.style.width = `${Math.min(100, Math.max(0, progress))}%`;
+    // feedback section```````````````````````````````````````````````````````
+    if (document.getElementById("box-grids")) {
+      const glider = new Glider(document.querySelector('.testimonial-cards.glider'), {
+        slidesToShow: 1,
+        draggable: true,
+        dots: '#dots',
+        scrollLock: true,
+        centerMode: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              duration: 0.5
+            }
           }
+        ]
+      });
 
-          // Initialize progress bar
-          updateProgress();
-
-          // Update progress bar when slides change
-          gliderElement.addEventListener("glider-slide-visible", updateProgress);
-
-          // Add smooth transition when slides move
-          gliderElement.addEventListener("glider-refresh", () => {
-            gliderElement.style.transition = "transform 0.5s ease";
-          });
-
-          // Handle arrow clicks
-          const prevArrow = document.querySelector(".cl-prev");
-          const nextArrow = document.querySelector(".cl-next");
-
-          prevArrow.addEventListener("click", () => {
-            setTimeout(updateProgress, 50); // Small delay to ensure glider state is updated
-          });
-
-          nextArrow.addEventListener("click", () => {
-            setTimeout(updateProgress, 50); // Small delay to ensure glider state is updated
-          });
-
-          // Handle window resize
-          let resizeTimer;
-          window.addEventListener("resize", () => {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(() => {
-              glider.refresh(true);
-              updateProgress();
-            }, 250);
-          });
+      const avatars = [
+        'assets/images/home-images/feedback-1.png',
+        'assets/images/home-images/feedback-2.jpg',
+        'assets/images/home-images/feedback-1.png',
+      ];
+      const dots = document.querySelectorAll('.glider-dot');
+      dots.forEach((dot, index) => {
+        if (avatars[index]) {
+          dot.style.backgroundImage = `url(${avatars[index]})`;
+          dot.innerText = ''; // Clear the default dot text
         }
       });
     }
 
 
+    // faq section
+    const faqItems = document.querySelectorAll(".faq-item");
 
+    faqItems.forEach(item => {
+      const button = item.querySelector(".faq-question");
 
+      button.addEventListener("click", () => {
+        const isActive = item.classList.contains("active");
 
-    if (document.getElementById("success-glider")) {
-      window.addEventListener("load", function () {
-        var gliderElement = document.querySelector(".success-slider .glider");
-        if (gliderElement) {
-          new Glider(gliderElement, {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            draggable: true,
-            scrollLock: true,
-            duration: 2.25,
-            dots: ".success-slider .dots",
-            arrows: {
-              prev: "#success-glider .test-prev",
-              next: "#success-glider .test-next"
-            },
-            responsive: [
-              // Mobile first: 320px and below
-              {
-                breakpoint: 320,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  duration: 2.25,
-                },
-              },
-              // Tablets: 767px and below
-              {
-                breakpoint: 767,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  duration: 2.25,
-                },
-              },
-              // Laptops: 1024px and below
-              {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 2,
-                  duration: 2.25,
-                },
-              },
-              // Large screens: 1400px and below
-              {
-                breakpoint: 1400,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 2,
-                  duration: 2.25,
-                },
-              },
-            ],
-          });
+        // close all
+        faqItems.forEach(i => i.classList.remove("active"));
+
+        // open clicked if it was closed
+        if (!isActive) {
+          item.classList.add("active");
         }
       });
-    }
+    });
+
+
 
 
   </script>

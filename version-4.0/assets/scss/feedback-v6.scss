@@ -1,0 +1,223 @@
+@use "_default" as *;
+// Variables
+
+$color-card: #E5E7EB;
+$breakpoint-md: 768px;
+
+.testimonial-section-v6 {
+  background-color: #F3F4F6;
+  padding: 120px 0px;
+  font-family: 'Inter', sans-serif;
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .top-part {
+    margin-bottom: 50px;
+    text-align: center;
+    h2 {
+      color: $headign-color;
+      margin-bottom: 10px;
+    }
+    p{
+      color: #4B5563;
+      margin-bottom: 0;
+      font-size: 18px;
+      margin: 0 auto;
+      max-width: 638px;
+      line-height: 1.4;
+      font-weight: 400;
+    }
+  }
+
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  background: $color-card;
+  border-radius: 24px;
+  overflow: hidden;
+  min-height: 420px;
+
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+  }
+
+  .card-image {
+    position: relative;
+    flex: 0 0 42%;
+    clip-path: polygon(0 0, 100% 0%, 78% 100%, 0% 100%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    // Creating the slanted edge effect
+    @media (min-width: $breakpoint-md) {
+      clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    }
+
+    .play-icon
+     {
+      position: absolute;
+      bottom: 25px;
+      left: 25px;
+      background: #DFFB0B80;
+      border: 1px solid #DFFB0B;
+      padding: 6px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .play-btn{
+        position: relative;
+        font-size: 18px;
+        font-weight: 500;
+        color: #0400F5;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-size: 15px !important;
+        vertical-align: middle;
+        background: url(../images/home-images/video-icon.svg) no-repeat;
+      }
+      }
+      
+    }
+  }
+
+  .card-content {
+    flex: 1;
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding-top: 116px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0%, 78% 100%, 0% 100%);
+    padding-bottom: 70px;
+
+    .rating {
+      border: 1px solid #F9FAFB;
+      background-color: #F3F4F680;
+      border-radius: 100px;
+      margin-bottom: 15px;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      padding: 11px 15px;
+      width: fit-content;
+
+      ul {
+        display: flex;
+
+        li {
+          display: flex;
+        }
+      }
+    }
+
+
+    >p {
+      color: #1F2937;
+      font-size: 22px;
+      line-height: 150%;
+      font-weight: 500;
+      margin-bottom: 0;
+      position: relative;
+
+      &::after {
+        content: "";
+        background: url(../images/home-images/white-quote.svg) no-repeat;
+        width: 41px;
+        height: 34px;
+        position: absolute;
+        left: 0;
+        top: -40px;
+        background-size: cover;
+      }
+    }
+
+    .quote {
+      font-size: 22px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      font-weight: 500;
+      position: relative;
+
+      &::before {
+        content: '"';
+        display: block;
+        font-size: 60px;
+        color: #ccd0d9;
+        height: 30px;
+      }
+    }
+
+    .author-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding-top: 20px;
+
+      img {
+        height: auto;
+      }
+
+      .details {
+        padding-left: 15px;
+        border-left: 1px solid #D1D5DC;
+
+        span {
+          display: block;
+          font-size: 16px;
+          font-weight: 700;
+          color: #101828;
+        }
+
+        p {
+          font-size: 14px;
+          color: #4A5565;
+          margin-bottom: 0;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+// Custom Avatar Navigation
+.glider-dots {
+  margin-top: 50px !important;
+  display: flex;
+  justify-content: center;
+
+  button.glider-dot {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid transparent;
+    opacity: 0.5;
+    transition: transform 0.2s;
+
+    &.active {
+      border: 2px solid #0400F5;
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+}
+}

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*========== Variables ==========*/
 /*======BG Colors ======*/
 @media only screen and (min-width: 768px) {
@@ -1077,8 +1076,20 @@ input:-webkit-autofill:active {
   }
 }
 .pixel-section {
-  padding: 80px 20px;
+  padding: 120px 0px;
+  position: relative;
   background-color: #fff;
+  z-index: 1;
+}
+.pixel-section::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../images/home-images/cta-grid.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 60%;
+  height: 100%;
 }
 .pixel-section .content-wrapper {
   display: flex;
@@ -1090,18 +1101,15 @@ input:-webkit-autofill:active {
   flex: 1;
   min-width: 320px;
 }
-.pixel-section .text-content h1 {
-  font-size: 48px;
+.pixel-section .text-content h2 {
   font-weight: 800;
-  color: #111827;
   line-height: 1.2;
   margin-bottom: 20px;
 }
-.pixel-section .text-content h1 span {
+.pixel-section .text-content h2 span {
   color: #0400F5;
 }
 .pixel-section .text-content p {
-  font-size: 18px;
   color: #4B5563;
   margin-bottom: 40px;
 }
@@ -1115,71 +1123,102 @@ input:-webkit-autofill:active {
 .pixel-section .text-content .features-list li {
   display: flex;
   align-items: center;
-  font-weight: 500;
-  font-size: 15px;
-  color: #111827;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4B5563;
+  position: relative;
+  padding-left: 24px;
 }
 .pixel-section .text-content .features-list li::before {
-  content: "✔";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #0400F5;
-  border-radius: 50%;
-  color: #0400F5;
-  font-size: 10px;
+  content: "";
+  width: 16px;
+  background: url("../images/home-images/iconex.svg") no-repeat center;
+  background-size: cover;
+  height: 16px;
   margin-right: 10px;
-  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .pixel-section .visual-content {
   flex: 1;
   min-width: 320px;
+  z-index: 1;
+  position: relative;
 }
-.pixel-section .visual-content .logo-grid {
+.pixel-section .visual-content::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: 0;
+  z-index: -1;
+  width: 520px;
+  height: 520px;
+  background: url("../images/home-images/work-section-background.png") no-repeat center;
+  opacity: 0.7;
+}
+.pixel-section .visual-content ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
-.pixel-section .visual-content .logo-grid .logo-card {
+.pixel-section .visual-content ul li {
+  min-height: 94px;
   background: #fff;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  padding: 20px;
+  border: 1px solid #E2E8F0;
+  border-radius: 15px;
+  padding: 13px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease;
 }
-.pixel-section .visual-content .logo-grid .logo-card img {
+.pixel-section .visual-content ul li img {
   max-width: 100%;
   height: auto;
 }
-.pixel-section .visual-content .logo-grid .logo-card.active {
+.pixel-section .visual-content ul li:nth-child(2) {
   border: 2px solid #0400F5;
-  box-shadow: 0 10px 20px rgba(85, 40, 255, 0.1);
 }
 .pixel-section .visual-content .stats-bar {
   background: #0a0a0b;
   color: #fff;
-  padding: 30px;
+  padding: 35px 25px;
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
 }
 .pixel-section .visual-content .stats-bar .stat-item {
+  min-width: 100px;
   text-align: left;
 }
 .pixel-section .visual-content .stats-bar .stat-item h3 {
   font-size: 28px;
   margin: 0;
+  color: #ffffff;
 }
 .pixel-section .visual-content .stats-bar .stat-item p {
   font-size: 12px;
-  color: #888;
+  color: #D1D5DC;
   margin: 5px 0 0;
+}
+@media screen and (max-width: 1024px) {
+  .pixel-section .pixel-section {
+    display: none;
+  }
+  .pixel-section .pixel-section .content-wrapper {
+    flex-direction: column;
+  }
+  .pixel-section .pixel-section .visual-content {
+    flex: unset;
+    width: 100%;
+  }
+  .pixel-section .pixel-section .visual-content {
+    width: 100%;
+    flex: unset;
+  }
 }
 @media (max-width: 992px) {
   .pixel-section .text-content h1 {

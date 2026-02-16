@@ -1,9 +1,10 @@
 @use "_default" as *;
+
 .comparison {
   background: #F2F8FF;
   padding: 80px 20px;
 
-  .add-lists-icon{
+  .add-lists-icon {
     position: absolute;
     bottom: 150px;
     left: 50%;
@@ -17,15 +18,18 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
   .section-header {
     text-align: center;
     margin-bottom: 70px;
+
     h2 {
       font-size: 40px;
       font-weight: 700;
       color: $darkblack;
       margin-bottom: 10px;
     }
+
     p {
       color: #4B5563;
       font-size: 18px;
@@ -35,18 +39,18 @@
 
   .comparison-grid {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+   
     gap: 20px;
   }
 
   .card {
-    
+
     background: #fff;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    
+
     .card-header {
       padding: 25px 30px;
       font-weight: 600;
@@ -64,9 +68,10 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      border: 1px solid  #E5E7EB;
+      border: 1px solid #E5E7EB;
       border-radius: 0 0 20px 20px;
-
+      display: contents;
+      
 
       li {
         padding: 22px 30px;
@@ -74,7 +79,8 @@
         font-weight: 500;
         font-size: 14px;
         color: #4B5563;
-        &:first-child{
+
+        &:first-child {
           border: none;
         }
       }
@@ -83,23 +89,30 @@
 
 
   }
-  .card:nth-child(1){
+
+  .card:nth-child(1) {
     width: 30%;
   }
-  .card:nth-child(2){
+
+  .card:nth-child(2) {
     width: 30%;
   }
-  .card:nth-child(3){
+
+  .card:nth-child(3) {
     width: 36%;
-    .card-header{
+
+    .card-header {
       background-color: #0400F5;
-      h3{
+
+      h3 {
         color: #FFFFFF;
       }
     }
-    ul{
+
+    ul {
       border-color: #BEBDFF;
-      li{
+
+      li {
         color: #020158 !important;
         border-top: 1px solid #BEBDFF;
       }
@@ -107,7 +120,13 @@
   }
 
   /* Responsive */
-  @media (max-width: 992px) {
+
+
+@media screen and (max-width:1366px) {
+  .comparison .comparison-grid{width: 100%; flex-wrap: wrap !important;}
+  
+}
+  @media screen and (max-width: 992px) {
     .comparison-grid {
       grid-template-columns: 1fr;
     }

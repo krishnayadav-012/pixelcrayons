@@ -1108,7 +1108,6 @@ input:-webkit-autofill:active {
 }
 .comparison .comparison-grid {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
 }
@@ -1135,6 +1134,7 @@ input:-webkit-autofill:active {
   margin: 0;
   border: 1px solid #E5E7EB;
   border-radius: 0 0 20px 20px;
+  display: contents;
 }
 .comparison .card ul li {
   padding: 22px 30px;
@@ -1171,7 +1171,13 @@ input:-webkit-autofill:active {
 .comparison {
   /* Responsive */
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 1366px) {
+  .comparison .comparison .comparison-grid {
+    width: 100%;
+    flex-wrap: wrap !important;
+  }
+}
+@media screen and (max-width: 992px) {
   .comparison .comparison-grid {
     grid-template-columns: 1fr;
   }

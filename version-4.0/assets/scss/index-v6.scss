@@ -1,20 +1,16 @@
 @use "_default" as *;
 @use "_menu-v5" as *;
-@use "_work-tab" as *;
 @use "_driving-growth" as *;
+@use "_work-tab" as *;
 @use "scaling-delivery" as *;
 @use "high-vhelocity" as *;
 @use "partners-section" as *;
+@use "insights-section" as *;
 @use "agency-delivery" as *;
 @use "_growth-partner" as *;
-@use "_three-column-section" as *;
-@use "_white-label" as *;
-@use "_excellence" as *;
 @use "_glider" as *;
-@use "_indstries-slider-section" as *;
-@use "_success-slider" as *;
-@use "_client-testimonials" as *;
-@use "faq" as *;
+@use "feedback-v6" as *;
+@use "faq-section-v6" as *;
 @use "cta-v3" as *;
 @use "footer" as *;
 
@@ -528,17 +524,25 @@
 .client-img-section {
   background: #f3f4f6;
 }
-
 // Media Query Start From Here
-
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .hero-section {
     height: 800px;
 
     #background-video {
       height: 100%;
     }
+    .hero-section .inner-part .right-part .middle-logo .info-box{
+      padding: 10px;
+    }
+     .inner-part .right-part .middle-logo .cost-reduction{width: 130px;}
+     .inner-part .right-part .middle-logo .sla-accuracy{width: 136px;}
+   
   }
+.hero-section .inner-part .right-part .members-part{
+  margin-top: 20px;
+}
+
 }
 
 @media (max-width: 1320px) {
@@ -551,7 +555,7 @@
     }
 
     h1 {
-      font-size: 65px;
+      font-size: 60px;
 
       br {
         display: none;
@@ -566,6 +570,11 @@
       margin: 100px 0 0;
     }
   }
+  .hero-section .inner-part .right-part{
+    display: none;
+    
+  }
+  .hero-section .inner-part .left-part{width: 100%;}
 }
 
 @media (max-width: 1280px) {
@@ -753,4 +762,22 @@
   background-size: 100%;
   display: inline-block;
   margin-left: 10px;
+}
+
+
+.iti__country-list.iti__hide{
+position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 250px;
+    text-align: left;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .15);
+    z-index: 9999;
+    margin-top: 4px;
+    padding: 4px 0;
 }
