@@ -104,7 +104,7 @@
 /* 📱 Responsive */
 @media (max-width: 768px) {
   .faq-section {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   .faq-section .inner-part {
     grid-template-columns: 1fr;

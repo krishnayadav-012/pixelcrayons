@@ -314,143 +314,143 @@
   <!-- not decided yet -->
 
 
-<!-- Challenges section start -->
+  <!-- Challenges section start -->
 
 
-<section class="build-team">
-        <div class="container">
-            <div class="section-header">
+  <section class="build-team">
+    <div class="container">
+      <div class="section-header">
 
-                <h2>Let’s Turn Delivery Challenges into Growth Opportunities</h2>
-                <p>You stay front-stage. We manage the work behind the scenes - governed, SLA-bound, and measurable.</p>
+        <h2>Let’s Turn Delivery Challenges into Growth Opportunities</h2>
+        <p>You stay front-stage. We manage the work behind the scenes - governed, SLA-bound, and measurable.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+          <div class="card-content">
+            <h3>Product and SaaS Companies</h3>
+            <p>Building your first version or validating a concept.</p>
+            <div class="strategic-needs">
+              <p>STRATEGIC NEEDS:</p>
+              <ul>
+                <li>Technical validation in 4-8 weeks</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+              </ul>
             </div>
-            <div class="card-grid">
-                <div class="card">
-                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
-                    <div class="card-content">
-                        <h3>Product and SaaS Companies</h3>
-                        <p>Building your first version or validating a concept.</p>
-                        <div class="strategic-needs">
-                            <p>STRATEGIC NEEDS:</p>
-                            <ul>
-                                <li>Technical validation in 4-8 weeks</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li>40% of MVP clients return as dedicated team customers.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
-                    <div class="card-content">
-                        <h3>Product and SaaS Companies</h3>
-                        <p>Building your first version or validating a concept.</p>
-                        <div class="strategic-needs">
-                            <p>STRATEGIC NEEDS:</p>
-                            <ul>
-                                <li>Technical validation in 4-8 weeks</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li>Any stage: Seed, Series A, Series D, or beyond.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
-                    <div class="card-content">
-                        <h3>Product and SaaS Companies</h3>
-                        <p>Building your first version or validating a concept.</p>
-                        <div class="strategic-needs">
-                            <p>STRATEGIC NEEDS:</p>
-                            <ul>
-                                <li>Technical validation in 4-8 weeks</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li>Any stage: Seed, Series A, Series D, or beyond.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
-                    <div class="card-content">
-                        <h3>Product and SaaS Companies</h3>
-                        <p>Building your first version or validating a concept.</p>
-                        <div class="strategic-needs">
-                            <p>STRATEGIC NEEDS:</p>
-                            <ul>
-                                <li>Technical validation in 4-8 weeks</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li>Any stage: Seed, Series A, Series D, or beyond.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
-                    <div class="card-content">
-                        <h3>Product and SaaS Companies</h3>
-                        <p>Building your first version or validating a concept.</p>
-                        <div class="strategic-needs">
-                            <p>STRATEGIC NEEDS:</p>
-                            <ul>
-                                <li>Technical validation in 4-8 weeks</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li>If you have tech leadership, we can help.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
-                    <div class="card-content">
-                        <h3>Product and SaaS Companies</h3>
-                        <p>Building your first version or validating a concept.</p>
-                        <div class="strategic-needs">
-                            <p>STRATEGIC NEEDS:</p>
-                            <ul>
-                                <li>Technical validation in 4-8 weeks</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                                <li>Fixed scope and budget ($15K–$40K range)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li>If you've been burned by offshore, we get it.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
+          </div>
+          <div class="card-footer">
+            <ul>
+              <li>40% of MVP clients return as dedicated team customers.</li>
+            </ul>
+          </div>
         </div>
-    </section>
+        <div class="card">
+          <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+          <div class="card-content">
+            <h3>Product and SaaS Companies</h3>
+            <p>Building your first version or validating a concept.</p>
+            <div class="strategic-needs">
+              <p>STRATEGIC NEEDS:</p>
+              <ul>
+                <li>Technical validation in 4-8 weeks</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul>
+              <li>Any stage: Seed, Series A, Series D, or beyond.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+          <div class="card-content">
+            <h3>Product and SaaS Companies</h3>
+            <p>Building your first version or validating a concept.</p>
+            <div class="strategic-needs">
+              <p>STRATEGIC NEEDS:</p>
+              <ul>
+                <li>Technical validation in 4-8 weeks</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul>
+              <li>Any stage: Seed, Series A, Series D, or beyond.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+          <div class="card-content">
+            <h3>Product and SaaS Companies</h3>
+            <p>Building your first version or validating a concept.</p>
+            <div class="strategic-needs">
+              <p>STRATEGIC NEEDS:</p>
+              <ul>
+                <li>Technical validation in 4-8 weeks</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul>
+              <li>Any stage: Seed, Series A, Series D, or beyond.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+          <div class="card-content">
+            <h3>Product and SaaS Companies</h3>
+            <p>Building your first version or validating a concept.</p>
+            <div class="strategic-needs">
+              <p>STRATEGIC NEEDS:</p>
+              <ul>
+                <li>Technical validation in 4-8 weeks</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul>
+              <li>If you have tech leadership, we can help.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+          <div class="card-content">
+            <h3>Product and SaaS Companies</h3>
+            <p>Building your first version or validating a concept.</p>
+            <div class="strategic-needs">
+              <p>STRATEGIC NEEDS:</p>
+              <ul>
+                <li>Technical validation in 4-8 weeks</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+                <li>Fixed scope and budget ($15K–$40K range)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <ul>
+              <li>If you've been burned by offshore, we get it.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<!-- Challenges section end -->
+    </div>
+  </section>
+
+  <!-- Challenges section end -->
 
 
 
@@ -468,7 +468,63 @@
           <a href="#" class="home-cta-button">CONTACT US</a>
 
         </div>
-        <div class="right-part"></div>
+        
+
+          <!-- RIGHT CARD STACK -->
+          <div class="hero-right">
+            <div class="card-stack" id="cardStack">
+              <div class="review-card active">
+                <div class="review-header">
+                  <img src="assets/images/home-images/review-card-1.png" />
+                  <ul class="stars">
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  </ul>
+                </div>
+                <p >
+                  We finally found a partner who delivers consistently and understands agency timelines.
+                </p>
+                <div class="review-name"><p>– Tiffany</p></div>
+              </div>
+
+              <div class="review-card next">
+                <div class="review-header">
+                  <img src="assets/images/home-images/review-card-1.png" />
+                 <ul class="stars">
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  </ul>
+                </div>
+                <p >
+                 We finally found a partner who delivers consistently and understands agency timelines. PixelCrayons helped us reduce delivery costs while keeping every client happy.
+                </p>
+                <div class="review-name"><p>– Michael</p></div>
+              </div>
+
+              <div class="review-card last">
+                <div class="review-header">
+                  <img src="assets/images/home-images/review-card-1.png" />
+                  <ul class="stars">
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  </ul>
+                </div>
+                <p >
+                  Their backend support helped us scale without hiring internally.
+                </p>
+                <div class="review-name"><p>– Sarah</p></div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </div>
@@ -751,7 +807,11 @@
             <div class="card-content">
               <div class="rating">
                 <ul>
-                  <li><img src="assets/images/home-images/stars-4.5.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
                 </ul>
               </div>
 
@@ -778,7 +838,11 @@
             <div class="card-content">
               <div class="rating">
                 <ul>
-                  <li><img src="assets/images/home-images/stars-4.5.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
                 </ul>
               </div>
 
@@ -805,7 +869,11 @@
             <div class="card-content">
               <div class="rating">
                 <ul>
-                  <li><img src="assets/images/home-images/stars-4.5.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
                 </ul>
               </div>
 
@@ -863,7 +931,7 @@
           <div class="faq-item">
             <div class="faq-question">
               <h3>How do I get started with your digital services?</h3>
-              
+
             </div>
             <div class="faq-answer">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -873,7 +941,7 @@
           <div class="faq-item active">
             <div class="faq-question">
               <h3>Can I hire dedicated teams for my project?</h3>
-              
+
             </div>
             <div class="faq-answer">
               <p>Here are some questions related to software outsourcing that our clients frequently ask:</p>
@@ -883,7 +951,7 @@
           <div class="faq-item">
             <div class="faq-question">
               <h3>Is outsourcing software development risky? How do you mitigate risks?</h3>
-              
+
             </div>
             <div class="faq-answer">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -893,7 +961,7 @@
           <div class="faq-item">
             <div class="faq-question">
               <h3>What are the advantages of outsourcing software development?</h3>
-              
+
             </div>
             <div class="faq-answer">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -963,6 +1031,34 @@
         }
       });
     }
+
+
+// review-card
+
+const cards = document.querySelectorAll(".review-card");
+let current = 0;
+
+function updateCards() {
+  cards.forEach(card => {
+    card.classList.remove("active", "next", "last");
+  });
+
+  const total = cards.length;
+
+  cards[current].classList.add("active");
+  cards[(current + 1) % total].classList.add("next");
+  cards[(current + 2) % total].classList.add("last");
+
+  current = (current + 1) % total;
+}
+
+// Initial state
+updateCards();
+
+// Auto rotate every 2 seconds
+setInterval(updateCards, 2000);
+
+
 
 
     // faq section

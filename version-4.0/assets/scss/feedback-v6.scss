@@ -224,11 +224,22 @@ $breakpoint-md: 768px;
 
 @media screen and (max-width:1024px) {
   .testimonial-section-v6 .testimonial-card{justify-content: space-between;}
-  .testimonial-section-v6{    padding: 80px 0;}
+  .testimonial-section-v6{    padding: 50px 0;}
   .testimonial-section-v6 .testimonial-card .card-image img{object-fit: unset;}
   .testimonial-section-v6 .testimonial-card .card-image{height: 350px;}
   .testimonial-section-v6 .testimonial-card .card-content{padding: 80px 20px 20px 20px; flex: unset;}
   .faq-section .inner-part .faq-left{  text-align: center;}
   .faq-section .faq-left p{margin: 0 auto; }
   .faq-section .faq-question{padding: 20px 50px 20px 20px !important;}
+}
+
+@media screen and (max-width:768px) {
+  .testimonial-section-v6 .testimonial-card .card-content > p{font-size: 18px;}
+  .testimonial-section-v6 .testimonial-card .card-content .rating ul li{width: 16px;
+    height: 16px;
+    img{
+        width: 16px;
+        height: 16px;
+    }
+  }
 }

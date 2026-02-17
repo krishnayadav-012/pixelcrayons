@@ -195,9 +195,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .insights .insights__top-part h2{font-size: 30px;}
+}
 @media (max-width: 640px) {
   .insights {
-    padding: 70px 0;
+    padding: 50px 0;
 
     &__header {
       flex-direction: column;
