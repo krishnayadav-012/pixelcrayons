@@ -1216,5 +1216,53 @@ input:-webkit-autofill:active {
     background-size: 90px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .high-vhelocity.second-section h3 {
+    font-size: 24px;
+  }
+  .high-vhelocity .inner-part .left-part p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .high-vhelocity .right-part .slide-boxes .box img {
+    width: 70%;
+    height: 150px;
+  }
+  .high-vhelocity.second-section .slide-boxes::before {
+    left: 16%;
+    bottom: -4%;
+    width: 61px;
+    height: 40px;
+    background-size: 61px;
+  }
+  .high-vhelocity.second-section .slide-boxes::after {
+    background-size: 60px;
+  }
+  .high-vhelocity.second-section .slide-boxes {
+    width: 250px;
+  }
+  .high-vhelocity.second-section .left-part {
+    width: 67%;
+  }
+  .high-vhelocity.second-section .right-part {
+    width: 30%;
+  }
+  .high-vhelocity.second-section .slide-boxes::after {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .high-vhelocity.second-section .right-part {
+    width: 100%;
+  }
+  .high-vhelocity.second-section .left-part {
+    width: 100%;
+  }
+  .high-vhelocity.second-section .slide-boxes {
+    float: unset;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+}
 
 /*# sourceMappingURL=high-vhelocity.css.map */

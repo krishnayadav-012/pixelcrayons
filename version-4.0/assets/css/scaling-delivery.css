@@ -1077,7 +1077,17 @@ input:-webkit-autofill:active {
 }
 .comparison {
   background: #F2F8FF;
-  padding: 80px 20px;
+  padding: 120px 0px;
+}
+@media screen and (max-width: 1024px) {
+  .comparison {
+    padding: 80px 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .comparison {
+    padding: 50px 0px;
+  }
 }
 .comparison .add-lists-icon {
   position: absolute;
@@ -1087,13 +1097,14 @@ input:-webkit-autofill:active {
   cursor: pointer;
   display: flex;
 }
-.comparison .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 .comparison .section-header {
   text-align: center;
   margin-bottom: 70px;
+}
+@media screen and (max-width: 767px) {
+  .comparison .section-header {
+    margin-bottom: 30px;
+  }
 }
 .comparison .section-header h2 {
   font-size: 40px;
@@ -1111,11 +1122,18 @@ input:-webkit-autofill:active {
   justify-content: space-between;
   gap: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .comparison .comparison-grid {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
 .comparison .card {
   background: #fff;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  min-width: 250px;
 }
 .comparison .card .card-header {
   padding: 25px 30px;
@@ -1127,6 +1145,11 @@ input:-webkit-autofill:active {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 1024px) {
+  .comparison .card .card-header h3 {
+    font-size: 14px;
+  }
 }
 .comparison .card ul {
   list-style: none;
@@ -1142,6 +1165,11 @@ input:-webkit-autofill:active {
   font-weight: 500;
   font-size: 14px;
   color: #4B5563;
+}
+@media screen and (max-width: 1024px) {
+  .comparison .card ul li {
+    padding: 15px 20px;
+  }
 }
 .comparison .card ul li:first-child {
   border: none;
@@ -1170,12 +1198,6 @@ input:-webkit-autofill:active {
 }
 .comparison {
   /* Responsive */
-}
-@media screen and (max-width: 1366px) {
-  .comparison .comparison .comparison-grid {
-    width: 100%;
-    flex-wrap: wrap !important;
-  }
 }
 @media screen and (max-width: 992px) {
   .comparison .comparison-grid {

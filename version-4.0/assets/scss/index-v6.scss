@@ -4,6 +4,7 @@
 @use "_work-tab" as *;
 @use "scaling-delivery" as *;
 @use "high-vhelocity" as *;
+@use "challenges-section" as *;
 @use "partners-section" as *;
 @use "insights-section" as *;
 @use "agency-delivery" as *;
@@ -617,9 +618,7 @@
   .hero-section {
     padding: 120px 0 50px;
     height: auto;
-    background-image: none !important;
     text-align: center;
-    background-color: $royel-bg;
 
     #background-video {
       display: none;
@@ -652,9 +651,7 @@
       justify-content: center;
     }
 
-    &:after {
-      display: none;
-    }
+    
   }
 }
 

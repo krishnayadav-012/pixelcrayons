@@ -70,6 +70,7 @@
       </div>
     </div>
   </section>
+
   <section class="driving-growth">
     <div class="container">
       <div class="top-section">
@@ -312,6 +313,148 @@
 </section> -->
   <!-- not decided yet -->
 
+
+<!-- Challenges section start -->
+
+
+<section class="build-team">
+        <div class="container">
+            <div class="section-header">
+
+                <h2>Let’s Turn Delivery Challenges into Growth Opportunities</h2>
+                <p>You stay front-stage. We manage the work behind the scenes - governed, SLA-bound, and measurable.</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+                    <div class="card-content">
+                        <h3>Product and SaaS Companies</h3>
+                        <p>Building your first version or validating a concept.</p>
+                        <div class="strategic-needs">
+                            <p>STRATEGIC NEEDS:</p>
+                            <ul>
+                                <li>Technical validation in 4-8 weeks</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li>40% of MVP clients return as dedicated team customers.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+                    <div class="card-content">
+                        <h3>Product and SaaS Companies</h3>
+                        <p>Building your first version or validating a concept.</p>
+                        <div class="strategic-needs">
+                            <p>STRATEGIC NEEDS:</p>
+                            <ul>
+                                <li>Technical validation in 4-8 weeks</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li>Any stage: Seed, Series A, Series D, or beyond.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+                    <div class="card-content">
+                        <h3>Product and SaaS Companies</h3>
+                        <p>Building your first version or validating a concept.</p>
+                        <div class="strategic-needs">
+                            <p>STRATEGIC NEEDS:</p>
+                            <ul>
+                                <li>Technical validation in 4-8 weeks</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li>Any stage: Seed, Series A, Series D, or beyond.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+                    <div class="card-content">
+                        <h3>Product and SaaS Companies</h3>
+                        <p>Building your first version or validating a concept.</p>
+                        <div class="strategic-needs">
+                            <p>STRATEGIC NEEDS:</p>
+                            <ul>
+                                <li>Technical validation in 4-8 weeks</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li>Any stage: Seed, Series A, Series D, or beyond.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+                    <div class="card-content">
+                        <h3>Product and SaaS Companies</h3>
+                        <p>Building your first version or validating a concept.</p>
+                        <div class="strategic-needs">
+                            <p>STRATEGIC NEEDS:</p>
+                            <ul>
+                                <li>Technical validation in 4-8 weeks</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li>If you have tech leadership, we can help.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
+                    <div class="card-content">
+                        <h3>Product and SaaS Companies</h3>
+                        <p>Building your first version or validating a concept.</p>
+                        <div class="strategic-needs">
+                            <p>STRATEGIC NEEDS:</p>
+                            <ul>
+                                <li>Technical validation in 4-8 weeks</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                                <li>Fixed scope and budget ($15K–$40K range)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li>If you've been burned by offshore, we get it.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- Challenges section end -->
+
+
+
+
   <!-- high-velocity -->
 
   <div class="high-vhelocity">
@@ -519,7 +662,7 @@
 
             <div class="blog-card__footer">
               <div class="author">
-                <img src="https://i.pravatar.cc/40" alt="">
+                <img src="assets/images/home-images/card-user.png" alt="">
                 <div>
                   <p>Kristi Ray</p>
                   <span>Jan 22, 2026</span>
@@ -541,7 +684,7 @@
             <h3>Protecting Your Agency Margins in 2025</h3>
             <div class="blog-card__footer">
               <div class="author">
-                <img src="https://i.pravatar.cc/40" alt="">
+                <img src="assets/images/home-images/card-user.png" alt="">
                 <div>
                   <p>Kristi Ray</p>
                   <span>Jan 22, 2026</span>
@@ -566,7 +709,7 @@
 
             <div class="blog-card__footer">
               <div class="author">
-                <img src="https://i.pravatar.cc/40" alt="">
+                <img src="assets/images/home-images/card-user.png" alt="">
                 <div>
                   <p>Kristi Ray</p>
                   <span>Jan 22, 2026</span>

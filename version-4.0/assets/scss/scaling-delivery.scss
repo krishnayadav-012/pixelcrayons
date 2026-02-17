@@ -2,8 +2,15 @@
 
 .comparison {
   background: #F2F8FF;
-  padding: 80px 20px;
+  padding: 120px 0px;
 
+  @media screen and (max-width:1024px) {
+    padding: 80px 0px;
+  }
+  @media screen and (max-width:767px) {
+    padding: 50px 0px;
+    
+  }
   .add-lists-icon {
     position: absolute;
     bottom: 150px;
@@ -11,17 +18,15 @@
     z-index: 11;
     cursor: pointer;
     display: flex;
-
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
   }
 
   .section-header {
     text-align: center;
     margin-bottom: 70px;
+     @media screen and (max-width:767px) {
+   margin-bottom: 30px;
+    
+  }
 
     h2 {
       font-size: 40px;
@@ -40,8 +45,14 @@
   .comparison-grid {
     display: flex;
     justify-content: space-between;
-   
     gap: 20px;
+  }
+
+  @media screen and (max-width:1024px) {
+    .comparison-grid {
+      width: 100%;
+      overflow-x: scroll;
+    }
   }
 
   .card {
@@ -50,6 +61,7 @@
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    min-width: 250px;
 
     .card-header {
       padding: 25px 30px;
@@ -61,6 +73,10 @@
         font-size: 18px;
         font-weight: 700;
         letter-spacing: 1px;
+
+        @media screen and (max-width:1024px) {
+          font-size: 14px;
+        }
       }
     }
 
@@ -71,7 +87,7 @@
       border: 1px solid #E5E7EB;
       border-radius: 0 0 20px 20px;
       display: contents;
-      
+
 
       li {
         padding: 22px 30px;
@@ -79,6 +95,10 @@
         font-weight: 500;
         font-size: 14px;
         color: #4B5563;
+
+        @media screen and (max-width:1024px) {
+          padding: 15px 20px;
+        }
 
         &:first-child {
           border: none;
@@ -121,11 +141,6 @@
 
   /* Responsive */
 
-
-@media screen and (max-width:1366px) {
-  .comparison .comparison-grid{width: 100%; flex-wrap: wrap !important;}
-  
-}
   @media screen and (max-width: 992px) {
     .comparison-grid {
       grid-template-columns: 1fr;
