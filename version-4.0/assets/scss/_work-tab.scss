@@ -1,6 +1,7 @@
 @use "_default" as *;
+
+
 .tabs-section {
-  background: #f9fcff;
   .tab-flex {
     display: flex;
     justify-content: space-between;
@@ -77,6 +78,10 @@
 
         p {
           font-weight: 500;
+          a{
+            color: inherit;
+            text-decoration: underline;
+          }
         }
 
         ul {
@@ -403,6 +408,84 @@
           }
         }
       }
+    }
+  }
+}
+
+.tabs-section {
+  &.tab-with-bluebg {
+    background: $royelblue;
+    position: relative;
+
+    .tab-flex {
+      position: relative;
+      z-index: 9;
+    }
+
+    .top-section {
+      &.text-left {
+
+        h2,
+        p {
+          color: $white;
+        }
+      }
+    }
+
+    .tabs-container {
+      .tab-content {
+        margin: 40px 0 0;
+
+        .content {
+          
+          h3{
+            color: $white;
+          }
+          p {
+            color: $grey-300;
+            font-size: $font-18;
+          }
+
+          ul {
+            margin: 20px 0 0;
+
+            li {
+              color: $grey-300;
+              flex-basis: 100%;
+
+              &:before {
+                background: url(../images/home-images/listing-white.svg) no-repeat center;
+              }
+            }
+          }
+
+          .btn-container {
+            margin: 40px 0 0;
+
+            .cta-button {
+              &:hover {
+                background: $white;
+                color: $royelblue;
+
+                &:after {
+                  background: url(../images/home-images/bluegr-cta.svg) no-repeat;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &:before {
+      content: "";
+      background: url(../images/home-images/tab-after.png) no-repeat center;
+      width: 100%;
+      height: 300px;
+      background-size: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
     }
   }
 }

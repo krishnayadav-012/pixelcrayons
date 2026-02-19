@@ -39,7 +39,7 @@
                 color: #D1D5DB;
                 font-size: 18px;
                 line-height: 140%;
-                font-weight: 500;
+                font-weight: $medium-font;
                 margin: 0;
                 padding-bottom: 40px;
             }
@@ -180,7 +180,7 @@ ul {
 p {
   font-size: 12px;
   line-height: 1.6;
-  font-weight: 500;
+  font-weight: $medium-font;
   color: $white;
   opacity: 0.9;
   margin-bottom: 20px;
@@ -350,5 +350,5 @@ p {
 .high-vhelocity.second-section .slide-boxes{float: unset ; padding-right: 0; margin: 0 auto;}
 .high-vhelocity .card-stack{width: 330px;}
 .high-vhelocity .inner-part .left-part h2{font-size: 30px;}
-.high-vhelocity.second-section{padding: 50px 0;}
+.high-vhelocity.second-section{padding: 50px 0;  }
 }

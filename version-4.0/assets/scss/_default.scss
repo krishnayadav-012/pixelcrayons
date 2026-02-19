@@ -17,8 +17,7 @@ $headDay: #444444;
 $contentDay: #737373;
 $shadeofblue: #666e86;
 $mainNewHeadDay: #414141;
-$headign-color:#111827;
-
+$headign-color: #110302;
 $gradient-bg: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
 $royel-bg: #05247e;
 $arsenic-light: rgba(65, 65, 65, 0.9);
@@ -27,28 +26,24 @@ $royelblue: #0400F5;
 $shine-green:#DFFB0B;
 $body-text2: 18px;
 $line-height29: 29px;
-
 $darkblack: #110302;
 $font-18: 18px;
 $font-16: 16px;
 $normal-font: 400;
 $medium-font: 500;
-$semi-bold: bold;
-$bold: bold;
+$semi-bold: 600;
+$bold: 700;
 $navy-blue: #05164d;
 $gradient: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%);
-
 $grey-300:#D1D5DB;
 
 @media only screen and (min-width: 768px) {
   @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Medium.woff2") format("woff2"),
-      url("../fonts/Montserrat-Medium.woff") format("woff"),
-      url("../fonts/Montserrat-Medium.ttf") format("truetype");
-    font-weight: normal;
+    src: url("../fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
+    font-weight: 100 900;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
   }
 }
 
@@ -71,7 +66,7 @@ html {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 64px;
   line-height: 1.5;
   color: $yellow;
   font-weight: $bold;
@@ -79,8 +74,8 @@ h1 {
 }
 
 h2 {
-  font-size: 46px;
-  line-height: 58px;
+  font-size: 40px;
+  line-height: 1.2;
   font-weight: $bold;
   color: $darkblack;
   margin: 0 0 15px;
@@ -89,7 +84,7 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 30px;
-  font-weight: $bold;
+  font-weight: $semi-bold;
   color: $darkblack;
   margin: 0 0 15px;
 }
@@ -105,10 +100,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  color: #5e6373;
+  font-size: 18px;
+  color: #4B5563;
   line-height: 28px;
-  font-weight: $normal-font;
+  font-weight: $medium-font;
   margin: 0 0 15px;
 }
 
@@ -630,7 +625,6 @@ input:-webkit-autofill:active {
       margin-top: 20px;
     }
   }
-
   .popup-green-btn {
     margin-top: 50px;
     padding: 23px 31px;

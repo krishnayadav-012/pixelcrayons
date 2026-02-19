@@ -26,6 +26,7 @@ $bg-light: #FAFAFA;
     content: "";
     width: 60%;
     height: 100%;
+    z-index: -1;
   }
 
   .content-wrapper {
@@ -58,7 +59,6 @@ $bg-light: #FAFAFA;
     }
 
     p {
-      color: $text-gray;
       margin-bottom: 40px;
 
       @media screen and (max-width:1024px) {
@@ -76,7 +76,7 @@ $bg-light: #FAFAFA;
       li {
         display: flex;
         align-items: center;
-        font-weight: 600;
+        font-weight: $semi-bold;
         font-size: 16px;
         color: $text-gray;
         position: relative;
@@ -182,7 +182,7 @@ $bg-light: #FAFAFA;
       justify-content: space-between;
 
       .stat-item {
-        min-width: 100px;
+        min-width: 70px;
         text-align: left;
 
         h3 {

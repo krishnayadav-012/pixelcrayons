@@ -3,10 +3,10 @@
 @media only screen and (min-width: 768px) {
   @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype");
-    font-weight: normal;
+    src: url("../fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
+    font-weight: 100 900;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
   }
 }
 * {
@@ -28,17 +28,17 @@ html {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 64px;
   line-height: 1.5;
   color: #ffb81d;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 46px;
-  line-height: 58px;
-  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
   color: #110302;
   margin: 0 0 15px;
 }
@@ -46,7 +46,7 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 600;
   color: #110302;
   margin: 0 0 15px;
 }
@@ -54,7 +54,7 @@ h3 {
 h4 {
   font-size: 20px;
   color: #110302;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h6 {
@@ -62,10 +62,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  color: #5e6373;
+  font-size: 18px;
+  color: #4B5563;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 0 15px;
 }
 
@@ -582,7 +582,7 @@ input:-webkit-autofill:active {
 }
 .top-section h6 {
   color: #0400F5;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   margin: 0 0 10px;
 }
@@ -1100,6 +1100,7 @@ input:-webkit-autofill:active {
   font-size: 18px;
   line-height: 1.5;
   color: #4B5563;
+  font-weight: 500;
 }
 
 .card-grid {
@@ -1160,6 +1161,7 @@ input:-webkit-autofill:active {
 .card-grid .card h3 {
   font-size: 22px;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 .card-grid .card p {
   color: #4B5563;
@@ -1197,7 +1199,7 @@ input:-webkit-autofill:active {
 }
 .card-grid .card .card-footer ul li {
   font-size: 14px;
-  color: #4A5565;
+  color: #6B7280;
   line-height: 160%;
   font-style: italic;
   font-weight: 600;

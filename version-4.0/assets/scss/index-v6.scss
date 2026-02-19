@@ -39,14 +39,16 @@
     position: absolute;
     transition: 0.4s;
   border-radius: 50px;
-    transform: translate(108px, 0px);
+    transform: translate(-20px, 0px);
+    z-index: -1;
+    right: 0;
     z-index: -1;
   }
   &:hover::before{
-    width: 500px;
-    height: 500px;
+        width: 100%;
+    height: 100%;
     transition: 0.4s;
-    transform: translate(-10%, -50%);
+    transform: translate(0, -24%);
 
 
   }
@@ -298,7 +300,7 @@
     color: $white;
     margin: 0 0 15px;
     font-size: 64px;
-    font-weight: 800;
+    font-weight: $bold;
     line-height: 120%;
   }
 
@@ -444,83 +446,8 @@
   background: $royelblue;
 }
 
-.tabs-section {
-  &.tab-with-bluebg {
-    background: $royelblue;
-    position: relative;
 
-    .tab-flex {
-      position: relative;
-      z-index: 9;
-    }
 
-    .top-section {
-      &.text-left {
-
-        h2,
-        p {
-          color: $white;
-        }
-      }
-    }
-
-    .tabs-container {
-      .tab-content {
-        margin: 40px 0 0;
-
-        .content {
-          h3 {
-            color: $white;
-          }
-
-          p {
-            color: $grey-300;
-            font-size: $font-18;
-          }
-
-          ul {
-            margin: 20px 0 0;
-
-            li {
-              color: $grey-300;
-              flex-basis: 100%;
-
-              &:before {
-                background: url(../images/home-images/listing-white.svg) no-repeat center;
-              }
-            }
-          }
-
-          .btn-container {
-            margin: 40px 0 0;
-
-            .cta-button {
-              &:hover {
-                background: $white;
-                color: $royelblue;
-
-                &:after {
-                  background: url(../images/home-images/bluegr-cta.svg) no-repeat;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    &:before {
-      content: "";
-      background: url(../images/home-images/tab-after.png) no-repeat center;
-      width: 100%;
-      height: 300px;
-      background-size: 100%;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-    }
-  }
-}
 
 .client-img-section {
   background: #f3f4f6;

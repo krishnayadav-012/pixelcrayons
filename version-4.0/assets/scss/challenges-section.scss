@@ -28,6 +28,7 @@
         font-size: 18px;
         line-height: 1.5;
         color: #4B5563;
+        font-weight: $medium-font;
     }
 }
 
@@ -98,11 +99,13 @@
         h3 {
             font-size: 22px;
             margin-bottom: 10px;
+            font-weight: $bold;
         }
 
         p {
             color: #4B5563;
             line-height: 1.4;
+
             font-size: 18px;
 
         }
@@ -140,10 +143,10 @@
                 padding-left: 15px;
                 li {
                     font-size: 14px;
-                    color: #4A5565;
+                    color: #6B7280;
                     line-height: 160%;
                     font-style: italic;
-                    font-weight: 600;
+                    font-weight: $semi-bold;
                     list-style: disc;
                 }
             }

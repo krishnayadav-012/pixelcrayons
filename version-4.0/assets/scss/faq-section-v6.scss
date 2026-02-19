@@ -1,3 +1,4 @@
+@use "_default" as *;
 .faq-section {
   padding: 120px 0;
   background: #fff;
@@ -62,7 +63,7 @@
     position: relative;
     h3{
       color: #1F2937;
-      font-weight: 600;
+      font-weight: $semi-bold;
       margin-bottom: 0;
       font-size: 16px;
 
@@ -87,11 +88,13 @@
     padding: 0 24px;
 
     p {
-      color: #475569;
+      color: #1F2937;
       line-height: 1.6;
       font-size: 14px;
-      font-weight: 400;
+      font-weight: $normal-font;
+      margin-bottom: 0;
     }
+
   }
 
   .icon {

@@ -20,11 +20,11 @@
     <div class="container">
       <div class="inner-part">
         <div class="left-part">
-          <h1>Scale Agency
-            Delivery Without
-            Hiring or Client Risk.
+          <h1>Scale Agency<br>
+            Delivery Without<br>
+            Hiring or <strong>Client Risk.</strong>
           </h1>
-          <p>White-label marketing, design, engineering, and analytics pods that integrate into your workflow — under
+          <p>White-label marketing, design, engineering, and <a href="#">analytics</a> pods that integrate into your workflow — under
             your brand.</p>
           <a href="#" class="cta-button">SCALE YOUR DELIVERY</a>
           <div class="for-client-logo-box  dis-flex">
@@ -226,7 +226,7 @@
           <div class="tab-content">
             <div class="content active" id="marketing">
               <h3>Marketing</h3>
-              <p>We help your clients grow faster with done-for-you execution that converts.</p>
+              <p>We help your clients grow faster with done-for-you <a href="#">execution that</a>  converts.</p>
               <ul>
                 <li>Paid media (Meta, Google, LinkedIn)</li>
                 <li>Funnel and CRO optimization</li>
@@ -533,7 +533,7 @@
 
   <!--  -->
 
-  <section class="comparison">
+  <section class="comparison" id="elm-expand-tlb">
     <div class="container">
       <div class="section-header">
         <h2>Scaling Delivery: In-House vs White-Label</h2>
@@ -1079,6 +1079,16 @@ setInterval(updateCards, 2000);
         }
       });
     });
+
+// elm-expand-tlb
+    if(document.getElementById("elm-expand-tlb")){
+    const elmExpandTlBtn = document.getElementById("elm-expand-tlb");
+    elmExpandTlBtn.addEventListener("click", function () {
+        const parent = this.closest(".comparison");
+        parent.classList.toggle("expanded");
+        this.classList.toggle("active");    
+    });
+}
 
 
 

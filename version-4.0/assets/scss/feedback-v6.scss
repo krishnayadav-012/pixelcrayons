@@ -28,7 +28,7 @@ $breakpoint-md: 768px;
       margin: 0 auto;
       max-width: 638px;
       line-height: 1.4;
-      font-weight: 400;
+      font-weight: $normal-font;
     }
   }
 
@@ -133,7 +133,7 @@ $breakpoint-md: 768px;
       color: #1F2937;
       font-size: 22px;
       line-height: 150%;
-      font-weight: 500;
+      font-weight: $medium-font;
       margin-bottom: 0;
       position: relative;
 
@@ -182,7 +182,7 @@ $breakpoint-md: 768px;
         span {
           display: block;
           font-size: 16px;
-          font-weight: 700;
+          font-weight: $bold;
           color: #101828;
         }
 
@@ -190,7 +190,7 @@ $breakpoint-md: 768px;
           font-size: 14px;
           color: #4A5565;
           margin-bottom: 0;
-          font-weight: 400;
+          font-weight: $normal-font;
         }
       }
     }

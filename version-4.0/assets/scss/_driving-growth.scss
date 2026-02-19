@@ -4,6 +4,10 @@
   padding: 100px 0;
   .top-section{ 
     padding-bottom: 60px;
+    p{
+      color: #4B5563;
+      
+    }
   }
   .driving-row {
     gap: 20px;
@@ -37,13 +41,14 @@
 
         h3 {
           font-size: 22px;
-          font-weight: 700;
+          font-weight: $bold;
           color: #111827;
         }
 
         p {
-          font-weight: 500;
+          font-weight: $medium-font;
           color: #4b5563;
+          font-size: 16px;
           line-height: 24px;
         }
 
@@ -120,7 +125,7 @@
             text-align: center;
             letter-spacing: 1px;
             font-size: 12px;
-            font-weight: bold;
+            font-weight: $semi-bold;
             line-height: 1;
             &:hover {
               background: $shine-green;
@@ -204,7 +209,9 @@
 
         ul {
           li {
-            color: $white;
+            color: #E5E7EB;
+            font-weight: $medium-font;
+
           }
         }
       }
