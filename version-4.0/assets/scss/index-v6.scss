@@ -49,8 +49,6 @@
     height: 100%;
     transition: 0.4s;
     transform: translate(0, -24%);
-
-
   }
   
   &:after {
@@ -67,13 +65,9 @@
     background: url(../images/home-images/white-cta.svg) no-repeat;
     transition: 0.2s;
     background-size: 100%;
-
   }
 
-
 }
-
-
 
 .hero-section {
   background: url("../images/home-banner.png") top center no-repeat;
@@ -147,7 +141,6 @@
           top: -44px;
           width: 176px;
           animation: topbottom 3s linear infinite alternate;
-
         }
 
         .sla-accuracy {

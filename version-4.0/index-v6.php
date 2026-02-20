@@ -1147,13 +1147,11 @@ setInterval(updateCards, 2000);
     if(document.getElementById("elm-expand-tlb")){
     const elmExpandTlBtn = document.getElementById("elm-expand-tlb");
     elmExpandTlBtn.addEventListener("click", function () {
-        const parent = this.closest(".comparison");
+        const parent = this.closest(".add-lists-icon");
         parent.classList.toggle("expanded");
         this.classList.toggle("active");    
     });
 }
-
-
 
 
   </script>
