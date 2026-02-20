@@ -798,7 +798,7 @@
         <div class="testimonial-cards glider">
           <div class="testimonial-card">
             <div class="card-image">
-              <img src="assets/images/home-images/testimonial-img-1.png" alt="James Kelly">
+              <img src="assets/images/home-images/client-1.png" alt="James Kelly">
               <div class="play-icon">
                 <span class="play-btn"> Play </span>
               </div>
@@ -829,7 +829,7 @@
           </div>
           <div class="testimonial-card">
             <div class="card-image">
-              <img src="assets/images/home-images/testimonial-img-1.png" alt="James Kelly">
+              <img src="assets/images/home-images/client-2.png" alt="James Kelly">
               <div class="play-icon">
                 <span class="play-btn"> Play </span>
               </div>
@@ -860,7 +860,69 @@
           </div>
           <div class="testimonial-card">
             <div class="card-image">
-              <img src="assets/images/home-images/testimonial-img-1.png" alt="James Kelly">
+              <img src="assets/images/home-images/client-3.png" alt="James Kelly">
+              <div class="play-icon">
+                <span class="play-btn"> Play </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="rating">
+                <ul>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                </ul>
+              </div>
+
+              <p>We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up
+                during certain projects.</p>
+
+              <div class="author-info">
+                <img src="assets/images/home-images/Airtel-Foundation.png" alt="Company Logo">
+
+                <div class="details">
+                  <span>James Kelly</span>
+                  <p>Co-founder, Miracle Choice</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="card-image">
+              <img src="assets/images/home-images/client-4.png" alt="James Kelly">
+              <div class="play-icon">
+                <span class="play-btn"> Play </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="rating">
+                <ul>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
+                </ul>
+              </div>
+
+              <p>We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up
+                during certain projects.</p>
+
+              <div class="author-info">
+                <img src="assets/images/home-images/Airtel-Foundation.png" alt="Company Logo">
+
+                <div class="details">
+                  <span>James Kelly</span>
+                  <p>Co-founder, Miracle Choice</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="card-image">
+              <img src="assets/images/home-images/client-5.png" alt="James Kelly">
               <div class="play-icon">
                 <span class="play-btn"> Play </span>
               </div>
@@ -1018,9 +1080,11 @@
       });
 
       const avatars = [
-        'assets/images/home-images/feedback-1.png',
-        'assets/images/home-images/feedback-2.jpg',
-        'assets/images/home-images/feedback-1.png',
+        'assets/images/home-images/client-menu-1.png',
+        'assets/images/home-images/client-menu-2.png',
+        'assets/images/home-images/client-menu-3.png',
+        'assets/images/home-images/client-menu-4.png',
+        'assets/images/home-images/client-menu-5.png',
       ];
       const dots = document.querySelectorAll('.glider-dot');
       dots.forEach((dot, index) => {
