@@ -3902,9 +3902,7 @@ input:-webkit-autofill:active {
   top: 4px;
 }
 .tabs-section .tabs-container .tab-content .content ul li a {
-  color: #656565;
-}
-.tabs-section .tabs-container .tab-content .content ul li a:hover {
+  color: inherit;
   text-decoration: underline;
 }
 .tabs-section .tabs-container .tab-content .content.active {

@@ -1078,11 +1078,6 @@ input:-webkit-autofill:active {
 .testimonial-section-v6 {
   background-color: #F3F4F6;
   padding: 120px 0px;
-  font-family: "Inter", sans-serif;
-}
-.testimonial-section-v6 .container {
-  max-width: 1100px;
-  margin: 0 auto;
 }
 .testimonial-section-v6 .top-part {
   margin-bottom: 50px;

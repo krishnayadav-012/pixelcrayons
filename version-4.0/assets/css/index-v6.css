@@ -2811,9 +2811,7 @@ input:-webkit-autofill:active {
   top: 4px;
 }
 .tabs-section .tabs-container .tab-content .content ul li a {
-  color: #656565;
-}
-.tabs-section .tabs-container .tab-content .content ul li a:hover {
+  color: inherit;
   text-decoration: underline;
 }
 .tabs-section .tabs-container .tab-content .content.active {
@@ -3305,6 +3303,7 @@ input:-webkit-autofill:active {
   z-index: 11;
   cursor: pointer;
   display: flex;
+  transition: 0.5s;
 }
 .comparison .section-header {
   text-align: center;
@@ -3420,12 +3419,17 @@ input:-webkit-autofill:active {
   }
 }
 
-.comparison .comparison-grid .card ul li:last-child {
+.comparison .comparison-grid .card ul li:nth-child(n+7) {
   display: none !important;
 }
 
-.comparison.expanded .comparison-grid .card ul li:last-child {
+.comparison.expanded .comparison-grid .card ul li:nth-child(n+7) {
   display: block !important;
+}
+
+.comparison.active .add-lists-icon {
+  transform: rotate(180deg);
+  transition: 0.5s;
 }
 
 .high-vhelocity {
@@ -3476,6 +3480,17 @@ input:-webkit-autofill:active {
   width: calc(40% - 10px);
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.high-vhelocity .right-part::before {
+  background: url(../images/home-images/cta-stars-light.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 49px;
+  top: -30px;
 }
 .high-vhelocity .hero-right {
   flex: 1;
@@ -3957,7 +3972,7 @@ input:-webkit-autofill:active {
   height: 16px;
   display: flex;
   left: 0;
-  top: 7px;
+  top: 3px;
   position: absolute;
 }
 
@@ -4014,6 +4029,7 @@ input:-webkit-autofill:active {
   position: relative;
   background-color: #fff;
   z-index: 1;
+  overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
   .pixel-section {
@@ -4029,12 +4045,36 @@ input:-webkit-autofill:active {
   position: absolute;
   right: 0;
   top: 0;
-  background: url(../images/home-images/cta-grid.png);
+  background: url(../images/home-images/partner-grid.png);
   background-repeat: no-repeat;
   content: "";
   width: 60%;
   height: 100%;
   z-index: -1;
+  background-size: cover;
+}
+.pixel-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -140px;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  background: url(../images/home-images/work-section-background.png) no-repeat center;
+  opacity: 0.7;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .pixel-section::before {
+    top: unset;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 50%;
+    opacity: 0.7;
+    bottom: 0;
+  }
 }
 .pixel-section .content-wrapper {
   display: flex;
@@ -4106,25 +4146,6 @@ input:-webkit-autofill:active {
   z-index: 1;
   position: relative;
 }
-.pixel-section .visual-content::before {
-  content: "";
-  position: absolute;
-  top: -100px;
-  right: 0;
-  z-index: -1;
-  width: 520px;
-  height: 520px;
-  background: url("../images/home-images/work-section-background.png") no-repeat center;
-  opacity: 0.7;
-}
-@media screen and (max-width: 767px) {
-  .pixel-section .visual-content::before {
-    top: unset;
-    bottom: -80px;
-    height: 100%;
-    width: 100%;
-  }
-}
 .pixel-section .visual-content ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -4162,8 +4183,9 @@ input:-webkit-autofill:active {
   max-width: 100%;
   height: auto;
 }
-.pixel-section .visual-content ul li:nth-child(2) {
-  border: 2px solid #0400F5;
+.pixel-section .visual-content ul li:hover {
+  border-color: #0400F5;
+  box-shadow: 0px 1px 16px 0px rgba(4, 0, 245, 0.2196078431);
 }
 .pixel-section .visual-content .stats-bar {
   background: #0a0a0b;
@@ -4822,11 +4844,6 @@ input:-webkit-autofill:active {
 .testimonial-section-v6 {
   background-color: #F3F4F6;
   padding: 120px 0px;
-  font-family: "Inter", sans-serif;
-}
-.testimonial-section-v6 .container {
-  max-width: 1100px;
-  margin: 0 auto;
 }
 .testimonial-section-v6 .top-part {
   margin-bottom: 50px;
@@ -5052,6 +5069,28 @@ input:-webkit-autofill:active {
 .faq-section {
   padding: 120px 0;
   background: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.faq-section::after {
+  position: absolute;
+  content: "";
+  bottom: 10%;
+  left: 0;
+  width: 422px;
+  height: 280px;
+  background: url(../images/home-images/faqs-design-img.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+}
+@media screen and (max-width: 1024px) {
+  .faq-section::after {
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    bottom: 0;
+  }
 }
 .faq-section .inner-part {
   display: grid;

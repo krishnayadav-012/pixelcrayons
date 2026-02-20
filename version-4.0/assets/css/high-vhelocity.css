@@ -1123,6 +1123,17 @@ input:-webkit-autofill:active {
   width: calc(40% - 10px);
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.high-vhelocity .right-part::before {
+  background: url(../images/home-images/cta-stars-light.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 49px;
+  top: -30px;
 }
 .high-vhelocity .hero-right {
   flex: 1;

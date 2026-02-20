@@ -108,11 +108,9 @@
             }
 
             a {
-              color: #656565;
-
-              &:hover {
-                text-decoration: underline;
-              }
+              color:inherit;
+              text-decoration: underline;
+             
             }
           }
         }

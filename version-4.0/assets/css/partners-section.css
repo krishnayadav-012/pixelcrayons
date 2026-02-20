@@ -1080,6 +1080,7 @@ input:-webkit-autofill:active {
   position: relative;
   background-color: #fff;
   z-index: 1;
+  overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
   .pixel-section {
@@ -1095,12 +1096,36 @@ input:-webkit-autofill:active {
   position: absolute;
   right: 0;
   top: 0;
-  background: url(../images/home-images/cta-grid.png);
+  background: url(../images/home-images/partner-grid.png);
   background-repeat: no-repeat;
   content: "";
   width: 60%;
   height: 100%;
   z-index: -1;
+  background-size: cover;
+}
+.pixel-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -140px;
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  background: url(../images/home-images/work-section-background.png) no-repeat center;
+  opacity: 0.7;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .pixel-section::before {
+    top: unset;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 50%;
+    opacity: 0.7;
+    bottom: 0;
+  }
 }
 .pixel-section .content-wrapper {
   display: flex;
@@ -1172,25 +1197,6 @@ input:-webkit-autofill:active {
   z-index: 1;
   position: relative;
 }
-.pixel-section .visual-content::before {
-  content: "";
-  position: absolute;
-  top: -100px;
-  right: 0;
-  z-index: -1;
-  width: 520px;
-  height: 520px;
-  background: url("../images/home-images/work-section-background.png") no-repeat center;
-  opacity: 0.7;
-}
-@media screen and (max-width: 767px) {
-  .pixel-section .visual-content::before {
-    top: unset;
-    bottom: -80px;
-    height: 100%;
-    width: 100%;
-  }
-}
 .pixel-section .visual-content ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1228,8 +1234,9 @@ input:-webkit-autofill:active {
   max-width: 100%;
   height: auto;
 }
-.pixel-section .visual-content ul li:nth-child(2) {
-  border: 2px solid #0400F5;
+.pixel-section .visual-content ul li:hover {
+  border-color: #0400F5;
+  box-shadow: 0px 1px 16px 0px rgba(4, 0, 245, 0.2196078431);
 }
 .pixel-section .visual-content .stats-bar {
   background: #0a0a0b;

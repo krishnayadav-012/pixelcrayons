@@ -2,7 +2,30 @@
 .faq-section {
   padding: 120px 0;
   background: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 
+    &::after{
+      position: absolute;
+      content: "";
+      bottom: 10%;
+      left: 0;
+      width: 422px;
+      height: 280px;
+      background: url(../images/home-images/faqs-design-img.png) no-repeat center;
+      background-size: cover;
+      z-index: -1;
+
+
+      @media screen and (max-width:1024px) {
+        width: 250px;
+        height: 180px;
+        background-size: cover;
+        bottom: 0;
+      }
+
+    }
 
   .inner-part {
     display: grid;
@@ -49,8 +72,6 @@
         max-height: 200px;
         padding: 20px 24px;
       }
-
-      
     }
   }
 

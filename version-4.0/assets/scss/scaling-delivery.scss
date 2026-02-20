@@ -18,6 +18,7 @@
     z-index: 11;
     cursor: pointer;
     display: flex;
+    transition: 0.5s;
   }
 
   .section-header {
@@ -160,9 +161,10 @@
   }
 }
 
-.comparison .comparison-grid .card ul li:last-child {
+.comparison .comparison-grid .card ul li:nth-child(n+7) {
   display: none !important;
 }
-.comparison.expanded .comparison-grid .card ul li:last-child {
+.comparison.expanded .comparison-grid .card ul li:nth-child(n+7) {
   display: block !important;
 }
+.comparison.active .add-lists-icon{transform: rotate(180deg); transition: 0.5s;}

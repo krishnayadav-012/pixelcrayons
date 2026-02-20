@@ -1249,7 +1249,7 @@ input:-webkit-autofill:active {
   height: 16px;
   display: flex;
   left: 0;
-  top: 7px;
+  top: 3px;
   position: absolute;
 }
 

@@ -214,21 +214,21 @@
             <h2>What We Do</h2>
           </div>
           <ul class="tabs">
-            <li class="tab active" data-target="marketing"><img src="assets/images/home-images/marketing.svg"
-                class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Marketing</li>
+            <li class="tab active" data-target="marketing"><img src="assets/images/home-images/marketing-black.svg "
+                class="normal"><img src="assets/images/home-images/marketing.svg" class="hover">Marketing</li>
             <li class="tab" data-target="engineer"><img src="assets/images/home-images/engineering.svg"
-                class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Engineering</li>
+                class="normal"><img src="assets/images/home-images/engineering-white.svg" class="hover">Engineering</li>
             <li class="tab" data-target="analytics"><img src="assets/images/home-images/analytics.svg"
-                class="normal"><img src="assets/images/home-images/iconhov01.svg" class="hover">Analytics</li>
+                class="normal"><img src="assets/images/home-images/analytics-white.svg" class="hover">Analytics</li>
             <li class="tab" data-target="design"><img src="assets/images/home-images/design.svg" class="normal"><img
-                src="assets/images/home-images/iconhov01.svg" class="hover">Design</li>
+                src="assets/images/home-images/design-white.svg" class="hover">Design</li>
           </ul>
           <div class="tab-content">
             <div class="content active" id="marketing">
               <h3>Marketing</h3>
               <p>We help your clients grow faster with done-for-you <a href="#">execution that</a>  converts.</p>
               <ul>
-                <li>Paid media (Meta, Google, LinkedIn)</li>
+                <li>Paid media (Meta, <a href="#">Google</a>, LinkedIn)</li>
                 <li>Funnel and CRO optimization</li>
                 <li>Email and automation workflows</li>
               </ul>
@@ -256,11 +256,10 @@
           </div>
         </div>
         <div class="image-container">
-          <img src="assets/images/home-images/marketing-img.png" alt="Marketing" class="tab-image active"
-            id="img-marketing">
-          <img src="assets/images/home-images/marketing-img.png" alt="Engineer" class="tab-image" id="img-engineer">
-          <img src="assets/images/home-images/marketing-img.png" alt="Analytics" class="tab-image" id="img-analytics">
-          <img src="assets/images/home-images/marketing-img.png" alt="Design" class="tab-image" id="img-design">
+          <img src="assets/images/home-images/marketing-img.png" alt="Marketing" class="tab-image active"id="img-marketing">
+          <img src="assets/images/home-images/engineering-img.png" alt="Engineer" class="tab-image" id="img-engineer">
+          <img src="assets/images/home-images/Integrations-image.png" alt="Analytics" class="tab-image" id="img-analytics">
+          <img src="assets/images/home-images/Design-img.png" alt="Design" class="tab-image" id="img-design">
         </div>
       </div>
     </div>
