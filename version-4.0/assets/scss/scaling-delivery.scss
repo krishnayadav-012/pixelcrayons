@@ -167,4 +167,4 @@
 .comparison.expanded .comparison-grid .card ul li:nth-child(n+7) {
   display: block !important;
 }
-.comparison.active .add-lists-icon{transform: rotate(180deg); transition: 0.5s;}
+.add-lists-icon.active{transform: rotate(180deg); transition: 0.5s;}
