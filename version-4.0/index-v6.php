@@ -24,7 +24,8 @@
             Delivery Without<br>
             Hiring or <strong>Client Risk.</strong>
           </h1>
-          <p>White-label marketing, design, engineering, and <a href="#">analytics</a> pods that integrate into your workflow — under
+          <p>White-label marketing, design, engineering, and <a href="#">analytics</a> pods that integrate into your
+            workflow — under
             your brand.</p>
           <a href="#" class="cta-button">SCALE YOUR DELIVERY</a>
           <div class="for-client-logo-box  dis-flex">
@@ -226,7 +227,7 @@
           <div class="tab-content">
             <div class="content active" id="marketing">
               <h3>Marketing</h3>
-              <p>We help your clients grow faster with done-for-you <a href="#">execution that</a>  converts.</p>
+              <p>We help your clients grow faster with done-for-you <a href="#">execution that</a> converts.</p>
               <ul>
                 <li>Paid media (Meta, <a href="#">Google</a>, LinkedIn)</li>
                 <li>Funnel and CRO optimization</li>
@@ -256,9 +257,11 @@
           </div>
         </div>
         <div class="image-container">
-          <img src="assets/images/home-images/marketing-img.png" alt="Marketing" class="tab-image active"id="img-marketing">
+          <img src="assets/images/home-images/marketing-img.png" alt="Marketing" class="tab-image active"
+            id="img-marketing">
           <img src="assets/images/home-images/engineering-img.png" alt="Engineer" class="tab-image" id="img-engineer">
-          <img src="assets/images/home-images/Integrations-image.png" alt="Analytics" class="tab-image" id="img-analytics">
+          <img src="assets/images/home-images/Integrations-image.png" alt="Analytics" class="tab-image"
+            id="img-analytics">
           <img src="assets/images/home-images/Design-img.png" alt="Design" class="tab-image" id="img-design">
         </div>
       </div>
@@ -467,63 +470,70 @@
           <a href="#" class="home-cta-button">CONTACT US</a>
 
         </div>
-        
 
-          <!-- RIGHT CARD STACK -->
-          <div class="hero-right">
-            <div class="card-stack" id="cardStack">
-              <div class="review-card active">
-                <div class="review-header">
-                  <img src="assets/images/home-images/review-card-1.png" />
-                  <ul class="stars">
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                  </ul>
-                </div>
-                <p >
-                  We finally found a partner who delivers consistently and understands agency timelines.
-                </p>
-                <div class="review-name"><p>– Tiffany</p></div>
+
+        <!-- RIGHT CARD STACK -->
+        <div class="hero-right">
+          <div class="card-stack" id="cardStack">
+            <div class="review-card active">
+              <div class="review-header">
+                <img src="assets/images/home-images/review-card-1.png" />
+                <ul class="stars">
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                </ul>
               </div>
-
-              <div class="review-card next">
-                <div class="review-header">
-                  <img src="assets/images/home-images/review-card-1.png" />
-                 <ul class="stars">
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                  </ul>
-                </div>
-                <p >
-                 We finally found a partner who delivers consistently and understands agency timelines. PixelCrayons helped us reduce delivery costs while keeping every client happy.
-                </p>
-                <div class="review-name"><p>– Michael</p></div>
+              <p>
+                We finally found a partner who delivers consistently and understands agency timelines.
+              </p>
+              <div class="review-name">
+                <p>– Tiffany</p>
               </div>
+            </div>
 
-              <div class="review-card last">
-                <div class="review-header">
-                  <img src="assets/images/home-images/review-card-1.png" />
-                  <ul class="stars">
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                    <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
-                  </ul>
-                </div>
-                <p >
-                  Their backend support helped us scale without hiring internally.
-                </p>
-                <div class="review-name"><p>– Sarah</p></div>
+            <div class="review-card next">
+              <div class="review-header">
+                <img src="assets/images/home-images/review-card-1.png" />
+                <ul class="stars">
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                </ul>
+              </div>
+              <p>
+                We finally found a partner who delivers consistently and understands agency timelines. PixelCrayons
+                helped us reduce delivery costs while keeping every client happy.
+              </p>
+              <div class="review-name">
+                <p>– Michael</p>
+              </div>
+            </div>
+
+            <div class="review-card last">
+              <div class="review-header">
+                <img src="assets/images/home-images/review-card-1.png" />
+                <ul class="stars">
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                </ul>
+              </div>
+              <p>
+                Their backend support helped us scale without hiring internally.
+              </p>
+              <div class="review-name">
+                <p>– Sarah</p>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </div>
@@ -783,10 +793,21 @@
   <!-- insights section end -->
 
 
-
+  <div class="videoPopup">
+    <div id="contentPopup" class="popup-wrapper" style="display: none;">
+      <div class="popWrap">
+        <div class="popup-content">
+          <span class="close"></span>
+          <iframe id="testimonoial-video" auto class="videoIframe js-videoIframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""
+            data-src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+            src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- feedback section start -->
-
   <section class="testimonial-section-v6">
     <div class="container">
       <div class="top-part">
@@ -800,7 +821,7 @@
             <div class="card-image">
               <img src="assets/images/home-images/client-1.png" alt="James Kelly">
               <div class="play-icon">
-                <span class="play-btn"> Play </span>
+                <span class="play-btn" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"> Play </span>
               </div>
             </div>
             <div class="card-content">
@@ -813,13 +834,10 @@
                   <li><img src="assets/images/home-images/blue-star.svg" alt=""></li>
                 </ul>
               </div>
-
               <p>We have worked with ValueCoders for more than a year, and their skilled team has allowed us to scale up
                 during certain projects.</p>
-
               <div class="author-info">
                 <img src="assets/images/home-images/Airtel-Foundation.png" alt="Company Logo">
-
                 <div class="details">
                   <span>James Kelly</span>
                   <p>Co-founder, Miracle Choice</p>
@@ -831,7 +849,8 @@
             <div class="card-image">
               <img src="assets/images/home-images/client-2.png" alt="James Kelly">
               <div class="play-icon">
-                <span class="play-btn"> Play </span>
+              <span class="play-btn" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"> Play </span>
+
               </div>
             </div>
             <div class="card-content">
@@ -894,6 +913,11 @@
               <img src="assets/images/home-images/client-4.png" alt="James Kelly">
               <div class="play-icon">
                 <span class="play-btn"> Play </span>
+
+
+
+
+
               </div>
             </div>
             <div class="card-content">
@@ -1096,30 +1120,30 @@
     }
 
 
-// review-card
+    // review-card
 
-const cards = document.querySelectorAll(".review-card");
-let current = 0;
+    const cards = document.querySelectorAll(".review-card");
+    let current = 0;
 
-function updateCards() {
-  cards.forEach(card => {
-    card.classList.remove("active", "next", "last");
-  });
+    function updateCards() {
+      cards.forEach(card => {
+        card.classList.remove("active", "next", "last");
+      });
 
-  const total = cards.length;
+      const total = cards.length;
 
-  cards[current].classList.add("active");
-  cards[(current + 1) % total].classList.add("next");
-  cards[(current + 2) % total].classList.add("last");
+      cards[current].classList.add("active");
+      cards[(current + 1) % total].classList.add("next");
+      cards[(current + 2) % total].classList.add("last");
 
-  current = (current + 1) % total;
-}
+      current = (current + 1) % total;
+    }
 
-// Initial state
-updateCards();
+    // Initial state
+    updateCards();
 
-// Auto rotate every 2 seconds
-setInterval(updateCards, 2000);
+    // Auto rotate every 2 seconds
+    setInterval(updateCards, 2000);
 
 
 
@@ -1143,15 +1167,37 @@ setInterval(updateCards, 2000);
       });
     });
 
-// elm-expand-tlb
-    if(document.getElementById("elm-expand-tlb")){
-    const elmExpandTlBtn = document.getElementById("elm-expand-tlb");
-    elmExpandTlBtn.addEventListener("click", function () {
+    // elm-expand-tlb
+    if (document.getElementById("elm-expand-tlb")) {
+      const elmExpandTlBtn = document.getElementById("elm-expand-tlb");
+      elmExpandTlBtn.addEventListener("click", function () {
         const parent = this.closest(".add-lists-icon");
         parent.classList.toggle("expanded");
-        this.classList.toggle("active");    
-    });
-}
+        this.classList.toggle("active");
+      });
+    }
+
+
+  const popup = document.getElementById("contentPopup");
+const iframe = document.getElementById("testimonoial-video");
+const closeBtn = document.querySelector(".close");
+
+// Use querySelectorAll to target EVERY play button
+const playBtns = document.querySelectorAll(".play-btn");
+
+playBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const videoSrc = btn.dataset.video; // get THIS card's video URL
+    popup.style.display = "block";
+    iframe.src = videoSrc; // load the correct video
+  });
+});
+
+// CLOSE POPUP + STOP
+closeBtn.addEventListener("click", () => {
+  popup.style.display = "none";
+  iframe.src = ""; // stop video
+});
 
 
   </script>

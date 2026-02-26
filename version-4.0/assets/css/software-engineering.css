@@ -5152,7 +5152,7 @@ b {
 .footer {
   width: 100%;
   background: #f1f6ff;
-  padding: 30px 0 40px;
+  padding: 40px 0 40px;
 }
 .footer .footer-top {
   padding: 0 0 20px;
@@ -5284,6 +5284,45 @@ b {
   line-height: 22px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0;
+}
+.footer .locations-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+.footer .location-card {
+  background-color: #E4EEFF;
+  border: 1px solid rgba(4, 0, 245, 0.2);
+  border-radius: 12px;
+  padding: 15px 12px;
+  width: calc(25% - 12px);
+  transition: transform 0.2s ease;
+}
+.footer .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer .flag {
+  width: 21px;
+  height: auto;
+  margin-right: 8px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.footer .card-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #111827;
+}
+.footer .location-card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6B7280;
 }
 
 .footer-copyright {
@@ -5515,6 +5554,21 @@ b {
   }
   .footer .footer-bottom h3 {
     font-weight: 500;
+  }
+  .footer .location-card {
+    width: calc(50% - 12px);
+  }
+}
+@media screen and (max-width: 540px) {
+  .footer .location-card {
+    width: 100%;
+  }
+  .footer .card-header h3 {
+    font-size: 16px;
+  }
+  .footer .flag {
+    width: 18px;
+    height: 18px;
   }
 }
 /*Media Query Ends Here*/

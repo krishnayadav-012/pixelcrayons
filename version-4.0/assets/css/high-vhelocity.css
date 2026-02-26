@@ -1220,9 +1220,6 @@ input:-webkit-autofill:active {
 .high-vhelocity .card-stack:hover .card-3 {
   transform: rotate(8deg) translate(20px, -15px);
 }
-.high-vhelocity .review-card.active .review-header > img {
-  border: 1px solid #DFFB0B;
-}
 .high-vhelocity {
   /* Review Content */
 }

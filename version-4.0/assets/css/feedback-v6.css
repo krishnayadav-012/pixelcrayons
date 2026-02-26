@@ -1248,7 +1248,7 @@ input:-webkit-autofill:active {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-size: cover;
+  background-size: 45px;
   background-position: center;
   border: 3px solid transparent;
   opacity: 0.5;
@@ -1258,6 +1258,46 @@ input:-webkit-autofill:active {
   border: 2px solid #0400F5;
   transform: scale(1.1);
   opacity: 1;
+}
+
+.videoPopup .popup-wrapper {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.videoPopup .popWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.videoPopup .popup-content {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  background: #000;
+}
+.videoPopup iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  margin: 0 auto;
+}
+.videoPopup .close {
+  position: absolute;
+  top: 5px;
+  right: -30px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  background: url(../images/close-icon.png) no-repeat center;
+  width: 25px;
+  height: 25px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1298,6 +1338,11 @@ input:-webkit-autofill:active {
   .testimonial-section-v6 .testimonial-card .card-content .rating ul li img {
     width: 16px;
     height: 16px;
+  }
+  .videoPopup .close {
+    width: 15px;
+    height: 15px;
+    right: -20px;
   }
 }
 

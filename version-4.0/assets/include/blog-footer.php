@@ -1,32 +1,37 @@
 <div class="footer-section">
   <div class="container">
     <footer class="footer">
-      <div class="dis-flex footer-top">
-        <div class="count-sec">
-          <div class="count-col">
-            <h5>Over 24 Million</h5>
-            <p>LEADS DRIVEN FOR CLIENTS</p>
+      <div class="locations-container">
+        <div class="location-card">
+          <div class="card-header">
+            <img src="./assets/images/us-img.png" alt="USA Flag" class="flag">
+            <h3>New York, USA</h3>
           </div>
-          <div class="count-col">
-            <h5>$6 Billion</h5>
-            <p> REVENUE DRIVEN FOR CLIENT</p>
-          </div>
-          <div class="count-col">
-            <h5>3,212,407</h5>
-            <p>HOURS OF EXPERTISE</p>
-          </div>
-          <div class="count-col">
-            <h5>675+</h5>
-            <p>EXPERTS ON STAFF</p>
-          </div>
+          <p>5900 Balcones Drive, STE 100, Austin, TX 78731</p>
         </div>
-        <div class="subs-box">
-          <h3>Ready to Scale Your Business?</h3>
-          <div class="btn-container">
-            <a href="#" class="cta-button white">
-            GET STARTED
-            </a>
+
+        <div class="location-card">
+          <div class="card-header">
+            <img src="./assets/images/uk-img.png" alt="UK Flag" class="flag">
+            <h3>London, UK</h3>
           </div>
+          <p>167-169 Great Portland Street, 5th Floor, London W1W 5PF</p>
+        </div>
+
+        <div class="location-card">
+          <div class="card-header">
+            <img src="./assets/images/uae-img.png" alt="UAE Flag" class="flag">
+            <h3>Dubai, UAE</h3>
+          </div>
+          <p>541, 8W, Level 5, Dubai Airport Free Zone</p>
+        </div>
+
+        <div class="location-card">
+          <div class="card-header">
+            <img src="./assets/images/india-img.png" alt="India Flag" class="flag">
+            <h3>Noida, India</h3>
+          </div>
+          <p>11th Floor, Max Square, Noida-Greater Noida Expy, Sector 129</p>
         </div>
       </div>
       <div class="dis-flex footer-middle">
@@ -45,23 +50,32 @@
         <div class="flex-5">
           <h4>Why Agencies Love Us</h4>
           <ul>
-            <li><a href="https://www.pixelcrayons.com/services/agencies/white-label-digital-marketing">White Label Digital Marketing</a></li>
-            <li><a href="https://www.pixelcrayons.com/services/agencies/white-label-web-development">White Label Web Development</a></li>
-            <li><a href="https://www.pixelcrayons.com/services/agencies/white-label-app-development">White Label App Development</a></li>
-            <li><a href="https://www.pixelcrayons.com/services/dedicated-teams/digital-marketing">Dedicated Marketing Teams</a></li>
+            <li><a href="https://www.pixelcrayons.com/services/agencies/white-label-digital-marketing">White Label
+                Digital Marketing</a></li>
+            <li><a href="https://www.pixelcrayons.com/services/agencies/white-label-web-development">White Label Web
+                Development</a></li>
+            <li><a href="https://www.pixelcrayons.com/services/agencies/white-label-app-development">White Label App
+                Development</a></li>
+            <li><a href="https://www.pixelcrayons.com/services/dedicated-teams/digital-marketing">Dedicated Marketing
+                Teams</a></li>
             <li><a href="https://www.pixelcrayons.com/services/dedicated-teams">Dedicated Software Teams</a></li>
-            <li><a href="https://www.pixelcrayons.com/services/software-development-outsourcing">Outsourced Software Development</a></li>
+            <li><a href="https://www.pixelcrayons.com/services/software-development-outsourcing">Outsourced Software
+                Development</a></li>
           </ul>
         </div>
         <div class="flex-5">
           <h4>Knowledge</h4>
           <ul>
-            <li><a href="https://www.pixelcrayons.com/digital-marketing/website-doesnt-drive-leads">My Website Doesn’t Drive Leads</a></li>
-            <li><a href="https://www.pixelcrayons.com/digital-marketing/seo/traffic-loss-reasons">My Website Traffic Is Going Down</a></li>
-            <li><a href="https://www.pixelcrayons.com/digital-marketing/cro/website-visitors-dont-convert">My Website Doesn’t Convert</a></li>
+            <li><a href="https://www.pixelcrayons.com/digital-marketing/website-doesnt-drive-leads">My Website Doesn’t
+                Drive Leads</a></li>
+            <li><a href="https://www.pixelcrayons.com/digital-marketing/seo/traffic-loss-reasons">My Website Traffic Is
+                Going Down</a></li>
+            <li><a href="https://www.pixelcrayons.com/digital-marketing/cro/website-visitors-dont-convert">My Website
+                Doesn’t Convert</a></li>
             <li><a href="https://www.pixelcrayons.com/digital-marketing/seo/pricing">How Much Does SEO Cost?</a></li>
             <li><a href="https://www.pixelcrayons.com/digital-marketing/ppc/pricing">How Much Does PPC Cost?</a></li>
-            <li><a href="https://www.pixelcrayons.com/digital-marketing/seo/local/pricing">How Much Does Local SEO Cost?</a></li>
+            <li><a href="https://www.pixelcrayons.com/digital-marketing/seo/local/pricing">How Much Does Local SEO
+                Cost?</a></li>
           </ul>
         </div>
         <div class="flex-5">
@@ -91,12 +105,16 @@
           <div class="dis-flex">
             <a href="https://www.invoicera.com" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/inv-logo.svg" width="156" height="40" alt="Invoicera">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/inv-logo.svg"
+                  width="156" height="40" alt="Invoicera">
               </picture>
             </a>
             <a href="https://www.workstatus.io" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/ws-logo.svg" width="188" height="26" alt="Workstatus">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/ws-logo.svg"
+                  width="188" height="26" alt="Workstatus">
               </picture>
             </a>
           </div>
@@ -106,71 +124,88 @@
           <div class="dis-flex">
             <a href="https://www.linkedin.com/company/pixelcrayons/" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-01.svg" width="29" height="29" alt="linkedin">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-01.svg"
+                  width="29" height="29" alt="linkedin">
               </picture>
             </a>
             <a href="https://www.facebook.com/PixelCrayons" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-02.svg" width="29" height="29" alt="facebook">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-02.svg"
+                  width="29" height="29" alt="facebook">
               </picture>
             </a>
             <a href="https://x.com/pixelcrayons" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-03.svg" width="29" height="29" alt="twitter">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-03.svg"
+                  width="29" height="29" alt="twitter">
               </picture>
             </a>
             <a href="https://www.instagram.com/pixelcrayons/?igshid=fq5rje6veemf" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-04.svg" width="29" height="29" alt="instagram">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-04.svg"
+                  width="29" height="29" alt="instagram">
               </picture>
             </a>
             <a href="https://www.youtube.com/channel/UCjsFG4ESIfmBNbyNg18B7IA" target="_blank">
               <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-05.svg" width="29" height="29" alt="youtube">
+                <img loading="lazy"
+                  src="https://www.pixelcrayons.com/blog/staging/wp-content/themes/pxlblog-v2/assets/images/soc-05.svg"
+                  width="29" height="29" alt="youtube">
               </picture>
             </a>
           </div>
         </div>
         <div class="flex-3">
-          <a href="//https://www.dmca.com/Protection/Status.aspx?ID=9f4af2d1-a5c5-4031-903c-b6dfb2c56625" title="DMCA.com Protection Status" class="dmca-badge" style="display:block; margin:30px 0 0;"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-06.png?ID=9f4af2d1-a5c5-4031-903c-b6dfb2c56625"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+          <a href="//https://www.dmca.com/Protection/Status.aspx?ID=9f4af2d1-a5c5-4031-903c-b6dfb2c56625"
+            title="DMCA.com Protection Status" class="dmca-badge" style="display:block; margin:30px 0 0;"> <img
+              src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-06.png?ID=9f4af2d1-a5c5-4031-903c-b6dfb2c56625"
+              alt="DMCA.com Protection Status" /></a>
+          <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
         </div>
       </div>
     </footer>
   </div>
 </div>
 <div class="footer-copyright">
-    <div class="container">
-      <div class="dis-flex justify-sb items-center ">
-        <div class="copyright-left">
-                    
-        <p>Copyright <a href="https://www.pixelcrayons.com/staging/wp-admin/post.php?post=2277&amp;action=edit">©</a> 2004 - 2025 PixelCrayons, All Rights Reserved. A Vinove Company.</p>
+  <div class="container">
+    <div class="dis-flex justify-sb items-center ">
+      <div class="copyright-left">
+
+        <p>Copyright <a href="https://www.pixelcrayons.com/staging/wp-admin/post.php?post=2277&amp;action=edit">©</a>
+          2004 - 2025 PixelCrayons, All Rights Reserved. A Vinove Company.</p>
         <ul>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Disclaimer</a></li>
-      
-    </ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+
+        </ul>
       </div>
-        <div class="copyright-right">
-          <span class="star-outer" id="star" style="display:none">
+      <div class="copyright-right">
+        <span class="star-outer" id="star" style="display:none">
           <span class="star-inner star-hover" id="starthover">
-          <i class="star-icon" onclick="star(event)" onmouseover="changerate('one')"></i> 
-          <i class="star-icon" onclick="star(event)" onmouseover="changerate('two')"></i> 
-          <i class="star-icon" onclick="star(event)" onmouseover="changerate('three')"></i> 
-          <i class="star-icon" onclick="star(event)" onmouseover="changerate('four')"></i> 
-          <i class="star-icon" onclick="star(event)" onmouseover="changerate('five')"></i> 
+            <i class="star-icon" onclick="star(event)" onmouseover="changerate('one')"></i>
+            <i class="star-icon" onclick="star(event)" onmouseover="changerate('two')"></i>
+            <i class="star-icon" onclick="star(event)" onmouseover="changerate('three')"></i>
+            <i class="star-icon" onclick="star(event)" onmouseover="changerate('four')"></i>
+            <i class="star-icon" onclick="star(event)" onmouseover="changerate('five')"></i>
           </span>
           <span id="rate_msg"></span>
+        </span>
+        <p>
+          <span>
+            <picture>
+              <img loading="lazy"
+                src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/images/rating-star.svg"
+                alt="rating">
+            </picture>
           </span>
-          <p>
-            <span>
-              <picture>
-                <img loading="lazy" src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/images/rating-star.svg" alt="rating">
-              </picture>
-            </span>
-            4.9 out of 5.0 by 4643 clients on over 10800+ projects
-          </p>
-        
-          <!-- <p><span class="star-outer" id="rated">
+          4.9 out of 5.0 by 4643 clients on over 10800+ projects
+        </p>
+
+        <!-- <p><span class="star-outer" id="rated">
             <i class="star-icon"></i>
             <i class="star-icon"></i>
             <i class="star-icon"></i>
@@ -182,7 +217,7 @@
             <a href="javascript:void(0)" onclick="ratenow()" id="ratebtn" class="rate-us">Rate us</a> 1218 clients on over 10800+ projects
             </span>
             </p>-->
-        </div>
       </div>
     </div>
   </div>
+</div>
