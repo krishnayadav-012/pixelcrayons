@@ -1308,7 +1308,7 @@ input:-webkit-autofill:active {
     padding: 50px 0;
   }
   .testimonial-section-v6 .testimonial-card .card-image img {
-    object-fit: unset;
+    object-fit: none;
   }
   .testimonial-section-v6 .testimonial-card .card-image {
     height: 350px;

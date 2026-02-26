@@ -67,6 +67,11 @@
     &.active {
       border-color: #799FFF;
       box-shadow: 0 6px 18px rgba(79, 70, 229, 0.08);
+      .faq-question {
+        h3{
+          color: #0400F5;
+        }
+      }
 
       .faq-answer {
         max-height: 200px;

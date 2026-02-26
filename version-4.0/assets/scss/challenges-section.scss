@@ -58,7 +58,7 @@
         padding: 30px;
         border: 1px solid #E5E7EB;
         backdrop-filter: blur(13.939393997192383px);
-        min-height: 405px;
+        min-height: 387px;
         display: flex;
         position: relative;
         flex-direction: column;
@@ -85,7 +85,7 @@
             transition: 0.4s;
             // background: $light-yellow;
             background: #FFFFFF26;
-            padding: 20px;
+            padding: 20px 15px 45px 15px;
             border-radius: 12px;
             margin-top: 20px;
             position: absolute;
@@ -130,6 +130,7 @@
                 img {
                     width: 23px;
                     height: 23px;
+                    object-fit: contain;
                 }
             }
         }
@@ -154,7 +155,7 @@
 
         &:hover {
             background: $royelblue;
-            height: 405px;
+            // height: 405px;
 
             h3 {
                 color: $white;

@@ -3828,7 +3828,7 @@ input:-webkit-autofill:active {
   justify-content: space-between;
   padding: 15px;
   border-radius: 10px;
-  gap: 15px;
+  gap: 14px;
 }
 .tabs-section .tabs-container .tabs .tab {
   border: none;

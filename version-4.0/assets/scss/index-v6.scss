@@ -141,6 +141,7 @@
           top: -44px;
           width: 176px;
           animation: topbottom 3s linear infinite alternate;
+          z-index: -1;
         }
 
         .sla-accuracy {
@@ -606,6 +607,7 @@
         .tabs {
           max-width: 100%;
           flex-wrap: wrap;
+          justify-content: space-around;
         }
 
         .tab-content {

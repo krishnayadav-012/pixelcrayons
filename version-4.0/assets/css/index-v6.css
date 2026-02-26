@@ -2737,7 +2737,7 @@ input:-webkit-autofill:active {
   justify-content: space-between;
   padding: 15px;
   border-radius: 10px;
-  gap: 15px;
+  gap: 14px;
 }
 .tabs-section .tabs-container .tabs .tab {
   border: none;
@@ -3846,7 +3846,7 @@ input:-webkit-autofill:active {
   padding: 30px;
   border: 1px solid #E5E7EB;
   backdrop-filter: blur(13.9393939972px);
-  min-height: 405px;
+  min-height: 387px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -3870,7 +3870,7 @@ input:-webkit-autofill:active {
   transform: translateY(100%);
   transition: 0.4s;
   background: rgba(255, 255, 255, 0.1490196078);
-  padding: 20px;
+  padding: 20px 15px 45px 15px;
   border-radius: 12px;
   margin-top: 20px;
   position: absolute;
@@ -3908,6 +3908,7 @@ input:-webkit-autofill:active {
 .card-grid .card .card-icon i img {
   width: 23px;
   height: 23px;
+  object-fit: contain;
 }
 .card-grid .card .card-footer {
   margin-top: auto;
@@ -3927,7 +3928,6 @@ input:-webkit-autofill:active {
 }
 .card-grid .card:hover {
   background: #0400F5;
-  height: 405px;
 }
 .card-grid .card:hover h3 {
   color: #ffffff;
@@ -5071,7 +5071,7 @@ input:-webkit-autofill:active {
     padding: 50px 0;
   }
   .testimonial-section-v6 .testimonial-card .card-image img {
-    object-fit: unset;
+    object-fit: none;
   }
   .testimonial-section-v6 .testimonial-card .card-image {
     height: 350px;
@@ -5172,6 +5172,9 @@ input:-webkit-autofill:active {
 .faq-section .faq-item.active {
   border-color: #799FFF;
   box-shadow: 0 6px 18px rgba(79, 70, 229, 0.08);
+}
+.faq-section .faq-item.active .faq-question h3 {
+  color: #0400F5;
 }
 .faq-section .faq-item.active .faq-answer {
   max-height: 200px;
@@ -6546,6 +6549,7 @@ input:-webkit-autofill:active {
   top: -44px;
   width: 176px;
   animation: topbottom 3s linear infinite alternate;
+  z-index: -1;
 }
 .hero-section .inner-part .right-part .middle-logo .sla-accuracy {
   right: 12%;
@@ -6913,6 +6917,7 @@ input:-webkit-autofill:active {
   .tabs-section.tab-with-bluebg .tabs-container .tabs {
     max-width: 100%;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   .tabs-section.tab-with-bluebg .tabs-container .tab-content {
     margin: 30px 0 0;

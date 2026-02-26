@@ -1126,7 +1126,7 @@ input:-webkit-autofill:active {
   padding: 30px;
   border: 1px solid #E5E7EB;
   backdrop-filter: blur(13.9393939972px);
-  min-height: 405px;
+  min-height: 387px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -1150,7 +1150,7 @@ input:-webkit-autofill:active {
   transform: translateY(100%);
   transition: 0.4s;
   background: rgba(255, 255, 255, 0.1490196078);
-  padding: 20px;
+  padding: 20px 15px 45px 15px;
   border-radius: 12px;
   margin-top: 20px;
   position: absolute;
@@ -1188,6 +1188,7 @@ input:-webkit-autofill:active {
 .card-grid .card .card-icon i img {
   width: 23px;
   height: 23px;
+  object-fit: contain;
 }
 .card-grid .card .card-footer {
   margin-top: auto;
@@ -1207,7 +1208,6 @@ input:-webkit-autofill:active {
 }
 .card-grid .card:hover {
   background: #0400F5;
-  height: 405px;
 }
 .card-grid .card:hover h3 {
   color: #ffffff;
