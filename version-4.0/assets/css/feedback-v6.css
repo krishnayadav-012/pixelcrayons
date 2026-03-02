@@ -1131,7 +1131,6 @@ input:-webkit-autofill:active {
   left: 25px;
   background: rgba(223, 251, 11, 0.5019607843);
   border: 1px solid #DFFB0B;
-  padding: 6px 20px;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
@@ -1142,6 +1141,7 @@ input:-webkit-autofill:active {
 .testimonial-section-v6 .testimonial-card .card-image .play-icon .play-btn {
   position: relative;
   font-size: 18px;
+  padding: 6px 20px;
   font-weight: 500;
   color: #0400F5;
 }

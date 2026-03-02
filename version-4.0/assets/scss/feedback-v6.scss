@@ -64,17 +64,17 @@ $breakpoint-md: 768px;
       left: 25px;
       background: #DFFB0B80;
       border: 1px solid #DFFB0B;
-      padding: 6px 20px;
       border-radius: 8px;
       font-weight: bold;
       cursor: pointer;
       display: flex;
       align-items: center;
       gap: 8px;
-
+      
       .play-btn{
         position: relative;
         font-size: 18px;
+        padding: 6px 20px;
         font-weight: 500;
         color: #0400F5;
 
