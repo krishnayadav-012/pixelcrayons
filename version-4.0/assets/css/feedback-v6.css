@@ -1345,5 +1345,10 @@ input:-webkit-autofill:active {
     right: -20px;
   }
 }
+@media screen and (max-width: 540px) {
+  .testimonial-section-v6 .testimonial-card .card-image img {
+    object-fit: contain;
+  }
+}
 
 /*# sourceMappingURL=feedback-v6.css.map */
