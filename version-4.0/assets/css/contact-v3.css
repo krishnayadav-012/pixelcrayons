@@ -5080,7 +5080,7 @@ Enterprise File Uploader Theme
 .global-cta-section .global-cta-card {
   display: flex;
   align-items: stretch;
-  gap: 8px;
+  gap: 12px;
 }
 .global-cta-section .global-cta-card > a {
   flex: 1;
@@ -5121,36 +5121,46 @@ Enterprise File Uploader Theme
   right: 12px;
   width: 12px;
   height: 12px;
-  color: #d1d5db;
   transition: color 0.18s, transform 0.18s;
+  color: #d1d5db;
 }
 .global-cta-section .contact-card:hover {
-  background: rgba(4, 0, 245, 0.03);
-  border: 1.5px solid #0400f5;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
   transform: translateY(-1px);
+  border-color: #d1d5db;
 }
-.global-cta-section .contact-card:hover .cc-icon {
+.global-cta-section .contact-card:hover .cc-arrow {
+  color: #6b7280;
+}
+.global-cta-section .contact-card.active {
+  background: rgba(4, 0, 245, 0.03);
+  border: 1.5px solid #0400f5;
+}
+.global-cta-section .contact-card.active .cc-icon {
   background: #0400f5;
 }
-.global-cta-section .contact-card:hover .cc-icon svg {
+.global-cta-section .contact-card.active .cc-icon svg {
   width: 15px;
   height: 15px;
   color: #ffffff;
 }
-.global-cta-section .contact-card:hover .cc-title {
+.global-cta-section .contact-card.active .cc-title {
   color: #0400f5;
 }
-.global-cta-section .contact-card:hover .cc-sub {
+.global-cta-section .contact-card.active .cc-sub {
   color: #0400f5;
 }
-.global-cta-section .contact-card:hover .cc-arrow {
+.global-cta-section .contact-card.active .cc-arrow {
   color: rgba(4, 0, 245, 0.35);
 }
 @media screen and (max-width: 640px) {
   .global-cta-section .global-cta-card {
     flex-direction: column;
   }
+}
+
+.global-cta-section .contact-card.active .cc-arrow {
+  color: #0400f5 !important;
 }
 
 /*# sourceMappingURL=contact-v3.css.map */

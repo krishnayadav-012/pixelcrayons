@@ -148,7 +148,7 @@
                             <p class="section-label">How would you like to connect?</p>
                         </div>
                         <div class="global-cta-card">
-                            <a href="javascript:void(0)" onclick="consultCTA_cb();" class="contact-card">
+                            <a href="javascript:void(0)" onclick="consultCTA_cb();" class="contact-card active">
 
                                 <div class="cc-icon ">
                                     <svg fill="none" width="24" height="24" stroke="currentColor" viewBox="0 0 24 24">
@@ -745,7 +745,7 @@
                             <p class="section-label">How would you like to connect?</p>
                         </div>
                         <div class="global-cta-card">
-                            <a href="javascript:void(0)" onclick="consultCTA_cb();" class="contact-card">
+                            <a href="javascript:void(0)" onclick="consultCTA_cb();" class="contact-card active">
 
                                 <div class="cc-icon ">
                                     <svg fill="none" width="24" height="24" stroke="currentColor" viewBox="0 0 24 24">

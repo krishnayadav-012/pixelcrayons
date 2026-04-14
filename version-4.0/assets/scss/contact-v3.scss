@@ -2191,7 +2191,7 @@ transform: translateY(0);
 .global-cta-card{
     display: flex;
     align-items: stretch;
-    gap: 8px;
+    gap: 12px;
     > a{
         flex: 1;
     }
@@ -2232,16 +2232,31 @@ transform: translateY(0);
     right: 12px;
     width: 12px;
     height: 12px;
-    color: #d1d5db;
     transition: color 0.18s, transform 0.18s;
+  
+        color: #d1d5db;
+   
     }
 
+&:hover{
 
-    &:hover{
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+    border-color: #d1d5db;
+    .cc-arrow {
+        color: #6b7280;
+    }
+
+}
+   
+
+}
+
+.contact-card.active{
+    
         background: rgba(4,0,245,0.03);
           border: 1.5px solid #0400f5;
-              box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
-    transform: translateY(-1px);
+
     
 
         .cc-icon{
@@ -2257,10 +2272,9 @@ transform: translateY(0);
         color: #0400f5;
                 }
                 .cc-arrow {
-                    color: rgba(4,0,245,0.35);
+                    color: rgba(4, 0, 245, 0.35);
                 } 
-    }
-
+    
 }
 
 @media screen and (max-width:640px) {
@@ -2270,3 +2284,8 @@ transform: translateY(0);
 }
 }
 
+.global-cta-section .contact-card.active .cc-arrow{
+
+    color: #0400f5 !important;
+}
+    
