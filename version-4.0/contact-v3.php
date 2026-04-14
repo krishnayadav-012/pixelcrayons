@@ -133,50 +133,70 @@
                         </div>
                     </div>
 
-                    <div class="global-hubs-section">
-                        <p class="section-label">
-                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                                </path>
-                            </svg>
-                            Global Delivery Hubs
-                        </p>
-                        <div class="global-hubs-card">
-                            <div class="location-tabs" id="locationTabs"></div>
-                            <div class="location-content" id="locationContent"></div>
+                    <div class="global-cta-section">
+
+                        <div class="top-heading-part">
+                            <div class="icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true"
+                                    style="display:inline;vertical-align:middle;margin-right:5px;color:var(--gray-400);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path
+                                        d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32">
+                                    </path>
+                                </svg></div>
+                            <p class="section-label">How would you like to connect?</p>
+                        </div>
+                        <div class="global-cta-card">
+                            <a href="javascript:void(0)" onclick="consultCTA_cb();" class="contact-card">
+
+                                <div class="cc-icon ">
+                                    <svg fill="none" width="24" height="24" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="cc-text">
+
+                                    <div class="cc-title">
+                                        Schedule a Meeting
+                                    </div>
+                                    <div class="cc-sub">We'll call you back</div>
+                                </div>
+                                <svg class="cc-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+
+                            </a>
+                            <a class="contact-card"
+                                href="mailto:sales@pixelcrayons.com?subject=Sales%20Inquiry%20—%20PixelCrayons"
+                                aria-label="Email us at hello@pixelcrayons.com">
+                                <div class="cc-icon" aria-hidden="true">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="cc-text">
+                                    <div class="cc-title">Email Us</div>
+                                    <div class="cc-sub">hello@pixelcrayons.com</div>
+                                </div>
+                                <svg class="cc-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-
-                    <a href="mailto:sales@valuecoders.com" class="direct-contact-card">
-                        <div class="contact-card-content">
-                            <div class="contact-icon-wrapper">
-                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="contact-card-text">
-                                <span class="contact-card-title">Direct Sales Inquiry</span>
-                                <span class="contact-card-subtitle">Response time: &lt; 8 hours</span>
-                            </div>
-                        </div>
-
-                        <svg id='Up_Right_24' class="icon-lg contact-arrow" width='16' height='16' viewBox='0 0 24 24'
-                            xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
-                            <rect width='24' height='24' stroke='none' fill='#000000' opacity='0' />
-
-
-                            <g transform="matrix(0.53 0 0 0.53 12 12)">
-                                <path
-                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
-                                    transform=" translate(-25, -25)"
-                                    d="M 42.980469 5.992188 C 42.941406 5.992188 42.90625 5.996094 42.871094 6 L 27 6 C 26.640625 5.996094 26.304688 6.183594 26.121094 6.496094 C 25.941406 6.808594 25.941406 7.191406 26.121094 7.503906 C 26.304688 7.816406 26.640625 8.003906 27 8 L 40.585938 8 L 6.292969 42.292969 C 6.03125 42.542969 5.925781 42.917969 6.019531 43.265625 C 6.109375 43.617188 6.382813 43.890625 6.734375 43.980469 C 7.082031 44.074219 7.457031 43.96875 7.707031 43.707031 L 42 9.414063 L 42 23 C 41.996094 23.359375 42.183594 23.695313 42.496094 23.878906 C 42.808594 24.058594 43.191406 24.058594 43.503906 23.878906 C 43.816406 23.695313 44.003906 23.359375 44 23 L 44 7.125 C 44.011719 7.035156 44.011719 6.941406 44 6.851563 L 44 6 L 43.144531 6 C 43.089844 5.992188 43.035156 5.988281 42.980469 5.992188 Z"
-                                    stroke-linecap="round" />
-                            </g>
-                        </svg>
-                    </a>
                 </div>
 
                 <!-- Right Column -->
@@ -506,18 +526,18 @@
 
                                         <div class="upload-text under-messgae">
 
-                                            
-                                                <label class="upload-container" for="file-upload-input">
-                                                    <input type="file" id="file-upload-input" hidden>
 
-                                                    <div class="upload-text">
-                                                        
-                                                        <span class="upload-subtitle">Drag & drop or click to browse
-                                                            (PDF, Docx,
-                                                            Max 10MB)</span>
-                                                    </div>
-                                                </label>
-                                            
+                                            <label class="upload-container" for="file-upload-input">
+                                                <input type="file" id="file-upload-input" hidden>
+
+                                                <div class="upload-text">
+
+                                                    <span class="upload-subtitle">Drag & drop or click to browse
+                                                        (PDF, Docx,
+                                                        Max 10MB)</span>
+                                                </div>
+                                            </label>
+
                                         </div>
 
 
@@ -703,13 +723,77 @@
                     </div>
                 </div>
 
-                <div>
+                <!-- <div>
                     <p class="section-label" style="text-align: center; margin-bottom: 1rem;">Global Delivery Hubs</p>
                     <div class="global-hubs-card">
                         <div class="location-tabs" id="locationTabsMobile"></div>
                         <div class="location-content" id="locationContentMobile"></div>
                     </div>
-                </div>
+                </div> -->
+                <div class="global-cta-section">
+
+                        <div class="top-heading-part">
+                            <div class="icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true"
+                                    style="display:inline;vertical-align:middle;margin-right:5px;color:var(--gray-400);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path
+                                        d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32">
+                                    </path>
+                                </svg></div>
+                            <p class="section-label">How would you like to connect?</p>
+                        </div>
+                        <div class="global-cta-card">
+                            <a href="javascript:void(0)" onclick="consultCTA_cb();" class="contact-card">
+
+                                <div class="cc-icon ">
+                                    <svg fill="none" width="24" height="24" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="cc-text">
+
+                                    <div class="cc-title">
+                                        Schedule a Meeting
+                                    </div>
+                                    <div class="cc-sub">We'll call you back</div>
+                                </div>
+                                <svg class="cc-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+
+                            </a>
+                            <a class="contact-card"
+                                href="mailto:sales@pixelcrayons.com?subject=Sales%20Inquiry%20—%20PixelCrayons"
+                                aria-label="Email us at hello@pixelcrayons.com">
+                                <div class="cc-icon" aria-hidden="true">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="cc-text">
+                                    <div class="cc-title">Email Us</div>
+                                    <div class="cc-sub">hello@pixelcrayons.com</div>
+                                </div>
+                                <svg class="cc-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
                 <a href="mailto:sales@valuecoders.com" class="direct-contact-card">
                     <div class="contact-card-content">

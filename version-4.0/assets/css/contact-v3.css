@@ -79,7 +79,6 @@ ul {
   list-style: none;
 }
 ul li {
-  color: rgba(65, 65, 65, 0.9);
   font-size: 16px;
   line-height: 26px;
 }
@@ -5045,6 +5044,112 @@ Enterprise File Uploader Theme
   .marquee-item {
     font-size: 1rem;
     padding: 0 2rem;
+  }
+}
+.global-cta-section .top-heading-part {
+  font-size: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.global-cta-section .top-heading-part .icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+.global-cta-section .top-heading-part p {
+  margin: 0;
+  line-height: 1.2;
+}
+.global-cta-section .cc-title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+.global-cta-section .cc-sub {
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.global-cta-section .global-cta-card {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.global-cta-section .global-cta-card > a {
+  flex: 1;
+}
+
+.global-cta-section .contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 14px 14px 14px;
+  border-radius: 10px;
+  position: relative;
+  transition: border-color 0.18s, box-shadow 0.18s, transform 0.15s var(--ease-out), background 0.18s;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+.global-cta-section .contact-card .cc-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.global-cta-section .contact-card .cc-icon svg {
+  width: 15px;
+  height: 15px;
+  color: #6b7280;
+}
+.global-cta-section .contact-card .cc-arrow {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  color: #d1d5db;
+  transition: color 0.18s, transform 0.18s;
+}
+.global-cta-section .contact-card:hover {
+  background: rgba(4, 0, 245, 0.03);
+  border: 1.5px solid #0400f5;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px);
+}
+.global-cta-section .contact-card:hover .cc-icon {
+  background: #0400f5;
+}
+.global-cta-section .contact-card:hover .cc-icon svg {
+  width: 15px;
+  height: 15px;
+  color: #ffffff;
+}
+.global-cta-section .contact-card:hover .cc-title {
+  color: #0400f5;
+}
+.global-cta-section .contact-card:hover .cc-sub {
+  color: #0400f5;
+}
+.global-cta-section .contact-card:hover .cc-arrow {
+  color: rgba(4, 0, 245, 0.35);
+}
+@media screen and (max-width: 640px) {
+  .global-cta-section .global-cta-card {
+    flex-direction: column;
   }
 }
 
