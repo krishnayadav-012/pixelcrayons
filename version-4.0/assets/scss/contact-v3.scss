@@ -22,7 +22,7 @@
     --blue-50: #eff6ff;
     --blue-100: #dbeafe;
     --green-50: #f0fdf4;
-    --button-color: #016be3;
+    --button-color: #0400f5;
     --button-hover: #05164d;
     --green-600: #16a34a;
     --green-700: #15803d;
@@ -348,7 +348,7 @@ nav a:hover {
 .left-column {
     display: none;
     position: sticky;
-    top: 8rem;
+    top: 2rem;
     padding-top: 2rem;
     animation: slideUp 0.6s ease-out;
 }
@@ -413,8 +413,6 @@ nav a:hover {
     border-bottom: 1px solid var(--slate-200);
     margin-bottom: 3rem;
 }
-
-
 
 .certifications-list {
     display: flex;
@@ -1564,7 +1562,9 @@ nav a:hover {
     }
     
     .hero-title {
-        font-size: 4.5rem;
+        //font-size: 4.5rem;
+        font-size: 3.5rem;
+        line-height: 60px;
     }
     
     .mobile-footer {
@@ -1982,7 +1982,19 @@ ease;
         margin-top: 12rem !important;
     }
 }
-
+@media screen and (min-width:1355px) {
+    .hero-title {
+        font-size: 4.5rem;
+        line-height: 85px;
+        
+    }
+}
+@media screen and (max-width:1355px) {
+    .hero-title {
+        font-size: 3.5rem;
+        line-height: 60px;
+    }
+}
 
 @media screen and (max-width:1024px) {
     .form-content{padding: 2rem;}
@@ -2149,12 +2161,7 @@ transform: translateY(0);
         margin-top: 4rem;
     }
     .marquee-item{font-size: 1rem;     padding: 0 2rem;}
-
 }
-
-
-
-
 
 .global-cta-section{
     .top-heading-part{
@@ -2167,7 +2174,7 @@ transform: translateY(0);
     gap: 6px;
     margin-bottom: 10px;
     .icon{
-        width: 16px;
+        width: 14px;
         height: 16px;
         display: flex;
         align-items: center;
@@ -2285,7 +2292,5 @@ transform: translateY(0);
 }
 
 .global-cta-section .contact-card.active .cc-arrow{
-
     color: #0400f5 !important;
 }
-    

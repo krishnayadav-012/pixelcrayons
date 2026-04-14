@@ -2849,7 +2849,7 @@ input:-webkit-autofill:active {
   --blue-50: #eff6ff;
   --blue-100: #dbeafe;
   --green-50: #f0fdf4;
-  --button-color: #016be3;
+  --button-color: #0400f5;
   --button-hover: #05164d;
   --green-600: #16a34a;
   --green-700: #15803d;
@@ -3164,7 +3164,7 @@ nav a:hover {
 .left-column {
   display: none;
   position: sticky;
-  top: 8rem;
+  top: 2rem;
   padding-top: 2rem;
   animation: slideUp 0.6s ease-out;
 }
@@ -4312,7 +4312,8 @@ nav a:hover {
     gap: 4rem;
   }
   .hero-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
+    line-height: 60px;
   }
   .mobile-footer {
     display: none;
@@ -4881,6 +4882,18 @@ Enterprise File Uploader Theme
     margin-top: 12rem !important;
   }
 }
+@media screen and (min-width: 1355px) {
+  .hero-title {
+    font-size: 4.5rem;
+    line-height: 85px;
+  }
+}
+@media screen and (max-width: 1355px) {
+  .hero-title {
+    font-size: 3.5rem;
+    line-height: 60px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .form-content {
     padding: 2rem;
@@ -5057,7 +5070,7 @@ Enterprise File Uploader Theme
   margin-bottom: 10px;
 }
 .global-cta-section .top-heading-part .icon {
-  width: 16px;
+  width: 14px;
   height: 16px;
   display: flex;
   align-items: center;

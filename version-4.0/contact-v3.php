@@ -136,15 +136,7 @@
                     <div class="global-cta-section">
 
                         <div class="top-heading-part">
-                            <div class="icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                                    stroke-linejoin="round" aria-hidden="true"
-                                    style="display:inline;vertical-align:middle;margin-right:5px;color:var(--gray-400);">
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                    <path
-                                        d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32">
-                                    </path>
-                                </svg></div>
+                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
                             <p class="section-label">How would you like to connect?</p>
                         </div>
                         <div class="global-cta-card">
