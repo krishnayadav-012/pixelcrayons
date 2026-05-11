@@ -1,0 +1,329 @@
+@use "_default" as *;
+/*======= Services Section =======*/
+.vertical-tabs {
+  padding: 80px 0 100px;
+  background: $bgWhiteGray;
+ 
+  @media (max-width: 768px) {
+    padding: 60px 0 70px;
+  }
+ 
+  @media (max-width: 480px) {
+    padding: 48px 0 56px;
+  }
+ 
+  /*======= Heading =======*/
+  &__heading {
+    text-align: center;
+    margin-bottom: 60px;
+ 
+    @media (max-width: 768px) {
+      margin-bottom: 40px;
+    }
+ 
+    h2 {
+  
+
+      color: $mainHeadDay;
+      line-height: 1.15;
+      margin-bottom: 18px;
+ 
+      em {
+        font-style: italic;
+        color: $royelblue;
+      }
+    }
+ 
+    p {
+  
+      color: $contentDay;
+      line-height: $line-height29;
+      max-width: 855px;
+      margin: 0 auto;
+    }
+  }
+ 
+  /*======= Tab Layout Wrapper =======*/
+  &__tab-layout {
+    background: $white;
+    gap: 100px;
+    padding: 40px 44px;
+    border-radius: 20px;
+   border: 1px solid #E4DBFF;
+    display: flex;
+    overflow: hidden;
+    min-height: 520px;
+  box-shadow: 0px 0px 31px 0px #0400F51A;
+
+ 
+    @media (max-width: 768px) {
+      flex-direction: column;
+      border-radius: 16px;
+      min-height: auto;
+    }
+  }
+ 
+  /*======= Left Sidebar =======*/
+  &__sidebar {
+    width: 361px;
+    flex-shrink: 0;
+  
+
+    background: $white;
+ 
+    @media (max-width: 1024px) {
+      width: 260px;
+    }
+ 
+    @media (max-width: 768px) {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid rgba(5, 36, 126, 0.08);
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+ 
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+ 
+  /*======= Tab Button =======*/
+  &__tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 18px 28px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #52525C;
+    transition: all 0.25s ease;
+    border-bottom: 1px solid rgba(5, 36, 126, 0.06);
+
+
+    .enactive{
+      display: block;
+    }
+    .active{
+      display: none;
+    }
+    
+ 
+    &:last-child {
+      border-bottom: none;
+    }
+ 
+    &:hover {
+      color: $bg-blue;
+      background: rgba(5, 36, 126, 0.04);
+ 
+      .vertical-tabs__tab-icon {
+        background: rgba(5, 36, 126, 0.10);
+ 
+        svg {
+          stroke: $bg-blue;
+        }
+      }
+    }
+ 
+    &.active {
+      .enactive{
+        display: none;
+      }
+      .active{
+        display: block;
+      }
+      color: $white;
+     background: linear-gradient(105.6deg, #0400F5 23.79%, #02008F 85.82%);
+
+      border-radius: 10px;
+      border-bottom: none;
+ 
+      .vertical-tabs__tab-icon {
+        background: #0400F50A;
+        
+ 
+        svg {
+          stroke: $white;
+        }
+      }
+    }
+ 
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 8px;
+      padding: 14px 16px;
+      min-width: 130px;
+      border-radius: 10px !important;
+      margin: 0 !important;
+      width: auto !important;
+      border-bottom: none !important;
+      font-size: 13px;
+      text-align: center;
+      flex-shrink: 0;
+      background: rgba(5, 36, 126, 0.04);
+ 
+      &.active {
+        border-radius: 10px;
+        margin: 0;
+        width: auto;
+      }
+    }
+ 
+    @media (max-width: 480px) {
+      min-width: 110px;
+      padding: 12px;
+    }
+  }
+ 
+  /*======= Tab Icon =======*/
+  &__tab-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(5, 36, 126, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.25s ease;
+ 
+    svg {
+      width: 20px;
+      height: 20px;
+      stroke: $shadeofblue;
+      transition: stroke 0.25s ease;
+    }
+  }
+ 
+  /*======= Right Content Area =======*/
+  &__content {
+    flex: 1;
+  
+    overflow: hidden;
+ 
+    @media (max-width: 1024px) {
+      padding: 28px 24px;
+    }
+ 
+    @media (max-width: 768px) {
+      padding: 24px 20px;
+    }
+  }
+ 
+  /*======= Panel =======*/
+  &__panel {
+    display: none;
+    animation: servicesFadeIn 0.3s ease;
+ 
+    &.active {
+      display: block;
+    }
+  }
+ 
+  /*======= Panel Header =======*/
+  &__panel-header {
+    margin-bottom: 30px;
+ 
+    h3 {
+    font-size: 22px;
+      font-weight: 700;
+      color: $mainHeadDay;
+      margin-bottom: 10px;
+    }
+ 
+    p {
+      font-size: 16px;
+      color: $contentDay;
+      line-height: 1.65;
+      max-width: 560px;
+    }
+  }
+ 
+  /*======= Cards Grid =======*/
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+ 
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
+ 
+  /*======= Service Card =======*/
+  &__card {
+    background: $bgWhiteGray;
+    border: 1.5px solid transparent;
+    border-radius: 14px;
+    padding: 25px 37px 27px 25px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+ 
+    &:hover {
+      border-color: rgba(5, 36, 126, 0.20);
+      border: 1px solid  #0400F5;
+      background: $white;
+      transform: translateY(-2px);
+   box-shadow: 0px 2px 14px 0px #0400F526;
+
+    }
+ 
+   
+  }
+ 
+  /*======= Card Title =======*/
+  &__card-title {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    h4{
+font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: $mainHeadDay;
+  
+    }
+    
+ 
+    &::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0400F5;
+      flex-shrink: 0;
+    }
+  }
+ 
+  p {
+    font-size: 15px;
+    color: #52525C;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+ 
+@keyframes servicesFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ 

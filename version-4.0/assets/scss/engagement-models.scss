@@ -1,0 +1,311 @@
+@use "_default" as *;
+// ============================================================
+// Compliance Section
+// ============================================================
+.compliance-section {
+  background-color: #F8FAFC;
+
+ 
+  // ── Header ──────────────────────────────────────────────
+  &__header {
+    text-align: center;
+    margin-bottom: 56px;
+    em{
+      font-style: normal;
+      color: #0400F5;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+ 
+    h2 {
+      
+      // color: $themeMidNight;
+      margin: 0 0 15px;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+    }
+ 
+    p {
+      
+      color: #364153;
+      margin: 0 auto;
+      font-size: 18px;
+      font-weight: 500;
+      max-width: 610px;
+      line-height: 1.6;
+    }
+  }
+ 
+  // ── Grid ────────────────────────────────────────────────
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: stretch;
+ 
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+ 
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+ 
+// ============================================================
+// Compliance Card
+// ============================================================
+.compliance-card {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0px 4px 14px 3px #0000000F;
+  border: 1px solid #F3F4F6;
+
+ .card-inner-part{
+  padding: 20px 30px 30px 30px;
+  h3{
+    margin-bottom: 5px;
+    color: #18181B;
+  }
+  p{
+    margin-bottom: 30px;
+  }
+ }
+  
+ 
+  // ── Light variant ────────────────────────────────────────
+  &--light {
+    background-color: $white;
+    border: 1px solid #F3F4F6;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+ 
+    &:hover {
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.10);
+    }
+ 
+    .compliance-card__top {
+      padding: 30px;
+      background-color: #F4F3FF;
+ 
+      h3 {
+        // color: $themeMidNight;
+           margin-top:10px ;
+        margin-bottom:5px ;
+     
+      }
+ 
+      p {
+        color: #3F3F47;
+      }
+    }
+ 
+    .compliance-card__list {
+      background-color: $white;
+  
+      
+ 
+      li {
+        color: #364153;position: relative;
+        padding-left: 30px;
+
+ 
+        &::before {
+        content: "";
+    position: absolute;
+    left: 0;
+    background: url(../images/agencies/gray-check.svg);
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    top: 0px;
+   
+  
+ 
+        
+        }
+      }
+    }
+ 
+   
+  }
+ 
+  // ── Dark variant (featu#FFF8E9) ──────────────────────────────
+  &--dark {
+    // background-color: $themeMidNight;
+    border: none;
+    box-shadow: 0px 4px 14px 3px #0000000F;
+
+ 
+   
+ 
+    .compliance-card__top {
+      padding: 30px;
+      background-color: #FFF8E9;
+ 
+      h3 {
+        color: $white;
+           margin-top:10px ;
+        margin-bottom:5px ;
+      }
+ 
+      p {
+        color: rgba($white, 0.7);
+      }
+    }
+ 
+    .compliance-card__list {
+    
+     
+ 
+      li {
+        color: #364153;
+        padding-left: 30px;
+        position: relative;
+ 
+        &::before {
+        content: "";
+    position: absolute;
+    left: 0;
+    background: url(../images/agencies/gray-check.svg);
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    top: 0;
+   
+  }
+      }
+    }
+ 
+    .compliance-card__footer {
+      background-color: $white;
+      
+    }
+  }
+ 
+  
+ 
+  // ── Top block ────────────────────────────────────────────
+  &__top {
+    h3 {
+     color: #0400F5;
+      margin: 0 0 10px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.25;
+
+    }
+ 
+    p {
+      line-height: 1.5;
+      margin: 0;
+    }
+  }
+ 
+  // ── Divider line between top and list ────────────────────
+  &__list {
+    list-style: none;
+    margin: 0;
+   
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ 
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 140%;
+ 
+      
+ 
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  }
+ 
+  // ── Footer / CTA ─────────────────────────────────────────
+  
+}
+ 
+// ============================================================
+// Responsive tweaks
+// ============================================================
+@media (max-width: 1024px) {
+  .compliance-section {
+    padding: 60px 0;
+ 
+    &__header {
+      margin-bottom: 40px;
+    }
+  }
+}
+ 
+@media (max-width: 640px) {
+  .compliance-section {
+    padding: 48px 0;
+ 
+    &__header {
+      margin-bottom: 32px;
+    }
+  }
+ 
+  .compliance-card {
+    &__top,
+    &__list,
+    &__footer {
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+  }
+}
+ 
+.compliance-card__top{min-height: 188px;}
+.compliance-card--dark .compliance-card__top{background-color: #0400F5; }
+.compliance-card--dark .compliance-card__top p{color: #D1D5DC; font-size: 16px ; font-weight: 500; }
+ .compliance-card__top span{padding: 5px 10px; margin-bottom: 10px; background-color: #605DFF; border-radius: 5px; font-size: 14px ; font-weight: 600; color: #0400F5;}
+ .compliance-card--dark .compliance-card__top span{color: #FAFAFA; background-color: #605DFF;}
+.compliance-card--dark .compliance-card__top h3{color: #DFFB0B; font-weight: 700;}
+.compliance-card__footer {
+    padding: 20px 30px 30px;
+    border-top: 1px solid #F3F4F6;
+ 
+    // a {
+    //   border: 1px solid #6A7282;
+    //   display: inline-flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   width: 100%;
+    //   color: #05164D;
+    //   padding: 14px 20px;
+    //   border-radius: 50px;
+    //   font-size: 16px;
+    //   font-weight: 500;
+    //   text-decoration: none;
+    //   letter-spacing: 0.2px;
+    //   transition: background-color 0.2s ease, color 0.2s ease;
+    //   box-sizing: border-box;
+
+    //   &::after{
+    //     background: url(../images/index-v10/view-all.svg);
+    // content: "";
+    // display: inline-block;
+    // width: 19px;
+    // height: 19px;
+    // background-size: 19px !important;
+    // vertical-align: middle;
+    // margin-left: 10px;
+    //   }
+    // }
+  }
