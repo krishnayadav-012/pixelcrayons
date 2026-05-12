@@ -1089,6 +1089,11 @@ input:-webkit-autofill:active {
   gap: 100px;
   align-items: start;
 }
+@media screen and (max-width: 1260px) {
+  .how-it-works .hiw-inner {
+    gap: 50px;
+  }
+}
 .how-it-works .left-part {
   position: sticky;
   top: 80px;
@@ -1225,17 +1230,17 @@ input:-webkit-autofill:active {
   color: #737373;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .hiw-inner {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
   }
   .left-part {
-    position: static;
+    position: static !important;
     padding-right: 0;
   }
   .hiw-right {
-    max-height: 500px;
+    max-height: unset !important;
   }
 }
 

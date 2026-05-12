@@ -8,6 +8,7 @@
 @use "how-it-works" as *;
 @use "overlap-deliver" as *;
 @use "we-embed" as *;
+@use "partner-result" as *;
 @use "horizontal-timeline" as *;
 @use "overlap-deliver" as *;
 
@@ -694,7 +695,7 @@ position: absolute;
   text-align: center;
   padding-bottom: 80px;
   @media screen and (max-width:1024px) {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 }
 .slide-logo .numbring-part{
@@ -714,6 +715,9 @@ h2{
   font-weight: 700;
   margin-bottom: 2px;
   line-height: 100%;
+  @media screen and (max-width:991px) {
+    font-size: 35px;
+  }
 }
 p{
   color: #3F3F47;

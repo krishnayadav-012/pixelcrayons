@@ -37,6 +37,9 @@
 border: 1px solid #E8E7FE;
 border-radius: 20px;
 padding: 25px 25px 40px 25px;
+@media screen and (max-width:1024px) {
+    width: calc(50% - 20px);
+}
 
             .img-part{
                 width: 100%;

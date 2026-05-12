@@ -432,7 +432,7 @@
 
 
   <!-- we-embed -->
-  <section class="we-embed">
+  <section class="we-embed ">
     <div class="container">
       <div class="top-part">
         <div class="left-part">
@@ -447,9 +447,125 @@
           <p>The biggest failure mode in brand-agency relationships is separation. Your team does one thing; the agency does another. Nobody talks until something breaks.</p>
         </div>
       </div>
+      <div class="bottom-part">
+
+        <div class="left-part">
+          <div class="ai-list">
+            <div class="ai-item">
+              <div class="title">
+                <h4>Compliance built after engineering decisions are locked</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">Architecture gets defined first, and controls are added later to “meet requirements.” This leads to rework, patch fixes, and systems that technically pass audits but aren’t built for long-term compliance.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+            <div class="ai-item active">
+              <div class="title">
+                <h4>AI adoption outpacing governance in delivery workflows</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">There’s limited visibility into how data is used, where it flows, and what gets retained. Without governance, speed increases—but so does risk.</span></p>
+              </div>
+              <div class="progress" style="transition: width 4000ms linear; width: 100%;"></div>
+            </div>
+            <div class="ai-item">
+              <div class="title">
+                <h4>External dependencies treated as plug-and-play</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">Payment gateways, KYC providers, and financial data APIs are critical. When integrations are treated as plug-and-play, teams underestimate failure scenarios, compliance implications, and ongoing maintenance overhead.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+            <div class="ai-item">
+              <div class="title">
+                <h4>Delivery systems that lack ownership and traceability</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right-part">
+
+          <img src="assets/images/brand/embed-img.png" alt="">
+
+        </div>
+      </div>
     </div>
   </section>
   <!-- we embaded -->
+
+  <!-- partner-result -->
+  <section class="partner-result">
+    <div class="container">
+      <div class="top-part">
+        <div class="left-part">
+          <h2>Results from brand <em>partnerships.</em></h2>
+        </div>
+        <div class="right-part">
+          <a href="#" class="btn-outline">VIEW ALL</a>
+        </div>
+      </div>
+      <div class="bottom-cards">
+        <div class="card">
+          <div class="img-part">
+            <img src="assets/images/brand/ecommerce.png" alt="">
+          </div>
+          <div class="content-part">
+            <span>eCommerce & D2C</span>
+            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
+            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
+          </div>
+          <div class="time-period">
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+          </div>
+          <a href="#"> Read the case study</a>
+        </div>
+        <div class="card">
+          <div class="img-part">
+            <img src="assets/images/brand/ecommerce.png" alt="">
+          </div>
+          <div class="content-part">
+            <span>eCommerce & D2C</span>
+            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
+            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
+          </div>
+          <div class="time-period">
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+          </div>
+          <a href="#"> Read the case study</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- partner-result -->
+
 
 
 
@@ -457,7 +573,6 @@
 
 
   <!-- work with  -->
-
 
   <section class="pixel-section">
     <div class="container">
@@ -536,8 +651,6 @@
   </section>
 
   <!-- high-velocity end-->
-
-
 
   <!-- insights section  -->
   <section class="insights">
@@ -829,7 +942,6 @@
 
   <!-- faq-section start -->
 
-
   <section class="faq-section">
     <div class="container">
       <div class="inner-part">
@@ -901,9 +1013,7 @@
     </div>
   </section>
 
-
   <!-- faq-section end-->
-
 
   <?php require_once 'assets/include/cta-v3.php'; ?>
   <?php require_once 'assets/include/blog-footer.php'; ?>
@@ -917,35 +1027,52 @@
 
   <script>
     (function() {
-      const scrollEl = document.getElementById('timelineScroll');
-      const progressEl = document.getElementById('timelineProgress');
-      const items = Array.from(document.querySelectorAll('.timeline-item'));
+
+      // ─── GUARD 1: Required section must exist ───────────────────────────────
+      // All logic is scoped to .how-it-works. If the section isn't on this page,
+      // the script exits immediately — zero impact on any other section or page.
+      const section = document.querySelector('.how-it-works');
+      if (!section) return;
+
+      // ─── GUARD 2: Required elements must live inside the section ────────────
+      // IDs and class selectors are queried from `section`, not from document,
+      // so they can never accidentally match elements in other sections.
+      const scrollEl = section.querySelector('#timelineScroll');
+      const progressEl = section.querySelector('#timelineProgress');
+      const items = Array.from(section.querySelectorAll('.timeline-item'));
       const total = items.length;
+
+      // ─── GUARD 3: Bail if any required element is missing ───────────────────
+      if (!scrollEl || !progressEl || total === 0) return;
 
       let currentStep = -1; // which step is currently active
       let animating = false; // lock while smooth-scroll is in flight
       let autoTimer = null; // interval handle
 
-      // ── helpers ──────────────────────────────────────────────
+      // ── helpers ──────────────────────────────────────────────────────────────
 
-      // Returns the progress-bar height % that places the bar tip at the
-      // centre of the bubble for a given step index.
+      // Returns progress-bar height % so the bar tip aligns to the bubble centre.
       function pctForStep(index) {
+        // GUARD: index must be within bounds
+        if (index < 0 || index >= total) return 0;
+
         const bubble = items[index].querySelector('.step-bubble');
+        if (!bubble) return 0;
+
         const panelRect = scrollEl.getBoundingClientRect();
         const bubbleRect = bubble.getBoundingClientRect();
 
-        // bubble centre relative to the scroll container's content top
         const bubbleCentre = bubbleRect.top - panelRect.top +
           scrollEl.scrollTop +
           bubbleRect.height / 2;
 
-        const totalTrack = scrollEl.scrollHeight - 40; // CSS top:20 + bottom:20
+        const totalTrack = scrollEl.scrollHeight - 40; // matches CSS top:20 + bottom:20
         const filled = bubbleCentre - 20;
         return Math.min(100, Math.max(0, (filled / totalTrack) * 100));
       }
 
-      // Activate all steps up to and including `index`
+      // Activate all steps up to and including `index`.
+      // Only touches elements that are children of `section`.
       function activateUpTo(index) {
         items.forEach((item, i) => {
           item.classList.toggle('active', i <= index);
@@ -953,27 +1080,28 @@
         progressEl.style.height = pctForStep(index) + '%';
       }
 
-      // Smoothly scroll the panel so `index` step is visible
+      // Smoothly scroll the panel (scoped to scrollEl only — never window).
       function scrollToStep(index) {
-        const target = items[index].offsetTop - 40; // 40px breathing room above
+        if (index < 0 || index >= total) return;
+        const target = items[index].offsetTop - 40;
         scrollEl.scrollTo({
           top: Math.max(0, target),
           behavior: 'smooth'
         });
       }
 
-      // ── entrance: make all items visible immediately ──────────
+      // ── entrance: staggered fade-in for items inside the section ─────────────
       items.forEach((item, i) => {
         setTimeout(() => item.classList.add('visible'), 100 + 80 * i);
       });
 
-      // ── auto-advance ──────────────────────────────────────────
+      // ── auto-advance ──────────────────────────────────────────────────────────
       function advance() {
-        if (animating) return; // wait for scroll to settle
+        if (animating) return;
         const next = currentStep + 1;
 
         if (next >= total) {
-          // All steps done — stop the timer
+          // Reached the last step — stop. Never restarts.
           clearInterval(autoTimer);
           autoTimer = null;
           return;
@@ -982,28 +1110,26 @@
         animating = true;
         currentStep = next;
 
-        // 1. Activate the new step (bubble + progress bar)
-        activateUpTo(currentStep);
+        activateUpTo(currentStep); // highlight bubble + grow bar
+        scrollToStep(currentStep); // scroll panel (not window)
 
-        // 2. Scroll the panel to show the step
-        scrollToStep(currentStep);
-
-        // 3. Release lock after scroll animation (~600 ms)
+        // Release lock after smooth-scroll settles (~600 ms)
         setTimeout(() => {
           animating = false;
         }, 650);
       }
 
-      // ── kick off after a short delay so the page has painted ──
+      // Kick off after paint (600 ms), then every 1.8 s
       setTimeout(() => {
-        // First step fires immediately, then every 1.8 s
         advance();
         autoTimer = setInterval(advance, 1800);
       }, 600);
 
-      // ── manual scroll still works after auto is done ──────────
+      // ── manual scroll sync (only after auto finishes) ─────────────────────────
+      // Listener is attached to scrollEl only — never to window or document,
+      // so it cannot interfere with any other section's scroll behaviour.
       scrollEl.addEventListener('scroll', function() {
-        if (autoTimer !== null) return; // don't interfere during auto
+        if (autoTimer !== null) return; // hands off while auto is running
 
         const panelTop = scrollEl.getBoundingClientRect().top;
         const panelH = scrollEl.clientHeight;

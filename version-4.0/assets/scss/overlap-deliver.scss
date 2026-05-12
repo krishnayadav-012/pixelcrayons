@@ -64,6 +64,11 @@ z-index: 1;
       background-repeat: no-repeat;
       background-size: contain;
       z-index: -1;
+
+      @media screen and (max-width:1024px) {
+        display: none !important;
+      }
+
       }
 
 

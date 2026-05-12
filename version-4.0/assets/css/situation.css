@@ -1110,6 +1110,11 @@ input:-webkit-autofill:active {
   border-radius: 20px;
   padding: 25px 25px 40px 25px;
 }
+@media screen and (max-width: 1024px) {
+  .situation .cards-part .card {
+    width: calc(50% - 20px);
+  }
+}
 .situation .cards-part .card .img-part {
   width: 100%;
   display: block;

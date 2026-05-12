@@ -1,25 +1,271 @@
 @use "_default" as *;
-@use "_default" as *;
 .we-embed{
+    background-color: #090C19;
+    padding: 100px 0;
+    @media screen and (max-width:1260px) {
+        padding: 80px;
+    }
+    @media screen and (max-width:1024px) {
+        padding: 50px;
+    }
     .top-part{
         display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        margin-bottom: 45px;
+           @media screen and (max-width:1024px) {
+     flex-direction: column;
+     gap: 30px;
+     .left-part{
+        width: 100% !important;
+     }
+     .right-part{
+        width: 100% !important;
+     }
+    }
+     
         .left-part{
+            width: 55%;
+       
             .eyebrow{
                 span{
                     font-size: 14px ;
                     font-weight: 600;
+                    text-transform: uppercase;
+                    color: #DFFB0B;
                 }
+            }
                 h2{
                     color: $white;
+                    padding-right: 200px;
+
+                    @media screen and (max-width:1260px) {
+                        padding-right: 0;
+                    }
+
                     em{
                         color: #DFFB0B;
                     }
                 }
-            }
-            
         }
-        .left-part{
+        .right-part{
+            width: 45%;
+            display: flex;
+            p{
+                margin-top: auto;
+                margin-bottom: 0;
+                color: #E4E4E7;
+            }
+    }
+}
+}
+.bottom-part{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+    .left-part{
+    width: calc(50% - 25px);    
+/* LIST */      @media screen and (max-width:1024px) {
+     width: 100%;
+    }
+
+.ai-list {
+
+
+  height: 510px;
+  @media screen and (max-width:1024px) {
+padding-left: 20px;
+height: auto;
+
+}
+
+   
+    .ai-item {
+
+        position: relative;
+        padding: 30px 30px 30px 50px;
+        
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        cursor: pointer;
+
+        .card-number{
+            position: absolute;
+            right: 14px;
+            font-size: 46px ;
+            font-weight: 700;
+            line-height: 100%;
+            top: 9px;
+            display: none;  
+            span{
+                color: #FFFFFF;
+                opacity: 3%;
+            }
+        }
+
+         @media screen and (max-width:1024px) {
+padding: 15px 0;
+}
+
+        /* Reserve space so layout doesn't jump */
+        
+
+      
+
+        .title h4 {
+            font-size: 22px;
+            font-weight: 600;
+            transition: 0.3s;
+            color: #9F9FA9;
+            position: relative;
+              &:before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #6A7282;
+            position: absolute;
+            left: -30px;
+            top: 10px;
+            transition: 0.3s;
+             @media screen and (max-width:1024px) {
+top: 11px;
+}
+             @media screen and (max-width:640px) {
+top: 11px;
+}
+        }
+        }
+
+        /* FIXED HEIGHT AREA */
+
+        .desc {
+
+            font-size: 14px;
+            font-weight: 500;
+            color: #D1D5DC;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            transition:
+                max-height 0.4s ease,
+                opacity 0.3s ease;
+
+            p {
+                color: #D1D5DC;
+                margin-top: 10px;
+                 font-size: 16px;
+                 margin-bottom: 0;
+            font-weight: 500;
+            }
+ul{
+    display: flex;gap: 12px;
+    margin-top: 20px;
+    li{
+        padding: 5px 10px;
+        background: #3F3F47;
+        border-radius: 8px;
+    }
+}
+
+        }
+
+        .progress {
+
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+
+            height: 2px;
+            width: 0%;
+
+            background: $shine-green;
+
+        }
+
+        /* ACTIVE */
+
+        &.active {
+background-color: #27272A;
+border-radius: 10px;
+padding-left: 60px;
+.card-number{
+    display: block;
+}
+
+.title h4 {
+    color: $white;
+    font-weight: 700;
+    &:before {
+        background: $shine-green;
+    }
+            }
+
+            .desc {
+
+                max-height: max-content; 
+                opacity: 1;
+                
+
+            }
+
+        }
 
     }
+
+}
+}
+.right-part{
+    width: calc(50% - 25px);  
+    display: flex;  
+     @media screen and (max-width:1024px) {
+     display: none;
+    }
+img{width: 100%; height: 528px; object-fit: contain;}
+}
+}
+/* RESPONSIVE */
+
+
+
+@media (max-width: 640px) {
+    .ai-list{padding-left: 20px;}
+   
+}
+
+    
+.we-embed{
+position: relative;
+
+z-index: 1;
+overflow: hidden;
+&::after {
+    position: absolute;
+    left:  0;
+    content: "";
+    z-index: -1;
+    top: 0;
+    width: 1000px;
+    height: 1000px;
+    background: url(../images/brand/gra-frame.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+         transform: rotate(270deg);
+}
+
+&::before {
+    position: absolute;
+    right:  0;
+    content: "";
+    z-index: -1;
+    bottom: 0;
+     transform: rotate(90deg);
+    width: 1000px;
+    height: 1000px;
+   background: url(../images/brand/gra-frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+            
 }
 }

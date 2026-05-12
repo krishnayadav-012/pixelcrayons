@@ -1145,6 +1145,11 @@ input:-webkit-autofill:active {
   z-index: -1;
 }
 @media screen and (max-width: 1024px) {
+  .stacking-cards-section .stack-card .card-body::before {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1024px) {
   .stacking-cards-section .stack-card .card-body {
     padding: 25px;
     gap: 50px;

@@ -2811,6 +2811,17 @@ input:-webkit-autofill:active {
   justify-content: space-between;
   gap: 100px;
 }
+@media screen and (max-width: 1260px) {
+  .fintech-delivery .inner-part {
+    gap: 60px !important;
+  }
+  .fintech-delivery .inner-part .left-part {
+    width: calc(50% - 30px) !important;
+  }
+  .fintech-delivery .inner-part .right-part {
+    width: calc(50% - 30px) !important;
+  }
+}
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part {
     flex-direction: column;
@@ -2822,7 +2833,7 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part .left-part {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .fintech-delivery .inner-part .left-part > em {
@@ -2856,7 +2867,7 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part .right-part {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .fintech-delivery .inner-part .right-part .ai-content {
@@ -2888,6 +2899,7 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part .ai-list {
     padding-left: 20px;
+    height: auto;
   }
 }
 .fintech-delivery .inner-part .ai-list .ai-item {
@@ -2937,12 +2949,12 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part .ai-list .ai-item .title h4:before {
-    top: 26px;
+    top: 11px;
   }
 }
 @media screen and (max-width: 640px) {
   .fintech-delivery .inner-part .ai-list .ai-item .title h4:before {
-    top: 23px;
+    top: 11px;
   }
 }
 .fintech-delivery .inner-part .ai-list .ai-item {
@@ -3109,6 +3121,11 @@ input:-webkit-autofill:active {
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
+}
+@media screen and (max-width: 1024px) {
+  .stacking-cards-section .stack-card .card-body::before {
+    display: none !important;
+  }
 }
 @media screen and (max-width: 1024px) {
   .stacking-cards-section .stack-card .card-body {
