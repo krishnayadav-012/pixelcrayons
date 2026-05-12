@@ -1,0 +1,25 @@
+@use "_default" as *;
+@use "_default" as *;
+.we-embed{
+    .top-part{
+        display: flex;
+        .left-part{
+            .eyebrow{
+                span{
+                    font-size: 14px ;
+                    font-weight: 600;
+                }
+                h2{
+                    color: $white;
+                    em{
+                        color: #DFFB0B;
+                    }
+                }
+            }
+            
+        }
+        .left-part{
+
+    }
+}
+}

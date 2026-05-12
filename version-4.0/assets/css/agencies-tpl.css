@@ -3057,6 +3057,9 @@ input:-webkit-autofill:active {
 .stacking-cards-section .top-part h2 {
   color: #05164D;
 }
+.stacking-cards-section .top-part h2 em {
+  color: #0400F5;
+}
 .stacking-cards-section .top-part p {
   color: #364153;
   margin-bottom: 0;
@@ -3086,6 +3089,7 @@ input:-webkit-autofill:active {
   background: #F9FAFB;
   border-radius: 30px;
   display: flex;
+  box-shadow: 0px -6px 21px 0px rgba(0, 0, 0, 0.1019607843);
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
@@ -3948,14 +3952,14 @@ input:-webkit-autofill:active {
     margin-bottom: 30px;
   }
 }
-.pixel-section .text-content :user-valid {
+.pixel-section .text-content ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   list-style: none;
   padding: 0;
 }
-.pixel-section .text-content :user-valid li {
+.pixel-section .text-content ul li {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -3964,7 +3968,7 @@ input:-webkit-autofill:active {
   position: relative;
   padding-left: 24px;
 }
-.pixel-section .text-content :user-valid li::before {
+.pixel-section .text-content ul li::before {
   content: "";
   width: 16px;
   background: url("../images/home-images/iconex.svg") no-repeat center;
@@ -3977,7 +3981,7 @@ input:-webkit-autofill:active {
   transform: translateY(-50%);
 }
 @media screen and (max-width: 1024px) {
-  .pixel-section .text-content :user-valid {
+  .pixel-section .text-content ul {
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }

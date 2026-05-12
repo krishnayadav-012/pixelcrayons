@@ -115,7 +115,7 @@
 
 
   <!-- /situation section  -->
-  <section class="situation padding-t-120 padding-b-120" >
+  <section class="situation padding-t-120 padding-b-120">
     <div class="container">
       <div class="top-part">
         <span>The Situation</span>
@@ -237,104 +237,97 @@
   <!-- del -problam -->
 
 
+  <!-- how it work  -->
+  <!-- how it work  -->
 
+  <section class="how-it-works padding-t-120  padding-b-120">
+    <div class="container">
+      <div class="hiw-inner">
+        <!-- LEFT: sticky headline -->
+        <div class="left-part">
+          <span>How It Works</span>
+          <h2>
+            From brief to<br>
+            <em>Delivering</em> in 14 days.
+          </h2>
+          <p>
+            No drawn-out onboarding. No discovery projects that go nowhere.
+            A clear path from your first conversation to work in progress.
+          </p>
+        </div>
 
-  <section class="how-it-works">
-  <div class="container">
-    <div class="hiw-inner">
-      <!-- LEFT: sticky headline -->
-      <div class="left-part">
-        <span>How It Works</span>
-        <h2 >
-          From brief to<br>
-          <em>Delivering</em> in 14 days.
-        </h2>
-        <p >
-          No drawn-out onboarding. No discovery projects that go nowhere.
-          A clear path from your first conversation to work in progress.
-        </p>
-      </div>
- 
-      <!-- RIGHT: scrollable timeline -->
-      <div class="hiw-right" id="timelineScroll">
-        <div class="timeline">
-          <div class="timeline-progress" id="timelineProgress"></div>
- 
-          <!-- Step 1 -->
-          <div class="timeline-item" data-index="0">
-            <div class="step-bubble"><span>01</span></div>
-            <div class="step-content">
-              <span>Day 1–2</span>
-              <h3 >Discovery call</h3>
-              <p >
-                One call. We map your situation, current vendors, gaps, and goals.
-                No consultancy theatre — we come prepared.
-              </p>
+        <!-- RIGHT: scrollable timeline -->
+        <div class="hiw-right" id="timelineScroll">
+          <div class="timeline">
+            <div class="timeline-progress" id="timelineProgress"></div>
+
+            <!-- Step 1 -->
+            <div class="timeline-item" data-index="0">
+              <div class="step-bubble"><span>01</span></div>
+              <div class="step-content">
+                <span>Day 1–2</span>
+                <h3>Discovery call</h3>
+                <p>
+                  One call. We map your situation, current vendors, gaps, and goals.
+                  No consultancy theatre — we come prepared.
+                </p>
+              </div>
             </div>
-          </div>
- 
-          <!-- Step 2 -->
-          <div class="timeline-item" data-index="1">
-            <div class="step-bubble"><span>02</span></div>
-            <div class="step-content">
-              <span>Day 3–5</span>
-              <h3 >Scoping &amp; proposal</h3>
-              <p >
-                You receive a written proposal with scope, team structure, timeline,
-                and pricing before any work begins. No surprises.
-              </p>
+
+            <!-- Step 2 -->
+            <div class="timeline-item" data-index="1">
+              <div class="step-bubble"><span>02</span></div>
+              <div class="step-content">
+                <span>Day 3–5</span>
+                <h3>Scoping &amp; proposal</h3>
+                <p>
+                  You receive a written proposal with scope, team structure, timeline,
+                  and pricing before any work begins. No surprises.
+                </p>
+              </div>
             </div>
-          </div>
- 
-          <!-- Step 3 -->
-          <div class="timeline-item" data-index="2">
-            <div class="step-bubble"><span>03</span></div>
-            <div class="step-content">
-              <span>Day 6–10</span>
-              <h3 >Team assignment</h3>
-              <p >
-                We assign a dedicated account lead plus discipline specialists.
-                You meet the team — not an account manager who disappears.
-              </p>
+
+            <!-- Step 3 -->
+            <div class="timeline-item" data-index="2">
+              <div class="step-bubble"><span>03</span></div>
+              <div class="step-content">
+                <span>Day 6–10</span>
+                <h3>Team assignment</h3>
+                <p>
+                  We assign a dedicated account lead plus discipline specialists.
+                  You meet the team — not an account manager who disappears.
+                </p>
+              </div>
             </div>
-          </div>
- 
-          <!-- Step 4 -->
-          <div class="timeline-item" data-index="3">
-            <div class="step-bubble"><span>04</span></div>
-            <div class="step-content">
-              <span >Day 11–14</span>
-              <h3 >First sprint delivery</h3>
-              <p >
-                Work starts. Weekly reporting is live from day one.
-                You see progress before the first invoice is due.
-              </p>
+
+            <!-- Step 4 -->
+            <div class="timeline-item" data-index="3">
+              <div class="step-bubble"><span>04</span></div>
+              <div class="step-content">
+                <span>Day 11–14</span>
+                <h3>First sprint delivery</h3>
+                <p>
+                  Work starts. Weekly reporting is live from day one.
+                  You see progress before the first invoice is due.
+                </p>
+              </div>
             </div>
-          </div>
- 
-        </div><!-- /.timeline -->
-      </div><!-- /.hiw-right -->
- 
-    </div><!-- /.hiw-inner -->
-  </div><!-- /.container -->
-</section>
+
+          </div><!-- /.timeline -->
+        </div><!-- /.hiw-right -->
+
+      </div><!-- /.hiw-inner -->
+    </div>
+  </section>
 
 
 
-
-
-
-
-
-
-
-
-
+  <!-- overlappting section  -->
   <!-- overlap-section -->
   <section class="stacking-cards-section padding-b-120 padding-t-120" id="unique-stacking-wrapper">
     <div class="container">
       <div class="top-part">
-        <h2>FinTech Software Development Services</h2>
+        <h2>FinTech Software <em>Development Services</em></h2>
         <p>We create, design, and develop software solutions for diverse financial institutions. With our use of cutting-edge technologies, we can help you build robust and competitive FinTech product.</p>
       </div>
       <div class="stack-card">
@@ -400,7 +393,7 @@
           <div class="card-right">
             <picture class="">
 
-              <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/03.webp">
+
               <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/03.webp" alt="03" width="477" height="300">
             </picture>
           </div>
@@ -423,7 +416,7 @@
           <div class="card-right">
             <picture class="">
 
-              <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/04.webp">
+
               <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/04.webp" alt="04" width="477" height="300">
             </picture>
           </div>
@@ -431,8 +424,32 @@
       </div>
     </div>
   </section>
+  <!-- overlappting section  -->
 
 
+
+
+
+
+  <!-- we-embed -->
+  <section class="we-embed">
+    <div class="container">
+      <div class="top-part">
+        <div class="left-part">
+          <div class="eyebrow">
+            <span>How we embed</span>
+          </div>
+          <h2>We work inside <em>your team</em>,not alongside it.</h2>
+
+
+        </div>
+        <div class="right-part">
+          <p>The biggest failure mode in brand-agency relationships is separation. Your team does one thing; the agency does another. Nobody talks until something breaks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- we embaded -->
 
 
 
@@ -898,71 +915,117 @@
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>
 
-    <script>
-      (function () {
-  const scrollEl   = document.getElementById('timelineScroll');
-  const progressEl = document.getElementById('timelineProgress');
-  const items      = document.querySelectorAll('.timeline-item');
+  <script>
+    (function() {
+      const scrollEl = document.getElementById('timelineScroll');
+      const progressEl = document.getElementById('timelineProgress');
+      const items = Array.from(document.querySelectorAll('.timeline-item'));
+      const total = items.length;
 
-  // ── 1. Staggered entrance on load ──
-  items.forEach((item, i) => {
-    setTimeout(() => {
-      item.classList.add('visible');
-    }, 120 * i + 100);
-  });
+      let currentStep = -1; // which step is currently active
+      let animating = false; // lock while smooth-scroll is in flight
+      let autoTimer = null; // interval handle
 
-  // ── 2. Activate steps based on scroll position ──
-  function updateTimeline() {
-    const containerTop    = scrollEl.getBoundingClientRect().top;
-    const containerHeight = scrollEl.clientHeight;
+      // ── helpers ──────────────────────────────────────────────
 
-    let activeIndex = -1;
+      // Returns the progress-bar height % that places the bar tip at the
+      // centre of the bubble for a given step index.
+      function pctForStep(index) {
+        const bubble = items[index].querySelector('.step-bubble');
+        const panelRect = scrollEl.getBoundingClientRect();
+        const bubbleRect = bubble.getBoundingClientRect();
 
-    items.forEach((item, i) => {
-      const rect    = item.getBoundingClientRect();
-      const itemMid = rect.top + rect.height / 2;
+        // bubble centre relative to the scroll container's content top
+        const bubbleCentre = bubbleRect.top - panelRect.top +
+          scrollEl.scrollTop +
+          bubbleRect.height / 2;
 
-      // Step activates when its midpoint enters upper 65% of the panel
-      if (itemMid - containerTop < containerHeight * 0.65) {
-        activeIndex = i;
+        const totalTrack = scrollEl.scrollHeight - 40; // CSS top:20 + bottom:20
+        const filled = bubbleCentre - 20;
+        return Math.min(100, Math.max(0, (filled / totalTrack) * 100));
       }
-    });
 
-    // Toggle .active on all steps up to and including activeIndex
-    items.forEach((item, i) => {
-      item.classList.toggle('active', i <= activeIndex);
-    });
+      // Activate all steps up to and including `index`
+      function activateUpTo(index) {
+        items.forEach((item, i) => {
+          item.classList.toggle('active', i <= index);
+        });
+        progressEl.style.height = pctForStep(index) + '%';
+      }
 
-    // ── 3. Drive the progress bar height ──
-    if (activeIndex < 0) {
-      progressEl.style.height = '0%';
-      return;
-    }
+      // Smoothly scroll the panel so `index` step is visible
+      function scrollToStep(index) {
+        const target = items[index].offsetTop - 40; // 40px breathing room above
+        scrollEl.scrollTo({
+          top: Math.max(0, target),
+          behavior: 'smooth'
+        });
+      }
 
-    const lastActive  = items[activeIndex];
-    const bubble      = lastActive.querySelector('.step-bubble');
-    const bubbleRect  = bubble.getBoundingClientRect();
+      // ── entrance: make all items visible immediately ──────────
+      items.forEach((item, i) => {
+        setTimeout(() => item.classList.add('visible'), 100 + 80 * i);
+      });
 
-    // Centre of the active bubble relative to the scroll container's top
-    const bubbleCentre = bubbleRect.top - scrollEl.getBoundingClientRect().top
-                       + scrollEl.scrollTop
-                       + bubbleRect.height / 2;
+      // ── auto-advance ──────────────────────────────────────────
+      function advance() {
+        if (animating) return; // wait for scroll to settle
+        const next = currentStep + 1;
 
-    // Total track length (matches CSS: top:20px, bottom:20px)
-    const totalTrack = scrollEl.scrollHeight - 40;
-    const filled     = bubbleCentre - 20;
-    const pct        = Math.min(100, Math.max(0, (filled / totalTrack) * 100));
+        if (next >= total) {
+          // All steps done — stop the timer
+          clearInterval(autoTimer);
+          autoTimer = null;
+          return;
+        }
 
-    progressEl.style.height = pct + '%';
-  }
+        animating = true;
+        currentStep = next;
 
-  scrollEl.addEventListener('scroll', updateTimeline, { passive: true });
-  window.addEventListener('scroll',   updateTimeline, { passive: true });
+        // 1. Activate the new step (bubble + progress bar)
+        activateUpTo(currentStep);
 
-  // Initial state
-  updateTimeline();
-})();
-    </script>
+        // 2. Scroll the panel to show the step
+        scrollToStep(currentStep);
+
+        // 3. Release lock after scroll animation (~600 ms)
+        setTimeout(() => {
+          animating = false;
+        }, 650);
+      }
+
+      // ── kick off after a short delay so the page has painted ──
+      setTimeout(() => {
+        // First step fires immediately, then every 1.8 s
+        advance();
+        autoTimer = setInterval(advance, 1800);
+      }, 600);
+
+      // ── manual scroll still works after auto is done ──────────
+      scrollEl.addEventListener('scroll', function() {
+        if (autoTimer !== null) return; // don't interfere during auto
+
+        const panelTop = scrollEl.getBoundingClientRect().top;
+        const panelH = scrollEl.clientHeight;
+        let activeIndex = -1;
+
+        items.forEach((item, i) => {
+          const rect = item.getBoundingClientRect();
+          if (rect.top + rect.height / 2 - panelTop < panelH * 0.65) {
+            activeIndex = i;
+          }
+        });
+
+        if (activeIndex >= 0) {
+          items.forEach((item, i) => item.classList.toggle('active', i <= activeIndex));
+          progressEl.style.height = pctForStep(activeIndex) + '%';
+        }
+      }, {
+        passive: true
+      });
+
+    })();
+  </script>
 </body>
 
 </html>

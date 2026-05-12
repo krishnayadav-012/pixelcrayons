@@ -1074,169 +1074,18 @@ input:-webkit-autofill:active {
     min-width: auto;
   }
 }
-@keyframes underlineReveal {
-  to {
-    transform: scaleX(1);
-  }
-}
-.how-it-works {
-  background: #FAFAFE;
-  overflow: hidden;
-}
-.how-it-works .hiw-inner {
-  display: grid;
-  grid-template-columns: 520px 1fr;
-  gap: 100px;
-  align-items: start;
-}
-.how-it-works .left-part {
-  position: sticky;
-  top: 80px;
-}
-.how-it-works .left-part > span {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #0400F5;
-  margin-bottom: 20px;
-}
-.how-it-works .left-part h2 {
-  line-height: 1.1;
-  color: #010101;
-  margin-bottom: 24px;
-}
-.how-it-works .left-part h2 em {
-  font-style: italic;
-  color: #0400F5;
-  display: inline-block;
-  position: relative;
-}
-.how-it-works .left-part p {
-  color: #3F3F47;
-}
-.how-it-works .hiw-right {
-  max-height: 646px;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-  padding-right: 8px;
-  position: relative;
-}
-.how-it-works .hiw-right::-webkit-scrollbar {
-  display: none !important;
-}
-.how-it-works .hiw-right .timeline {
-  position: relative;
-  padding-left: 107px;
-  z-index: 1;
-  padding-top: 3px;
-}
-.how-it-works .hiw-right .timeline::before {
-  content: "";
-  position: absolute;
-  left: 39px;
-  top: 20px;
-  bottom: 20px;
-  width: 2px;
-  background: rgba(102, 110, 134, 0.25);
-  border-radius: 2px;
-  z-index: -1;
-}
-.how-it-works .hiw-right .timeline-progress {
-  position: absolute;
-  left: 39px;
-  top: 20px;
-  width: 2px;
-  height: 0%;
-  background: #0400F5;
-  border-radius: 2px;
-  transition: height 0.4s ease;
-}
-.how-it-works .hiw-right .timeline-item {
-  position: relative;
-  padding-bottom: 50px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.how-it-works .hiw-right .timeline-item:last-child {
-  padding-bottom: 0;
-}
-.how-it-works .hiw-right .timeline-item.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-.how-it-works .hiw-right .timeline-item.active .step-bubble {
-  background: #0400F5;
-  border-color: #0400F5;
-  color: #ffffff;
-  transform: scale(1.08);
-}
-.how-it-works .hiw-right .timeline-item.active .step-bubble span {
-  color: #ffffff;
-  margin-bottom: 0;
-}
-.how-it-works .hiw-right .timeline-item.active .step-day {
-  opacity: 1;
-}
-.how-it-works .hiw-right .step-bubble {
-  position: absolute;
-  left: -103px;
-  top: 0;
-  width: 77px;
-  height: 47px;
-  border-radius: 200px;
-  background: #F4F4F5;
-  border: 1px solid #E4E4E7;
+.we-embed .top-part {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 700;
-  color: #666e86;
-  transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
-  z-index: 2;
 }
-.how-it-works .hiw-right .step-bubble span {
-  color: #71717B;
-}
-.how-it-works .hiw-right .step-content {
-  padding-top: 4px;
-}
-.how-it-works .hiw-right .step-content span {
+.we-embed .top-part .left-part .eyebrow span {
   font-size: 14px;
   font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #0400F5;
-  margin-bottom: 10px;
-  transition: opacity 0.4s 0.1s ease;
 }
-.how-it-works .hiw-right .step-content h3 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #010101;
-  margin-bottom: 15px;
+.we-embed .top-part .left-part .eyebrow h2 {
+  color: #ffffff;
 }
-.how-it-works .hiw-right .step-content p {
-  font-size: 16px;
-  line-height: 1.65;
-  font-weight: 500;
-  color: #737373;
+.we-embed .top-part .left-part .eyebrow h2 em {
+  color: #DFFB0B;
 }
 
-@media (max-width: 900px) {
-  .hiw-inner {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .left-part {
-    position: static;
-    padding-right: 0;
-  }
-  .hiw-right {
-    max-height: 500px;
-  }
-}
-
-/*# sourceMappingURL=how-it-works.css.map */
+/*# sourceMappingURL=we-embed.css.map */
