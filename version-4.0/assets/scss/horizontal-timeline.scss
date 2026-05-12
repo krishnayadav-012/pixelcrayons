@@ -87,8 +87,7 @@ width: 100%;
 
     }
     p{
-        font-size: 16px;
-        font-weight: 500;
+     
         color: #D1D5DC;
     }
 
@@ -150,6 +149,7 @@ padding-left: 20px;
 
 }
 
+   
     .ai-item {
 
         position: relative;
@@ -157,6 +157,21 @@ padding-left: 20px;
         
         border-bottom: 1px solid rgba(255,255,255,0.08);
         cursor: pointer;
+
+        .card-number{
+            position: absolute;
+            right: 14px;
+            font-size: 46px ;
+            font-weight: 700;
+            line-height: 100%;
+            top: 9px;
+            display: none;  
+            span{
+                color: #FFFFFF;
+                opacity: 3%;
+            }
+        }
+
          @media screen and (max-width:1024px) {
 padding: 15px 0;
 }
@@ -168,7 +183,7 @@ padding: 15px 0;
 
         .title h4 {
             font-size: 22px;
-            font-weight: 700;
+            font-weight: 600;
             transition: 0.3s;
             color: #9F9FA9;
             position: relative;
@@ -208,25 +223,19 @@ top: 23px;
             p {
                 color: #D1D5DC;
                 margin-top: 10px;
-                 font-size: 14px;
+                 font-size: 16px;
+                 margin-bottom: 0;
             font-weight: 500;
             }
-            ul{
-                li{
-                    position: relative;
-                    color: #D1D5DC;
-                    &::before {
-                            content: "";
-                            width: 8px;
-                            height: 8px;
-                            background-color: #FFAD00;
-                            border-radius: 50%;
-                            position: absolute;
-                            left: 0;
-                            top: 10px;
-                        }
-                }
-            }
+ul{
+    display: flex;gap: 12px;
+    margin-top: 20px;
+    li{
+        padding: 5px 10px;
+        background: #3F3F47;
+        border-radius: 8px;
+    }
+}
 
         }
 
@@ -249,9 +258,13 @@ top: 23px;
 background-color: #27272A;
 border-radius: 10px;
 padding-left: 60px;
+.card-number{
+    display: block;
+}
 
 .title h4 {
     color: $white;
+    font-weight: 700;
     &:before {
         background: $shine-green;
     }
@@ -261,6 +274,7 @@ padding-left: 60px;
 
                 max-height: max-content; 
                 opacity: 1;
+                
 
             }
 
@@ -303,3 +317,4 @@ padding-left: 60px;
     .ai-right .ai-content > p{margin-bottom: 0;}
 
 }
+.right-part.numbring .ai-list .ai-item { padding-right: 65px;}

@@ -1172,9 +1172,9 @@ input:-webkit-autofill:active {
 .vertical-tabs__tab-btn {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   width: 100%;
-  padding: 18px 28px;
+  padding: 20px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -1215,9 +1215,10 @@ input:-webkit-autofill:active {
   background: linear-gradient(105.6deg, #0400F5 23.79%, #02008F 85.82%);
   border-radius: 10px;
   border-bottom: none;
+  font-weight: 600;
 }
 .vertical-tabs__tab-btn.active .vertical-tabs__tab-icon {
-  background: rgba(4, 0, 245, 0.0392156863);
+  background: rgba(255, 255, 255, 0.2);
 }
 .vertical-tabs__tab-btn.active .vertical-tabs__tab-icon svg {
   stroke: #ffffff;
@@ -1346,6 +1347,10 @@ input:-webkit-autofill:active {
   transform: translateY(-2px);
   box-shadow: 0px 2px 14px 0px rgba(4, 0, 245, 0.1490196078);
 }
+.vertical-tabs__card p {
+  font-size: 15px !important;
+  color: #52525C;
+}
 .vertical-tabs {
   /*======= Card Title =======*/
 }
@@ -1369,8 +1374,8 @@ input:-webkit-autofill:active {
   flex-shrink: 0;
 }
 .vertical-tabs p {
-  font-size: 15px;
-  color: #52525C;
+  font-size: 16px;
+  color: #3F3F47;
   font-weight: 500;
   line-height: 1.6;
   margin-bottom: 0;

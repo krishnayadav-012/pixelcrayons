@@ -96,16 +96,16 @@
   &__tab-btn {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
     width: 100%;
-    padding: 18px 28px;
+    padding:20px;
     background: transparent;
     border: none;
     cursor: pointer;
     text-align: left;
     font-size: 18px;
     font-weight: 500;
-    color: #52525C;
+    color:#52525C;
     transition: all 0.25s ease;
     border-bottom: 1px solid rgba(5, 36, 126, 0.06);
 
@@ -147,9 +147,11 @@
 
       border-radius: 10px;
       border-bottom: none;
+      font-weight: 600;
+
  
       .vertical-tabs__tab-icon {
-        background: #0400F50A;
+        background: #FFFFFF33;
         
  
         svg {
@@ -278,6 +280,10 @@
    box-shadow: 0px 2px 14px 0px #0400F526;
 
     }
+    p{
+      font-size: 15px !important;
+      color: #52525C;
+    }
  
    
   }
@@ -308,8 +314,8 @@ font-size: 18px;
   }
  
   p {
-    font-size: 15px;
-    color: #52525C;
+    font-size: 16px;
+    color: #3F3F47;
     font-weight: 500;
     line-height: 1.6;
     margin-bottom: 0;

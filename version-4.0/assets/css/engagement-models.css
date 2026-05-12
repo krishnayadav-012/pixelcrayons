@@ -1090,9 +1090,13 @@ input:-webkit-autofill:active {
   font-weight: 600;
 }
 .compliance-section__header h2 {
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   line-height: 1.2;
   letter-spacing: -0.5px;
+}
+.compliance-section__header h2 em {
+  font-style: italic;
+  font-size: inherit;
 }
 .compliance-section__header p {
   color: #364153;
@@ -1129,6 +1133,7 @@ input:-webkit-autofill:active {
 }
 .compliance-card .card-inner-part {
   padding: 20px 30px 30px 30px;
+  background-color: #fff;
 }
 .compliance-card .card-inner-part h3 {
   margin-bottom: 5px;
@@ -1139,8 +1144,8 @@ input:-webkit-autofill:active {
 }
 .compliance-card--light {
   background-color: #ffffff;
-  border: 1px solid #F3F4F6;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #E8E7FE;
+  box-shadow: 0px 4px 14px 3px rgba(4, 0, 245, 0.0784313725);
 }
 .compliance-card--light:hover {
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
@@ -1176,8 +1181,8 @@ input:-webkit-autofill:active {
   top: 0px;
 }
 .compliance-card--dark {
-  border: none;
-  box-shadow: 0px 4px 14px 3px rgba(0, 0, 0, 0.0588235294);
+  border: 1px solid #E8E7FE;
+  box-shadow: 0px 4px 14px 3px rgba(4, 0, 245, 0.0784313725);
 }
 .compliance-card--dark .compliance-card__top {
   padding: 30px;
@@ -1193,7 +1198,7 @@ input:-webkit-autofill:active {
 }
 .compliance-card--dark .compliance-card__list li {
   color: #364153;
-  padding-left: 30px;
+  padding-left: 25px;
   position: relative;
 }
 .compliance-card--dark .compliance-card__list li::before {
@@ -1201,10 +1206,11 @@ input:-webkit-autofill:active {
   position: absolute;
   left: 0;
   background: url(../images/agencies/gray-check.svg);
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   background-repeat: no-repeat;
-  background-size: 16px;
+  background-size: 15px;
+  background-position: center;
   top: 0;
 }
 .compliance-card--dark .compliance-card__footer {
@@ -1279,7 +1285,7 @@ input:-webkit-autofill:active {
 .compliance-card__top span {
   padding: 5px 10px;
   margin-bottom: 10px;
-  background-color: #605DFF;
+  background-color: #E8E7FE;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 600;
@@ -1297,6 +1303,7 @@ input:-webkit-autofill:active {
 }
 
 .compliance-card__footer {
+  margin-top: auto;
   padding: 20px 30px 30px;
   border-top: 1px solid #F3F4F6;
 }

@@ -1160,8 +1160,6 @@ input:-webkit-autofill:active {
   font-style: normal;
 }
 .fintech-delivery .inner-part .left-part p {
-  font-size: 16px;
-  font-weight: 500;
   color: #D1D5DC;
 }
 .fintech-delivery .inner-part {
@@ -1216,6 +1214,19 @@ input:-webkit-autofill:active {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   cursor: pointer;
 }
+.fintech-delivery .inner-part .ai-list .ai-item .card-number {
+  position: absolute;
+  right: 14px;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 100%;
+  top: 9px;
+  display: none;
+}
+.fintech-delivery .inner-part .ai-list .ai-item .card-number span {
+  color: #FFFFFF;
+  opacity: 3%;
+}
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part .ai-list .ai-item {
     padding: 15px 0;
@@ -1226,7 +1237,7 @@ input:-webkit-autofill:active {
 }
 .fintech-delivery .inner-part .ai-list .ai-item .title h4 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.3s;
   color: #9F9FA9;
   position: relative;
@@ -1267,22 +1278,19 @@ input:-webkit-autofill:active {
 .fintech-delivery .inner-part .ai-list .ai-item .desc p {
   color: #D1D5DC;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
+  margin-bottom: 0;
   font-weight: 500;
 }
-.fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
-  position: relative;
-  color: #D1D5DC;
+.fintech-delivery .inner-part .ai-list .ai-item .desc ul {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
 }
-.fintech-delivery .inner-part .ai-list .ai-item .desc ul li::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background-color: #FFAD00;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 10px;
+.fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
+  padding: 5px 10px;
+  background: #3F3F47;
+  border-radius: 8px;
 }
 .fintech-delivery .inner-part .ai-list .ai-item .progress {
   position: absolute;
@@ -1300,8 +1308,12 @@ input:-webkit-autofill:active {
   border-radius: 10px;
   padding-left: 60px;
 }
+.fintech-delivery .inner-part .ai-list .ai-item.active .card-number {
+  display: block;
+}
 .fintech-delivery .inner-part .ai-list .ai-item.active .title h4 {
   color: #ffffff;
+  font-weight: 700;
 }
 .fintech-delivery .inner-part .ai-list .ai-item.active .title h4:before {
   background: #DFFB0B;
@@ -1341,6 +1353,9 @@ input:-webkit-autofill:active {
   .ai-right .ai-content > p {
     margin-bottom: 0;
   }
+}
+.right-part.numbring .ai-list .ai-item {
+  padding-right: 65px;
 }
 
 /*# sourceMappingURL=horizontal-timeline.css.map */

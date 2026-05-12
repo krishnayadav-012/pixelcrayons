@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 // progress line section fintech delivery
 
 
@@ -118,3 +117,132 @@ document.addEventListener("DOMContentLoaded", function () {
   })();
 
 
+
+//   `````````````````````````````````````````````````
+  // slidr box cta
+    if (document.getElementById("box-grids")) {
+      const slides = document.querySelectorAll('.slide-boxes .box');
+      let index = 0;
+
+      setInterval(() => {
+        slides[index].classList.remove('active');
+
+        index++;
+        if (index >= slides.length) index = 0;
+
+        slides[index].classList.add('active');
+      }, 2000);
+    }
+
+    // feedback section```````````````````````````````````````````````````````
+    if (document.getElementById("box-grids")) {
+      const glider = new Glider(document.querySelector('.testimonial-cards.glider'), {
+        slidesToShow: 1,
+        draggable: true,
+        dots: '#dots',
+        scrollLock: true,
+        centerMode: true,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            duration: 0.5
+          }
+        }]
+      });
+
+      const avatars = [
+        'assets/images/home-images/client-menu-1.png',
+        'assets/images/home-images/client-menu-2.png',
+        'assets/images/home-images/client-menu-3.png',
+        'assets/images/home-images/client-menu-4.png',
+        'assets/images/home-images/client-menu-5.png',
+      ];
+      const dots = document.querySelectorAll('.glider-dot');
+      dots.forEach((dot, index) => {
+        if (avatars[index]) {
+          dot.style.backgroundImage = `url(${avatars[index]})`;
+          dot.innerText = ''; // Clear the default dot text
+        }
+      });
+    }
+
+
+    // review-card
+
+    const cards = document.querySelectorAll(".review-card");
+    let current = 0;
+
+    function updateCards() {
+      cards.forEach(card => {
+        card.classList.remove("active", "next", "last");
+      });
+
+      const total = cards.length;
+
+      cards[current].classList.add("active");
+      cards[(current + 1) % total].classList.add("next");
+      cards[(current + 2) % total].classList.add("last");
+
+      current = (current + 1) % total;
+    }
+
+    // Initial state
+    updateCards();
+
+    // Auto rotate every 2 seconds
+    setInterval(updateCards, 2000);
+
+
+
+
+    // faq section
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach(item => {
+      const button = item.querySelector(".faq-question");
+
+      button.addEventListener("click", () => {
+        const isActive = item.classList.contains("active");
+
+        // close all
+        faqItems.forEach(i => i.classList.remove("active"));
+
+        // open clicked if it was closed
+        if (!isActive) {
+          item.classList.add("active");
+        }
+      });
+    });
+
+    // elm-expand-tlb
+    if (document.getElementById("elm-expand-tlb")) {
+      const elmExpandTlBtn = document.getElementById("elm-expand-tlb");
+      elmExpandTlBtn.addEventListener("click", function() {
+        const parent = this.closest(".add-lists-icon");
+        parent.classList.toggle("expanded");
+        this.classList.toggle("active");
+      });
+    }
+
+
+    const popup = document.getElementById("contentPopup");
+    const iframe = document.getElementById("testimonoial-video");
+    const closeBtn = document.querySelector(".close");
+
+    // Use querySelectorAll to target EVERY play button
+    const playBtns = document.querySelectorAll(".play-btn");
+
+    playBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const videoSrc = btn.dataset.video; // get THIS card's video URL
+        popup.style.display = "block";
+        iframe.src = videoSrc; // load the correct video
+      });
+    });
+
+    // CLOSE POPUP + STOP
+    closeBtn.addEventListener("click", () => {
+      popup.style.display = "none";
+      iframe.src = ""; // stop video
+    });

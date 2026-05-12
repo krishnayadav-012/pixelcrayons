@@ -1157,14 +1157,14 @@ input:-webkit-autofill:active {
     margin-bottom: 30px;
   }
 }
-.pixel-section .text-content .features-list {
+.pixel-section .text-content :user-valid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   list-style: none;
   padding: 0;
 }
-.pixel-section .text-content .features-list li {
+.pixel-section .text-content :user-valid li {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -1173,7 +1173,7 @@ input:-webkit-autofill:active {
   position: relative;
   padding-left: 24px;
 }
-.pixel-section .text-content .features-list li::before {
+.pixel-section .text-content :user-valid li::before {
   content: "";
   width: 16px;
   background: url("../images/home-images/iconex.svg") no-repeat center;
@@ -1186,7 +1186,7 @@ input:-webkit-autofill:active {
   transform: translateY(-50%);
 }
 @media screen and (max-width: 1024px) {
-  .pixel-section .text-content .features-list {
+  .pixel-section .text-content :user-valid {
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }

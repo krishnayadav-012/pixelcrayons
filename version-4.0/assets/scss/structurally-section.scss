@@ -4,17 +4,33 @@
     padding: 100px 0;
     background: linear-gradient(90deg, #000611 73.64%, rgba(0, 6, 17, 0) 100%);
 position: relative;
+overflow: hidden;
 z-index: 1;
 
 &::after{
     position: absolute;
     left: 0;
     top: 0;
-    width: 50%;
+    width: 54%;
     background: linear-gradient(90deg, #000611 73.64%, rgba(0, 6, 17, 0) 100%);
 height: 100%;
 content: "";
 z-index: -1;
+
+}
+&::before{
+    position: absolute;
+       left: -15%;
+    bottom: -20%;
+    width: 1000px;
+    height: 1000px;
+    background: url(../images/agencies/gra-frame.png);
+
+content: "";
+transform: rotate(180deg);
+background-repeat: no-repeat;
+background-size: contain;
+
 }
 
     .inner-part{
@@ -38,23 +54,30 @@ z-index: -1;
             }
             p{
                 color: #E4E4E7;
+                font-size: 18px;
 margin-bottom: 30px;
             }
             ul{
+                gap: 15px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 50px;
                 li{
                     color: #E4E4E7;
                     position: relative;
                     padding-left: 26px;
+                    font-size: 16px;
+                    font-weight: 500;
                     &::after{
                             content: "";
     position: absolute;
     left: 0;
-    background: url(../images/agencies/check.svg);
+    background: url(../images/agencies/white-check.svg);
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
     background-size: 16px;
-    top: 0;
+    top: 5px;
                     }
                 }
             }

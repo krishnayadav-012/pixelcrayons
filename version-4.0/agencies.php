@@ -12,15 +12,17 @@
   <meta property="og:title" content="Top IT & Software Outsourcing Company in India - @PixelCrayons" />
   <?php require_once 'assets/include/header-files.php'; ?>
   <link rel="preload stylesheet" type="text/css" href="assets/css/agencies-tpl.css" defer />
-  <link href=" https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/css/glide.core.css" defer />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
 
 </head>
 
 <body id="themeAdd" class="home">
   <?php require_once 'assets/include/menu-v5.php'; ?>
   <section class="hero-section home-top-section text-left padding-t-120 padding-b-120">
+    <div class="l-b-sade"><img src="assets/images/agencies/gra-frame.png" alt=""></div>
+    <div class="t-r-sade"><img src="assets/images/agencies/gra-frame.png" alt=""></div>
     <div class="video-part">
-      <video controls autoplay muted>
+      <video  autoplay muted>
         <source src="assets/video/agencies-banner-video.mp4" type="video/mp4">
       </video>
     </div>
@@ -57,7 +59,7 @@
           <h4><span>Trusted by startups and Fortune <strong>500</strong> companies</span></h4>
         </div>
         <div class="logo-section">
-          <div class="logoslide glide" id="home-tpl-logoslide">
+          <!-- <div class="logoslide glide" id="home-tpl-logoslide">
             <div class="glide__track" data-glide-el="track">
               <div class="glide__slides">
                 <div class="glide__slide">
@@ -77,7 +79,32 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
+          <div class="logoslide glide" id="home-tpl-logoslide">
+  <div class="glide__track" data-glide-el="track">
+
+    <ul class="glide__slides">
+
+      <li class="glide__slide">
+        <picture>
+          <img loading="lazy"
+            src="assets/images/banner-client-logo.svg"
+            alt="valuecoders">
+        </picture>
+      </li>
+
+      <li class="glide__slide">
+        <picture>
+          <img loading="lazy"
+            src="assets/images/banner-client-logo-2.png"
+            alt="valuecoders">
+        </picture>
+      </li>
+
+    </ul>
+
+  </div>
+</div>
         </div>
 
         <div class="numbring-part">
@@ -181,39 +208,39 @@
         <!-- Left Sidebar -->
         <div class="vertical-tabs__sidebar">
 
-          <button class="vertical-tabs__tab-btn active" data-services-tab="marketing">
+          <div class="vertical-tabs__tab-btn active" data-services-tab="marketing">
             <div class="vertical-tabs__tab-icon">
               <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
               <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
             </div>
             Marketing Execution
-          </button>
+          </div>
 
-          <button class="vertical-tabs__tab-btn" data-services-tab="engineering">
+          <div class="vertical-tabs__tab-btn" data-services-tab="engineering">
             <div class="vertical-tabs__tab-icon">
               <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
               <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
             </div>
             Engineering & Development
-          </button>
+          </div>
 
-          <button class="vertical-tabs__tab-btn" data-services-tab="design">
+          <div class="vertical-tabs__tab-btn" data-services-tab="design">
             <div class="vertical-tabs__tab-icon">
               <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
               <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
 
             </div>
             Design & Creative
-          </button>
+          </div>
 
-          <button class="vertical-tabs__tab-btn" data-services-tab="ai">
+          <div class="vertical-tabs__tab-btn" data-services-tab="ai">
             <div class="vertical-tabs__tab-icon">
               <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
               <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
 
             </div>
             AI & Analytics
-          </button>
+          </div>
 
         </div>
 
@@ -962,139 +989,9 @@
   <script
     src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264"
     id="pixel-glider-js"></script>
-  <script>
-    // slidr box cta
-    if (document.getElementById("box-grids")) {
-      const slides = document.querySelectorAll('.slide-boxes .box');
-      let index = 0;
-
-      setInterval(() => {
-        slides[index].classList.remove('active');
-
-        index++;
-        if (index >= slides.length) index = 0;
-
-        slides[index].classList.add('active');
-      }, 2000);
-    }
-
-    // feedback section```````````````````````````````````````````````````````
-    if (document.getElementById("box-grids")) {
-      const glider = new Glider(document.querySelector('.testimonial-cards.glider'), {
-        slidesToShow: 1,
-        draggable: true,
-        dots: '#dots',
-        scrollLock: true,
-        centerMode: true,
-        responsive: [{
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            duration: 0.5
-          }
-        }]
-      });
-
-      const avatars = [
-        'assets/images/home-images/client-menu-1.png',
-        'assets/images/home-images/client-menu-2.png',
-        'assets/images/home-images/client-menu-3.png',
-        'assets/images/home-images/client-menu-4.png',
-        'assets/images/home-images/client-menu-5.png',
-      ];
-      const dots = document.querySelectorAll('.glider-dot');
-      dots.forEach((dot, index) => {
-        if (avatars[index]) {
-          dot.style.backgroundImage = `url(${avatars[index]})`;
-          dot.innerText = ''; // Clear the default dot text
-        }
-      });
-    }
-
-
-    // review-card
-
-    const cards = document.querySelectorAll(".review-card");
-    let current = 0;
-
-    function updateCards() {
-      cards.forEach(card => {
-        card.classList.remove("active", "next", "last");
-      });
-
-      const total = cards.length;
-
-      cards[current].classList.add("active");
-      cards[(current + 1) % total].classList.add("next");
-      cards[(current + 2) % total].classList.add("last");
-
-      current = (current + 1) % total;
-    }
-
-    // Initial state
-    updateCards();
-
-    // Auto rotate every 2 seconds
-    setInterval(updateCards, 2000);
-
-
-
-
-    // faq section
-    const faqItems = document.querySelectorAll(".faq-item");
-
-    faqItems.forEach(item => {
-      const button = item.querySelector(".faq-question");
-
-      button.addEventListener("click", () => {
-        const isActive = item.classList.contains("active");
-
-        // close all
-        faqItems.forEach(i => i.classList.remove("active"));
-
-        // open clicked if it was closed
-        if (!isActive) {
-          item.classList.add("active");
-        }
-      });
-    });
-
-    // elm-expand-tlb
-    if (document.getElementById("elm-expand-tlb")) {
-      const elmExpandTlBtn = document.getElementById("elm-expand-tlb");
-      elmExpandTlBtn.addEventListener("click", function() {
-        const parent = this.closest(".add-lists-icon");
-        parent.classList.toggle("expanded");
-        this.classList.toggle("active");
-      });
-    }
-
-
-    const popup = document.getElementById("contentPopup");
-    const iframe = document.getElementById("testimonoial-video");
-    const closeBtn = document.querySelector(".close");
-
-    // Use querySelectorAll to target EVERY play button
-    const playBtns = document.querySelectorAll(".play-btn");
-
-    playBtns.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const videoSrc = btn.dataset.video; // get THIS card's video URL
-        popup.style.display = "block";
-        iframe.src = videoSrc; // load the correct video
-      });
-    });
-
-    // CLOSE POPUP + STOP
-    closeBtn.addEventListener("click", () => {
-      popup.style.display = "none";
-      iframe.src = ""; // stop video
-    });
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script src="assets/js/agencies.js"></script>
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>
-  <script src="assets/js/agencies.js"></script>
 </body>
 
 </html>

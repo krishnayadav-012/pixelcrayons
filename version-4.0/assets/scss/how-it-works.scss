@@ -1,0 +1,236 @@
+@use "_default" as *;
+
+// ─────────────────────────────────────────────
+// KEYFRAMES
+// ─────────────────────────────────────────────
+@keyframes underlineReveal {
+  to { transform: scaleX(1); }
+}
+ 
+// ─────────────────────────────────────────────
+// HOW IT WORKS SECTION
+// ─────────────────────────────────────────────
+.how-it-works {
+  background: $bgWhiteGray;
+  padding: 80px 0;
+  overflow: hidden;
+
+ 
+// ── Two-column grid ──
+.hiw-inner {
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  gap: 100px;
+  align-items: start;
+}
+ 
+// ─────────────────────────────────────────────
+// LEFT PANEL  (sticky)
+// ─────────────────────────────────────────────
+.left-part {
+  position: sticky;
+  top: 80px;
+ 
+  
+  >span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $royelblue;
+    margin-bottom: 20px;
+  }
+  
+  h2{
+    line-height: 1.1;
+    color: $mainHeadDay;
+    margin-bottom: 24px;
+    
+    em {
+      font-style: italic;
+      color: $royelblue;
+      display: inline-block;
+      position: relative;
+      
+      
+    }
+  }
+  
+  p {
+    color:#3F3F47;
+    
+  }
+}
+ 
+// ─────────────────────────────────────────────
+// RIGHT PANEL  (overflow scroll)
+// ─────────────────────────────────────────────
+.hiw-right {
+  max-height: 520px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding-right: 8px;
+  position: relative;
+
+ 
+  &::-webkit-scrollbar {
+    display: none  !important;
+
+  }
+ 
+ 
+  
+  .timeline {
+    position: relative;
+    padding-left: 107px;
+    z-index: 1;
+    padding-top: 3px;
+ 
+  // Static grey track
+  &::before {
+    content: '';
+    position: absolute;
+    left: 39px;
+    top: 20px;
+    bottom: 20px;
+    width: 2px;
+    background: rgba($shadeofblue, 0.25);
+    border-radius: 2px;
+    z-index: -1;
+  }
+}
+
+
+.timeline-progress { 
+  position: absolute; 
+  left: 39px; 
+  top: 20px; 
+  width: 2px;
+  height: 0%;
+  background: $royelblue;
+  border-radius: 2px;
+  transition: height 0.4s ease;
+  
+}
+
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 48px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  
+  &:last-child {
+    padding-bottom: 0;
+  }
+  
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  // ── Activate styles ──
+  &.active {
+    .step-bubble {
+      background: $royelblue;
+      border-color: $royelblue;
+      color: $white;
+      transform: scale(1.08);
+      
+      span{
+        color: $white;
+        margin-bottom: 0;
+      }
+      
+      
+    }
+    
+    .step-day {
+      opacity: 1;
+    }
+  }
+}
+
+// ── Number bubble ──
+.step-bubble {
+  position: absolute;
+  left: -103px;
+  top: 0;
+  width: 77px;
+  height: 47px;
+  border-radius: 200px;
+
+  background: #F4F4F5;
+  border: 1px solid #E4E4E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: $shadeofblue;
+  transition:
+  background 0.4s ease,
+  color 0.4s ease,
+  border-color 0.4s ease,
+  box-shadow 0.4s ease,
+  transform 0.4s ease;
+  z-index: 2;
+
+  span{
+    color: #71717B;
+  }
+  
+
+}
+
+// ── Step text content ──
+.step-content {
+  padding-top: 4px;
+  
+  span {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $royelblue;
+    margin-bottom: 10px;
+    transition: opacity 0.4s 0.1s ease;
+  }
+  
+  h3 {
+    
+    font-size: 22px;
+    font-weight: 700;
+    color: $mainHeadDay;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: 500;
+    color: $contentDay;
+
+  }
+}
+}
+}
+// ─────────────────────────────────────────────
+// RESPONSIVE
+// ─────────────────────────────────────────────
+@media (max-width: 900px) {
+  .hiw-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+ 
+  .left-part {
+    position: static;
+    padding-right: 0;
+  }
+ 
+  .hiw-right {
+    max-height: 500px;
+  }
+}
