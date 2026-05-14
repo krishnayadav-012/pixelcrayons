@@ -134,7 +134,7 @@
   <!-- deliv -problam -->
   <section class="fintech-delivery padding-t-120  padding-b-120">
     <div class="grid-lines">
-      <img src="assets/images/agencies/grid-line.png" alt="">
+      <img src="assets/images/agencies/blue-g-f.png" alt="">
     </div>
     <div class="container">
       <div class="inner-part">
