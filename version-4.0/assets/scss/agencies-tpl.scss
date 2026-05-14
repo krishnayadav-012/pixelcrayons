@@ -292,6 +292,7 @@
     em{
       font-style: normal;
       color: $shine-green;
+          font-family: 'Playfair Display', serif;
     }
 
   }
@@ -840,5 +841,13 @@ p{
 
 
 
+.pixel-section .text-content h2 span{
+    font-family: 'Playfair Display', serif;
+}
+.insights .insights__top-part h2 em{
+    font-family: 'Playfair Display', serif;
+  }
+  .faq-section .faq-left h2 span{
+  font-family: 'Playfair Display', serif;
 
-
+}

@@ -9,6 +9,14 @@
     font-display: block;
   }
 }
+@media only screen and (min-width: 768px) {
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
+    font-weight: 400 900;
+    font-style: italic;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1087,8 +1095,8 @@ input:-webkit-autofill:active {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 900px;
-  height: 480px;
+  width: 960px;
+  height: 900px;
   object-fit: cover;
 }
 .fintech-delivery .grid-lines img {
@@ -1166,6 +1174,7 @@ input:-webkit-autofill:active {
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: 600;
+  font-family: "Playfair Display", serif;
 }
 .fintech-delivery .inner-part .left-part h2 {
   color: #ffffff;
@@ -1173,7 +1182,7 @@ input:-webkit-autofill:active {
 }
 .fintech-delivery .inner-part .left-part h2 em {
   color: #DFFB0B;
-  font-style: normal;
+  font-family: "Playfair Display", serif;
 }
 .fintech-delivery .inner-part .left-part p {
   color: #D1D5DC;
@@ -1343,7 +1352,6 @@ input:-webkit-autofill:active {
   background-color: #27272A;
   border-radius: 10px;
   padding-left: 60px;
-  padding-right: 10px;
 }
 @media screen and (max-width: 767px) {
   .fintech-delivery .inner-part .ai-list .ai-item.active {
@@ -1403,6 +1411,9 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 767px) {
   .right-part.numbring .ai-list .ai-item {
     padding-right: 25px;
+  }
+  .left-part .ai-list .ai-item.active {
+    padding-right: 10px;
   }
 }
 

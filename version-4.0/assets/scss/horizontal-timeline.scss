@@ -13,8 +13,9 @@ overflow: hidden;
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 900px;
-    height: 480px;
+      width: 960px;
+    height: 900px;
+
     object-fit: cover;
     img{width: 100%; height: 100%;}
 }
@@ -89,13 +90,14 @@ width: 100% !important;
         margin-bottom: 5px;
         font-size: 14px;
         font-weight: 600;
+            font-family: 'Playfair Display', serif;
     }
     h2{
         color: $white;
         line-height: 120%;
         em{
             color: $shine-green;
-            font-style: normal;
+              font-family: 'Playfair Display', serif;
 
         }
 
@@ -284,7 +286,7 @@ ul{
 background-color: #27272A;
 border-radius: 10px;
 padding-left: 60px;
-padding-right: 10px;
+
  @media screen and (max-width:767px) {
   padding-left: 40px;
    }
@@ -350,4 +352,5 @@ padding-right: 10px;
 .right-part.numbring .ai-list .ai-item { padding-right: 65px;}
 @media screen and (max-width:767px) {
     .right-part.numbring .ai-list .ai-item { padding-right: 25px;}
+    .left-part .ai-list .ai-item.active { padding-right: 10px;}
    }

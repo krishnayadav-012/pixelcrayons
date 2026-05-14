@@ -307,7 +307,7 @@
     <div class="container">
       <div class="compliance-section__header">
         <em>Engagement models</em>
-        <h2>Three ways to engage Compliance.</h2>
+        <h2>One partner. <em>Every discipline.</em></h2>
         <p>Governance, contractual commitments, and ZDR standards are identical across every model.</p>
       </div>
       <div class="compliance-section__grid">
@@ -430,7 +430,7 @@
   <section class="stacking-cards-section padding-b-120 padding-t-120" id="unique-stacking-wrapper">
     <div class="container">
       <div class="top-part">
-        <h2>FinTech Software Development Services</h2>
+        <h2>FinTech Software <em>Development Services</em></h2>
         <p>We create, design, and develop software solutions for diverse financial institutions. With our use of cutting-edge technologies, we can help you build robust and competitive FinTech product.</p>
       </div>
       <div class="stack-card">

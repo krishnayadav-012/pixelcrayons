@@ -9,6 +9,14 @@
     font-display: block;
   }
 }
+@media only screen and (min-width: 768px) {
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
+    font-weight: 400 900;
+    font-style: italic;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1082,6 +1090,22 @@ input:-webkit-autofill:active {
 .how-it-works {
   background: #FAFAFE;
   overflow: hidden;
+  position: relative;
+}
+.how-it-works::after {
+  position: absolute;
+  left: -30px;
+  bottom: -506px;
+  background: url(../images/brand/graid&frame.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 1095px;
+  height: 970px;
+}
+@media screen and (mx-width: 767px) {
+  .how-it-works::after {
+    display: none;
+  }
 }
 .how-it-works .hiw-inner {
   display: grid;
@@ -1095,8 +1119,7 @@ input:-webkit-autofill:active {
   }
 }
 .how-it-works .left-part {
-  position: sticky;
-  top: 80px;
+  display: block;
 }
 .how-it-works .left-part > span {
   font-size: 11px;
@@ -1112,17 +1135,15 @@ input:-webkit-autofill:active {
   margin-bottom: 24px;
 }
 .how-it-works .left-part h2 em {
-  font-style: italic;
   color: #0400F5;
   display: inline-block;
   position: relative;
+  font-family: "Playfair Display", serif;
 }
 .how-it-works .left-part p {
   color: #3F3F47;
 }
 .how-it-works .hiw-right {
-  max-height: 646px;
-  overflow-y: auto;
   scroll-behavior: smooth;
   padding-right: 8px;
   position: relative;
@@ -1170,7 +1191,7 @@ input:-webkit-autofill:active {
   height: 0%;
   background: #0400F5;
   border-radius: 2px;
-  transition: height 0.4s ease;
+  transition: height 1.9s ease;
 }
 @media screen and (max-width: 767px) {
   .how-it-works .hiw-right .timeline-progress {

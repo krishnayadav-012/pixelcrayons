@@ -9,6 +9,14 @@
     font-display: block;
   }
 }
+@media only screen and (min-width: 768px) {
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
+    font-weight: 400 900;
+    font-style: italic;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1095,7 +1103,7 @@ input:-webkit-autofill:active {
   letter-spacing: -0.5px;
 }
 .compliance-section__header h2 em {
-  font-style: italic;
+  font-family: "Playfair Display", serif;
   font-size: inherit;
 }
 .compliance-section__header p {

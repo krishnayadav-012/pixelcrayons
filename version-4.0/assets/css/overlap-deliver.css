@@ -9,6 +9,14 @@
     font-display: block;
   }
 }
+@media only screen and (min-width: 768px) {
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
+    font-weight: 400 900;
+    font-style: italic;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1093,6 +1101,7 @@ input:-webkit-autofill:active {
 }
 .stacking-cards-section .top-part h2 em {
   color: #0400F5;
+  font-family: "Playfair Display", serif;
 }
 .stacking-cards-section .top-part p {
   color: #364153;
@@ -1220,8 +1229,8 @@ input:-webkit-autofill:active {
 .stacking-cards-section .stack-card .card-left a {
   font-size: 16px;
   font-weight: 500;
-  margin-top: 30px;
-  margin-top: 50px;
+  margin-top: 45px;
+  display: block;
   color: #0400F5;
   position: relative;
 }

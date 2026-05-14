@@ -29,7 +29,7 @@
     <div class="container">
       <div class="inner-part">
         <div class="left-part">
-          <h1>One team. Every <em>discipline.</em>
+          <h1>One team. <br> Every <em>discipline.</em>
           </h1>
           <p>You shouldn't need five vendors to run a brand online. PixelCrayons gives growing brands a single execution partner for marketing, development, design, and AI - with one point of contact and one accountable team.</p>
           <a href="#" class="cta-button">Contant Us</a>
@@ -162,7 +162,7 @@
   <!-- deliv -problam -->
   <section class="fintech-delivery padding-t-120  padding-b-120">
     <div class="grid-lines">
-      <img src="assets/images/brand/grid-line.png" alt="">
+      <img src="assets/images/brand/blue-g-f.png" alt="">
     </div>
     <div class="container">
       <div class="inner-part">
@@ -1119,11 +1119,11 @@
         }, 650);
       }
 
-      // Kick off after paint (600 ms), then every 1.8 s
-      setTimeout(() => {
-        advance();
-        autoTimer = setInterval(advance, 1800);
-      }, 600);
+      // Kick off after paint (600 ms), then every 1.8 
+     advance(); // immediately active
+setTimeout(() => {
+  autoTimer = setInterval(advance, 1800);
+}, 400); // pause before auto-advancing to the next step
 
       // ── manual scroll sync (only after auto finishes) ─────────────────────────
       // Listener is attached to scrollEl only — never to window or document,

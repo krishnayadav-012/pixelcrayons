@@ -14,7 +14,24 @@
   background: #FAFAFE;
   
   overflow: hidden;
+  position: relative;
 
+  &::after{
+    position: absolute;
+        left: -30px;
+    bottom: -506px;
+
+    background: url(../images/brand/graid&frame.png);
+    background-repeat: no-repeat;
+    content: "";
+    width: 1095px;
+    height: 970px;
+    @media screen and (mx-width:767px) {
+   display: none; 
+  }
+  }
+
+  
  
 // ── Two-column grid ──
 .hiw-inner {
@@ -31,8 +48,7 @@
 // LEFT PANEL  (sticky)
 // ─────────────────────────────────────────────
 .left-part {
-  position: sticky;
-  top: 80px;
+  display: block;
  
   
   >span {
@@ -50,10 +66,10 @@
     margin-bottom: 24px;
     
     em {
-      font-style: italic;
+    
       color: $royelblue;
       display: inline-block;
-      position: relative;
+      position: relative;   font-family: 'Playfair Display', serif;
       
       
     }
@@ -69,8 +85,7 @@
 // RIGHT PANEL  (overflow scroll)
 // ─────────────────────────────────────────────
 .hiw-right {
-  max-height: 646px;
-  overflow-y: auto;
+ 
   scroll-behavior: smooth;
   padding-right: 8px;
   position: relative;
@@ -121,7 +136,7 @@
   height: 0%;
   background: $royelblue;
   border-radius: 2px;
-  transition: height 0.4s ease;
+  transition: height 1.9s ease;
    @media screen and (max-width:767px) {
     left: 30px;
    }

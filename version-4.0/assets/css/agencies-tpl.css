@@ -10,6 +10,14 @@
     font-display: block;
   }
 }
+@media only screen and (min-width: 768px) {
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
+    font-weight: 400 900;
+    font-style: italic;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -2769,8 +2777,8 @@ input:-webkit-autofill:active {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 900px;
-  height: 480px;
+  width: 960px;
+  height: 900px;
   object-fit: cover;
 }
 .fintech-delivery .grid-lines img {
@@ -2848,6 +2856,7 @@ input:-webkit-autofill:active {
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: 600;
+  font-family: "Playfair Display", serif;
 }
 .fintech-delivery .inner-part .left-part h2 {
   color: #ffffff;
@@ -2855,7 +2864,7 @@ input:-webkit-autofill:active {
 }
 .fintech-delivery .inner-part .left-part h2 em {
   color: #DFFB0B;
-  font-style: normal;
+  font-family: "Playfair Display", serif;
 }
 .fintech-delivery .inner-part .left-part p {
   color: #D1D5DC;
@@ -3025,7 +3034,6 @@ input:-webkit-autofill:active {
   background-color: #27272A;
   border-radius: 10px;
   padding-left: 60px;
-  padding-right: 10px;
 }
 @media screen and (max-width: 767px) {
   .fintech-delivery .inner-part .ai-list .ai-item.active {
@@ -3086,6 +3094,9 @@ input:-webkit-autofill:active {
   .right-part.numbring .ai-list .ai-item {
     padding-right: 25px;
   }
+  .left-part .ai-list .ai-item.active {
+    padding-right: 10px;
+  }
 }
 .stacking-cards-section {
   background-color: #FFFFFF;
@@ -3106,6 +3117,7 @@ input:-webkit-autofill:active {
 }
 .stacking-cards-section .top-part h2 em {
   color: #0400F5;
+  font-family: "Playfair Display", serif;
 }
 .stacking-cards-section .top-part p {
   color: #364153;
@@ -3233,8 +3245,8 @@ input:-webkit-autofill:active {
 .stacking-cards-section .stack-card .card-left a {
   font-size: 16px;
   font-weight: 500;
-  margin-top: 30px;
-  margin-top: 50px;
+  margin-top: 45px;
+  display: block;
   color: #0400F5;
   position: relative;
 }
@@ -3312,8 +3324,8 @@ input:-webkit-autofill:active {
   margin-bottom: 18px;
 }
 .vertical-tabs__heading h2 em {
-  font-style: italic;
   color: #0400F5;
+  font-family: "Playfair Display", serif;
 }
 .vertical-tabs__heading p {
   color: #737373;
@@ -3655,7 +3667,7 @@ input:-webkit-autofill:active {
   letter-spacing: -0.5px;
 }
 .compliance-section__header h2 em {
-  font-style: italic;
+  font-family: "Playfair Display", serif;
   font-size: inherit;
 }
 .compliance-section__header p {
@@ -3937,6 +3949,7 @@ input:-webkit-autofill:active {
   font-size: 14px;
   margin-bottom: 5px;
   color: #DFFB0B;
+  font-family: "Playfair Display", serif;
   font-style: normal;
 }
 .structurally-section .inner-part .content-box h2 {
@@ -6255,6 +6268,7 @@ input:-webkit-autofill:active {
 .hero-section h1 em {
   font-style: normal;
   color: #DFFB0B;
+  font-family: "Playfair Display", serif;
 }
 .hero-section p {
   font-size: 20px;
@@ -6711,6 +6725,17 @@ input:-webkit-autofill:active {
   .slide-logo .logo-section .glide__slide {
     height: auto;
   }
+}
+.pixel-section .text-content h2 span {
+  font-family: "Playfair Display", serif;
+}
+
+.insights .insights__top-part h2 em {
+  font-family: "Playfair Display", serif;
+}
+
+.faq-section .faq-left h2 span {
+  font-family: "Playfair Display", serif;
 }
 
 /*# sourceMappingURL=agencies-tpl.css.map */
