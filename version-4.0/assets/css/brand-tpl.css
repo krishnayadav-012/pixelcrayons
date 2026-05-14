@@ -2797,6 +2797,11 @@ input:-webkit-autofill:active {
     width: calc(50% - 20px);
   }
 }
+@media screen and (max-width: 640px) {
+  .situation .cards-part .card {
+    width: 100%;
+  }
+}
 .situation .cards-part .card .img-part {
   width: 100%;
   display: block;
@@ -2878,6 +2883,11 @@ input:-webkit-autofill:active {
   padding-right: 8px;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right {
+    padding-right: 0;
+  }
+}
 .how-it-works .hiw-right::-webkit-scrollbar {
   display: none !important;
 }
@@ -2886,6 +2896,11 @@ input:-webkit-autofill:active {
   padding-left: 107px;
   z-index: 1;
   padding-top: 3px;
+}
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline {
+    padding-left: 80px;
+  }
 }
 .how-it-works .hiw-right .timeline::before {
   content: "";
@@ -2898,6 +2913,11 @@ input:-webkit-autofill:active {
   border-radius: 2px;
   z-index: -1;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline::before {
+    left: 30px;
+  }
+}
 .how-it-works .hiw-right .timeline-progress {
   position: absolute;
   left: 39px;
@@ -2908,12 +2928,22 @@ input:-webkit-autofill:active {
   border-radius: 2px;
   transition: height 0.4s ease;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline-progress {
+    left: 30px;
+  }
+}
 .how-it-works .hiw-right .timeline-item {
   position: relative;
   padding-bottom: 50px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline-item {
+    padding-bottom: 30px;
+  }
 }
 .how-it-works .hiw-right .timeline-item:last-child {
   padding-bottom: 0;
@@ -2953,6 +2983,14 @@ input:-webkit-autofill:active {
   transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
   z-index: 2;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-bubble {
+    width: 57px;
+    height: 27px;
+    font-size: 12px;
+    left: -77px;
+  }
+}
 .how-it-works .hiw-right .step-bubble span {
   color: #71717B;
 }
@@ -2968,17 +3006,35 @@ input:-webkit-autofill:active {
   margin-bottom: 10px;
   transition: opacity 0.4s 0.1s ease;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-content span {
+    font-size: 10px;
+  }
+}
 .how-it-works .hiw-right .step-content h3 {
   font-size: 22px;
   font-weight: 700;
   color: #010101;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-content h3 {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+}
 .how-it-works .hiw-right .step-content p {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 500;
+  margin-bottom: 0;
   color: #737373;
+}
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-content p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -3192,12 +3248,12 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 1260px) {
   .we-embed {
-    padding: 80px;
+    padding: 80px 0;
   }
 }
 @media screen and (max-width: 1024px) {
   .we-embed {
-    padding: 50px;
+    padding: 50px 0;
   }
 }
 .we-embed .top-part {
@@ -3464,6 +3520,7 @@ input:-webkit-autofill:active {
   .partner-result .top-part {
     flex-direction: column;
     align-items: self-start;
+    margin-bottom: 40px;
   }
 }
 .partner-result .top-part .left-part {
@@ -3473,9 +3530,6 @@ input:-webkit-autofill:active {
   .partner-result .top-part .left-part {
     width: 100%;
   }
-}
-.partner-result .top-part .left-part h2 {
-  font-size: 46px;
 }
 .partner-result .top-part .left-part h2 em {
   color: #0400F5;
@@ -3510,6 +3564,7 @@ input:-webkit-autofill:active {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .partner-result .bottom-cards .card {
@@ -3518,6 +3573,18 @@ input:-webkit-autofill:active {
   box-shadow: 0px 0px 23px 0px rgba(4, 0, 245, 0.1098039216);
   background-color: #ffffff;
   border-radius: 20px;
+}
+@media screen and (max-width: 991px) {
+  .partner-result .bottom-cards .card {
+    padding: 20px;
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .partner-result .bottom-cards .card {
+    padding: 20px;
+    width: 100%;
+  }
 }
 .partner-result .bottom-cards .card .img-part {
   border-radius: 20px;
@@ -3544,12 +3611,23 @@ input:-webkit-autofill:active {
   color: #18181B;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  .partner-result .bottom-cards .card h3 {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
 .partner-result .bottom-cards .card p {
   padding-bottom: 35px;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 0;
   border-bottom: 1px solid #E4E4E7;
+}
+@media screen and (max-width: 767px) {
+  .partner-result .bottom-cards .card p {
+    padding-bottom: 15px;
+  }
 }
 .partner-result .bottom-cards .card a {
   font-size: 14px;
@@ -3674,7 +3752,12 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part {
     flex-direction: column;
-    gap: 40px;
+    gap: 40px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part {
+    gap: 30px !important;
   }
 }
 .fintech-delivery .inner-part .left-part {
@@ -3726,8 +3809,6 @@ input:-webkit-autofill:active {
   float: right;
 }
 .fintech-delivery .inner-part .right-part .ai-content h2 {
-  font-size: clamp(30px, 3.7vw, 46px);
-  font-weight: 700;
   margin-bottom: 10px;
   color: #fff;
 }
@@ -3766,6 +3847,11 @@ input:-webkit-autofill:active {
   top: 9px;
   display: none;
 }
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .card-number {
+    font-size: 24px;
+  }
+}
 .fintech-delivery .inner-part .ai-list .ai-item .card-number span {
   color: #FFFFFF;
   opacity: 3%;
@@ -3784,6 +3870,11 @@ input:-webkit-autofill:active {
   transition: 0.3s;
   color: #9F9FA9;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .title h4 {
+    font-size: 20px !important;
+  }
 }
 .fintech-delivery .inner-part .ai-list .ai-item .title h4:before {
   content: "";
@@ -3825,15 +3916,26 @@ input:-webkit-autofill:active {
   margin-bottom: 0;
   font-weight: 500;
 }
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .desc p {
+    font-size: 14px;
+  }
+}
 .fintech-delivery .inner-part .ai-list .ai-item .desc ul {
   display: flex;
   gap: 12px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
   padding: 5px 10px;
   background: #3F3F47;
   border-radius: 8px;
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
+    line-height: 1;
+  }
 }
 .fintech-delivery .inner-part .ai-list .ai-item .progress {
   position: absolute;
@@ -3850,6 +3952,12 @@ input:-webkit-autofill:active {
   background-color: #27272A;
   border-radius: 10px;
   padding-left: 60px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item.active {
+    padding-left: 40px;
+  }
 }
 .fintech-delivery .inner-part .ai-list .ai-item.active .card-number {
   display: block;
@@ -3901,6 +4009,11 @@ input:-webkit-autofill:active {
   padding-right: 65px;
 }
 
+@media screen and (max-width: 767px) {
+  .right-part.numbring .ai-list .ai-item {
+    padding-right: 25px;
+  }
+}
 .pixel-section {
   padding: 120px 0px;
   position: relative;

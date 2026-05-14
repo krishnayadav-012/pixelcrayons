@@ -1127,6 +1127,11 @@ input:-webkit-autofill:active {
   padding-right: 8px;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right {
+    padding-right: 0;
+  }
+}
 .how-it-works .hiw-right::-webkit-scrollbar {
   display: none !important;
 }
@@ -1135,6 +1140,11 @@ input:-webkit-autofill:active {
   padding-left: 107px;
   z-index: 1;
   padding-top: 3px;
+}
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline {
+    padding-left: 80px;
+  }
 }
 .how-it-works .hiw-right .timeline::before {
   content: "";
@@ -1147,6 +1157,11 @@ input:-webkit-autofill:active {
   border-radius: 2px;
   z-index: -1;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline::before {
+    left: 30px;
+  }
+}
 .how-it-works .hiw-right .timeline-progress {
   position: absolute;
   left: 39px;
@@ -1157,12 +1172,22 @@ input:-webkit-autofill:active {
   border-radius: 2px;
   transition: height 0.4s ease;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline-progress {
+    left: 30px;
+  }
+}
 .how-it-works .hiw-right .timeline-item {
   position: relative;
   padding-bottom: 50px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .timeline-item {
+    padding-bottom: 30px;
+  }
 }
 .how-it-works .hiw-right .timeline-item:last-child {
   padding-bottom: 0;
@@ -1202,6 +1227,14 @@ input:-webkit-autofill:active {
   transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
   z-index: 2;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-bubble {
+    width: 57px;
+    height: 27px;
+    font-size: 12px;
+    left: -77px;
+  }
+}
 .how-it-works .hiw-right .step-bubble span {
   color: #71717B;
 }
@@ -1217,17 +1250,35 @@ input:-webkit-autofill:active {
   margin-bottom: 10px;
   transition: opacity 0.4s 0.1s ease;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-content span {
+    font-size: 10px;
+  }
+}
 .how-it-works .hiw-right .step-content h3 {
   font-size: 22px;
   font-weight: 700;
   color: #010101;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-content h3 {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+}
 .how-it-works .hiw-right .step-content p {
   font-size: 16px;
   line-height: 1.65;
   font-weight: 500;
+  margin-bottom: 0;
   color: #737373;
+}
+@media screen and (max-width: 767px) {
+  .how-it-works .hiw-right .step-content p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1024px) {

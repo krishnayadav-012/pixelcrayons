@@ -206,6 +206,9 @@ border: 1px solid #E8E7FE;
       font-size: 40px;
       font-weight: 700;
       line-height: 1.25;
+        @media screen and (max-width:991px) {
+                   font-size: 24px;
+            }
 
     }
  
@@ -270,7 +273,6 @@ border: 1px solid #E8E7FE;
  
   .compliance-card {
     &__top,
-    &__list,
     &__footer {
       padding-left: 22px;
       padding-right: 22px;
@@ -289,31 +291,12 @@ border: 1px solid #E8E7FE;
     padding: 20px 30px 30px;
     border-top: 1px solid #F3F4F6;
  
-    // a {
-    //   border: 1px solid #6A7282;
-    //   display: inline-flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   width: 100%;
-    //   color: #05164D;
-    //   padding: 14px 20px;
-    //   border-radius: 50px;
-    //   font-size: 16px;
-    //   font-weight: 500;
-    //   text-decoration: none;
-    //   letter-spacing: 0.2px;
-    //   transition: background-color 0.2s ease, color 0.2s ease;
-    //   box-sizing: border-box;
-
-    //   &::after{
-    //     background: url(../images/index-v10/view-all.svg);
-    // content: "";
-    // display: inline-block;
-    // width: 19px;
-    // height: 19px;
-    // background-size: 19px !important;
-    // vertical-align: middle;
-    // margin-left: 10px;
-    //   }
-    // }
+   
   }
+  @media screen and (max-width:992px) {
+  .compliance-card__top span{font-size: 12px;}
+  
+}
+@media screen and (max-width:640px) {
+.compliance-card__top{min-height: auto;}
+}

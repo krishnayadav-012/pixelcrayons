@@ -74,6 +74,9 @@
   scroll-behavior: smooth;
   padding-right: 8px;
   position: relative;
+   @media screen and (max-width:767px) {
+  padding-right: 0;
+   }
 
  
   &::-webkit-scrollbar {
@@ -87,6 +90,9 @@
     padding-left: 107px;
     z-index: 1;
     padding-top: 3px;
+     @media screen and (max-width:767px) {
+                   padding-left: 80px;
+                }
  
   // Static grey track
   &::before {
@@ -99,6 +105,10 @@
     background: rgba($shadeofblue, 0.25);
     border-radius: 2px;
     z-index: -1;
+   @media screen and (max-width:767px) {
+    left: 30px;
+   }
+
   }
 }
 
@@ -112,6 +122,9 @@
   background: $royelblue;
   border-radius: 2px;
   transition: height 0.4s ease;
+   @media screen and (max-width:767px) {
+    left: 30px;
+   }
   
 }
 
@@ -122,6 +135,9 @@
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+   @media screen and (max-width:767px) {
+  padding-bottom: 30px;
+   }
   
   &:last-child {
     padding-bottom: 0;
@@ -178,6 +194,12 @@
   box-shadow 0.4s ease,
   transform 0.4s ease;
   z-index: 2;
+   @media screen and (max-width:767px) {
+                width: 57px;
+                height: 27px;
+                font-size: 12px;
+                left: -77px;
+                }
 
   span{
     color: #71717B;
@@ -198,6 +220,9 @@
     color: $royelblue;
     margin-bottom: 10px;
     transition: opacity 0.4s 0.1s ease;
+     @media screen and (max-width:767px) {
+   font-size: 10px;
+   }
   }
   
   h3 {
@@ -206,14 +231,22 @@
     font-weight: 700;
     color: $mainHeadDay;
     margin-bottom: 15px;
+     @media screen and (max-width:767px) {
+   font-size: 20px;
+   line-height: 1;
+   margin-bottom: 10px;
+   }
   }
   
   p {
     font-size: 16px;
     line-height: 1.65;
     font-weight: 500;
+    margin-bottom: 0;
     color: $contentDay;
-
+ @media screen and (max-width:767px) {
+    font-size: 14px;
+   }
   }
 }
 }

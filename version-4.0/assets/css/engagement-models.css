@@ -1223,6 +1223,11 @@ input:-webkit-autofill:active {
   font-weight: 700;
   line-height: 1.25;
 }
+@media screen and (max-width: 991px) {
+  .compliance-card__top h3 {
+    font-size: 24px;
+  }
+}
 .compliance-card__top p {
   line-height: 1.5;
   margin: 0;
@@ -1263,7 +1268,7 @@ input:-webkit-autofill:active {
   .compliance-section__header {
     margin-bottom: 32px;
   }
-  .compliance-card__top, .compliance-card__list, .compliance-card__footer {
+  .compliance-card__top, .compliance-card__footer {
     padding-left: 22px;
     padding-right: 22px;
   }
@@ -1306,6 +1311,17 @@ input:-webkit-autofill:active {
   margin-top: auto;
   padding: 20px 30px 30px;
   border-top: 1px solid #F3F4F6;
+}
+
+@media screen and (max-width: 992px) {
+  .compliance-card__top span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .compliance-card__top {
+    min-height: auto;
+  }
 }
 
 /*# sourceMappingURL=engagement-models.css.map */

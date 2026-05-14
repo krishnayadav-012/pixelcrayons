@@ -1115,6 +1115,11 @@ input:-webkit-autofill:active {
     width: calc(50% - 20px);
   }
 }
+@media screen and (max-width: 640px) {
+  .situation .cards-part .card {
+    width: 100%;
+  }
+}
 .situation .cards-part .card .img-part {
   width: 100%;
   display: block;

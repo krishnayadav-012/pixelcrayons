@@ -68,7 +68,11 @@ gap: 100px;
 }
     @media screen and (max-width:1024px) {
     flex-direction: column;
-    gap: 40px;
+    gap: 40px !important;
+}
+@media screen and (max-width:767px) {
+gap: 30px !important;
+
 }
 .left-part {
     
@@ -123,8 +127,7 @@ width: 100% !important;
         float: right;
 
         h2 {
-            font-size: clamp(30px, 3.7vw, 46px);
-            font-weight: 700;
+          
             margin-bottom: 10px;
             color: #fff;
 
@@ -177,6 +180,9 @@ height: auto;
             line-height: 100%;
             top: 9px;
             display: none;  
+             @media screen and (max-width:767px) {
+    font-size: 24px;
+   }
             span{
                 color: #FFFFFF;
                 opacity: 3%;
@@ -198,6 +204,9 @@ padding: 15px 0;
             transition: 0.3s;
             color: #9F9FA9;
             position: relative;
+            @media screen and (max-width:767px) {
+                   font-size: 20px !important;
+            }
               &:before {
             content: "";
             width: 10px;
@@ -209,6 +218,7 @@ padding: 15px 0;
             top: 10px;
             transition: 0.3s;
              @media screen and (max-width:1024px) {
+             
 top: 11px;
 }
              @media screen and (max-width:640px) {
@@ -237,28 +247,33 @@ top: 11px;
                  font-size: 16px;
                  margin-bottom: 0;
             font-weight: 500;
+             @media screen and (max-width:767px) {
+    font-size: 14px;
+    
+   }
             }
 ul{
     display: flex;gap: 12px;
     margin-top: 20px;
+    flex-wrap: wrap;
     li{
         padding: 5px 10px;
         background: #3F3F47;
         border-radius: 8px;
+         @media screen and (max-width:767px) {
+   line-height: 1;
+   }
     }
 }
 
         }
 
         .progress {
-
             position: absolute;
             bottom: -1px;
             left: 0;
-
             height: 2px;
             width: 0%;
-
             background: $shine-green;
 
         }
@@ -269,6 +284,10 @@ ul{
 background-color: #27272A;
 border-radius: 10px;
 padding-left: 60px;
+padding-right: 10px;
+ @media screen and (max-width:767px) {
+  padding-left: 40px;
+   }
 .card-number{
     display: block;
 }
@@ -329,3 +348,6 @@ padding-left: 60px;
 
 }
 .right-part.numbring .ai-list .ai-item { padding-right: 65px;}
+@media screen and (max-width:767px) {
+    .right-part.numbring .ai-list .ai-item { padding-right: 25px;}
+   }

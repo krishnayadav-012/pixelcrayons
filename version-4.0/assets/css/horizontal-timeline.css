@@ -1143,7 +1143,12 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 1024px) {
   .fintech-delivery .inner-part {
     flex-direction: column;
-    gap: 40px;
+    gap: 40px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part {
+    gap: 30px !important;
   }
 }
 .fintech-delivery .inner-part .left-part {
@@ -1195,8 +1200,6 @@ input:-webkit-autofill:active {
   float: right;
 }
 .fintech-delivery .inner-part .right-part .ai-content h2 {
-  font-size: clamp(30px, 3.7vw, 46px);
-  font-weight: 700;
   margin-bottom: 10px;
   color: #fff;
 }
@@ -1235,6 +1238,11 @@ input:-webkit-autofill:active {
   top: 9px;
   display: none;
 }
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .card-number {
+    font-size: 24px;
+  }
+}
 .fintech-delivery .inner-part .ai-list .ai-item .card-number span {
   color: #FFFFFF;
   opacity: 3%;
@@ -1253,6 +1261,11 @@ input:-webkit-autofill:active {
   transition: 0.3s;
   color: #9F9FA9;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .title h4 {
+    font-size: 20px !important;
+  }
 }
 .fintech-delivery .inner-part .ai-list .ai-item .title h4:before {
   content: "";
@@ -1294,15 +1307,26 @@ input:-webkit-autofill:active {
   margin-bottom: 0;
   font-weight: 500;
 }
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .desc p {
+    font-size: 14px;
+  }
+}
 .fintech-delivery .inner-part .ai-list .ai-item .desc ul {
   display: flex;
   gap: 12px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
   padding: 5px 10px;
   background: #3F3F47;
   border-radius: 8px;
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
+    line-height: 1;
+  }
 }
 .fintech-delivery .inner-part .ai-list .ai-item .progress {
   position: absolute;
@@ -1319,6 +1343,12 @@ input:-webkit-autofill:active {
   background-color: #27272A;
   border-radius: 10px;
   padding-left: 60px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .fintech-delivery .inner-part .ai-list .ai-item.active {
+    padding-left: 40px;
+  }
 }
 .fintech-delivery .inner-part .ai-list .ai-item.active .card-number {
   display: block;
@@ -1368,6 +1398,12 @@ input:-webkit-autofill:active {
 }
 .right-part.numbring .ai-list .ai-item {
   padding-right: 65px;
+}
+
+@media screen and (max-width: 767px) {
+  .right-part.numbring .ai-list .ai-item {
+    padding-right: 25px;
+  }
 }
 
 /*# sourceMappingURL=horizontal-timeline.css.map */

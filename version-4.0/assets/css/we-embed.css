@@ -1080,12 +1080,12 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 1260px) {
   .we-embed {
-    padding: 80px;
+    padding: 80px 0;
   }
 }
 @media screen and (max-width: 1024px) {
   .we-embed {
-    padding: 50px;
+    padding: 50px 0;
   }
 }
 .we-embed .top-part {
