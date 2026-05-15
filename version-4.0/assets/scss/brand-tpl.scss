@@ -30,29 +30,31 @@
   position: relative;
   background: #DFFB0B;
   color: #0400F5;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 50px;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
   transition: 0.2s;
   z-index: 1;
+  margin: 40px 0 0px 0;
+
   overflow: hidden;
   &::before {
     content: "";
-    background:#fff;
+    background:#0400F5;
     width: 24px;
     height: 24px;
     position: absolute;
     transition: 0.4s;
-  border-radius: 50px;
+    border-radius: 50px;
     transform: translate(-20px, 0px);
     z-index: -1;
     right: 0;
     z-index: -1;
   }
   &:hover::before{
-        width: 100%;
+    width: 100%;
     height: 100%;
     transition: 0.4s;
     transform: translate(0, -24%);
@@ -73,7 +75,11 @@
     transition: 0.2s;
     background-size: 100%;
   }
+  &:hover{
+    color: #fff !important;
 
+  }
+  
 }
 
 .btn-secondry {
@@ -146,7 +152,7 @@
 }
 
 .btn-secondry:hover::before {
-    background: url(../images/agencies/Black-right.svg) no-repeat;
+    background: url(../images/agencies/white-arrow.svg) no-repeat;
     width: 19px;
     height: 19px
 }
@@ -632,43 +638,43 @@
 
 
 
-.hero-section .cta-button {
-  display: inline-flex;
-  padding: 10px 20px;
-  line-height: 24px;
-  cursor: pointer;
-  position: relative;
-  background: #DFFB0B;
-  color: #0400F5;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 500;
-  border-radius: 50px;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
-  transition: 0.2s;
-  margin: 40px 0 0px 0;
+// .hero-section .cta-button {
+//   display: inline-flex;
+//   padding: 10px 20px;
+//   line-height: 24px;
+//   cursor: pointer;
+//   position: relative;
+//   background: #DFFB0B;
+//   color: #0400F5;
+//   font-size: 15px;
+//   text-transform: uppercase;
+//   font-weight: 500;
+//   border-radius: 50px;
+//   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
+//   transition: 0.2s;
+//   margin: 40px 0 0px 0;
 
-  &:hover {
-    background: #ffffff;
-    color: #0400F5;
-    box-shadow: 0px 2px 11px 0px #DFFB0BCC;
-    transform: translateY(-5px);
-    transition: 0.2s;
-  }
-  &:hover:after {
-    background: url(../images/home-images/bluegr-cta.svg) no-repeat;
-    background-size: 100%;
-  }
-}
-.hero-section .cta-button::after {
-  content: "";
-  background: url(../images/home-images/bluegr-cta.svg) no-repeat;
-  width: 24px;
-  height: 24px;
-  background-size: 100%;
-  display: inline-block;
-  margin-left: 10px;
-}
+//   // &:hover {
+//   //   background: #ffffff;
+//   //   color: #0400F5;
+//   //   box-shadow: 0px 2px 11px 0px #DFFB0BCC;
+//   //   transform: translateY(-5px);
+//   //   transition: 0.2s;
+//   // }
+//   // &:hover:after {
+//   //   background: url(../images/home-images/bluegr-cta.svg) no-repeat;
+//   //   background-size: 100%;
+//   // }
+// }
+// .hero-section .cta-button::after {
+//   content: "";
+//   background: url(../images/home-images/bluegr-cta.svg) no-repeat;
+//   width: 24px;
+//   height: 24px;
+//   background-size: 100%;
+//   display: inline-block;
+//   margin-left: 10px;
+// }
 
 
 .iti__country-list.iti__hide{

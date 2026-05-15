@@ -1136,7 +1136,6 @@ input:-webkit-autofill:active {
   font-size: 14px;
   margin-bottom: 5px;
   color: #DFFB0B;
-  font-family: "Playfair Display", serif;
   font-style: normal;
 }
 .structurally-section .inner-part .content-box h2 {
@@ -1146,6 +1145,7 @@ input:-webkit-autofill:active {
 .structurally-section .inner-part .content-box h2 em {
   color: #DFFB0B;
   font-size: inherit;
+  font-family: "Playfair Display", serif;
 }
 .structurally-section .inner-part .content-box p {
   color: #E4E4E7;

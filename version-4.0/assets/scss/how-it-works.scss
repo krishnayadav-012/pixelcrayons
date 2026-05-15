@@ -120,6 +120,7 @@
     background: rgba($shadeofblue, 0.25);
     border-radius: 2px;
     z-index: -1;
+    height: calc(100% - 10%);
    @media screen and (max-width:767px) {
     left: 30px;
    }

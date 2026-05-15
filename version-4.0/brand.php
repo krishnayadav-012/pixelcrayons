@@ -32,7 +32,7 @@
           <h1>One team. <br> Every <em>discipline.</em>
           </h1>
           <p>You shouldn't need five vendors to run a brand online. PixelCrayons gives growing brands a single execution partner for marketing, development, design, and AI - with one point of contact and one accountable team.</p>
-          <a href="#" class="cta-button">Contant Us</a>
+          <a href="#" class="home-cta-button">Contant Us</a>
           <div class="for-client-logo-box  dis-flex">
             <div class="logo-box logo1"></div>
             <div class="logo-box logo2"></div>
@@ -91,20 +91,20 @@
 
         <div class="numbring-part">
           <div class="box">
-            <h2>700</h2>
-            <p>In-House Engineers</p>
-          </div>
-          <div class="box">
-            <h2>48h</h2>
-            <p>Engineer Matching SLA</p>
-          </div>
-          <div class="box">
-            <h2>94%</h2>
-            <p>On-Time Delivery</p>
+            <h2>21+</h2>
+            <p>Years in delivery</p>
           </div>
           <div class="box">
             <h2>2500+</h2>
             <p>Projects Delivered</p>
+          </div>
+          <div class="box">
+            <h2>30+</h2>
+            <p>Countries served</p>
+          </div>
+          <div class="box">
+            <h2>87%</h2>
+            <p>Brand client retention</p>
           </div>
         </div>
       </div>

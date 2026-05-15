@@ -33,7 +33,7 @@
             see your work. <em>We make it happen.</em>
           </h1>
           <p>Marketing, development, design and AI — delivered invisibly under your brand. Zero-competition firewall.</p>
-          <a href="#" class="cta-button">Contant Us</a>
+          <a href="#" class="home-cta-button">Contant Us</a>
 
 
 
@@ -51,7 +51,7 @@
 
 
 
-  <!-- slider section -->
+   <!-- slider section -->
   <div class="slide-logo  dis-flex items-center justify-sb padding-t-50 padding-b-80">
     <div class="container">
       <div class="dis-flex">
@@ -59,66 +59,46 @@
           <h4><span>Trusted by startups and Fortune <strong>500</strong> companies</span></h4>
         </div>
         <div class="logo-section">
-          <!-- <div class="logoslide glide" id="home-tpl-logoslide">
+
+          <div class="logoslide glide" id="home-tpl-logoslide">
             <div class="glide__track" data-glide-el="track">
-              <div class="glide__slides">
-                <div class="glide__slide">
+
+              <ul class="glide__slides">
+
+                <li class="glide__slide">
                   <picture>
                     <img loading="lazy"
                       src="assets/images/banner-client-logo.svg"
                       alt="valuecoders">
                   </picture>
-                </div>
+                </li>
 
-                <div class="glide__slide">
+                <li class="glide__slide">
                   <picture>
                     <img loading="lazy"
                       src="assets/images/banner-client-logo-2.png"
                       alt="valuecoders">
                   </picture>
-                </div>
-              </div>
+                </li>
+
+              </ul>
+
             </div>
-          </div> -->
-          <div class="logoslide glide" id="home-tpl-logoslide">
-  <div class="glide__track" data-glide-el="track">
-
-    <ul class="glide__slides">
-
-      <li class="glide__slide">
-        <picture>
-          <img loading="lazy"
-            src="assets/images/banner-client-logo.svg"
-            alt="valuecoders">
-        </picture>
-      </li>
-
-      <li class="glide__slide">
-        <picture>
-          <img loading="lazy"
-            src="assets/images/banner-client-logo-2.png"
-            alt="valuecoders">
-        </picture>
-      </li>
-
-    </ul>
-
-  </div>
-</div>
+          </div>
         </div>
 
         <div class="numbring-part">
           <div class="box">
-            <h2>700</h2>
-            <p>In-House Engineers</p>
+            <h2>21+</h2>
+            <p>Years in operation</p>
           </div>
           <div class="box">
-            <h2>48h</h2>
-            <p>Engineer Matching SLA</p>
+            <h2>100+</h2>
+            <p>Active agency partnerships</p>
           </div>
           <div class="box">
-            <h2>94%</h2>
-            <p>On-Time Delivery</p>
+            <h2>85%+</h2>
+            <p>Partner retention</p>
           </div>
           <div class="box">
             <h2>2500+</h2>
@@ -129,6 +109,7 @@
     </div>
   </div>
   <!-- slider section -->
+
 
 
   <!-- deliv -problam -->
@@ -986,9 +967,7 @@
 
   <?php require_once 'assets/include/cta-v3.php'; ?>
   <?php require_once 'assets/include/blog-footer.php'; ?>
-  <script
-    src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264"
-    id="pixel-glider-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   <script src="assets/js/agencies.js"></script>
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>

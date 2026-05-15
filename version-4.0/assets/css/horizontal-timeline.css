@@ -1097,6 +1097,7 @@ input:-webkit-autofill:active {
   bottom: 0;
   width: 960px;
   height: 900px;
+  z-index: -1;
   object-fit: cover;
 }
 .fintech-delivery .grid-lines img {
@@ -1174,7 +1175,6 @@ input:-webkit-autofill:active {
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
 }
 .fintech-delivery .inner-part .left-part h2 {
   color: #ffffff;
@@ -1330,6 +1330,7 @@ input:-webkit-autofill:active {
 .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
   padding: 5px 10px;
   background: #3F3F47;
+  color: #ffffff;
   border-radius: 8px;
 }
 @media screen and (max-width: 767px) {

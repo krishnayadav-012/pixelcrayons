@@ -1177,6 +1177,7 @@ input:-webkit-autofill:active {
   background: rgba(102, 110, 134, 0.25);
   border-radius: 2px;
   z-index: -1;
+  height: 90%;
 }
 @media screen and (max-width: 767px) {
   .how-it-works .hiw-right .timeline::before {

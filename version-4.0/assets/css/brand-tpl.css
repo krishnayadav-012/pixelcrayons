@@ -2934,6 +2934,7 @@ input:-webkit-autofill:active {
   background: rgba(102, 110, 134, 0.25);
   border-radius: 2px;
   z-index: -1;
+  height: 90%;
 }
 @media screen and (max-width: 767px) {
   .how-it-works .hiw-right .timeline::before {
@@ -3723,6 +3724,7 @@ input:-webkit-autofill:active {
   bottom: 0;
   width: 960px;
   height: 900px;
+  z-index: -1;
   object-fit: cover;
 }
 .fintech-delivery .grid-lines img {
@@ -3800,7 +3802,6 @@ input:-webkit-autofill:active {
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
 }
 .fintech-delivery .inner-part .left-part h2 {
   color: #ffffff;
@@ -3956,6 +3957,7 @@ input:-webkit-autofill:active {
 .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
   padding: 5px 10px;
   background: #3F3F47;
+  color: #ffffff;
   border-radius: 8px;
 }
 @media screen and (max-width: 767px) {
@@ -6062,18 +6064,19 @@ input:-webkit-autofill:active {
   position: relative;
   background: #DFFB0B;
   color: #0400F5;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 50px;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
   transition: 0.2s;
   z-index: 1;
+  margin: 40px 0 0px 0;
   overflow: hidden;
 }
 .home-cta-button::before {
   content: "";
-  background: #fff;
+  background: #0400F5;
   width: 24px;
   height: 24px;
   position: absolute;
@@ -6104,6 +6107,9 @@ input:-webkit-autofill:active {
   background: url(../images/home-images/white-cta.svg) no-repeat;
   transition: 0.2s;
   background-size: 100%;
+}
+.home-cta-button:hover {
+  color: #fff !important;
 }
 
 .btn-secondry {
@@ -6177,7 +6183,7 @@ input:-webkit-autofill:active {
 }
 
 .btn-secondry:hover::before {
-  background: url(../images/agencies/Black-right.svg) no-repeat;
+  background: url(../images/agencies/white-arrow.svg) no-repeat;
   width: 19px;
   height: 19px;
 }
@@ -6559,44 +6565,6 @@ input:-webkit-autofill:active {
     margin: 25px 0 0;
   }
 }
-.hero-section .cta-button {
-  display: inline-flex;
-  padding: 10px 20px;
-  line-height: 24px;
-  cursor: pointer;
-  position: relative;
-  background: #DFFB0B;
-  color: #0400F5;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 500;
-  border-radius: 50px;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
-  transition: 0.2s;
-  margin: 40px 0 0px 0;
-}
-.hero-section .cta-button:hover {
-  background: #ffffff;
-  color: #0400F5;
-  box-shadow: 0px 2px 11px 0px rgba(223, 251, 11, 0.8);
-  transform: translateY(-5px);
-  transition: 0.2s;
-}
-.hero-section .cta-button:hover:after {
-  background: url(../images/home-images/bluegr-cta.svg) no-repeat;
-  background-size: 100%;
-}
-
-.hero-section .cta-button::after {
-  content: "";
-  background: url(../images/home-images/bluegr-cta.svg) no-repeat;
-  width: 24px;
-  height: 24px;
-  background-size: 100%;
-  display: inline-block;
-  margin-left: 10px;
-}
-
 .iti__country-list.iti__hide {
   position: absolute;
   top: 100%;

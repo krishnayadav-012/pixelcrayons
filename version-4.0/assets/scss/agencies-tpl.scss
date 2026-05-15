@@ -38,7 +38,7 @@
   overflow: hidden;
   &::before {
     content: "";
-    background:#fff;
+    background:#0400F5;
     width: 24px;
     height: 24px;
     position: absolute;
@@ -71,7 +71,10 @@
     transition: 0.2s;
     background-size: 100%;
   }
+  &:hover{
+    color: #fff !important;
 
+  }
 }
 
 .btn-secondry {
@@ -144,7 +147,7 @@
 }
 
 .btn-secondry:hover::before {
-    background: url(../images/agencies/Black-right.svg) no-repeat;
+    background: url(../images/agencies/white-arrow.svg) no-repeat;
     width: 19px;
     height: 19px
 }
@@ -231,6 +234,11 @@
 
     .left-part {
       width: calc(55% - 10px);
+
+      .home-cta-button{
+        margin-top: 43px;
+       
+      }
 
 
     }
