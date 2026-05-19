@@ -1125,7 +1125,7 @@ input:-webkit-autofill:active {
   display: flex;
 }
 .structurally-section .inner-part .content-box {
-  width: 50%;
+  width: 35%;
 }
 @media screen and (max-width: 767px) {
   .structurally-section .inner-part .content-box {

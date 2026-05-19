@@ -1111,6 +1111,11 @@ input:-webkit-autofill:active {
   z-index: -1;
   background-size: cover;
 }
+@media screen and (max-width: 1024px) {
+  .pixel-section::after {
+    display: none;
+  }
+}
 .pixel-section::before {
   content: "";
   position: absolute;
@@ -1147,7 +1152,7 @@ input:-webkit-autofill:active {
   }
 }
 .pixel-section .text-content {
-  flex: 1;
+  flex: 2;
 }
 .pixel-section .text-content h2 {
   font-weight: 800;
@@ -1172,10 +1177,15 @@ input:-webkit-autofill:active {
   list-style: none;
   padding: 0;
 }
+@media screen and (max-width: 1140px) {
+  .pixel-section .text-content ul {
+    grid-template-columns: 1fr;
+  }
+}
 .pixel-section .text-content ul li {
   display: flex;
   align-items: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   color: #4B5563;
   position: relative;
@@ -1201,6 +1211,7 @@ input:-webkit-autofill:active {
 }
 .pixel-section .visual-content {
   flex: 1;
+  min-width: 512px;
   z-index: 1;
   position: relative;
 }

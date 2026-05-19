@@ -29,6 +29,11 @@ $bg-light: #FAFAFA;
     height: 100%;
     z-index: -1;
     background-size: cover;
+
+    @media screen and (max-width:1024px) {
+      display: none;
+    }
+
   }
 
   &::before {
@@ -74,7 +79,7 @@ $bg-light: #FAFAFA;
 
   // Left Side
   .text-content {
-    flex: 1;
+    flex: 2;
 
     h2 {
       font-weight: 800;
@@ -100,11 +105,17 @@ $bg-light: #FAFAFA;
       gap: 20px;
       list-style: none;
       padding: 0;
+      
+      @media screen and (max-width:1140px) {
+        grid-template-columns:1fr;
+        
+      }
+
 
       li {
         display: flex;
         align-items: center;
-        font-weight: $semi-bold;
+        font-weight: 500;
         font-size: 16px;
         color: $text-gray;
         position: relative;
@@ -137,6 +148,7 @@ $bg-light: #FAFAFA;
 
   .visual-content {
     flex: 1;
+    min-width: 512px;
     z-index: 1;
     position: relative;
 

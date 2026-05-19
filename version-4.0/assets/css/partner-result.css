@@ -1182,7 +1182,7 @@ input:-webkit-autofill:active {
 .partner-result .bottom-cards .card .img-part img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 20px;
 }
 .partner-result .bottom-cards .card span {

@@ -1160,10 +1160,18 @@ input:-webkit-autofill:active {
   box-shadow: 0px 2px 14px 3px rgba(0, 0, 0, 0.0588235294);
   cursor: pointer;
 }
+.blog-card__image {
+  overflow: hidden;
+  height: 100%;
+  border-radius: 20px;
+  max-height: 175px;
+  width: 100%;
+}
 .blog-card__image img {
   width: 100%;
   border-radius: 20px;
-  display: block;
+  object-fit: fill;
+  height: 100%;
 }
 .blog-card__content {
   margin-top: 15px;
