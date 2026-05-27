@@ -12,9 +12,9 @@
 }
 @media only screen and (min-width: 768px) {
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
-    font-weight: 400 900;
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+    font-weight: 100 900;
     font-style: italic;
   }
 }
@@ -2784,7 +2784,7 @@ input:-webkit-autofill:active {
 }
 .situation .top-part h2 em {
   color: #0400F5;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .situation .top-part p {
   color: #3F3F47;
@@ -2896,7 +2896,7 @@ input:-webkit-autofill:active {
   color: #0400F5;
   display: inline-block;
   position: relative;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .how-it-works .left-part p {
   color: #3F3F47;
@@ -3093,7 +3093,7 @@ input:-webkit-autofill:active {
 }
 .stacking-cards-section .top-part h2 em {
   color: #0400F5;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .stacking-cards-section .top-part p {
   color: #364153;
@@ -3214,7 +3214,7 @@ input:-webkit-autofill:active {
   left: 0;
   background: url("../images/home-images/iconex.svg") no-repeat center;
   width: 15px;
-  height: 15x;
+  height: 15px;
   background-repeat: no-repeat;
   background-size: 14px;
   top: 6px;
@@ -3320,7 +3320,7 @@ input:-webkit-autofill:active {
 }
 .we-embed .top-part .left-part h2 em {
   color: #DFFB0B;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .we-embed .top-part .right-part {
   width: 45%;
@@ -3560,7 +3560,7 @@ input:-webkit-autofill:active {
 }
 .partner-result .top-part .left-part h2 em {
   color: #0400F5;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .partner-result .top-part .right-part {
   width: fit-content;
@@ -3811,7 +3811,7 @@ input:-webkit-autofill:active {
 }
 .fintech-delivery .inner-part .left-part h2 em {
   color: #DFFB0B;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .fintech-delivery .inner-part .left-part p {
   color: #D1D5DC;
@@ -6138,7 +6138,7 @@ input:-webkit-autofill:active {
   width: 100%;
   text-align: center;
   color: #05164D;
-  padding: 9px 62px;
+  padding: 9px 42px;
   border: 1px solid #6A7282;
   border-radius: 50px;
   text-decoration: none;
@@ -6331,7 +6331,7 @@ input:-webkit-autofill:active {
 }
 .hero-section h1 em {
   color: #DFFB0B;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .hero-section p {
   font-size: 20px;
@@ -6755,15 +6755,15 @@ input:-webkit-autofill:active {
   }
 }
 .pixel-section .text-content h2 span {
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 
 .insights .insights__top-part h2 em {
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 
 .faq-section .faq-left h2 span {
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 
 /*# sourceMappingURL=brand-tpl.css.map */

@@ -11,9 +11,9 @@
 }
 @media only screen and (min-width: 768px) {
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
-    font-weight: 400 900;
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+    font-weight: 100 900;
     font-style: italic;
   }
 }
@@ -1138,7 +1138,7 @@ input:-webkit-autofill:active {
   color: #0400F5;
   display: inline-block;
   position: relative;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .how-it-works .left-part p {
   color: #3F3F47;

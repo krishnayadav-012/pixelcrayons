@@ -12,9 +12,9 @@
 }
 @media only screen and (min-width: 768px) {
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
-    font-weight: 400 900;
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+    font-weight: 100 900;
     font-style: italic;
   }
 }
@@ -2864,7 +2864,7 @@ input:-webkit-autofill:active {
 }
 .fintech-delivery .inner-part .left-part h2 em {
   color: #DFFB0B;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .fintech-delivery .inner-part .left-part p {
   color: #D1D5DC;
@@ -3118,7 +3118,7 @@ input:-webkit-autofill:active {
 }
 .stacking-cards-section .top-part h2 em {
   color: #0400F5;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .stacking-cards-section .top-part p {
   color: #364153;
@@ -3239,7 +3239,7 @@ input:-webkit-autofill:active {
   left: 0;
   background: url("../images/home-images/iconex.svg") no-repeat center;
   width: 15px;
-  height: 15x;
+  height: 15px;
   background-repeat: no-repeat;
   background-size: 14px;
   top: 6px;
@@ -3327,7 +3327,7 @@ input:-webkit-autofill:active {
 }
 .vertical-tabs__heading h2 em {
   color: #0400F5;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .vertical-tabs__heading p {
   color: #737373;
@@ -3669,8 +3669,9 @@ input:-webkit-autofill:active {
   letter-spacing: -0.5px;
 }
 .compliance-section__header h2 em {
-  font-family: "Playfair Display", serif;
-  font-size: inherit;
+  font-family: "PlayfairDisplay";
+  text-transform: capitalize;
+  font-size: unset;
 }
 .compliance-section__header p {
   color: #364153;
@@ -3960,7 +3961,7 @@ input:-webkit-autofill:active {
 .structurally-section .inner-part .content-box h2 em {
   color: #DFFB0B;
   font-size: inherit;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .structurally-section .inner-part .content-box p {
   color: #E4E4E7;
@@ -6101,7 +6102,7 @@ input:-webkit-autofill:active {
   width: 100%;
   text-align: center;
   color: #05164D;
-  padding: 9px 62px;
+  padding: 9px 42px;
   border: 1px solid #6A7282;
   border-radius: 50px;
   text-decoration: none;
@@ -6295,7 +6296,7 @@ input:-webkit-autofill:active {
 .hero-section h1 em {
   font-style: normal;
   color: #DFFB0B;
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 .hero-section p {
   font-size: 20px;
@@ -6758,15 +6759,15 @@ input:-webkit-autofill:active {
   }
 }
 .pixel-section .text-content h2 span {
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 
 .insights .insights__top-part h2 em {
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 
 .faq-section .faq-left h2 span {
-  font-family: "Playfair Display", serif;
+  font-family: "PlayfairDisplay";
 }
 
 /*# sourceMappingURL=agencies-tpl.css.map */

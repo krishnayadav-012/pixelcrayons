@@ -11,9 +11,9 @@
 }
 @media only screen and (min-width: 768px) {
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2") format("woff2");
-    font-weight: 400 900;
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+    font-weight: 100 900;
     font-style: italic;
   }
 }
@@ -1103,8 +1103,9 @@ input:-webkit-autofill:active {
   letter-spacing: -0.5px;
 }
 .compliance-section__header h2 em {
-  font-family: "Playfair Display", serif;
-  font-size: inherit;
+  font-family: "PlayfairDisplay";
+  text-transform: capitalize;
+  font-size: unset;
 }
 .compliance-section__header p {
   color: #364153;
