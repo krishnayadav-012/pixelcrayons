@@ -46,7 +46,7 @@ $grey-300:#D1D5DB;
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
+
 @font-face {
  font-family: 'PlayfairDisplay';
   src: url('../fonts/PlayfairDisplay-Italic[wght].woff2')format('woff2');
@@ -54,7 +54,7 @@ $grey-300:#D1D5DB;
   font-style: italic;
 }
 
-}
+
 * {
   margin: 0;
   padding: 0;

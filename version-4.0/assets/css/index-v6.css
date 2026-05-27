@@ -10,13 +10,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -2408,6 +2406,10 @@ input:-webkit-autofill:active {
 .driving-growth .top-section {
   padding-bottom: 60px;
 }
+.driving-growth .top-section h2 em {
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
+}
 .driving-growth .top-section p {
   color: #4B5563;
 }
@@ -3822,6 +3824,10 @@ input:-webkit-autofill:active {
   margin: 0;
   color: #110302;
 }
+.section-header h2 em {
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
+}
 .section-header p {
   margin-top: 15px;
   font-size: 18px;
@@ -4105,8 +4111,9 @@ input:-webkit-autofill:active {
   line-height: 1.2;
   margin-bottom: 20px;
 }
-.pixel-section .text-content h2 span {
+.pixel-section .text-content h2 em {
   color: #0400F5;
+  font-family: "PlayfairDisplay";
 }
 .pixel-section .text-content p {
   margin-bottom: 40px;
@@ -4276,6 +4283,10 @@ input:-webkit-autofill:active {
 }
 .insights .insights__top-part h2 {
   margin-bottom: 10px;
+}
+.insights .insights__top-part h2 em {
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
 }
 .insights .insights__top-part p {
   font-size: 18px;
@@ -5180,8 +5191,9 @@ input:-webkit-autofill:active {
   color: #0f172a;
   line-height: 1.2;
 }
-.faq-section .faq-left h2 span {
+.faq-section .faq-left h2 em {
   color: #0400F5;
+  font-family: "PlayfairDisplay";
 }
 .faq-section .faq-left p {
   margin-top: 16px;
@@ -6701,6 +6713,10 @@ input:-webkit-autofill:active {
   font-size: 64px;
   font-weight: 700;
   line-height: 120%;
+}
+.hero-section h1 em {
+  font-family: "PlayfairDisplay";
+  color: #DFFB0B;
 }
 .hero-section p {
   font-size: 20px;

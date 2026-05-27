@@ -9,13 +9,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -1416,6 +1414,110 @@ input:-webkit-autofill:active {
   .left-part .ai-list .ai-item.active {
     padding-right: 10px;
   }
+}
+.vertical-slide .right-part {
+  /* RIGHT */
+}
+.vertical-slide .right-part .cards-wrapper {
+  position: relative;
+  height: 567px;
+  width: 507px;
+  margin-left: auto;
+  overflow: hidden;
+}
+.vertical-slide .right-part .cards-track {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  animation: scrollCards 16s linear infinite;
+}
+.vertical-slide .right-part .cards-wrapper:hover .cards-track {
+  animation-play-state: paused;
+}
+.vertical-slide .right-part {
+  /* CARD */
+}
+.vertical-slide .right-part .review-card {
+  position: relative;
+  padding: 30px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.0705882353);
+  border: 1px solid rgba(255, 255, 255, 0.1490196078);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+.vertical-slide .right-part .review-card::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  background: url(../images/hire-main/quote.png);
+  width: 60px;
+  height: 60px;
+}
+.vertical-slide .right-part ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-bottom: 0px;
+}
+.vertical-slide .right-part .review-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #E4E4E7;
+}
+.vertical-slide .right-part .user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.vertical-slide .right-part .user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.vertical-slide .right-part .user h4 {
+  color: #E4E4E7;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+}
+.vertical-slide .right-part .user span {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+}
+.vertical-slide .right-part {
+  /* ANIMATION */
+}
+@keyframes scrollCards {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+.vertical-slide .right-part {
+  /* FADE */
+}
+.vertical-slide .right-part .cards-wrapper::before {
+  top: 0;
+  background: linear-gradient(to bottom, #020617, transparent);
+}
+.vertical-slide .right-part .cards-wrapper::after {
+  bottom: 0;
+  background: linear-gradient(to top, #020617, transparent);
+}
+@media (max-width: 768px) {
+  .vertical-slide .right-part .review-card {
+    padding: 26px;
+  }
+}
+
+.fintech-delivery.vertical-slide::before {
+  right: -408px;
+  top: -30px;
 }
 
 /*# sourceMappingURL=horizontal-timeline.css.map */

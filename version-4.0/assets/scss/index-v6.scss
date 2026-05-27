@@ -296,6 +296,10 @@
     font-size: 64px;
     font-weight: $bold;
     line-height: 120%;
+    em{
+       font-family: 'PlayfairDisplay';
+       color: $shine-green;
+    }
   }
 
   p {

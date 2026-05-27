@@ -10,13 +10,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -1096,6 +1094,10 @@ input:-webkit-autofill:active {
 }
 .insights .insights__top-part h2 {
   margin-bottom: 10px;
+}
+.insights .insights__top-part h2 em {
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
 }
 .insights .insights__top-part p {
   font-size: 18px;

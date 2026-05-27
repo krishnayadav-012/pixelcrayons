@@ -4,6 +4,12 @@
   padding: 100px 0;
   .top-section{ 
     padding-bottom: 60px;
+    h2{
+      em{
+         font-family: 'PlayfairDisplay';
+         color: $royelblue;
+      }
+    }
     p{
       color: #4B5563;
       

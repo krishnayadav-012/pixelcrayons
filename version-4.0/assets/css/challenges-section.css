@@ -9,13 +9,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -1101,6 +1099,10 @@ input:-webkit-autofill:active {
 .section-header h2 {
   margin: 0;
   color: #110302;
+}
+.section-header h2 em {
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
 }
 .section-header p {
   margin-top: 15px;

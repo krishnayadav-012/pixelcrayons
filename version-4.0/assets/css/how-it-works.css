@@ -9,13 +9,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -1315,6 +1313,52 @@ input:-webkit-autofill:active {
   .hiw-right {
     max-height: unset !important;
   }
+}
+.hiw-right.tabbing-part .toggle-container {
+  display: flex;
+  margin-left: auto;
+  justify-content: end;
+  width: fit-content;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border: 1px solid #E4E4E7;
+  padding: 5px;
+  border-radius: 180px;
+  gap: 4px;
+}
+.hiw-right.tabbing-part .toggle-container .toggle-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 12px;
+  color: #52525C;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  white-space: nowrap;
+}
+.hiw-right.tabbing-part .toggle-container .toggle-btn.active {
+  background-color: #0400F5;
+  color: #ffffff;
+}
+
+.hiw-right.tabbing-part.active-pixelcrayons .pixelcrayons-data {
+  display: block;
+}
+.hiw-right.tabbing-part.active-pixelcrayons .typical-data {
+  display: none;
+}
+
+.hiw-right.tabbing-part.active-typical .pixelcrayons-data {
+  display: none;
+}
+.hiw-right.tabbing-part.active-typical .typical-data {
+  display: block;
 }
 
 /*# sourceMappingURL=how-it-works.css.map */

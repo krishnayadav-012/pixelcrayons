@@ -285,3 +285,61 @@
     max-height: unset !important;
   }
 }
+
+
+.hiw-right.tabbing-part{
+ .toggle-container {
+  display: flex;
+  margin-left: auto;
+  justify-content: end;
+  width: fit-content  ;
+  background-color: $white;
+  margin-bottom: 10px;
+  border: 1px solid #E4E4E7;
+  padding: 5px;
+  border-radius: 180px;
+  gap: 4px; // Adds clean spacing between the two buttons
+
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 10px 12px;
+    color: #52525C;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    white-space: nowrap;
+
+    // Direct styling when active
+    &.active {
+      background-color: $royelblue;
+      color: $white;
+    }
+  }
+}
+}
+
+.hiw-right.tabbing-part.active-pixelcrayons {
+  .pixelcrayons-data{
+    display: block;
+}
+.typical-data{
+  display: none;
+}
+  
+}
+.hiw-right.tabbing-part.active-typical{
+  .pixelcrayons-data{
+    display: none;
+}
+.typical-data{
+  display: block;
+}
+  
+}

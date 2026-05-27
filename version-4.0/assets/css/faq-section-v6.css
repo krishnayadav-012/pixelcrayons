@@ -10,13 +10,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -1124,8 +1122,9 @@ input:-webkit-autofill:active {
   color: #0f172a;
   line-height: 1.2;
 }
-.faq-section .faq-left h2 span {
+.faq-section .faq-left h2 em {
   color: #0400F5;
+  font-family: "PlayfairDisplay";
 }
 .faq-section .faq-left p {
   margin-top: 16px;

@@ -10,13 +10,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -3099,6 +3097,111 @@ input:-webkit-autofill:active {
     padding-right: 10px;
   }
 }
+.vertical-slide .right-part {
+  /* RIGHT */
+}
+.vertical-slide .right-part .cards-wrapper {
+  position: relative;
+  height: 567px;
+  width: 507px;
+  margin-left: auto;
+  overflow: hidden;
+}
+.vertical-slide .right-part .cards-track {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  animation: scrollCards 16s linear infinite;
+}
+.vertical-slide .right-part .cards-wrapper:hover .cards-track {
+  animation-play-state: paused;
+}
+.vertical-slide .right-part {
+  /* CARD */
+}
+.vertical-slide .right-part .review-card {
+  position: relative;
+  padding: 30px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.0705882353);
+  border: 1px solid rgba(255, 255, 255, 0.1490196078);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+.vertical-slide .right-part .review-card::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  background: url(../images/hire-main/quote.png);
+  width: 60px;
+  height: 60px;
+}
+.vertical-slide .right-part ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-bottom: 0px;
+}
+.vertical-slide .right-part .review-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #E4E4E7;
+}
+.vertical-slide .right-part .user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.vertical-slide .right-part .user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.vertical-slide .right-part .user h4 {
+  color: #E4E4E7;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+}
+.vertical-slide .right-part .user span {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+}
+.vertical-slide .right-part {
+  /* ANIMATION */
+}
+@keyframes scrollCards {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+.vertical-slide .right-part {
+  /* FADE */
+}
+.vertical-slide .right-part .cards-wrapper::before {
+  top: 0;
+  background: linear-gradient(to bottom, #020617, transparent);
+}
+.vertical-slide .right-part .cards-wrapper::after {
+  bottom: 0;
+  background: linear-gradient(to top, #020617, transparent);
+}
+@media (max-width: 768px) {
+  .vertical-slide .right-part .review-card {
+    padding: 26px;
+  }
+}
+
+.fintech-delivery.vertical-slide::before {
+  right: -408px;
+  top: -30px;
+}
+
 .stacking-cards-section {
   background-color: #FFFFFF;
 }
@@ -3319,6 +3422,12 @@ input:-webkit-autofill:active {
   .vertical-tabs__heading {
     margin-bottom: 40px;
   }
+}
+.vertical-tabs__heading > span {
+  font-size: 14px;
+  color: #0400F5;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .vertical-tabs__heading h2 {
   color: #010101;
@@ -3580,8 +3689,8 @@ input:-webkit-autofill:active {
   /*======= Service Card =======*/
 }
 .vertical-tabs__card {
-  background: #f6f8fb;
-  border: 1.5px solid transparent;
+  background: #ffffff;
+  border: 1px solid #F4F4F5;
   border-radius: 14px;
   padding: 25px 37px 27px 25px;
   transition: all 0.25s ease;
@@ -3596,7 +3705,6 @@ input:-webkit-autofill:active {
   border-color: rgba(5, 36, 126, 0.2);
   border: 1px solid #0400F5;
   background: #ffffff;
-  transform: translateY(-2px);
   box-shadow: 0px 2px 14px 0px rgba(4, 0, 245, 0.1490196078);
 }
 .vertical-tabs__card p {
@@ -3648,6 +3756,46 @@ input:-webkit-autofill:active {
     transform: translateY(0);
   }
 }
+.vertical-tabs.specialists .vertical-tabs__grid {
+  overflow-y: scroll;
+  max-height: 432px;
+  padding-right: 30px;
+}
+.vertical-tabs.specialists .vertical-tabs__grid::-webkit-scrollbar {
+  width: 8px;
+}
+.vertical-tabs.specialists .vertical-tabs__grid::-webkit-scrollbar-thumb {
+  background: #D4D4D8;
+  border-radius: 999px;
+}
+.vertical-tabs.specialists .vertical-tabs__grid::-webkit-scrollbar-track {
+  background: #F4F4F5;
+  border-radius: 12px;
+}
+.vertical-tabs.specialists .vertical-tabs__grid .vertical-tabs__card {
+  position: relative;
+}
+.vertical-tabs.specialists .vertical-tabs__grid .vertical-tabs__card::after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 1;
+  background: url(../images/hire-main/Open-arrow.svg);
+  display: none;
+}
+.vertical-tabs.specialists .vertical-tabs__grid .vertical-tabs__card:hover::after {
+  display: block;
+}
+.vertical-tabs.specialists .vertical-tabs__grid .open-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 .compliance-section {
   background-color: #F8FAFC;
 }
@@ -4087,8 +4235,9 @@ input:-webkit-autofill:active {
   line-height: 1.2;
   margin-bottom: 20px;
 }
-.pixel-section .text-content h2 span {
+.pixel-section .text-content h2 em {
   color: #0400F5;
+  font-family: "PlayfairDisplay";
 }
 .pixel-section .text-content p {
   margin-bottom: 40px;
@@ -4258,6 +4407,10 @@ input:-webkit-autofill:active {
 }
 .insights .insights__top-part h2 {
   margin-bottom: 10px;
+}
+.insights .insights__top-part h2 em {
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
 }
 .insights .insights__top-part p {
   font-size: 18px;
@@ -4760,8 +4913,9 @@ input:-webkit-autofill:active {
   color: #0f172a;
   line-height: 1.2;
 }
-.faq-section .faq-left h2 span {
+.faq-section .faq-left h2 em {
   color: #0400F5;
+  font-family: "PlayfairDisplay";
 }
 .faq-section .faq-left p {
   margin-top: 16px;

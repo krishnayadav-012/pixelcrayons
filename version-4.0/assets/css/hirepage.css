@@ -9,13 +9,11 @@
     font-display: block;
   }
 }
-@media only screen and (min-width: 768px) {
-  @font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-    font-weight: 100 900;
-    font-style: italic;
-  }
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
 }
 * {
   margin: 0;
@@ -2841,6 +2839,73 @@ input:-webkit-autofill:active {
     padding: 10px 15px;
   }
 }
+.table-list-section.hire-table .table-list li:nth-child(2n) {
+  background: #ffffff !important;
+}
+
+.table-list-section.hire-table .flex-5.table-list ul li:first-child {
+  font-weight: 600;
+  color: #3F3F47;
+  font-size: 18px;
+}
+
+.table-list-section.hire-table .flex-5.table-list.active ul {
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+.table-list-section.hire-table .flex-5.table-list.active ul li:first-child {
+  background-color: #0400F5 !important;
+  color: #ffffff;
+}
+.table-list-section.hire-table .flex-5.table-list.active ul li {
+  background-color: #FBFBFF !important;
+}
+
+.table-list-section.hire-table .append-btn {
+  position: absolute;
+  bottom: 214px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.table-list-section.hire-table .col-box-outer {
+  box-shadow: 0px 4px 40px 0px rgba(176, 198, 255, 0.3294117647) !important;
+  border-radius: 20px !important;
+}
+
+.table-list-section.hire-table .first-col ul li:first-child {
+  color: #71717B !important;
+}
+.table-list-section.hire-table .first-col ul li {
+  color: #71717B;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.table-list-section.hire-table .top-part {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.table-list-section.hire-table .top-part span {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #0400F5;
+}
+.table-list-section.hire-table .top-part h2 {
+  color: #18181B;
+}
+.table-list-section.hire-table .top-part h2 em {
+  font-style: normal;
+  font-family: "PlayfairDisplay";
+  color: #0400F5;
+}
+.table-list-section.hire-table .top-part p {
+  margin-bottom: 0;
+  color: #3F3F47;
+}
+
 .gets-started {
   background: #05247e;
 }

@@ -22,7 +22,7 @@
         <div class="left-part">
           <h1>Scale Agency<br>
             Delivery Without<br>
-            Hiring or <strong>Client Risk.</strong>
+            Hiring or <em>Client Risk.</em>
           </h1>
           <p>White-label marketing, design, engineering, and <a href="#">analytics</a> pods that integrate into your
             workflow — under
@@ -75,7 +75,7 @@
   <section class="driving-growth">
     <div class="container">
       <div class="top-section">
-        <h2>Built Exclusively for Agencies</h2>
+        <h2>Built Exclusively for <em>Agencies</em></h2>
         <p>We've built specialized delivery pods designed to solve the specific scaling bottlenecks of four distinct
           agency types.</p>
       </div>
@@ -323,7 +323,7 @@
     <div class="container">
       <div class="section-header">
 
-        <h2>Let’s Turn Delivery Challenges into Growth Opportunities</h2>
+        <h2>Let’s Turn Delivery Challenges into <em>Growth Opportunities</em></h2>
         <p>You stay front-stage. We manage the work behind the scenes - governed, SLA-bound, and measurable.</p>
       </div>
       <div class="card-grid">
@@ -545,7 +545,7 @@
   <section class="comparison" id="elm-expand-tlb">
     <div class="container">
       <div class="section-header">
-        <h2>Scaling Delivery: In-House vs White-Label</h2>
+        <h2>Scaling Delivery: In-House vs <em>White-Label</em></h2>
         <p>
           When client demand grows, agencies have two options. Only one protects
           speed, margins, and reputation.
@@ -621,7 +621,7 @@
       <div class="content-wrapper">
 
         <div class="text-content">
-          <h2>Why Agencies Work With <span>PixelCrayons</span></h2>
+          <h2>Why Agencies Work With <em>PixelCrayons</em></h2>
           <p>Agencies stay with us because we make delivery easier—not complicated.</p>
 
           <ul class="features-list">
@@ -702,7 +702,7 @@
 
       <div class="insights__top-part">
         <div>
-          <h2>Insights for Growing Agencies</h2>
+          <h2>Insights for Growing <em>Agencies</em></h2>
           <p>Practical reads on scaling delivery, protecting margins, and managing peak workload.</p>
         </div>
 
@@ -994,7 +994,7 @@
         <!-- LEFT CONTENT -->
         <div class="faq-left">
           <h2>
-            Frequently Asked <span>Questions</span>
+            Frequently Asked <em>Questions</em>
           </h2>
           <p>
             Here are some questions related to software outsourcing that our clients frequently ask.
