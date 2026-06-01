@@ -4101,6 +4101,11 @@ input:-webkit-autofill:active {
   margin-left: auto;
   overflow: hidden;
 }
+@media screen and (max-width: 767px) {
+  .vertical-slide .right-part .cards-wrapper {
+    margin: 0 auto;
+  }
+}
 .vertical-slide .right-part .cards-track {
   display: flex;
   flex-direction: column;
@@ -4185,7 +4190,7 @@ input:-webkit-autofill:active {
   bottom: 0;
   background: linear-gradient(to top, #020617, transparent);
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .vertical-slide .right-part .review-card {
     padding: 26px;
   }
@@ -4329,6 +4334,11 @@ input:-webkit-autofill:active {
   min-width: 512px;
   z-index: 1;
   position: relative;
+}
+@media screen and (max-width: 540px) {
+  .pixel-section .visual-content {
+    min-width: unset;
+  }
 }
 .pixel-section .visual-content ul {
   display: grid;

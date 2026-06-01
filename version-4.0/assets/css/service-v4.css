@@ -6048,6 +6048,11 @@ input:-webkit-autofill:active {
   bottom: 0;
 }
 
+@media (max-width: 1440px) {
+  .tabs-section .tabs-container .tabs .tab {
+    font-size: 16px;
+  }
+}
 @media (max-width: 1380px) {
   .tabs-section.techno-tabs .tabs-container .tabs {
     gap: 10px;
@@ -6229,6 +6234,9 @@ input:-webkit-autofill:active {
   }
   .tabs-section.kpi-tabs .tabs-container .tab-content .content .img-div {
     margin: 30px 0 0;
+  }
+  .tabs-section .tabs-container .tabs .tab {
+    gap: 8px;
   }
 }
 .software-costing {

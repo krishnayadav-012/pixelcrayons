@@ -369,6 +369,11 @@ padding-left: 60px;
     width: 507px;
     margin-left: auto;
     overflow:hidden;
+
+    @media screen and (max-width:767px) {
+        margin: 0 auto;
+    }
+
 }
 
 .cards-track{
@@ -486,12 +491,14 @@ ul{
 
 
 
-@media(max-width:768px){
+@media screen and (max-width:768px){
 
    
     .review-card{
         padding:26px;
     }
+
+    
 }
    }
    .fintech-delivery.vertical-slide::before{

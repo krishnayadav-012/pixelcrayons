@@ -153,6 +153,10 @@ $bg-light: #FAFAFA;
     z-index: 1;
     position: relative;
 
+    @media screen and (max-width:540px) {
+      min-width: unset;
+    }
+
 
 
     ul {
@@ -274,5 +278,7 @@ $bg-light: #FAFAFA;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
     }
+   
   }
 }
+

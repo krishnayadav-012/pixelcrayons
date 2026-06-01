@@ -172,6 +172,10 @@
 }
 
 // .table-list-section.hire-table
+.table-list-section.hire-table .col-box-outer{
+  min-width: 800px;
+  overflow: scroll;
+}
 .table-list-section.hire-table .table-list li:nth-child(2n){
   background: $white !important;
 }

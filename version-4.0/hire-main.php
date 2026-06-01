@@ -728,72 +728,102 @@
 
 
 
-  <!-- partner-result -->
-  <section class="partner-result">
+<section class="compliance-section padding-t-120 padding-b-120">
     <div class="container">
-      <div class="top-part">
-        <div class="left-part">
-          <h2>Results from brand <em>partnerships.</em></h2>
-        </div>
-        <div class="right-part">
-          <a href="#" class="btn-outline">VIEW ALL</a>
-        </div>
+      <div class="compliance-section__header">
+        <em>Engagement models</em>
+        <h2>One partner. <em>Every discipline.</em></h2>
+        <p>Governance, contractual commitments, and ZDR standards are identical across every model.</p>
       </div>
-      <div class="bottom-cards">
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
-          </div>
-          <div class="content-part">
-            <span>eCommerce & D2C</span>
-            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
-            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
-          </div>
-          <div class="time-period">
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+      <div class="compliance-section__grid">
+
+        <div class="compliance-card compliance-card--light">
+          <div class="compliance-card__top">
+          <div class="icon-text">
+            <div class="icon">
+              <img src="assets/images/hire-main/m-cal.svg" alt="">
             </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
+           
           </div>
-          <a href="#"> Read the case study</a>
+            <h3>Monthly Retainer</h3>
+            <p>For: Teams with ongoing, consistent needs across one role</p>
+          </div>
+          <div class="card-inner-part">
+         
+            <p>A dedicated specialist allocated to your team on a fixed monthly basis. Predictable cost, consistent sprint.</p>
+
+            <ul class="compliance-card__list">
+              <li>Fixed monthly hours allocation</li>
+              <li>Dedicated PM included</li>
+              <li>Weekly reporting + sprint sync</li>
+              <li>30-day notice after initial 3 months</li>
+            </ul>
+          </div>
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Start Team Extension</a>
+          </div>
         </div>
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
-          </div>
-          <div class="content-part">
-            <span>eCommerce & D2C</span>
-            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
-            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
-          </div>
-          <div class="time-period">
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+
+        <div class="compliance-card compliance-card--dark">
+          <div class="compliance-card__top">
+             <div class="icon-text">
+            <div class="icon">
+              <img src="assets/images/hire-main/user.svg" alt="">
             </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
+           <span>most popular
+        </span>
           </div>
-          <a href="#"> Read the case study</a>
+            <h3>Dedicated Team</h3>
+            <p>For: Larger scope needing multi-role or cross-discipline delivery</p>
+          </div>
+          <div class="card-inner-part">
+
+
+            
+            <p>A composed team — lead, specialist, optional QA — operating as an embedded extension of your.</p>
+            <ul class="compliance-card__list">
+              <li>Multi-role team composition</li>
+              <li>Shared sprint with your team</li>
+              <li>One PM across all specialists</li>
+              <li>Quarterly roadmap planning sessions</li>
+            </ul>
+          </div>
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Build a Delivery Pod</a>
+          </div>
         </div>
+
+        <div class="compliance-card compliance-card--light">
+          <div class="compliance-card__top">
+             <div class="icon-text">
+            <div class="icon">
+              <img src="assets/images/hire-main/file.svg" alt="">
+            </div>
+           
+          </div>
+            <h3>Project-Based</h3>
+            <p>For: Defined scope — a build, a sprint-burst, a specific deliverable</p>
+          </div>
+          <div class="card-inner-part">
+          
+            <p>Scoped to a fixed deliverable with defined acceptance criteria. Ideal for rewrites, migrations, launch sprints, or bounded.</p>
+
+            <ul class="compliance-card__list">
+              <li>Defined scope + acceptance criteri</li>
+              <li>Fixed timeline commitment</li>
+              <li>SLA-backed quality standards</li>
+              <li>Seamless shift to retainer if scope grows</li>
+            </ul>
+          </div>
+
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Start Team Extension</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
-  <!-- partner-result -->
 
 
 

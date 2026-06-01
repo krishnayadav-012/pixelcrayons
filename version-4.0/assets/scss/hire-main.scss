@@ -10,7 +10,7 @@
 @use "table-section" as *;
 
 
-@use "partner-result" as *;
+@use "engagement-models" as *;
 @use "horizontal-timeline" as *;
 
 
@@ -820,14 +820,20 @@ p{
 
 @media only screen and (max-width: 479px) {
     .slide-logo {
-        display:none;
+        
         padding: 30px 0
     }
 
     .slide-logo .logo-heading {
         margin: 0 0 20px;
-        margin: 0 0 20px;
-        justify-content: center
+    
+        justify-content: center;
+        h4{
+margin: 0;
+          span{
+            margin: 0;
+          }
+        }
     }
 
     .slide-logo .logo-heading h4 {
@@ -866,6 +872,8 @@ p{
   font-family: 'PlayfairDisplay';
 
 }
-
+.compliance-card__top h3{
+  font-size: 22px;
+}
 
 

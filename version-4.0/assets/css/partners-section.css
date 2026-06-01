@@ -1214,6 +1214,11 @@ input:-webkit-autofill:active {
   z-index: 1;
   position: relative;
 }
+@media screen and (max-width: 540px) {
+  .pixel-section .visual-content {
+    min-width: unset;
+  }
+}
 .pixel-section .visual-content ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

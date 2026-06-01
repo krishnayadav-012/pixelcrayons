@@ -2839,6 +2839,11 @@ input:-webkit-autofill:active {
     padding: 10px 15px;
   }
 }
+.table-list-section.hire-table .col-box-outer {
+  min-width: 800px;
+  overflow: scroll;
+}
+
 .table-list-section.hire-table .table-list li:nth-child(2n) {
   background: #ffffff !important;
 }

@@ -74,6 +74,8 @@
  .card-inner-part{
   padding: 20px 30px 30px 30px;
   background-color: #fff;
+
+  .icon-text
   h3{
     margin-bottom: 5px;
     color: #18181B;
@@ -283,9 +285,10 @@ border: 1px solid #E8E7FE;
 }
  
 .compliance-card__top{min-height: 188px;}
+.compliance-card--dark{background-color: $white;}
 .compliance-card--dark .compliance-card__top{background-color: #0400F5; }
 .compliance-card--dark .compliance-card__top p{color: #D1D5DC; font-size: 16px ; font-weight: 500; }
- .compliance-card__top span{padding: 5px 10px; margin-bottom: 10px; background-color: #E8E7FE; border-radius: 5px; font-size: 14px ; font-weight: 600; color: #0400F5;}
+ .compliance-card__top span{padding: 5px 10px; margin-bottom: 10px; background-color: #E8E7FE; border-radius: 5px; font-size: 14px ; font-weight: 600; color: #0400F5; line-height: normal;}
  .compliance-card--dark .compliance-card__top span{color: #FAFAFA; background-color: #605DFF;}
 .compliance-card--dark .compliance-card__top h3{color: #DFFB0B; font-weight: 700;}
 .compliance-card__footer {
@@ -301,4 +304,29 @@ border: 1px solid #E8E7FE;
 }
 @media screen and (max-width:640px) {
 .compliance-card__top{min-height: auto;}
+}
+
+
+
+.compliance-section__grid .compliance-card--dark .compliance-card__top .icon-text{
+  .icon{
+    background: #605DFF;
+  }
+}
+.compliance-section__grid .compliance-card__top .icon-text{
+  display: flex;
+  justify-content: space-between;
+.icon{
+  width: 42px;
+  height: 40px;
+  background-color: #E8E7FE;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 20px;
+    height: 20px;
+  }
+}
 }
