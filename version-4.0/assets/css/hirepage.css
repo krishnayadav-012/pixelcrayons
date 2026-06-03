@@ -2839,11 +2839,18 @@ input:-webkit-autofill:active {
     padding: 10px 15px;
   }
 }
-.table-list-section.hire-table .col-box-outer {
-  min-width: 800px;
-  overflow: scroll;
+@media screen and (max-width: 1024px) {
+  .table-list-section.hire-table .col-box-outer {
+    min-width: 800px;
+    overflow-x: scroll;
+  }
+  .table-list-section.hire-table {
+    overflow-x: scroll;
+  }
+  .table-list-section.hire-table .append-btn {
+    bottom: 110px !important;
+  }
 }
-
 .table-list-section.hire-table .table-list li:nth-child(2n) {
   background: #ffffff !important;
 }
@@ -2911,6 +2918,17 @@ input:-webkit-autofill:active {
   color: #3F3F47;
 }
 
+.table-list-section.hire-table .inner-table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .table-list-section.hire-table .flex-5 {
+    flex-basis: 20%;
+  }
+}
 .gets-started {
   background: #05247e;
 }

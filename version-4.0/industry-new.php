@@ -117,117 +117,6 @@
 
 
 
-  <!-- new added -->
-  <section class="vertical-tabs padding-t-120  padding-t-120 specialists">
-    <div class="container">
-
-      <!-- Heading -->
-      <div class="vertical-tabs__heading">
-        <span>All Roles</span>
-        <h2>250+ specialists. <em>Find your role.</em></h2>
-        <p>Every specialist is employed in-house by PixelCrayons, vetted by our discipline leads, and available within 48 hours of your brief. Browse by discipline below.</p>
-      </div>
-
-      <!-- Tab Layout -->
-      <div class="vertical-tabs__tab-layout">
-
-        <!-- Left Sidebar -->
-        <div class="vertical-tabs__sidebar">
-
-          <div class="vertical-tabs__tab-btn active" data-services-tab="marketing">
-            <div class="vertical-tabs__tab-icon">
-              <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
-              <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
-            </div>
-            Development Teams
-          </div>
-
-          <div class="vertical-tabs__tab-btn" data-services-tab="engineering">
-            <div class="vertical-tabs__tab-icon">
-              <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
-              <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
-            </div>
-            Marketing Teams
-          </div>
-
-          <div class="vertical-tabs__tab-btn" data-services-tab="design">
-            <div class="vertical-tabs__tab-icon">
-              <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
-              <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
-
-            </div>
-            Design Teams
-          </div>
-
-          <div class="vertical-tabs__tab-btn" data-services-tab="ai">
-            <div class="vertical-tabs__tab-icon">
-              <img src="assets/images/agencies/marketing-white.svg" alt="" class="active">
-              <img src="assets/images/agencies/design-black.svg" alt="" class="enactive">
-
-            </div>
-            AI &amp; Analytics
-          </div>
-
-        </div>
-
-        <!-- Right Content -->
-        <div class="vertical-tabs__content">
-
-          <!-- Marketing Execution -->
-          <div class="vertical-tabs__panel active" id="services-panel-marketing">
-            <div class="vertical-tabs__panel-header">
-              <h3>Development Teams</h3>
-              <p>Frontend, backend, full-stack, eCommerce, and mobile engineers. All roles cover modern stacks with 3–12 years of production experience. Mid, Senior, and available across all roles.</p>
-            </div>
-            <div class="vertical-tabs__grid">
-              <div class="vertical-tabs__card">
-
-                <div class="vertical-tabs__card-title">
-                  <h4>React Developers</h4>
-                </div>
-                <p>React 18, Next.js, TypeScript, Redux, Available now</p>
-              </div>
-              <div class="vertical-tabs__card">
-                <div class="vertical-tabs__card-title">
-                  <h4>Next.js Developers</h4>
-                </div>
-                <p>App Router, RSC, Edge Functions, Vercel, Available now</p>
-              </div>
-              <div class="vertical-tabs__card">
-                <div class="vertical-tabs__card-title">
-                  <h4>Frontend Developers</h4>
-                </div>
-                <p>HTML/CSS, JavaScript, Vue, Tailwind, Available now</p>
-              </div>
-              <div class="vertical-tabs__card vertical-tabs__card--featured">
-                <div class="vertical-tabs__card-title">
-                  <h4>Full-Stack Developers</h4>
-                </div>
-                <p>React + Node.js, Next.js + PostgreSQL, Available now</p>
-              </div>
-              <div class="vertical-tabs__card">
-                <div class="vertical-tabs__card-title">
-                  <h4>Backend Developers</h4>
-                </div>
-                <p>Node.js, Python, Laravel, APIs, DBs, Available now</p>
-              </div>
-              <div class="vertical-tabs__card">
-                <div class="vertical-tabs__card-title">
-                  <h4>Python Developers</h4>
-                </div>
-                <p>Django, FastAPI, Flask, data engineering. Available now</p>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- new added -->
 
   <!-- how it work  -->
 
@@ -460,8 +349,6 @@
         <h2>250+ specialists. <em>Find your role.</em></h2>
         <p>Most hiring decisions are made on cost alone. Here are the structural differences that determine whether a hire actually works — across speed, quality, risk, and total cost.</p>
       </div>
-      <div class="inner-table">
-
       <div class="dis-flex col-box-outer ">
         <div class="flex-5 table-list first-col">
           <ul>
@@ -524,8 +411,6 @@
           </ul>
         </div>
       </div>
-      </div>
-
       <div class="append-btn "><a href="javascript:void(0);" onclick="hireTbl_showMore(this);"><img src="assets/images/hire-main/append-icon.svg" alt=""></a></div>
     </div>
   </section>
@@ -1445,7 +1330,47 @@
       });
     })();
     // ----// 1`````````````````````````````````````````````
+  
+
+
+
+
+
+
+
+
+// no use for now  ```````````````````
+
+ // ~~~~~~~~~~~~~~ delivery works ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        document.addEventListener('DOMContentLoaded', () => {
+            // Select the trigger divs within right-part
+            const triggers = document.querySelectorAll('.right-part .accordion-trigger');
+
+            triggers.forEach(trigger => {
+                trigger.addEventListener('click', function () {
+                    const currentItem = this.parentElement;
+                    const isOpen = currentItem.classList.contains('active');
+
+                    // Condition: Close all other open items in this section
+                    const allItems = document.querySelectorAll('.right-part .accordion-item');
+                    allItems.forEach(item => {
+                        item.classList.remove('active');
+                    });
+
+                    // Toggle current: Open if it was closed
+                    if (!isOpen) {
+                        currentItem.classList.add('active');
+                    }
+                });
+            });
+        });
+        // `````````~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
   </script>
+
 </body>
 
 </html>

@@ -3570,11 +3570,18 @@ input:-webkit-autofill:active {
     padding: 10px 15px;
   }
 }
-.table-list-section.hire-table .col-box-outer {
-  min-width: 800px;
-  overflow: scroll;
+@media screen and (max-width: 1024px) {
+  .table-list-section.hire-table .col-box-outer {
+    min-width: 800px;
+    overflow-x: scroll;
+  }
+  .table-list-section.hire-table {
+    overflow-x: scroll;
+  }
+  .table-list-section.hire-table .append-btn {
+    bottom: 110px !important;
+  }
 }
-
 .table-list-section.hire-table .table-list li:nth-child(2n) {
   background: #ffffff !important;
 }
@@ -3642,6 +3649,17 @@ input:-webkit-autofill:active {
   color: #3F3F47;
 }
 
+.table-list-section.hire-table .inner-table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .table-list-section.hire-table .flex-5 {
+    flex-basis: 20%;
+  }
+}
 .compliance-section {
   background-color: #F8FAFC;
 }
@@ -4262,9 +4280,10 @@ input:-webkit-autofill:active {
   height: 567px;
   width: 507px;
   margin-left: auto;
+  bottom: -99px;
   overflow: hidden;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .vertical-slide .right-part .cards-wrapper {
     margin: 0 auto;
   }
@@ -4364,6 +4383,61 @@ input:-webkit-autofill:active {
   top: -30px;
 }
 
+.vertical-slide .right-part {
+  position: relative;
+  display: block;
+}
+.vertical-slide .right-part:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  content: "";
+  background: linear-gradient(178deg, #090C19 40.22%, rgba(9, 12, 25, 0) 100%);
+}
+.vertical-slide .right-part::before {
+  position: absolute;
+  bottom: -99px;
+  left: 0;
+  width: 100%;
+  height: 22%;
+  z-index: 1;
+  content: "";
+  background: linear-gradient(0deg, rgba(9, 12, 25, 0.8588235294) 40.22%, rgba(9, 12, 25, 0) 100%);
+}
+
+.fintech-delivery.vertical-slide .grid-lines {
+  z-index: -1;
+}
+
+.fintech-delivery.vertical-slide .inner-part .right-part {
+  z-index: -11;
+}
+
+.fintech-delivery.vertical-slide::before {
+  z-index: 111;
+}
+
+.fintech-delivery.vertical-slide::after {
+  position: absolute;
+  left: -300px;
+  content: "";
+  z-index: -1;
+  bottom: -240px;
+  width: 470px;
+  height: 1000px;
+  background: url(../images/agencies/gra-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .fintech-delivery.vertical-slide .grid-lines {
+    display: none;
+  }
+}
 .pixel-section {
   padding: 120px 0px;
   position: relative;
