@@ -1,0 +1,271 @@
+@use "_default" as *;
+$bg-dark: #0a0b1a;
+$text-gray: #a0a0b8;
+
+
+.smarter-solutions {
+  background-color: $bg-dark;
+  color: $white;
+  padding: 120px 0px;
+  overflow: hidden;
+  z-index: 11;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    right: 0;
+    background: url(../images/industry-new/blue-sade.png) no-repeat;
+    width: 600px;
+    height: 100%;
+    content: "";
+    top:0;
+    background-size: cover;
+    
+  }
+  &::before {
+   position: absolute;
+    left: 0;
+    bottom: -150px;
+    transform: rotate(180deg);
+    background: url(../images/industry-new/blue-sade.png) no-repeat;
+    width: 630px;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-size: cover;
+  }
+
+}
+
+.smarter-solutions .inner-part {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+
+  .content-side {
+    width: calc(50% - 35px);
+
+    .section-tegline {
+
+      > span {
+
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        display: inline-block;
+        text-transform: uppercase;
+        line-height: 100%;
+   
+        color: #DFFB0B;
+      }
+
+    }
+
+    h2 {
+      color: $white;
+      margin: 5px 0 10px 0;
+      line-height: 1.2;
+      em{
+          font-family: 'PlayfairDisplay';
+                color: $shine-green;
+      }
+    }
+
+    p {
+      color: $text-gray;
+      margin-bottom: 30px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 25px;
+        color: #D1D5DB;
+        font-size: 16px;
+        font-weight: 500;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url(../images/industry-new/icon-check-white.svg) no-repeat;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 12px;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .cards-grid {
+    width: calc(50% - 30px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    height: 270px;
+    z-index: 9;
+    position: relative;
+    overflow: hidden;
+    border: 0.9px solid;
+border-image-source: linear-gradient(137.2deg, #2E2D52 3.59%, #2826A3 95.81%);
+box-shadow: 0px 0px 13.45px 0px #6177981A;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 200px;
+      border-radius: 20px;
+      z-index: -1;
+      height: 200px;
+      background-size: cover;
+      background-image: url(../images/industry-new/box-sade.png);
+    }
+
+    &:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      z-index: -11;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+
+    }
+
+    .flip-card-front {
+      img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      h3 {
+        color: $white;
+        font-size: 18px;
+      }
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 25px;
+      border: 1px solid #5D2BFF;
+      background-color: #131723;
+    }
+
+    .flip-card-back {
+      background: radial-gradient(100.29% 94.29% at 85% 77%, rgba(93, 43, 255, 0.87) 0, rgba(5, 22, 77, 0) 100%);
+      transform: rotateY(180deg);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      align-items: baseline;
+
+      p {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 140%;
+        text-align: left;
+      }
+
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+      }
+
+      h3 {
+        color: $white;
+        font-weight: 600;
+        margin-bottom: 7px;
+        margin-top: 15px;
+        font-size: 16px;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width:992px) {
+  .smarter-solutions .inner-part .flip-card .flip-card-back h3{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .smarter-solutions .inner-part .flip-card .flip-card-front, .smarter-solutions .inner-part .flip-card .flip-card-back{
+    padding: 15px;
+  }
+  .smarter-solutions .inner-part{
+    gap: 20px;
+  }
+  .smarter-solutions .inner-part .cards-grid{
+    width: calc(50% - 5px);
+  }
+.smarter-solutions {
+padding: 70px 0;
+}
+}
+@media screen and (max-width:768px) {
+  .smarter-solutions .inner-part{
+    flex-wrap: wrap;
+
+  }
+  .smarter-solutions .inner-part .content-side{width: 100%;}
+  .smarter-solutions .inner-part .cards-grid{width: 100%; grid-template-columns: auto;}
+  .smarter-solutions .inner-part .flip-card::before{
+    background-size: cover;
+  }
+.smarter-solutions {
+
+padding: 40px 0;}
+}
+
+@media screen and (max-width:640px) {
+  .smarter-solutions{
+    padding: 40px 0;
+  }
+  .smarter-solutions .inner-part .content-side ul li{margin-bottom: 10px;}
+  .smarter-solutions .inner-part .content-side ul li::before{width: 14px; height: 14px; background-size: cover;}
+  .smarter-solutions .inner-part .content-side ul li{padding-left: 25px;}
+  .smarter-solutions .inner-part .flip-card{height: 240px;}
+}
+.smarter-solutions.compliance .home-cta-button{
+margin-top: 50px;
+}

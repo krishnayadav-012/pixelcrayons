@@ -1,0 +1,204 @@
+@use "_default" as *;
+
+// ── Section ───────────────────────────────────────────────────
+.services-ecommerce {
+  padding: 90px 0 100px;
+  background: $white;
+
+
+
+  // eyebrow label
+  .top-part {
+    text-align: center;
+    padding-bottom: 80px;
+    max-width: 1134px;
+    margin: 0 auto;
+
+    span {
+      font-size: 14p;
+      font-weight: 600;
+      color: $royelblue;
+      text-transform: uppercase;
+    }
+
+    // main heading
+    h2 {
+      color: #18181B;
+      margin-bottom: 20px;
+
+      em {
+        color: $royelblue;
+        font-family: 'PlayfairDisplay';
+      }
+    }
+
+    p {
+      color: #3F3F47;
+    }
+  }
+
+
+
+  // ── inner-part Grid ────────────────────────────────────────────────
+  .inner-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 39px;
+
+    // ── Single Card ───────────────────────────────────────────
+    .card-box {
+      width: calc(33.33% - 26px);
+      border: 1px solid #E8E7FE;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      
+      transition:
+        border-color 0.28s ease,
+        background 0.28s ease,
+        box-shadow 0.28s ease,
+        transform 0.28s ease;
+        >a{
+          padding: 30px;
+          display: block;
+        }
+
+      // ── Card top row (icon + tag) ──────────────────────────
+      .card-top {
+        display: flex;
+        align-items:self-start ;
+        justify-content: space-between;
+        margin-bottom: 24px;
+
+        .icon {
+          width: 46px;
+          height: 46px;
+          display: flex;
+          border-radius: 10px;
+          align-items: center;
+          justify-content: center;
+          background: #E8E7FE;
+
+          i {
+            border-radius: 10px;
+            line-height: 1;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+
+        }
+          .tag {
+            padding: 5px 10px;
+            background: #F5F5FF;
+            line-height: 1;
+
+            border-radius: 5px;
+
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              color: #71717B;
+
+            }
+          }
+
+        // category tag
+
+      }
+
+      // ── Heading ───────────────────────────────────────────
+      .card-bottom{
+
+        h3 {
+          font-size: clamp(16px, 1.4vw, 20px);
+        font-weight: 600;
+        color: #27272A;
+        margin-bottom: 10px;
+
+      }
+
+      // ── Body text ─────────────────────────────────────────
+      &>p {
+
+        color: #3F3F47;
+        font-weight: 500;
+        margin-bottom: 40px;
+      }
+      
+      // ── Explore link ──────────────────────────────────────
+      .bottom-link{
+        span {
+          display:flex;
+          align-items: center;
+          gap: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #71717B;
+        text-decoration: none;
+        width: fit-content;
+        
+        // arrow icon via CSS
+        &::after {
+          content: '';
+          display: inline-block;
+          width: 16px;
+          background-image: url(../images/industry-new/right-arrow-gry.svg);
+          height: 12px;   
+        }
+      }
+    }
+  }
+
+      // ── Hover state ───────────────────────────────────────
+      &:hover {
+        background: $white;
+        border: 1px solid $royelblue;
+        box-shadow: 0px 4px 29px 9px #0400F51C;
+        &>.card-top {
+          &>i {
+            background: #FFAD000D;
+          }
+          &>span {
+            background: #F5F5FF;
+            color: #71717B;
+          }
+        }
+
+        &>h3 {
+          color: $darkcolor;
+        }
+      .bottom-link{
+        &> span {
+          color: $royelblue;
+          
+          &::after {
+            background-image: url(../images/industry-new/arrow_forward.svg);
+          }
+        }
+        }
+      }
+      // ── Responsive ────────────────────────────────────────
+      @media (max-width: 1024px) {
+        width: calc(50% - 26px);
+      }
+      @media (max-width: 767px) {
+                width: 100%;
+                
+
+      }
+    }
+  }
+}
+
+  @media sreen and (max-width: 767px) {
+               .services-ecommerce .inner-part .card-box > a{
+                padding: 20px;
+               }
+                
+
+      }

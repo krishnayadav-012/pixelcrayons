@@ -1,0 +1,325 @@
+@use "_default" as *;
+.case-studies{
+
+    background-color: #090C19;
+    position: relative;
+    z-index: 1;
+    &::before{
+        position: absolute;
+    right: 0;
+    content: "";
+    z-index: -1;
+    top: 0;
+    width: 1000px;
+    height: 1000px;
+    background: url(../images/industry-new/blue-sade.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+.case-studies .home-cta-button{
+border: 1px solid #71717B;
+background-color: transparent;
+color: #9F9FA9 !important;
+}
+.case-studies .home-cta-button::before{
+    background: #71717B ;
+    width: 22px;
+    height: 22px;
+    right: 1px;
+}
+.case-studies .home-cta-button:after{
+    background: url(../images/industry-new/btn-icon.svg) no-repeat;
+}
+.fintech-section.case-studies{
+  background-color: #090C19;
+
+/* TOP */
+.s-top{display:flex;justify-content:space-between;  margin-bottom: 60px;
+  
+   @media screen and (max-width:860px) {
+flex-direction: column;
+
+}
+.left-part{
+width: 50%;
+ @media screen and (max-width:860px) {
+width: 100%;
+}
+span{
+    color: $shine-green;
+    text-transform: uppercase;
+}
+    h2{color:#fff; 
+        em{
+             font-family: 'PlayfairDisplay';
+                color: $shine-green;
+        }
+        @media screen and (max-width:1024px) {
+            width: 100%;
+        }
+    }
+    
+    p{font-weight: 500; color: #D1D5DC;  
+        @media screen and (max-width:1024px) {
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+}
+.right-part{
+    width: fit-content;
+    a{
+    }
+}
+}
+
+ .cards{    display: grid; margin-bottom: 40px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  
+       @media screen and (max-width:1024px) {
+margin-bottom: 80px;
+}
+   @media screen and (max-width:767px) {
+margin-bottom: 40px;
+}
+
+
+  }
+
+
+
+ .glider {
+  overflow: hidden;
+}
+
+.slide-card {
+  .inner-card{
+
+    display: flex;
+    gap: 30px;
+  }
+}
+
+ul li.active {
+  font-weight: bold;
+}
+
+
+/* CARD */
+.slide-card{
+  display: inline-block;
+  .inner-card{
+    min-width:100%;width:100%;
+    background:#141c2e;border-radius:20px;border:1px solid rgba(255,255,255,.07);
+    display:flex!important;overflow:hidden;min-height:420px;
+
+       @media screen and (max-width:1024px) {
+        min-height: unset;
+      flex-direction: column; 
+      .card-l{width: 100%;}
+      .card-r{
+        display: none;
+      }
+      }
+
+  }
+}
+.cards{
+
+/* CARD LEFT */
+.card-l{ width: 55%;  padding:62px 77px 61px 50px ;display:flex;flex-direction:column;justify-content:center;
+align-content: flex-start;
+    span{
+        color: $shine-green;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+     @media screen and (max-width:1024px) {
+padding: 45px 20px 45px 40px;
+}
+
+     @media screen and (max-width:767px) {
+padding: 25px 10px 25px 20px;
+}
+
+
+ h3{color:#fff; font-size: 22px; font-weight: 600; margin-bottom: 10px;}
+ h3 a{color: $shine-green;}
+p{ color: #E4E4E7;}
+.revenue-box{
+    padding-top: 21px;
+    gap: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #27272A;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width:992px){
+        flex-wrap: wrap;
+    }
+
+    .box{
+        text-align: left;
+        h4{
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: $shine-green;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #D4D4D8;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+    }
+}
+
+
+
+> a{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 50px;
+  color: $shine-green;
+  position: relative;
+       @media screen and (max-width:767px) {
+      margin-top: 30px; 
+      }
+  &::after{
+        content: "";
+    background: url(../images/industry-new/yellow-icon.svg) no-repeat;
+    width: 12px;
+    height: 9px;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 9px;
+    margin-top: 0px;
+       @media screen and (max-width:1024px) {
+margin-left: 5px; height: 10px;
+  }
+}
+
+}
+
+}
+
+/* CARD RIGHT */
+.card-r{ width: 45%;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+} 
+
+
+}
+
+/* BOTTOM NAV */
+.slider-bottom{display:flex;align-items:center;justify-content:space-between;  position: relative;
+    @media screen and (max-width:767px) {
+    flex-direction: column;
+    gap: 10px;
+    }
+
+
+}
+
+.glider-nav {
+    position: absolute;
+    width: 80px; 
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 0px;
+
+    // @media screen and (max-width:767px) {
+      
+    // top: -30px;
+    // transform: translate(-68%, -50%);
+    // left: 50%;
+    // left: 50%;
+    // }
+
+     button {
+    width: 35px;
+    height: 35px;
+    border-radius: 16px;
+    border: 2px solid #364153;
+    background: transparent;
+    color: #05164d;
+    cursor: pointer;
+    position: static;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 18px;
+    top: 88%;
+}
+ .glider-prev {
+        transform: rotate(-180deg);
+}
+.glider-next{
+
+  transform: translateY(0px)!important;
+}
+.glider-next.disabled, .glider-prev.disabled {
+  opacity: 11;
+}
+
+}
+
+}
+
+.fintech-section .slider-bottom .master-btn .btn-circle {
+  border: 0.83px solid  #52525C !important;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 60px !important;
+  background: transparent !important;
+}
+.fintech-section .slider-bottom .master-btn .circle{
+  background: #FFAD00 !important;
+}
+.fintech-section .master-btn .text::before, .master-btn .text::after{
+  color: #9F9FA9 !important;
+  
+}
+.fintech-section .master-btn .btn-circle:hover .text::before, .fintech-section .master-btn .btn-circle:hover .text::after{
+  color: #9F9FA9 !important;
+
+}
+
+.fintech-section .glider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.fintech-section .glider-dot {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    border-radius: 50%;
+    background: #9F9FA9;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fintech-section .glider-dot.active {
+    background: #0400F5;
+}
