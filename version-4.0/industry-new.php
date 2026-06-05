@@ -1447,7 +1447,7 @@
 
 
 
-    // ~~~~~~~~~~~~~~ delivery works ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // ~~~~~~~~~~~~~~ we-help-part ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     const weHelpSection = document.querySelector(".we-help-part");
 
     if (weHelpSection) {

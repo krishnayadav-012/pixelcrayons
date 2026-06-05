@@ -3,6 +3,48 @@
 .we-help-part {
     background: #FAFAFA;
 
+    .top-inner{
+            margin-bottom: 80px;
+            display: flex;
+            gap: 104px;
+            justify-content: space-between;
+            align-items: end;
+            width: 100%;
+              @media screen and (max-width:1140px) {
+            gap: 80px;
+        }
+
+        @media screen and (max-width:1024px) {
+            flex-wrap: wrap;
+        }
+            .top-part{
+                margin-bottom: 0;
+                text-align: left;
+                width: calc(50% - 52px);
+                
+            @media screen and (max-width:1140px) {
+                width: calc(50% - 40px);
+            }
+
+            @media screen and (max-width:1024px) {
+                width: 100%;
+            }
+            }
+            .top-right{
+                text-align: left;
+                width: calc(50% - 52px);
+                
+                
+            @media screen and (max-width:1140px) {
+                width: calc(50% - 40px);
+            }
+
+            @media screen and (max-width:1024px) {
+                width: 100%;
+            }
+            }
+    }
+
     .top-part {
         text-align: center;
         max-width: 992px;

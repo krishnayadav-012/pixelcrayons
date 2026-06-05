@@ -1083,6 +1083,53 @@ input:-webkit-autofill:active {
 .we-help-part {
   background: #FAFAFA;
 }
+.we-help-part .top-inner {
+  margin-bottom: 80px;
+  display: flex;
+  gap: 104px;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+@media screen and (max-width: 1140px) {
+  .we-help-part .top-inner {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .we-help-part .top-inner {
+    flex-wrap: wrap;
+  }
+}
+.we-help-part .top-inner .top-part {
+  margin-bottom: 0;
+  text-align: left;
+  width: calc(50% - 52px);
+}
+@media screen and (max-width: 1140px) {
+  .we-help-part .top-inner .top-part {
+    width: calc(50% - 40px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .we-help-part .top-inner .top-part {
+    width: 100%;
+  }
+}
+.we-help-part .top-inner .top-right {
+  text-align: left;
+  width: calc(50% - 52px);
+}
+@media screen and (max-width: 1140px) {
+  .we-help-part .top-inner .top-right {
+    width: calc(50% - 40px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .we-help-part .top-inner .top-right {
+    width: 100%;
+  }
+}
 .we-help-part .top-part {
   text-align: center;
   max-width: 992px;

@@ -1,0 +1,309 @@
+@use "_default" as *;
+
+.vendor-partner-section {
+    background: linear-gradient(
+        90deg,
+        $bg-dark-blue 0%,
+        #080c7a 55%,
+        #120873 100%
+    );
+
+    padding: 100px 0;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+        height: 220px;
+        background-image:
+            linear-gradient(rgba($white, 0.06) 1px, transparent 1px),
+            linear-gradient(90deg, rgba($white, 0.06) 1px, transparent 1px);
+        background-size: 38px 38px;
+    }
+
+    .vp-wrapper {
+        display: flex;
+        gap: 80px;
+        align-items: flex-start;
+    }
+
+    .vp-left {
+        width: 38%;
+        position: sticky;
+        top: 120px;
+
+        .eyebrow {
+            display: block;
+            color: $shine-green;
+            font-size: 13px;
+            letter-spacing: 3px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 58px;
+            line-height: 1;
+            margin-bottom: 20px;
+            font-weight: 700;
+
+            em {
+                color: $shine-green;
+                font-style: italic;
+                font-family: serif;
+            }
+        }
+
+        p {
+            color: rgba($white, 0.8);
+            font-size: $body-text2;
+            line-height: 1.8;
+            max-width: 500px;
+        }
+
+        .vp-btn {
+            margin-top: 35px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 180px;
+            height: 54px;
+            border-radius: 50px;
+            background: $shine-green;
+            color: $darkcolor;
+            font-weight: 700;
+            text-decoration: none;
+            position: relative;
+
+            &:after {
+                content: "›";
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                background: $royelblue;
+                color: $white;
+                margin-left: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .vp-right {
+        width: 62%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .vp-card {
+        position: relative;
+        padding: 0 0 10px;
+
+        &:first-child {
+            border-right: 1px solid rgba($white, 0.18);
+            padding-right: 40px;
+        }
+
+        h3 {
+            color: $white;
+            font-size: 34px;
+            text-transform: uppercase;
+            margin: 25px 0 15px;
+        }
+
+        p {
+            color: rgba($white, 0.8);
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+    }
+
+    .vp-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        background: rgba($white, 0.12);
+        position: relative;
+    }
+
+    .vendor-card {
+        .vp-icon:before,
+        .vp-icon:after {
+            content: "";
+            position: absolute;
+            background: rgba($white, 0.6);
+        }
+
+        .vp-icon:before {
+            width: 18px;
+            height: 2px;
+            left: 13px;
+            top: 21px;
+        }
+
+        .vp-icon:after {
+            width: 2px;
+            height: 18px;
+            left: 21px;
+            top: 13px;
+        }
+    }
+
+    .partner-card {
+        .vp-icon:before {
+            content: "";
+            position: absolute;
+            width: 14px;
+            height: 8px;
+            border-left: 2px solid $shine-green;
+            border-bottom: 2px solid $shine-green;
+            transform: rotate(-45deg);
+            left: 14px;
+            top: 14px;
+        }
+    }
+
+    .vp-highlight {
+        background: rgba(38, 45, 190, 0.75);
+        border-radius: 10px;
+        padding: 18px 20px;
+        margin-bottom: 20px;
+
+        span {
+            display: block;
+            color: rgba($white, 0.7);
+            font-size: 13px;
+        }
+
+        strong {
+            color: $white;
+            font-size: 28px;
+            display: block;
+            margin-top: 5px;
+        }
+    }
+
+    .vp-toggle {
+        background: transparent;
+        border: 0;
+        color: rgba($white, 0.7);
+        cursor: pointer;
+        padding: 0;
+        font-size: 15px;
+
+        &:after {
+            content: "⌄";
+            margin-left: 6px;
+        }
+    }
+
+    .vp-expand {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .6s ease;
+    }
+
+    .vp-card.active {
+        .vp-expand {
+            max-height: 800px;
+            margin-top: 30px;
+        }
+
+        .vp-toggle:after {
+            transform: rotate(180deg);
+            display: inline-block;
+        }
+    }
+
+    .negative-list,
+    .positive-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            color: rgba($white, 0.85);
+            padding-left: 24px;
+            margin-bottom: 18px;
+            line-height: 1.7;
+        }
+    }
+
+    .negative-list li {
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 11px;
+            width: 12px;
+            height: 2px;
+            background: #ff5b5b;
+        }
+
+        &:before {
+            transform: rotate(45deg);
+        }
+
+        &:after {
+            transform: rotate(-45deg);
+        }
+    }
+
+    .positive-list li {
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 7px;
+            width: 12px;
+            height: 6px;
+            border-left: 2px solid $shine-green;
+            border-bottom: 2px solid $shine-green;
+            transform: rotate(-45deg);
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .vp-wrapper {
+            flex-direction: column;
+        }
+
+        .vp-left,
+        .vp-right {
+            width: 100%;
+        }
+
+        .vp-left {
+            position: static;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .vp-right {
+            grid-template-columns: 1fr;
+            gap: 50px;
+        }
+
+        .vp-card:first-child {
+            border-right: 0;
+            padding-right: 0;
+        }
+
+        .vp-left h2 {
+            font-size: 40px;
+        }
+
+        .vp-card h3 {
+            font-size: 26px;
+        }
+    }
+}
