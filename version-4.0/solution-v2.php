@@ -29,6 +29,8 @@
     <div class="container">
       <div class="inner-part">
         <div class="left-part">
+          <div class="breadcrumbs">
+          <a href="#">Home</a> solution        </div>
           <h1>One team. <br> Every <em>discipline.</em>
           </h1>
           <p>You shouldn't need five vendors to run a brand online. PixelCrayons gives growing brands a single execution partner for marketing, development, design, and AI - with one point of contact and one accountable team.</p>
@@ -202,380 +204,245 @@
     </div>
   </section>
 
-<!--  -->
-  <section class="vendor-partner-section">
-    <div class="container">
 
-        <div class="vp-wrapper">
 
-            <!-- Left Content -->
-            <div class="vp-left">
-                <span class="eyebrow">THE REAL COST</span>
-
-                <h2>
-                    What the fragmented
-                    model <em>actually costs.</em>
-                </h2>
-
-                <p>
-                    Most businesses underestimate vendor coordination
-                    overhead until they quantify it. Here's what the
-                    status quo looks like — side by side.
-                </p>
-
-                <a href="#" class="vp-btn">
-                    Contact Us
-                </a>
-            </div>
-
-            <!-- Right Content -->
-            <div class="vp-right">
-
-                <!-- Vendor -->
-                <div class="vp-card vendor-card">
-
-                    <div class="vp-icon"></div>
-
-                    <h3>Vendor Model</h3>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-
-                    <div class="vp-highlight">
-                        <span>Coordination overhead</span>
-                        <strong>8–12 hrs/week</strong>
-                    </div>
-
-                    <button class="vp-toggle">
-                        View More
-                    </button>
-
-                    <div class="vp-expand">
-
-                        <ul class="negative-list">
-                            <li>Inconsistent availability</li>
-                            <li>No brand memory</li>
-                            <li>Rebriefs every project</li>
-                            <li>No design context</li>
-                            <li>Scope creep</li>
-                            <li>Slow turnaround on amends</li>
-                            <li>No dev access</li>
-                            <li>Reports not actioned</li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-                <!-- Partner -->
-                <div class="vp-card partner-card">
-
-                    <div class="vp-icon"></div>
-
-                    <h3>Partner Model</h3>
-
-                    <p>
-                        Most businesses underestimate vendor coordination
-                        overhead until they quantify it.
-                    </p>
-
-                    <div class="vp-highlight">
-                        <span>Coordination overhead</span>
-                        <strong>1× weekly sync</strong>
-                    </div>
-
-                    <button class="vp-toggle">
-                        View More
-                    </button>
-
-                    <div class="vp-expand">
-
-                        <ul class="positive-list">
-                            <li>Single point of contact for every discipline</li>
-                            <li>Design, dev, SEO and paid on shared sprint</li>
-                            <li>One invoice. One accountability layer</li>
-                            <li>Weekly reporting across all workstreams</li>
-                            <li>NDA-backed. SLA-guaranteed</li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<!-- ``````````````````````````````````````````````````` -->
- 
-<section class="fragmented-cost-section  padding-t-120 padding-b-120 " >
-    <div class="container">
-
-        <div class="section-heading">
-            <span >THE REAL COST</span>
-            <h2>
-                What the fragmented model
-                <em>actually costs.</em>
-            </h2>
-
-            <p>
-                Most businesses underestimate vendor coordination overhead until they
-                quantify it. Here's what the status quo looks like — side by side.
-            </p>
-        </div>
-
-        <div class="comparison-table">
-
-            <div class="comparison-head">
-                <div class="others">OTHERS</div>
-                <div></div>
-                <div class="pixelcrayons">PIXELCRAYONS</div>
-            </div>
-
-            <div class="comparison-row">
-                <div class="comparison-content negative">
-                   <p> Each vendor accountable only for their scope.
-                    Cross-discipline failures fall through the gap.</p>
-                </div>
-
-                <div class="comparison-label">
-                  <h4>  Accountability</h4>
-                </div>
-
-                <div class="comparison-content positive">
-                   <p> Single SLA covering all disciplines. One team owns the outcome —
-                    not just the deliverable.</p>
-                </div>
-            </div>
-
-            <div class="comparison-row">
-                <div class="comparison-content negative">
-                   <p> 5 separate status meetings. 5 separate reporting formats.
-                    5 separate points of failure.</p>
-                </div>
-
-                <div class="comparison-label">
-                   <h4> Communication Overhead</h4>
-                </div>
-
-                <div class="comparison-content positive">
-                   <p> One weekly sync, one shared dashboard, one account lead who
-                    coordinates internally.</p>
-                </div>
-            </div>
-
-            <div class="comparison-row">
-                <div class="comparison-content negative">
-                   <p> Each new vendor starts from zero. Brand briefs rewritten.
-                    Context rebuilt.</p>
-                </div>
-
-                <div class="comparison-label">
-                 <h4>   Ramp-Up Time</h4>
-                </div>
-
-                <div class="comparison-content positive">
-                  <p>  Institutional brand memory across the full team.
-                    New work begins with context — not a brief.</p>
-                </div>
-            </div>
-
-            <div class="comparison-row">
-                <div class="comparison-content negative">
-                  <p>  Freelancers and smaller agencies often work with your direct competitors.</p>
-                </div>
-
-                <div class="comparison-label">
-                 <h4>   Competitive Exposure</h4>
-                </div>
-
-                <div class="comparison-content positive">
-                <p>    Zero-Competition Guarantee: contractual, structural,
-                    21 years — zero incidents.</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- /situation section  -->
-  <section class="situation padding-t-120 padding-b-120">
-    <div class="container">
-      <div class="top-part">
-        <span>The Situation</span>
-        <h2>You're managing people when you should be <em>running a brand.</em></h2>
-        <p>Most growing brands hit the same wall. The marketing team is stretched. The developer is a freelancer who disappears. The designer works for someone else on Tuesday.</p>
-      </div>
-      <div class="cards-part">
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/card-1.webp" alt="">
-          </div>
-          <div class="content-part">
-            <h3>Vendor chaos everything</h3>
-            <p>Every brief goes to three people. Every approval loop takes a week. The coordination tax is real.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/card-1.webp" alt="">
-          </div>
-          <div class="content-part">
-            <h3>Vendor chaos everything</h3>
-            <p>Every brief goes to three people. Every approval loop takes a week. The coordination tax is real.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/card-1.webp" alt="">
-          </div>
-          <div class="content-part">
-            <h3>Vendor chaos everything</h3>
-            <p>Every brief goes to three people. Every approval loop takes a week. The coordination tax is real.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /situation section  -->
-
-
-
-
-
-  <!-- deliv -problam -->
-  <section class="fintech-delivery padding-t-120  padding-b-120">
+  <!--  -->
+  <section class="vendor-partner-section  padding-t-120 padding-b-120">
     <div class="grid-lines">
       <img src="assets/images/brand/blue-g-f.png" alt="">
     </div>
+
     <div class="container">
-      <div class="inner-part">
-        <div class="left-part">
-          <em>The FinTech Delivery Problem</em>
-          <h2>FinTech teams don’t just have a <em>shipping problem.</em></h2>
-          <p>The real challenge isn’t speed. It’s shipping fast while staying compliant, secure, and audit-ready.</p>
-          <p>That’s where most delivery systems start to break.</p>
+
+      <div class="vp-inner">
+
+        <!-- Left Content -->
+        <div class="vp-left">
+          <span class="eyebrow">THE REAL COST</span>
+
+          <h2>
+            What the fragmented
+            model <em>actually costs.</em>
+          </h2>
+
+          <p>
+            Most businesses underestimate vendor coordination
+            overhead until they quantify it. Here's what the
+            status quo looks like — side by side.
+          </p>
+
+          <a href="#" class="home-cta-button">Contant Us</a>
+        </div>
+
+        <!-- Right Content -->
+        <div class="vp-right">
+
+          <div class="right-inner">
+
+
+            <!-- Vendor -->
+            <div class="vp-card vendor-card">
+
+              <div class="vp-icon"> <img src="assets/images/solution/vendor-modal.svg" alt=""></div>
+
+              <h3>Vendor Model</h3>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+
+              <div class="vp-highlight">
+                <span>Coordination overhead</span>
+                <strong>8–12 hrs/week</strong>
+              </div>
+
+
+
+              <div class="vp-expand">
+
+                <ul class="negative-list">
+                  <li>Inconsistent availability</li>
+                  <li>No brand memory</li>
+                  <li>Rebriefs every project</li>
+                  <li>No design context</li>
+                  <li>Scope creep</li>
+                  <li>Slow turnaround on amends</li>
+                  <li>No dev access</li>
+                  <li>Reports not actioned</li>
+                </ul>
+
+              </div>
+              <button class="vp-toggle">
+                View More
+              </button>
+            </div>
+
+            <!-- Partner -->
+            <div class="vp-card partner-card">
+
+              <div class="vp-icon"> <img src="assets/images/solution/partner-modal.svg" alt=""></div>
+
+              <h3>Partner Model</h3>
+
+              <p>
+                Most businesses underestimate vendor coordination
+                overhead until they quantify it.
+              </p>
+
+              <div class="vp-highlight">
+                <span>Coordination overhead</span>
+                <strong>1× weekly sync</strong>
+              </div>
+
+
+              <div class="vp-expand">
+
+                <ul class="positive-list">
+                  <li>Single point of contact for every discipline</li>
+                  <li>Design, dev, SEO and paid on shared sprint</li>
+                  <li>One invoice. One accountability layer</li>
+                  <li>Weekly reporting across all workstreams</li>
+                  <li>NDA-backed. SLA-guaranteed</li>
+                </ul>
+
+              </div>
+
+              <button class="vp-toggle">
+                View More
+              </button>
+
+            </div>
+
+          </div>
 
         </div>
-        <div class="right-part numbring">
-          <div class="ai-list">
-            <div class="ai-item  ">
-              <div class="card-number">
-                <span>01</span>
-              </div>
-              <div class="title">
-                <h4>Compliance built after engineering decisions are locked</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">Architecture gets defined first, and controls are added later to “meet requirements.” This leads to rework, patch fixes, and systems that technically pass audits but aren’t built for long-term compliance.</span></p>
-                <ul>
-                  <li>SEO</li>
-                  <li>Paid Media</li>
-                  <li>Email</li>
-                  <li>ORM</li>
-                </ul>
-              </div>
-              <div class="progress" style="transition: none; width: 0%;"></div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ``````````````````````````````````````````````````` -->
+
+ <!-- ecommerce services -->
+  <section class="services-ecommerce">
+    <div class="container">
+      <div class="top-part">
+        <span>Services for eCommerce &amp; D2C</span>
+
+        <h2>
+          Every capability your eCommerce operation needs - <em>under one roof.</em>
+        </h2>
+
+        <p>We activate the services your situation demands. Here are the capabilities most commonly required for eCommerce and D2C brands at growth stage.</p>
+      </div>
+      <!-- 6 Cards -->
+      <div class="inner-part">
+
+        <!-- 1 -->
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/card-icon.svg" alt=""></i></div>
+              <div class="tag"><span>Marketing</span></div>
             </div>
-            <div class="ai-item active">
-              <div class="card-number">
-                <span>02</span>
+            <div class="card-bottom">
+              <h3>Performance Marketing Paid Media</h3>
+              <p>Google Shopping, Meta ROAS, TikTok commerce, programmatic - unified campaign management.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
               </div>
-              <div class="title">
-                <h4>AI adoption outpacing governance in delivery workflows</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">There’s limited visibility into how data is used, where it flows, and what gets retained. Without governance, speed increases—but so does risk.</span></p>
-              </div>
-              <div class="progress" style="transition: width 4000ms linear; width: 100%;"></div>
             </div>
-            <div class="ai-item">
-              <div class="card-number">
-                <span>03</span>
-              </div>
-              <div class="title">
-                <h4>External dependencies treated as plug-and-play</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">Payment gateways, KYC providers, and financial data APIs are critical. When integrations are treated as plug-and-play, teams underestimate failure scenarios, compliance implications, and ongoing maintenance overhead.</span></p>
-              </div>
-              <div class="progress" style="transition: none; width: 0%;"></div>
+          </a>
+        </div>
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/seo.svg" alt=""></i></div>
+              <div class="tag"><span>Marketing</span></div>
             </div>
-            <div class="ai-item">
-              <div class="card-number">
-                <span>03</span>
+            <div class="card-bottom">
+              <h3>eCommerce SEO &amp; AEO</h3>
+              <p>Technical SEO, product schema, category page optimisation, and Generative Engine Optimisation for AI shopping discovery.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
               </div>
-              <div class="title">
-                <h4>Delivery systems that lack ownership and traceability</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
-              </div>
-              <div class="progress" style="transition: none; width: 0%;"></div>
             </div>
-          </div>
+          </a>
+        </div>
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/shopify.svg" alt=""></i></div>
+              <div class="tag"><span>DEVELOPMENT</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>Shopify Development</h3>
+              <p>Custom Shopify builds, Shopify Plus, headless Next.js storefronts, and performance-first migrations from slow theme-based stores.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/design.svg" alt=""></i></div>
+              <div class="tag"><span>DESIGN</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>CRO &amp; UX Design</h3>
+              <p>Heatmap analysis, A/B testing, checkout flow redesign, product page UX - designed by the same team that implements the changes.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/email.svg" alt=""></i></div>
+              <div class="tag"><span>MARKETING</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>Email &amp; Retention Marketing</h3>
+              <p>Klaviyo flows, abandoned cart sequences, post-purchase journeys, and loyalty programme integration -retention that compounds CAC.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/ai.svg" alt=""></i></div>
+              <div class="tag"><span>AI</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>AI Automation &amp; Workflow</h3>
+              <p>Inventory alert automation, customer support AI, personalisation engines, and AI-powered product recommendation systems.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </section>
-  <!-- del -problam -->
+  <!-- ecommerce services -->
 
 
-  <!-- how it work  -->
-  <!-- how it work  -->
 
+    <!-- how it work  -->
   <section class="how-it-works padding-t-120  padding-b-120">
     <div class="container">
       <div class="hiw-inner">
@@ -655,112 +522,346 @@
       </div><!-- /.hiw-inner -->
     </div>
   </section>
+  <!-- how it work  -->
+
+
+ 
 
 
 
-  <!-- overlappting section  -->
-  <!-- overlap-section -->
-  <section class="stacking-cards-section padding-b-120 padding-t-120" id="unique-stacking-wrapper">
+
+
+
+
+  <section class="fragmented-cost-section  padding-t-120 padding-b-120 ">
+    <div class="container">
+
+      <div class="section-heading">
+        <span>THE REAL COST</span>
+        <h2>
+          What the fragmented model
+          <em>actually costs.</em>
+        </h2>
+
+        <p>
+          Most businesses underestimate vendor coordination overhead until they
+          quantify it. Here's what the status quo looks like — side by side.
+        </p>
+      </div>
+
+      <div class="comparison-table">
+
+        <div class="comparison-head">
+          <div class="others">OTHERS</div>
+          <div></div>
+          <div class="pixelcrayons">PIXELCRAYONS</div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-content negative">
+            <p> Each vendor accountable only for their scope.
+              Cross-discipline failures fall through the gap.</p>
+          </div>
+
+          <div class="comparison-label">
+            <h4> Accountability</h4>
+          </div>
+
+          <div class="comparison-content positive">
+            <p> Single SLA covering all disciplines. One team owns the outcome —
+              not just the deliverable.</p>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-content negative">
+            <p> 5 separate status meetings. 5 separate reporting formats.
+              5 separate points of failure.</p>
+          </div>
+
+          <div class="comparison-label">
+            <h4> Communication Overhead</h4>
+          </div>
+
+          <div class="comparison-content positive">
+            <p> One weekly sync, one shared dashboard, one account lead who
+              coordinates internally.</p>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-content negative">
+            <p> Each new vendor starts from zero. Brand briefs rewritten.
+              Context rebuilt.</p>
+          </div>
+
+          <div class="comparison-label">
+            <h4> Ramp-Up Time</h4>
+          </div>
+
+          <div class="comparison-content positive">
+            <p> Institutional brand memory across the full team.
+              New work begins with context — not a brief.</p>
+          </div>
+        </div>
+
+        <div class="comparison-row">
+          <div class="comparison-content negative">
+            <p> Freelancers and smaller agencies often work with your direct competitors.</p>
+          </div>
+
+          <div class="comparison-label">
+            <h4> Competitive Exposure</h4>
+          </div>
+
+          <div class="comparison-content positive">
+            <p> Zero-Competition Guarantee: contractual, structural,
+              21 years — zero incidents.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- partner-result -->
+  <section class="partner-result">
     <div class="container">
       <div class="top-part">
-        <h2>FinTech Software <em>Development Services</em></h2>
-        <p>We create, design, and develop software solutions for diverse financial institutions. With our use of cutting-edge technologies, we can help you build robust and competitive FinTech product.</p>
-      </div>
-      <div class="stack-card">
-        <div class="card-body">
-          <div class="card-left">
-            <div class="card-num"><span>1</span></div>
-            <h3>FinTech Consulting</h3>
-            <p>Navigate the evolving FinTech landscape with confidence.</p>
-            <ul>
-              <li>Expert strategic guidance</li>
-              <li>Enhanced operational efficiency</li>
-              <li>Mastery of emerging trends</li>
-            </ul>
-
-            <a href="#">Learn More </a>
-          </div>
-          <div class="card-right">
-            <picture class="">
-
-              <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/01.webp">
-              <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/01.webp" alt="01" width="477" height="300">
-            </picture>
-          </div>
+        <div class="left-part">
+          <h2>Results from brand <em>partnerships.</em></h2>
+        </div>
+        <div class="right-part">
+          <a href="#" class="btn-outline">VIEW ALL</a>
         </div>
       </div>
-      <div class="stack-card">
-        <div class="card-body">
-          <div class="card-left">
-            <div class="card-num"><span>2</span></div>
-            <h3>Custom FinTech Software Development</h3>
-            <p>Build financial solutions that meets the unique needs of your business.</p>
-            <ul>
-              <li>Comprehensive end-to-end solutions</li>
-              <li>Seamless system integrations</li>
-              <li>Streamlined business operations</li>
-            </ul>
-
-            <a href="#">Learn More </a>
+      <div class="bottom-cards">
+        <div class="card">
+          <div class="img-part">
+            <img src="assets/images/brand/ecommerce.png" alt="">
           </div>
-          <div class="card-right">
-            <picture class="">
-
-              <source type="image/webp" srcset="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/02.webp">
-              <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/02.webp" alt="02" width="477" height="300">
-            </picture>
+          <div class="content-part">
+            <span>eCommerce & D2C</span>
+            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
+            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
           </div>
+          <div class="time-period">
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+          </div>
+          <a href="#"> Read the case study</a>
         </div>
-      </div>
-      <div class="stack-card">
-        <div class="card-body">
-          <div class="card-left">
-            <div class="card-num"><span>3</span></div>
-            <h3>Modernization of Legacy Software</h3>
-            <p>Revitalize and upgrade outdated systems for modern demands.</p>
-            <ul>
-              <li>Smooth cloud migration</li>
-              <li>Efficient legacy code overhaul</li>
-              <li>Advanced feature additions</li>
-            </ul>
-
-            <a href="https://www.valuecoders.com/staging">Learn More </a>
+        <div class="card">
+          <div class="img-part">
+            <img src="assets/images/brand/ecommerce.png" alt="">
           </div>
-          <div class="card-right">
-            <picture class="">
-
-
-              <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/03.webp" alt="03" width="477" height="300">
-            </picture>
+          <div class="content-part">
+            <span>eCommerce & D2C</span>
+            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
+            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
           </div>
-        </div>
-      </div>
-      <div class="stack-card">
-        <div class="card-body">
-          <div class="card-left">
-            <div class="card-num"><span>4</span></div>
-            <h3>Digital Marketing Services</h3>
-            <p>Boost your FinTech product visibility with result-driven marketing strategies.</p>
-            <ul>
-              <li>SEO &amp; content strategies</li>
-              <li>Performance marketing</li>
-              <li>Branding &amp; social campaigns</li>
-            </ul>
-
-            <a href="https://www.valuecoders.com/staging">Learn More </a>
+          <div class="time-period">
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
+            <div class="box">
+              <h3>3.4×</h3>
+              <span>Conversion lift</span>
+            </div>
           </div>
-          <div class="card-right">
-            <picture class="">
-
-
-              <img loading="lazy" src="https://www.valuecoders.com/staging/wp-content/uploads/2026/05/04.webp" alt="04" width="477" height="300">
-            </picture>
-          </div>
+          <a href="#"> Read the case study</a>
         </div>
       </div>
     </div>
   </section>
-  <!-- overlappting section  -->
+  <!-- partner-result -->
+
+
+
+
+  <!-- valocity start-->
+   <section class="high-vhelocity">
+    <div class="container">
+      <div class="inner-part">
+        <div class="left-part">
+
+          <h2>Ready to consolidate your eCommerce digital operation?</h2>
+          <p>Book a 30-minute discovery call. We'll diagnose your current stack and show you where integration compresses timelines and cost.</p>
+          <a href="#" class="home-cta-button">CONTACT US</a>
+
+        </div>
+
+
+        <!-- RIGHT CARD STACK -->
+        <div class="hero-right">
+          <div class="card-stack" id="cardStack">
+            <div class="review-card next">
+              <div class="review-header">
+                <img src="assets/images/home-images/review-card-1.png">
+                <ul class="stars">
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                </ul>
+              </div>
+              <p>
+                We finally found a partner who delivers consistently and understands agency timelines.
+              </p>
+              <div class="review-name">
+                <p>– Tiffany</p>
+              </div>
+            </div>
+
+            <div class="review-card last">
+              <div class="review-header">
+                <img src="assets/images/home-images/review-card-1.png">
+                <ul class="stars">
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                </ul>
+              </div>
+              <p>
+                We finally found a partner who delivers consistently and understands agency timelines. PixelCrayons
+                helped us reduce delivery costs while keeping every client happy.
+              </p>
+              <div class="review-name">
+                <p>– Michael</p>
+              </div>
+            </div>
+
+            <div class="review-card active">
+              <div class="review-header">
+                <img src="assets/images/home-images/review-card-1.png">
+                <ul class="stars">
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                  <li><img src="assets/images/home-images/yellow-stars.svg" alt=""></li>
+                </ul>
+              </div>
+              <p>
+                Their backend support helped us scale without hiring internally.
+              </p>
+              <div class="review-name">
+                <p>– Sarah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- valocity end -->
+
+
+<!-- three card with list  -->
+ <section class="compliance-section padding-t-120 padding-b-120">
+    <div class="container">
+      <div class="compliance-section__header">
+        <em>Engagement models</em>
+        <h2>One partner. <em>Every discipline.</em></h2>
+        <p>Governance, contractual commitments, and ZDR standards are identical across every model.</p>
+      </div>
+      <div class="compliance-section__grid">
+
+        <div class="compliance-card compliance-card--light">
+          <div class="compliance-card__top">
+            <span>Team Extension</span>
+            <h3>Client-Led Delivery</h3>
+            <p>You run delivery · We add engineers who integrate fast</p>
+          </div>
+          <div class="card-inner-part">
+            <h3>Start with one project</h3>
+            <p>One defined deliverable. Scoped, priced, and delivered. No retainer commitment.</p>
+
+            <ul class="compliance-card__list">
+              <li>Your sprint process · your tools · your compliance posture</li>
+              <li>Engineers with FinTech domain experience — confirmed before profiling</li>
+              <li>ZDR standard · NDA before repo access · IP clause Day 1</li>
+              <li>48h matching · 7-day trial · 10-day replacement — in contract</li>
+            </ul>
+          </div>
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Start Team Extension</a>
+          </div>
+        </div>
+
+        <div class="compliance-card compliance-card--dark">
+          <div class="compliance-card__top">
+            <span>Delivery Pod</span>
+            <h3>ValueCoders-Led Delivery</h3>
+            <p>We run delivery · You define what ships</p>
+          </div>
+          <div class="card-inner-part">
+
+
+            <h3>Monthly Retainer</h3>
+            <p>Ongoing execution across one or multiple disciplines. Predictable monthly cost.</p>
+            <ul class="compliance-card__list">
+              <li>Named Delivery Lead owns cadence, QA, and compliance gates</li>
+              <li>Weekly sprint reports — ticket data in your tools, not slides</li>
+              <li>Compliance architecture reviewed by Head of Delivery before kickoff</li>
+              <li>Milestone or Fixed-Cost billing — after Discovery Sprint</li>
+            </ul>
+          </div>
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Build a Delivery Pod</a>
+          </div>
+        </div>
+
+        <div class="compliance-card compliance-card--light">
+          <div class="compliance-card__top">
+            <span class="compliance-card__badge compliance-card__badge--yellow">Discovery Sprint</span>
+            <h3>Start Here</h3>
+            <p>Fixed-Fee · 2–4 Weeks · Compliance-first scoping</p>
+          </div>
+          <div class="card-inner-part">
+            <h3>Dedicated Team</h3>
+            <p>A named team — developer, designer, marketer - embedded full-time under.</p>
+
+            <ul class="compliance-card__list">
+              <li>Compliance requirements mapped before any architecture decision</li>
+              <li>PCI-DSS / SOC 2 / GDPR scope documented in deliverable</li>
+              <li>Milestone plan with compliance effort included in estimates</li>
+              <li>Required before any fixed-price FinTech build commitment</li>
+            </ul>
+          </div>
+
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Start Team Extension</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- three card with list  -->
+
+
 
 
 
@@ -835,72 +936,7 @@
   </section>
   <!-- we embaded -->
 
-  <!-- partner-result -->
-  <section class="partner-result">
-    <div class="container">
-      <div class="top-part">
-        <div class="left-part">
-          <h2>Results from brand <em>partnerships.</em></h2>
-        </div>
-        <div class="right-part">
-          <a href="#" class="btn-outline">VIEW ALL</a>
-        </div>
-      </div>
-      <div class="bottom-cards">
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
-          </div>
-          <div class="content-part">
-            <span>eCommerce & D2C</span>
-            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
-            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
-          </div>
-          <div class="time-period">
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-          </div>
-          <a href="#"> Read the case study</a>
-        </div>
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
-          </div>
-          <div class="content-part">
-            <span>eCommerce & D2C</span>
-            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
-            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
-          </div>
-          <div class="time-period">
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-            <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
-            </div>
-          </div>
-          <a href="#"> Read the case study</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- partner-result -->
+
 
 
 
@@ -1523,35 +1559,33 @@
     }
     // `````````~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  // ````````vendor-partner-section  ````````
-  // Switch layout based on viewport
+    // ````````vendor-partner-section  ````````
+    // Switch layout based on viewport
 
 
-  document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
 
-    const toggles = document.querySelectorAll(
+      const toggles = document.querySelectorAll(
         ".vendor-partner-section .vp-toggle"
-    );
+      );
 
-    toggles.forEach(toggle => {
+      toggles.forEach(toggle => {
 
-        toggle.addEventListener("click", function () {
+        toggle.addEventListener("click", function() {
 
-            const card = this.closest(".vp-card");
+          const card = this.closest(".vp-card");
 
-            card.classList.toggle("active");
+          card.classList.toggle("active");
 
-            this.textContent = card.classList.contains("active")
-                ? "View Less"
-                : "View More";
+          this.textContent = card.classList.contains("active") ?
+            "View Less" :
+            "View More";
 
         });
 
+      });
+
     });
-
-});
-
-
   </script>
 </body>
 

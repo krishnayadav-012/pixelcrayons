@@ -3181,6 +3181,13 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 1024px) {
   .we-help-part .top-inner {
     flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .we-help-part .top-inner {
+    gap: 10px;
   }
 }
 .we-help-part .top-inner .top-part {
@@ -3278,11 +3285,16 @@ input:-webkit-autofill:active {
   padding: 30px 0;
   cursor: pointer;
 }
+@media screen and (max-width: 767px) {
+  .we-help-part .inner-part .left-part .accordion-header {
+    padding: 15px 0;
+  }
+}
 .we-help-part .inner-part .left-part .accordion-header h3 {
   margin: 0;
   font-size: 22px;
   font-weight: 700;
-  padding-right: 60px;
+  padding-right: 10px;
   color: #18181B;
 }
 @media screen and (max-width: 767px) {
@@ -3302,6 +3314,11 @@ input:-webkit-autofill:active {
   position: relative;
   flex-shrink: 0;
   cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .we-help-part .inner-part .left-part .accordion-icon {
+    bottom: -15px;
+  }
 }
 .we-help-part .inner-part .left-part .accordion-content {
   max-height: 0;

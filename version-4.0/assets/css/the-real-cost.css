@@ -1285,7 +1285,7 @@ input:-webkit-autofill:active {
   .fragmented-cost-section .comparison-row {
     grid-template-columns: 1fr;
     gap: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .fragmented-cost-section .comparison-label {
     order: 1;
