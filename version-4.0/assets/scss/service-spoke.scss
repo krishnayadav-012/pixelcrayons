@@ -5,16 +5,18 @@
 
 // sections
 @use "service-solves" as *;
+@use "horizontal-timeline" as *;
+@use "stack-for-fintech" as *;
+@use "services-ecommerce" as *;
+@use "engagement-models" as *;
+@use "our-work-timeline" as *;
+@use "how-we-help" as *;
 
 // sections
-@use "how-we-help" as *;
-@use "the-real-cost" as *;
-@use "vendor-partner-section" as *;
+
 @use "services-ecommerce" as *;
 @use "how-it-works" as *;
 @use "high-vhelocity" as *;
-@use "engagement-models" as *;
-@use "we-embed" as *;
 @use "partner-result" as *;
 
 
@@ -25,7 +27,14 @@
 @use "faq-section-v6" as *;
 @use "cta-v3" as *;
 @use "footer" as *;
+.breadcrumbs{
+  margin-bottom: 25px;
 
+  @media screen and (max-width:767px) {
+    margin-bottom: 15px;
+  }
+
+}
 
 .home-cta-button {
   display: inline-flex;
@@ -114,7 +123,6 @@
 
 .btn-secondry::before {
     background: url(../images/agencies/Black-right.svg) no-repeat;
-    
     content: "";
     display: inline-block;
     width: 19px;

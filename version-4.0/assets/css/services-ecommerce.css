@@ -8,12 +8,12 @@
     font-style: normal;
     font-display: block;
   }
-}
-@font-face {
-  font-family: "PlayfairDisplay";
-  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-  font-weight: 100 900;
-  font-style: italic;
+  @font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: italic;
+  }
 }
 * {
   margin: 0;
@@ -84,6 +84,7 @@ ul {
   list-style: none;
 }
 ul li {
+  color: rgba(65, 65, 65, 0.9);
   font-size: 16px;
   line-height: 26px;
 }
@@ -102,6 +103,10 @@ img {
 
 section {
   position: relative;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .light-theme {
@@ -1081,7 +1086,6 @@ input:-webkit-autofill:active {
   }
 }
 .services-ecommerce {
-  padding: 90px 0 100px;
   background: #ffffff;
 }
 .services-ecommerce .top-part {
@@ -1117,13 +1121,12 @@ input:-webkit-autofill:active {
   width: calc(33.33% - 26px);
   border: 1px solid #E8E7FE;
   border-radius: 16px;
-  display: flex;
-  flex-direction: column;
   position: relative;
   transition: border-color 0.28s ease, background 0.28s ease, box-shadow 0.28s ease, transform 0.28s ease;
 }
 .services-ecommerce .inner-part .card-box > a {
-  padding: 30px;
+  padding: 30px 30px 60px 30px;
+  height: 100%;
   display: block;
 }
 .services-ecommerce .inner-part .card-box .card-top {
@@ -1169,7 +1172,11 @@ input:-webkit-autofill:active {
 .services-ecommerce .inner-part .card-box .card-bottom > p {
   color: #3F3F47;
   font-weight: 500;
-  margin-bottom: 40px;
+}
+.services-ecommerce .inner-part .card-box .card-bottom .bottom-link {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
 }
 .services-ecommerce .inner-part .card-box .card-bottom .bottom-link span {
   display: flex;
@@ -1218,6 +1225,29 @@ input:-webkit-autofill:active {
   .services-ecommerce .inner-part .card-box {
     width: 100%;
   }
+}
+.services-ecommerce .section-bottom-part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: relative;
+  align-items: center;
+  gap: 40px;
+}
+.services-ecommerce .section-bottom-part::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  background-color: #E4E4E7;
+  width: calc(100% - 150px);
+  content: "";
+}
+.services-ecommerce .section-bottom-part .btn-outline {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
 }
 
 @media sreen and (max-width: 767px) {

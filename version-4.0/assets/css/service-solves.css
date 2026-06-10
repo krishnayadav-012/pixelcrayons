@@ -1083,7 +1083,6 @@ input:-webkit-autofill:active {
 .agency-brand-tabs {
   position: relative;
   background: #000000;
-  padding: 80px 0;
   overflow: hidden;
 }
 .agency-brand-tabs::before {
@@ -1106,6 +1105,7 @@ input:-webkit-autofill:active {
 .agency-brand-tabs .top-part span {
   font-size: 14px;
   font-weight: 600;
+  text-transform: uppercase;
   color: #DFFB0B;
 }
 .agency-brand-tabs .top-part h2 {
@@ -1128,11 +1128,9 @@ input:-webkit-autofill:active {
   position: relative;
   padding: 50px 40px 40px 40px;
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1019607843);
 }
-.agency-brand-tabs .card-badge {
+.agency-brand-tabs .tab-card .card-badge {
   position: absolute;
   top: -25px;
   left: 50%;
@@ -1144,67 +1142,76 @@ input:-webkit-autofill:active {
   text-transform: uppercase;
   color: #0400F5;
 }
-.agency-brand-tabs .card-badge.agency {
+.agency-brand-tabs .tab-card .card-badge.agency {
   background: #ebff00;
 }
-.agency-brand-tabs .card-badge.brand {
+.agency-brand-tabs .tab-card .card-badge.brand {
   background: #2439ff;
   color: #fff;
 }
-.agency-brand-tabs .accordion-item {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  position: relative;
-}
-.agency-brand-tabs .accordion-item::before {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 50%;
-  transform: translateY(50%);
-  background-image: url(../images//home-images/grey-arrow.svg);
-  width: 14px;
-  height: 9px;
-  background-size: cover;
-}
-.agency-brand-tabs .accordion-item:last-child {
+.agency-brand-tabs .tab-card .accordion-item {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
-.agency-brand-tabs .accordion-item.active .accordion-content {
-  max-height: 250px;
+.agency-brand-tabs .tab-card .accordion-item:last-child .accordion-header {
+  padding-bottom: 0;
+}
+.agency-brand-tabs .tab-card .accordion-item:last-child {
+  border: none;
+}
+.agency-brand-tabs .tab-card .accordion-item.active .accordion-header {
+  padding-bottom: 15px;
+}
+.agency-brand-tabs .tab-card .accordion-item.active .accordion-header h3 {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.agency-brand-tabs .tab-card .accordion-item.active .accordion-content {
+  max-height: unset;
   opacity: 1;
   padding-bottom: 20px;
 }
-.agency-brand-tabs .accordion-item.active .icon {
-  opacity: 0;
-  visibility: hidden;
+.agency-brand-tabs .tab-card .accordion-item.active .accordion-content p {
+  color: #E4E4E7;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 16px;
 }
-.agency-brand-tabs .accordion-header {
+.agency-brand-tabs .tab-card .accordion-header {
   width: 100%;
   background: transparent;
   border: 0;
   cursor: pointer;
-  padding: 30px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.8);
+  padding: 30px 20px 30px 0;
+}
+.agency-brand-tabs .tab-card .accordion-header h3 {
+  color: #9F9FA9;
   font-size: 22px;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: left;
   line-height: 1.4;
 }
-.agency-brand-tabs .icon {
-  flex-shrink: 0;
-  margin-left: 20px;
-  transition: 0.3s ease;
-  font-size: 22px;
+.agency-brand-tabs .tab-card .accordion-header {
+  position: relative;
 }
-.agency-brand-tabs .accordion-content {
+.agency-brand-tabs .tab-card .accordion-header::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(../images/services-spoke/gray-arrow.svg);
+  width: 14px;
+  height: 9px;
+  background-size: cover;
+}
+.agency-brand-tabs .tab-card .accordion-content {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
   transition: all 0.4s ease;
 }
-.agency-brand-tabs .accordion-content p {
+.agency-brand-tabs .tab-card .accordion-content p {
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.7;
 }
@@ -1215,31 +1222,31 @@ input:-webkit-autofill:active {
   .agency-brand-tabs .tab-card {
     padding: 30px;
   }
-  .agency-brand-tabs .accordion-header {
+  .agency-brand-tabs .tab-card .accordion-header h3 {
     font-size: 18px;
   }
-  .agency-brand-tabs .tab-card h3 {
-    font-size: 24px;
+  .agency-brand-tabs .tab-card .accordion-content p {
+    font-size: 14px !important;
   }
 }
 @media (max-width: 575px) {
-  .agency-brand-tabs {
-    padding: 60px 0;
-  }
   .agency-brand-tabs .tab-card {
     padding: 24px;
   }
-  .agency-brand-tabs .tab-card h3 {
-    font-size: 22px;
+  .agency-brand-tabs .tab-card .accordion-header {
+    padding: 20px 20px 15px 0;
   }
-  .agency-brand-tabs .accordion-header {
+  .agency-brand-tabs .tab-card .accordion-header h3 {
     font-size: 16px;
-    padding: 18px 0;
   }
   .agency-brand-tabs .card-badge {
     font-size: 11px;
     padding: 8px 14px;
   }
+}
+
+.agency-brand-tabs .accordion-item.active .accordion-header::before {
+  display: none;
 }
 
 /*# sourceMappingURL=service-solves.css.map */

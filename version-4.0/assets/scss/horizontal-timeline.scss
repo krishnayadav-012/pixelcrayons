@@ -566,3 +566,78 @@ z-index: -11;
     .fintech-delivery.vertical-slide .grid-lines{display: none;}
     
 }
+
+
+.fintech-delivery.activity-reports{
+    background-color: #FAFAFA !important;
+    z-index: 11;
+
+     .inner-part {
+
+     .left-part{
+
+        .home-cta-button{
+            background: $royelblue;
+            color: $shine-green;
+            margin-top: 25px;
+
+            &::after{
+                background-image: url(../images/services-spoke/yellow-icon.svg);
+            }
+            &::before{
+                background-color: $shine-green !important;
+            }
+            &:hover{
+                color: $royelblue !important;
+
+                &::before{
+                    height: 120%;
+                }
+
+            }
+        }
+
+        > em{
+            color: $royelblue;
+        }
+         h2 {
+             color: #18181B !important;
+             em{
+                color: $royelblue;
+             }
+            }
+            p{
+                color: #3F3F47 !important;
+            }
+        }
+        .right-part{
+           .ai-list .ai-item.active{
+            background-color:$royelblue ;
+           }
+           .ai-list .ai-item .desc{
+            color: #E4E4E7;
+           }
+            .ai-item h4{
+                color: #71717B;
+            }
+            .ai-item.active h4{
+                color:$white;
+            }
+        }
+     }
+
+    &::after{
+       position: absolute;
+    left: -209px;
+    bottom: -330px;
+    background-image: url(../images/services-spoke/grid-grad.png);
+    background-repeat: no-repeat;
+    content: "";
+    width: 930.69091796875px;
+    height: 882px;
+    transform: rotate(0deg);
+    }
+    &::before{
+        display: none;
+    }
+}

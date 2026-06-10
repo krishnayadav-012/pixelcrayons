@@ -9,12 +9,12 @@
     font-style: normal;
     font-display: block;
   }
-}
-@font-face {
-  font-family: "PlayfairDisplay";
-  src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
-  font-weight: 100 900;
-  font-style: italic;
+  @font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Italic[wght].woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: italic;
+  }
 }
 * {
   margin: 0;
@@ -85,6 +85,7 @@ ul {
   list-style: none;
 }
 ul li {
+  color: rgba(65, 65, 65, 0.9);
   font-size: 16px;
   line-height: 26px;
 }
@@ -103,6 +104,10 @@ img {
 
 section {
   position: relative;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .light-theme {
@@ -3263,6 +3268,66 @@ input:-webkit-autofill:active {
     display: none;
   }
 }
+.fintech-delivery.activity-reports {
+  background-color: #FAFAFA !important;
+  z-index: 11;
+}
+.fintech-delivery.activity-reports .inner-part .left-part .home-cta-button {
+  background: #0400F5;
+  color: #DFFB0B;
+  margin-top: 25px;
+}
+.fintech-delivery.activity-reports .inner-part .left-part .home-cta-button::after {
+  background-image: url(../images/services-spoke/yellow-icon.svg);
+}
+.fintech-delivery.activity-reports .inner-part .left-part .home-cta-button::before {
+  background-color: #DFFB0B !important;
+}
+.fintech-delivery.activity-reports .inner-part .left-part .home-cta-button:hover {
+  color: #0400F5 !important;
+}
+.fintech-delivery.activity-reports .inner-part .left-part .home-cta-button:hover::before {
+  height: 120%;
+}
+.fintech-delivery.activity-reports .inner-part .left-part > em {
+  color: #0400F5;
+}
+.fintech-delivery.activity-reports .inner-part .left-part h2 {
+  color: #18181B !important;
+}
+.fintech-delivery.activity-reports .inner-part .left-part h2 em {
+  color: #0400F5;
+}
+.fintech-delivery.activity-reports .inner-part .left-part p {
+  color: #3F3F47 !important;
+}
+.fintech-delivery.activity-reports .inner-part .right-part .ai-list .ai-item.active {
+  background-color: #0400F5;
+}
+.fintech-delivery.activity-reports .inner-part .right-part .ai-list .ai-item .desc {
+  color: #E4E4E7;
+}
+.fintech-delivery.activity-reports .inner-part .right-part .ai-item h4 {
+  color: #71717B;
+}
+.fintech-delivery.activity-reports .inner-part .right-part .ai-item.active h4 {
+  color: #ffffff;
+}
+.fintech-delivery.activity-reports::after {
+  position: absolute;
+  left: -209px;
+  bottom: -330px;
+  background-image: url(../images/services-spoke/grid-grad.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 930.6909179688px;
+  height: 882px;
+  transform: rotate(0deg);
+}
+.fintech-delivery.activity-reports::before {
+  display: none;
+}
+
 .stacking-cards-section {
   background-color: #FFFFFF;
 }

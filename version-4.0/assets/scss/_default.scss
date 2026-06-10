@@ -45,15 +45,13 @@ $grey-300:#D1D5DB;
     font-style: normal;
     font-display: block;
   }
-}
-
-@font-face {
- font-family: 'PlayfairDisplay';
+  @font-face {
+  font-family: 'PlayfairDisplay';
   src: url('../fonts/PlayfairDisplay-Italic[wght].woff2')format('woff2');
   font-weight: 100 900;
   font-style: italic;
+  }
 }
-
 
 * {
   margin: 0;
@@ -124,7 +122,7 @@ ul {
   list-style: none;
 
   li {
-    // color: $arsenic-light;
+    color: $arsenic-light;
     font-size: 16px;
     line-height: 26px;
   }
@@ -144,6 +142,10 @@ img {
 
 section {
   position: relative;
+}
+
+strong{
+  font-weight: $bold;
 }
 
 .light-theme {

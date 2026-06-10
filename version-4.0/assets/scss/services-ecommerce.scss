@@ -2,7 +2,7 @@
 
 // ── Section ───────────────────────────────────────────────────
 .services-ecommerce {
-  padding: 90px 0 100px;
+
   background: $white;
 
 
@@ -51,8 +51,7 @@
       width: calc(33.33% - 26px);
       border: 1px solid #E8E7FE;
       border-radius: 16px;
-      display: flex;
-      flex-direction: column;
+   
       position: relative;
       
       transition:
@@ -61,7 +60,8 @@
         box-shadow 0.28s ease,
         transform 0.28s ease;
         >a{
-          padding: 30px;
+          padding: 30px 30px 60px 30px;
+          height: 100%;
           display: block;
         }
 
@@ -127,11 +127,15 @@
 
         color: #3F3F47;
         font-weight: 500;
-        margin-bottom: 40px;
+        
       }
       
       // ── Explore link ──────────────────────────────────────
       .bottom-link{
+
+        position: absolute;
+left: 30px;
+bottom: 30px;
         span {
           display:flex;
           align-items: center;
@@ -192,6 +196,31 @@
 
       }
     }
+  }
+  .section-bottom-part{
+    display: flex;justify-content: space-between;
+    margin-top: 40px;
+    position: relative;
+    align-items: center;
+    gap: 40px;
+
+    &::before{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 1px;
+      background-color: #E4E4E7;
+      width: calc(100% - 150px);
+      content: "";
+    }
+    
+    .btn-outline{
+      display: flex;
+      width: fit-content;
+      margin-left: auto;
+    }
+
   }
 }
 

@@ -325,7 +325,7 @@
   <!-- ``````````````````````````````````````````````````` -->
 
  <!-- ecommerce services -->
-  <section class="services-ecommerce">
+  <section class="services-ecommerce padding-t-120  padding-b-120">
     <div class="container">
       <div class="top-part">
         <span>Services for eCommerce &amp; D2C</span>
