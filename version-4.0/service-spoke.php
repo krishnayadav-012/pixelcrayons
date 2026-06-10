@@ -32,12 +32,7 @@
           </h1>
           <p>You shouldn't need five vendors to run a brand online. PixelCrayons gives growing brands a single execution partner for marketing, development, design, and AI - with one point of contact and one accountable team.</p>
           <a href="#" class="home-cta-button">Contant Us</a>
-          <div class="for-client-logo-box  dis-flex">
-            <div class="logo-box logo1"></div>
-            <div class="logo-box logo2"></div>
-            <div class="logo-box logo3"></div>
-            <div class="logo-box logo4"></div>
-          </div>
+         
         </div>
         <!-- <div class="right-part">
           <div class="middle-logo">
