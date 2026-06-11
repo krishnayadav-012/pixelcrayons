@@ -3647,11 +3647,8 @@ input:-webkit-autofill:active {
   border-radius: 16px;
   position: relative;
   transition: border-color 0.28s ease, background 0.28s ease, box-shadow 0.28s ease, transform 0.28s ease;
-}
-.services-ecommerce .inner-part .card-box > a {
   padding: 30px 30px 60px 30px;
   height: 100%;
-  display: block;
 }
 .services-ecommerce .inner-part .card-box .card-top {
   display: flex;

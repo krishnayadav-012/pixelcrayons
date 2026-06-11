@@ -359,7 +359,7 @@
         <!-- 1 -->
 
         <div class="card-box">
-          <a href="#">
+        
             <div class="card-top">
               <div class="icon"> <i><img src="assets/images/industry-new/card-icon.svg" alt=""></i></div>
               <div class="tag"><span>Marketing</span></div>
@@ -367,14 +367,14 @@
             <div class="card-bottom">
               <h3>SEO Services</h3>
               <p>Technical SEO, content clusters, and strategic link acquisition that build long-term organic growth — not short-term ranking spikes.</p>
-              <div class="bottom-link">
+              <a href="#" class="bottom-link">
                 <span>Explore service</span>
-              </div>
+</a>
             </div>
-          </a>
+        
         </div>
         <div class="card-box">
-          <a href="#">
+          
             <div class="card-top">
               <div class="icon"> <i><img src="assets/images/industry-new/seo.svg" alt=""></i></div>
               <div class="tag"><span>Marketing</span></div>
@@ -386,11 +386,11 @@
                 <span>Explore service</span>
               </div>
             </div>
-          </a>
+         
         </div>
 
         <div class="card-box">
-          <a href="#">
+         
             <div class="card-top">
               <div class="icon"> <i><img src="assets/images/industry-new/shopify.svg" alt=""></i></div>
               <div class="tag"><span>DEVELOPMENT</span></div>
@@ -402,7 +402,7 @@
                 <span>Explore service</span>
               </div>
             </div>
-          </a>
+       
         </div>
 
       </div>
