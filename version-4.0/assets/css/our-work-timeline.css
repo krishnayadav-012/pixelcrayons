@@ -1099,7 +1099,7 @@ input:-webkit-autofill:active {
   bottom: 0;
   width: 50%;
   height: 80%;
-  background-image: url(../images/services-spoke/work-gray.png);
+  background-image: url(../images/services-spoke/work-gray.webp);
   pointer-events: none;
   background-repeat: no-repeat;
 }
@@ -1111,7 +1111,7 @@ input:-webkit-autofill:active {
   width: 40%;
   background-size: cover;
   height: 90%;
-  background-image: url(../images/services-spoke/work-top.png);
+  background-image: url(../images/services-spoke/work-top.webp);
   pointer-events: none;
   background-repeat: no-repeat;
 }

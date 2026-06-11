@@ -648,7 +648,7 @@
 
   <section class="we-help-part seo-partner padding-t-120 padding-b-120">
     <div class="grid-lines">
-      <img src="assets/images/services-spoke/grid-grad.png" alt="">
+      <img src="assets/images/services-spoke/grid-grad.webp" alt="">
     </div>
     <div class="container">
 

@@ -4,6 +4,8 @@
 
 // sections
 @use "service-solves" as *;
+@use "_table-section" as *;
+
 @use "horizontal-timeline" as *;
 @use "stack-for-fintech" as *;
 @use "services-ecommerce" as *;
@@ -175,7 +177,7 @@
 }
 
 .hero-section {
-  background: url("../images/services-pillar/banner-img.png") top center no-repeat;
+  background: url("../images/services-pillar/banner-img.webp") top center no-repeat;
   background-size: cover;
   height: 100vh;
   display: grid;

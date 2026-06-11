@@ -4063,10 +4063,12 @@ input:-webkit-autofill:active {
 .compliance-section__header p {
   color: #364153;
   margin: 0 auto;
-  font-size: 18px;
   font-weight: 500;
   max-width: 610px;
   line-height: 1.6;
+}
+.compliance-section__header p a {
+  color: #0400F5;
 }
 .compliance-section__grid {
   display: grid;
@@ -4601,6 +4603,13 @@ input:-webkit-autofill:active {
   .partner-result .top-part .left-part {
     width: 100%;
   }
+}
+.partner-result .top-part .left-part span {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #0400F5;
 }
 .partner-result .top-part .left-part h2 em {
   color: #0400F5;

@@ -2771,17 +2771,30 @@ input:-webkit-autofill:active {
   position: relative;
   background: #000000;
   overflow: hidden;
+  z-index: 1;
+}
+.agency-brand-tabs::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../images/services-pillar/sade-img.webp);
+  width: 50%;
+  height: 70%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .agency-brand-tabs::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -88px;
   left: 0;
-  background-image: url(../images/services-spoke/tab-behind.png);
+  background-image: url(../images/services-spoke/tab-behind.webp);
   width: 100%;
   height: 70%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .agency-brand-tabs .top-part {
   text-align: center;
@@ -3486,7 +3499,7 @@ input:-webkit-autofill:active {
   position: absolute;
   left: -209px;
   bottom: -330px;
-  background-image: url(../images/services-spoke/grid-grad.png);
+  background-image: url(../images/services-spoke/grid-grad.webp);
   background-repeat: no-repeat;
   content: "";
   width: 930.6909179688px;
@@ -3940,10 +3953,12 @@ input:-webkit-autofill:active {
 .compliance-section__header p {
   color: #364153;
   margin: 0 auto;
-  font-size: 18px;
   font-weight: 500;
   max-width: 610px;
   line-height: 1.6;
+}
+.compliance-section__header p a {
+  color: #0400F5;
 }
 .compliance-section__grid {
   display: grid;
@@ -4203,7 +4218,7 @@ input:-webkit-autofill:active {
   bottom: 0;
   width: 50%;
   height: 80%;
-  background-image: url(../images/services-spoke/work-gray.png);
+  background-image: url(../images/services-spoke/work-gray.webp);
   pointer-events: none;
   background-repeat: no-repeat;
 }
@@ -4215,7 +4230,7 @@ input:-webkit-autofill:active {
   width: 40%;
   background-size: cover;
   height: 90%;
-  background-image: url(../images/services-spoke/work-top.png);
+  background-image: url(../images/services-spoke/work-top.webp);
   pointer-events: none;
   background-repeat: no-repeat;
 }
@@ -4910,6 +4925,13 @@ input:-webkit-autofill:active {
   .partner-result .top-part .left-part {
     width: 100%;
   }
+}
+.partner-result .top-part .left-part span {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #0400F5;
 }
 .partner-result .top-part .left-part h2 em {
   color: #0400F5;
@@ -7255,7 +7277,7 @@ input:-webkit-autofill:active {
 }
 
 .hero-section {
-  background: url("../images/services-spoke/banner-img.png") top center no-repeat;
+  background: url("../images/services-spoke/banner-img.webp") top center no-repeat;
   background-size: cover;
   height: 100vh;
   display: grid;

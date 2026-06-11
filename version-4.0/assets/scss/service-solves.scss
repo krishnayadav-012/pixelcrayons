@@ -2,20 +2,31 @@
 .agency-brand-tabs {
     position: relative;
     background: #000000;
-
     overflow: hidden;
+z-index: 1;
 
-
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: url(../images/services-pillar/sade-img.webp);
+        width: 50%;
+        height: 70%;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     &::before{
         content: "";
         position: absolute;
-        bottom: 0;
+        bottom: -88px;
         left: 0;
-        background-image: url(../images/services-spoke/tab-behind.png);
+        background-image: url(../images/services-spoke/tab-behind.webp);
         width: 100%;
         height: 70%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 .top-part{
     text-align: center;

@@ -26,11 +26,11 @@
       <div class="inner-part">
         <div class="left-part">
           <div class="breadcrumbs">
-            <a href="#">Home</a> solution
+            <a href="#">Home</a> Services
           </div>
-          <h1>One team. <br> Every <em>discipline.</em>
+          <h1>Marketing Services <br>that compound.</em>
           </h1>
-          <p>You shouldn't need five vendors to run a brand online. PixelCrayons gives growing brands a single execution partner for marketing, development, design, and AI - with one point of contact and one accountable team.</p>
+          <p>SEO, PPC, content, social, and email — delivered as one integrated team for agencies who need invisible white-label execution and brands who need one accountable partner.</p>
           <a href="#" class="home-cta-button">Contant Us</a>
 
         </div>
@@ -112,12 +112,12 @@
       <div class="top-inner">
 
         <div class="top-part">
-          <span>What Teams Say</span>
-          <h2>Four specific interventions for <em>eCommerce.</em></h2>
+          <span>What we do</span>
+          <h2>One marketing team. <em>One owner.</em></h2>
         </div>
 
         <div class="top-right">
-          <p>Not a menu of services. Specific responses to the operational and commercial problems eCommerce brands face — executed by the same integrated team across every discipline.</p>
+          <p>PixelCrayons runs marketing as an integrated discipline — not a collection of retainers across disconnected vendors. SEO, PPC, content, social, and email all sit under one project lead, one SLA, one weekly report.</p>
 
         </div>
       </div>
@@ -127,7 +127,7 @@
 
           <div class="accordion-item active">
             <div class="accordion-header">
-              <h3>Unified Performance Marketing</h3>
+              <h3>Search Engine Optimisation</h3>
               <div class="accordion-icon">
                 <img src="assets/images/industry-new/blue-arrow.svg" alt="">
               </div>
@@ -135,17 +135,14 @@
 
             <div class="accordion-content">
               <p>
-                Google, Meta, TikTok, and programmatic — managed as one
-                channel ecosystem with shared attribution modelling and
-                creative testing. Campaigns briefed by the same team
-                running your CRO and landing pages.
+                Technical, content, and link acquisition. Topical authority built over time, not one-off articles
               </p>
             </div>
           </div>
 
           <div class="accordion-item">
             <div class="accordion-header">
-              <h3>Headless Build Or Performance Overhaul</h3>
+              <h3>Pay-Per-Click & Paid Media</h3>
               <div class="accordion-icon">
                 <img src="assets/images/industry-new/blue-arrow.svg" alt="">
               </div>
@@ -160,7 +157,7 @@
 
           <div class="accordion-item">
             <div class="accordion-header">
-              <h3>CRO And UX Design Intervention</h3>
+              <h3>Content Marketing</h3>
               <div class="accordion-icon">
                 <img src="assets/images/industry-new/blue-arrow.svg" alt="">
               </div>
@@ -175,7 +172,7 @@
 
           <div class="accordion-item">
             <div class="accordion-header">
-              <h3>AI Automation And GEO</h3>
+              <h3>Social Media & Email</h3>
               <div class="accordion-icon">
                 <img src="assets/images/industry-new/blue-arrow.svg" alt="">
               </div>
@@ -202,10 +199,10 @@
   <section class="agency-brand-tabs padding-t-120 padding-b-120">
     <div class="container">
       <div class="top-part">
-        <span>What This Service Solves</span>
-        <h2>The Challenges <em>SEO Should Fix</em>
-          - But Often Doesn't</h2>
-        <p>Most agencies resell generic SEO reporting. Most brands get tactics without strategy. Neither gets measurable organic growth. Here's where things break — and what we fix.</p>
+        <span>The real problem</span>
+        <h2>Most marketing problems aren't channel problems.<em>They're execution problems. </em>
+        </h2>
+        <p>Agencies lose clients to delivery failure. Brands haemorrhage budget to vendor fragmentation. The channel strategy is rarely the issue.</p>
       </div>
 
 
@@ -221,19 +218,19 @@
 
             <div class="accordion-item active">
               <div class="accordion-header">
-                <h3> Delivery capacity runs dry when you scale</h3>
+                <h3>Capacity ceiling</h3>
 
               </div>
 
               <div class="accordion-content">
                 <p>
-                  You close new retainers but your team can't absorb the work. Quality drops. Clients notice. Churn starts.
+                  You're winning clients faster than your team can deliver. Quality drops. Timelines slip. The relationship suffers.
                 </p>
               </div>
             </div>
             <div class="accordion-item ">
               <div class="accordion-header">
-                <h3> Technical SEO Is A Specialist Hire You Can't Justify</h3>
+                <h3> Subcontractor poaching risk</h3>
 
               </div>
 
@@ -247,7 +244,7 @@
 
             <div class="accordion-item">
               <div class="accordion-header">
-                <h3>Reporting Doesn't Connect To Client Revenue</h3>
+                <h3>Inconsistent reporting</h3>
 
               </div>
 
@@ -261,7 +258,7 @@
 
             <div class="accordion-item">
               <div class="accordion-header">
-                <h3>Your Vendor Shows Up In Your Clients' Inboxes</h3>
+                <h3>Scope gaps</h3>
 
               </div>
 
@@ -285,19 +282,19 @@
 
             <div class="accordion-item active">
               <div class="accordion-header">
-                <h3>Traffic is up, revenue isn't moving</h3>
+                <h3>Vendor fragmentation</h3>
 
               </div>
 
               <div class="accordion-content">
                 <p>
-                  You're ranking for the wrong terms, attracting browsers not buyers. SEO success requires intent-aligned keyword strategy.
+                  Your SEO agency, PPC specialist, content team, and social manager don't talk to each other. Strategy lives in six inboxes.
                 </p>
               </div>
             </div>
             <div class="accordion-item ">
               <div class="accordion-header">
-                <h3>Paid Ads Are Bleeding Budget That Organic Should Cover</h3>
+                <h3>No accountability to revenue</h3>
 
               </div>
 
@@ -311,7 +308,7 @@
 
             <div class="accordion-item">
               <div class="accordion-header">
-                <h3>Core Updates Wipe Out Months Of Progress</h3>
+                <h3>Constant re-briefing</h3>
 
               </div>
 
@@ -324,7 +321,7 @@
 
             <div class="accordion-item">
               <div class="accordion-header">
-                <h3> You Don't Know What Your SEO Agency Is Actually Doing</h3>
+                <h3> No knowledge retention</h3>
 
               </div>
 
@@ -348,13 +345,13 @@
   <section class="services-ecommerce padding-t-120  padding-b-120">
     <div class="container">
       <div class="top-part">
-        <span>Services for eCommerce &amp; D2C</span>
+        <span>Marketing services</span>
 
         <h2>
-          Every capability your eCommerce operation needs - <em>under one roof.</em>
+          Every marketing channel. <em>One team. </em>
         </h2>
 
-        <p>We activate the services your situation demands. Here are the capabilities most commonly required for eCommerce and D2C brands at growth stage.</p>
+        <p>Six service lines under one discipline. Each links to a full service page — tactics, process, and delivery detail.</p>
       </div>
       <!-- 6 Cards -->
       <div class="inner-part">
@@ -368,8 +365,8 @@
               <div class="tag"><span>Marketing</span></div>
             </div>
             <div class="card-bottom">
-              <h3>Performance Marketing Paid Media</h3>
-              <p>Google Shopping, Meta ROAS, TikTok commerce, programmatic - unified campaign management.</p>
+              <h3>SEO Services</h3>
+              <p>Technical SEO, content clusters, and strategic link acquisition that build long-term organic growth — not short-term ranking spikes.</p>
               <div class="bottom-link">
                 <span>Explore service</span>
               </div>
@@ -383,8 +380,8 @@
               <div class="tag"><span>Marketing</span></div>
             </div>
             <div class="card-bottom">
-              <h3>eCommerce SEO &amp; AEO</h3>
-              <p>Technical SEO, product schema, category page optimisation, and Generative Engine Optimisation for AI shopping discovery.</p>
+              <h3>PPC & Paid Media</h3>
+              <p>Performance-driven campaigns across Google Ads, Meta, LinkedIn, and programmatic channels with full-funnel attribution & ROI-focused optimization.</p>
               <div class="bottom-link">
                 <span>Explore service</span>
               </div>
@@ -399,8 +396,8 @@
               <div class="tag"><span>DEVELOPMENT</span></div>
             </div>
             <div class="card-bottom">
-              <h3>Shopify Development</h3>
-              <p>Custom Shopify builds, Shopify Plus, headless Next.js storefronts, and performance-first migrations from slow theme-based stores.</p>
+              <h3>Content Marketing</h3>
+              <p>Content strategy, editorial planning, production, and distribution designed to build authority, engagement, and sustainable audience growth.</p>
               <div class="bottom-link">
                 <span>Explore service</span>
               </div>
@@ -421,78 +418,77 @@
 
 
 
-
-  <!-- what we deleaver -->
-
-  <section class="fintech-delivery activity-reports padding-t-120  padding-b-120">
-
+  <section id="vhire-tbl-elm" class="table-list-section hire-table bg-light padding-t-120 padding-b-120">
     <div class="container">
-      <div class="inner-part">
-        <div class="left-part">
-          <em>The FinTech Delivery Problem</em>
-          <h2>FinTech teams don’t just have a <em>shipping problem.</em></h2>
-          <p>The real challenge isn’t speed. It’s shipping fast while staying compliant, secure, and audit-ready.</p>
-          <p>That’s where most delivery systems start to break.</p>
-          <a href="#" class="home-cta-button">Contant Us</a>
+      <div class="top-part">
+        <span>Honest Comparison</span>
+        <h2>The Alternatives vs. <em>the alternatives </em></h2>
+        <p>We are not the right fit for every situation. Here is where our delivery model structurally wins — and where it doesn't.</p>
+      </div>
+      <div class="inner-table">
 
-        </div>
-        <div class="right-part numbring">
-          <div class="ai-list">
-            <div class="ai-item">
-              <div class="card-number">
-                <span>01</span>
-              </div>
-              <div class="title">
-                <h4>Compliance built after engineering decisions are locked</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">Architecture gets defined first, and controls are added later to “meet requirements.” This leads to rework, patch fixes, and systems that technically pass audits but aren’t built for long-term compliance.</span></p>
-              </div>
-              <div class="progress" style="transition: none; width: 0%;"></div>
-            </div>
-            <div class="ai-item">
-              <div class="card-number">
-                <span>02</span>
-              </div>
-              <div class="title">
-                <h4>AI adoption outpacing governance in delivery workflows</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">There’s limited visibility into how data is used, where it flows, and what gets retained. Without governance, speed increases—but so does risk.</span></p>
-              </div>
-              <div class="progress" style="transition: none; width: 0%;"></div>
-            </div>
-            <div class="ai-item active">
-              <div class="card-number">
-                <span>03</span>
-              </div>
-              <div class="title">
-                <h4>External dependencies treated as plug-and-play</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">Payment gateways, KYC providers, and financial data APIs are critical. When integrations are treated as plug-and-play, teams underestimate failure scenarios, compliance implications, and ongoing maintenance overhead.</span></p>
-              </div>
-              <div class="progress" style="transition: width 4000ms linear; width: 100%;"></div>
-            </div>
-            <div class="ai-item">
-              <div class="card-number">
-                <span>03</span>
-              </div>
-              <div class="title">
-                <h4>Delivery systems that lack ownership and traceability</h4>
-              </div>
-              <div class="desc">
-                <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
-              </div>
-              <div class="progress" style="transition: none; width: 0%;"></div>
-            </div>
+        <div class="dis-flex col-box-outer ">
+          <div class="flex-5 table-list first-col">
+            <ul>
+              <li class="title clr-white">Factor</li>
+              <li>Brand safety for agency clients</li>
+              <li>Multi-channel integration</li>
+              <li>Scalability (5–50 clients)</li>
+              <li>Rework rate</li>
+
+            </ul>
+          </div>
+          <div class="flex-5 table-list">
+            <ul>
+              <li class="title">Freelancers</li>
+              <li>No structural firewall</li>
+              <li>Separate specialists
+                per channel</li>
+              <li>Hard ceiling at 3–5
+                clients</li>
+              <li>High variance</li>
+
+            </ul>
+          </div>
+          <div class="flex-5 table-list">
+            <ul>
+              <li class="title clr-white">In-House Team</li>
+              <li>Employee-level</li>
+              <li>Rare to have all disciplines</li>
+              <li>Slow to hire, slow to cut</li>
+              <li>Training-dependent</li>
+
+            </ul>
+          </div>
+          <div class="flex-5 table-list">
+            <ul>
+              <li class="title clr-white">Generic Agency</li>
+              <li>NDA only, no guarantee</li>
+              <li>Often subcontracted further</li>
+              <li>Account manager
+                bottleneck</li>
+              <li>No published standard</li>
+
+            </ul>
+          </div>
+          <div class="flex-5 table-list active">
+            <ul>
+              <li class="title clr-white">PixelCrayons</li>
+              <li>NDA + Zero Competition contractual</li>
+              <li>One team, all channels,
+                one lead</li>
+              <li>No friction at any
+                volume</li>
+              <li> 5% across 2,500+ projects </li>
+
+            </ul>
           </div>
         </div>
       </div>
+
+      <div class="append-btn "><a href="javascript:void(0);" onclick="hireTbl_showMore(this);"><img src="assets/images/hire-main/append-icon.svg" alt=""></a></div>
     </div>
   </section>
-
-  <!-- what we deleaver -->
 
 
 
@@ -502,19 +498,17 @@
       <div class="inner-part">
 
         <aside>
-          <span>TRENDING TECH STACK FOR FINTECH</span>
-          <h2>The Stack Behind the <em>Work.</em></h2>
-          <p>Every technology below represents engineers with production experience in regulated financial
-            environments.</p>
+          <span>Our stack</span>
+          <h2>What we actually <em>use.</em></h2>
+          <p>No opaque methodology. Every tool disclosed. Every output auditable by you.</p>
         </aside>
 
         <div class="production-tech">
-          <button data-active="true" class="tech">Backend &amp; APIs</button>
-          <button class="tech">Data &amp; Streaming</button>
-          <button class="tech">Security &amp; Compliance</button>
-          <button class="tech">AI &amp; ML</button>
-          <button class="tech">Cloud &amp; Infrastructure</button>
-          <button class="tech">Frontend</button>
+          <button data-active="true" class="tech">SEO</button>
+          <button class="tech">PPC & Paid Media</button>
+          <button class="tech">Email & Automation</button>
+          <button class="tech">Content & Social</button>
+
         </div>
 
         <div class="logos-part">
@@ -805,187 +799,115 @@
   <!-- tech tabbing part -->
 
 
+  <!-- what we deleaver -->
+
+  <section class="fintech-delivery activity-reports padding-t-120  padding-b-120">
+
+    <div class="container">
+      <div class="inner-part">
+        <div class="left-part">
+          <em>Why PixelCrayons</em>
+          <h2>What structurally separates our<em>delivery model.</em></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+          <a href="#" class="home-cta-button">Contant Us</a>
+
+        </div>
+        <div class="right-part numbring">
+          <div class="ai-list">
+            <div class="ai-item">
+              <div class="card-number">
+                <span>01</span>
+              </div>
+              <div class="title">
+                <h4>Integrated Execution</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">SEO, PPC, content, social, and email under one delivery lead. No handoff friction between channels. No context lost between weekly calls.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+            <div class="ai-item">
+              <div class="card-number">
+                <span>02</span>
+              </div>
+              <div class="title">
+                <h4>Trust Architecture</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">There’s limited visibility into how data is used, where it flows, and what gets retained. Without governance, speed increases—but so does risk.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+            <div class="ai-item active">
+              <div class="card-number">
+                <span>03</span>
+              </div>
+              <div class="title">
+                <h4>Earned Credibility</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">Payment gateways, KYC providers, and financial data APIs are critical. When integrations are treated as plug-and-play, teams underestimate failure scenarios, compliance implications, and ongoing maintenance overhead.</span></p>
+              </div>
+              <div class="progress" style="transition: width 4000ms linear; width: 100%;"></div>
+            </div>
+            <div class="ai-item">
+              <div class="card-number">
+                <span>04</span>
+              </div>
+              <div class="title">
+                <h4>SLA-Backed Delivery</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+            <div class="ai-item">
+              <div class="card-number">
+                <span>05</span>
+              </div>
+              <div class="title">
+                <h4>30+ Country Experience</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+            <div class="ai-item">
+              <div class="card-number">
+                <span>06</span>
+              </div>
+              <div class="title">
+                <h4>Knowledge That Stays With You</h4>
+              </div>
+              <div class="desc">
+                <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
+              </div>
+              <div class="progress" style="transition: none; width: 0%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- what we deleaver -->
+
 
   <!--  -->
 
 
-
-  <!-- left-tabbing part -->
-
-  <section class="we-help-part seo-partner padding-t-120 padding-b-120">
-    <div class="grid-lines">
-      <img src="assets/images/services-spoke/grid-grad.png" alt="">
-    </div>
-    <div class="container">
-
-      <div class="inner-part">
-        <div class="left-part">
-          <div class="top-part">
-
-            <span>What Teams Say</span>
-            <h2>Four specific interventions for <em>eCommerce.</em></h2>
-            <p>Not a menu of services. Specific responses to the operational and commercial problems eCommerce brands face — executed by the same integrated team across every discipline.</p>
-          </div>
-
-
-
-
-        </div>
-        <div class="right-part">
-          <div class="accordion-item active">
-            <div class="accordion-header">
-              <h3>Unified Performance Marketing</h3>
-              <div class="accordion-icon">
-                <img src="assets/images/industry-new/blue-arrow.svg" alt="">
-              </div>
-            </div>
-
-            <div class="accordion-content">
-              <p>
-                Google, Meta, TikTok, and programmatic — managed as one
-                channel ecosystem with shared attribution modelling and
-                creative testing. Campaigns briefed by the same team
-                running your CRO and landing pages.
-              </p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">
-              <h3>Headless Build Or Performance Overhaul</h3>
-              <div class="accordion-icon">
-                <img src="assets/images/industry-new/blue-arrow.svg" alt="">
-              </div>
-            </div>
-
-            <div class="accordion-content">
-              <p>
-                Content for Headless Build Or Performance Overhaul.
-              </p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">
-              <h3>CRO And UX Design Intervention</h3>
-              <div class="accordion-icon">
-                <img src="assets/images/industry-new/blue-arrow.svg" alt="">
-              </div>
-            </div>
-
-            <div class="accordion-content">
-              <p>
-                Content for CRO And UX Design Intervention.
-              </p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">
-              <h3>AI Automation And GEO</h3>
-              <div class="accordion-icon">
-                <img src="assets/images/industry-new/blue-arrow.svg" alt="">
-              </div>
-            </div>
-
-            <div class="accordion-content">
-              <p>
-                Content for AI Automation And GEO.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- left-tabbing part -->
-
-
-
-  <!-- services ecommerce -->
-  <section class="services-ecommerce padding-t-120  padding-b-120">
-    <div class="container">
-      <div class="top-part">
-        <span>Services for eCommerce &amp; D2C</span>
-
-        <h2>
-          Every capability your eCommerce operation needs - <em>under one roof.</em>
-        </h2>
-
-        <p>We activate the services your situation demands. Here are the capabilities most commonly required for eCommerce and D2C brands at growth stage.</p>
-      </div>
-      <!-- 6 Cards -->
-      <div class="inner-part">
-
-        <!-- 1 -->
-
-        <div class="card-box">
-          <a href="#">
-            <div class="card-top">
-              <div class="icon"> <i><img src="assets/images/industry-new/card-icon.svg" alt=""></i></div>
-              <div class="tag"><span>Marketing</span></div>
-            </div>
-            <div class="card-bottom">
-              <h3>Performance Marketing Paid Media</h3>
-              <p>Google Shopping, Meta ROAS, TikTok commerce, programmatic - unified campaign management.</p>
-              <div class="bottom-link">
-                <span>Explore service</span>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="card-box">
-          <a href="#">
-            <div class="card-top">
-              <div class="icon"> <i><img src="assets/images/industry-new/seo.svg" alt=""></i></div>
-              <div class="tag"><span>Marketing</span></div>
-            </div>
-            <div class="card-bottom">
-              <h3>eCommerce SEO &amp; AEO</h3>
-              <p>Technical SEO, product schema, category page optimisation, and Generative Engine Optimisation for AI shopping discovery.</p>
-              <div class="bottom-link">
-                <span>Explore service</span>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="card-box">
-          <a href="#">
-            <div class="card-top">
-              <div class="icon"> <i><img src="assets/images/industry-new/shopify.svg" alt=""></i></div>
-              <div class="tag"><span>DEVELOPMENT</span></div>
-            </div>
-            <div class="card-bottom">
-              <h3>Shopify Development</h3>
-              <p>Custom Shopify builds, Shopify Plus, headless Next.js storefronts, and performance-first migrations from slow theme-based stores.</p>
-              <div class="bottom-link">
-                <span>Explore service</span>
-              </div>
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="section-bottom-part">
-
-        <a href="#" class="btn-outline">VIEW ALL</a>
-      </div>
-
-    </div>
-  </section>
-  <!-- services ecommerce -->
 
   <!-- engagement moal -->
 
   <section class="compliance-section padding-t-120 padding-b-120">
     <div class="container">
       <div class="compliance-section__header">
-        <em>Engagement models</em>
-        <h2>One partner. <em>Every discipline.</em></h2>
-        <p>Governance, contractual commitments, and ZDR standards are identical across every model.</p>
+        <em>How we engage</em>
+        <h2>Three models. <em>One delivery standard. </em></h2>
+        <p>Pick the structure that fits your situation. Switch as you grow. Detailed pricing at <a href="#">pixelcrayons.com/pricing </a>— no surprises.</p>
       </div>
       <div class="compliance-section__grid">
 
@@ -997,22 +919,22 @@
               </div>
 
             </div>
-            <h3>Monthly Retainer</h3>
+            <h3>Retainer</h3>
             <p>For: Teams with ongoing, consistent needs across one role</p>
           </div>
           <div class="card-inner-part">
 
-            <p>A dedicated specialist allocated to your team on a fixed monthly basis. Predictable cost, consistent sprint.</p>
+            <p>An ongoing partnership with a defined monthly scope. Best for brands investing in compounding marketing.</p>
 
             <ul class="compliance-card__list">
-              <li>Fixed monthly hours allocation</li>
-              <li>Dedicated PM included</li>
-              <li>Weekly reporting + sprint sync</li>
-              <li>30-day notice after initial 3 months</li>
+              <li>Monthly scope agreed upfront</li>
+              <li>Named delivery lead throughout</li>
+              <li>Weekly reporting + monthly exec summary</li>
+              <li>Quarterly strategy reviews</li>
             </ul>
           </div>
           <div class="compliance-card__footer">
-            <a href="#" class="btn-secondry">Start Team Extension</a>
+            <a href="#" class="btn-secondry">See retainer pricing</a>
           </div>
         </div>
 
@@ -1032,16 +954,16 @@
 
 
 
-            <p>A composed team — lead, specialist, optional QA — operating as an embedded extension of your.</p>
+            <p>A named PixelCrayons marketing team — strategist, channel specialists, and PM — embedded in your workflow.</p>
             <ul class="compliance-card__list">
-              <li>Multi-role team composition</li>
-              <li>Shared sprint with your team</li>
-              <li>One PM across all specialists</li>
-              <li>Quarterly roadmap planning sessions</li>
+              <li>Full team across all required channels</li>
+              <li>Integrates with your Slack / ClickUp</li>
+              <li>Daily standups available</li>
+              <li>Zero-Competition Guarantee contractual</li>
             </ul>
           </div>
           <div class="compliance-card__footer">
-            <a href="#" class="btn-secondry">Build a Delivery Pod</a>
+            <a href="#" class="btn-secondry">Talk to us</a>
           </div>
         </div>
 
@@ -1053,23 +975,23 @@
               </div>
 
             </div>
-            <h3>Project-Based</h3>
+            <h3>Project</h3>
             <p>For: Defined scope — a build, a sprint-burst, a specific deliverable</p>
           </div>
           <div class="card-inner-part">
 
-            <p>Scoped to a fixed deliverable with defined acceptance criteria. Ideal for rewrites, migrations, launch sprints, or bounded.</p>
+            <p>A scoped deliverable with a defined start and end — campaign launch, audit, or content sprint. Ideal for agencies.</p>
 
             <ul class="compliance-card__list">
-              <li>Defined scope + acceptance criteri</li>
-              <li>Fixed timeline commitment</li>
-              <li>SLA-backed quality standards</li>
-              <li>Seamless shift to retainer if scope grows</li>
+              <li>Fixed scope, fixed timeline</li>
+              <li>Milestone-based delivery</li>
+              <li>Handover documentation included</li>
+              <li>No long-term commitment required</li>
             </ul>
           </div>
 
           <div class="compliance-card__footer">
-            <a href="#" class="btn-secondry">Start Team Extension</a>
+            <a href="#" class="btn-secondry">See project pricing</a>
           </div>
         </div>
 
@@ -1091,13 +1013,12 @@
           <span>HOW WE WORK</span>
 
           <h2>
-            The Path from Brief <br>
-            to <em>Organic Growth.</em>
+           From onboarding <br>
+            <em>to reporting.</em>
           </h2>
 
           <p>
-            No black-box delivery. Every phase is visible, every
-            output is yours, every decision is explained.
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
         </div>
 
@@ -1112,11 +1033,9 @@
 
             <div>
               <span>WEEK 1–2</span>
-              <h3>Discovery & Baseline Audit</h3>
+              <h3>Discovery & Access</h3>
               <p>
-                We start with a full technical crawl and competitive benchmark —
-                understanding your current authority, crawl health, and the keyword
-                landscape your competitors are winning in.
+              Audience audit, access to analytics, ad accounts, and CMS. SLA signed. Delivery lead assigned. Goals and KPIs agreed in writing.
               </p>
             </div>
           </div>
@@ -1126,11 +1045,9 @@
 
             <div>
               <span>WEEK 2–3</span>
-              <h3>Strategy & Keyword Architecture</h3>
+              <h3>Audit & Diagnosis</h3>
               <p>
-                We map keyword clusters by intent and funnel stage, identify quick
-                wins vs authority plays, and align the editorial calendar with your
-                business priorities.
+             Channel-by-channel audit. Competitor benchmarking. Quick-win identification. Prioritised fix list delivered before strategy is built.
               </p>
             </div>
           </div>
@@ -1139,8 +1056,8 @@
             <div class="timeline-number">03</div>
 
             <div>
-              <span>MONTH 1–2</span>
-              <h3>Technical Remediation</h3>
+              <span>Week 3–4</span>
+              <h3>Strategy & Roadmap</h3>
               <p>
                 Technical SEO implementation, site improvements, schema,
                 performance optimization and crawl fixes.
@@ -1152,8 +1069,8 @@
             <div class="timeline-number">04</div>
 
             <div>
-              <span>MONTH 2 ONWARDS</span>
-              <h3>Content Execution & Link Acquisition</h3>
+              <span>Month 2+</span>
+              <h3>Execution</h3>
               <p>
                 Consistent content production and authority building campaigns
                 focused on long-term organic growth.
@@ -1165,8 +1082,8 @@
             <div class="timeline-number">05</div>
 
             <div>
-              <span>ONGOING</span>
-              <h3>Reporting, Review & Optimisation Loop</h3>
+              <span>Ongoing</span>
+              <h3>Reporting & Iteration</h3>
               <p>
                 Continuous monitoring, reporting and optimization based on
                 rankings, traffic and business outcomes.
@@ -1185,32 +1102,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- partner-result -->
   <section class="partner-result">
     <div class="container">
       <div class="top-part">
         <div class="left-part">
-          <h2>Results from brand <em>partnerships.</em></h2>
+          <span>Proof of Work</span>
+          <h2>Marketing results we  <em>can show you.</em></h2>
         </div>
         <div class="right-part">
           <a href="#" class="btn-outline">VIEW ALL</a>
@@ -1223,21 +1121,21 @@
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>
-            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
-            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
+            <h3>D2C Brand: Integrated SEO + Content — From Invisible to Category Leader in 5 Months</h3>
+            <p>Technical SEO foundation rebuild, content cluster strategy across 8 category pillars, and editorial calendar execution.</p>
           </div>
           <div class="time-period">
             <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+              <h3>+340%</h3>
+              <span>Organic traffic</span>
             </div>
             <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+              <h3>+28%</h3>
+              <span>Revenue uplift</span>
             </div>
             <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+              <h3>5mo</h3>
+              <span>To results</span>
             </div>
           </div>
           <a href="#"> Read the case study</a>
@@ -1247,22 +1145,22 @@
             <img src="assets/images/brand/ecommerce.png" alt="">
           </div>
           <div class="content-part">
-            <span>eCommerce & D2C</span>
-            <h3>From 0.9% to 3.4% conversion rate in 90 days</h3>
-            <p>FreshThread was spending $40K/month on ads against a website that hadn't been updated in three years. We rebuilt the Shopify store, redesigned landing pages.</p>
+            <span>SaaS</span>
+            <h3>Agency Client: White-Label PPC Campaign for SaaS — 6.8× ROAS at Scale</h3>
+            <p>Google Ads and LinkedIn campaign management, white-labelled under agency branding. Client had zero visibility into PixelCrayons.</p>
           </div>
           <div class="time-period">
             <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+              <h3>6.8×</h3>
+              <span>ROAS achieved</span>
             </div>
             <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+              <h3>-41%</h3>
+              <span>Cost per lead</span>
             </div>
             <div class="box">
-              <h3>3.4×</h3>
-              <span>Conversion lift</span>
+              <h3>18mo</h3>
+              <span>Engagement length</span>
             </div>
           </div>
           <a href="#"> Read the case study</a>

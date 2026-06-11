@@ -1120,6 +1120,13 @@ input:-webkit-autofill:active {
     width: 100%;
   }
 }
+.partner-result .top-part .left-part span {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #0400F5;
+}
 .partner-result .top-part .left-part h2 em {
   color: #0400F5;
   font-family: "PlayfairDisplay";
