@@ -493,7 +493,7 @@
 
 
   <!-- tech tabbing part -->
-  <section class="stack-fintech padding-t-100 padding-b-100 padding-t-120  padding-b-120">
+  <section class="stack-fintech  padding-t-120  padding-b-120">
     <div class="container">
       <div class="inner-part">
 
