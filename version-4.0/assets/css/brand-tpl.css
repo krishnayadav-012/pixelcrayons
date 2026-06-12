@@ -2870,7 +2870,7 @@ input:-webkit-autofill:active {
   position: absolute;
   left: -30px;
   bottom: -506px;
-  background: url(../images/brand/graid&frame.png);
+  background: url(../images/brand/graid&frame.webp);
   background-repeat: no-repeat;
   content: "";
   width: 1095px;
@@ -3201,7 +3201,7 @@ input:-webkit-autofill:active {
   position: absolute;
   right: -1%;
   bottom: -39%;
-  background: url(../images/agencies/rounded-frame.png);
+  background: url(../images/agencies/rounded-frame.webp);
   width: 446px;
   height: 446px;
   background-repeat: no-repeat;
@@ -3567,7 +3567,7 @@ input:-webkit-autofill:active {
   top: 0;
   width: 1000px;
   height: 1000px;
-  background: url(../images/brand/gra-frame.png);
+  background: url(../images/brand/gra-frame.webp);
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotate(270deg);
@@ -3581,7 +3581,7 @@ input:-webkit-autofill:active {
   transform: rotate(90deg);
   width: 1000px;
   height: 1000px;
-  background: url(../images/brand/gra-frame.png);
+  background: url(../images/brand/gra-frame.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -4168,7 +4168,7 @@ input:-webkit-autofill:active {
   position: absolute;
   top: 20px;
   left: 25px;
-  background: url(../images/hire-main/quote.png);
+  background: url(../images/hire-main/quote.webp);
   width: 60px;
   height: 60px;
 }

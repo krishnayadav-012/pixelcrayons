@@ -1321,7 +1321,7 @@ input:-webkit-autofill:active {
   top: 0;
   width: 1000px;
   height: 1000px;
-  background: url(../images/brand/gra-frame.png);
+  background: url(../images/brand/gra-frame.webp);
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotate(270deg);
@@ -1335,7 +1335,7 @@ input:-webkit-autofill:active {
   transform: rotate(90deg);
   width: 1000px;
   height: 1000px;
-  background: url(../images/brand/gra-frame.png);
+  background: url(../images/brand/gra-frame.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }

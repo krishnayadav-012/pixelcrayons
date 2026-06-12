@@ -3179,7 +3179,7 @@ input:-webkit-autofill:active {
   position: absolute;
   top: 20px;
   left: 25px;
-  background: url(../images/hire-main/quote.png);
+  background: url(../images/hire-main/quote.webp);
   width: 60px;
   height: 60px;
 }
@@ -4842,7 +4842,7 @@ input:-webkit-autofill:active {
   position: absolute;
   left: -30px;
   bottom: -506px;
-  background: url(../images/brand/graid&frame.png);
+  background: url(../images/brand/graid&frame.webp);
   background-repeat: no-repeat;
   content: "";
   width: 1095px;

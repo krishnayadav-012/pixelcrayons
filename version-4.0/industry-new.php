@@ -19,8 +19,8 @@
 <body id="themeAdd" class="home">
   <?php require_once 'assets/include/menu-v5.php'; ?>
   <section class="hero-section home-top-section text-left padding-t-120 padding-b-120">
-    <div class="l-b-sade"><img src="assets/images/brand/gra-frame.png" alt=""></div>
-    <div class="t-r-sade"><img src="assets/images/industry-new/yellow-sade.png" alt=""></div>
+    <div class="l-b-sade"><img src="assets/images/brand/gra-frame.webp" alt=""></div>
+    <div class="t-r-sade"><img src="assets/images/industry-new/yellow-sade.webp" alt=""></div>
     <div class="video-part">
       <video autoplay muted>
         <source src="assets/images/industry-new/banner-video.mp4" type="video/mp4">
@@ -109,7 +109,7 @@
   <!-- deliv -problam -->
   <section class="fintech-delivery padding-t-120  padding-b-120">
     <div class="grid-lines">
-      <img src="assets/images/brand/blue-g-f.png" alt="">
+      <img src="assets/images/brand/blue-g-f.webp" alt="">
     </div>
     <div class="container">
       <div class="inner-part">
@@ -253,7 +253,7 @@
 
         </div>
         <div class="right-part">
-          <img src="assets/images/industry-new/we-help.png" alt="">
+          <img src="assets/images/industry-new/we-help.webp" alt="">
         </div>
       </div>
     </div>
@@ -585,11 +585,11 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>SOC 2 Type II</h3>
               </div>
               <div class="flip-card-back">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>SOC 2 Type II</h3>
                 <p>SOC 2 Type II Attestation is our commitment to the highest standards of data security, privacy, and
                   confidentiality.</p>
@@ -600,11 +600,11 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>GDPR Compliance</h3>
               </div>
               <div class="flip-card-back">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>GDPR Compliance</h3>
                 <p>Fully compliant with the General Data Protection Regulation (GDPR), we adhere to strict guidelines
                   regarding the collection, storage, and processing of personal data.</p>
@@ -615,12 +615,12 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>ISO 27001 Certification</h3>
 
               </div>
               <div class="flip-card-back">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>ISO 27001 Certification</h3>
                 <p>Our ISO 27001 certification signifies adherence to international standards for information security
                   management systems (ISMS).</p>
@@ -631,11 +631,11 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>HIPAA Compliance</h3>
               </div>
               <div class="flip-card-back">
-                <img src="assets/images/industry-new/pci.png" alt="">
+                <img src="assets/images/industry-new/pci.webp" alt="">
                 <h3>HIPAA Compliance</h3>
                 <p>We are dedicated to upholding the stringent requirements of the Health Insurance Portability and
                   Accountability Act (HIPAA).</p>
@@ -770,7 +770,7 @@
               <a href="#">Find Out More </a>
             </div>
             <div class="card-r">
-              <img src="assets/images/industry-new/slide-img.png" alt="">
+              <img src="assets/images/industry-new/slide-img.webp" alt="">
             </div>
           </div>
         </div>
@@ -799,7 +799,7 @@
               <a href="#">Find Out More </a>
             </div>
             <div class="card-r">
-              <img src="assets/images/industry-new/slide-img.png" alt="">
+              <img src="assets/images/industry-new/slide-img.webp" alt="">
             </div>
           </div>
         </div>
@@ -828,7 +828,7 @@
               <a href="#">Find Out More </a>
             </div>
             <div class="card-r">
-              <img src="assets/images/industry-new/slide-img.png" alt="">
+              <img src="assets/images/industry-new/slide-img.webp" alt="">
             </div>
           </div>
         </div>

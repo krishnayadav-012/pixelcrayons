@@ -1096,7 +1096,7 @@ input:-webkit-autofill:active {
 .smarter-solutions::after {
   position: absolute;
   right: 0;
-  background: url(../images/industry-new/blue-sade.png) no-repeat;
+  background: url(../images/industry-new/blue-sade.webp) no-repeat;
   width: 600px;
   height: 100%;
   content: "";
@@ -1108,7 +1108,7 @@ input:-webkit-autofill:active {
   left: 0;
   bottom: -150px;
   transform: rotate(180deg);
-  background: url(../images/industry-new/blue-sade.png) no-repeat;
+  background: url(../images/industry-new/blue-sade.webp) no-repeat;
   width: 630px;
   height: 100%;
   content: "";
@@ -1205,7 +1205,7 @@ input:-webkit-autofill:active {
   z-index: -1;
   height: 200px;
   background-size: cover;
-  background-image: url(../images/industry-new/box-sade.png);
+  background-image: url(../images/industry-new/box-sade.webp);
 }
 .smarter-solutions .inner-part .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);

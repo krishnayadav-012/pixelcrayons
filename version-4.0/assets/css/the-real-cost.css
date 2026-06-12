@@ -1154,7 +1154,7 @@ input:-webkit-autofill:active {
   top: -30px;
   width: 361px;
   height: calc(100% + 60px);
-  background: url(../images/solution/center-blue.png);
+  background: url(../images/solution/center-blue.webp);
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotate(180deg);
@@ -1207,7 +1207,7 @@ input:-webkit-autofill:active {
   font-size: 21px;
   line-height: 1.6;
   padding: 24px 65px;
-  background: url(../images/solution/cost-background.png);
+  background: url(../images/solution/cost-background.webp);
 }
 .fragmented-cost-section .comparison-content.negative {
   text-align: center;

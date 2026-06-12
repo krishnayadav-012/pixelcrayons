@@ -19,8 +19,8 @@
 <body id="themeAdd" class="home">
   <?php require_once 'assets/include/menu-v5.php'; ?>
   <section class="hero-section home-top-section text-left padding-t-120 padding-b-120">
-    <div class="l-b-sade"><img src="assets/images/brand/gra-frame.png" alt=""></div>
-    <div class="t-r-sade"><img src="assets/images/brand/gra-frame.png" alt=""></div>
+    <div class="l-b-sade"><img src="assets/images/brand/gra-frame.webp" alt=""></div>
+    <div class="t-r-sade"><img src="assets/images/brand/gra-frame.webp" alt=""></div>
     <div class="video-part">
       <video autoplay muted>
         <source src="assets/images/brand/brand-banner.mp4" type="video/mp4">
@@ -162,7 +162,7 @@
   <!-- deliv -problam -->
   <section class="fintech-delivery padding-t-120  padding-b-120">
     <div class="grid-lines">
-      <img src="assets/images/brand/blue-g-f.png" alt="">
+      <img src="assets/images/brand/blue-g-f.webp" alt="">
     </div>
     <div class="container">
       <div class="inner-part">
@@ -487,7 +487,7 @@
         </div>
         <div class="right-part">
 
-          <img src="assets/images/brand/embed-img.png" alt="">
+          <img src="assets/images/brand/embed-img.webp" alt="">
 
         </div>
       </div>

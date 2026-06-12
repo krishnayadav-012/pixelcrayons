@@ -19,8 +19,8 @@
 <body id="themeAdd" class="home">
   <?php require_once 'assets/include/menu-v5.php'; ?>
   <section class="hero-section home-top-section text-left padding-t-120 padding-b-120">
-    <div class="l-b-sade"><img src="assets/images/brand/gra-frame.png" alt=""></div>
-    <div class="t-r-sade"><img src="assets/images/brand/gra-frame.png" alt=""></div>
+    <div class="l-b-sade"><img src="assets/images/brand/gra-frame.webp" alt=""></div>
+    <div class="t-r-sade"><img src="assets/images/brand/gra-frame.webp" alt=""></div>
 
     <div class="container">
       <div class="inner-part">
@@ -1108,11 +1108,7 @@
   <!-- partner-result -->
 
 
-
-
-
   <!-- work with  -->
-
   <section class="pixel-section">
     <div class="container">
       <div class="content-wrapper">
