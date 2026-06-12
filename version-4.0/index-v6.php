@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Top IT & Software Outsourcing Company in India - @PixelCrayons</title>
+  <title>Home</title>
   <meta name="description"
     content="PixelCrayons, An award winning software outsourcing company in India having 17+ YRS of experience and offers best offshore software development in India." />
   <meta name="keywords"
@@ -330,14 +330,16 @@
         <div class="card">
           <div class="card-icon"><i> <img src="assets/images/home-images/grey-clock.svg" alt=""> </i></div>
           <div class="card-content">
-            <h3>Product and SaaS Companies</h3>
-            <p>Building your first version or validating a concept.</p>
+            <h3>Missing Client Deadlines?</h3>
+            <p>Deliver every sprint on time without burning out your team.</p>
             <div class="strategic-needs">
               <p>STRATEGIC NEEDS:</p>
               <ul>
-                <li>Technical validation in 4-8 weeks</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
+           
+                <li>Collaboration patterns</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
               </ul>
             </div>
           </div>
@@ -354,10 +356,12 @@
             <p>Building your first version or validating a concept.</p>
             <div class="strategic-needs">
               <p>STRATEGIC NEEDS:</p>
-              <ul>
-                <li>Technical validation in 4-8 weeks</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
+             <ul>
+           
+                <li>Collaboration patterns</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
               </ul>
             </div>
           </div>
@@ -374,10 +378,12 @@
             <p>Building your first version or validating a concept.</p>
             <div class="strategic-needs">
               <p>STRATEGIC NEEDS:</p>
-              <ul>
-                <li>Technical validation in 4-8 weeks</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
+             <ul>
+           
+                <li>Collaboration patterns</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
               </ul>
             </div>
           </div>
@@ -394,10 +400,12 @@
             <p>Building your first version or validating a concept.</p>
             <div class="strategic-needs">
               <p>STRATEGIC NEEDS:</p>
-              <ul>
-                <li>Technical validation in 4-8 weeks</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
+            <ul>
+           
+                <li>Collaboration patterns</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
               </ul>
             </div>
           </div>
@@ -414,10 +422,12 @@
             <p>Building your first version or validating a concept.</p>
             <div class="strategic-needs">
               <p>STRATEGIC NEEDS:</p>
-              <ul>
-                <li>Technical validation in 4-8 weeks</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
+             <ul>
+           
+                <li>Collaboration patterns</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
               </ul>
             </div>
           </div>
@@ -434,10 +444,12 @@
             <p>Building your first version or validating a concept.</p>
             <div class="strategic-needs">
               <p>STRATEGIC NEEDS:</p>
-              <ul>
-                <li>Technical validation in 4-8 weeks</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
-                <li>Fixed scope and budget ($15K–$40K range)</li>
+             <ul>
+           
+                <li>Collaboration patterns</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
+                <li>Executive dashboards</li>
               </ul>
             </div>
           </div>
@@ -542,7 +554,7 @@
 
   <!--  -->
 
-  <section class="comparison" id="elm-expand-tlb">
+  <section class="comparison padding-t-120 padding-b-120" id="elm-expand-tlb">
     <div class="container">
       <div class="section-header">
         <h2>Scaling Delivery: In-House vs <em>White-Label</em></h2>

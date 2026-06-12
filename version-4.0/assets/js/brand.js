@@ -20,75 +20,75 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
- const section = document.querySelector(".fintech-delivery");
+//  const section = document.querySelector(".fintech-delivery");
 
-        if (section) {
+//         if (section) {
 
-            const items = section.querySelectorAll(".ai-item");
+//             const items = section.querySelectorAll(".ai-item");
 
-            let current = 0;
-            let duration = 4000;
-            let timer;
+//             let current = 0;
+//             let duration = 4000;
+//             let timer;
 
-            function startProgress(index) {
+//             function startProgress(index) {
 
-                clearTimeout(timer);
+//                 clearTimeout(timer);
 
-                items.forEach(item => {
+//                 items.forEach(item => {
 
-                    item.classList.remove("active");
+//                     item.classList.remove("active");
 
-                    let bar = item.querySelector(".progress");
+//                     let bar = item.querySelector(".progress");
 
-                    if (bar) {
-                        bar.style.transition = "none";
-                        bar.style.width = "0%";
-                    }
+//                     if (bar) {
+//                         bar.style.transition = "none";
+//                         bar.style.width = "0%";
+//                     }
 
-                });
+//                 });
 
-                let activeItem = items[index];
+//                 let activeItem = items[index];
 
-                if (!activeItem) return;
+//                 if (!activeItem) return;
 
-                activeItem.classList.add("active");
+//                 activeItem.classList.add("active");
 
-                let progress = activeItem.querySelector(".progress");
+//                 let progress = activeItem.querySelector(".progress");
 
-                setTimeout(() => {
-                    if (progress) {
-                        progress.style.transition = `width ${duration}ms linear`;
-                        progress.style.width = "100%";
-                    }
-                }, 50);
+//                 setTimeout(() => {
+//                     if (progress) {
+//                         progress.style.transition = `width ${duration}ms linear`;
+//                         progress.style.width = "100%";
+//                     }
+//                 }, 50);
 
-                timer = setTimeout(() => {
+//                 timer = setTimeout(() => {
 
-                    current++;
+//                     current++;
 
-                    if (current >= items.length) {
-                        current = 0;
-                    }
+//                     if (current >= items.length) {
+//                         current = 0;
+//                     }
 
-                    startProgress(current);
+//                     startProgress(current);
 
-                }, duration);
+//                 }, duration);
 
-            }
+//             }
 
-            items.forEach((item, index) => {
+//             items.forEach((item, index) => {
 
-                item.addEventListener("click", () => {
+//                 item.addEventListener("click", () => {
 
-                    current = index;
-                    startProgress(current);
+//                     current = index;
+//                     startProgress(current);
 
-                });
+//                 });
 
-            });
+//             });
 
-            startProgress(0);
-        }
+//             startProgress(0);
+//         }
 
 
 
@@ -246,3 +246,82 @@ document.addEventListener("DOMContentLoaded", function () {
       popup.style.display = "none";
       iframe.src = ""; // stop video
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function () {
+  function initAiList(list) {
+    const items = list.querySelectorAll(".ai-item");
+    if (!items.length) return;
+ 
+    const duration = parseInt(list.dataset.duration, 10) || 4000;
+    let current = 0;
+    let timer = null;
+ 
+    function startProgress(index) {
+      clearTimeout(timer);
+ 
+      items.forEach((item) => {
+        item.classList.remove("active");
+        const bar = item.querySelector(".progress");
+        if (bar) {
+          bar.style.transition = "none";
+          bar.style.width = "0%";
+        }
+      });
+ 
+      const activeItem = items[index];
+      if (!activeItem) return;
+ 
+      activeItem.classList.add("active");
+ 
+      const progress = activeItem.querySelector(".progress");
+ 
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          if (progress) {
+            progress.style.transition = `width ${duration}ms linear`;
+            progress.style.width = "100%";
+          }
+        });
+      });
+ 
+      timer = setTimeout(() => {
+        current = (index + 1) % items.length;
+        startProgress(current);
+      }, duration);
+    }
+ 
+    items.forEach((item, index) => {
+      item.addEventListener("click", () => {
+        current = index;
+        startProgress(current);
+      });
+    });
+ 
+    startProgress(0);
+  }
+ 
+  function init() {
+    document.querySelectorAll(".ai-list").forEach(initAiList);
+  }
+ 
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();

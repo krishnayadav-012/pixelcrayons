@@ -1175,15 +1175,15 @@ input:-webkit-autofill:active {
 .compliance-card--light .compliance-card__top p {
   color: #3F3F47;
 }
-.compliance-card--light .compliance-card__list {
+.compliance-card--light ul {
   background-color: #ffffff;
 }
-.compliance-card--light .compliance-card__list li {
+.compliance-card--light ul li {
   color: #364153;
   position: relative;
   padding-left: 30px;
 }
-.compliance-card--light .compliance-card__list li::before {
+.compliance-card--light ul li::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1210,12 +1210,12 @@ input:-webkit-autofill:active {
 .compliance-card--dark .compliance-card__top p {
   color: rgba(255, 255, 255, 0.7);
 }
-.compliance-card--dark .compliance-card__list li {
+.compliance-card--dark ul li {
   color: #364153;
   padding-left: 25px;
   position: relative;
 }
-.compliance-card--dark .compliance-card__list li::before {
+.compliance-card--dark ul li::before {
   content: "";
   position: absolute;
   left: 0;

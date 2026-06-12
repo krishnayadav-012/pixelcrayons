@@ -5,7 +5,6 @@
 // sections
 @use "service-solves" as *;
 @use "_table-section" as *;
-
 @use "horizontal-timeline" as *;
 @use "stack-for-fintech" as *;
 @use "services-ecommerce" as *;
@@ -15,10 +14,7 @@
 @use "high-vhelocity" as *;
 @use "how-it-works" as *;
 @use "partner-result" as *;
-
-// sections
-
-
+// sections 
 
 @use "partners-section" as *;
 @use "insights-section" as *;
@@ -307,7 +303,7 @@
   h1 {
     color: $white;
     margin: 0 0 20px;
-    font-size: 80px;
+
     font-weight: $bold;
     line-height: 120%;
 

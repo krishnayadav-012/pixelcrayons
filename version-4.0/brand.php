@@ -115,7 +115,7 @@
 
 
   <!-- /situation section  -->
-  <section class="situation padding-t-120 padding-b-120">
+  <section class="situation padding-b-120">
     <div class="container">
       <div class="top-part">
         <span>The Situation</span>
@@ -134,7 +134,7 @@
         </div>
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/card-1.webp" alt="">
+            <img src="assets/images/brand/card-2.webp" alt="">
           </div>
           <div class="content-part">
             <h3>Vendor chaos everything</h3>
@@ -143,7 +143,7 @@
         </div>
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/card-1.webp" alt="">
+            <img src="assets/images/brand/card-3.webp" alt="">
           </div>
           <div class="content-part">
             <h3>Vendor chaos everything</h3>
@@ -180,10 +180,10 @@
                 <span>01</span>
               </div>
               <div class="title">
-                <h4>Compliance built after engineering decisions are locked</h4>
+                <h4>Marketing</h4>
               </div>
               <div class="desc">
-                <p><span style="font-weight: 400;">Architecture gets defined first, and controls are added later to “meet requirements.” This leads to rework, patch fixes, and systems that technically pass audits but aren’t built for long-term compliance.</span></p>
+                <p><span style="font-weight: 400;">SEO, paid media (Google, Meta, LinkedIn), content marketing, email, automation, social media, conversion optimisation, ORM, and analytics.</span></p>
                 <ul>
                   <li>SEO</li>
                   <li>Paid Media</li>
@@ -198,7 +198,7 @@
                 <span>02</span>
               </div>
               <div class="title">
-                <h4>AI adoption outpacing governance in delivery workflows</h4>
+                <h4>Development</h4>
               </div>
               <div class="desc">
                 <p><span style="font-weight: 400;">There’s limited visibility into how data is used, where it flows, and what gets retained. Without governance, speed increases—but so does risk.</span></p>
@@ -210,7 +210,7 @@
                 <span>03</span>
               </div>
               <div class="title">
-                <h4>External dependencies treated as plug-and-play</h4>
+                <h4>Design</h4>
               </div>
               <div class="desc">
                 <p><span style="font-weight: 400;">Payment gateways, KYC providers, and financial data APIs are critical. When integrations are treated as plug-and-play, teams underestimate failure scenarios, compliance implications, and ongoing maintenance overhead.</span></p>
@@ -222,7 +222,7 @@
                 <span>03</span>
               </div>
               <div class="title">
-                <h4>Delivery systems that lack ownership and traceability</h4>
+                <h4>AI Solutions</h4>
               </div>
               <div class="desc">
                 <p><span style="font-weight: 400;">When ownership is unclear and delivery isn’t fully traceable, issues surface late. Fixes take longer, audits become harder, and confidence in releases drops.</span></p>
@@ -1028,30 +1028,22 @@
   <script>
     (function() {
 
-      // ─── GUARD 1: Required section must exist ───────────────────────────────
-      // All logic is scoped to .how-it-works. If the section isn't on this page,
-      // the script exits immediately — zero impact on any other section or page.
       const section = document.querySelector('.how-it-works');
       if (!section) return;
-
-      // ─── GUARD 2: Required elements must live inside the section ────────────
-      // IDs and class selectors are queried from `section`, not from document,
-      // so they can never accidentally match elements in other sections.
       const scrollEl = section.querySelector('#timelineScroll');
       const progressEl = section.querySelector('#timelineProgress');
       const items = Array.from(section.querySelectorAll('.timeline-item'));
       const total = items.length;
 
-      // ─── GUARD 3: Bail if any required element is missing ───────────────────
+
       if (!scrollEl || !progressEl || total === 0) return;
 
-      let currentStep = -1; // which step is currently active
-      let animating = false; // lock while smooth-scroll is in flight
-      let autoTimer = null; // interval handle
+      let currentStep = -1;
+      let animating = false;
+      let autoTimer = null;
 
       // ── helpers ──────────────────────────────────────────────────────────────
 
-      // Returns progress-bar height % so the bar tip aligns to the bubble centre.
       function pctForStep(index) {
         // GUARD: index must be within bounds
         if (index < 0 || index >= total) return 0;
@@ -1120,36 +1112,15 @@
       }
 
       // Kick off after paint (600 ms), then every 1.8 
-     advance(); // immediately active
-setTimeout(() => {
-  autoTimer = setInterval(advance, 1800);
-}, 400); // pause before auto-advancing to the next step
+      advance(); // immediately active
+      setTimeout(() => {
+        autoTimer = setInterval(advance, 1800);
+      }, 400); // pause before auto-advancing to the next step
 
-      // ── manual scroll sync (only after auto finishes) ─────────────────────────
-      // Listener is attached to scrollEl only — never to window or document,
-      // so it cannot interfere with any other section's scroll behaviour.
-      scrollEl.addEventListener('scroll', function() {
-        if (autoTimer !== null) return; // hands off while auto is running
 
-        const panelTop = scrollEl.getBoundingClientRect().top;
-        const panelH = scrollEl.clientHeight;
-        let activeIndex = -1;
 
-        items.forEach((item, i) => {
-          const rect = item.getBoundingClientRect();
-          if (rect.top + rect.height / 2 - panelTop < panelH * 0.65) {
-            activeIndex = i;
-          }
-        });
 
-        if (activeIndex >= 0) {
-          items.forEach((item, i) => item.classList.toggle('active', i <= activeIndex));
-          progressEl.style.height = pctForStep(activeIndex) + '%';
-        }
-      }, {
-        passive: true
-      });
-
+    
     })();
   </script>
 </body>

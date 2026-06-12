@@ -1087,7 +1087,31 @@ input:-webkit-autofill:active {
 }
 .comparison {
   background: #F2F8FF;
-  padding: 120px 0px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.comparison::after {
+  position: absolute;
+  content: "";
+  left: -25px;
+  bottom: -50px;
+  background-image: url(../images/home-images/append-sade.webp);
+  width: 578px;
+  height: 578px;
+  z-index: -1;
+  background-size: cover;
+}
+.comparison::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 40px;
+  background-image: url(../images/home-images/append-sade-two.webp);
+  width: 600px;
+  height: 732px;
+  z-index: -1;
+  background-size: cover;
 }
 @media screen and (max-width: 1024px) {
   .comparison {

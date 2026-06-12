@@ -1195,6 +1195,16 @@ input:-webkit-autofill:active {
   object-fit: fill;
   border-radius: 20px;
 }
+@media screen and (max-width: 767px) {
+  .partner-result .bottom-cards .card .img-part {
+    height: unset;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .partner-result .bottom-cards .card .img-part {
+    height: 345px;
+  }
+}
 .partner-result .bottom-cards .card span {
   font-size: 14px;
   font-weight: 600;

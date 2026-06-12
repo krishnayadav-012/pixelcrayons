@@ -113,6 +113,7 @@ z-index: -1;
         
         .accordion-item {
                 border-bottom: 1px solid #e5e5e5;
+                position: relative;
  }
 
 
@@ -150,13 +151,18 @@ z-index: -1;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    bottom: -30px;
-                    position: relative;
+                    bottom: 0px;
+                    right: 0;
+                    position: absolute;
                     flex-shrink: 0;
                     cursor: pointer;
 
                     @media screen and (max-width:767px) {
-                        bottom: -15px;
+                        width: 30px;
+                        height: 30px;
+
+                        img{width: 11px;}
+
                     }
 
                 }

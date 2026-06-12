@@ -3277,6 +3277,7 @@ input:-webkit-autofill:active {
 }
 .we-help-part .inner-part .accordion-item {
   border-bottom: 1px solid #e5e5e5;
+  position: relative;
 }
 .we-help-part .inner-part .accordion-header {
   display: flex;
@@ -3311,14 +3312,19 @@ input:-webkit-autofill:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: -30px;
-  position: relative;
+  bottom: 0px;
+  right: 0;
+  position: absolute;
   flex-shrink: 0;
   cursor: pointer;
 }
 @media screen and (max-width: 767px) {
   .we-help-part .inner-part .accordion-icon {
-    bottom: -15px;
+    width: 30px;
+    height: 30px;
+  }
+  .we-help-part .inner-part .accordion-icon img {
+    width: 11px;
   }
 }
 .we-help-part .inner-part .accordion-content {
@@ -4211,7 +4217,6 @@ input:-webkit-autofill:active {
   position: relative;
   transition: border-color 0.28s ease, background 0.28s ease, box-shadow 0.28s ease, transform 0.28s ease;
   padding: 30px 30px 60px 30px;
-  height: 100%;
 }
 .services-ecommerce .inner-part .card-box .card-top {
   display: flex;
@@ -5509,6 +5514,11 @@ input:-webkit-autofill:active {
   border-radius: 20px;
   max-height: 175px;
   width: 100%;
+}
+@media screen and (min-width: 1600px) {
+  .blog-card__image {
+    max-height: 235px;
+  }
 }
 .blog-card__image img {
   width: 100%;
@@ -7461,7 +7471,6 @@ input:-webkit-autofill:active {
 .hero-section h1 {
   color: #ffffff;
   margin: 0 0 20px;
-  font-size: 80px;
   font-weight: 700;
   line-height: 120%;
 }

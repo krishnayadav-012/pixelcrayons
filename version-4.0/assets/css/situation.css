@@ -1085,6 +1085,9 @@ input:-webkit-autofill:active {
     min-width: auto;
   }
 }
+.situation {
+  padding-top: 20px;
+}
 .situation .top-part {
   max-width: 974px;
   margin: 0 auto;
@@ -1139,6 +1142,11 @@ input:-webkit-autofill:active {
   max-height: 224px;
   overflow: hidden;
   height: 100%;
+}
+@media screen and (min-width: 1600px) {
+  .situation .cards-part .card .img-part {
+    max-height: 280px;
+  }
 }
 .situation .cards-part .card .img-part img {
   width: 100%;
