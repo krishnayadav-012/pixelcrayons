@@ -1132,6 +1132,7 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 640px) {
   .situation .cards-part .card {
+    display: inline-grid !important;
     width: 100%;
   }
 }
@@ -1146,6 +1147,11 @@ input:-webkit-autofill:active {
 @media screen and (min-width: 1600px) {
   .situation .cards-part .card .img-part {
     max-height: 280px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .situation .cards-part .card .img-part {
+    max-height: unset;
   }
 }
 .situation .cards-part .card .img-part img {

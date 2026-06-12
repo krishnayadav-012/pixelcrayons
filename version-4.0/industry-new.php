@@ -261,13 +261,13 @@
 
 
 
-  <section class="services-ecommerce">
+  <section class="services-ecommerce padding-t-120 padding-b-120">
     <div class="container">
       <div class="top-part">
         <span>Services for eCommerce & D2C</span>
 
         <h2>
-          Every capability your eCommerce operation needs - <em>under one roof.</em>
+          Every capability your eCommerce operation needs - <em>under one roof.</em>
         </h2>
 
         <p>We activate the services your situation demands. Here are the capabilities most commonly required for eCommerce and D2C brands at growth stage.</p>

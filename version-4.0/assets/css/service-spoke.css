@@ -2435,7 +2435,6 @@ input:-webkit-autofill:active {
 .high-vhelocity .inner-part .left-part h2 {
   color: #ffffff;
   margin-top: 10px;
-  font-size: 40px;
 }
 .high-vhelocity .inner-part .left-part p {
   color: #D1D5DB;
@@ -4928,11 +4927,12 @@ input:-webkit-autofill:active {
     width: 100%;
   }
 }
-.partner-result .top-part .left-part span {
+.partner-result .top-part .left-part > em {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
+  font-style: normal;
   color: #0400F5;
 }
 .partner-result .top-part .left-part h2 em {

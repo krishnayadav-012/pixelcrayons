@@ -641,7 +641,7 @@
       <div class="bottom-cards">
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
+            <img src="assets/images/brand/ecommerce.webp" alt="">
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>
@@ -666,7 +666,7 @@
         </div>
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
+            <img src="assets/images/brand/retail.webp" alt="">
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>

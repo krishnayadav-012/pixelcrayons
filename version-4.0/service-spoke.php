@@ -1044,6 +1044,7 @@
     <div class="container">
       <div class="top-part">
         <div class="left-part">
+          <em>Proof of Work</em>
           <h2>Results from brand <em>partnerships.</em></h2>
         </div>
         <div class="right-part">
@@ -1053,7 +1054,7 @@
       <div class="bottom-cards">
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
+            <img src="assets/images/brand/ecommerce.webp" alt="">
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>
@@ -1078,7 +1079,7 @@
         </div>
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
+            <img src="assets/images/brand/retail.webp" alt="">
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>
@@ -1559,303 +1560,10 @@
     src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264"
     id="pixel-glider-js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-  <script src="assets/js/brand.js"></script>
+  <script src="assets/js/script-v2.js"></script>
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>
 
-  <script>
-    (function() {
-
-      // ─── GUARD 1: Required section must exist ───────────────────────────────
-      // All logic is scoped to .how-it-works. If the section isn't on this page,
-      // the script exits immediately — zero impact on any other section or page.
-      const section = document.querySelector('.how-it-works');
-      if (!section) return;
-
-      // ─── GUARD 2: Required elements must live inside the section ────────────
-      // IDs and class selectors are queried from `section`, not from document,
-      // so they can never accidentally match elements in other sections.
-      const scrollEl = section.querySelector('#timelineScroll');
-      const progressEl = section.querySelector('#timelineProgress');
-      const items = Array.from(section.querySelectorAll('.timeline-item'));
-      const total = items.length;
-
-      // ─── GUARD 3: Bail if any required element is missing ───────────────────
-      if (!scrollEl || !progressEl || total === 0) return;
-
-      let currentStep = -1; // which step is currently active
-      let animating = false; // lock while smooth-scroll is in flight
-      let autoTimer = null; // interval handle
-
-      // ── helpers ──────────────────────────────────────────────────────────────
-
-      // Returns progress-bar height % so the bar tip aligns to the bubble centre.
-      function pctForStep(index) {
-        // GUARD: index must be within bounds
-        if (index < 0 || index >= total) return 0;
-
-        const bubble = items[index].querySelector('.step-bubble');
-        if (!bubble) return 0;
-
-        const panelRect = scrollEl.getBoundingClientRect();
-        const bubbleRect = bubble.getBoundingClientRect();
-
-        const bubbleCentre = bubbleRect.top - panelRect.top +
-          scrollEl.scrollTop +
-          bubbleRect.height / 2;
-
-        const totalTrack = scrollEl.scrollHeight - 40; // matches CSS top:20 + bottom:20
-        const filled = bubbleCentre - 20;
-        return Math.min(100, Math.max(0, (filled / totalTrack) * 100));
-      }
-
-      // Activate all steps up to and including `index`.
-      // Only touches elements that are children of `section`.
-      function activateUpTo(index) {
-        items.forEach((item, i) => {
-          item.classList.toggle('active', i <= index);
-        });
-        progressEl.style.height = pctForStep(index) + '%';
-      }
-
-      // Smoothly scroll the panel (scoped to scrollEl only — never window).
-      function scrollToStep(index) {
-        if (index < 0 || index >= total) return;
-        const target = items[index].offsetTop - 40;
-        scrollEl.scrollTo({
-          top: Math.max(0, target),
-          behavior: 'smooth'
-        });
-      }
-
-      // ── entrance: staggered fade-in for items inside the section ─────────────
-      items.forEach((item, i) => {
-        setTimeout(() => item.classList.add('visible'), 100 + 80 * i);
-      });
-
-      // ── auto-advance ──────────────────────────────────────────────────────────
-      function advance() {
-        if (animating) return;
-        const next = currentStep + 1;
-
-        if (next >= total) {
-          // Reached the last step — stop. Never restarts.
-          clearInterval(autoTimer);
-          autoTimer = null;
-          return;
-        }
-
-        animating = true;
-        currentStep = next;
-
-        activateUpTo(currentStep); // highlight bubble + grow bar
-        scrollToStep(currentStep); // scroll panel (not window)
-
-        // Release lock after smooth-scroll settles (~600 ms)
-        setTimeout(() => {
-          animating = false;
-        }, 650);
-      }
-
-      // Kick off after paint (600 ms), then every 1.8 
-      advance(); // immediately active
-      setTimeout(() => {
-        autoTimer = setInterval(advance, 1800);
-      }, 400); // pause before auto-advancing to the next step
-
-      // ── manual scroll sync (only after auto finishes) ─────────────────────────
-      // Listener is attached to scrollEl only — never to window or document,
-      // so it cannot interfere with any other section's scroll behaviour.
-      scrollEl.addEventListener('scroll', function() {
-        if (autoTimer !== null) return; // hands off while auto is running
-
-        const panelTop = scrollEl.getBoundingClientRect().top;
-        const panelH = scrollEl.clientHeight;
-        let activeIndex = -1;
-
-        items.forEach((item, i) => {
-          const rect = item.getBoundingClientRect();
-          if (rect.top + rect.height / 2 - panelTop < panelH * 0.65) {
-            activeIndex = i;
-          }
-        });
-
-        if (activeIndex >= 0) {
-          items.forEach((item, i) => item.classList.toggle('active', i <= activeIndex));
-          progressEl.style.height = pctForStep(activeIndex) + '%';
-        }
-      }, {
-        passive: true
-      });
-
-    })();
-
-
-
-
-
-
-
-
-
-
-
-    // ~~~~~~~~~~~~~~ we-help-part ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    const weHelpSection = document.querySelector(".we-help-part");
-
-    if (weHelpSection) {
-
-      const accordionItems = weHelpSection.querySelectorAll(".accordion-item");
-
-      accordionItems.forEach(item => {
-        const header = item.querySelector(".accordion-header");
-
-        header.addEventListener("click", () => {
-
-          if (item.classList.contains("active")) return;
-
-          accordionItems.forEach(acc => {
-            acc.classList.remove("active");
-          });
-
-          item.classList.add("active");
-        });
-      });
-
-    }
-    // `````````~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-    document.addEventListener('DOMContentLoaded', function() {
-
-      document.querySelectorAll('.agency-brand-tabs').forEach((section) => {
-
-        section.querySelectorAll('.accordion').forEach((accordion) => {
-
-          const items = accordion.querySelectorAll('.accordion-item');
-
-          items.forEach((item) => {
-
-            const btn = item.querySelector('.accordion-header');
-
-            if (!btn) return;
-
-            btn.addEventListener('click', () => {
-
-              const isActive = item.classList.contains('active');
-
-              items.forEach((el) => {
-                el.classList.remove('active');
-              });
-
-              if (!isActive) {
-                item.classList.add('active');
-              }
-            });
-          });
-
-        });
-
-      });
-
-    });
-
-
-    // `````````~~~~~~~~~~~~~~~~~~~~~~~~~stack-for-fintech~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-    (function() {
-
-      const buttons = document.querySelectorAll('.production-tech button');
-      const logoLists = document.querySelectorAll('.logos-part ul');
-
-      function showTab(key) {
-        logoLists.forEach(ul => {
-          ul.classList.toggle('active', ul.getAttribute('data-tab') === key);
-        });
-      }
-
-      buttons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          buttons.forEach(b => b.setAttribute('data-active', 'false'));
-          btn.setAttribute('data-active', 'true');
-
-          const key = btn.textContent.trim()
-            .replace(/&amp;/g, '&')
-            .replace(/\u00a0/g, ' ');
-          showTab(key);
-        });
-      });
-
-      // Load first tab by default
-      if (buttons.length > 0) {
-        buttons[0].setAttribute('data-active', 'true');
-        const defaultKey = buttons[0].textContent.trim()
-          .replace(/&amp;/g, '&')
-          .replace(/\u00a0/g, ' ');
-        showTab(defaultKey);
-      }
-
-    })();
-
-// /seo path section 
-(function () {
-  const section = document.querySelector(".seo-path-section");
-
-  if (!section) return;
-
-  const timeline = section.querySelector(".seo-path-timeline");
-  const items = timeline.querySelectorAll(".timeline-item");
-  const progress = timeline.querySelector(".timeline-progress");
-
-  function updateTimeline() {
-    const trigger = window.innerHeight * 0.45;
-
-    let activeIndex = 0;
-
-    items.forEach((item, index) => {
-      const rect = item.getBoundingClientRect();
-
-      if (rect.top <= trigger) {
-        activeIndex = index;
-      }
-    });
-
-    items.forEach((item, index) => {
-      item.classList.toggle("active", index <= activeIndex);
-    });
-
-    const activeItem = items[activeIndex];
-    const activeNumber = activeItem.querySelector(".timeline-number");
-
-    const lineRect =
-      timeline.querySelector(".timeline-line").getBoundingClientRect();
-
-    const numberRect = activeNumber.getBoundingClientRect();
-
-    const height =
-      numberRect.top +
-      numberRect.height / 2 -
-      lineRect.top;
-
-    progress.style.height = `${height}px`;
-  }
-
-  updateTimeline();
-
-  window.addEventListener("scroll", updateTimeline, {
-    passive: true,
-  });
-
-  window.addEventListener("resize", updateTimeline);
-})();
-
-
-
-
-
-
-  </script>
 </body>
 
 </html>

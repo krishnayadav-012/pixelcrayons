@@ -304,7 +304,7 @@
  
     &:hover {
       border-color: rgba(5, 36, 126, 0.20);
-      border: 1px solid  #0400F5;
+      border: 1px solid   $royelblue;
       background: $white;
 
    box-shadow: 0px 2px 14px 0px #0400F526;
@@ -341,7 +341,7 @@ font-size: 18px;
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #0400F5;
+      background:  $royelblue;
       flex-shrink: 0;
     }
   }

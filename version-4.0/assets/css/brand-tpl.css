@@ -2435,7 +2435,6 @@ input:-webkit-autofill:active {
 .high-vhelocity .inner-part .left-part h2 {
   color: #ffffff;
   margin-top: 10px;
-  font-size: 40px;
 }
 .high-vhelocity .inner-part .left-part p {
   color: #D1D5DB;
@@ -2814,6 +2813,7 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 640px) {
   .situation .cards-part .card {
+    display: inline-grid !important;
     width: 100%;
   }
 }
@@ -2828,6 +2828,11 @@ input:-webkit-autofill:active {
 @media screen and (min-width: 1600px) {
   .situation .cards-part .card .img-part {
     max-height: 280px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .situation .cards-part .card .img-part {
+    max-height: unset;
   }
 }
 .situation .cards-part .card .img-part img {
@@ -3616,11 +3621,12 @@ input:-webkit-autofill:active {
     width: 100%;
   }
 }
-.partner-result .top-part .left-part span {
+.partner-result .top-part .left-part > em {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
+  font-style: normal;
   color: #0400F5;
 }
 .partner-result .top-part .left-part h2 em {
@@ -6642,7 +6648,6 @@ input:-webkit-autofill:active {
 .hero-section h1 {
   color: #ffffff;
   margin: 0 0 20px;
-  font-size: 80px;
   font-weight: 700;
   line-height: 120%;
 }

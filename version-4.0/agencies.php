@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Top IT & Software Outsourcing Company in India - @PixelCrayons</title>
+  <title>Agency</title>
   <meta name="description"
     content="PixelCrayons, An award winning software outsourcing company in India having 17+ YRS of experience and offers best offshore software development in India." />
   <meta name="keywords"
@@ -283,131 +283,8 @@
   </section>
 
 
-  <!-- engagemant moal -->
-  <section class="compliance-section padding-t-120 padding-b-120">
-    <div class="container">
-      <div class="compliance-section__header">
-        <em>Engagement models</em>
-        <h2>One partner. <em>Every discipline.</em></h2>
-        <p>Governance, contractual commitments, and ZDR standards are identical across every model.</p>
-      </div>
-      <div class="compliance-section__grid">
 
-        <div class="compliance-card compliance-card--light">
-          <div class="compliance-card__top">
-            <span>Team Extension</span>
-            <h3>Client-Led Delivery</h3>
-            <p>You run delivery · We add engineers who integrate fast</p>
-          </div>
-          <div class="card-inner-part">
-            <h3>Start with one project</h3>
-            <p>One defined deliverable. Scoped, priced, and delivered. No retainer commitment.</p>
-
-            <ul class="compliance-card__list">
-              <li>Your sprint process · your tools · your compliance posture</li>
-              <li>Engineers with FinTech domain experience — confirmed before profiling</li>
-              <li>ZDR standard · NDA before repo access · IP clause Day 1</li>
-              <li>48h matching · 7-day trial · 10-day replacement — in contract</li>
-            </ul>
-          </div>
-          <div class="compliance-card__footer">
-            <a href="#" class="btn-secondry">Start Team Extension</a>
-          </div>
-        </div>
-
-        <div class="compliance-card compliance-card--dark">
-          <div class="compliance-card__top">
-            <span>Delivery Pod</span>
-            <h3>ValueCoders-Led Delivery</h3>
-            <p>We run delivery · You define what ships</p>
-          </div>
-          <div class="card-inner-part">
-
-
-            <h3>Monthly Retainer</h3>
-            <p>Ongoing execution across one or multiple disciplines. Predictable monthly cost.</p>
-            <ul class="compliance-card__list">
-              <li>Named Delivery Lead owns cadence, QA, and compliance gates</li>
-              <li>Weekly sprint reports — ticket data in your tools, not slides</li>
-              <li>Compliance architecture reviewed by Head of Delivery before kickoff</li>
-              <li>Milestone or Fixed-Cost billing — after Discovery Sprint</li>
-            </ul>
-          </div>
-          <div class="compliance-card__footer">
-            <a href="#" class="btn-secondry">Build a Delivery Pod</a>
-          </div>
-        </div>
-
-        <div class="compliance-card compliance-card--light">
-          <div class="compliance-card__top">
-            <span class="compliance-card__badge compliance-card__badge--yellow">Discovery Sprint</span>
-            <h3>Start Here</h3>
-            <p>Fixed-Fee · 2–4 Weeks · Compliance-first scoping</p>
-          </div>
-          <div class="card-inner-part">
-            <h3>Dedicated Team</h3>
-            <p>A named team — developer, designer, marketer - embedded full-time under.</p>
-
-            <ul class="compliance-card__list">
-              <li>Compliance requirements mapped before any architecture decision</li>
-              <li>PCI-DSS / SOC 2 / GDPR scope documented in deliverable</li>
-              <li>Milestone plan with compliance effort included in estimates</li>
-              <li>Required before any fixed-price FinTech build commitment</li>
-            </ul>
-          </div>
-
-          <div class="compliance-card__footer">
-            <a href="#" class="btn-secondry">Start Team Extension</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-
-<!-- new section -->
- <section class="structurally-section">
-    <div class="container">
-      <div class="inner-part">
-
-        <div class="content-box">
-          <em>THE ZERO-COMPETITION GUARANTEE</em>
-          <h2>Structurally <em>unable</em> to compete with you</h2>
-          <p >
-            Most partners promise not to compete with you. We've made it structurally impossible. Separate business units.
-          </p>
-          
-          <ul class="features-list">
-            <li>NDA on every engagement</li>
-            <li>12-month post-engagement blackout</li>
-            <li>Separate sales infrastructure</li>
-            <li>85%+ annual retention</li>
-            <li>Zero incidents in 21 years</li>
-          </ul>
-          
-         <a href="#" class="home-cta-button">CONTACT US</a>
-        </div>
-        
-        <div class="image-box">
-          <img src="assets/images/agencies/pxl-img.png" alt="Hummingbird Coin" class="overlapping-coin">
-        </div>
-      </div>
-    </div>
-</section>
-<!-- new section -->
-
-
-
-
-
-
-
-
-
-
-  <!-- overlap-section -->
+    <!-- overlap-section -->
   <section class="stacking-cards-section padding-b-120 padding-t-120" id="unique-stacking-wrapper">
     <div class="container">
       <div class="top-part">
@@ -508,6 +385,139 @@
       </div>
     </div>
   </section>
+
+
+
+
+  <!-- new section -->
+ <section class="structurally-section">
+    <div class="container">
+      <div class="inner-part">
+
+        <div class="content-box">
+          <em>THE ZERO-COMPETITION GUARANTEE</em>
+          <h2>Structurally <em>unable</em> to compete with you</h2>
+          <p >
+            Most partners promise not to compete with you. We've made it structurally impossible. Separate business units.
+          </p>
+          
+          <ul class="features-list">
+            <li>NDA on every engagement</li>
+            <li>12-month post-engagement blackout</li>
+            <li>Separate sales infrastructure</li>
+            <li>85%+ annual retention</li>
+            <li>Zero incidents in 21 years</li>
+          </ul>
+          
+         <a href="#" class="home-cta-button">CONTACT US</a>
+        </div>
+        
+        <div class="image-box">
+          <img src="assets/images/agencies/pxl-img.png" alt="Hummingbird Coin" class="overlapping-coin">
+        </div>
+      </div>
+    </div>
+</section>
+<!-- new section -->
+
+
+
+
+  <!-- engagemant moal -->
+  <section class="compliance-section padding-t-120 padding-b-120">
+    <div class="container">
+      <div class="compliance-section__header">
+        <em>Engagement models</em>
+        <h2>One partner. <em>Every discipline.</em></h2>
+        <p>Governance, contractual commitments, and ZDR standards are identical across every model.</p>
+      </div>
+      <div class="compliance-section__grid">
+
+        <div class="compliance-card compliance-card--light">
+          <div class="compliance-card__top">
+            <span>Team Extension</span>
+            <h3>Client-Led Delivery</h3>
+            <p>Typical project range</p>
+          </div>
+          <div class="card-inner-part">
+            <h3>Start with one project</h3>
+            <p>One defined deliverable. Scoped, priced, and delivered. No retainer commitment.</p>
+
+            <ul class="compliance-card__list">
+              <li>NDA and SLA before any work begins</li>
+              <li>Dedicated project manager</li>
+              <li>Weekly progress updates</li>
+              <li>All deliverables under your brand</li>
+            </ul>
+          </div>
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Start Team Extension</a>
+          </div>
+        </div>
+
+        <div class="compliance-card compliance-card--dark">
+          <div class="compliance-card__top">
+            <span>Delivery Pod</span>
+            <h3>$2K–$8K</h3>
+            <p>We run delivery · You define what ships</p>
+          </div>
+          <div class="card-inner-part">
+
+
+            <h3>Monthly Retainer</h3>
+            <p>Ongoing execution across one or multiple disciplines. Predictable monthly cost.</p>
+            <ul class="compliance-card__list">
+              <li>Dedicated team embedded your workflow</li>
+              <li>Weekly branded reporting to your clients</li>
+              <li>Multi-discipline coverage - mix and match</li>
+              <li>Scale up or down with 30-day notice</li>
+            </ul>
+          </div>
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Build a Delivery Pod</a>
+          </div>
+        </div>
+
+        <div class="compliance-card compliance-card--light">
+          <div class="compliance-card__top">
+            <span class="compliance-card__badge compliance-card__badge--yellow">Discovery Sprint</span>
+            <h3>Start Here</h3>
+            <p>Fixed-Fee · 2–4 Weeks · Compliance-first scoping</p>
+          </div>
+          <div class="card-inner-part">
+            <h3>Dedicated Team</h3>
+            <p>A named team — developer, designer, marketer - embedded full-time under.</p>
+
+            <ul class="compliance-card__list">
+              <li>Full-time team working your hours</li>
+              <li>Joins client calls as your team member</li>
+              <li>Your email domain if required</li>
+              <li>Full NDA, IP ownership, and SLA</li>
+            </ul>
+          </div>
+
+          <div class="compliance-card__footer">
+            <a href="#" class="btn-secondry">Start Team Extension</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -961,14 +971,12 @@
     </div>
   </section>
 
-
   <!-- faq-section end-->
-
 
   <?php require_once 'assets/include/cta-v3.php'; ?>
   <?php require_once 'assets/include/blog-footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-  <script src="assets/js/agencies.js"></script>
+  <script src="assets/js/script-v2.js "> </script>
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>
 </body>

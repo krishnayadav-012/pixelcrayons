@@ -3509,7 +3509,6 @@ input:-webkit-autofill:active {
 .high-vhelocity .inner-part .left-part h2 {
   color: #ffffff;
   margin-top: 10px;
-  font-size: 40px;
 }
 .high-vhelocity .inner-part .left-part p {
   color: #D1D5DB;
@@ -7087,6 +7086,10 @@ input:-webkit-autofill:active {
   z-index: 9999;
   margin-top: 4px;
   padding: 4px 0;
+}
+
+.pixel-section {
+  background: #FAFAFA;
 }
 
 /*# sourceMappingURL=index-v6.css.map */

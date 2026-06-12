@@ -466,7 +466,62 @@
 
   <!-- Challenges section end -->
 
+ <!-- work with  -->
 
+
+  <section class="pixel-section">
+    <div class="container">
+      <div class="content-wrapper">
+
+        <div class="text-content">
+          <h2>Why Agencies Work With <em>PixelCrayons</em></h2>
+          <p>Agencies stay with us because we make delivery easier—not complicated.</p>
+
+          <ul class="features-list">
+            <li> Zero Client Competition</li>
+            <li> 100% White-Label Delivery</li>
+            <li> One Unified Delivery Partner</li>
+            <li> Predictable, Transparent Execution</li>
+            <li> Long-Term Growth Support</li>
+            <li> Simple Rules. Reliable Outcomes</li>
+          </ul>
+        </div>
+
+        <div class="visual-content">
+          <ul class="logo-grid">
+            <li><img src="assets/images/home-images/cmmi.png" alt="CMMI Level 3"></li>
+            <li><img src="assets/images/home-images/android-logo.png" alt="Android Recommended"></li>
+            <li><img src="assets/images/home-images/clutch-logo.png" alt="Clutch 4.8"></li>
+            <li><img src="assets/images/home-images/goodfirms-logo.png" alt="GoodFirms"></li>
+            <li><img src="assets/images/home-images/google-cloud-logo.png" alt="Google Cloud Partner"></li>
+            <li><img src="assets/images/home-images/microsoft-logo.png" alt="Microsoft Partner"></li>
+          </ul>
+
+          <div class="stats-bar">
+            <div class="stat-item">
+              <h3>97%</h3>
+              <p>Retention</p>
+            </div>
+            <div class="stat-item">
+              <h3>4.5k+</h3>
+              <p>Projects</p>
+            </div>
+            <div class="stat-item">
+              <h3>21y</h3>
+              <p>Excellence</p>
+            </div>
+            <div class="stat-item">
+              <h3>100+</h3>
+              <p>Excellence</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- work with  -->
 
 
   <!-- high-velocity -->
@@ -625,62 +680,7 @@
 
 
 
-  <!-- work with  -->
-
-
-  <section class="pixel-section">
-    <div class="container">
-      <div class="content-wrapper">
-
-        <div class="text-content">
-          <h2>Why Agencies Work With <em>PixelCrayons</em></h2>
-          <p>Agencies stay with us because we make delivery easier—not complicated.</p>
-
-          <ul class="features-list">
-            <li> Zero Client Competition</li>
-            <li> 100% White-Label Delivery</li>
-            <li> One Unified Delivery Partner</li>
-            <li> Predictable, Transparent Execution</li>
-            <li> Long-Term Growth Support</li>
-            <li> Simple Rules. Reliable Outcomes</li>
-          </ul>
-        </div>
-
-        <div class="visual-content">
-          <ul class="logo-grid">
-            <li><img src="assets/images/home-images/cmmi.png" alt="CMMI Level 3"></li>
-            <li><img src="assets/images/home-images/android-logo.png" alt="Android Recommended"></li>
-            <li><img src="assets/images/home-images/clutch-logo.png" alt="Clutch 4.8"></li>
-            <li><img src="assets/images/home-images/goodfirms-logo.png" alt="GoodFirms"></li>
-            <li><img src="assets/images/home-images/google-cloud-logo.png" alt="Google Cloud Partner"></li>
-            <li><img src="assets/images/home-images/microsoft-logo.png" alt="Microsoft Partner"></li>
-          </ul>
-
-          <div class="stats-bar">
-            <div class="stat-item">
-              <h3>97%</h3>
-              <p>Retention</p>
-            </div>
-            <div class="stat-item">
-              <h3>4.5k+</h3>
-              <p>Projects</p>
-            </div>
-            <div class="stat-item">
-              <h3>21y</h3>
-              <p>Excellence</p>
-            </div>
-            <div class="stat-item">
-              <h3>100+</h3>
-              <p>Excellence</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- work with  -->
+ 
 
   <!-- high-velocity -->
 

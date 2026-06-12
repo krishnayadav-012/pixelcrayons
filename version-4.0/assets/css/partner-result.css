@@ -1120,11 +1120,12 @@ input:-webkit-autofill:active {
     width: 100%;
   }
 }
-.partner-result .top-part .left-part span {
+.partner-result .top-part .left-part > em {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
+  font-style: normal;
   color: #0400F5;
 }
 .partner-result .top-part .left-part h2 em {

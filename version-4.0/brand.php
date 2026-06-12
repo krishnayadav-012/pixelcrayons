@@ -427,10 +427,6 @@
   <!-- overlappting section  -->
 
 
-
-
-
-
   <!-- we-embed -->
   <section class="we-embed ">
     <div class="container">
@@ -513,7 +509,7 @@
       <div class="bottom-cards">
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
+            <img src="assets/images/brand/ecommerce.webp" alt="">
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>
@@ -538,7 +534,7 @@
         </div>
         <div class="card">
           <div class="img-part">
-            <img src="assets/images/brand/ecommerce.png" alt="">
+            <img src="assets/images/brand/retail.webp" alt="">
           </div>
           <div class="content-part">
             <span>eCommerce & D2C</span>
@@ -1021,108 +1017,13 @@
     src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264"
     id="pixel-glider-js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-  <script src="assets/js/brand.js"></script>
+  
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>
 
-  <script>
-    (function() {
+  
+<script src="assets/js/script-v2.js"></script>
 
-      const section = document.querySelector('.how-it-works');
-      if (!section) return;
-      const scrollEl = section.querySelector('#timelineScroll');
-      const progressEl = section.querySelector('#timelineProgress');
-      const items = Array.from(section.querySelectorAll('.timeline-item'));
-      const total = items.length;
-
-
-      if (!scrollEl || !progressEl || total === 0) return;
-
-      let currentStep = -1;
-      let animating = false;
-      let autoTimer = null;
-
-      // ── helpers ──────────────────────────────────────────────────────────────
-
-      function pctForStep(index) {
-        // GUARD: index must be within bounds
-        if (index < 0 || index >= total) return 0;
-
-        const bubble = items[index].querySelector('.step-bubble');
-        if (!bubble) return 0;
-
-        const panelRect = scrollEl.getBoundingClientRect();
-        const bubbleRect = bubble.getBoundingClientRect();
-
-        const bubbleCentre = bubbleRect.top - panelRect.top +
-          scrollEl.scrollTop +
-          bubbleRect.height / 2;
-
-        const totalTrack = scrollEl.scrollHeight - 40; // matches CSS top:20 + bottom:20
-        const filled = bubbleCentre - 20;
-        return Math.min(100, Math.max(0, (filled / totalTrack) * 100));
-      }
-
-      // Activate all steps up to and including `index`.
-      // Only touches elements that are children of `section`.
-      function activateUpTo(index) {
-        items.forEach((item, i) => {
-          item.classList.toggle('active', i <= index);
-        });
-        progressEl.style.height = pctForStep(index) + '%';
-      }
-
-      // Smoothly scroll the panel (scoped to scrollEl only — never window).
-      function scrollToStep(index) {
-        if (index < 0 || index >= total) return;
-        const target = items[index].offsetTop - 40;
-        scrollEl.scrollTo({
-          top: Math.max(0, target),
-          behavior: 'smooth'
-        });
-      }
-
-      // ── entrance: staggered fade-in for items inside the section ─────────────
-      items.forEach((item, i) => {
-        setTimeout(() => item.classList.add('visible'), 100 + 80 * i);
-      });
-
-      // ── auto-advance ──────────────────────────────────────────────────────────
-      function advance() {
-        if (animating) return;
-        const next = currentStep + 1;
-
-        if (next >= total) {
-          // Reached the last step — stop. Never restarts.
-          clearInterval(autoTimer);
-          autoTimer = null;
-          return;
-        }
-
-        animating = true;
-        currentStep = next;
-
-        activateUpTo(currentStep); // highlight bubble + grow bar
-        scrollToStep(currentStep); // scroll panel (not window)
-
-        // Release lock after smooth-scroll settles (~600 ms)
-        setTimeout(() => {
-          animating = false;
-        }, 650);
-      }
-
-      // Kick off after paint (600 ms), then every 1.8 
-      advance(); // immediately active
-      setTimeout(() => {
-        autoTimer = setInterval(advance, 1800);
-      }, 400); // pause before auto-advancing to the next step
-
-
-
-
-    
-    })();
-  </script>
 </body>
 
 </html>
