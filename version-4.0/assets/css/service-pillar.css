@@ -3054,6 +3054,9 @@ input:-webkit-autofill:active {
   color: #ffffff;
   border-radius: 8px;
 }
+.fintech-delivery .inner-part .ai-list .ai-item .desc ul li a {
+  color: #ffffff;
+}
 @media screen and (max-width: 767px) {
   .fintech-delivery .inner-part .ai-list .ai-item .desc ul li {
     line-height: 1;

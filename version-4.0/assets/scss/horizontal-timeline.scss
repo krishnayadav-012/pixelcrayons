@@ -262,6 +262,12 @@ ul{
         background: #3F3F47;
         color: $white;
         border-radius: 8px;
+        
+        a{
+            
+            color: $white;
+        }
+
          @media screen and (max-width:767px) {
    line-height: 1;
    }
