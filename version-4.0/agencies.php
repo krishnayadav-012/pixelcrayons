@@ -491,14 +491,12 @@
 
           </div>
         </div>
-
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
              <div class="icon-text">
             <div class="icon">
               <img src="assets/images/hire-main/file.svg" alt="">
             </div>
-           
           </div>
             <h3>Other Engagement Options</h3>
             <p>Explore other delivery models tailored to different budgets, timelines, and operational priorities.</p>
@@ -511,11 +509,9 @@
           </div>
           <div class="compliance-card__footer">
             <div class="append-btn-more"></div>
-
             <a href="#" class="btn-secondry">Start Team Extension</a>
           </div>
         </div>
-
       </div>
     </div>
   </section>

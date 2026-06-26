@@ -27,7 +27,7 @@
           <p>White-label marketing, design, engineering, and <a href="#">analytics</a> pods that integrate into your
             workflow — under
             your brand.</p>
-          <a href="#" class="cta-button">SCALE YOUR DELIVERY</a>
+          <a href="#" class="home-cta-button">SCALE YOUR DELIVERY</a>
           <div class="for-client-logo-box  dis-flex">
             <div class="logo-box logo1"></div>
             <div class="logo-box logo2"></div>
@@ -71,6 +71,82 @@
       </div>
     </div>
   </section>
+<!-- slider -->
+ <div class="slide-logo  dis-flex items-center justify-sb padding-t-50 padding-b-80">
+    <div class="container">
+      <div class="dis-flex">
+        <div class="logo-heading">
+          <h4><span>Trusted by startups and Fortune <strong>500</strong> companies</span></h4>
+        </div>
+        <div class="logo-section">
+
+          <div class="logoslide glide glide--ltr glide--carousel glide--swipeable" id="home-tpl-logoslide">
+            <div class="glide__track" data-glide-el="track">
+
+              <ul class="glide__slides" style="transition: transform 6000ms linear; width: 8220px; transform: translate3d(-5480px, 0px, 0px);">
+
+                <li class="glide__slide glide__slide--clone" style="width: 1340px; margin-right: 15px;">
+                  <picture>
+                    <img loading="lazy" src="assets/images/banner-client-logo.svg" alt="valuecoders">
+                  </picture>
+                </li><li class="glide__slide glide__slide--clone" style="width: 1340px; margin-left: 15px; margin-right: 15px;">
+                  <picture>
+                    <img loading="lazy" src="assets/images/banner-client-logo-2.png" alt="valuecoders">
+                  </picture>
+                </li><li class="glide__slide" style="width: 1340px; margin-left: 15px; margin-right: 15px;">
+                  <picture>
+                    <img loading="lazy" src="assets/images/banner-client-logo.svg" alt="valuecoders">
+                  </picture>
+                </li>
+
+                <li class="glide__slide glide__slide--active" style="width: 1340px; margin-left: 15px; margin-right: 15px;">
+                  <picture>
+                    <img loading="lazy" src="assets/images/banner-client-logo-2.png" alt="valuecoders">
+                  </picture>
+                </li>
+
+              <li class="glide__slide glide__slide--clone" style="width: 1340px; margin-left: 15px; margin-right: 15px;">
+                  <picture>
+                    <img loading="lazy" src="assets/images/banner-client-logo.svg" alt="valuecoders">
+                  </picture>
+                </li><li class="glide__slide glide__slide--clone" style="width: 1340px; margin-left: 15px;">
+                  <picture>
+                    <img loading="lazy" src="assets/images/banner-client-logo-2.png" alt="valuecoders">
+                  </picture>
+                </li></ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="numbring-part">
+          <div class="box">
+            <h2>21+</h2>
+            <p>Years in operation</p>
+          </div>
+          <div class="box">
+            <h2>100+</h2>
+            <p>Active agency partnerships</p>
+          </div>
+          <div class="box">
+            <h2>85%+</h2>
+            <p>Partner retention</p>
+          </div>
+          <div class="box">
+            <h2>2500+</h2>
+            <p>Projects Delivered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- slider -->
+
+
+
+
+
+
 
   <section class="driving-growth">
     <div class="container">
