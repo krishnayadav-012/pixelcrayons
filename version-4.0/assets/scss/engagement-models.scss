@@ -74,7 +74,7 @@
   overflow: hidden;
   box-shadow: 0px 4px 14px 3px #0000000F;
   border: 1px solid #F3F4F6;
-
+height: 636px;
  .card-inner-part{
   padding: 20px 30px 30px 30px;
   background-color: #fff;
@@ -85,7 +85,11 @@
     color: #18181B;
   }
   p{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #60646C;
+    font-weight: 500;
   }
  }
   
@@ -113,18 +117,23 @@ border: 1px solid #E8E7FE;
       }
  
       p {
-        color: #3F3F47;
+        color: #60646C;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 160%;
       }
     }
- 
+
     ul {
       background-color: $white;
   
       
  
       li {
-        color: #364153;position: relative;
+        color: #60646C;position: relative;
         padding-left: 30px;
+        line-height: 140%;
+
 
  
         &::before {
@@ -179,6 +188,7 @@ border: 1px solid #E8E7FE;
  
       li {
         color: #364153;
+        line-height: 140%;
         padding-left: 25px;
         position: relative;
  
@@ -211,7 +221,7 @@ border: 1px solid #E8E7FE;
     h3 {
      color: #0400F5;
       margin: 0 0 10px;
-      font-size: 40px;
+      font-size: 22px;
       font-weight: 700;
       line-height: 1.25;
         @media screen and (max-width:991px) {
@@ -234,7 +244,7 @@ border: 1px solid #E8E7FE;
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
  
     li {
       display: flex;
@@ -333,4 +343,39 @@ border: 1px solid #E8E7FE;
     height: 20px;
   }
 }
+}
+
+.compliance-card__footer{
+  position: relative;
+      .append-btn-more{
+        content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    top: -16px;
+    cursor: pointer;
+    background-image: url(../images/agencies/append-btn-bottom.svg);
+    width: 32px;
+    height: 29px;
+    
+    &:hover{
+        background-image: url(../images/agencies/append-btn-bottom-active.svg);
+    }
+  }
+  .btn-secondry{
+    border: 1px solid #D9D9E0;  
+  }
+}
+
+.compliance-card .card-inner-part h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C2024;
+  line-height: 100%;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.compliance-card .card-inner-part h4:first-of-type{
+  margin-top: 0;
 }

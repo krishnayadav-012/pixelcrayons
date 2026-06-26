@@ -424,7 +424,7 @@
 
 
   <!-- engagemant moal -->
-  <section class="compliance-section padding-t-120 padding-b-120">
+ <section class="compliance-section padding-t-120 padding-b-120">
     <div class="container">
       <div class="compliance-section__header">
         <em>Engagement models</em>
@@ -435,68 +435,83 @@
 
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
-            <span>Team Extension</span>
-            <h3>Client-Led Delivery</h3>
-            <p>Typical project range</p>
+          <div class="icon-text">
+            <div class="icon">
+              <img src="assets/images/hire-main/m-cal.svg" alt="">
+            </div>
+           
+          </div>
+            <h3>Monthly Retainer</h3>
+            <p>A dedicated cross-functional team aligned exclusively to your business for ongoing delivery, optimization,</p>
           </div>
           <div class="card-inner-part">
-            <h3>Start with one project</h3>
-            <p>One defined deliverable. Scoped, priced, and delivered. No retainer commitment.</p>
-
+            <h4>Best For</h4>
+            <p>Long-term client relationships requiring continuous delivery and deep process knowledge.</p>
+            <h4>Choose This For</h4>
             <ul class="compliance-card__list">
-              <li>NDA and SLA before any work begins</li>
-              <li>Dedicated project manager</li>
-              <li>Weekly progress updates</li>
-              <li>All deliverables under your brand</li>
+              <li>Long-term delivery consistency</li>
+              <li>In-depth knowledge of your workflows</li>
             </ul>
           </div>
+
           <div class="compliance-card__footer">
             <a href="#" class="btn-secondry">Start Team Extension</a>
+          
+            <div class="append-btn-more"></div>
+
           </div>
         </div>
 
         <div class="compliance-card compliance-card--dark">
           <div class="compliance-card__top">
-            <span>Delivery Pod</span>
-            <h3>$2K–$8K</h3>
-            <p>We run delivery · You define what ships</p>
+             <div class="icon-text">
+            <div class="icon">
+              <img src="assets/images/hire-main/user.svg" alt="">
+            </div>
+           <span>most popular
+        </span>
+          </div>
+            <h3>Staff Augmentation</h3>
+            <p>Specialists embedded into your existing workflows to extend internal capacity and support project execution</p>
           </div>
           <div class="card-inner-part">
-
-
-            <h3>Monthly Retainer</h3>
-            <p>Ongoing execution across one or multiple disciplines. Predictable monthly cost.</p>
+            <h4>Best For</h4>
+            <p>Short-term resource needs, urgent project demands, or niche expertise requirements.</p>
+            <h4>Choose This For</h4>
             <ul class="compliance-card__list">
-              <li>Dedicated team embedded your workflow</li>
-              <li>Weekly branded reporting to your clients</li>
-              <li>Multi-discipline coverage - mix and match</li>
-              <li>Scale up or down with 30-day notice</li>
+              <li>Quick onboarding with minimal ramp-up</li>
+              <li>No hiring overhead or long-term commitment</li>
+              <li>Easy to scale up or down based on demand</li>
+              
             </ul>
           </div>
           <div class="compliance-card__footer">
             <a href="#" class="btn-secondry">Build a Delivery Pod</a>
+            <div class="append-btn-more"></div>
+
           </div>
         </div>
 
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
-            <span class="compliance-card__badge compliance-card__badge--yellow">Discovery Sprint</span>
-            <h3>Start Here</h3>
-            <p>Fixed-Fee · 2–4 Weeks · Compliance-first scoping</p>
+             <div class="icon-text">
+            <div class="icon">
+              <img src="assets/images/hire-main/file.svg" alt="">
+            </div>
+           
+          </div>
+            <h3>Other Engagement Options</h3>
+            <p>Explore other delivery models tailored to different budgets, timelines, and operational priorities.</p>
           </div>
           <div class="card-inner-part">
-            <h3>Dedicated Team</h3>
-            <p>A named team — developer, designer, marketer - embedded full-time under.</p>
-
-            <ul class="compliance-card__list">
-              <li>Full-time team working your hours</li>
-              <li>Joins client calls as your team member</li>
-              <li>Your email domain if required</li>
-              <li>Full NDA, IP ownership, and SLA</li>
-            </ul>
+          <h4>Monthly Retainer</h4>
+            <p>Flexible ongoing support with predictable monthly engagement and evolving execution requirements.</p>
+            <h4>Project-Based Engagement</h4>
+            <p>Defined scope, timelines, and deliverables for one-time or clearly structured initiatives.</p>
           </div>
-
           <div class="compliance-card__footer">
+            <div class="append-btn-more"></div>
+
             <a href="#" class="btn-secondry">Start Team Extension</a>
           </div>
         </div>

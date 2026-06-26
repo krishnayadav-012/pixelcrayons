@@ -95,16 +95,16 @@
             <p>Years in delivery</p>
           </div>
           <div class="box">
+            <h2>100+</h2>
+            <p>Active agency partnerships</p>
+          </div>
+          <div class="box">
+            <h2>85+</h2>
+            <p>Partner retention</p>
+          </div>
+          <div class="box">
             <h2>2500+</h2>
             <p>Projects Delivered</p>
-          </div>
-          <div class="box">
-            <h2>30+</h2>
-            <p>Countries served</p>
-          </div>
-          <div class="box">
-            <h2>87%</h2>
-            <p>Brand client retention</p>
           </div>
         </div>
       </div>
@@ -112,48 +112,75 @@
   </div>
   <!-- slider section -->
 
-
-
-  <!-- /situation section  -->
-  <section class="situation padding-b-120">
+  <!-- new section add -->
+<section class="services-ecommerce padding-t-120  padding-b-120">
     <div class="container">
       <div class="top-part">
-        <span>The Situation</span>
-        <h2>You're managing people when you should be <em>running a brand.</em></h2>
-        <p>Most growing brands hit the same wall. The marketing team is stretched. The developer is a freelancer who disappears. The designer works for someone else on Tuesday.</p>
+        <span>Services for eCommerce &amp; D2C</span>
+
+        <h2>
+          Every capability your eCommerce operation needs - <em>under one roof.</em>
+        </h2>
+
+        <p>We activate the services your situation demands. Here are the capabilities most commonly required for eCommerce and D2C brands at growth stage.</p>
       </div>
-      <div class="cards-part">
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/card-1.webp" alt="">
-          </div>
-          <div class="content-part">
-            <h3>Vendor chaos everything</h3>
-            <p>Every brief goes to three people. Every approval loop takes a week. The coordination tax is real.</p>
-          </div>
+      <!-- 6 Cards -->
+      <div class="inner-part">
+
+        <!-- 1 -->
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/card-icon.svg" alt=""></i></div>
+              <div class="tag"><span>Marketing</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>Performance Marketing Paid Media</h3>
+              <p>Google Shopping, Meta ROAS, TikTok commerce, programmatic - unified campaign management.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/card-2.webp" alt="">
-          </div>
-          <div class="content-part">
-            <h3>Vendor chaos everything</h3>
-            <p>Every brief goes to three people. Every approval loop takes a week. The coordination tax is real.</p>
-          </div>
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/seo.svg" alt=""></i></div>
+              <div class="tag"><span>Marketing</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>eCommerce SEO &amp; AEO</h3>
+              <p>Technical SEO, product schema, category page optimisation, and Generative Engine Optimisation for AI shopping discovery.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="card">
-          <div class="img-part">
-            <img src="assets/images/brand/card-3.webp" alt="">
-          </div>
-          <div class="content-part">
-            <h3>Vendor chaos everything</h3>
-            <p>Every brief goes to three people. Every approval loop takes a week. The coordination tax is real.</p>
-          </div>
+
+        <div class="card-box">
+          <a href="#">
+            <div class="card-top">
+              <div class="icon"> <i><img src="assets/images/industry-new/shopify.svg" alt=""></i></div>
+              <div class="tag"><span>DEVELOPMENT</span></div>
+            </div>
+            <div class="card-bottom">
+              <h3>Shopify Development</h3>
+              <p>Custom Shopify builds, Shopify Plus, headless Next.js storefronts, and performance-first migrations from slow theme-based stores.</p>
+              <div class="bottom-link">
+                <span>Explore service</span>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </section>
-  <!-- /situation section  -->
+  <!-- new section add -->
+
+  
 
 
 
@@ -1017,12 +1044,12 @@
     src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/glider.min.js?ver=1739266264"
     id="pixel-glider-js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-  
+
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>
 
-  
-<script src="assets/js/script-v2.js"></script>
+
+  <script src="assets/js/script-v2.js"></script>
 
 </body>
 

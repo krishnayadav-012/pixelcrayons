@@ -11,7 +11,6 @@
 @use "structurally-section" as *;
 
 
-
 @use "partners-section" as *;
 @use "insights-section" as *;
 @use "feedback-v6" as *;
@@ -115,7 +114,7 @@
 }
 
 .btn-secondry::after {
-    background-color: #05164D;
+    background-color: #0400F5;
     width: 8%;
     height: 50%;
     content: "";

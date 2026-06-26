@@ -1098,8 +1098,8 @@ input:-webkit-autofill:active {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 960px;
-  height: 900px;
+  width: 930px;
+  height: 730px;
   z-index: -1;
   object-fit: cover;
 }

@@ -1144,6 +1144,7 @@ input:-webkit-autofill:active {
   overflow: hidden;
   box-shadow: 0px 4px 14px 3px rgba(0, 0, 0, 0.0588235294);
   border: 1px solid #F3F4F6;
+  height: 636px;
 }
 .compliance-card .card-inner-part {
   padding: 20px 30px 30px 30px;
@@ -1154,7 +1155,11 @@ input:-webkit-autofill:active {
   color: #18181B;
 }
 .compliance-card .card-inner-part p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 160%;
+  color: #60646C;
+  font-weight: 500;
 }
 .compliance-card--light {
   background-color: #ffffff;
@@ -1173,15 +1178,19 @@ input:-webkit-autofill:active {
   margin-bottom: 5px;
 }
 .compliance-card--light .compliance-card__top p {
-  color: #3F3F47;
+  color: #60646C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
 }
 .compliance-card--light ul {
   background-color: #ffffff;
 }
 .compliance-card--light ul li {
-  color: #364153;
+  color: #60646C;
   position: relative;
   padding-left: 30px;
+  line-height: 140%;
 }
 .compliance-card--light ul li::before {
   content: "";
@@ -1212,6 +1221,7 @@ input:-webkit-autofill:active {
 }
 .compliance-card--dark ul li {
   color: #364153;
+  line-height: 140%;
   padding-left: 25px;
   position: relative;
 }
@@ -1233,7 +1243,7 @@ input:-webkit-autofill:active {
 .compliance-card__top h3 {
   color: #0400F5;
   margin: 0 0 10px;
-  font-size: 40px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -1252,7 +1262,7 @@ input:-webkit-autofill:active {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
 }
 .compliance-card__list li {
   display: flex;
@@ -1362,6 +1372,41 @@ input:-webkit-autofill:active {
 .compliance-section__grid .compliance-card__top .icon-text .icon img {
   width: 20px;
   height: 20px;
+}
+
+.compliance-card__footer {
+  position: relative;
+}
+.compliance-card__footer .append-btn-more {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top: -16px;
+  cursor: pointer;
+  background-image: url(../images/agencies/append-btn-bottom.svg);
+  width: 32px;
+  height: 29px;
+}
+.compliance-card__footer .append-btn-more:hover {
+  background-image: url(../images/agencies/append-btn-bottom-active.svg);
+}
+.compliance-card__footer .btn-secondry {
+  border: 1px solid #D9D9E0;
+}
+
+.compliance-card .card-inner-part h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C2024;
+  line-height: 100%;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.compliance-card .card-inner-part h4:first-of-type {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=engagement-models.css.map */
