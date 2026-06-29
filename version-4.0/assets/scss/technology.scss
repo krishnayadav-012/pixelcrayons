@@ -12,16 +12,16 @@
 @use "testimonial" as *;
 @use "guide-topic" as *;
 @use "cta-v3" as *;
+@use "_industry-section" as *;
 @use "_tech-banner-with-form" as *;
 @use "banner-form-v1" as *;
-@use "all-industries" as *;
 @use "technology-unique" as *;
 @use "footer" as *;
-
-@use "all-industries" as *;
 @use "testimonial" as *;
 @use "blog" as *;
 @use "case" as *;
+@use "hiring-model" as *;
+@use "_get-started" as *;
 
 .banner-with-form {
   padding-bottom: 120px;

@@ -22,7 +22,7 @@
     <div class="l-b-sade"><img src="assets/images/agencies/gra-frame.webp" alt=""></div>
     <div class="t-r-sade"><img src="assets/images/agencies/gra-frame.webp" alt=""></div>
     <div class="video-part">
-      <video  autoplay muted>
+      <video autoplay muted>
         <source src="assets/video/agencies-banner-video.mp4" type="video/mp4">
       </video>
     </div>
@@ -51,7 +51,7 @@
 
 
 
-   <!-- slider section -->
+  <!-- slider section -->
   <div class="slide-logo  dis-flex items-center justify-sb padding-t-50 padding-b-80">
     <div class="container">
       <div class="dis-flex">
@@ -284,7 +284,7 @@
 
 
 
-    <!-- overlap-section -->
+  <!-- overlap-section -->
   <section class="stacking-cards-section padding-b-120 padding-t-120" id="unique-stacking-wrapper">
     <div class="container">
       <div class="top-part">
@@ -390,17 +390,17 @@
 
 
   <!-- new section -->
- <section class="structurally-section">
+  <section class="structurally-section">
     <div class="container">
       <div class="inner-part">
 
         <div class="content-box">
           <em>THE ZERO-COMPETITION GUARANTEE</em>
           <h2>Structurally <em>unable</em> to compete with you</h2>
-          <p >
+          <p>
             Most partners promise not to compete with you. We've made it structurally impossible. Separate business units.
           </p>
-          
+
           <ul class="features-list">
             <li>NDA on every engagement</li>
             <li>12-month post-engagement blackout</li>
@@ -408,23 +408,23 @@
             <li>85%+ annual retention</li>
             <li>Zero incidents in 21 years</li>
           </ul>
-          
-         <a href="#" class="home-cta-button">CONTACT US</a>
+
+          <a href="#" class="home-cta-button">CONTACT US</a>
         </div>
-        
+
         <div class="image-box">
           <img src="assets/images/agencies/pxl-img.webp" alt="Hummingbird Coin" class="overlapping-coin">
         </div>
       </div>
     </div>
-</section>
-<!-- new section -->
+  </section>
+  <!-- new section -->
 
 
 
 
   <!-- engagemant moal -->
- <section class="compliance-section padding-t-120 padding-b-120">
+  <section class="compliance-section padding-t-120 padding-b-120">
     <div class="container">
       <div class="compliance-section__header">
         <em>Engagement models</em>
@@ -435,12 +435,12 @@
 
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
-          <div class="icon-text">
-            <div class="icon">
-              <img src="assets/images/hire-main/m-cal.svg" alt="">
+            <div class="icon-text">
+              <div class="icon">
+                <img src="assets/images/hire-main/m-cal.svg" alt="">
+              </div>
+
             </div>
-           
-          </div>
             <h3>Monthly Retainer</h3>
             <p>A dedicated cross-functional team aligned exclusively to your business for ongoing delivery, optimization,</p>
           </div>
@@ -456,7 +456,7 @@
 
           <div class="compliance-card__footer">
             <a href="#" class="btn-secondry">Start Team Extension</a>
-          
+
             <div class="append-btn-more"></div>
 
           </div>
@@ -464,13 +464,13 @@
 
         <div class="compliance-card compliance-card--dark">
           <div class="compliance-card__top">
-             <div class="icon-text">
-            <div class="icon">
-              <img src="assets/images/hire-main/user.svg" alt="">
+            <div class="icon-text">
+              <div class="icon">
+                <img src="assets/images/hire-main/user.svg" alt="">
+              </div>
+              <span>most popular
+              </span>
             </div>
-           <span>most popular
-        </span>
-          </div>
             <h3>Staff Augmentation</h3>
             <p>Specialists embedded into your existing workflows to extend internal capacity and support project execution</p>
           </div>
@@ -482,7 +482,13 @@
               <li>Quick onboarding with minimal ramp-up</li>
               <li>No hiring overhead or long-term commitment</li>
               <li>Easy to scale up or down based on demand</li>
-              
+              <li>Quick onboarding with minimal ramp-up</li>
+              <li>No hiring overhead or long-term commitment</li>
+              <li>Easy to scale up or down based on demand</li>
+              <li>Quick onboarding with minimal ramp-up</li>
+              <li>No hiring overhead or long-term commitment</li>
+              <li>Easy to scale up or down based on demand</li>
+
             </ul>
           </div>
           <div class="compliance-card__footer">
@@ -493,16 +499,16 @@
         </div>
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
-             <div class="icon-text">
-            <div class="icon">
-              <img src="assets/images/hire-main/file.svg" alt="">
+            <div class="icon-text">
+              <div class="icon">
+                <img src="assets/images/hire-main/file.svg" alt="">
+              </div>
             </div>
-          </div>
             <h3>Other Engagement Options</h3>
             <p>Explore other delivery models tailored to different budgets, timelines, and operational priorities.</p>
           </div>
           <div class="card-inner-part">
-          <h4>Monthly Retainer</h4>
+            <h4>Monthly Retainer</h4>
             <p>Flexible ongoing support with predictable monthly engagement and evolving execution requirements.</p>
             <h4>Project-Based Engagement</h4>
             <p>Defined scope, timelines, and deliverables for one-time or clearly structured initiatives.</p>
@@ -986,7 +992,7 @@
 
   <?php require_once 'assets/include/cta-v3.php'; ?>
   <?php require_once 'assets/include/blog-footer.php'; ?>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   <script src="assets/js/script-v2.js "> </script>
   <script src="https://www.pixelcrayons.com/staging/wp-content/themes/pixelcrayons/assets/js/script.js?ver=1756359519"
     id="pixel-script-js"></script>

@@ -14,7 +14,7 @@ $text-gray: #a0a0b8;
   &::after {
     position: absolute;
     right: 0;
-    background: url(../images/industry-new/blue-sade.webp) no-repeat;
+    background: url(../images/industry-new/blue-sade.png) no-repeat;
     width: 600px;
     height: 100%;
     content: "";
@@ -27,7 +27,7 @@ $text-gray: #a0a0b8;
     left: 0;
     bottom: -150px;
     transform: rotate(180deg);
-    background: url(../images/industry-new/blue-sade.webp) no-repeat;
+    background: url(../images/industry-new/blue-sade.png) no-repeat;
     width: 630px;
     height: 100%;
     content: "";
@@ -141,7 +141,7 @@ box-shadow: 0px 0px 13.45px 0px #6177981A;
       z-index: -1;
       height: 200px;
       background-size: cover;
-      background-image: url(../images/industry-new/box-sade.webp);
+      background-image: url(../images/industry-new/box-sade.png);
     }
 
     &:hover .flip-card-inner {

@@ -1085,6 +1085,65 @@ input:-webkit-autofill:active {
     min-width: auto;
   }
 }
+.prime-cta-btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  line-height: 24px;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
+  transition: 0.2s;
+  z-index: 1;
+  overflow: hidden;
+}
+.prime-cta-btn::before {
+  content: "";
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  transition: 0.4s;
+  border-radius: 50px;
+  transform: translate(-20px, 0px);
+  z-index: -1;
+  right: 0;
+  z-index: -1;
+}
+.prime-cta-btn:hover::before {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  transform: translate(0, -24%);
+}
+.prime-cta-btn:after {
+  content: "";
+  background: url(../images/home-images/white-cta.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  display: inline-block;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+.prime-cta-btn:hover::after {
+  background: url(../images/home-images/white-blue-icon.svg) no-repeat;
+  transition: 0.2s;
+  background-size: 100%;
+}
+.prime-cta-btn:hover {
+  color: #0400F5 !important;
+}
+
+.prime-cta-btn.hero-cta {
+  margin: 40px 0 60px 0;
+}
+
 .btn-outline {
   display: inline-flex;
   padding: 10px 20px;
@@ -1153,7 +1212,7 @@ input:-webkit-autofill:active {
   top: 0;
   width: 1000px;
   height: 1000px;
-  background: url(../images/industry-new/blue-sade.webp);
+  background: url(../images/industry-new/blue-sade.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -22,7 +22,7 @@
 	  left: 0;
 	  z-index: 9;
 	  color: #fff;
-	  font-family: "Lexend Deca";
+	  font-family: "Montserrat";
 	  font-size: 98px;
 	  font-style: normal;
 	  font-weight: 800;
@@ -104,9 +104,10 @@
   .tile-box .tileHead a {
 	color: $white;
   }
-  .tile-box .tileHead a:hover {
+  
+  /*.tile-box .tileHead a:hover {
 	color: $royelblue;
-  }
+  }*/
   
   .tile-box .tileHead:before,
   .tile-box .tileHeadMain:before {

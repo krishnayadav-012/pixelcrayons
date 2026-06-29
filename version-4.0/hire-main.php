@@ -462,68 +462,68 @@
       </div>
       <div class="inner-table">
 
-      <div class="dis-flex col-box-outer ">
-        <div class="flex-5 table-list first-col">
-          <ul>
-            <li class="title clr-white">Parameters</li>
-            <li>Time to find right developers</li>
-            <li>Time to start the project</li>
-            <li>Recurring training costs &amp; benefits</li>
-            <li>Time to scale team size</li>
-            <li>Average pricing (Weekly)</li>
-            <li>Project failure risk</li>
-            <li>Developers backed by delivery team</li>
-          </ul>
+        <div class="dis-flex col-box-outer ">
+          <div class="flex-5 table-list first-col">
+            <ul>
+              <li class="title clr-white">Parameters</li>
+              <li>Time to find right developers</li>
+              <li>Time to start the project</li>
+              <li>Recurring training costs &amp; benefits</li>
+              <li>Time to scale team size</li>
+              <li>Average pricing (Weekly)</li>
+              <li>Project failure risk</li>
+              <li>Developers backed by delivery team</li>
+            </ul>
+          </div>
+          <div class="flex-5 table-list">
+            <ul>
+              <li class="title">PixelCrayons</li>
+              <li>1 day - 2 weeks</li>
+              <li>1 day - 2 weeks</li>
+              <li>0</li>
+              <li>1 day - 2 weeks</li>
+              <li>1.5X</li>
+              <li>Extremely low (we have 98%<br> success ratio)</li>
+              <li>Yes</li>
+            </ul>
+          </div>
+          <div class="flex-5 table-list">
+            <ul>
+              <li class="title clr-white">In-house Developers</li>
+              <li>4 - 12 weeks</li>
+              <li>2 - 10 weeks</li>
+              <li>$10,000 - $30,000</li>
+              <li>4 - 16 weeks</li>
+              <li>4X</li>
+              <li>Low</li>
+              <li>Some</li>
+            </ul>
+          </div>
+          <div class="flex-5 table-list">
+            <ul>
+              <li class="title clr-white">Freelancing Platforms<span class="sub-title">(Upwork, Toptal etc.)</span></li>
+              <li>4 - 8 weeks</li>
+              <li>2-4 weeks</li>
+              <li>0</li>
+              <li>1 - 12 weeks</li>
+              <li>1X</li>
+              <li>High</li>
+              <li>No</li>
+            </ul>
+          </div>
+          <div class="flex-5 table-list active">
+            <ul>
+              <li class="title clr-white">Freelancing Platforms<span class="sub-title">(Upwork, Toptal etc.)</span></li>
+              <li>4 - 8 weeks</li>
+              <li>2-4 weeks</li>
+              <li>0</li>
+              <li>1 - 12 weeks</li>
+              <li>1X</li>
+              <li>High</li>
+              <li>No</li>
+            </ul>
+          </div>
         </div>
-        <div class="flex-5 table-list">
-          <ul>
-            <li class="title">PixelCrayons</li>
-            <li>1 day - 2 weeks</li>
-            <li>1 day - 2 weeks</li>
-            <li>0</li>
-            <li>1 day - 2 weeks</li>
-            <li>1.5X</li>
-            <li>Extremely low (we have 98%<br> success ratio)</li>
-            <li>Yes</li>
-          </ul>
-        </div>
-        <div class="flex-5 table-list">
-          <ul>
-            <li class="title clr-white">In-house Developers</li>
-            <li>4 - 12 weeks</li>
-            <li>2 - 10 weeks</li>
-            <li>$10,000 - $30,000</li>
-            <li>4 - 16 weeks</li>
-            <li>4X</li>
-            <li>Low</li>
-            <li>Some</li>
-          </ul>
-        </div>
-        <div class="flex-5 table-list">
-          <ul>
-            <li class="title clr-white">Freelancing Platforms<span class="sub-title">(Upwork, Toptal etc.)</span></li>
-            <li>4 - 8 weeks</li>
-            <li>2-4 weeks</li>
-            <li>0</li>
-            <li>1 - 12 weeks</li>
-            <li>1X</li>
-            <li>High</li>
-            <li>No</li>
-          </ul>
-        </div>
-        <div class="flex-5 table-list active">
-          <ul>
-            <li class="title clr-white">Freelancing Platforms<span class="sub-title">(Upwork, Toptal etc.)</span></li>
-            <li>4 - 8 weeks</li>
-            <li>2-4 weeks</li>
-            <li>0</li>
-            <li>1 - 12 weeks</li>
-            <li>1X</li>
-            <li>High</li>
-            <li>No</li>
-          </ul>
-        </div>
-      </div>
       </div>
 
       <div class="append-btn "><a href="javascript:void(0);" onclick="hireTbl_showMore(this);"><img src="assets/images/hire-main/append-icon.svg" alt=""></a></div>
@@ -592,7 +592,7 @@
 
                 <div class="review-text">
                   <p>
-                  The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
+                    The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
                   </p>
                 </div>
 
@@ -621,7 +621,7 @@
 
                 <div class="review-text">
                   <p>
-                   The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
+                    The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
                   </p>
                 </div>
 
@@ -637,7 +637,7 @@
 
               <!-- DUPLICATES FOR INFINITE LOOP -->
 
- <div class="review-card">
+              <div class="review-card">
 
                 <ul>
                   <li><img src="assets/images/hire-main/yellow-star.svg" alt=""></li>
@@ -650,7 +650,7 @@
 
                 <div class="review-text">
                   <p>
-                   The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
+                    The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
                   </p>
                 </div>
 
@@ -664,7 +664,7 @@
 
               </div>
 
-               <div class="review-card">
+              <div class="review-card">
 
                 <ul>
                   <li><img src="assets/images/hire-main/yellow-star.svg" alt=""></li>
@@ -677,7 +677,7 @@
 
                 <div class="review-text">
                   <p>
-                   The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
+                    The React engineer they placed was better than anyone we interviewed directly. Fully integrated with our team on day three. No hand-holding required - just got on with the work.
                   </p>
                 </div>
 
@@ -724,7 +724,9 @@
 
 
 
-<section class="compliance-section padding-t-120 padding-b-120">
+
+  <!-- engagemant moal -->
+  <section class="compliance-section padding-t-120 padding-b-120">
     <div class="container">
       <div class="compliance-section__header">
         <em>Engagement models</em>
@@ -735,91 +737,94 @@
 
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
-          <div class="icon-text">
-            <div class="icon">
-              <img src="assets/images/hire-main/m-cal.svg" alt="">
+            <div class="icon-text">
+              <div class="icon">
+                <img src="assets/images/hire-main/m-cal.svg" alt="">
+              </div>
+
             </div>
-           
-          </div>
             <h3>Monthly Retainer</h3>
-            <p>For: Teams with ongoing, consistent needs across one role</p>
+            <p>A dedicated cross-functional team aligned exclusively to your business for ongoing delivery, optimization,</p>
           </div>
           <div class="card-inner-part">
-         
-            <p>A dedicated specialist allocated to your team on a fixed monthly basis. Predictable cost, consistent sprint.</p>
-
+            <h4>Best For</h4>
+            <p>Long-term client relationships requiring continuous delivery and deep process knowledge.</p>
+            <h4>Choose This For</h4>
             <ul class="compliance-card__list">
-              <li>Fixed monthly hours allocation</li>
-              <li>Dedicated PM included</li>
-              <li>Weekly reporting + sprint sync</li>
-              <li>30-day notice after initial 3 months</li>
+              <li>Long-term delivery consistency</li>
+              <li>In-depth knowledge of your workflows</li>
             </ul>
           </div>
+
           <div class="compliance-card__footer">
             <a href="#" class="btn-secondry">Start Team Extension</a>
+
+            <div class="append-btn-more"></div>
+
           </div>
         </div>
 
         <div class="compliance-card compliance-card--dark">
           <div class="compliance-card__top">
-             <div class="icon-text">
-            <div class="icon">
-              <img src="assets/images/hire-main/user.svg" alt="">
+            <div class="icon-text">
+              <div class="icon">
+                <img src="assets/images/hire-main/user.svg" alt="">
+              </div>
+              <span>most popular
+              </span>
             </div>
-           <span>most popular
-        </span>
-          </div>
-            <h3>Dedicated Team</h3>
-            <p>For: Larger scope needing multi-role or cross-discipline delivery</p>
+            <h3>Staff Augmentation</h3>
+            <p>Specialists embedded into your existing workflows to extend internal capacity and support project execution</p>
           </div>
           <div class="card-inner-part">
-
-
-            
-            <p>A composed team — lead, specialist, optional QA — operating as an embedded extension of your.</p>
+            <h4>Best For</h4>
+            <p>Short-term resource needs, urgent project demands, or niche expertise requirements.</p>
+            <h4>Choose This For</h4>
             <ul class="compliance-card__list">
-              <li>Multi-role team composition</li>
-              <li>Shared sprint with your team</li>
-              <li>One PM across all specialists</li>
-              <li>Quarterly roadmap planning sessions</li>
+              <li>Quick onboarding with minimal ramp-up</li>
+              <li>No hiring overhead or long-term commitment</li>
+              <li>Easy to scale up or down based on demand</li>
+              <li>Quick onboarding with minimal ramp-up</li>
+              <li>No hiring overhead or long-term commitment</li>
+              <li>Easy to scale up or down based on demand</li>
+              <li>Quick onboarding with minimal ramp-up</li>
+              <li>No hiring overhead or long-term commitment</li>
+              <li>Easy to scale up or down based on demand</li>
+
             </ul>
           </div>
           <div class="compliance-card__footer">
             <a href="#" class="btn-secondry">Build a Delivery Pod</a>
+            <div class="append-btn-more"></div>
+
           </div>
         </div>
-
         <div class="compliance-card compliance-card--light">
           <div class="compliance-card__top">
-             <div class="icon-text">
-            <div class="icon">
-              <img src="assets/images/hire-main/file.svg" alt="">
+            <div class="icon-text">
+              <div class="icon">
+                <img src="assets/images/hire-main/file.svg" alt="">
+              </div>
             </div>
-           
-          </div>
-            <h3>Project-Based</h3>
-            <p>For: Defined scope — a build, a sprint-burst, a specific deliverable</p>
+            <h3>Other Engagement Options</h3>
+            <p>Explore other delivery models tailored to different budgets, timelines, and operational priorities.</p>
           </div>
           <div class="card-inner-part">
-          
-            <p>Scoped to a fixed deliverable with defined acceptance criteria. Ideal for rewrites, migrations, launch sprints, or bounded.</p>
-
-            <ul class="compliance-card__list">
-              <li>Defined scope + acceptance criteri</li>
-              <li>Fixed timeline commitment</li>
-              <li>SLA-backed quality standards</li>
-              <li>Seamless shift to retainer if scope grows</li>
-            </ul>
+            <h4>Monthly Retainer</h4>
+            <p>Flexible ongoing support with predictable monthly engagement and evolving execution requirements.</p>
+            <h4>Project-Based Engagement</h4>
+            <p>Defined scope, timelines, and deliverables for one-time or clearly structured initiatives.</p>
           </div>
-
           <div class="compliance-card__footer">
+            <div class="append-btn-more"></div>
             <a href="#" class="btn-secondry">Start Team Extension</a>
           </div>
         </div>
-
       </div>
     </div>
   </section>
+
+
 
 
 

@@ -25,11 +25,30 @@
         margin: 20px 0;
       }
 
-      p {
-        margin: 0 0 20px 0;
-        opacity: 0.9;
+      h4 {
+        font-size: 18px;
       }
 
+      p {
+        margin: 0 0 15px 0;
+        opacity: 0.9;
+      }
+      a.knw-more{
+      color : #016be3;
+      }
+      a.knw-more::after{
+      content: "";
+      background: url(../images/service/know-more-arrow-icon.png) top center no-repeat;
+      position: relative;
+      width: 15px;
+      height: 11px;
+      background-size: 100%;
+      top: 0;
+      left: 6px;
+      display: inline-block;
+      transition: all 0.3s ease-in-out;
+      }
+      a.knw-more:hover::after{left: 14px;}
       ul {
         padding-left: 20px;
 

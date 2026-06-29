@@ -1086,6 +1086,65 @@ input:-webkit-autofill:active {
     min-width: auto;
   }
 }
+.prime-cta-btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  line-height: 24px;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
+  transition: 0.2s;
+  z-index: 1;
+  overflow: hidden;
+}
+.prime-cta-btn::before {
+  content: "";
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  transition: 0.4s;
+  border-radius: 50px;
+  transform: translate(-20px, 0px);
+  z-index: -1;
+  right: 0;
+  z-index: -1;
+}
+.prime-cta-btn:hover::before {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  transform: translate(0, -24%);
+}
+.prime-cta-btn:after {
+  content: "";
+  background: url(../images/home-images/white-cta.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  display: inline-block;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+.prime-cta-btn:hover::after {
+  background: url(../images/home-images/white-blue-icon.svg) no-repeat;
+  transition: 0.2s;
+  background-size: 100%;
+}
+.prime-cta-btn:hover {
+  color: #0400F5 !important;
+}
+
+.prime-cta-btn.hero-cta {
+  margin: 40px 0 60px 0;
+}
+
 .btn-outline {
   display: inline-flex;
   padding: 10px 20px;
@@ -1318,7 +1377,7 @@ input:-webkit-autofill:active {
   border-radius: 10px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu .tab-menu .tab-contents .right-tabs .tab-content a .title .menuicon {
-  top: 11px;
+  top: 7px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
   left: 65%;
@@ -1831,7 +1890,7 @@ input:-webkit-autofill:active {
     left: 72%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 57%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 68%;
@@ -1863,7 +1922,7 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 50%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 64%;
@@ -1877,7 +1936,7 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 46%;
+    left: 56%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 60%;
@@ -1940,7 +1999,7 @@ input:-webkit-autofill:active {
     left: 63%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 38%;
+    left: 54%;
   }
 }
 @media screen and (max-width: 1139px) {
@@ -2490,6 +2549,7 @@ input:-webkit-autofill:active {
 .high-vhelocity .inner-part .left-part h2 {
   color: #ffffff;
   margin-top: 10px;
+  font-size: 40px;
 }
 .high-vhelocity .inner-part .left-part p {
   color: #D1D5DB;
@@ -3462,7 +3522,7 @@ input:-webkit-autofill:active {
   top: 0;
   width: 1000px;
   height: 1000px;
-  background: url(../images/industry-new/blue-sade.webp);
+  background: url(../images/industry-new/blue-sade.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3855,7 +3915,7 @@ input:-webkit-autofill:active {
   position: absolute;
   right: -1%;
   bottom: -39%;
-  background: url(../images/agencies/rounded-frame.webp);
+  background: url(../images/agencies/rounded-frame.png);
   width: 446px;
   height: 446px;
   background-repeat: no-repeat;
@@ -3996,7 +4056,7 @@ input:-webkit-autofill:active {
 .smarter-solutions::after {
   position: absolute;
   right: 0;
-  background: url(../images/industry-new/blue-sade.webp) no-repeat;
+  background: url(../images/industry-new/blue-sade.png) no-repeat;
   width: 600px;
   height: 100%;
   content: "";
@@ -4008,7 +4068,7 @@ input:-webkit-autofill:active {
   left: 0;
   bottom: -150px;
   transform: rotate(180deg);
-  background: url(../images/industry-new/blue-sade.webp) no-repeat;
+  background: url(../images/industry-new/blue-sade.png) no-repeat;
   width: 630px;
   height: 100%;
   content: "";
@@ -4105,7 +4165,7 @@ input:-webkit-autofill:active {
   z-index: -1;
   height: 200px;
   background-size: cover;
-  background-image: url(../images/industry-new/box-sade.webp);
+  background-image: url(../images/industry-new/box-sade.png);
 }
 .smarter-solutions .inner-part .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
@@ -4412,7 +4472,7 @@ input:-webkit-autofill:active {
   position: absolute;
   left: -30px;
   bottom: -506px;
-  background: url(../images/brand/graid&frame.webp);
+  background: url(../images/brand/graid&frame.png);
   background-repeat: no-repeat;
   content: "";
   width: 1095px;
@@ -4692,8 +4752,8 @@ input:-webkit-autofill:active {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 930px;
-  height: 730px;
+  width: 960px;
+  height: 900px;
   z-index: -1;
   object-fit: cover;
 }
@@ -5058,7 +5118,7 @@ input:-webkit-autofill:active {
   position: absolute;
   top: 20px;
   left: 25px;
-  background: url(../images/hire-main/quote.webp);
+  background: url(../images/hire-main/quote.png);
   width: 60px;
   height: 60px;
 }
@@ -5513,6 +5573,29 @@ input:-webkit-autofill:active {
 }
 
 /* BUTTON */
+.btn-outline {
+  padding: 12px 17px;
+  border-radius: 180px;
+  border: 0.92px solid #D1D5DB;
+  background-color: #F3F4F6;
+  color: #4B5563;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.btn-outline::after {
+  content: "";
+  background: url(../images/home-images/btn-icon-grey.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  display: inline-block;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 1024px) {
   .btn-outline {
     font-size: 12px;
@@ -6339,7 +6422,7 @@ input:-webkit-autofill:active {
   font-size: 16px;
   line-height: 20px;
   color: #323232;
-  font-family: Lexend Deca;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 .footer-form-section .drop-input {
@@ -6828,7 +6911,7 @@ input:-webkit-autofill:active {
     width: 250px;
   }
   .footer-form-section:before {
-    height: 42%;
+    height: 41%;
   }
 }
 :root {

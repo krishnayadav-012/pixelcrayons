@@ -1,3 +1,13 @@
+
+document.querySelectorAll(".append-btn-more").forEach((btn) => {
+  btn.addEventListener("click", function () {
+    const grid = this.closest(".compliance-section__grid");
+
+    grid.classList.toggle("active");
+  });
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const slider = document.querySelector("#home-tpl-logoslide");
   if (slider) {

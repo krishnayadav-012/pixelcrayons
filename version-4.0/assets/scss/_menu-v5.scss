@@ -213,7 +213,7 @@ $font16: 16px;
                         a {
                           .title {
                             .menuicon {
-                              top: 11px;
+                              top: 7px;
                             }
                           }
                         }
@@ -239,6 +239,7 @@ $font16: 16px;
                 width: 100%;
                 min-height: 210px;
                 height: 100%;
+
                 .right-tabs {
                   flex-basis: 100%;
                   &.flex-full {
@@ -254,6 +255,7 @@ $font16: 16px;
                     .three-column {
                       width: 68%;
                     }
+
                     .title {
                       font-weight: 500;
                       font-size: $font14;
@@ -849,7 +851,7 @@ $font16: 16px;
           &.small-menu {
             left: 72%;
             &.solution-menu {
-              left: 57%;
+              left: 64%;
             }
             &.industries-menu {
               left: 68%;
@@ -890,7 +892,7 @@ $font16: 16px;
           &.small-menu {
             left: 66%;
             &.solution-menu {
-              left: 50%;
+              left: 64%;
             }
             &.industries-menu {
               left: 64%;
@@ -913,7 +915,7 @@ $font16: 16px;
           &.small-menu {
             left: 66%;
             &.solution-menu {
-              left: 46%;
+              left: 56%;
             }
             &.industries-menu {
               left: 60%;
@@ -1019,7 +1021,7 @@ $font16: 16px;
               left: 63%;
             }
             &.solution-menu {
-              left: 38%;
+              left: 54%;
             }
           }
         }

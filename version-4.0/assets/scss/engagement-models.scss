@@ -1,4 +1,5 @@
 @use "_default" as *;
+
 // ============================================================
 // Compliance Section
 // ============================================================
@@ -78,6 +79,8 @@ height: 636px;
  .card-inner-part{
   padding: 20px 30px 30px 30px;
   background-color: #fff;
+ height: 283px;
+  overflow: hidden;
 
   .icon-text
   h3{
@@ -378,4 +381,23 @@ border: 1px solid #E8E7FE;
 }
 .compliance-card .card-inner-part h4:first-of-type{
   margin-top: 0;
+}
+
+.compliance-section__grid.active{
+  .compliance-card{
+    height: auto;
+    .append-btn-more{
+      transform: rotate(180deg);
+    }
+    .card-inner-part{
+      height: auto;
+      overflow: unset;
+    }
+  } 
+}
+
+@media screen and (min-width:1441px) {
+  .compliance-card .card-inner-part{
+    height: 276px;
+  }
 }

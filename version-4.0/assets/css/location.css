@@ -1085,6 +1085,65 @@ input:-webkit-autofill:active {
     min-width: auto;
   }
 }
+.prime-cta-btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  line-height: 24px;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
+  transition: 0.2s;
+  z-index: 1;
+  overflow: hidden;
+}
+.prime-cta-btn::before {
+  content: "";
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  transition: 0.4s;
+  border-radius: 50px;
+  transform: translate(-20px, 0px);
+  z-index: -1;
+  right: 0;
+  z-index: -1;
+}
+.prime-cta-btn:hover::before {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  transform: translate(0, -24%);
+}
+.prime-cta-btn:after {
+  content: "";
+  background: url(../images/home-images/white-cta.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  display: inline-block;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+.prime-cta-btn:hover::after {
+  background: url(../images/home-images/white-blue-icon.svg) no-repeat;
+  transition: 0.2s;
+  background-size: 100%;
+}
+.prime-cta-btn:hover {
+  color: #0400F5 !important;
+}
+
+.prime-cta-btn.hero-cta {
+  margin: 40px 0 60px 0;
+}
+
 .btn-outline {
   display: inline-flex;
   padding: 10px 20px;
@@ -1317,7 +1376,7 @@ input:-webkit-autofill:active {
   border-radius: 10px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu .tab-menu .tab-contents .right-tabs .tab-content a .title .menuicon {
-  top: 11px;
+  top: 7px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
   left: 65%;
@@ -1830,7 +1889,7 @@ input:-webkit-autofill:active {
     left: 72%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 57%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 68%;
@@ -1862,7 +1921,7 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 50%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 64%;
@@ -1876,7 +1935,7 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 46%;
+    left: 56%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 60%;
@@ -1939,7 +1998,7 @@ input:-webkit-autofill:active {
     left: 63%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 38%;
+    left: 54%;
   }
 }
 @media screen and (max-width: 1139px) {
@@ -5583,7 +5642,7 @@ input:-webkit-autofill:active {
 .section-numbers .number-row .box-3 h2 {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Lexend Deca";
+  font-family: "Montserrat";
   letter-spacing: 1px;
   position: relative;
 }
@@ -5768,7 +5827,7 @@ input:-webkit-autofill:active {
   border-radius: 10px;
   background: #0400F5;
   font-weight: 500;
-  font-family: "Lexend Deca";
+  font-family: "Montserrat", sans-serif;
 }
 .hero-section .loc-form .form-wrap .form-group .audit-btn:hover {
   background: #ffffff;
@@ -5946,7 +6005,7 @@ input:-webkit-autofill:active {
   background: #fff;
   color: #323232;
   font-size: 16px;
-  font-family: Lexend Deca;
+  font-family: "Montserrat", sans-serif;
 }
 .form-banner-section .two-box .banner-form .form-box .form-wrap .form-group .form-input:focus {
   border: 1px solid #0400F5;
@@ -6017,7 +6076,7 @@ input:-webkit-autofill:active {
   padding-left: 100px;
 }
 .form-banner-section .two-box .banner-form .form-box .form-wrap .form-group ::placeholder {
-  font-family: Lexend Deca;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   color: rgba(37, 48, 83, 0.5);
 }
@@ -6353,7 +6412,7 @@ input:-webkit-autofill:active {
   border: 1px solid #e1e4e7;
   border-radius: 8px;
   background-color: #ffffff;
-  font-family: "Lexend Deca";
+  font-family: "Montserrat", sans-serif;
   color: #4f5a68;
   padding: 14px;
   height: 200px;
@@ -6367,7 +6426,7 @@ input:-webkit-autofill:active {
   cursor: pointer;
   background: #0400F5;
   border: 1px solid #0400F5;
-  font-family: "Lexend Deca";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   border-radius: 8px;
   border: 0;

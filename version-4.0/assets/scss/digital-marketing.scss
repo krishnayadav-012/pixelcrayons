@@ -13,6 +13,7 @@
 @use "_service-casestudy" as *;
 @use "_glide-core" as *;
 @use "_industry-section" as *;
+@use "hiring-model" as *;
 @use "guide-topic" as *;
 @use "_case-studies" as *;
 @use "faq" as *;
@@ -91,7 +92,7 @@
           border-radius: 5px;
           color: #f0f0f0;
           font-weight: normal;
-          font-family: Lexend Deca;
+          font-family: "Montserrat", sans-serif;
         }
         .submit-btn {
           background: $white;
@@ -103,7 +104,7 @@
           padding: 0 30px;
           border-radius: 4px;
           cursor: pointer;
-          font-family: Lexend Deca;
+          font-family: "Montserrat", sans-serif;
           border: none;
           margin-left: 15px;
           transition: all 0.3s ease-in-out;
@@ -176,7 +177,7 @@
         padding: 10px;
         .value {
           font-size: 42px;
-          font-family: "Lexend Deca";
+          font-family: "Montserrat", sans-serif;
           line-height: 1.2;
           margin: 0 0 8px;
         }

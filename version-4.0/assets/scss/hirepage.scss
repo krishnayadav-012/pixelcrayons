@@ -5,6 +5,7 @@
 @use "_counter-column-section" as *;
 @use "_table-section" as *;
 @use "_get-started" as *;
+@use "hiring-model" as *;
 @use "_image-content" as *;
 @use "_tech-stack" as *;
 @use "_hire-process" as *;
@@ -376,7 +377,7 @@ box-shadow: 0px 4px 40px 0px rgba(237, 246, 255, 0.30);
       display: block;
       width: 75%;
       margin: auto;
-      font-family: 'Lexend Deca';
+      font-family: "Montserrat", sans-serif;
       font-weight: 500;
       font-size: 18px;
       line-height: 25px;

@@ -39,7 +39,7 @@
   cursor: pointer;
   position: relative;
   background: #DFFB0B;
-  color:  $royelblue;
+  color: #0400F5;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -52,7 +52,7 @@
   overflow: hidden;
   &::before {
     content: "";
-    background: $royelblue;
+    background:#0400F5;
     width: 24px;
     height: 24px;
     position: absolute;
@@ -793,7 +793,7 @@ p{
 }
 
 .slide-logo .logo-heading strong {
-    color:  $royelblue;
+    color: #0400F5;
 }
 
 .slide-logo .logo-heading:before {

@@ -1,10 +1,12 @@
 @use "_default" as *;
 @use "_menu-v5" as *;
 @use "faq" as *;
+@use "_get-started" as *;
 @use "cta-v3" as *;
 @use "footer" as *;
 
-/* === Header === */
+.padding-t-150{padding-top:150px;}
+
 header {
     background: rgba(255, 255, 255, 0.9);
 }
@@ -90,34 +92,45 @@ nav a:hover {
         font-size: 45px;
         line-height: 55px;
     }
+
 }
 
 @media screen and (max-width: 767px) {
-    .master-calc h1 {
-        font-size: 35px;
-        line-height: 45px;
-    }
+    .master-calc h1 { font-size: 35px; line-height: 45px; }
 }
 
-
-
-
+.gets-started .heading h2{ position: relative; margin-bottom: 40px; font-size: 46px; line-height: 58px; font-weight: bold; }
+.faq-section h2{ font-size: 46px; line-height: 58px; font-weight: bold; color: #110302; margin: 0 0 15px; }
+.gets-started .icon-box{position: relative; bottom: -14px;}
 
 .master-calc .banner h1{ color: #fff !important;}
 .master-calc .banner p{ color: rgba(255, 255, 255, 0.8);}
 .master-calc .banner {
     background: linear-gradient(270deg, #0b147c 21.77%, #4b1bac 100%) !important;
+    margin-bottom: 80px;
 }
 
+.autocomplete-items {
+    position: absolute;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    min-height: 50px;
+    height: 150px;
+    background-color: #fff;
+    text-align: left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    color: #000;
+    border-bottom: 1px solid #d4d4d4
+}
+.autocomplete-items div:hover {
+    background-color: #f0f0f0;
+}

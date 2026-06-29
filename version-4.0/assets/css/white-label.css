@@ -1085,6 +1085,65 @@ input:-webkit-autofill:active {
     min-width: auto;
   }
 }
+.prime-cta-btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  line-height: 24px;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.0509803922);
+  transition: 0.2s;
+  z-index: 1;
+  overflow: hidden;
+}
+.prime-cta-btn::before {
+  content: "";
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  transition: 0.4s;
+  border-radius: 50px;
+  transform: translate(-20px, 0px);
+  z-index: -1;
+  right: 0;
+  z-index: -1;
+}
+.prime-cta-btn:hover::before {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  transform: translate(0, -24%);
+}
+.prime-cta-btn:after {
+  content: "";
+  background: url(../images/home-images/white-cta.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  display: inline-block;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+.prime-cta-btn:hover::after {
+  background: url(../images/home-images/white-blue-icon.svg) no-repeat;
+  transition: 0.2s;
+  background-size: 100%;
+}
+.prime-cta-btn:hover {
+  color: #0400F5 !important;
+}
+
+.prime-cta-btn.hero-cta {
+  margin: 40px 0 60px 0;
+}
+
 .btn-outline {
   display: inline-flex;
   padding: 10px 20px;
@@ -1317,7 +1376,7 @@ input:-webkit-autofill:active {
   border-radius: 10px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu .tab-menu .tab-contents .right-tabs .tab-content a .title .menuicon {
-  top: 11px;
+  top: 7px;
 }
 .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
   left: 65%;
@@ -1830,7 +1889,7 @@ input:-webkit-autofill:active {
     left: 72%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 57%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 68%;
@@ -1862,7 +1921,7 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 50%;
+    left: 64%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 64%;
@@ -1876,7 +1935,7 @@ input:-webkit-autofill:active {
     left: 66%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 46%;
+    left: 56%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.industries-menu {
     left: 60%;
@@ -1939,7 +1998,7 @@ input:-webkit-autofill:active {
     left: 63%;
   }
   .header-two .header-item-right .menu ul li .menu-mega.small-menu.solution-menu {
-    left: 38%;
+    left: 54%;
   }
 }
 @media screen and (max-width: 1139px) {
@@ -2616,9 +2675,30 @@ input:-webkit-autofill:active {
 .hiring-model-three-column-section .threebox .box-3 h3 {
   margin: 20px 0;
 }
+.hiring-model-three-column-section .threebox .box-3 h4 {
+  font-size: 18px;
+}
 .hiring-model-three-column-section .threebox .box-3 p {
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
   opacity: 0.9;
+}
+.hiring-model-three-column-section .threebox .box-3 a.knw-more {
+  color: #016be3;
+}
+.hiring-model-three-column-section .threebox .box-3 a.knw-more::after {
+  content: "";
+  background: url(../images/service/know-more-arrow-icon.png) top center no-repeat;
+  position: relative;
+  width: 15px;
+  height: 11px;
+  background-size: 100%;
+  top: 0;
+  left: 6px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.hiring-model-three-column-section .threebox .box-3 a.knw-more:hover::after {
+  left: 14px;
 }
 .hiring-model-three-column-section .threebox .box-3 ul {
   padding-left: 20px;
@@ -4313,7 +4393,7 @@ input:-webkit-autofill:active {
   font-size: 16px;
   line-height: 20px;
   color: #323232;
-  font-family: Lexend Deca;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 .footer-form-section .drop-input {
@@ -4802,7 +4882,7 @@ input:-webkit-autofill:active {
     width: 250px;
   }
   .footer-form-section:before {
-    height: 42%;
+    height: 41%;
   }
 }
 .banner-main {
