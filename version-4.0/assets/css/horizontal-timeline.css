@@ -1161,6 +1161,15 @@ input:-webkit-autofill:active {
   z-index: 1;
   overflow: hidden;
 }
+.btn-outline input {
+  outline: none;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: #80838D;
+}
 .btn-outline::before {
   content: "";
   background: #0400F5;
@@ -1197,6 +1206,9 @@ input:-webkit-autofill:active {
 }
 .btn-outline:hover {
   color: #fff !important;
+}
+.btn-outline:hover input {
+  color: #fff;
 }
 
 .fintech-delivery {

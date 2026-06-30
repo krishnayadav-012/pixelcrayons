@@ -43,6 +43,9 @@
               <li>
                 <picture><img loading="lazy" src="assets/images/home-images/fot-03.svg" alt="pixelcrayons" width="107" height="60"></picture>
               </li>
+              <li>
+                <picture><img loading="lazy" src="assets/images/home-images/clutch-logo-2.svg" alt="pixelcrayons" width="107" height="60"></picture>
+              </li>
             </ul>
           </div>
         </div>
@@ -144,8 +147,8 @@
               <!--
                 <input type="hidden" name="vc_csrf" value="">
                 -->
-              <div class="btn-container">
-                <input type="submit" id="submitButton" class="cta-button checkout-submit" value="Enquire Now">
+              <div class="btn-container btn-outline">
+                <input type="submit" id="submitButton" class=" checkout-submit" value="Enquire Now">
               </div>
             </div>
           </div>

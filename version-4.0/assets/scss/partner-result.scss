@@ -44,25 +44,12 @@
             
 /* BUTTON */
 .btn-outline {
-  padding: 12px 17px;
-  border-radius: 180px;
-  border: 0.92px solid  #D1D5DB;
-  background-color: #FAFAFA;
-  color: #4B5563;
-  display: flex;align-items: center;
-  font-weight: 600;
-  font-size: 14px;
-  transition: 0.3s;
+ 
 
   &::after{
     content: "";
-    background: url(../images/home-images/btn-icon-grey.svg) no-repeat;
-    width: 24px;
-    height: 24px;
-    background-size: 100%;
-    display: inline-block;
-    transition: 0.2s;
-    margin-left: 10px;
+    background: url(../images/home-images/bluegr-cta.svg) no-repeat !important;
+   
   }
   
 }
